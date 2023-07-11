@@ -717,3 +717,86 @@
 [2023-07-12 00:23:51] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2023-07-12 00:23:51] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-07-12 00:23:51] INFO root fetch - main [MainThread]: Store serial: [18851431]
+[2023-07-12 00:28:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851431]
+[2023-07-12 00:28:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-12 00:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nirtorch
+[2023-07-12 00:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: equiformer-pytorch
+[2023-07-12 00:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tropycal
+[2023-07-12 00:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calculator-devops-pucminas
+[2023-07-12 00:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: replit
+[2023-07-12 00:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gen3-util
+[2023-07-12 00:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: symbal
+[2023-07-12 00:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kybra
+[2023-07-12 00:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ufopy
+[2023-07-12 00:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fedml-azure
+[2023-07-12 00:28:59] INFO root fetch - processPackages [gen3-util]: New version: [0.0.3rc2] Old Version: [0.0.3rc1]
+[2023-07-12 00:28:59] INFO root fetch - processPackages [nirtorch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 00:28:59] INFO root fetch - processPackages [calculator-devops-pucminas]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 00:28:59] INFO root fetch - processPackages [replit]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-07-12 00:29:00] INFO root fetch - processPackages [symbal]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-12 00:29:00] INFO root fetch - processPackages [fedml-azure]: New version: [2.0.1.dev0] Old Version: [2.0.0.dev0]
+[2023-07-12 00:29:00] INFO root fetch - processPackages [equiformer-pytorch]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-12 00:29:00] INFO root fetch - processPackages [tropycal]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-12 00:29:00] INFO root fetch - processPackages [kybra]: New version: [0.5.0rc5] Old Version: [0.5.0rc4]
+[2023-07-12 00:29:00] WARNING root fetch - processPackages [ufopy]: Skipping, unable to determine old version
+[2023-07-12 00:29:00] INFO root fetch - main [MainThread]: End processing [ufopy] error
+[2023-07-12 00:29:00] INFO root fetch - processPackages [symbal]: Downloading https://files.pythonhosted.org/packages/59/04/92574fa8a9eff81321a051cf6643a802874db563c247d1d59b864d108174/symbal-0.0.3.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [fedml-azure]: Downloading https://files.pythonhosted.org/packages/52/f8/8f89b5f762ff0d434e9396d7e92c6e88a0071b6470ff677aecdfbb58517d/fedml_azure-2.0.0.dev0.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [equiformer-pytorch]: Downloading https://files.pythonhosted.org/packages/3a/29/9cccd7c478aec6f613208073d0ed481b7a81e510138c56716bb7ff7e8974/equiformer-pytorch-0.2.8.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [tropycal]: Downloading https://files.pythonhosted.org/packages/2c/b1/47ebc32b575893d583f26bf8d12151c1b4ba3cc1c823ef61681cfadd4ae5/tropycal-1.0.1.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [replit]: Downloading https://files.pythonhosted.org/packages/73/05/8d72813f87f7d3ba75505482d073f45bdd0553d22d55a6e9115c1203a0bf/replit-3.3.0.tar.gz
+[2023-07-12 00:29:00] WARNING root fetch - processPackages [equiformer-pytorch]: Skipping package: exceeds size limit 18388366>=10485760
+[2023-07-12 00:29:00] INFO root fetch - main [MainThread]: End processing [equiformer-pytorch] error
+[2023-07-12 00:29:00] INFO root fetch - processPackages [gen3-util]: Downloading https://files.pythonhosted.org/packages/48/40/fbdb40285eaf1e34789ed9c4e8ee3b92634f623598acda3aaca8180c102c/gen3_util-0.0.3rc1.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [nirtorch]: Downloading https://files.pythonhosted.org/packages/28/46/e511a45ad9268307ae17b08640f8e94c702fbc416af3432c29c0295098b3/nirtorch-0.0.1.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [calculator-devops-pucminas]: Downloading https://files.pythonhosted.org/packages/4c/1a/d3fba9bb27b360c6a0b27a5bf9272c6358f0a6304716bf0fb74a113636de/calculator_devops_pucminas-0.0.1.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [kybra]: Downloading https://files.pythonhosted.org/packages/cc/fb/37705db524cb0ec16ea6f22b7a364aefe80193c4cd9473799254bf3404f3/kybra-0.5.0rc4.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [symbal]: Downloading https://files.pythonhosted.org/packages/24/2d/8d48e82dc8914c367eb6ff7d55507fc15cb79a337c5e37910f8832918387/symbal-0.0.4.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [fedml-azure]: Downloading https://files.pythonhosted.org/packages/09/24/88383118af799f9184cfd0819f4f09edbd2fc90355f56c91d76b0b5dd682/fedml_azure-2.0.1.dev0.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [replit]: Downloading https://files.pythonhosted.org/packages/ad/e6/2ffd7c7abfabf38bd55b714ae4070077e12da3093e1291f6cfe9509401e1/replit-3.3.1.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [nirtorch]: Downloading https://files.pythonhosted.org/packages/e2/7c/830e56ef804a51283ee6b13878d980672541ece44b7671349bd3bcce1d16/nirtorch-0.0.2.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [calculator-devops-pucminas]: Downloading https://files.pythonhosted.org/packages/46/ea/dde740561683047efb65a404ade71a5bb4da3d6cb51dfce052f441734262/calculator_devops_pucminas-0.0.2.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [gen3-util]: Downloading https://files.pythonhosted.org/packages/5a/ec/a93e54b58320a2bd000f30160b103741eb221bbea236384e06a5959c145b/gen3_util-0.0.3rc2.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [kybra]: Downloading https://files.pythonhosted.org/packages/2b/c2/3abba87513e46e30374dd70771a882f2ccaefefec2f1a452296b21a362fb/kybra-0.5.0rc5.tar.gz
+[2023-07-12 00:29:00] INFO root fetch - processPackages [symbal]: executing diffoscope
+[2023-07-12 00:29:00] INFO root fetch - processPackages [symbal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbal-0.0.3.tar.gz tmp/symbal-0.0.4.tar.gz --markdown 20230712/s/symbal/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-12 00:29:00] INFO root fetch - processPackages [fedml-azure]: executing diffoscope
+[2023-07-12 00:29:00] INFO root fetch - processPackages [fedml-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml_azure-2.0.0.dev0.tar.gz tmp/fedml_azure-2.0.1.dev0.tar.gz --markdown 20230712/f/fedml-azure/2.0.0.dev0-2.0.1.dev0/diff.md --exclude *.pyd
+[2023-07-12 00:29:00] INFO root fetch - processPackages [replit]: executing diffoscope
+[2023-07-12 00:29:00] INFO root fetch - processPackages [replit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit-3.3.0.tar.gz tmp/replit-3.3.1.tar.gz --markdown 20230712/r/replit/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-07-12 00:29:00] INFO root fetch - processPackages [calculator-devops-pucminas]: executing diffoscope
+[2023-07-12 00:29:00] INFO root fetch - processPackages [calculator-devops-pucminas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculator_devops_pucminas-0.0.1.tar.gz tmp/calculator_devops_pucminas-0.0.2.tar.gz --markdown 20230712/c/calculator-devops-pucminas/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 00:29:00] INFO root fetch - processPackages [nirtorch]: executing diffoscope
+[2023-07-12 00:29:00] INFO root fetch - processPackages [nirtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nirtorch-0.0.1.tar.gz tmp/nirtorch-0.0.2.tar.gz --markdown 20230712/n/nirtorch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 00:29:01] INFO root fetch - processPackages [tropycal]: Downloading https://files.pythonhosted.org/packages/75/f6/81e90d01ce3f19341a94b20b6fd9bb70372f4430db32ff4f12e06a015ab3/tropycal-1.0.2.tar.gz
+[2023-07-12 00:29:01] INFO root fetch - processPackages [gen3-util]: executing diffoscope
+[2023-07-12 00:29:01] INFO root fetch - processPackages [gen3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3_util-0.0.3rc1.tar.gz tmp/gen3_util-0.0.3rc2.tar.gz --markdown 20230712/g/gen3-util/0.0.3rc1-0.0.3rc2/diff.md --exclude *.pyd
+[2023-07-12 00:29:01] INFO root fetch - processPackages [kybra]: executing diffoscope
+[2023-07-12 00:29:01] INFO root fetch - processPackages [kybra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kybra-0.5.0rc4.tar.gz tmp/kybra-0.5.0rc5.tar.gz --markdown 20230712/k/kybra/0.5.0rc4-0.5.0rc5/diff.md --exclude *.pyd
+[2023-07-12 00:29:01] INFO root fetch - processPackages [tropycal]: executing diffoscope
+[2023-07-12 00:29:01] INFO root fetch - processPackages [tropycal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tropycal-1.0.1.tar.gz tmp/tropycal-1.0.2.tar.gz --markdown 20230712/t/tropycal/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-12 00:29:02] INFO root fetch - processPackages [symbal]: Remove: archive file [/home/abi/fetcher/tmp/symbal-0.0.3.tar.gz]
+[2023-07-12 00:29:02] INFO root fetch - processPackages [symbal]: Remove: archive file [/home/abi/fetcher/tmp/symbal-0.0.4.tar.gz]
+[2023-07-12 00:29:02] INFO root fetch - main [MainThread]: End processing [symbal]: success
+[2023-07-12 00:29:02] INFO root fetch - processPackages [calculator-devops-pucminas]: Remove: archive file [/home/abi/fetcher/tmp/calculator_devops_pucminas-0.0.1.tar.gz]
+[2023-07-12 00:29:02] INFO root fetch - processPackages [calculator-devops-pucminas]: Remove: archive file [/home/abi/fetcher/tmp/calculator_devops_pucminas-0.0.2.tar.gz]
+[2023-07-12 00:29:02] INFO root fetch - main [MainThread]: End processing [calculator-devops-pucminas]: success
+[2023-07-12 00:29:02] INFO root fetch - processPackages [replit]: Remove: archive file [/home/abi/fetcher/tmp/replit-3.3.0.tar.gz]
+[2023-07-12 00:29:02] INFO root fetch - processPackages [replit]: Remove: archive file [/home/abi/fetcher/tmp/replit-3.3.1.tar.gz]
+[2023-07-12 00:29:02] INFO root fetch - main [MainThread]: End processing [replit]: success
+[2023-07-12 00:29:02] INFO root fetch - processPackages [fedml-azure]: Remove: archive file [/home/abi/fetcher/tmp/fedml_azure-2.0.0.dev0.tar.gz]
+[2023-07-12 00:29:02] INFO root fetch - processPackages [fedml-azure]: Remove: archive file [/home/abi/fetcher/tmp/fedml_azure-2.0.1.dev0.tar.gz]
+[2023-07-12 00:29:02] INFO root fetch - main [MainThread]: End processing [fedml-azure]: success
+[2023-07-12 00:29:02] INFO root fetch - processPackages [nirtorch]: Remove: archive file [/home/abi/fetcher/tmp/nirtorch-0.0.1.tar.gz]
+[2023-07-12 00:29:02] INFO root fetch - processPackages [nirtorch]: Remove: archive file [/home/abi/fetcher/tmp/nirtorch-0.0.2.tar.gz]
+[2023-07-12 00:29:02] INFO root fetch - main [MainThread]: End processing [nirtorch]: success
+[2023-07-12 00:29:02] INFO root fetch - processPackages [gen3-util]: Remove: archive file [/home/abi/fetcher/tmp/gen3_util-0.0.3rc1.tar.gz]
+[2023-07-12 00:29:02] INFO root fetch - processPackages [gen3-util]: Remove: archive file [/home/abi/fetcher/tmp/gen3_util-0.0.3rc2.tar.gz]
+[2023-07-12 00:29:02] INFO root fetch - main [MainThread]: End processing [gen3-util]: success
+[2023-07-12 00:29:03] INFO root fetch - processPackages [kybra]: Remove: archive file [/home/abi/fetcher/tmp/kybra-0.5.0rc4.tar.gz]
+[2023-07-12 00:29:03] INFO root fetch - processPackages [kybra]: Remove: archive file [/home/abi/fetcher/tmp/kybra-0.5.0rc5.tar.gz]
+[2023-07-12 00:29:03] INFO root fetch - main [MainThread]: End processing [kybra]: success
+[2023-07-12 00:29:03] INFO root fetch - processPackages [tropycal]: Remove: archive file [/home/abi/fetcher/tmp/tropycal-1.0.1.tar.gz]
+[2023-07-12 00:29:03] INFO root fetch - processPackages [tropycal]: Remove: archive file [/home/abi/fetcher/tmp/tropycal-1.0.2.tar.gz]
+[2023-07-12 00:29:03] INFO root fetch - main [MainThread]: End processing [tropycal]: success
+[2023-07-12 00:29:03] INFO root fetch - main [MainThread]: Store serial: [18851463]
