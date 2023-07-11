@@ -1206,3 +1206,106 @@
 [2023-07-12 01:00:58] INFO root fetch - processPackages [viam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/viam_sdk-0.4.4rc1-py3-none-manylinux2014_x86_64.whl.zip]
 [2023-07-12 01:00:58] INFO root fetch - main [MainThread]: End processing [viam-sdk]: success
 [2023-07-12 01:00:58] INFO root fetch - main [MainThread]: Store serial: [18851645]
+[2023-07-12 01:06:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851645]
+[2023-07-12 01:06:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-12 01:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-12 01:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-12 01:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cb2game
+[2023-07-12 01:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt-cu101
+[2023-07-12 01:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-search-documents
+[2023-07-12 01:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cypherdataframe
+[2023-07-12 01:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt
+[2023-07-12 01:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ncs-uml
+[2023-07-12 01:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: doctran
+[2023-07-12 01:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flwr-nightly
+[2023-07-12 01:06:07] INFO root fetch - processPackages [azure-search-documents]: New version: [11.4.0b6] Old Version: [11.4.0b5]
+[2023-07-12 01:06:07] INFO root fetch - processPackages [cypherdataframe]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-12 01:06:07] INFO root fetch - processPackages [cb2game]: New version: [0.9.8] Old Version: [0.9.5]
+[2023-07-12 01:06:07] INFO root fetch - processPackages [ncs-uml]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-12 01:06:07] INFO root fetch - processPackages [doctran]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-12 01:06:07] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-12 01:06:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.394] Old Version: [0.3.393]
+[2023-07-12 01:06:07] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230710] Old Version: [1.5.0.dev20230707]
+[2023-07-12 01:06:07] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230711] Old Version: [0.7.0b20230710]
+[2023-07-12 01:06:07] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230711] Old Version: [0.7.0b20230710]
+[2023-07-12 01:06:07] INFO root fetch - processPackages [cypherdataframe]: Downloading https://files.pythonhosted.org/packages/9f/66/35ce51ac350752481cd125825962d0a259724575f0c65da332eab49ed26e/cypherdataframe-0.4.1.tar.gz
+[2023-07-12 01:06:07] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-12 01:06:07] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/18/b7/4227ee16d1cf6fab014342a7e2bc28cb2334928563d8310ebf4660fa127f/flwr_nightly-1.5.0.dev20230707.tar.gz
+[2023-07-12 01:06:07] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/1b/44/1ec28c15e14ae4caca6e172181122217a8b645163abf483001087cbbd96f/tmnt-0.7.0b20230710.tar.gz
+[2023-07-12 01:06:07] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/aa/c8/58e87f20dd4ffaab67624270b3005cd07a5ed76155d107312ef97ffacc39/tmnt-cu101-0.7.0b20230710.tar.gz
+[2023-07-12 01:06:07] INFO root fetch - processPackages [doctran]: Downloading https://files.pythonhosted.org/packages/84/56/4dd4cc5d77c2c9bbbae3a1183ebfb96cdbcc706a9e1e8e9615d83ca70aff/doctran-0.0.7.tar.gz
+[2023-07-12 01:06:08] INFO root fetch - processPackages [azure-search-documents]: Downloading https://files.pythonhosted.org/packages/3d/e0/32ffd2885758c7dddb143c57c3ccd9691ca45bc14ce05f3fc873363da260/azure-search-documents-11.4.0b5.zip
+[2023-07-12 01:06:08] INFO root fetch - processPackages [cb2game]: Downloading https://files.pythonhosted.org/packages/ad/af/0a751c353faea1f828f6abdffb33b77dade4e0d5308e731c464ff2c0b884/cb2game-0.9.5-py3-none-any.whl
+[2023-07-12 01:06:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/06/73/57b9b5db481e12f309415ee7d3c34844c201e3a9ec200b544529ba8e06a3/pepperize.cdk-ses-smtp-credentials-0.3.393.tar.gz
+[2023-07-12 01:06:08] INFO root fetch - processPackages [ncs-uml]: Downloading https://files.pythonhosted.org/packages/89/20/2de247d1b335daf46897738d5a7d553bf1d50568ee57acaef4db21dbcd31/ncs-uml-1.2.1.tar.gz
+[2023-07-12 01:06:08] WARNING root fetch - processPackages [cb2game]: Skipping package: exceeds size limit 99893611>=10485760
+[2023-07-12 01:06:08] INFO root fetch - processPackages [cb2game]: Start processing: greyhorse-clickhouse
+[2023-07-12 01:06:08] INFO root fetch - main [MainThread]: End processing [cb2game] error
+[2023-07-12 01:06:08] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-12 01:06:08] WARNING root fetch - processPackages [greyhorse-clickhouse]: Skipping, unable to determine old version
+[2023-07-12 01:06:08] INFO root fetch - processPackages [greyhorse-clickhouse]: Start processing: dank-mids
+[2023-07-12 01:06:08] INFO root fetch - main [MainThread]: End processing [greyhorse-clickhouse] error
+[2023-07-12 01:06:08] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-12 01:06:08] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/45/f4/dfcab6b98397938bc10c7575a3e22983ea1244b7586ad256fdb428113986/flwr_nightly-1.5.0.dev20230710.tar.gz
+[2023-07-12 01:06:08] INFO root fetch - processPackages [cypherdataframe]: Downloading https://files.pythonhosted.org/packages/c0/5a/3a71a9ef33f5073bc142c5c9ebf02f3b20f6d4a7c6289fabc26edd7191d2/cypherdataframe-0.4.2.tar.gz
+[2023-07-12 01:06:08] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/f0/b9/22e9d8072bb6f8b83474530e75bef06b990c6096abdfb38922f6ed355599/tmnt-0.7.0b20230711.tar.gz
+[2023-07-12 01:06:08] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/4c/d5/7105bc96704c7f92e18ca29e28f3917ab22b07924c603c32d56bc5372e38/tmnt-cu101-0.7.0b20230711.tar.gz
+[2023-07-12 01:06:08] INFO root fetch - processPackages [doctran]: Downloading https://files.pythonhosted.org/packages/50/1e/db19dab5a244a56937b8deedf47ded2aa058469154c6e3d487d9ec80c1ad/doctran-0.0.8.tar.gz
+[2023-07-12 01:06:08] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-12 01:06:08] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230712/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-12 01:06:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/0f/3d/6d29544886eadc60703b1b3109132d620ff5e2be2606a222500ff9db7c3a/pepperize.cdk-ses-smtp-credentials-0.3.394.tar.gz
+[2023-07-12 01:06:08] INFO root fetch - processPackages [ncs-uml]: Downloading https://files.pythonhosted.org/packages/e9/1d/fa3c50563e7d34f2ae32b6bcc962fa135f978fd5fa111f228549142b9934/ncs-uml-1.2.2.tar.gz
+[2023-07-12 01:06:08] INFO root fetch - processPackages [azure-search-documents]: Downloading https://files.pythonhosted.org/packages/83/4b/6846f4ea6c179b8c22534ad7f556b00b7ba2361129788812627ae69589fd/azure-search-documents-11.4.0b6.zip
+[2023-07-12 01:06:08] INFO root fetch - processPackages [cypherdataframe]: executing diffoscope
+[2023-07-12 01:06:08] INFO root fetch - processPackages [cypherdataframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cypherdataframe-0.4.1.tar.gz tmp/cypherdataframe-0.4.2.tar.gz --markdown 20230712/c/cypherdataframe/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-12 01:06:08] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-12 01:06:08] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230712/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-12 01:06:08] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-12 01:06:08] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230707.tar.gz tmp/flwr_nightly-1.5.0.dev20230710.tar.gz --markdown 20230712/f/flwr-nightly/1.5.0.dev20230707-1.5.0.dev20230710/diff.md --exclude *.pyd
+[2023-07-12 01:06:08] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-12 01:06:08] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230710.tar.gz tmp/tmnt-0.7.0b20230711.tar.gz --markdown 20230712/t/tmnt/0.7.0b20230710-0.7.0b20230711/diff.md --exclude *.pyd
+[2023-07-12 01:06:08] INFO root fetch - processPackages [ncs-uml]: executing diffoscope
+[2023-07-12 01:06:08] INFO root fetch - processPackages [ncs-uml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncs-uml-1.2.1.tar.gz tmp/ncs-uml-1.2.2.tar.gz --markdown 20230712/n/ncs-uml/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-12 01:06:08] INFO root fetch - processPackages [doctran]: executing diffoscope
+[2023-07-12 01:06:08] INFO root fetch - processPackages [doctran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran-0.0.7.tar.gz tmp/doctran-0.0.8.tar.gz --markdown 20230712/d/doctran/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-12 01:06:08] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-12 01:06:08] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230710.tar.gz tmp/tmnt-cu101-0.7.0b20230711.tar.gz --markdown 20230712/t/tmnt-cu101/0.7.0b20230710-0.7.0b20230711/diff.md --exclude *.pyd
+[2023-07-12 01:06:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-12 01:06:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.393.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.394.tar.gz --markdown 20230712/p/pepperize.cdk-ses-smtp-credentials/0.3.393-0.3.394/diff.md --exclude *.pyd
+[2023-07-12 01:06:08] INFO root fetch - processPackages [azure-search-documents]: executing diffoscope
+[2023-07-12 01:06:08] INFO root fetch - processPackages [azure-search-documents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-search-documents-11.4.0b5.zip tmp/azure-search-documents-11.4.0b6.zip --markdown 20230712/a/azure-search-documents/11.4.0b5-11.4.0b6/diff.md --exclude *.pyd
+[2023-07-12 01:06:09] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-12 01:06:09] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-12 01:06:09] INFO root fetch - processPackages [dank-mids]: Start processing: nginx-ldap-auth-service
+[2023-07-12 01:06:09] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-12 01:06:10] WARNING root fetch - processPackages [nginx-ldap-auth-service]: Skipping, unable to determine old version
+[2023-07-12 01:06:10] INFO root fetch - processPackages [nginx-ldap-auth-service]: Start processing: equine
+[2023-07-12 01:06:10] INFO root fetch - main [MainThread]: End processing [nginx-ldap-auth-service] error
+[2023-07-12 01:06:10] WARNING root fetch - processPackages [equine]: Skipping, unable to determine old version
+[2023-07-12 01:06:10] INFO root fetch - main [MainThread]: End processing [equine] error
+[2023-07-12 01:06:10] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-12 01:06:10] INFO root fetch - processPackages [cypherdataframe]: Remove: archive file [/home/abi/fetcher/tmp/cypherdataframe-0.4.1.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - processPackages [cypherdataframe]: Remove: archive file [/home/abi/fetcher/tmp/cypherdataframe-0.4.2.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - main [MainThread]: End processing [cypherdataframe]: success
+[2023-07-12 01:06:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.393.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.394.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-12 01:06:10] INFO root fetch - processPackages [ncs-uml]: Remove: archive file [/home/abi/fetcher/tmp/ncs-uml-1.2.1.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - processPackages [ncs-uml]: Remove: archive file [/home/abi/fetcher/tmp/ncs-uml-1.2.2.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - main [MainThread]: End processing [ncs-uml]: success
+[2023-07-12 01:06:10] INFO root fetch - processPackages [doctran]: Remove: archive file [/home/abi/fetcher/tmp/doctran-0.0.7.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - processPackages [doctran]: Remove: archive file [/home/abi/fetcher/tmp/doctran-0.0.8.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - main [MainThread]: End processing [doctran]: success
+[2023-07-12 01:06:10] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230710.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230711.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-12 01:06:10] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230710.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230711.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-12 01:06:10] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230707.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230710.tar.gz]
+[2023-07-12 01:06:10] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-12 01:06:11] INFO root fetch - processPackages [azure-search-documents]: Remove: archive file [/home/abi/fetcher/tmp/azure-search-documents-11.4.0b5.zip]
+[2023-07-12 01:06:11] INFO root fetch - processPackages [azure-search-documents]: Remove: archive file [/home/abi/fetcher/tmp/azure-search-documents-11.4.0b6.zip]
+[2023-07-12 01:06:11] INFO root fetch - main [MainThread]: End processing [azure-search-documents]: success
+[2023-07-12 01:06:11] INFO root fetch - main [MainThread]: Store serial: [18851692]
