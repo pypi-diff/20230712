@@ -551,3 +551,111 @@
 [2023-07-12 00:13:23] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-5.0.2.tar.gz]
 [2023-07-12 00:13:23] INFO root fetch - main [MainThread]: End processing [rio-tiler]: success
 [2023-07-12 00:13:23] INFO root fetch - main [MainThread]: Store serial: [18851373]
+[2023-07-12 00:18:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851373]
+[2023-07-12 00:18:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-12 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fondat
+[2023-07-12 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wyoming
+[2023-07-12 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynamic-api
+[2023-07-12 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dynamic-llm
+[2023-07-12 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dynamic-sh
+[2023-07-12 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FlashMHA
+[2023-07-12 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: canonical
+[2023-07-12 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FoKL
+[2023-07-12 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aioworkers-aiohttp
+[2023-07-12 00:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clickhouse-query
+[2023-07-12 00:18:32] INFO root fetch - processPackages [dynamic-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 00:18:32] INFO root fetch - processPackages [FlashMHA]: New version: [0.6.3] Old Version: [0.0.4]
+[2023-07-12 00:18:32] INFO root fetch - processPackages [wyoming]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-12 00:18:32] INFO root fetch - processPackages [fondat]: New version: [4.1.5] Old Version: [4.1.4]
+[2023-07-12 00:18:32] INFO root fetch - processPackages [canonical]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-12 00:18:32] INFO root fetch - processPackages [dynamic-sh]: New version: [0.0.2] Old Version: [0.0.1a1]
+[2023-07-12 00:18:32] INFO root fetch - processPackages [dynamic-llm]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 00:18:32] WARNING root fetch - processPackages [clickhouse-query]: Skipping, unable to determine old version
+[2023-07-12 00:18:32] INFO root fetch - processPackages [clickhouse-query]: Start processing: molano
+[2023-07-12 00:18:32] INFO root fetch - main [MainThread]: End processing [clickhouse-query] error
+[2023-07-12 00:18:32] INFO root fetch - processPackages [FoKL]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-12 00:18:32] INFO root fetch - processPackages [aioworkers-aiohttp]: New version: [0.8.0a1] Old Version: [0.8]
+[2023-07-12 00:18:32] INFO root fetch - processPackages [molano]: New version: [1.0.0a9] Old Version: [1.0.0a6]
+[2023-07-12 00:18:32] INFO root fetch - processPackages [dynamic-sh]: Downloading https://files.pythonhosted.org/packages/e6/8f/326ead8a3fe69996c0a0dae25b2e79f67b93414b7df8c98f91bb695809fd/dynamic-sh-0.0.1a1.tar.gz
+[2023-07-12 00:18:32] INFO root fetch - processPackages [fondat]: Downloading https://files.pythonhosted.org/packages/56/fc/c4d586ee657c859b7af22aaaede3186f0d5f16d5651951cdca59372a1363/fondat-4.1.4.tar.gz
+[2023-07-12 00:18:32] INFO root fetch - processPackages [dynamic-api]: Downloading https://files.pythonhosted.org/packages/31/5f/238db5a58d36fd4a637e3aaacd32df2bda9b597d168e20a80c0eb38d5a7a/dynamic-api-0.0.1.tar.gz
+[2023-07-12 00:18:32] INFO root fetch - processPackages [canonical]: Downloading https://files.pythonhosted.org/packages/a5/d2/a8a2ddf18c53dcd075763049d0b46580abf1b718bf3428537c995291c72d/canonical-0.8.0.tar.gz
+[2023-07-12 00:18:32] INFO root fetch - processPackages [FlashMHA]: Downloading https://files.pythonhosted.org/packages/ac/80/f7fd07dded19f9d22d7fb8532c467125ef7d17de9df904dfaa60ab098850/FlashMHA-0.0.4.tar.gz
+[2023-07-12 00:18:32] INFO root fetch - processPackages [wyoming]: Downloading https://files.pythonhosted.org/packages/a2/82/87ba2eb09ad6129c156eeed696635cb5e29079a4ba22e9a24ca41b2b1027/wyoming-0.0.1.tar.gz
+[2023-07-12 00:18:32] INFO root fetch - processPackages [dynamic-llm]: Downloading https://files.pythonhosted.org/packages/1b/e5/65795d2bda112ed76c922dd0f15be368964a1e66048a123559cce88d3bc2/dynamic-llm-0.0.1.tar.gz
+[2023-07-12 00:18:32] INFO root fetch - processPackages [molano]: Downloading https://files.pythonhosted.org/packages/cf/84/e37efd7b93813804cbf27f927bb2a5d924e9c7544cee017145344ebb2f14/molano-1.0.0a6.tar.gz
+[2023-07-12 00:18:32] INFO root fetch - processPackages [aioworkers-aiohttp]: Downloading https://files.pythonhosted.org/packages/95/74/cc3dfd9ef4f23da5991fa9406f0741b5105b1759a7375abd7003d3223b00/aioworkers_aiohttp-0.8.tar.gz
+[2023-07-12 00:18:32] INFO root fetch - processPackages [FoKL]: Downloading https://files.pythonhosted.org/packages/e9/3a/5ee3463017770bf7ce2b4b492b60146e239537725e5787d3085ded854501/FoKL-1.2.6.tar.gz
+[2023-07-12 00:18:33] INFO root fetch - processPackages [FlashMHA]: Downloading https://files.pythonhosted.org/packages/e9/af/64687b360d868ec3f8275325dc08fa1c0c4d6fd1ce88b0a53fc11f57e399/FlashMHA-0.6.3.tar.gz
+[2023-07-12 00:18:33] INFO root fetch - processPackages [dynamic-sh]: Downloading https://files.pythonhosted.org/packages/c2/55/d2ba34f15d152f4cec8a174f9593f8754f46f2d8c4805f6702fe4a5cfdb1/dynamic-sh-0.0.2.tar.gz
+[2023-07-12 00:18:33] INFO root fetch - processPackages [dynamic-api]: Downloading https://files.pythonhosted.org/packages/be/88/4ca59a7797a042d4d2fc7d343475c7b08732da4d97e6085d753ed35355ca/dynamic-api-0.0.2.tar.gz
+[2023-07-12 00:18:33] INFO root fetch - processPackages [canonical]: Downloading https://files.pythonhosted.org/packages/12/1f/2280296077ed31b38308f513c0fdfffeb1e131ffa62d7ccb2659a6d627fb/canonical-0.9.0.tar.gz
+[2023-07-12 00:18:33] INFO root fetch - processPackages [fondat]: Downloading https://files.pythonhosted.org/packages/92/7e/1acdaed3245c26a6f0fd079dcb416fc1e6535dc46b9082c94c4b8811adc5/fondat-4.1.5.tar.gz
+[2023-07-12 00:18:33] INFO root fetch - processPackages [wyoming]: Downloading https://files.pythonhosted.org/packages/50/83/e2e738181d6c9058b4bf6e915e6544c7dfbed7e4ba72c2b5e8c434ec86e6/wyoming-1.0.0.tar.gz
+[2023-07-12 00:18:33] INFO root fetch - processPackages [dynamic-llm]: Downloading https://files.pythonhosted.org/packages/28/2e/c8820ee224476d5739af0097dee5827476a413424ae7c131042d944f574d/dynamic-llm-0.0.2.tar.gz
+[2023-07-12 00:18:33] INFO root fetch - processPackages [FlashMHA]: executing diffoscope
+[2023-07-12 00:18:33] INFO root fetch - processPackages [FlashMHA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlashMHA-0.0.4.tar.gz tmp/FlashMHA-0.6.3.tar.gz --markdown 20230712/F/FlashMHA/0.0.4-0.6.3/diff.md --exclude *.pyd
+[2023-07-12 00:18:33] INFO root fetch - processPackages [molano]: Downloading https://files.pythonhosted.org/packages/b9/cd/dde39b077eaa0feea200a2ce07ac39c3530e122096121c9a35fa2bf1de81/molano-1.0.0a9.tar.gz
+[2023-07-12 00:18:33] INFO root fetch - processPackages [FoKL]: Downloading https://files.pythonhosted.org/packages/29/88/f25affcba8720eb5fc0e1e71d01cbe6dba1b907c41b04615aabaa3b9a116/FoKL-1.2.7.tar.gz
+[2023-07-12 00:18:33] INFO root fetch - processPackages [canonical]: executing diffoscope
+[2023-07-12 00:18:33] INFO root fetch - processPackages [canonical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canonical-0.8.0.tar.gz tmp/canonical-0.9.0.tar.gz --markdown 20230712/c/canonical/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 00:18:33] INFO root fetch - processPackages [dynamic-api]: executing diffoscope
+[2023-07-12 00:18:33] INFO root fetch - processPackages [dynamic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-api-0.0.1.tar.gz tmp/dynamic-api-0.0.2.tar.gz --markdown 20230712/d/dynamic-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 00:18:33] INFO root fetch - processPackages [dynamic-sh]: executing diffoscope
+[2023-07-12 00:18:33] INFO root fetch - processPackages [dynamic-sh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-sh-0.0.1a1.tar.gz tmp/dynamic-sh-0.0.2.tar.gz --markdown 20230712/d/dynamic-sh/0.0.1a1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 00:18:33] INFO root fetch - processPackages [fondat]: executing diffoscope
+[2023-07-12 00:18:33] INFO root fetch - processPackages [fondat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondat-4.1.4.tar.gz tmp/fondat-4.1.5.tar.gz --markdown 20230712/f/fondat/4.1.4-4.1.5/diff.md --exclude *.pyd
+[2023-07-12 00:18:33] INFO root fetch - processPackages [aioworkers-aiohttp]: Downloading https://files.pythonhosted.org/packages/e5/65/c16b93cdab87161e1c231c9b83d6c71c86d8d4bcd0cadd20ab2b790668d3/aioworkers_aiohttp-0.8.0a1.tar.gz
+[2023-07-12 00:18:33] INFO root fetch - processPackages [wyoming]: executing diffoscope
+[2023-07-12 00:18:33] INFO root fetch - processPackages [wyoming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wyoming-0.0.1.tar.gz tmp/wyoming-1.0.0.tar.gz --markdown 20230712/w/wyoming/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-12 00:18:33] WARNING root fetch - processPackages [FoKL]: Skipping package: exceeds size limit 13875407>=10485760
+[2023-07-12 00:18:33] INFO root fetch - processPackages [FoKL]: Start processing: decora-bleak
+[2023-07-12 00:18:33] INFO root fetch - main [MainThread]: End processing [FoKL] error
+[2023-07-12 00:18:33] INFO root fetch - processPackages [dynamic-llm]: executing diffoscope
+[2023-07-12 00:18:33] INFO root fetch - processPackages [dynamic-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-llm-0.0.1.tar.gz tmp/dynamic-llm-0.0.2.tar.gz --markdown 20230712/d/dynamic-llm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 00:18:33] INFO root fetch - processPackages [molano]: executing diffoscope
+[2023-07-12 00:18:33] INFO root fetch - processPackages [molano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molano-1.0.0a6.tar.gz tmp/molano-1.0.0a9.tar.gz --markdown 20230712/m/molano/1.0.0a6-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-12 00:18:33] INFO root fetch - processPackages [aioworkers-aiohttp]: executing diffoscope
+[2023-07-12 00:18:33] INFO root fetch - processPackages [aioworkers-aiohttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworkers_aiohttp-0.8.tar.gz tmp/aioworkers_aiohttp-0.8.0a1.tar.gz --markdown 20230712/a/aioworkers-aiohttp/0.8-0.8.0a1/diff.md --exclude *.pyd
+[2023-07-12 00:18:33] WARNING root fetch - processPackages [decora-bleak]: Skipping, unable to determine old version
+[2023-07-12 00:18:33] INFO root fetch - processPackages [decora-bleak]: Start processing: idea-bio
+[2023-07-12 00:18:33] INFO root fetch - main [MainThread]: End processing [decora-bleak] error
+[2023-07-12 00:18:33] WARNING root fetch - processPackages [idea-bio]: Skipping, unable to determine old version
+[2023-07-12 00:18:33] INFO root fetch - processPackages [idea-bio]: Start processing: ciscoaplookup
+[2023-07-12 00:18:33] INFO root fetch - main [MainThread]: End processing [idea-bio] error
+[2023-07-12 00:18:33] INFO root fetch - processPackages [ciscoaplookup]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-12 00:18:33] INFO root fetch - processPackages [ciscoaplookup]: Downloading https://files.pythonhosted.org/packages/3e/25/a4cae353a60508770f7ee044ae1fad490b25ec0b1bb5a91e0885b448a912/ciscoaplookup-0.9.8.tar.gz
+[2023-07-12 00:18:34] INFO root fetch - processPackages [ciscoaplookup]: Downloading https://files.pythonhosted.org/packages/be/de/3a15d8d07dfbc83afa257c99bd59adcf49b67b2e7e889c732ef34481641b/ciscoaplookup-0.9.9.tar.gz
+[2023-07-12 00:18:34] INFO root fetch - processPackages [ciscoaplookup]: executing diffoscope
+[2023-07-12 00:18:34] INFO root fetch - processPackages [ciscoaplookup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciscoaplookup-0.9.8.tar.gz tmp/ciscoaplookup-0.9.9.tar.gz --markdown 20230712/c/ciscoaplookup/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-12 00:18:34] INFO root fetch - processPackages [FlashMHA]: Remove: archive file [/home/abi/fetcher/tmp/FlashMHA-0.0.4.tar.gz]
+[2023-07-12 00:18:34] INFO root fetch - processPackages [FlashMHA]: Remove: archive file [/home/abi/fetcher/tmp/FlashMHA-0.6.3.tar.gz]
+[2023-07-12 00:18:34] INFO root fetch - main [MainThread]: End processing [FlashMHA]: success
+[2023-07-12 00:18:34] INFO root fetch - processPackages [canonical]: Remove: archive file [/home/abi/fetcher/tmp/canonical-0.8.0.tar.gz]
+[2023-07-12 00:18:34] INFO root fetch - processPackages [canonical]: Remove: archive file [/home/abi/fetcher/tmp/canonical-0.9.0.tar.gz]
+[2023-07-12 00:18:34] INFO root fetch - main [MainThread]: End processing [canonical]: success
+[2023-07-12 00:18:34] INFO root fetch - processPackages [dynamic-sh]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-sh-0.0.1a1.tar.gz]
+[2023-07-12 00:18:34] INFO root fetch - processPackages [dynamic-sh]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-sh-0.0.2.tar.gz]
+[2023-07-12 00:18:34] INFO root fetch - main [MainThread]: End processing [dynamic-sh]: success
+[2023-07-12 00:18:34] INFO root fetch - processPackages [dynamic-api]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-api-0.0.1.tar.gz]
+[2023-07-12 00:18:34] INFO root fetch - processPackages [dynamic-api]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-api-0.0.2.tar.gz]
+[2023-07-12 00:18:34] INFO root fetch - main [MainThread]: End processing [dynamic-api]: success
+[2023-07-12 00:18:35] INFO root fetch - processPackages [wyoming]: Remove: archive file [/home/abi/fetcher/tmp/wyoming-0.0.1.tar.gz]
+[2023-07-12 00:18:35] INFO root fetch - processPackages [wyoming]: Remove: archive file [/home/abi/fetcher/tmp/wyoming-1.0.0.tar.gz]
+[2023-07-12 00:18:35] INFO root fetch - main [MainThread]: End processing [wyoming]: success
+[2023-07-12 00:18:35] INFO root fetch - processPackages [fondat]: Remove: archive file [/home/abi/fetcher/tmp/fondat-4.1.4.tar.gz]
+[2023-07-12 00:18:35] INFO root fetch - processPackages [fondat]: Remove: archive file [/home/abi/fetcher/tmp/fondat-4.1.5.tar.gz]
+[2023-07-12 00:18:35] INFO root fetch - main [MainThread]: End processing [fondat]: success
+[2023-07-12 00:18:35] INFO root fetch - processPackages [dynamic-llm]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-llm-0.0.1.tar.gz]
+[2023-07-12 00:18:35] INFO root fetch - processPackages [dynamic-llm]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-llm-0.0.2.tar.gz]
+[2023-07-12 00:18:35] INFO root fetch - main [MainThread]: End processing [dynamic-llm]: success
+[2023-07-12 00:18:35] INFO root fetch - processPackages [aioworkers-aiohttp]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers_aiohttp-0.8.tar.gz]
+[2023-07-12 00:18:35] INFO root fetch - processPackages [aioworkers-aiohttp]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers_aiohttp-0.8.0a1.tar.gz]
+[2023-07-12 00:18:35] INFO root fetch - main [MainThread]: End processing [aioworkers-aiohttp]: success
+[2023-07-12 00:18:35] INFO root fetch - processPackages [molano]: Remove: archive file [/home/abi/fetcher/tmp/molano-1.0.0a6.tar.gz]
+[2023-07-12 00:18:35] INFO root fetch - processPackages [molano]: Remove: archive file [/home/abi/fetcher/tmp/molano-1.0.0a9.tar.gz]
+[2023-07-12 00:18:35] INFO root fetch - main [MainThread]: End processing [molano]: success
+[2023-07-12 00:18:35] INFO root fetch - processPackages [ciscoaplookup]: Remove: archive file [/home/abi/fetcher/tmp/ciscoaplookup-0.9.8.tar.gz]
+[2023-07-12 00:18:35] INFO root fetch - processPackages [ciscoaplookup]: Remove: archive file [/home/abi/fetcher/tmp/ciscoaplookup-0.9.9.tar.gz]
+[2023-07-12 00:18:35] INFO root fetch - main [MainThread]: End processing [ciscoaplookup]: success
+[2023-07-12 00:18:35] INFO root fetch - main [MainThread]: Store serial: [18851409]
