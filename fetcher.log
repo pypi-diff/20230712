@@ -1821,3 +1821,81 @@
 [2023-07-12 01:47:51] INFO root fetch - processPackages [keras-cv]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv-0.6.1-py3-none-any.whl.zip]
 [2023-07-12 01:47:51] INFO root fetch - main [MainThread]: End processing [keras-cv]: success
 [2023-07-12 01:47:51] INFO root fetch - main [MainThread]: Store serial: [18851901]
+[2023-07-12 01:52:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851901]
+[2023-07-12 01:53:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-12 01:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smoldyn
+[2023-07-12 01:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smoldyn
+[2023-07-12 01:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smoldyn
+[2023-07-12 01:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smoldyn
+[2023-07-12 01:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typetype
+[2023-07-12 01:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hello-robot-stretch-body
+[2023-07-12 01:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypipr
+[2023-07-12 01:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: huhk
+[2023-07-12 01:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: protobuf
+[2023-07-12 01:53:01] INFO root fetch - processPackages [huhk]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-12 01:53:01] INFO root fetch - processPackages [typetype]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-12 01:53:01] INFO root fetch - processPackages [smoldyn]: New version: [2.72.dev202307112347] Old Version: [2.72.dev202307112346]
+[2023-07-12 01:53:01] INFO root fetch - processPackages [hello-robot-stretch-body]: New version: [0.5.0.dev0] Old Version: [0.4.9]
+[2023-07-12 01:53:01] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 01:53:01] INFO root fetch - processPackages [smoldyn]: New version: [2.72.dev202307112347] Old Version: [2.72.dev202307112346]
+[2023-07-12 01:53:01] INFO root fetch - processPackages [smoldyn]: New version: [2.72.dev202307112347] Old Version: [2.72.dev202307112346]
+[2023-07-12 01:53:01] INFO root fetch - processPackages [smoldyn]: New version: [2.72.dev202307112347] Old Version: [2.72.dev202307112346]
+[2023-07-12 01:53:01] INFO root fetch - processPackages [protobuf]: New version: [4.24.0rc1] Old Version: [4.23.4]
+[2023-07-12 01:53:01] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/66/a1/4887136f7990cacc4cad17ac4169dc5e8edc59e1caf4ceaed0c2ef140be5/huhk-1.5.8.tar.gz
+[2023-07-12 01:53:01] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/9b/60/8f2c63bf6541c46737ad8ded56dd8276ad03c893113e3810985747782862/typetype-1.1.0.tar.gz
+[2023-07-12 01:53:01] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/62/f9/0190aa2ce67da9cb94c97a93652d0c9d95ada3dd6e60766b07d3f8b005d4/smoldyn-2.72.dev202307112346-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 01:53:01] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/62/f9/0190aa2ce67da9cb94c97a93652d0c9d95ada3dd6e60766b07d3f8b005d4/smoldyn-2.72.dev202307112346-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 01:53:01] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/62/f9/0190aa2ce67da9cb94c97a93652d0c9d95ada3dd6e60766b07d3f8b005d4/smoldyn-2.72.dev202307112346-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 01:53:01] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/62/f9/0190aa2ce67da9cb94c97a93652d0c9d95ada3dd6e60766b07d3f8b005d4/smoldyn-2.72.dev202307112346-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 01:53:01] INFO root fetch - processPackages [hello-robot-stretch-body]: Downloading https://files.pythonhosted.org/packages/6d/db/4eb87d14c62b204df61adcb44a25f863c9bbae8f06006dad5c005d723461/hello_robot_stretch_body-0.4.9.tar.gz
+[2023-07-12 01:53:01] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2023-07-12 01:53:01] INFO root fetch - processPackages [protobuf]: Downloading https://files.pythonhosted.org/packages/d3/1c/de86d82a5fc780feca36ef52c1231823bb3140266af8a04ed6286957aa6e/protobuf-4.23.4.tar.gz
+[2023-07-12 01:53:01] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/6b/c7/555ec264d9e4fcb9822aa4354d22650fd2642bb3658a06e9875804155e91/huhk-1.5.9.tar.gz
+[2023-07-12 01:53:01] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/e1/ed/d6132dded345037e7d28abbc73963a2b1db0ca281409054541e1ef3fb06f/typetype-1.1.1.tar.gz
+[2023-07-12 01:53:02] INFO root fetch - processPackages [hello-robot-stretch-body]: Downloading https://files.pythonhosted.org/packages/90/51/4b06d19ccfc71b3120607c449a89485d3515aff0919df35e63c3c5b665f3/hello_robot_stretch_body-0.5.0.dev0.tar.gz
+[2023-07-12 01:53:02] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2023-07-12 01:53:02] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-12 01:53:02] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.5.8.tar.gz tmp/huhk-1.5.9.tar.gz --markdown 20230712/h/huhk/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-12 01:53:02] INFO root fetch - processPackages [protobuf]: Downloading https://files.pythonhosted.org/packages/e2/4f/4bfe731c9491938b832997892577445bc16cef1f1ee450918b77ea370af7/protobuf-4.24.0rc1.tar.gz
+[2023-07-12 01:53:02] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-07-12 01:53:02] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20230712/p/pypipr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 01:53:02] INFO root fetch - processPackages [typetype]: executing diffoscope
+[2023-07-12 01:53:02] INFO root fetch - processPackages [typetype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typetype-1.1.0.tar.gz tmp/typetype-1.1.1.tar.gz --markdown 20230712/t/typetype/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-12 01:53:02] INFO root fetch - processPackages [hello-robot-stretch-body]: executing diffoscope
+[2023-07-12 01:53:02] INFO root fetch - processPackages [hello-robot-stretch-body]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello_robot_stretch_body-0.4.9.tar.gz tmp/hello_robot_stretch_body-0.5.0.dev0.tar.gz --markdown 20230712/h/hello-robot-stretch-body/0.4.9-0.5.0.dev0/diff.md --exclude *.pyd
+[2023-07-12 01:53:02] INFO root fetch - processPackages [protobuf]: executing diffoscope
+[2023-07-12 01:53:02] INFO root fetch - processPackages [protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protobuf-4.23.4.tar.gz tmp/protobuf-4.24.0rc1.tar.gz --markdown 20230712/p/protobuf/4.23.4-4.24.0rc1/diff.md --exclude *.pyd
+[2023-07-12 01:53:02] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/57/5f/a5be628208929d59e662b53d0e39c6fc6983263c7491b3fbb4d6e92befb2/smoldyn-2.72.dev202307112347-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 01:53:02] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/57/5f/a5be628208929d59e662b53d0e39c6fc6983263c7491b3fbb4d6e92befb2/smoldyn-2.72.dev202307112347-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 01:53:02] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/57/5f/a5be628208929d59e662b53d0e39c6fc6983263c7491b3fbb4d6e92befb2/smoldyn-2.72.dev202307112347-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 01:53:02] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/57/5f/a5be628208929d59e662b53d0e39c6fc6983263c7491b3fbb4d6e92befb2/smoldyn-2.72.dev202307112347-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 01:53:03] INFO root fetch - processPackages [smoldyn]: executing diffoscope
+[2023-07-12 01:53:03] INFO root fetch - processPackages [smoldyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoldyn-2.72.dev202307112346-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/smoldyn-2.72.dev202307112347-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230712/s/smoldyn/2.72.dev202307112346-2.72.dev202307112347/diff.md --exclude *.pyd
+[2023-07-12 01:53:03] INFO root fetch - processPackages [smoldyn]: executing diffoscope
+[2023-07-12 01:53:03] INFO root fetch - processPackages [smoldyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoldyn-2.72.dev202307112346-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/smoldyn-2.72.dev202307112347-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230712/s/smoldyn/2.72.dev202307112346-2.72.dev202307112347/diff.md --exclude *.pyd
+[2023-07-12 01:53:03] INFO root fetch - processPackages [smoldyn]: executing diffoscope
+[2023-07-12 01:53:03] INFO root fetch - processPackages [smoldyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoldyn-2.72.dev202307112346-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/smoldyn-2.72.dev202307112347-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230712/s/smoldyn/2.72.dev202307112346-2.72.dev202307112347/diff.md --exclude *.pyd
+[2023-07-12 01:53:03] INFO root fetch - processPackages [smoldyn]: executing diffoscope
+[2023-07-12 01:53:03] INFO root fetch - processPackages [smoldyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoldyn-2.72.dev202307112346-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/smoldyn-2.72.dev202307112347-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230712/s/smoldyn/2.72.dev202307112346-2.72.dev202307112347/diff.md --exclude *.pyd
+[2023-07-12 01:53:03] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.5.8.tar.gz]
+[2023-07-12 01:53:03] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.5.9.tar.gz]
+[2023-07-12 01:53:03] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-12 01:53:03] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2023-07-12 01:53:03] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2023-07-12 01:53:03] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-07-12 01:53:03] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.1.0.tar.gz]
+[2023-07-12 01:53:03] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.1.1.tar.gz]
+[2023-07-12 01:53:03] INFO root fetch - main [MainThread]: End processing [typetype]: success
+[2023-07-12 01:53:04] INFO root fetch - processPackages [hello-robot-stretch-body]: Remove: archive file [/home/abi/fetcher/tmp/hello_robot_stretch_body-0.4.9.tar.gz]
+[2023-07-12 01:53:04] INFO root fetch - processPackages [hello-robot-stretch-body]: Remove: archive file [/home/abi/fetcher/tmp/hello_robot_stretch_body-0.5.0.dev0.tar.gz]
+[2023-07-12 01:53:04] INFO root fetch - main [MainThread]: End processing [hello-robot-stretch-body]: success
+[2023-07-12 01:53:04] INFO root fetch - processPackages [smoldyn]: Remove: archive file [/home/abi/fetcher/tmp/smoldyn-2.72.dev202307112346-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-12 01:53:04] INFO root fetch - processPackages [smoldyn]: Remove: archive file [/home/abi/fetcher/tmp/smoldyn-2.72.dev202307112347-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-12 01:53:04] INFO root fetch - main [MainThread]: End processing [smoldyn]: success
+[2023-07-12 01:53:04] INFO root fetch - main [MainThread]: End processing [smoldyn]: success
+[2023-07-12 01:53:04] INFO root fetch - main [MainThread]: End processing [smoldyn]: success
+[2023-07-12 01:53:04] INFO root fetch - main [MainThread]: End processing [smoldyn]: success
+[2023-07-12 01:53:05] INFO root fetch - processPackages [protobuf]: Remove: archive file [/home/abi/fetcher/tmp/protobuf-4.23.4.tar.gz]
+[2023-07-12 01:53:05] INFO root fetch - processPackages [protobuf]: Remove: archive file [/home/abi/fetcher/tmp/protobuf-4.24.0rc1.tar.gz]
+[2023-07-12 01:53:05] INFO root fetch - main [MainThread]: End processing [protobuf]: success
+[2023-07-12 01:53:05] INFO root fetch - main [MainThread]: Store serial: [18851935]
