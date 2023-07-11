@@ -1309,3 +1309,66 @@
 [2023-07-12 01:06:11] INFO root fetch - processPackages [azure-search-documents]: Remove: archive file [/home/abi/fetcher/tmp/azure-search-documents-11.4.0b6.zip]
 [2023-07-12 01:06:11] INFO root fetch - main [MainThread]: End processing [azure-search-documents]: success
 [2023-07-12 01:06:11] INFO root fetch - main [MainThread]: Store serial: [18851692]
+[2023-07-12 01:11:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851692]
+[2023-07-12 01:11:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 01:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cypherdataframe
+[2023-07-12 01:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serm
+[2023-07-12 01:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fondat
+[2023-07-12 01:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ofhsiofhs
+[2023-07-12 01:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: es7s
+[2023-07-12 01:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fihsfuisf
+[2023-07-12 01:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dxsp
+[2023-07-12 01:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelbit
+[2023-07-12 01:11:20] INFO root fetch - processPackages [serm]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-12 01:11:20] INFO root fetch - processPackages [fondat]: New version: [4.1.6] Old Version: [4.1.5]
+[2023-07-12 01:11:20] WARNING root fetch - processPackages [fihsfuisf]: Skipping, unable to determine old version
+[2023-07-12 01:11:20] INFO root fetch - processPackages [cypherdataframe]: New version: [0.5.1] Old Version: [0.4.2]
+[2023-07-12 01:11:20] INFO root fetch - main [MainThread]: End processing [fihsfuisf] error
+[2023-07-12 01:11:20] WARNING root fetch - processPackages [ofhsiofhs]: Skipping, unable to determine old version
+[2023-07-12 01:11:20] INFO root fetch - main [MainThread]: End processing [ofhsiofhs] error
+[2023-07-12 01:11:20] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-12 01:11:20] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-07-12 01:11:20] INFO root fetch - processPackages [dxsp]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-07-12 01:11:20] INFO root fetch - processPackages [cypherdataframe]: Downloading https://files.pythonhosted.org/packages/c0/5a/3a71a9ef33f5073bc142c5c9ebf02f3b20f6d4a7c6289fabc26edd7191d2/cypherdataframe-0.4.2.tar.gz
+[2023-07-12 01:11:20] INFO root fetch - processPackages [serm]: Downloading https://files.pythonhosted.org/packages/7d/80/670341af8710b0c8245e36981e758aa0fd9555496276d73ebe7e9ebbff7d/serm-1.0.2.tar.gz
+[2023-07-12 01:11:20] INFO root fetch - processPackages [fondat]: Downloading https://files.pythonhosted.org/packages/92/7e/1acdaed3245c26a6f0fd079dcb416fc1e6535dc46b9082c94c4b8811adc5/fondat-4.1.5.tar.gz
+[2023-07-12 01:11:20] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a9/78/8f4615bfdf161dfbfc8a6a3ba0ed839295d61eb67c68dff64b9d830175c6/dxsp-3.5.0.tar.gz
+[2023-07-12 01:11:20] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-07-12 01:11:20] INFO root fetch - processPackages [es7s]: Downloading https://files.pythonhosted.org/packages/d4/9b/638089077ce7b31286a1c6ea6d58552b2cb0e3f363a26c290e6de2ea308b/es7s-3.5.0.dev0.tar.gz
+[2023-07-12 01:11:20] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-07-12 01:11:20] INFO root fetch - processPackages [serm]: Downloading https://files.pythonhosted.org/packages/92/cf/c32d20265ab737c642e18ea29a1b1db7a95849347e951d8fc2b56731c626/serm-1.0.3.tar.gz
+[2023-07-12 01:11:20] INFO root fetch - processPackages [cypherdataframe]: Downloading https://files.pythonhosted.org/packages/c8/08/aed1ab41e96037e083a61b269ebade15ef7785dc410b029929581a9e16ff/cypherdataframe-0.5.1.tar.gz
+[2023-07-12 01:11:20] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/7d/72/67eff42c7b11ddc150945f82d0d67e46c6c8dfe601602d73273d1b19723d/dxsp-3.5.1.tar.gz
+[2023-07-12 01:11:20] INFO root fetch - processPackages [fondat]: Downloading https://files.pythonhosted.org/packages/57/c1/c865c42ef82b0b0ff5cd87217e59a1661cb88f449ffbdf7257c975b79a0e/fondat-4.1.6.tar.gz
+[2023-07-12 01:11:20] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-07-12 01:11:20] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230712/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-12 01:11:20] INFO root fetch - processPackages [serm]: executing diffoscope
+[2023-07-12 01:11:20] INFO root fetch - processPackages [serm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serm-1.0.2.tar.gz tmp/serm-1.0.3.tar.gz --markdown 20230712/s/serm/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-12 01:11:20] INFO root fetch - processPackages [cypherdataframe]: executing diffoscope
+[2023-07-12 01:11:20] INFO root fetch - processPackages [cypherdataframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cypherdataframe-0.4.2.tar.gz tmp/cypherdataframe-0.5.1.tar.gz --markdown 20230712/c/cypherdataframe/0.4.2-0.5.1/diff.md --exclude *.pyd
+[2023-07-12 01:11:20] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-12 01:11:20] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-3.5.0.tar.gz tmp/dxsp-3.5.1.tar.gz --markdown 20230712/d/dxsp/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-07-12 01:11:21] INFO root fetch - processPackages [es7s]: Downloading https://files.pythonhosted.org/packages/19/8b/f0ecc6844615f1d6585d48b9c2cc1f4e21bd25b8cf7a8d0aa0f8912bc159/es7s-3.6.0.dev0.tar.gz
+[2023-07-12 01:11:21] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-07-12 01:11:21] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230712/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-07-12 01:11:21] INFO root fetch - processPackages [fondat]: executing diffoscope
+[2023-07-12 01:11:21] INFO root fetch - processPackages [fondat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondat-4.1.5.tar.gz tmp/fondat-4.1.6.tar.gz --markdown 20230712/f/fondat/4.1.5-4.1.6/diff.md --exclude *.pyd
+[2023-07-12 01:11:21] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.5.0.tar.gz]
+[2023-07-12 01:11:21] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.5.1.tar.gz]
+[2023-07-12 01:11:21] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-12 01:11:21] INFO root fetch - processPackages [serm]: Remove: archive file [/home/abi/fetcher/tmp/serm-1.0.2.tar.gz]
+[2023-07-12 01:11:21] INFO root fetch - processPackages [serm]: Remove: archive file [/home/abi/fetcher/tmp/serm-1.0.3.tar.gz]
+[2023-07-12 01:11:21] INFO root fetch - main [MainThread]: End processing [serm]: success
+[2023-07-12 01:11:22] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-07-12 01:11:22] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-07-12 01:11:22] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-07-12 01:11:22] INFO root fetch - processPackages [cypherdataframe]: Remove: archive file [/home/abi/fetcher/tmp/cypherdataframe-0.4.2.tar.gz]
+[2023-07-12 01:11:22] INFO root fetch - processPackages [cypherdataframe]: Remove: archive file [/home/abi/fetcher/tmp/cypherdataframe-0.5.1.tar.gz]
+[2023-07-12 01:11:22] INFO root fetch - main [MainThread]: End processing [cypherdataframe]: success
+[2023-07-12 01:11:22] INFO root fetch - processPackages [fondat]: Remove: archive file [/home/abi/fetcher/tmp/fondat-4.1.5.tar.gz]
+[2023-07-12 01:11:22] INFO root fetch - processPackages [fondat]: Remove: archive file [/home/abi/fetcher/tmp/fondat-4.1.6.tar.gz]
+[2023-07-12 01:11:22] INFO root fetch - main [MainThread]: End processing [fondat]: success
+[2023-07-12 01:11:22] INFO root fetch - processPackages [es7s]: Remove: archive file [/home/abi/fetcher/tmp/es7s-3.5.0.dev0.tar.gz]
+[2023-07-12 01:11:22] INFO root fetch - processPackages [es7s]: Remove: archive file [/home/abi/fetcher/tmp/es7s-3.6.0.dev0.tar.gz]
+[2023-07-12 01:11:22] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-07-12 01:11:22] INFO root fetch - main [MainThread]: Store serial: [18851724]
