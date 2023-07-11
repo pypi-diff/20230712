@@ -1680,3 +1680,72 @@
 [2023-07-12 01:37:27] INFO root fetch - processPackages [TapisCL-ICICLE]: Remove: archive file [/home/abi/fetcher/tmp/TapisCL-ICICLE-0.2.2.tar.gz]
 [2023-07-12 01:37:27] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
 [2023-07-12 01:37:27] INFO root fetch - main [MainThread]: Store serial: [18851826]
+[2023-07-12 01:42:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851826]
+[2023-07-12 01:42:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magnify
+[2023-07-12 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: postgreslite
+[2023-07-12 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-github
+[2023-07-12 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-hub
+[2023-07-12 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: postgreslite
+[2023-07-12 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: determined
+[2023-07-12 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grss
+[2023-07-12 01:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bci-essentials
+[2023-07-12 01:42:36] INFO root fetch - processPackages [magnify]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-12 01:42:36] INFO root fetch - processPackages [postgreslite]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-12 01:42:36] INFO root fetch - processPackages [postgreslite]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-12 01:42:36] INFO root fetch - processPackages [bci-essentials]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-12 01:42:36] INFO root fetch - processPackages [model-hub]: New version: [0.23.3rc0] Old Version: [0.23.2rc3]
+[2023-07-12 01:42:36] INFO root fetch - processPackages [grss]: New version: [0.6.9] Old Version: [0.6.1]
+[2023-07-12 01:42:36] INFO root fetch - processPackages [determined]: New version: [0.23.3rc0] Old Version: [0.23.2rc3]
+[2023-07-12 01:42:36] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 01:42:36] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-12 01:42:36] INFO root fetch - processPackages [postgreslite]: Downloading https://files.pythonhosted.org/packages/28/9c/260f952b7629af02af49cf95c861808a73299a86e96e6633800da6d88af0/postgreslite-0.1.0.tar.gz
+[2023-07-12 01:42:36] INFO root fetch - processPackages [postgreslite]: Downloading https://files.pythonhosted.org/packages/28/9c/260f952b7629af02af49cf95c861808a73299a86e96e6633800da6d88af0/postgreslite-0.1.0.tar.gz
+[2023-07-12 01:42:36] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/c2/f3/c2c8bc2928b0f37eb01036e7775690c269575903f6b52af410440dd8a642/magnify-0.4.1.tar.gz
+[2023-07-12 01:42:36] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/73/8a/f1ce7176759733168bf6408a9fec2e5ea88d5020c81f152e2f7892bb8627/model_hub-0.23.2rc3-py3-none-any.whl
+[2023-07-12 01:42:36] INFO root fetch - processPackages [bci-essentials]: Downloading https://files.pythonhosted.org/packages/98/36/8aa4ba910c4ddc30a56fc000ed3cb2176464a55bc39a7fdeee972b6c1bd3/bci-essentials-0.0.2.tar.gz
+[2023-07-12 01:42:36] INFO root fetch - processPackages [grss]: Downloading https://files.pythonhosted.org/packages/95/46/b8c1d58e35c12a8370b1319388c4832964da228296ca3726ae5b3fd3f44e/grss-0.6.1.tar.gz
+[2023-07-12 01:42:36] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/90/e2/b420f488fd7678c1eff2b13eb241684adda51de160fc3bb40b5052e783d1/determined-0.23.2rc3-py3-none-any.whl
+[2023-07-12 01:42:36] WARNING root fetch - processPackages [grss]: Skipping package: exceeds size limit 28316188>=10485760
+[2023-07-12 01:42:36] INFO root fetch - main [MainThread]: End processing [grss] error
+[2023-07-12 01:42:36] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-12 01:42:36] INFO root fetch - processPackages [postgreslite]: Downloading https://files.pythonhosted.org/packages/8a/d7/e3c27ce6247bc6c2470ed7a6c3ce3a2deac13eb237aaa6ef1c0f4044fce1/postgreslite-0.1.1.tar.gz
+[2023-07-12 01:42:36] INFO root fetch - processPackages [postgreslite]: Downloading https://files.pythonhosted.org/packages/8a/d7/e3c27ce6247bc6c2470ed7a6c3ce3a2deac13eb237aaa6ef1c0f4044fce1/postgreslite-0.1.1.tar.gz
+[2023-07-12 01:42:37] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/f2/f4/5365c017766df517b654a9cffc0075344dde6470e0a5ef74a8931da40f9a/model_hub-0.23.3rc0-py3-none-any.whl
+[2023-07-12 01:42:37] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-12 01:42:37] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230712/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 01:42:37] INFO root fetch - processPackages [bci-essentials]: Downloading https://files.pythonhosted.org/packages/14/7a/7c1086061579677c3904001acbe047e6d960da275d2fa46892e24db4a825/bci-essentials-0.0.3.tar.gz
+[2023-07-12 01:42:37] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/23/fc/68131d33c4dc77236c8eb3101881e6b04a7cf281733e28c7561b72ee62e5/magnify-0.4.2.tar.gz
+[2023-07-12 01:42:37] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-07-12 01:42:37] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.23.2rc3-py3-none-any.whl.zip tmp/model_hub-0.23.3rc0-py3-none-any.whl.zip --markdown 20230712/m/model-hub/0.23.2rc3-0.23.3rc0/diff.md --exclude *.pyd
+[2023-07-12 01:42:37] INFO root fetch - processPackages [magnify]: executing diffoscope
+[2023-07-12 01:42:37] INFO root fetch - processPackages [magnify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnify-0.4.1.tar.gz tmp/magnify-0.4.2.tar.gz --markdown 20230712/m/magnify/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-12 01:42:37] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/f3/d0/3fcd39383564cdf2bc1bfed83858cf2c0c2ab6b38f14de16981324126d96/determined-0.23.3rc0-py3-none-any.whl
+[2023-07-12 01:42:37] INFO root fetch - processPackages [postgreslite]: executing diffoscope
+[2023-07-12 01:42:37] INFO root fetch - processPackages [postgreslite]: executing diffoscope
+[2023-07-12 01:42:37] INFO root fetch - processPackages [postgreslite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgreslite-0.1.0.tar.gz tmp/postgreslite-0.1.1.tar.gz --markdown 20230712/p/postgreslite/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-12 01:42:37] INFO root fetch - processPackages [postgreslite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgreslite-0.1.0.tar.gz tmp/postgreslite-0.1.1.tar.gz --markdown 20230712/p/postgreslite/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-12 01:42:37] INFO root fetch - processPackages [bci-essentials]: executing diffoscope
+[2023-07-12 01:42:37] INFO root fetch - processPackages [bci-essentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bci-essentials-0.0.2.tar.gz tmp/bci-essentials-0.0.3.tar.gz --markdown 20230712/b/bci-essentials/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-12 01:42:37] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-07-12 01:42:37] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.23.2rc3-py3-none-any.whl.zip tmp/determined-0.23.3rc0-py3-none-any.whl.zip --markdown 20230712/d/determined/0.23.2rc3-0.23.3rc0/diff.md --exclude *.pyd
+[2023-07-12 01:42:38] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-12 01:42:38] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-12 01:42:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-12 01:42:38] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.2rc3-py3-none-any.whl.zip]
+[2023-07-12 01:42:38] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.3rc0-py3-none-any.whl.zip]
+[2023-07-12 01:42:38] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-07-12 01:42:38] INFO root fetch - processPackages [postgreslite]: Remove: archive file [/home/abi/fetcher/tmp/postgreslite-0.1.0.tar.gz]
+[2023-07-12 01:42:38] INFO root fetch - processPackages [postgreslite]: Remove: archive file [/home/abi/fetcher/tmp/postgreslite-0.1.1.tar.gz]
+[2023-07-12 01:42:38] INFO root fetch - main [MainThread]: End processing [postgreslite]: success
+[2023-07-12 01:42:38] INFO root fetch - processPackages [bci-essentials]: Remove: archive file [/home/abi/fetcher/tmp/bci-essentials-0.0.2.tar.gz]
+[2023-07-12 01:42:38] INFO root fetch - processPackages [bci-essentials]: Remove: archive file [/home/abi/fetcher/tmp/bci-essentials-0.0.3.tar.gz]
+[2023-07-12 01:42:38] INFO root fetch - main [MainThread]: End processing [bci-essentials]: success
+[2023-07-12 01:42:38] INFO root fetch - processPackages [magnify]: Remove: archive file [/home/abi/fetcher/tmp/magnify-0.4.1.tar.gz]
+[2023-07-12 01:42:38] INFO root fetch - processPackages [magnify]: Remove: archive file [/home/abi/fetcher/tmp/magnify-0.4.2.tar.gz]
+[2023-07-12 01:42:38] INFO root fetch - main [MainThread]: End processing [magnify]: success
+[2023-07-12 01:42:38] INFO root fetch - main [MainThread]: End processing [postgreslite]: success
+[2023-07-12 01:42:39] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.2rc3-py3-none-any.whl.zip]
+[2023-07-12 01:42:39] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.3rc0-py3-none-any.whl.zip]
+[2023-07-12 01:42:39] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-07-12 01:42:39] INFO root fetch - main [MainThread]: Store serial: [18851868]
