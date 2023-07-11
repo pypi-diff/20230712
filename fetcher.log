@@ -800,3 +800,74 @@
 [2023-07-12 00:29:03] INFO root fetch - processPackages [tropycal]: Remove: archive file [/home/abi/fetcher/tmp/tropycal-1.0.2.tar.gz]
 [2023-07-12 00:29:03] INFO root fetch - main [MainThread]: End processing [tropycal]: success
 [2023-07-12 00:29:03] INFO root fetch - main [MainThread]: Store serial: [18851463]
+[2023-07-12 00:34:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851463]
+[2023-07-12 00:34:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 00:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: battetl
+[2023-07-12 00:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BlockChainExplorer
+[2023-07-12 00:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentaskpy
+[2023-07-12 00:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: warn-transformer
+[2023-07-12 00:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysigrok-saleae-logic2
+[2023-07-12 00:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bazel-runfiles
+[2023-07-12 00:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: panther-analysis-tool
+[2023-07-12 00:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: motion-python
+[2023-07-12 00:34:13] INFO root fetch - processPackages [motion-python]: New version: [0.1.80] Old Version: [0.1.79]
+[2023-07-12 00:34:13] INFO root fetch - processPackages [battetl]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-12 00:34:13] INFO root fetch - processPackages [bazel-runfiles]: New version: [0.24.0] Old Version: [0.23.1]
+[2023-07-12 00:34:13] INFO root fetch - processPackages [BlockChainExplorer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-12 00:34:13] INFO root fetch - processPackages [panther-analysis-tool]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-12 00:34:13] INFO root fetch - processPackages [panther-analysis-tool]: Downloading https://files.pythonhosted.org/packages/25/cf/5c87943f90bc11af4cdacde3d5c0400087ed9290bf037b10ab4feec7ed0a/panther_analysis_tool-0.8.3.tar.gz
+[2023-07-12 00:34:13] INFO root fetch - processPackages [pysigrok-saleae-logic2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 00:34:13] INFO root fetch - processPackages [opentaskpy]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-12 00:34:13] INFO root fetch - processPackages [warn-transformer]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-12 00:34:13] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/61/c9/4a4442b1fc2451f84dc187938f9e69eb6df8e2acb1793a2161234b6cc116/motion_python-0.1.79.tar.gz
+[2023-07-12 00:34:13] INFO root fetch - processPackages [battetl]: Downloading https://files.pythonhosted.org/packages/74/86/56345f9e70abfbc6b671bd314c04972255d50250c38444e3274b9f153899/battetl-1.1.0.tar.gz
+[2023-07-12 00:34:13] INFO root fetch - processPackages [BlockChainExplorer]: Downloading https://files.pythonhosted.org/packages/4b/fb/aa2cf3b142f5b06c4d83500932c8f7c4f41024b51861608e09bafb1ef0fd/BlockChainExplorer-0.0.2.tar.gz
+[2023-07-12 00:34:13] INFO root fetch - processPackages [bazel-runfiles]: Downloading https://files.pythonhosted.org/packages/6c/89/c67d7a320024cdc6e9d936bf5d6c7fa583d8164ef96643f7a3d4c205cd51/bazel_runfiles-0.23.1-py3-none-any.whl
+[2023-07-12 00:34:13] INFO root fetch - processPackages [opentaskpy]: Downloading https://files.pythonhosted.org/packages/95/1e/6b8dd6ec46cda589e45847dd943cee9ebe864c0966e9314a3e01546c9b9a/opentaskpy-0.8.1.tar.gz
+[2023-07-12 00:34:13] INFO root fetch - processPackages [warn-transformer]: Downloading https://files.pythonhosted.org/packages/27/ea/a7f48507ea48fcdbce1aeece06724a91fabd45f25890432912afb917e10a/warn-transformer-1.3.8.tar.gz
+[2023-07-12 00:34:13] WARNING root fetch - processPackages [warn-transformer]: Skipping package: exceeds size limit 17532658>=10485760
+[2023-07-12 00:34:13] INFO root fetch - main [MainThread]: End processing [warn-transformer] error
+[2023-07-12 00:34:13] INFO root fetch - processPackages [pysigrok-saleae-logic2]: Downloading https://files.pythonhosted.org/packages/e3/63/3df45c6e1276ba7d009440d90e9869667655c3ad2fce22813fc980b9dc8d/pysigrok-saleae-logic2-0.0.1.tar.gz
+[2023-07-12 00:34:14] INFO root fetch - processPackages [panther-analysis-tool]: Downloading https://files.pythonhosted.org/packages/8a/be/c59804c311208907cfa13b402d4bb7ab90cf93490a44736ea7bbc0523c98/panther_analysis_tool-0.9.0.tar.gz
+[2023-07-12 00:34:14] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/9a/63/51c95d8957c60b4be711358b61a13a5ee1e477d82e28ad15678924f72777/motion_python-0.1.80.tar.gz
+[2023-07-12 00:34:14] INFO root fetch - processPackages [battetl]: Downloading https://files.pythonhosted.org/packages/4f/e7/984c645d873b5e917a4e90847f9254538293a738a763bef669f7e5119d2d/battetl-1.1.1.tar.gz
+[2023-07-12 00:34:14] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-07-12 00:34:14] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.79.tar.gz tmp/motion_python-0.1.80.tar.gz --markdown 20230712/m/motion-python/0.1.79-0.1.80/diff.md --exclude *.pyd
+[2023-07-12 00:34:14] INFO root fetch - processPackages [bazel-runfiles]: Downloading https://files.pythonhosted.org/packages/3b/e1/892ea538ac5de4b4c850247ea6f8fd4f6478fbd0f85a3667d79fb01b3a98/bazel_runfiles-0.24.0-py3-none-any.whl
+[2023-07-12 00:34:14] INFO root fetch - processPackages [BlockChainExplorer]: Downloading https://files.pythonhosted.org/packages/4f/e5/83c2dfa61536d0115a36f0ead45248ff16c3efa2b0c5273907df427570ea/BlockChainExplorer-0.0.3.tar.gz
+[2023-07-12 00:34:14] INFO root fetch - processPackages [panther-analysis-tool]: executing diffoscope
+[2023-07-12 00:34:14] INFO root fetch - processPackages [panther-analysis-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panther_analysis_tool-0.8.3.tar.gz tmp/panther_analysis_tool-0.9.0.tar.gz --markdown 20230712/p/panther-analysis-tool/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 00:34:14] INFO root fetch - processPackages [battetl]: executing diffoscope
+[2023-07-12 00:34:14] INFO root fetch - processPackages [battetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/battetl-1.1.0.tar.gz tmp/battetl-1.1.1.tar.gz --markdown 20230712/b/battetl/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-12 00:34:14] INFO root fetch - processPackages [opentaskpy]: Downloading https://files.pythonhosted.org/packages/55/5e/e1649c92e39fa5463eee87af2417041582137708d256f1e8080e447c4950/opentaskpy-0.9.0.tar.gz
+[2023-07-12 00:34:14] INFO root fetch - processPackages [pysigrok-saleae-logic2]: Downloading https://files.pythonhosted.org/packages/4c/3d/e25889e08262924e64eec67ebc312f7a2ad3cfb3be3cddff54469ceecd19/pysigrok_saleae_logic2-0.0.2.tar.gz
+[2023-07-12 00:34:14] INFO root fetch - processPackages [bazel-runfiles]: executing diffoscope
+[2023-07-12 00:34:14] INFO root fetch - processPackages [bazel-runfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bazel_runfiles-0.23.1-py3-none-any.whl.zip tmp/bazel_runfiles-0.24.0-py3-none-any.whl.zip --markdown 20230712/b/bazel-runfiles/0.23.1-0.24.0/diff.md --exclude *.pyd
+[2023-07-12 00:34:14] INFO root fetch - processPackages [BlockChainExplorer]: executing diffoscope
+[2023-07-12 00:34:14] INFO root fetch - processPackages [BlockChainExplorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlockChainExplorer-0.0.2.tar.gz tmp/BlockChainExplorer-0.0.3.tar.gz --markdown 20230712/B/BlockChainExplorer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-12 00:34:14] INFO root fetch - processPackages [pysigrok-saleae-logic2]: executing diffoscope
+[2023-07-12 00:34:14] INFO root fetch - processPackages [pysigrok-saleae-logic2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigrok-saleae-logic2-0.0.1.tar.gz tmp/pysigrok_saleae_logic2-0.0.2.tar.gz --markdown 20230712/p/pysigrok-saleae-logic2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 00:34:14] INFO root fetch - processPackages [opentaskpy]: executing diffoscope
+[2023-07-12 00:34:14] INFO root fetch - processPackages [opentaskpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentaskpy-0.8.1.tar.gz tmp/opentaskpy-0.9.0.tar.gz --markdown 20230712/o/opentaskpy/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 00:34:15] INFO root fetch - processPackages [panther-analysis-tool]: Remove: archive file [/home/abi/fetcher/tmp/panther_analysis_tool-0.8.3.tar.gz]
+[2023-07-12 00:34:15] INFO root fetch - processPackages [panther-analysis-tool]: Remove: archive file [/home/abi/fetcher/tmp/panther_analysis_tool-0.9.0.tar.gz]
+[2023-07-12 00:34:15] INFO root fetch - main [MainThread]: End processing [panther-analysis-tool]: success
+[2023-07-12 00:34:15] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.79.tar.gz]
+[2023-07-12 00:34:15] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.80.tar.gz]
+[2023-07-12 00:34:15] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-07-12 00:34:15] INFO root fetch - processPackages [battetl]: Remove: archive file [/home/abi/fetcher/tmp/battetl-1.1.0.tar.gz]
+[2023-07-12 00:34:15] INFO root fetch - processPackages [battetl]: Remove: archive file [/home/abi/fetcher/tmp/battetl-1.1.1.tar.gz]
+[2023-07-12 00:34:15] INFO root fetch - processPackages [bazel-runfiles]: Remove: archive file [/home/abi/fetcher/tmp/bazel_runfiles-0.23.1-py3-none-any.whl.zip]
+[2023-07-12 00:34:15] INFO root fetch - main [MainThread]: End processing [battetl]: success
+[2023-07-12 00:34:15] INFO root fetch - processPackages [bazel-runfiles]: Remove: archive file [/home/abi/fetcher/tmp/bazel_runfiles-0.24.0-py3-none-any.whl.zip]
+[2023-07-12 00:34:15] INFO root fetch - main [MainThread]: End processing [bazel-runfiles]: success
+[2023-07-12 00:34:15] INFO root fetch - processPackages [BlockChainExplorer]: Remove: archive file [/home/abi/fetcher/tmp/BlockChainExplorer-0.0.2.tar.gz]
+[2023-07-12 00:34:15] INFO root fetch - processPackages [BlockChainExplorer]: Remove: archive file [/home/abi/fetcher/tmp/BlockChainExplorer-0.0.3.tar.gz]
+[2023-07-12 00:34:15] INFO root fetch - main [MainThread]: End processing [BlockChainExplorer]: success
+[2023-07-12 00:34:15] INFO root fetch - processPackages [pysigrok-saleae-logic2]: Remove: archive file [/home/abi/fetcher/tmp/pysigrok-saleae-logic2-0.0.1.tar.gz]
+[2023-07-12 00:34:15] INFO root fetch - processPackages [pysigrok-saleae-logic2]: Remove: archive file [/home/abi/fetcher/tmp/pysigrok_saleae_logic2-0.0.2.tar.gz]
+[2023-07-12 00:34:15] INFO root fetch - main [MainThread]: End processing [pysigrok-saleae-logic2]: success
+[2023-07-12 00:34:16] INFO root fetch - processPackages [opentaskpy]: Remove: archive file [/home/abi/fetcher/tmp/opentaskpy-0.8.1.tar.gz]
+[2023-07-12 00:34:16] INFO root fetch - processPackages [opentaskpy]: Remove: archive file [/home/abi/fetcher/tmp/opentaskpy-0.9.0.tar.gz]
+[2023-07-12 00:34:16] INFO root fetch - main [MainThread]: End processing [opentaskpy]: success
+[2023-07-12 00:34:16] INFO root fetch - main [MainThread]: Store serial: [18851486]
