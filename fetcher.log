@@ -1620,3 +1620,63 @@
 [2023-07-12 01:32:15] INFO root fetch - processPackages [klu]: Remove: archive file [/home/abi/fetcher/tmp/klu-0.1.9.tar.gz]
 [2023-07-12 01:32:15] INFO root fetch - main [MainThread]: End processing [klu]: success
 [2023-07-12 01:32:15] INFO root fetch - main [MainThread]: Store serial: [18851806]
+[2023-07-12 01:37:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851806]
+[2023-07-12 01:37:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-12 01:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autodox
+[2023-07-12 01:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hkfdb
+[2023-07-12 01:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TapisCL-ICICLE
+[2023-07-12 01:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dapperdata
+[2023-07-12 01:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inquirer3
+[2023-07-12 01:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinyra
+[2023-07-12 01:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: magnify
+[2023-07-12 01:37:25] INFO root fetch - processPackages [inquirer3]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-12 01:37:25] WARNING root fetch - processPackages [tinyra]: Skipping, unable to determine old version
+[2023-07-12 01:37:25] INFO root fetch - main [MainThread]: End processing [tinyra] error
+[2023-07-12 01:37:25] INFO root fetch - processPackages [autodox]: New version: [0.0.4.6] Old Version: [0.0.4.5]
+[2023-07-12 01:37:25] INFO root fetch - processPackages [magnify]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-12 01:37:25] INFO root fetch - processPackages [dapperdata]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-12 01:37:25] INFO root fetch - processPackages [hkfdb]: New version: [3.7.4] Old Version: [3.7.3]
+[2023-07-12 01:37:25] INFO root fetch - processPackages [TapisCL-ICICLE]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-12 01:37:25] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/c8/67/97b125d85c79dd97560effff73712de52d913dd1335c60489d963f7d0a0a/magnify-0.4.0.tar.gz
+[2023-07-12 01:37:25] INFO root fetch - processPackages [inquirer3]: Downloading https://files.pythonhosted.org/packages/2f/33/8cc8badc30f5421a401d605f7fcb44a437e2fc5ca60e901f66002b9afd17/inquirer3-0.1.0.tar.gz
+[2023-07-12 01:37:25] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/54/c3/11688685a89729cf8b0a89296127a9b4161994e4c638a1e256c97777af72/hkfdb-3.7.3.tar.gz
+[2023-07-12 01:37:25] INFO root fetch - processPackages [autodox]: Downloading https://files.pythonhosted.org/packages/9e/fc/27ba6035d4cf83fceb6525137cc2e83baca93b1884d725e3d1be2e5782a1/autodox-0.0.4.5.tar.gz
+[2023-07-12 01:37:25] INFO root fetch - processPackages [dapperdata]: Downloading https://files.pythonhosted.org/packages/33/90/fc16184af441c6e83b1dc55c47c66b09d706039b3a2b6cbda2e96d668252/dapperdata-0.3.0.tar.gz
+[2023-07-12 01:37:25] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/ed/32/92f94fef3e5425c0711aefe1e6d6788b9f849834b3bb0bf3b6bc3755c47b/TapisCL-ICICLE-0.2.1.tar.gz
+[2023-07-12 01:37:26] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/c2/f3/c2c8bc2928b0f37eb01036e7775690c269575903f6b52af410440dd8a642/magnify-0.4.1.tar.gz
+[2023-07-12 01:37:26] INFO root fetch - processPackages [inquirer3]: Downloading https://files.pythonhosted.org/packages/b0/e1/136a45f3fdf44557b517579a083976753d264f3f2051c5f6ba582eb1a52a/inquirer3-0.1.1.tar.gz
+[2023-07-12 01:37:26] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/7e/2c/b6f739a36afd18258a6acd71fb8f4a08d8d89fec9d060ec2e04872448880/hkfdb-3.7.4.tar.gz
+[2023-07-12 01:37:26] INFO root fetch - processPackages [magnify]: executing diffoscope
+[2023-07-12 01:37:26] INFO root fetch - processPackages [magnify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnify-0.4.0.tar.gz tmp/magnify-0.4.1.tar.gz --markdown 20230712/m/magnify/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-12 01:37:26] INFO root fetch - processPackages [autodox]: Downloading https://files.pythonhosted.org/packages/63/e4/2deebd6ef0d7732dd7b6f694e7f13ecdbdf95e47ba477fdc7d939e175e91/autodox-0.0.4.6.tar.gz
+[2023-07-12 01:37:26] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-07-12 01:37:26] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-3.7.3.tar.gz tmp/hkfdb-3.7.4.tar.gz --markdown 20230712/h/hkfdb/3.7.3-3.7.4/diff.md --exclude *.pyd
+[2023-07-12 01:37:26] INFO root fetch - processPackages [dapperdata]: Downloading https://files.pythonhosted.org/packages/53/dc/ec457d2eeee50ef2dde635cdfb94df8e49988c16fe6336bae3bd04d3f017/dapperdata-0.4.0.tar.gz
+[2023-07-12 01:37:26] INFO root fetch - processPackages [autodox]: executing diffoscope
+[2023-07-12 01:37:26] INFO root fetch - processPackages [autodox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodox-0.0.4.5.tar.gz tmp/autodox-0.0.4.6.tar.gz --markdown 20230712/a/autodox/0.0.4.5-0.0.4.6/diff.md --exclude *.pyd
+[2023-07-12 01:37:26] INFO root fetch - processPackages [inquirer3]: executing diffoscope
+[2023-07-12 01:37:26] INFO root fetch - processPackages [inquirer3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inquirer3-0.1.0.tar.gz tmp/inquirer3-0.1.1.tar.gz --markdown 20230712/i/inquirer3/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-12 01:37:26] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/f4/e7/30cfcbe97b6bb3540f15b5332607e01f954e92fdf4e3340d25f6dd98acd2/TapisCL-ICICLE-0.2.2.tar.gz
+[2023-07-12 01:37:26] INFO root fetch - processPackages [TapisCL-ICICLE]: executing diffoscope
+[2023-07-12 01:37:26] INFO root fetch - processPackages [TapisCL-ICICLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TapisCL-ICICLE-0.2.1.tar.gz tmp/TapisCL-ICICLE-0.2.2.tar.gz --markdown 20230712/T/TapisCL-ICICLE/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-12 01:37:26] INFO root fetch - processPackages [dapperdata]: executing diffoscope
+[2023-07-12 01:37:26] INFO root fetch - processPackages [dapperdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapperdata-0.3.0.tar.gz tmp/dapperdata-0.4.0.tar.gz --markdown 20230712/d/dapperdata/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-12 01:37:27] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.7.3.tar.gz]
+[2023-07-12 01:37:27] INFO root fetch - processPackages [hkfdb]: Remove: archive file [/home/abi/fetcher/tmp/hkfdb-3.7.4.tar.gz]
+[2023-07-12 01:37:27] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-07-12 01:37:27] INFO root fetch - processPackages [magnify]: Remove: archive file [/home/abi/fetcher/tmp/magnify-0.4.0.tar.gz]
+[2023-07-12 01:37:27] INFO root fetch - processPackages [magnify]: Remove: archive file [/home/abi/fetcher/tmp/magnify-0.4.1.tar.gz]
+[2023-07-12 01:37:27] INFO root fetch - main [MainThread]: End processing [magnify]: success
+[2023-07-12 01:37:27] INFO root fetch - processPackages [autodox]: Remove: archive file [/home/abi/fetcher/tmp/autodox-0.0.4.5.tar.gz]
+[2023-07-12 01:37:27] INFO root fetch - processPackages [autodox]: Remove: archive file [/home/abi/fetcher/tmp/autodox-0.0.4.6.tar.gz]
+[2023-07-12 01:37:27] INFO root fetch - main [MainThread]: End processing [autodox]: success
+[2023-07-12 01:37:27] INFO root fetch - processPackages [inquirer3]: Remove: archive file [/home/abi/fetcher/tmp/inquirer3-0.1.0.tar.gz]
+[2023-07-12 01:37:27] INFO root fetch - processPackages [inquirer3]: Remove: archive file [/home/abi/fetcher/tmp/inquirer3-0.1.1.tar.gz]
+[2023-07-12 01:37:27] INFO root fetch - main [MainThread]: End processing [inquirer3]: success
+[2023-07-12 01:37:27] INFO root fetch - processPackages [dapperdata]: Remove: archive file [/home/abi/fetcher/tmp/dapperdata-0.3.0.tar.gz]
+[2023-07-12 01:37:27] INFO root fetch - processPackages [dapperdata]: Remove: archive file [/home/abi/fetcher/tmp/dapperdata-0.4.0.tar.gz]
+[2023-07-12 01:37:27] INFO root fetch - main [MainThread]: End processing [dapperdata]: success
+[2023-07-12 01:37:27] INFO root fetch - processPackages [TapisCL-ICICLE]: Remove: archive file [/home/abi/fetcher/tmp/TapisCL-ICICLE-0.2.1.tar.gz]
+[2023-07-12 01:37:27] INFO root fetch - processPackages [TapisCL-ICICLE]: Remove: archive file [/home/abi/fetcher/tmp/TapisCL-ICICLE-0.2.2.tar.gz]
+[2023-07-12 01:37:27] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
+[2023-07-12 01:37:27] INFO root fetch - main [MainThread]: Store serial: [18851826]
