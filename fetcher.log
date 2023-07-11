@@ -1749,3 +1749,75 @@
 [2023-07-12 01:42:39] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.3rc0-py3-none-any.whl.zip]
 [2023-07-12 01:42:39] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2023-07-12 01:42:39] INFO root fetch - main [MainThread]: Store serial: [18851868]
+[2023-07-12 01:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851868]
+[2023-07-12 01:47:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-12 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-scheduling
+[2023-07-12 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-cv
+[2023-07-12 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phidata
+[2023-07-12 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skyplane-nightly
+[2023-07-12 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smoldyn
+[2023-07-12 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smoldyn
+[2023-07-12 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coffeepy
+[2023-07-12 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2023-07-12 01:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: launchable
+[2023-07-12 01:47:48] WARNING root fetch - processPackages [coffeepy]: Skipping, unable to determine old version
+[2023-07-12 01:47:48] INFO root fetch - main [MainThread]: End processing [coffeepy] error
+[2023-07-12 01:47:48] INFO root fetch - processPackages [pypomes-scheduling]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-12 01:47:48] INFO root fetch - processPackages [keras-cv]: New version: [0.6.1] Old Version: [0.6.0.dev0]
+[2023-07-12 01:47:48] INFO root fetch - processPackages [launchable]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-12 01:47:48] INFO root fetch - processPackages [phidata]: New version: [2.0.0.dev2] Old Version: [2.0.0.dev1]
+[2023-07-12 01:47:48] INFO root fetch - processPackages [smoldyn]: New version: [2.72.dev202307112342] Old Version: [2.72.dev202307112341]
+[2023-07-12 01:47:48] INFO root fetch - processPackages [smoldyn]: New version: [2.72.dev202307112342] Old Version: [2.72.dev202307112341]
+[2023-07-12 01:47:48] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.29.0.dev20230711] Old Version: [1.28.0.dev20230707]
+[2023-07-12 01:47:48] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230711] Old Version: [0.3.2.dev20230710]
+[2023-07-12 01:47:48] INFO root fetch - processPackages [keras-cv]: Downloading https://files.pythonhosted.org/packages/19/de/f42c24c547c4c56ca3f84e017f336e9e06819be0d6f2f7ada0069870833a/keras_cv-0.6.0.dev0-py3-none-any.whl
+[2023-07-12 01:47:48] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/c6/d8/455980c98038f6d7c9b711cd261c45c0cbe481ce5f49178fb6139611f9a8/phidata-2.0.0.dev1.tar.gz
+[2023-07-12 01:47:48] INFO root fetch - processPackages [pypomes-scheduling]: Downloading https://files.pythonhosted.org/packages/51/c6/32864c04081ff38084879e4b50670c0d65b7cae7813e783c166bc3c1d3e4/pypomes_scheduling-0.1.7.tar.gz
+[2023-07-12 01:47:48] INFO root fetch - processPackages [launchable]: Downloading https://files.pythonhosted.org/packages/2e/04/2169ed764cf3f5aadb8a30fda8dc6ede383388a7e3a7a47ed77123c89ddc/launchable-1.8.0.tar.gz
+[2023-07-12 01:47:48] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/38/80/daef50e69e4c6ad26271df8970c7fed8a29d1bd3782b709f8e78aae55f27/smoldyn-2.72.dev202307112341-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-07-12 01:47:48] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/38/80/daef50e69e4c6ad26271df8970c7fed8a29d1bd3782b709f8e78aae55f27/smoldyn-2.72.dev202307112341-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-07-12 01:47:48] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/b1/56/e63e5dc099c73a962360b149f2347b699abc51ef76ef6ca87b061a5beb06/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230707.tar.gz
+[2023-07-12 01:47:48] WARNING root fetch - processPackages [launchable]: Skipping package: exceeds size limit 18312374>=10485760
+[2023-07-12 01:47:48] INFO root fetch - main [MainThread]: End processing [launchable] error
+[2023-07-12 01:47:48] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/77/b9/8cc659a293e38b1e68b115979585c5548a08bc2fbab75248c0a34b102d00/skyplane_nightly-0.3.2.dev20230710.tar.gz
+[2023-07-12 01:47:49] INFO root fetch - processPackages [pypomes-scheduling]: Downloading https://files.pythonhosted.org/packages/ac/4f/7be973774abc594d07d20a1c1fa06f8abe071083f3b229e984b9679c2ce7/pypomes_scheduling-0.1.8.tar.gz
+[2023-07-12 01:47:49] INFO root fetch - processPackages [keras-cv]: Downloading https://files.pythonhosted.org/packages/ff/5e/bccabe268ea0fb950b8af780f9f6191760629de6af54da7fc90dd69b9f57/keras_cv-0.6.1-py3-none-any.whl
+[2023-07-12 01:47:49] INFO root fetch - processPackages [pypomes-scheduling]: executing diffoscope
+[2023-07-12 01:47:49] INFO root fetch - processPackages [pypomes-scheduling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_scheduling-0.1.7.tar.gz tmp/pypomes_scheduling-0.1.8.tar.gz --markdown 20230712/p/pypomes-scheduling/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-12 01:47:49] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/9c/bd/2693994149baafc783e8177aa5f81979b4fbfacf2e878d69e022d3a48e6f/phidata-2.0.0.dev2.tar.gz
+[2023-07-12 01:47:49] INFO root fetch - processPackages [keras-cv]: executing diffoscope
+[2023-07-12 01:47:49] INFO root fetch - processPackages [keras-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv-0.6.0.dev0-py3-none-any.whl.zip tmp/keras_cv-0.6.1-py3-none-any.whl.zip --markdown 20230712/k/keras-cv/0.6.0.dev0-0.6.1/diff.md --exclude *.pyd
+[2023-07-12 01:47:49] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/20/16/e15c9faf666478c3e0e234fea66bf31c4df45eca7086f69412ee424e7160/nvidia-dali-tf-plugin-nightly-cuda120-1.29.0.dev20230711.tar.gz
+[2023-07-12 01:47:49] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-07-12 01:47:49] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.0.0.dev1.tar.gz tmp/phidata-2.0.0.dev2.tar.gz --markdown 20230712/p/phidata/2.0.0.dev1-2.0.0.dev2/diff.md --exclude *.pyd
+[2023-07-12 01:47:49] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/9c/0e/893e4bd51345fe31c1586c02b880d2d62b5138654820cd2064a21b7d2b4b/skyplane_nightly-0.3.2.dev20230711.tar.gz
+[2023-07-12 01:47:49] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2023-07-12 01:47:49] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230707.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.29.0.dev20230711.tar.gz --markdown 20230712/n/nvidia-dali-tf-plugin-nightly-cuda120/1.28.0.dev20230707-1.29.0.dev20230711/diff.md --exclude *.pyd
+[2023-07-12 01:47:49] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-12 01:47:49] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230710.tar.gz tmp/skyplane_nightly-0.3.2.dev20230711.tar.gz --markdown 20230712/s/skyplane-nightly/0.3.2.dev20230710-0.3.2.dev20230711/diff.md --exclude *.pyd
+[2023-07-12 01:47:49] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/6a/21/8fd710ea4ea102f19005d2a68047276a3ec9ab8b2cb3caea29f1efc0cc6f/smoldyn-2.72.dev202307112342-cp39-cp39-win_amd64.whl
+[2023-07-12 01:47:49] INFO root fetch - processPackages [smoldyn]: Downloading https://files.pythonhosted.org/packages/6a/21/8fd710ea4ea102f19005d2a68047276a3ec9ab8b2cb3caea29f1efc0cc6f/smoldyn-2.72.dev202307112342-cp39-cp39-win_amd64.whl
+[2023-07-12 01:47:50] INFO root fetch - processPackages [pypomes-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_scheduling-0.1.7.tar.gz]
+[2023-07-12 01:47:50] INFO root fetch - processPackages [pypomes-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_scheduling-0.1.8.tar.gz]
+[2023-07-12 01:47:50] INFO root fetch - main [MainThread]: End processing [pypomes-scheduling]: success
+[2023-07-12 01:47:50] INFO root fetch - processPackages [smoldyn]: executing diffoscope
+[2023-07-12 01:47:50] INFO root fetch - processPackages [smoldyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoldyn-2.72.dev202307112341-cp39-cp39-macosx_11_0_x86_64.whl.zip tmp/smoldyn-2.72.dev202307112342-cp39-cp39-win_amd64.whl.zip --markdown 20230712/s/smoldyn/2.72.dev202307112341-2.72.dev202307112342/diff.md --exclude *.pyd
+[2023-07-12 01:47:50] INFO root fetch - processPackages [smoldyn]: executing diffoscope
+[2023-07-12 01:47:50] INFO root fetch - processPackages [smoldyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoldyn-2.72.dev202307112341-cp39-cp39-macosx_11_0_x86_64.whl.zip tmp/smoldyn-2.72.dev202307112342-cp39-cp39-win_amd64.whl.zip --markdown 20230712/s/smoldyn/2.72.dev202307112341-2.72.dev202307112342/diff.md --exclude *.pyd
+[2023-07-12 01:47:50] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.0.0.dev1.tar.gz]
+[2023-07-12 01:47:50] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.0.0.dev2.tar.gz]
+[2023-07-12 01:47:50] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-07-12 01:47:50] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230707.tar.gz]
+[2023-07-12 01:47:50] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.29.0.dev20230711.tar.gz]
+[2023-07-12 01:47:50] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2023-07-12 01:47:51] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230710.tar.gz]
+[2023-07-12 01:47:51] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230711.tar.gz]
+[2023-07-12 01:47:51] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-12 01:47:51] INFO root fetch - processPackages [smoldyn]: Remove: archive file [/home/abi/fetcher/tmp/smoldyn-2.72.dev202307112341-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2023-07-12 01:47:51] INFO root fetch - processPackages [smoldyn]: Remove: archive file [/home/abi/fetcher/tmp/smoldyn-2.72.dev202307112342-cp39-cp39-win_amd64.whl.zip]
+[2023-07-12 01:47:51] INFO root fetch - main [MainThread]: End processing [smoldyn]: success
+[2023-07-12 01:47:51] INFO root fetch - main [MainThread]: End processing [smoldyn]: success
+[2023-07-12 01:47:51] INFO root fetch - processPackages [keras-cv]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv-0.6.0.dev0-py3-none-any.whl.zip]
+[2023-07-12 01:47:51] INFO root fetch - processPackages [keras-cv]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv-0.6.1-py3-none-any.whl.zip]
+[2023-07-12 01:47:51] INFO root fetch - main [MainThread]: End processing [keras-cv]: success
+[2023-07-12 01:47:51] INFO root fetch - main [MainThread]: Store serial: [18851901]
