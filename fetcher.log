@@ -1372,3 +1372,51 @@
 [2023-07-12 01:11:22] INFO root fetch - processPackages [es7s]: Remove: archive file [/home/abi/fetcher/tmp/es7s-3.6.0.dev0.tar.gz]
 [2023-07-12 01:11:22] INFO root fetch - main [MainThread]: End processing [es7s]: success
 [2023-07-12 01:11:22] INFO root fetch - main [MainThread]: Store serial: [18851724]
+[2023-07-12 01:16:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851724]
+[2023-07-12 01:16:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-12 01:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miniature-lighting-desk
+[2023-07-12 01:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-storage-file-share
+[2023-07-12 01:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-07-12 01:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pcdsdevices
+[2023-07-12 01:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nginx-ldap-auth-service
+[2023-07-12 01:16:32] INFO root fetch - processPackages [nginx-ldap-auth-service]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-12 01:16:32] INFO root fetch - processPackages [pcdsdevices]: New version: [7.4.3] Old Version: [7.4.2]
+[2023-07-12 01:16:32] INFO root fetch - processPackages [azure-storage-file-share]: New version: [12.9.0b1] Old Version: [12.9.0]
+[2023-07-12 01:16:32] INFO root fetch - processPackages [miniature-lighting-desk]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-12 01:16:32] INFO root fetch - processPackages [coiled]: New version: [0.8.7.dev7] Old Version: [0.8.7.dev6]
+[2023-07-12 01:16:32] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/7d/91/4d508e5aa598fbe7490537d23f0e2d84a528d932e3e7ef268148a19d9592/coiled-0.8.7.dev6.tar.gz
+[2023-07-12 01:16:32] INFO root fetch - processPackages [nginx-ldap-auth-service]: Downloading https://files.pythonhosted.org/packages/2c/e1/a4e00fbb0ed4279d522237707a08e8a46a8f5b77baa81d9b70d3da7172ec/nginx-ldap-auth-service-2.0.0.tar.gz
+[2023-07-12 01:16:33] INFO root fetch - processPackages [pcdsdevices]: Downloading https://files.pythonhosted.org/packages/fd/ba/070534ef6d848d8e51b483ebba48a14964c49492c39fe22f59fbbb752a2d/pcdsdevices-7.4.2.tar.gz
+[2023-07-12 01:16:33] INFO root fetch - processPackages [miniature-lighting-desk]: Downloading https://files.pythonhosted.org/packages/68/36/940329083f5d9dd89fb18da2515dd0a565310497df7fe13484da8c0ec6a5/miniature_lighting_desk-0.2.0.tar.gz
+[2023-07-12 01:16:33] INFO root fetch - processPackages [azure-storage-file-share]: Downloading https://files.pythonhosted.org/packages/f4/37/560549bee633faa71830f5f3f21e47f888d1c02f7a21cd061d359462d55f/azure-storage-file-share-12.9.0.zip
+[2023-07-12 01:16:33] INFO root fetch - processPackages [nginx-ldap-auth-service]: Downloading https://files.pythonhosted.org/packages/3e/e1/011ad3fdd12d171150d0686dbdf91a9a4bb8a361309d8cd9be4b07d80bda/nginx-ldap-auth-service-2.0.1.tar.gz
+[2023-07-12 01:16:33] INFO root fetch - processPackages [nginx-ldap-auth-service]: executing diffoscope
+[2023-07-12 01:16:33] INFO root fetch - processPackages [nginx-ldap-auth-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nginx-ldap-auth-service-2.0.0.tar.gz tmp/nginx-ldap-auth-service-2.0.1.tar.gz --markdown 20230712/n/nginx-ldap-auth-service/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-12 01:16:33] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/3d/c3/1e5c3a13c4a7dbcafd3f626315f6503f0bf0f36eb4321e83b0401e55deb0/coiled-0.8.7.dev7.tar.gz
+[2023-07-12 01:16:33] INFO root fetch - processPackages [miniature-lighting-desk]: Downloading https://files.pythonhosted.org/packages/11/7c/c65ee2e2b1a9e9d24a310eab0115e6c13da93e62a49b749979c60ce358c4/miniature_lighting_desk-0.3.0.tar.gz
+[2023-07-12 01:16:33] INFO root fetch - processPackages [miniature-lighting-desk]: executing diffoscope
+[2023-07-12 01:16:33] INFO root fetch - processPackages [miniature-lighting-desk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniature_lighting_desk-0.2.0.tar.gz tmp/miniature_lighting_desk-0.3.0.tar.gz --markdown 20230712/m/miniature-lighting-desk/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-12 01:16:33] INFO root fetch - processPackages [pcdsdevices]: Downloading https://files.pythonhosted.org/packages/ff/a4/3c196a45fada3a7f87f5d7c176a29a8741cbbae104e0801243ed94c5f8f3/pcdsdevices-7.4.3.tar.gz
+[2023-07-12 01:16:33] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-12 01:16:33] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.7.dev6.tar.gz tmp/coiled-0.8.7.dev7.tar.gz --markdown 20230712/c/coiled/0.8.7.dev6-0.8.7.dev7/diff.md --exclude *.pyd
+[2023-07-12 01:16:33] INFO root fetch - processPackages [pcdsdevices]: executing diffoscope
+[2023-07-12 01:16:33] INFO root fetch - processPackages [pcdsdevices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcdsdevices-7.4.2.tar.gz tmp/pcdsdevices-7.4.3.tar.gz --markdown 20230712/p/pcdsdevices/7.4.2-7.4.3/diff.md --exclude *.pyd
+[2023-07-12 01:16:33] INFO root fetch - processPackages [azure-storage-file-share]: Downloading https://files.pythonhosted.org/packages/9b/b3/b1bb1c7c42ddb873263513e2432a525617c639f3a269bdea5573c3cda516/azure-storage-file-share-12.9.0b1.zip
+[2023-07-12 01:16:33] INFO root fetch - processPackages [azure-storage-file-share]: executing diffoscope
+[2023-07-12 01:16:33] INFO root fetch - processPackages [azure-storage-file-share]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-storage-file-share-12.9.0.zip tmp/azure-storage-file-share-12.9.0b1.zip --markdown 20230712/a/azure-storage-file-share/12.9.0-12.9.0b1/diff.md --exclude *.pyd
+[2023-07-12 01:16:34] INFO root fetch - processPackages [nginx-ldap-auth-service]: Remove: archive file [/home/abi/fetcher/tmp/nginx-ldap-auth-service-2.0.0.tar.gz]
+[2023-07-12 01:16:34] INFO root fetch - processPackages [nginx-ldap-auth-service]: Remove: archive file [/home/abi/fetcher/tmp/nginx-ldap-auth-service-2.0.1.tar.gz]
+[2023-07-12 01:16:34] INFO root fetch - main [MainThread]: End processing [nginx-ldap-auth-service]: success
+[2023-07-12 01:16:34] INFO root fetch - processPackages [miniature-lighting-desk]: Remove: archive file [/home/abi/fetcher/tmp/miniature_lighting_desk-0.2.0.tar.gz]
+[2023-07-12 01:16:34] INFO root fetch - processPackages [miniature-lighting-desk]: Remove: archive file [/home/abi/fetcher/tmp/miniature_lighting_desk-0.3.0.tar.gz]
+[2023-07-12 01:16:34] INFO root fetch - main [MainThread]: End processing [miniature-lighting-desk]: success
+[2023-07-12 01:16:34] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.7.dev6.tar.gz]
+[2023-07-12 01:16:34] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.7.dev7.tar.gz]
+[2023-07-12 01:16:34] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-12 01:16:35] INFO root fetch - processPackages [azure-storage-file-share]: Remove: archive file [/home/abi/fetcher/tmp/azure-storage-file-share-12.9.0.zip]
+[2023-07-12 01:16:35] INFO root fetch - processPackages [azure-storage-file-share]: Remove: archive file [/home/abi/fetcher/tmp/azure-storage-file-share-12.9.0b1.zip]
+[2023-07-12 01:16:35] INFO root fetch - main [MainThread]: End processing [azure-storage-file-share]: success
+[2023-07-12 01:16:35] INFO root fetch - processPackages [pcdsdevices]: Remove: archive file [/home/abi/fetcher/tmp/pcdsdevices-7.4.2.tar.gz]
+[2023-07-12 01:16:35] INFO root fetch - processPackages [pcdsdevices]: Remove: archive file [/home/abi/fetcher/tmp/pcdsdevices-7.4.3.tar.gz]
+[2023-07-12 01:16:35] INFO root fetch - main [MainThread]: End processing [pcdsdevices]: success
+[2023-07-12 01:16:35] INFO root fetch - main [MainThread]: Store serial: [18851740]
