@@ -1,4 +1,4 @@
-# Comparing `tmp/flytekitplugins-onnxscikitlearn-1.7.1b1.tar.gz` & `tmp/flytekitplugins_onnxscikitlearn-1.8.0-py3-none-any.whl.zip`
+# Comparing `tmp/flytekitplugins-onnxscikitlearn-1.7.1b1.tar.gz` & `tmp/flytekitplugins-onnxscikitlearn-1.8.0.tar.gz`
 
 ## filetype from file(1)
 
