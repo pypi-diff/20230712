@@ -1018,3 +1018,59 @@
 [2023-07-12 00:45:16] INFO root fetch - processPackages [ansys-meshing-prime]: Remove: archive file [/home/abi/fetcher/tmp/ansys_meshing_prime-0.4.0.dev9.tar.gz]
 [2023-07-12 00:45:16] INFO root fetch - main [MainThread]: End processing [ansys-meshing-prime]: success
 [2023-07-12 00:45:16] INFO root fetch - main [MainThread]: Store serial: [18851544]
+[2023-07-12 00:50:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851544]
+[2023-07-12 00:50:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-12 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swiftly-unix
+[2023-07-12 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: music-assistant
+[2023-07-12 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypno
+[2023-07-12 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lalsuite
+[2023-07-12 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swiftly-unix
+[2023-07-12 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-dali-nightly-cuda120
+[2023-07-12 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pcdscalc
+[2023-07-12 00:50:26] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-12 00:50:26] INFO root fetch - processPackages [swiftly-unix]: New version: [0.1.16] Old Version: [0.1.0b0]
+[2023-07-12 00:50:26] INFO root fetch - processPackages [swiftly-unix]: New version: [0.1.16] Old Version: [0.1.0b0]
+[2023-07-12 00:50:26] INFO root fetch - processPackages [hypno]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-12 00:50:26] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-07-12 00:50:26] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.29.0.dev20230711] Old Version: [1.28.0.dev20230707]
+[2023-07-12 00:50:26] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-12 00:50:26] INFO root fetch - processPackages [pcdscalc]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-12 00:50:26] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 00:50:26] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/11/5c/65681b5aab7ca99aa8a1788e7932305425db46c93151b009b839b7fc66f7/swiftly-unix-0.1.0.beta.tar.gz
+[2023-07-12 00:50:26] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/11/5c/65681b5aab7ca99aa8a1788e7932305425db46c93151b009b839b7fc66f7/swiftly-unix-0.1.0.beta.tar.gz
+[2023-07-12 00:50:26] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-12 00:50:26] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-12 00:50:26] INFO root fetch - processPackages [hypno]: Downloading https://files.pythonhosted.org/packages/45/5d/12ec3c26e396890a0363cd4809c9856af2ebfd3e963da8d068dd1969d8aa/hypno-1.0.2.tar.gz
+[2023-07-12 00:50:26] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-07-12 00:50:26] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-07-12 00:50:26] INFO root fetch - processPackages [pcdscalc]: Downloading https://files.pythonhosted.org/packages/d6/89/d7307eab51470fa7ea49e00aed5b07e8275fac368232fdd8770d1f4ee2ea/pcdscalc-0.4.1.tar.gz
+[2023-07-12 00:50:26] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/e8/59/0498aee745973a3d3f09337c21228032c1e13ad076673f913fa1fec680f0/nvidia-dali-nightly-cuda120-1.28.0.dev20230707.tar.gz
+[2023-07-12 00:50:26] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/ab/0b/e0fc551e9a7473c50cdbe470e8dfa88432341841c3508522b8cdb6f797bc/swiftly-unix-0.1.16.tar.gz
+[2023-07-12 00:50:26] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/ab/0b/e0fc551e9a7473c50cdbe470e8dfa88432341841c3508522b8cdb6f797bc/swiftly-unix-0.1.16.tar.gz
+[2023-07-12 00:50:26] INFO root fetch - processPackages [hypno]: Downloading https://files.pythonhosted.org/packages/ea/06/cbb4d1bdcc130912bff18d669b8af9560892896c01cbe7b5d5a935dfe114/hypno-1.0.3.tar.gz
+[2023-07-12 00:50:26] INFO root fetch - processPackages [swiftly-unix]: executing diffoscope
+[2023-07-12 00:50:26] INFO root fetch - processPackages [swiftly-unix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-unix-0.1.0.beta.tar.gz tmp/swiftly-unix-0.1.16.tar.gz --markdown 20230712/s/swiftly-unix/0.1.0b0-0.1.16/diff.md --exclude *.pyd
+[2023-07-12 00:50:26] INFO root fetch - processPackages [swiftly-unix]: executing diffoscope
+[2023-07-12 00:50:26] INFO root fetch - processPackages [swiftly-unix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-unix-0.1.0.beta.tar.gz tmp/swiftly-unix-0.1.16.tar.gz --markdown 20230712/s/swiftly-unix/0.1.0b0-0.1.16/diff.md --exclude *.pyd
+[2023-07-12 00:50:27] INFO root fetch - processPackages [hypno]: executing diffoscope
+[2023-07-12 00:50:27] INFO root fetch - processPackages [hypno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypno-1.0.2.tar.gz tmp/hypno-1.0.3.tar.gz --markdown 20230712/h/hypno/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-12 00:50:27] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/8a/0d/afe1e928cec7fe15a3badf9b11965de7f174b3d196df58ade802c87d2407/nvidia-dali-nightly-cuda120-1.29.0.dev20230711.tar.gz
+[2023-07-12 00:50:27] INFO root fetch - processPackages [pcdscalc]: Downloading https://files.pythonhosted.org/packages/b7/62/73425e3ef7bd589cfed299c370bc4042e6171461d62299d69fa8fd62c1fe/pcdscalc-0.4.2.tar.gz
+[2023-07-12 00:50:27] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2023-07-12 00:50:27] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230707.tar.gz tmp/nvidia-dali-nightly-cuda120-1.29.0.dev20230711.tar.gz --markdown 20230712/n/nvidia-dali-nightly-cuda120/1.28.0.dev20230707-1.29.0.dev20230711/diff.md --exclude *.pyd
+[2023-07-12 00:50:27] INFO root fetch - processPackages [pcdscalc]: executing diffoscope
+[2023-07-12 00:50:27] INFO root fetch - processPackages [pcdscalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcdscalc-0.4.1.tar.gz tmp/pcdscalc-0.4.2.tar.gz --markdown 20230712/p/pcdscalc/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-12 00:50:27] INFO root fetch - processPackages [swiftly-unix]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-unix-0.1.0.beta.tar.gz]
+[2023-07-12 00:50:27] INFO root fetch - processPackages [swiftly-unix]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-unix-0.1.16.tar.gz]
+[2023-07-12 00:50:27] INFO root fetch - main [MainThread]: End processing [swiftly-unix]: success
+[2023-07-12 00:50:27] INFO root fetch - processPackages [hypno]: Remove: archive file [/home/abi/fetcher/tmp/hypno-1.0.2.tar.gz]
+[2023-07-12 00:50:27] INFO root fetch - processPackages [hypno]: Remove: archive file [/home/abi/fetcher/tmp/hypno-1.0.3.tar.gz]
+[2023-07-12 00:50:28] INFO root fetch - main [MainThread]: End processing [hypno]: success
+[2023-07-12 00:50:28] INFO root fetch - main [MainThread]: End processing [swiftly-unix]: success
+[2023-07-12 00:50:28] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230707.tar.gz]
+[2023-07-12 00:50:28] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.29.0.dev20230711.tar.gz]
+[2023-07-12 00:50:28] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2023-07-12 00:50:28] INFO root fetch - processPackages [pcdscalc]: Remove: archive file [/home/abi/fetcher/tmp/pcdscalc-0.4.1.tar.gz]
+[2023-07-12 00:50:28] INFO root fetch - processPackages [pcdscalc]: Remove: archive file [/home/abi/fetcher/tmp/pcdscalc-0.4.2.tar.gz]
+[2023-07-12 00:50:28] INFO root fetch - main [MainThread]: End processing [pcdscalc]: success
+[2023-07-12 00:50:28] INFO root fetch - main [MainThread]: Store serial: [18851602]
