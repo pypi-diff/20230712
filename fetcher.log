@@ -1539,3 +1539,40 @@
 [2023-07-12 01:21:53] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
 [2023-07-12 01:21:53] INFO root fetch - main [MainThread]: End processing [anyscale]: success
 [2023-07-12 01:21:53] INFO root fetch - main [MainThread]: Store serial: [18851778]
+[2023-07-12 01:26:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851778]
+[2023-07-12 01:27:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-12 01:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fondat
+[2023-07-12 01:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magnify
+[2023-07-12 01:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magnify
+[2023-07-12 01:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discovery-core
+[2023-07-12 01:27:03] INFO root fetch - processPackages [discovery-core]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-12 01:27:03] INFO root fetch - processPackages [magnify]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-12 01:27:03] INFO root fetch - processPackages [magnify]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-12 01:27:03] INFO root fetch - processPackages [fondat]: New version: [4.1.7] Old Version: [4.1.6]
+[2023-07-12 01:27:03] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/62/ea/774a377ea373d8023558167727089149b6360c6f9e6692495ba0469f5700/discovery-core-0.1.5.tar.gz
+[2023-07-12 01:27:03] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/c8/67/97b125d85c79dd97560effff73712de52d913dd1335c60489d963f7d0a0a/magnify-0.4.0.tar.gz
+[2023-07-12 01:27:03] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/c8/67/97b125d85c79dd97560effff73712de52d913dd1335c60489d963f7d0a0a/magnify-0.4.0.tar.gz
+[2023-07-12 01:27:03] INFO root fetch - processPackages [fondat]: Downloading https://files.pythonhosted.org/packages/57/c1/c865c42ef82b0b0ff5cd87217e59a1661cb88f449ffbdf7257c975b79a0e/fondat-4.1.6.tar.gz
+[2023-07-12 01:27:03] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/13/36/d50fd8d4c861f4d2baffa4c1ad74bbcd96aa535ccde2d92cf54d82e3b502/discovery-core-0.1.6.tar.gz
+[2023-07-12 01:27:03] INFO root fetch - processPackages [fondat]: Downloading https://files.pythonhosted.org/packages/02/c4/4a9d72c7ab2e10d94785ea92db81ab5a971611ef53cfb672d9b9d400a541/fondat-4.1.7.tar.gz
+[2023-07-12 01:27:03] INFO root fetch - processPackages [discovery-core]: executing diffoscope
+[2023-07-12 01:27:03] INFO root fetch - processPackages [discovery-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-core-0.1.5.tar.gz tmp/discovery-core-0.1.6.tar.gz --markdown 20230712/d/discovery-core/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-12 01:27:03] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/c2/f3/c2c8bc2928b0f37eb01036e7775690c269575903f6b52af410440dd8a642/magnify-0.4.1.tar.gz
+[2023-07-12 01:27:03] INFO root fetch - processPackages [magnify]: Downloading https://files.pythonhosted.org/packages/c2/f3/c2c8bc2928b0f37eb01036e7775690c269575903f6b52af410440dd8a642/magnify-0.4.1.tar.gz
+[2023-07-12 01:27:04] INFO root fetch - processPackages [fondat]: executing diffoscope
+[2023-07-12 01:27:04] INFO root fetch - processPackages [fondat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondat-4.1.6.tar.gz tmp/fondat-4.1.7.tar.gz --markdown 20230712/f/fondat/4.1.6-4.1.7/diff.md --exclude *.pyd
+[2023-07-12 01:27:04] INFO root fetch - processPackages [magnify]: executing diffoscope
+[2023-07-12 01:27:04] INFO root fetch - processPackages [magnify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnify-0.4.0.tar.gz tmp/magnify-0.4.1.tar.gz --markdown 20230712/m/magnify/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-12 01:27:04] INFO root fetch - processPackages [magnify]: executing diffoscope
+[2023-07-12 01:27:04] INFO root fetch - processPackages [magnify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnify-0.4.0.tar.gz tmp/magnify-0.4.1.tar.gz --markdown 20230712/m/magnify/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-12 01:27:04] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.1.5.tar.gz]
+[2023-07-12 01:27:04] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.1.6.tar.gz]
+[2023-07-12 01:27:04] INFO root fetch - main [MainThread]: End processing [discovery-core]: success
+[2023-07-12 01:27:04] INFO root fetch - processPackages [magnify]: Remove: archive file [/home/abi/fetcher/tmp/magnify-0.4.0.tar.gz]
+[2023-07-12 01:27:04] INFO root fetch - processPackages [magnify]: Remove: archive file [/home/abi/fetcher/tmp/magnify-0.4.1.tar.gz]
+[2023-07-12 01:27:04] INFO root fetch - main [MainThread]: End processing [magnify]: success
+[2023-07-12 01:27:04] INFO root fetch - processPackages [fondat]: Remove: archive file [/home/abi/fetcher/tmp/fondat-4.1.6.tar.gz]
+[2023-07-12 01:27:04] INFO root fetch - processPackages [fondat]: Remove: archive file [/home/abi/fetcher/tmp/fondat-4.1.7.tar.gz]
+[2023-07-12 01:27:04] INFO root fetch - main [MainThread]: End processing [fondat]: success
+[2023-07-12 01:27:05] INFO root fetch - main [MainThread]: End processing [magnify]: success
+[2023-07-12 01:27:05] INFO root fetch - main [MainThread]: Store serial: [18851790]
