@@ -871,3 +871,81 @@
 [2023-07-12 00:34:16] INFO root fetch - processPackages [opentaskpy]: Remove: archive file [/home/abi/fetcher/tmp/opentaskpy-0.9.0.tar.gz]
 [2023-07-12 00:34:16] INFO root fetch - main [MainThread]: End processing [opentaskpy]: success
 [2023-07-12 00:34:16] INFO root fetch - main [MainThread]: Store serial: [18851486]
+[2023-07-12 00:39:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851486]
+[2023-07-12 00:39:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-12 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: connpy
+[2023-07-12 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aa-miningtaxes
+[2023-07-12 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whoi-directory-tree
+[2023-07-12 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-services
+[2023-07-12 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deeplake
+[2023-07-12 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: music-assistant
+[2023-07-12 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: symbal
+[2023-07-12 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: benchling-api-client
+[2023-07-12 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: indy-credx
+[2023-07-12 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nlpia2
+[2023-07-12 00:39:25] INFO root fetch - processPackages [aa-miningtaxes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-12 00:39:25] INFO root fetch - processPackages [indy-credx]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-12 00:39:25] INFO root fetch - processPackages [deeplake]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-07-12 00:39:25] WARNING root fetch - processPackages [whoi-directory-tree]: Skipping, unable to determine old version
+[2023-07-12 00:39:25] INFO root fetch - processPackages [np-services]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 00:39:25] INFO root fetch - main [MainThread]: End processing [whoi-directory-tree] error
+[2023-07-12 00:39:25] INFO root fetch - processPackages [nlpia2]: New version: [0.0.32] Old Version: [0.0.29]
+[2023-07-12 00:39:25] INFO root fetch - processPackages [symbal]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-12 00:39:25] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-12 00:39:25] INFO root fetch - processPackages [connpy]: New version: [3.3.0] Old Version: [3.2.8]
+[2023-07-12 00:39:25] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-12 00:39:25] INFO root fetch - processPackages [np-services]: Downloading https://files.pythonhosted.org/packages/84/ea/e2c9fa9f279604d3bbe3a9ea1c4a5c8d74703945b63aeb2fa63d134cd299/np_services-0.1.8.tar.gz
+[2023-07-12 00:39:25] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-07-12 00:39:25] INFO root fetch - processPackages [symbal]: Downloading https://files.pythonhosted.org/packages/24/2d/8d48e82dc8914c367eb6ff7d55507fc15cb79a337c5e37910f8832918387/symbal-0.0.4.tar.gz
+[2023-07-12 00:39:25] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/39/64/c4e55485e6d772b15175375ca59650a5af4a3f7e712097ac2078078ab373/aa-miningtaxes-1.2.8.tar.gz
+[2023-07-12 00:39:25] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/9d/70/96eb32734649cb99e32519622ef5c2cd116e38f586f577ec4f5005200fd9/deeplake-3.6.8.tar.gz
+[2023-07-12 00:39:25] INFO root fetch - processPackages [nlpia2]: Downloading https://files.pythonhosted.org/packages/36/eb/7c71fa293258d048adb1b44ffb3f2e2ba3e66fc0509c4d80a83c3dc1badf/nlpia2-0.0.29.tar.gz
+[2023-07-12 00:39:25] INFO root fetch - processPackages [connpy]: Downloading https://files.pythonhosted.org/packages/9c/db/4f6317aea92d34973a3f0ed4df080d8b6e0a816a87de8456906723f93b21/connpy-3.2.8.tar.gz
+[2023-07-12 00:39:25] WARNING root fetch - processPackages [nlpia2]: Skipping package: exceeds size limit 31059708>=10485760
+[2023-07-12 00:39:25] INFO root fetch - main [MainThread]: End processing [nlpia2] error
+[2023-07-12 00:39:25] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-12 00:39:25] INFO root fetch - processPackages [indy-credx]: Downloading https://files.pythonhosted.org/packages/b9/aa/4e51dd6a0940aae3632c3398fc4769c60b4a3bf24e40b1e844c65968d066/indy_credx-0.4.0-py3-none-manylinux2014_x86_64.whl
+[2023-07-12 00:39:26] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-12 00:39:26] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-12 00:39:26] INFO root fetch - processPackages [np-services]: Downloading https://files.pythonhosted.org/packages/42/01/4536fc7214f13ced23502af87e9b291e777b027674d29341527a660e1ef6/np_services-0.1.9.tar.gz
+[2023-07-12 00:39:26] INFO root fetch - processPackages [symbal]: Downloading https://files.pythonhosted.org/packages/cc/ae/b813edc97dc603cfaa41171931212944aba93d247258db662a8cadc26b4f/symbal-0.0.5.tar.gz
+[2023-07-12 00:39:26] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/db/06/9e86cd7848559f1c04f901cb810b8abc9ab64b8789572d2eee63d461ef4e/aa-miningtaxes-1.2.9.tar.gz
+[2023-07-12 00:39:26] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-07-12 00:39:26] INFO root fetch - processPackages [connpy]: Downloading https://files.pythonhosted.org/packages/ba/9e/b81386d4ebe4a72a2180e232d2055ac0ccf24fd06117afc358e29704f1f9/connpy-3.3.0.tar.gz
+[2023-07-12 00:39:26] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/bc/93/cf9565061098eb6d71162d1cc59e1916a05fbfaa461fdb566f9597e8fc0c/deeplake-3.6.9.tar.gz
+[2023-07-12 00:39:26] INFO root fetch - processPackages [np-services]: executing diffoscope
+[2023-07-12 00:39:26] INFO root fetch - processPackages [np-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_services-0.1.8.tar.gz tmp/np_services-0.1.9.tar.gz --markdown 20230712/n/np-services/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 00:39:26] INFO root fetch - processPackages [symbal]: executing diffoscope
+[2023-07-12 00:39:26] INFO root fetch - processPackages [symbal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbal-0.0.4.tar.gz tmp/symbal-0.0.5.tar.gz --markdown 20230712/s/symbal/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-12 00:39:26] INFO root fetch - processPackages [aa-miningtaxes]: executing diffoscope
+[2023-07-12 00:39:26] INFO root fetch - processPackages [aa-miningtaxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-miningtaxes-1.2.8.tar.gz tmp/aa-miningtaxes-1.2.9.tar.gz --markdown 20230712/a/aa-miningtaxes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-12 00:39:26] INFO root fetch - processPackages [connpy]: executing diffoscope
+[2023-07-12 00:39:26] INFO root fetch - processPackages [connpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connpy-3.2.8.tar.gz tmp/connpy-3.3.0.tar.gz --markdown 20230712/c/connpy/3.2.8-3.3.0/diff.md --exclude *.pyd
+[2023-07-12 00:39:26] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-07-12 00:39:26] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230712/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-12 00:39:26] INFO root fetch - processPackages [deeplake]: executing diffoscope
+[2023-07-12 00:39:26] INFO root fetch - processPackages [deeplake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplake-3.6.8.tar.gz tmp/deeplake-3.6.9.tar.gz --markdown 20230712/d/deeplake/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-07-12 00:39:26] INFO root fetch - processPackages [indy-credx]: executing diffoscope
+[2023-07-12 00:39:26] INFO root fetch - processPackages [indy-credx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indy_credx-0.3.3-py3-none-win_amd64.whl.zip tmp/indy_credx-0.4.0-py3-none-manylinux2014_x86_64.whl.zip --markdown 20230712/i/indy-credx/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-12 00:39:27] INFO root fetch - processPackages [np-services]: Remove: archive file [/home/abi/fetcher/tmp/np_services-0.1.8.tar.gz]
+[2023-07-12 00:39:27] INFO root fetch - processPackages [np-services]: Remove: archive file [/home/abi/fetcher/tmp/np_services-0.1.9.tar.gz]
+[2023-07-12 00:39:27] INFO root fetch - main [MainThread]: End processing [np-services]: success
+[2023-07-12 00:39:27] INFO root fetch - processPackages [connpy]: Remove: archive file [/home/abi/fetcher/tmp/connpy-3.2.8.tar.gz]
+[2023-07-12 00:39:27] INFO root fetch - processPackages [connpy]: Remove: archive file [/home/abi/fetcher/tmp/connpy-3.3.0.tar.gz]
+[2023-07-12 00:39:27] INFO root fetch - main [MainThread]: End processing [connpy]: success
+[2023-07-12 00:39:27] INFO root fetch - processPackages [symbal]: Remove: archive file [/home/abi/fetcher/tmp/symbal-0.0.4.tar.gz]
+[2023-07-12 00:39:27] INFO root fetch - processPackages [symbal]: Remove: archive file [/home/abi/fetcher/tmp/symbal-0.0.5.tar.gz]
+[2023-07-12 00:39:27] INFO root fetch - main [MainThread]: End processing [symbal]: success
+[2023-07-12 00:39:27] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.8.tar.gz]
+[2023-07-12 00:39:27] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.9.tar.gz]
+[2023-07-12 00:39:27] INFO root fetch - main [MainThread]: End processing [aa-miningtaxes]: success
+[2023-07-12 00:39:28] INFO root fetch - processPackages [indy-credx]: Remove: archive file [/home/abi/fetcher/tmp/indy_credx-0.3.3-py3-none-win_amd64.whl.zip]
+[2023-07-12 00:39:28] INFO root fetch - processPackages [indy-credx]: Remove: archive file [/home/abi/fetcher/tmp/indy_credx-0.4.0-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-07-12 00:39:28] INFO root fetch - main [MainThread]: End processing [indy-credx]: success
+[2023-07-12 00:39:29] INFO root fetch - processPackages [deeplake]: Remove: archive file [/home/abi/fetcher/tmp/deeplake-3.6.8.tar.gz]
+[2023-07-12 00:39:29] INFO root fetch - processPackages [deeplake]: Remove: archive file [/home/abi/fetcher/tmp/deeplake-3.6.9.tar.gz]
+[2023-07-12 00:39:29] INFO root fetch - main [MainThread]: End processing [deeplake]: success
+[2023-07-12 00:40:01] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2023-07-12 00:40:01] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2023-07-12 00:40:01] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-07-12 00:40:01] INFO root fetch - main [MainThread]: Store serial: [18851516]
