@@ -1074,3 +1074,78 @@
 [2023-07-12 00:50:28] INFO root fetch - processPackages [pcdscalc]: Remove: archive file [/home/abi/fetcher/tmp/pcdscalc-0.4.2.tar.gz]
 [2023-07-12 00:50:28] INFO root fetch - main [MainThread]: End processing [pcdscalc]: success
 [2023-07-12 00:50:28] INFO root fetch - main [MainThread]: Store serial: [18851602]
+[2023-07-12 00:55:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851602]
+[2023-07-12 00:55:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simpleworkspace
+[2023-07-12 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dkist-processing-vbi
+[2023-07-12 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-reusable
+[2023-07-12 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tictactoetools
+[2023-07-12 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cypherdataframe
+[2023-07-12 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grf
+[2023-07-12 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sionna
+[2023-07-12 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: packg
+[2023-07-12 00:55:37] INFO root fetch - processPackages [cypherdataframe]: New version: [0.4.1] Old Version: [0.3.7]
+[2023-07-12 00:55:37] INFO root fetch - processPackages [grf]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-12 00:55:37] INFO root fetch - processPackages [django-reusable]: New version: [9.9] Old Version: [9.8]
+[2023-07-12 00:55:37] INFO root fetch - processPackages [tictactoetools]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-12 00:55:37] INFO root fetch - processPackages [dkist-processing-vbi]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-12 00:55:37] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-12 00:55:37] INFO root fetch - processPackages [packg]: New version: [0.2.22] Old Version: [0.2.21]
+[2023-07-12 00:55:37] INFO root fetch - processPackages [sionna]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-12 00:55:37] INFO root fetch - processPackages [cypherdataframe]: Downloading https://files.pythonhosted.org/packages/1a/6d/2abe4779ca019bfeca9e978c661324b88345ca1ed122bd48ad4503233be5/cypherdataframe-0.3.7.tar.gz
+[2023-07-12 00:55:37] INFO root fetch - processPackages [tictactoetools]: Downloading https://files.pythonhosted.org/packages/ff/d3/acb7625b4e61324212cc6a63a03eb979a3b4b98c52dacf0fb112394aefce/tictactoetools-1.0.4.tar.gz
+[2023-07-12 00:55:37] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-07-12 00:55:37] INFO root fetch - processPackages [django-reusable]: Downloading https://files.pythonhosted.org/packages/56/76/2298d24f3350c8efc192ca0676bb8f98d637289f4c582497fe04bc9e4630/django-reusable-9.8.tar.gz
+[2023-07-12 00:55:37] INFO root fetch - processPackages [grf]: Downloading https://files.pythonhosted.org/packages/b9/08/3601d8dc330709aae5e9356d44e3d4a93c6a7d28666ff7014aba11ce551b/grf-0.2.1.tar.gz
+[2023-07-12 00:55:37] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/4e/01/03123afc3a45a4ef8e93cc0242ee45a03248d1a356a6fea5409af604d24c/packg-0.2.21.tar.gz
+[2023-07-12 00:55:37] INFO root fetch - processPackages [sionna]: Downloading https://files.pythonhosted.org/packages/1a/5d/348da982961f0821b8e791e10a098c63cd918970582631725a9f2c656c50/sionna-0.9.1-py3-none-any.whl
+[2023-07-12 00:55:37] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/32/df/fcd6b519a2e8bb7db1e46868074deef13de91d8b561f32a876ad241ab93c/dkist_processing_vbi-1.4.0.tar.gz
+[2023-07-12 00:55:37] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-07-12 00:55:37] INFO root fetch - processPackages [cypherdataframe]: Downloading https://files.pythonhosted.org/packages/9f/66/35ce51ac350752481cd125825962d0a259724575f0c65da332eab49ed26e/cypherdataframe-0.4.1.tar.gz
+[2023-07-12 00:55:37] INFO root fetch - processPackages [tictactoetools]: Downloading https://files.pythonhosted.org/packages/1f/f0/f8793c934826df7ed90dfdd79ff3bdcb9ca4ab27e37347f9fa400a7a3b47/tictactoetools-1.0.5.tar.gz
+[2023-07-12 00:55:37] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-07-12 00:55:37] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230712/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-12 00:55:37] INFO root fetch - processPackages [cypherdataframe]: executing diffoscope
+[2023-07-12 00:55:37] INFO root fetch - processPackages [cypherdataframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cypherdataframe-0.3.7.tar.gz tmp/cypherdataframe-0.4.1.tar.gz --markdown 20230712/c/cypherdataframe/0.3.7-0.4.1/diff.md --exclude *.pyd
+[2023-07-12 00:55:37] INFO root fetch - processPackages [django-reusable]: Downloading https://files.pythonhosted.org/packages/56/89/0bdf225fa2de427dbbd30299059a9f8b8dc00f4b1f5477e033e2f7a18ff0/django-reusable-9.9.tar.gz
+[2023-07-12 00:55:37] INFO root fetch - processPackages [tictactoetools]: executing diffoscope
+[2023-07-12 00:55:37] INFO root fetch - processPackages [tictactoetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tictactoetools-1.0.4.tar.gz tmp/tictactoetools-1.0.5.tar.gz --markdown 20230712/t/tictactoetools/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-12 00:55:37] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/b3/d8/fa016162c9ee24dd3e4f20d4e651eb0c2eb57a120563cd032bd19a44bddd/packg-0.2.22.tar.gz
+[2023-07-12 00:55:37] INFO root fetch - processPackages [grf]: Downloading https://files.pythonhosted.org/packages/24/b1/61423c72e1d7822cfe28997bd1ddd85466b26e9674913fafeb36f592ce3b/grf-0.2.2.tar.gz
+[2023-07-12 00:55:37] INFO root fetch - processPackages [django-reusable]: executing diffoscope
+[2023-07-12 00:55:37] INFO root fetch - processPackages [django-reusable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reusable-9.8.tar.gz tmp/django-reusable-9.9.tar.gz --markdown 20230712/d/django-reusable/9.8-9.9/diff.md --exclude *.pyd
+[2023-07-12 00:55:38] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-07-12 00:55:38] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.21.tar.gz tmp/packg-0.2.22.tar.gz --markdown 20230712/p/packg/0.2.21-0.2.22/diff.md --exclude *.pyd
+[2023-07-12 00:55:38] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/43/90/d6cae42361f110636cbddf543a4b9bdd032b12a1e58465adb5fe5c1a622d/dkist_processing_vbi-1.4.1.tar.gz
+[2023-07-12 00:55:38] INFO root fetch - processPackages [sionna]: Downloading https://files.pythonhosted.org/packages/4f/98/19bffeb129edc56f484bbdccababf4514275256ac78613c34ce83ee12c9b/sionna-0.9.2-py3-none-any.whl
+[2023-07-12 00:55:38] INFO root fetch - processPackages [grf]: executing diffoscope
+[2023-07-12 00:55:38] INFO root fetch - processPackages [grf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grf-0.2.1.tar.gz tmp/grf-0.2.2.tar.gz --markdown 20230712/g/grf/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-12 00:55:38] INFO root fetch - processPackages [dkist-processing-vbi]: executing diffoscope
+[2023-07-12 00:55:38] INFO root fetch - processPackages [dkist-processing-vbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_vbi-1.4.0.tar.gz tmp/dkist_processing_vbi-1.4.1.tar.gz --markdown 20230712/d/dkist-processing-vbi/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-12 00:55:38] INFO root fetch - processPackages [sionna]: executing diffoscope
+[2023-07-12 00:55:38] INFO root fetch - processPackages [sionna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sionna-0.9.1-py3-none-any.whl.zip tmp/sionna-0.9.2-py3-none-any.whl.zip --markdown 20230712/s/sionna/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-12 00:55:38] INFO root fetch - processPackages [tictactoetools]: Remove: archive file [/home/abi/fetcher/tmp/tictactoetools-1.0.4.tar.gz]
+[2023-07-12 00:55:38] INFO root fetch - processPackages [tictactoetools]: Remove: archive file [/home/abi/fetcher/tmp/tictactoetools-1.0.5.tar.gz]
+[2023-07-12 00:55:38] INFO root fetch - main [MainThread]: End processing [tictactoetools]: success
+[2023-07-12 00:55:39] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-07-12 00:55:39] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-07-12 00:55:39] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-07-12 00:55:39] INFO root fetch - processPackages [cypherdataframe]: Remove: archive file [/home/abi/fetcher/tmp/cypherdataframe-0.3.7.tar.gz]
+[2023-07-12 00:55:39] INFO root fetch - processPackages [cypherdataframe]: Remove: archive file [/home/abi/fetcher/tmp/cypherdataframe-0.4.1.tar.gz]
+[2023-07-12 00:55:39] INFO root fetch - main [MainThread]: End processing [cypherdataframe]: success
+[2023-07-12 00:55:39] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.21.tar.gz]
+[2023-07-12 00:55:39] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.22.tar.gz]
+[2023-07-12 00:55:39] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-07-12 00:55:39] INFO root fetch - processPackages [django-reusable]: Remove: archive file [/home/abi/fetcher/tmp/django-reusable-9.8.tar.gz]
+[2023-07-12 00:55:39] INFO root fetch - processPackages [django-reusable]: Remove: archive file [/home/abi/fetcher/tmp/django-reusable-9.9.tar.gz]
+[2023-07-12 00:55:39] INFO root fetch - main [MainThread]: End processing [django-reusable]: success
+[2023-07-12 00:55:39] INFO root fetch - processPackages [grf]: Remove: archive file [/home/abi/fetcher/tmp/grf-0.2.1.tar.gz]
+[2023-07-12 00:55:39] INFO root fetch - processPackages [grf]: Remove: archive file [/home/abi/fetcher/tmp/grf-0.2.2.tar.gz]
+[2023-07-12 00:55:39] INFO root fetch - main [MainThread]: End processing [grf]: success
+[2023-07-12 00:55:39] INFO root fetch - processPackages [dkist-processing-vbi]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_vbi-1.4.0.tar.gz]
+[2023-07-12 00:55:39] INFO root fetch - processPackages [dkist-processing-vbi]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_vbi-1.4.1.tar.gz]
+[2023-07-12 00:55:39] INFO root fetch - main [MainThread]: End processing [dkist-processing-vbi]: success
+[2023-07-12 00:55:39] INFO root fetch - processPackages [sionna]: Remove: archive file [/home/abi/fetcher/tmp/sionna-0.9.1-py3-none-any.whl.zip]
+[2023-07-12 00:55:39] INFO root fetch - processPackages [sionna]: Remove: archive file [/home/abi/fetcher/tmp/sionna-0.9.2-py3-none-any.whl.zip]
+[2023-07-12 00:55:39] INFO root fetch - main [MainThread]: End processing [sionna]: success
+[2023-07-12 00:55:39] INFO root fetch - main [MainThread]: Store serial: [18851624]
