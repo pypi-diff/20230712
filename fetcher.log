@@ -1420,3 +1420,122 @@
 [2023-07-12 01:16:35] INFO root fetch - processPackages [pcdsdevices]: Remove: archive file [/home/abi/fetcher/tmp/pcdsdevices-7.4.3.tar.gz]
 [2023-07-12 01:16:35] INFO root fetch - main [MainThread]: End processing [pcdsdevices]: success
 [2023-07-12 01:16:35] INFO root fetch - main [MainThread]: Store serial: [18851740]
+[2023-07-12 01:21:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851740]
+[2023-07-12 01:21:44] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-12 01:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-versioning
+[2023-07-12 01:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oceanum
+[2023-07-12 01:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wasc
+[2023-07-12 01:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-rpautom
+[2023-07-12 01:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calculator-devops-pucminas
+[2023-07-12 01:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brainchain
+[2023-07-12 01:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discovery-core
+[2023-07-12 01:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anyscale
+[2023-07-12 01:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nginx-ldap-auth-service
+[2023-07-12 01:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: general-superstaq
+[2023-07-12 01:21:45] INFO root fetch - processPackages [discovery-core]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-12 01:21:45] INFO root fetch - processPackages [wasc]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-07-12 01:21:45] INFO root fetch - processPackages [general-superstaq]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-12 01:21:45] INFO root fetch - processPackages [py-rpautom]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-07-12 01:21:45] INFO root fetch - processPackages [oceanum]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-12 01:21:45] WARNING root fetch - processPackages [python-versioning]: Skipping, unable to determine old version
+[2023-07-12 01:21:45] INFO root fetch - processPackages [python-versioning]: Start processing: qiskit-superstaq
+[2023-07-12 01:21:45] INFO root fetch - main [MainThread]: End processing [python-versioning] error
+[2023-07-12 01:21:45] INFO root fetch - processPackages [brainchain]: New version: [0.3.1] Old Version: [0.2.9]
+[2023-07-12 01:21:45] INFO root fetch - processPackages [nginx-ldap-auth-service]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-12 01:21:45] INFO root fetch - processPackages [calculator-devops-pucminas]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-12 01:21:45] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-12 01:21:45] INFO root fetch - processPackages [qiskit-superstaq]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-12 01:21:45] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/86/a4/9ee63db1d80290c32f3bced6c399750ae086296e80b67c46d0c0c681cd63/general_superstaq-0.4.3-py3-none-any.whl
+[2023-07-12 01:21:45] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/fe/5d/062eb0094cfc89d589d2dce5b84709dc4ab1b01ab95bf71dbbd30e87e045/oceanum-0.7.8.tar.gz
+[2023-07-12 01:21:45] INFO root fetch - processPackages [py-rpautom]: Downloading https://files.pythonhosted.org/packages/6e/39/46bb536db45da28d5a4efe63087cf7df066dd3b823715358df3eaff4fe72/py-rpautom-0.0.8b0.tar.gz
+[2023-07-12 01:21:45] INFO root fetch - processPackages [calculator-devops-pucminas]: Downloading https://files.pythonhosted.org/packages/46/ea/dde740561683047efb65a404ade71a5bb4da3d6cb51dfce052f441734262/calculator_devops_pucminas-0.0.2.tar.gz
+[2023-07-12 01:21:45] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/80/41/aef27ddfd485bed1dec9cebcd113184ef80dc06b2abfa563573169e81ce6/brainchain-0.2.9.tar.gz
+[2023-07-12 01:21:45] INFO root fetch - processPackages [wasc]: Downloading https://files.pythonhosted.org/packages/2c/85/f7c72bb39537c7bf1849e61209d75c29db663065ce569edc4d3fa53bcfdf/wasc-0.4.0.tar.gz
+[2023-07-12 01:21:45] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/62/ea/774a377ea373d8023558167727089149b6360c6f9e6692495ba0469f5700/discovery-core-0.1.5.tar.gz
+[2023-07-12 01:21:45] INFO root fetch - processPackages [nginx-ldap-auth-service]: Downloading https://files.pythonhosted.org/packages/3e/e1/011ad3fdd12d171150d0686dbdf91a9a4bb8a361309d8cd9be4b07d80bda/nginx-ldap-auth-service-2.0.1.tar.gz
+[2023-07-12 01:21:45] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2023-07-12 01:21:45] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/10/6b/73af1dd43d5807b33c988c7bb95e61ef5d34ac6bdc0980c391dcdb08e6ce/qiskit_superstaq-0.4.3-py3-none-any.whl
+[2023-07-12 01:21:45] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/28/ba/50e31c23bba2efa5862cfdbe97b4d4d69eb09203d3873f1f02c28a577ed4/general_superstaq-0.4.4-py3-none-any.whl
+[2023-07-12 01:21:46] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/a9/f8/1d7695e36b445abdaff6fe9a6d845689f712ce083b5fa35876e3b7a1a9b8/oceanum-0.7.9.tar.gz
+[2023-07-12 01:21:46] INFO root fetch - processPackages [nginx-ldap-auth-service]: Downloading https://files.pythonhosted.org/packages/e9/87/c3931f3a64c8c20cfae409ea0d6bce7d2a00501c4a06269e57daedde6d8f/nginx-ldap-auth-service-2.0.2.tar.gz
+[2023-07-12 01:21:46] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/7f/d2/8e4849fc252bf1a9d34e796b1c2dfef42b160abcffda61f51dfd164a67e2/brainchain-0.3.1.tar.gz
+[2023-07-12 01:21:46] INFO root fetch - processPackages [py-rpautom]: Downloading https://files.pythonhosted.org/packages/15/df/aca01fc29617ab2b4273b63a58b5cabaec5b193a2123d1bda0b5f8e7a87a/py-rpautom-0.0.9b0.tar.gz
+[2023-07-12 01:21:46] INFO root fetch - processPackages [calculator-devops-pucminas]: Downloading https://files.pythonhosted.org/packages/ab/db/71b3f07bff9fc832ee8fa730833466b014593b53cb2b82c6c6eba59692ae/calculator_devops_pucminas-0.0.3.tar.gz
+[2023-07-12 01:21:46] INFO root fetch - processPackages [wasc]: Downloading https://files.pythonhosted.org/packages/a5/91/69f921d02ab1b7711da353f137b006c5d25c963c08f80a2d9d793da0845e/wasc-1.0.0.tar.gz
+[2023-07-12 01:21:46] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/8a/73/d18a1bdb27344cb60108933478502489141ca1d8ef36c94472157c254065/qiskit_superstaq-0.4.4-py3-none-any.whl
+[2023-07-12 01:21:46] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/13/36/d50fd8d4c861f4d2baffa4c1ad74bbcd96aa535ccde2d92cf54d82e3b502/discovery-core-0.1.6.tar.gz
+[2023-07-12 01:21:46] INFO root fetch - processPackages [calculator-devops-pucminas]: executing diffoscope
+[2023-07-12 01:21:46] INFO root fetch - processPackages [calculator-devops-pucminas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculator_devops_pucminas-0.0.2.tar.gz tmp/calculator_devops_pucminas-0.0.3.tar.gz --markdown 20230712/c/calculator-devops-pucminas/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-12 01:21:46] INFO root fetch - processPackages [general-superstaq]: executing diffoscope
+[2023-07-12 01:21:46] INFO root fetch - processPackages [general-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_superstaq-0.4.3-py3-none-any.whl.zip tmp/general_superstaq-0.4.4-py3-none-any.whl.zip --markdown 20230712/g/general-superstaq/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-12 01:21:46] INFO root fetch - processPackages [py-rpautom]: executing diffoscope
+[2023-07-12 01:21:46] INFO root fetch - processPackages [py-rpautom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-rpautom-0.0.8b0.tar.gz tmp/py-rpautom-0.0.9b0.tar.gz --markdown 20230712/p/py-rpautom/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-07-12 01:21:46] INFO root fetch - processPackages [nginx-ldap-auth-service]: executing diffoscope
+[2023-07-12 01:21:46] INFO root fetch - processPackages [nginx-ldap-auth-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nginx-ldap-auth-service-2.0.1.tar.gz tmp/nginx-ldap-auth-service-2.0.2.tar.gz --markdown 20230712/n/nginx-ldap-auth-service/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-12 01:21:46] INFO root fetch - processPackages [brainchain]: executing diffoscope
+[2023-07-12 01:21:46] INFO root fetch - processPackages [brainchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainchain-0.2.9.tar.gz tmp/brainchain-0.3.1.tar.gz --markdown 20230712/b/brainchain/0.2.9-0.3.1/diff.md --exclude *.pyd
+[2023-07-12 01:21:46] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2023-07-12 01:21:46] INFO root fetch - processPackages [wasc]: executing diffoscope
+[2023-07-12 01:21:46] INFO root fetch - processPackages [wasc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasc-0.4.0.tar.gz tmp/wasc-1.0.0.tar.gz --markdown 20230712/w/wasc/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-12 01:21:46] INFO root fetch - processPackages [qiskit-superstaq]: executing diffoscope
+[2023-07-12 01:21:46] INFO root fetch - processPackages [qiskit-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_superstaq-0.4.3-py3-none-any.whl.zip tmp/qiskit_superstaq-0.4.4-py3-none-any.whl.zip --markdown 20230712/q/qiskit-superstaq/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-12 01:21:46] INFO root fetch - processPackages [discovery-core]: executing diffoscope
+[2023-07-12 01:21:46] INFO root fetch - processPackages [discovery-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-core-0.1.5.tar.gz tmp/discovery-core-0.1.6.tar.gz --markdown 20230712/d/discovery-core/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-12 01:21:46] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2023-07-12 01:21:46] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.7.8.tar.gz tmp/oceanum-0.7.9.tar.gz --markdown 20230712/o/oceanum/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-12 01:21:46] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2023-07-12 01:21:46] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20230712/a/anyscale/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-12 01:21:47] INFO root fetch - processPackages [calculator-devops-pucminas]: Remove: archive file [/home/abi/fetcher/tmp/calculator_devops_pucminas-0.0.2.tar.gz]
+[2023-07-12 01:21:47] INFO root fetch - processPackages [calculator-devops-pucminas]: Remove: archive file [/home/abi/fetcher/tmp/calculator_devops_pucminas-0.0.3.tar.gz]
+[2023-07-12 01:21:47] INFO root fetch - processPackages [calculator-devops-pucminas]: Start processing: cirq-superstaq
+[2023-07-12 01:21:47] INFO root fetch - main [MainThread]: End processing [calculator-devops-pucminas]: success
+[2023-07-12 01:21:47] INFO root fetch - processPackages [cirq-superstaq]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-12 01:21:47] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/95/5c/630d08714b6dc38a16ab5f37ed5b940aa7fd7a03e775e8ec3b753a1c4fe3/cirq_superstaq-0.4.3-py3-none-any.whl
+[2023-07-12 01:21:48] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.2.9.tar.gz]
+[2023-07-12 01:21:48] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.3.1.tar.gz]
+[2023-07-12 01:21:48] INFO root fetch - processPackages [brainchain]: Start processing: Supermarq
+[2023-07-12 01:21:48] INFO root fetch - main [MainThread]: End processing [brainchain]: success
+[2023-07-12 01:21:48] INFO root fetch - processPackages [Supermarq]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-12 01:21:48] INFO root fetch - processPackages [Supermarq]: Downloading https://files.pythonhosted.org/packages/24/15/ed040036cbf5ea58ff737e01e75aad3fabec410fd84b855fccaee3203abc/Supermarq-0.4.3-py3-none-any.whl
+[2023-07-12 01:21:48] INFO root fetch - processPackages [py-rpautom]: Remove: archive file [/home/abi/fetcher/tmp/py-rpautom-0.0.8b0.tar.gz]
+[2023-07-12 01:21:48] INFO root fetch - processPackages [py-rpautom]: Remove: archive file [/home/abi/fetcher/tmp/py-rpautom-0.0.9b0.tar.gz]
+[2023-07-12 01:21:48] INFO root fetch - processPackages [py-rpautom]: Start processing: streamsync
+[2023-07-12 01:21:48] INFO root fetch - main [MainThread]: End processing [py-rpautom]: success
+[2023-07-12 01:21:48] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/ac/0e/fa086e8c0fd411d23f8867c59587823bf56b2624c827218174ac9e86eafa/cirq_superstaq-0.4.4-py3-none-any.whl
+[2023-07-12 01:21:48] INFO root fetch - processPackages [nginx-ldap-auth-service]: Remove: archive file [/home/abi/fetcher/tmp/nginx-ldap-auth-service-2.0.1.tar.gz]
+[2023-07-12 01:21:48] INFO root fetch - processPackages [nginx-ldap-auth-service]: Remove: archive file [/home/abi/fetcher/tmp/nginx-ldap-auth-service-2.0.2.tar.gz]
+[2023-07-12 01:21:48] INFO root fetch - main [MainThread]: End processing [nginx-ldap-auth-service]: success
+[2023-07-12 01:21:48] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.4.3-py3-none-any.whl.zip]
+[2023-07-12 01:21:48] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.4.4-py3-none-any.whl.zip]
+[2023-07-12 01:21:48] INFO root fetch - main [MainThread]: End processing [qiskit-superstaq]: success
+[2023-07-12 01:21:48] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.1.5.tar.gz]
+[2023-07-12 01:21:48] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.1.6.tar.gz]
+[2023-07-12 01:21:48] INFO root fetch - main [MainThread]: End processing [discovery-core]: success
+[2023-07-12 01:21:48] INFO root fetch - processPackages [wasc]: Remove: archive file [/home/abi/fetcher/tmp/wasc-0.4.0.tar.gz]
+[2023-07-12 01:21:48] INFO root fetch - processPackages [wasc]: Remove: archive file [/home/abi/fetcher/tmp/wasc-1.0.0.tar.gz]
+[2023-07-12 01:21:48] INFO root fetch - main [MainThread]: End processing [wasc]: success
+[2023-07-12 01:21:48] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.4.3-py3-none-any.whl.zip]
+[2023-07-12 01:21:48] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.4.4-py3-none-any.whl.zip]
+[2023-07-12 01:21:48] INFO root fetch - main [MainThread]: End processing [general-superstaq]: success
+[2023-07-12 01:21:48] INFO root fetch - processPackages [streamsync]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-12 01:21:48] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.7.8.tar.gz]
+[2023-07-12 01:21:48] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.7.9.tar.gz]
+[2023-07-12 01:21:48] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2023-07-12 01:21:48] INFO root fetch - processPackages [Supermarq]: Downloading https://files.pythonhosted.org/packages/b3/08/4504cd61a572c4f21e22c34b2d09ee8fbcb7b64aa96d3fcaa4709f6dff99/Supermarq-0.4.4-py3-none-any.whl
+[2023-07-12 01:21:48] INFO root fetch - processPackages [cirq-superstaq]: executing diffoscope
+[2023-07-12 01:21:48] INFO root fetch - processPackages [cirq-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_superstaq-0.4.3-py3-none-any.whl.zip tmp/cirq_superstaq-0.4.4-py3-none-any.whl.zip --markdown 20230712/c/cirq-superstaq/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-12 01:21:48] INFO root fetch - processPackages [Supermarq]: executing diffoscope
+[2023-07-12 01:21:48] INFO root fetch - processPackages [Supermarq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Supermarq-0.4.3-py3-none-any.whl.zip tmp/Supermarq-0.4.4-py3-none-any.whl.zip --markdown 20230712/S/Supermarq/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-12 01:21:48] INFO root fetch - processPackages [streamsync]: Downloading https://files.pythonhosted.org/packages/73/68/07310e6c3d7decd8689941e455099906d4031f68b0d844e11e2f0d42aaa3/streamsync-0.1.7.tar.gz
+[2023-07-12 01:21:49] WARNING root fetch - processPackages [streamsync]: Skipping package: exceeds size limit 15399535>=10485760
+[2023-07-12 01:21:49] INFO root fetch - main [MainThread]: End processing [streamsync] error
+[2023-07-12 01:21:49] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.4.3-py3-none-any.whl.zip]
+[2023-07-12 01:21:49] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.4.4-py3-none-any.whl.zip]
+[2023-07-12 01:21:49] INFO root fetch - main [MainThread]: End processing [cirq-superstaq]: success
+[2023-07-12 01:21:49] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.4.3-py3-none-any.whl.zip]
+[2023-07-12 01:21:49] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.4.4-py3-none-any.whl.zip]
+[2023-07-12 01:21:49] INFO root fetch - main [MainThread]: End processing [Supermarq]: success
+[2023-07-12 01:21:53] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.98.tar.gz]
+[2023-07-12 01:21:53] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
+[2023-07-12 01:21:53] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2023-07-12 01:21:53] INFO root fetch - main [MainThread]: Store serial: [18851778]
