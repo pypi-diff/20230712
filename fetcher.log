@@ -5349,3 +5349,77 @@
 [2023-07-12 02:52:38] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2023-07-12 02:52:38] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-07-12 02:52:38] INFO root fetch - main [MainThread]: Store serial: [18853154]
+[2023-07-12 02:57:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18853154]
+[2023-07-12 02:57:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-12 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-comprehend-s3olap
+[2023-07-12 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lacss
+[2023-07-12 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pympipool
+[2023-07-12 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-sat
+[2023-07-12 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typetype
+[2023-07-12 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talk-codebase
+[2023-07-12 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-07-12 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandasai
+[2023-07-12 02:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymulticore
+[2023-07-12 02:57:47] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-12 02:57:48] WARNING root fetch - processPackages [pymulticore]: Skipping, unable to determine old version
+[2023-07-12 02:57:48] INFO root fetch - main [MainThread]: End processing [pymulticore] error
+[2023-07-12 02:57:48] INFO root fetch - processPackages [lacss]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-12 02:57:48] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.45] Old Version: [0.1.43]
+[2023-07-12 02:57:48] INFO root fetch - processPackages [pympipool]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-12 02:57:48] INFO root fetch - processPackages [typetype]: New version: [1.1.3] Old Version: [1.1.1]
+[2023-07-12 02:57:48] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-12 02:57:48] INFO root fetch - processPackages [python-sat]: New version: [0.1.8.dev8] Old Version: [0.1.8.dev7]
+[2023-07-12 02:57:48] INFO root fetch - processPackages [pandasai]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-12 02:57:48] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/e1/ed/d6132dded345037e7d28abbc73963a2b1db0ca281409054541e1ef3fb06f/typetype-1.1.1.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-07-12 02:57:48] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-12 02:57:48] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/bf/0d/fd3ad453db773a0cb535486b2e939d79ac858d66e0357f40864c57f3bbb4/talk_codebase-0.1.43.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-12 02:57:48] INFO root fetch - processPackages [lacss]: Downloading https://files.pythonhosted.org/packages/49/0e/ff2b9836f61bd5443c3635bed7c2386defee206177d86b3e9474c97daf3f/lacss-0.4.1.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - processPackages [python-sat]: Downloading https://files.pythonhosted.org/packages/23/81/dc159cb37e6ee8589386aa702500001526f5b745cdc9bb43ef91dab70e92/python-sat-0.1.8.dev7.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/8c/84/9a85dcf65104c8b25534a533538695163a524f1f79c54d082640809290ae/pandasai-0.6.8.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/ea/76/b878a4212a3731a65c4ee077bdceebee4864b6690fcc63fbbfc468b27a98/pympipool-0.5.1.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/f4/ef/65d5581177edfbd21d5a9d2b272a5ef4af027365203dd8075624fdf086f4/talk_codebase-0.1.45.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/0a/ae/0f49188e91891adc37ff25edcf9111e3a42fbf46dd0f8a95a0a82afdc315/typetype-1.1.3.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/f9/2a/12fe91158b2b1d2ea5e11fc3bc103067764f3befa7163b521f5c84af1e93/pandasai-0.6.9.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - processPackages [lacss]: Downloading https://files.pythonhosted.org/packages/62/44/0df379613ddd3dd0ce07613baabf9e816d41e887d330e4b186c66e8e4498/lacss-0.4.2.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-07-12 02:57:48] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.43.tar.gz tmp/talk_codebase-0.1.45.tar.gz --markdown 20230712/t/talk-codebase/0.1.43-0.1.45/diff.md --exclude *.pyd
+[2023-07-12 02:57:48] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/47/cc/4cc88c90c0fe685b3ad5a423ae7009b004fef86b07835641829141410cef/pympipool-0.5.2.tar.gz
+[2023-07-12 02:57:48] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-07-12 02:57:48] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230712/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-12 02:57:48] INFO root fetch - processPackages [typetype]: executing diffoscope
+[2023-07-12 02:57:48] INFO root fetch - processPackages [typetype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typetype-1.1.1.tar.gz tmp/typetype-1.1.3.tar.gz --markdown 20230712/t/typetype/1.1.1-1.1.3/diff.md --exclude *.pyd
+[2023-07-12 02:57:48] INFO root fetch - processPackages [pympipool]: executing diffoscope
+[2023-07-12 02:57:48] INFO root fetch - processPackages [pympipool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympipool-0.5.1.tar.gz tmp/pympipool-0.5.2.tar.gz --markdown 20230712/p/pympipool/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-12 02:57:48] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-07-12 02:57:48] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.6.8.tar.gz tmp/pandasai-0.6.9.tar.gz --markdown 20230712/p/pandasai/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 02:57:48] INFO root fetch - processPackages [lacss]: executing diffoscope
+[2023-07-12 02:57:49] INFO root fetch - processPackages [lacss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacss-0.4.1.tar.gz tmp/lacss-0.4.2.tar.gz --markdown 20230712/l/lacss/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-12 02:57:49] INFO root fetch - processPackages [python-sat]: Downloading https://files.pythonhosted.org/packages/e6/46/e21765b0e3f4e9cc22bbd1365ee005af78ea708920315cbd17ad05c94c25/python-sat-0.1.8.dev8.tar.gz
+[2023-07-12 02:57:49] INFO root fetch - processPackages [python-sat]: executing diffoscope
+[2023-07-12 02:57:49] INFO root fetch - processPackages [python-sat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sat-0.1.8.dev7.tar.gz tmp/python-sat-0.1.8.dev8.tar.gz --markdown 20230712/p/python-sat/0.1.8.dev7-0.1.8.dev8/diff.md --exclude *.pyd
+[2023-07-12 02:57:50] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.43.tar.gz]
+[2023-07-12 02:57:50] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.45.tar.gz]
+[2023-07-12 02:57:50] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-07-12 02:57:50] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.1.1.tar.gz]
+[2023-07-12 02:57:50] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.1.3.tar.gz]
+[2023-07-12 02:57:50] INFO root fetch - main [MainThread]: End processing [typetype]: success
+[2023-07-12 02:57:50] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.8.tar.gz]
+[2023-07-12 02:57:50] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.9.tar.gz]
+[2023-07-12 02:57:50] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-07-12 02:57:50] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.5.1.tar.gz]
+[2023-07-12 02:57:50] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.5.2.tar.gz]
+[2023-07-12 02:57:50] INFO root fetch - main [MainThread]: End processing [pympipool]: success
+[2023-07-12 02:57:50] INFO root fetch - processPackages [lacss]: Remove: archive file [/home/abi/fetcher/tmp/lacss-0.4.1.tar.gz]
+[2023-07-12 02:57:50] INFO root fetch - processPackages [lacss]: Remove: archive file [/home/abi/fetcher/tmp/lacss-0.4.2.tar.gz]
+[2023-07-12 02:57:50] INFO root fetch - main [MainThread]: End processing [lacss]: success
+[2023-07-12 02:57:51] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-07-12 02:57:51] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-07-12 02:57:51] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-07-12 02:57:51] INFO root fetch - processPackages [python-sat]: Remove: archive file [/home/abi/fetcher/tmp/python-sat-0.1.8.dev7.tar.gz]
+[2023-07-12 02:57:51] INFO root fetch - processPackages [python-sat]: Remove: archive file [/home/abi/fetcher/tmp/python-sat-0.1.8.dev8.tar.gz]
+[2023-07-12 02:57:51] INFO root fetch - main [MainThread]: End processing [python-sat]: success
+[2023-07-12 02:57:51] INFO root fetch - main [MainThread]: Store serial: [18853193]
