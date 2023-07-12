@@ -18657,3 +18657,124 @@
 [2023-07-12 12:13:44] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc4-py3-none-any.whl.zip]
 [2023-07-12 12:13:44] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
 [2023-07-12 12:13:44] INFO root fetch - main [MainThread]: Store serial: [18858618]
+[2023-07-12 12:18:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858618]
+[2023-07-12 12:18:56] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-12 12:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-draughts
+[2023-07-12 12:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: propertize
+[2023-07-12 12:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: route-visualization
+[2023-07-12 12:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytket
+[2023-07-12 12:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: akshare
+[2023-07-12 12:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-ge
+[2023-07-12 12:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: elasticnet
+[2023-07-12 12:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Alpha-Rabbit
+[2023-07-12 12:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chatgpt-klient
+[2023-07-12 12:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jcloud
+[2023-07-12 12:18:56] INFO root fetch - processPackages [py-draughts]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-12 12:18:56] WARNING root fetch - processPackages [propertize]: Skipping, unable to determine old version
+[2023-07-12 12:18:56] INFO root fetch - processPackages [propertize]: Start processing: jsonschema
+[2023-07-12 12:18:56] INFO root fetch - main [MainThread]: End processing [propertize] error
+[2023-07-12 12:18:56] WARNING root fetch - processPackages [route-visualization]: Skipping, unable to determine old version
+[2023-07-12 12:18:56] INFO root fetch - processPackages [route-visualization]: Start processing: refunc-cli
+[2023-07-12 12:18:56] INFO root fetch - main [MainThread]: End processing [route-visualization] error
+[2023-07-12 12:18:56] INFO root fetch - processPackages [chatgpt-klient]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-12 12:18:56] INFO root fetch - processPackages [easy-ge]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-12 12:18:56] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-07-12 12:18:56] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-12 12:18:56] INFO root fetch - processPackages [pytket]: New version: [1.9.1rc0] Old Version: [1.9.1]
+[2023-07-12 12:18:56] INFO root fetch - processPackages [refunc-cli]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-12 12:18:56] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-12 12:18:56] INFO root fetch - processPackages [jsonschema]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-07-12 12:18:56] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/21/66/230afb9a25ce87427ed21c62aca1162ddf8bb0647187a6d0dde4fc297679/chatgpt-klient-0.0.5.tar.gz
+[2023-07-12 12:18:56] WARNING root fetch - processPackages [elasticnet]: Skipping, unable to determine old version
+[2023-07-12 12:18:56] INFO root fetch - processPackages [elasticnet]: Start processing: spaces
+[2023-07-12 12:18:56] INFO root fetch - main [MainThread]: End processing [elasticnet] error
+[2023-07-12 12:18:56] INFO root fetch - processPackages [spaces]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-12 12:18:56] INFO root fetch - processPackages [easy-ge]: Downloading https://files.pythonhosted.org/packages/6d/eb/249390863028cb8f19ff8fb6121f42981e74a8b1f38bd43b819de2a78144/easy_ge-0.1.1.tar.gz
+[2023-07-12 12:18:56] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-12 12:18:56] INFO root fetch - processPackages [py-draughts]: Downloading https://files.pythonhosted.org/packages/50/2c/1fa34754220b4d28206b52f5a954944430851a09a860d20faf7db623ef1b/py-draughts-0.9.8.tar.gz
+[2023-07-12 12:18:56] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-07-12 12:18:56] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/72/23/8b4ab5c409ca84ec1c0478b8447fcb43f8b99641e60ecaf26183e1c7a9c6/Alpha_Rabbit-1.4.7.tar.gz
+[2023-07-12 12:18:56] INFO root fetch - processPackages [pytket]: Downloading https://files.pythonhosted.org/packages/0b/0f/8db0fcfa7fde7115dd5863cd5b1f5533be347fbad99aaa158e2c9fa0a3a5/pytket-1.9.1-cp39-cp39-win_amd64.whl
+[2023-07-12 12:18:56] INFO root fetch - processPackages [refunc-cli]: Downloading https://files.pythonhosted.org/packages/af/9f/49876cb599b47ceea1c6665a7680602249fd8009d6e3330dd9498836abc0/refunc-cli-1.2.2.tar.gz
+[2023-07-12 12:18:57] INFO root fetch - processPackages [jsonschema]: Downloading https://files.pythonhosted.org/packages/02/96/901e5735f16cb438eccff95b534d0bdd058237dab1ae4731b5e1e1ddc9b4/jsonschema-4.9.0.tar.gz
+[2023-07-12 12:18:57] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/bc/eb/4d17814251362e4b6d9df486a7bf61c798e8724ddd39067ebf3aaf814de0/spaces-0.7.0.tar.gz
+[2023-07-12 12:18:57] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/13/10/715270eaf3fa0ed2c59d73bb633cc52b2ae605b11cb3fc5256a563c7d7a0/chatgpt-klient-0.0.6.tar.gz
+[2023-07-12 12:18:57] INFO root fetch - processPackages [easy-ge]: Downloading https://files.pythonhosted.org/packages/4a/66/7e23807eda3ce7ed983300951ef87a700b0a34280e9a1cb16dc385399a1b/easy_ge-0.1.2.tar.gz
+[2023-07-12 12:18:57] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/bb/b0/d7ca100ca332b39b692bce70264e0ab3f4134daafc57ab3b397666234d61/jcloud-0.2.9.dev4.tar.gz
+[2023-07-12 12:18:57] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-12 12:18:57] INFO root fetch - processPackages [py-draughts]: Downloading https://files.pythonhosted.org/packages/24/b0/a9fef54167658d7d330a3813badfff4f4a60b6f089c17a850599c57ea488/py-draughts-0.9.9.tar.gz
+[2023-07-12 12:18:57] INFO root fetch - processPackages [chatgpt-klient]: executing diffoscope
+[2023-07-12 12:18:57] INFO root fetch - processPackages [chatgpt-klient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-klient-0.0.5.tar.gz tmp/chatgpt-klient-0.0.6.tar.gz --markdown 20230712/c/chatgpt-klient/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-12 12:18:57] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/0b/6e/e2fc0214c9d6a7c53afde40502cdbafda192a0978fc61e4aa29c752eaf6a/Alpha_Rabbit-1.4.8.tar.gz
+[2023-07-12 12:18:57] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-07-12 12:18:57] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230712/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-07-12 12:18:57] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/d1/7b/11318ffef4e73d87603222fe68f3066c1f5b6a6b05f4eccf55910d0bff13/spaces-0.8.0.tar.gz
+[2023-07-12 12:18:57] INFO root fetch - processPackages [easy-ge]: executing diffoscope
+[2023-07-12 12:18:57] INFO root fetch - processPackages [easy-ge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_ge-0.1.1.tar.gz tmp/easy_ge-0.1.2.tar.gz --markdown 20230712/e/easy-ge/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-12 12:18:57] INFO root fetch - processPackages [py-draughts]: executing diffoscope
+[2023-07-12 12:18:57] INFO root fetch - processPackages [py-draughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-draughts-0.9.8.tar.gz tmp/py-draughts-0.9.9.tar.gz --markdown 20230712/p/py-draughts/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-12 12:18:57] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-12 12:18:57] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230712/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-12 12:18:57] WARNING root fetch - processPackages [pytket]: Skipping package: exceeds size limit 10528667>=10485760
+[2023-07-12 12:18:57] INFO root fetch - processPackages [pytket]: Start processing: kcli
+[2023-07-12 12:18:57] INFO root fetch - main [MainThread]: End processing [pytket] error
+[2023-07-12 12:18:57] INFO root fetch - processPackages [refunc-cli]: Downloading https://files.pythonhosted.org/packages/4c/d3/8e2737245b35677ab761818e1518a24b4dd4d440c5218ac59960e8ed5adf/refunc-cli-1.2.3.tar.gz
+[2023-07-12 12:18:57] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2023-07-12 12:18:57] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.7.0.tar.gz tmp/spaces-0.8.0.tar.gz --markdown 20230712/s/spaces/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-12 12:18:57] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-07-12 12:18:57] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.4.7.tar.gz tmp/Alpha_Rabbit-1.4.8.tar.gz --markdown 20230712/A/Alpha-Rabbit/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-12 12:18:57] INFO root fetch - processPackages [kcli]: New version: [99.0.202307121017] Old Version: [99.0.202307120642]
+[2023-07-12 12:18:57] INFO root fetch - processPackages [refunc-cli]: executing diffoscope
+[2023-07-12 12:18:57] INFO root fetch - processPackages [refunc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refunc-cli-1.2.2.tar.gz tmp/refunc-cli-1.2.3.tar.gz --markdown 20230712/r/refunc-cli/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-12 12:18:57] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/23/a7/aa4ffbbaf4cf6412a523c80872d6c638827cc95a01c8979e74fe8283e6e5/kcli-99.0.202307120642-py3-none-any.whl
+[2023-07-12 12:18:58] INFO root fetch - processPackages [jsonschema]: Downloading https://files.pythonhosted.org/packages/e6/a9/569ad03b90093c956bd396a6b3151c17e6005d8ac139d9419e89339c02df/jsonschema-4.9.1.tar.gz
+[2023-07-12 12:18:58] INFO root fetch - processPackages [jsonschema]: executing diffoscope
+[2023-07-12 12:18:58] INFO root fetch - processPackages [jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema-4.9.0.tar.gz tmp/jsonschema-4.9.1.tar.gz --markdown 20230712/j/jsonschema/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-07-12 12:18:58] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/15/5e/8696aa9ef22789f21162fc699856e68cccd761bebcc3e79fd3a4bd8494ff/kcli-99.0.202307121017-py3-none-any.whl
+[2023-07-12 12:18:59] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-klient-0.0.5.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-klient-0.0.6.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - processPackages [chatgpt-klient]: Start processing: baysalt-christmas
+[2023-07-12 12:18:59] INFO root fetch - main [MainThread]: End processing [chatgpt-klient]: success
+[2023-07-12 12:18:59] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.8.6] Old Version: [0.1.8.5]
+[2023-07-12 12:18:59] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-12 12:18:59] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307120642-py3-none-any.whl.zip tmp/kcli-99.0.202307121017-py3-none-any.whl.zip --markdown 20230712/k/kcli/99.0.202307120642-99.0.202307121017/diff.md --exclude *.pyd
+[2023-07-12 12:18:59] INFO root fetch - processPackages [easy-ge]: Remove: archive file [/home/abi/fetcher/tmp/easy_ge-0.1.1.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - processPackages [easy-ge]: Remove: archive file [/home/abi/fetcher/tmp/easy_ge-0.1.2.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - processPackages [easy-ge]: Start processing: chatllm
+[2023-07-12 12:18:59] INFO root fetch - main [MainThread]: End processing [easy-ge]: success
+[2023-07-12 12:18:59] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/73/6e/f1890d67f78eb6c0a1230bdf7365f003753b32439b947de7d43baed6c014/baysalt_christmas-0.1.8.5.tar.gz
+[2023-07-12 12:18:59] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-12 12:18:59] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.7.0.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.8.0.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2023-07-12 12:18:59] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-12 12:18:59] INFO root fetch - processPackages [py-draughts]: Remove: archive file [/home/abi/fetcher/tmp/py-draughts-0.9.8.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - processPackages [py-draughts]: Remove: archive file [/home/abi/fetcher/tmp/py-draughts-0.9.9.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - main [MainThread]: End processing [py-draughts]: success
+[2023-07-12 12:18:59] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-12 12:18:59] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-12 12:18:59] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev3.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev4.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-07-12 12:18:59] INFO root fetch - processPackages [refunc-cli]: Remove: archive file [/home/abi/fetcher/tmp/refunc-cli-1.2.2.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - processPackages [refunc-cli]: Remove: archive file [/home/abi/fetcher/tmp/refunc-cli-1.2.3.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - main [MainThread]: End processing [refunc-cli]: success
+[2023-07-12 12:18:59] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.7.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.8.tar.gz]
+[2023-07-12 12:18:59] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-07-12 12:18:59] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/32/29/bc1dd7f5e96bc7f15eb4bb974c1222c54610df5706dbcf73859791dd6f3c/baysalt_christmas-0.1.8.6.tar.gz
+[2023-07-12 12:18:59] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-07-12 12:18:59] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.8.5.tar.gz tmp/baysalt_christmas-0.1.8.6.tar.gz --markdown 20230712/b/baysalt-christmas/0.1.8.5-0.1.8.6/diff.md --exclude *.pyd
+[2023-07-12 12:19:01] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.5.tar.gz]
+[2023-07-12 12:19:01] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.8.6.tar.gz]
+[2023-07-12 12:19:01] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-07-12 12:19:01] INFO root fetch - processPackages [jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema-4.9.0.tar.gz]
+[2023-07-12 12:19:01] INFO root fetch - processPackages [jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema-4.9.1.tar.gz]
+[2023-07-12 12:19:01] INFO root fetch - main [MainThread]: End processing [jsonschema]: success
+[2023-07-12 12:19:02] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-12 12:19:02] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-12 12:19:02] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-12 12:19:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307120642-py3-none-any.whl.zip]
+[2023-07-12 12:19:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307121017-py3-none-any.whl.zip]
+[2023-07-12 12:19:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-12 12:19:03] INFO root fetch - main [MainThread]: Store serial: [18858683]
