@@ -15081,3 +15081,108 @@
 [2023-07-12 09:59:04] INFO root fetch - processPackages [nlppackage]: Remove: archive file [/home/abi/fetcher/tmp/nlppackage-0.0.19.tar.gz]
 [2023-07-12 09:59:04] INFO root fetch - main [MainThread]: End processing [nlppackage]: success
 [2023-07-12 09:59:04] INFO root fetch - main [MainThread]: Store serial: [18857179]
+[2023-07-12 10:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857179]
+[2023-07-12 10:04:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-12 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apifoncier
+[2023-07-12 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: planqk-quantum
+[2023-07-12 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feffery-antd-components
+[2023-07-12 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: safe-eth-py-tvl
+[2023-07-12 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Akatosh
+[2023-07-12 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steampunk-spotter
+[2023-07-12 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gcp-ng-helpers
+[2023-07-12 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yz-core2
+[2023-07-12 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mopinion
+[2023-07-12 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-selenium-ctrl-package
+[2023-07-12 10:04:13] INFO root fetch - processPackages [gcp-ng-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 10:04:13] INFO root fetch - processPackages [steampunk-spotter]: New version: [2.1.0rc2] Old Version: [2.1.0rc1]
+[2023-07-12 10:04:13] INFO root fetch - processPackages [apifoncier]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 10:04:13] INFO root fetch - processPackages [mopinion]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-12 10:04:13] INFO root fetch - processPackages [Akatosh]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-12 10:04:13] INFO root fetch - processPackages [planqk-quantum]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-07-12 10:04:13] WARNING root fetch - processPackages [safe-eth-py-tvl]: Skipping, unable to determine old version
+[2023-07-12 10:04:13] INFO root fetch - processPackages [safe-eth-py-tvl]: Start processing: nwebclient
+[2023-07-12 10:04:13] INFO root fetch - main [MainThread]: End processing [safe-eth-py-tvl] error
+[2023-07-12 10:04:13] INFO root fetch - processPackages [yz-core2]: New version: [1.0.60] Old Version: [1.0.56b2]
+[2023-07-12 10:04:13] INFO root fetch - processPackages [feffery-antd-components]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-12 10:04:13] INFO root fetch - processPackages [python-selenium-ctrl-package]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 10:04:13] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 10:04:13] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/4b/79/779c52ef96abc08d01ec9c0fe668a71ceb65cc58a0f7dea48a5df9f13b96/steampunk_spotter-2.1.0rc1-py3-none-any.whl
+[2023-07-12 10:04:13] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/7f/ba/53b74f0a39fbae76048e5571b1d126398fd193556d1e2436406b7d7543f4/Akatosh-2.1.1.tar.gz
+[2023-07-12 10:04:13] INFO root fetch - processPackages [apifoncier]: Downloading https://files.pythonhosted.org/packages/1c/66/47b5e1f67dfe9fb0211022ec20b33402daa353df3e1fbbc7a023ddfb1d4c/apifoncier-0.0.8.tar.gz
+[2023-07-12 10:04:13] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/a2/2283b7561efc1f28847bda5663a94ecf7f878f29f7b3a1590a79b839125d/planqk-quantum-1.8.6.tar.gz
+[2023-07-12 10:04:13] INFO root fetch - processPackages [gcp-ng-helpers]: Downloading https://files.pythonhosted.org/packages/54/78/15f3207f0255fc2e3b7c7eaa198c84588a50a8e4a7da118ad1c8f76f5eba/gcp_ng_helpers-0.0.8.tar.gz
+[2023-07-12 10:04:13] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 10:04:13] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/9c/f7/e2bfdd8794266fb260dfcb5eb71da41465a2adab5d758d44e30c79217c3e/yz-core2-1.0.56b2.tar.gz
+[2023-07-12 10:04:13] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/54/82/f35103c609f66540f561267cee21d87261dc90f7a6909eba705aab10d074/feffery_antd_components-0.2.8.tar.gz
+[2023-07-12 10:04:13] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/90/94/0529f91b7cea9383eac1c51b125e64fa1c81b8d426d0f59a11b514d8002c/python_selenium_ctrl_package-0.0.98.tar.gz
+[2023-07-12 10:04:13] INFO root fetch - processPackages [mopinion]: Downloading https://files.pythonhosted.org/packages/77/1e/2b505f573fd623088a216f573f1d1e54239dfead77a52764489d4d4b1be6/mopinion-1.0.0.tar.gz
+[2023-07-12 10:04:13] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/a3/13/7cd24d3b8a0478841e1fa07648a7156ac8b299a7e39addc247212e1e8a60/planqk-quantum-1.9.0.tar.gz
+[2023-07-12 10:04:13] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/8e/8f/b003760d9399f8b049d789465e5951d6b53f277698b284342467ab00b044/steampunk_spotter-2.1.0rc2-py3-none-any.whl
+[2023-07-12 10:04:13] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 10:04:14] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/93/e7/f3f2b496caabd68a5baa5e5cf2cb02eb30d7c98303678ec681f132f7713a/Akatosh-2.1.2.tar.gz
+[2023-07-12 10:04:14] INFO root fetch - processPackages [apifoncier]: Downloading https://files.pythonhosted.org/packages/28/10/cf7ae79f9da26ce747727dc57da1227311afde52a03ddfcc1edf8a34a866/apifoncier-0.0.9.tar.gz
+[2023-07-12 10:04:14] INFO root fetch - processPackages [gcp-ng-helpers]: Downloading https://files.pythonhosted.org/packages/c9/5b/f3d84d39a61bb6b652aaf1d308da0692936d869373c6fe507bcd898f29cb/gcp_ng_helpers-0.0.9.tar.gz
+[2023-07-12 10:04:14] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-12 10:04:14] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.6.tar.gz tmp/planqk-quantum-1.9.0.tar.gz --markdown 20230712/p/planqk-quantum/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-07-12 10:04:14] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-07-12 10:04:14] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-2.1.0rc1-py3-none-any.whl.zip tmp/steampunk_spotter-2.1.0rc2-py3-none-any.whl.zip --markdown 20230712/s/steampunk-spotter/2.1.0rc1-2.1.0rc2/diff.md --exclude *.pyd
+[2023-07-12 10:04:14] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 10:04:14] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 10:04:14] INFO root fetch - processPackages [mopinion]: Downloading https://files.pythonhosted.org/packages/18/67/fad826e60e03992f05a35941458c8eabd736762ea4480a75fb04c69ee994/mopinion-1.0.1.tar.gz
+[2023-07-12 10:04:14] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/a1/a8/5d56502649af703f4cc1f4a37e795f6dbe16b64538c1fda34752e1710201/yz-core2-1.0.60.tar.gz
+[2023-07-12 10:04:14] INFO root fetch - processPackages [apifoncier]: executing diffoscope
+[2023-07-12 10:04:14] INFO root fetch - processPackages [apifoncier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apifoncier-0.0.8.tar.gz tmp/apifoncier-0.0.9.tar.gz --markdown 20230712/a/apifoncier/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 10:04:14] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/17/bd/a72156bf8bda13c88a0737151e6ac45509dc454537576bdcc97c761ce4de/python_selenium_ctrl_package-0.0.99.tar.gz
+[2023-07-12 10:04:14] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-07-12 10:04:14] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-2.1.1.tar.gz tmp/Akatosh-2.1.2.tar.gz --markdown 20230712/A/Akatosh/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-12 10:04:14] INFO root fetch - processPackages [gcp-ng-helpers]: executing diffoscope
+[2023-07-12 10:04:14] INFO root fetch - processPackages [gcp-ng-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_ng_helpers-0.0.8.tar.gz tmp/gcp_ng_helpers-0.0.9.tar.gz --markdown 20230712/g/gcp-ng-helpers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 10:04:14] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/94/81/17fc6b7cca34abb81e767c58edbacfc6dbc509dc49bf7acfbfdcda1007ca/feffery_antd_components-0.2.9.tar.gz
+[2023-07-12 10:04:14] INFO root fetch - processPackages [mopinion]: executing diffoscope
+[2023-07-12 10:04:14] INFO root fetch - processPackages [mopinion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mopinion-1.0.0.tar.gz tmp/mopinion-1.0.1.tar.gz --markdown 20230712/m/mopinion/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-12 10:04:14] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-07-12 10:04:14] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.56b2.tar.gz tmp/yz-core2-1.0.60.tar.gz --markdown 20230712/y/yz-core2/1.0.56b2-1.0.60/diff.md --exclude *.pyd
+[2023-07-12 10:04:14] INFO root fetch - processPackages [python-selenium-ctrl-package]: executing diffoscope
+[2023-07-12 10:04:14] INFO root fetch - processPackages [python-selenium-ctrl-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_selenium_ctrl_package-0.0.98.tar.gz tmp/python_selenium_ctrl_package-0.0.99.tar.gz --markdown 20230712/p/python-selenium-ctrl-package/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 10:04:14] INFO root fetch - processPackages [feffery-antd-components]: executing diffoscope
+[2023-07-12 10:04:14] INFO root fetch - processPackages [feffery-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_components-0.2.8.tar.gz tmp/feffery_antd_components-0.2.9.tar.gz --markdown 20230712/f/feffery-antd-components/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-12 10:04:15] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 10:04:15] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 10:04:15] INFO root fetch - processPackages [nwebclient]: Start processing: Fred-Frechet
+[2023-07-12 10:04:15] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 10:04:15] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.6.tar.gz]
+[2023-07-12 10:04:15] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.8.tar.gz]
+[2023-07-12 10:04:15] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.9.0.tar.gz]
+[2023-07-12 10:04:15] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.9.tar.gz]
+[2023-07-12 10:04:15] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-12 10:04:15] INFO root fetch - main [MainThread]: End processing [apifoncier]: success
+[2023-07-12 10:04:16] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.1.0rc1-py3-none-any.whl.zip]
+[2023-07-12 10:04:16] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.1.0rc2-py3-none-any.whl.zip]
+[2023-07-12 10:04:16] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-07-12 10:04:16] INFO root fetch - processPackages [Fred-Frechet]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-12 10:04:16] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.1.tar.gz]
+[2023-07-12 10:04:16] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.2.tar.gz]
+[2023-07-12 10:04:16] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-07-12 10:04:16] INFO root fetch - processPackages [gcp-ng-helpers]: Remove: archive file [/home/abi/fetcher/tmp/gcp_ng_helpers-0.0.8.tar.gz]
+[2023-07-12 10:04:16] INFO root fetch - processPackages [gcp-ng-helpers]: Remove: archive file [/home/abi/fetcher/tmp/gcp_ng_helpers-0.0.9.tar.gz]
+[2023-07-12 10:04:16] INFO root fetch - main [MainThread]: End processing [gcp-ng-helpers]: success
+[2023-07-12 10:04:16] INFO root fetch - processPackages [mopinion]: Remove: archive file [/home/abi/fetcher/tmp/mopinion-1.0.0.tar.gz]
+[2023-07-12 10:04:16] INFO root fetch - processPackages [mopinion]: Remove: archive file [/home/abi/fetcher/tmp/mopinion-1.0.1.tar.gz]
+[2023-07-12 10:04:16] INFO root fetch - main [MainThread]: End processing [mopinion]: success
+[2023-07-12 10:04:16] INFO root fetch - processPackages [python-selenium-ctrl-package]: Remove: archive file [/home/abi/fetcher/tmp/python_selenium_ctrl_package-0.0.98.tar.gz]
+[2023-07-12 10:04:16] INFO root fetch - processPackages [python-selenium-ctrl-package]: Remove: archive file [/home/abi/fetcher/tmp/python_selenium_ctrl_package-0.0.99.tar.gz]
+[2023-07-12 10:04:16] INFO root fetch - main [MainThread]: End processing [python-selenium-ctrl-package]: success
+[2023-07-12 10:04:16] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.56b2.tar.gz]
+[2023-07-12 10:04:16] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.60.tar.gz]
+[2023-07-12 10:04:16] INFO root fetch - main [MainThread]: End processing [yz-core2]: success
+[2023-07-12 10:04:16] INFO root fetch - processPackages [Fred-Frechet]: Downloading https://files.pythonhosted.org/packages/35/81/17595c869b665747837da1825308030df3087c80e20f26e282781e991ed7/Fred-Frechet-1.9.8.tar.gz
+[2023-07-12 10:04:16] INFO root fetch - processPackages [Fred-Frechet]: Downloading https://files.pythonhosted.org/packages/6e/75/298c88cc23934ff39afe9396676a702e198399c248fb6d9e16da366009d3/Fred-Frechet-1.9.9.tar.gz
+[2023-07-12 10:04:16] INFO root fetch - processPackages [Fred-Frechet]: executing diffoscope
+[2023-07-12 10:04:16] INFO root fetch - processPackages [Fred-Frechet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fred-Frechet-1.9.8.tar.gz tmp/Fred-Frechet-1.9.9.tar.gz --markdown 20230712/F/Fred-Frechet/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-12 10:04:17] INFO root fetch - processPackages [Fred-Frechet]: Remove: archive file [/home/abi/fetcher/tmp/Fred-Frechet-1.9.8.tar.gz]
+[2023-07-12 10:04:17] INFO root fetch - processPackages [Fred-Frechet]: Remove: archive file [/home/abi/fetcher/tmp/Fred-Frechet-1.9.9.tar.gz]
+[2023-07-12 10:04:17] INFO root fetch - main [MainThread]: End processing [Fred-Frechet]: success
+[2023-07-12 10:04:40] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.8.tar.gz]
+[2023-07-12 10:04:40] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.9.tar.gz]
+[2023-07-12 10:04:40] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
+[2023-07-12 10:04:40] INFO root fetch - main [MainThread]: Store serial: [18857230]
