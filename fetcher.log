@@ -14490,3 +14490,71 @@
 [2023-07-12 09:34:57] INFO root fetch - processPackages [qoqo-quest]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_quest-0.9.1.tar.gz]
 [2023-07-12 09:34:57] INFO root fetch - main [MainThread]: End processing [qoqo-quest]: success
 [2023-07-12 09:34:57] INFO root fetch - main [MainThread]: Store serial: [18856920]
+[2023-07-12 09:40:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856920]
+[2023-07-12 09:40:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-12 09:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2023-07-12 09:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2023-07-12 09:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dpmt
+[2023-07-12 09:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: encab
+[2023-07-12 09:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: not-p-client
+[2023-07-12 09:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ora2
+[2023-07-12 09:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymycobot
+[2023-07-12 09:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-serve
+[2023-07-12 09:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grassmanntn
+[2023-07-12 09:40:09] INFO root fetch - processPackages [encab]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-12 09:40:09] WARNING root fetch - processPackages [dpmt]: Skipping, unable to determine old version
+[2023-07-12 09:40:09] INFO root fetch - main [MainThread]: End processing [dpmt] error
+[2023-07-12 09:40:09] INFO root fetch - processPackages [cg]: New version: [38.2.4] Old Version: [38.2.3]
+[2023-07-12 09:40:09] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-12 09:40:09] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-07-12 09:40:09] INFO root fetch - processPackages [grassmanntn]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-12 09:40:09] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/af/40/06a69114eccde1da3204211be29c206c5117a7052fe6edbc106a78ad96e8/cg-38.2.3.tar.gz
+[2023-07-12 09:40:09] WARNING root fetch - processPackages [not-p-client]: Skipping, unable to determine old version
+[2023-07-12 09:40:09] INFO root fetch - main [MainThread]: End processing [not-p-client] error
+[2023-07-12 09:40:09] INFO root fetch - processPackages [ora2]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-07-12 09:40:09] INFO root fetch - processPackages [pymycobot]: New version: [3.1.6b1] Old Version: [3.1.5]
+[2023-07-12 09:40:09] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-12 09:40:09] INFO root fetch - processPackages [encab]: Downloading https://files.pythonhosted.org/packages/a5/a6/74e3010973b64f9c39b7b718f588134d1c4d6cc3b949383ba861d6f099d1/encab-0.0.4.tar.gz
+[2023-07-12 09:40:09] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 09:40:09] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-07-12 09:40:09] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-07-12 09:40:09] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/39/3b/ef50155cb57752c1ee882df0907ba5997782e36dec650e7bed8c9e27d3f2/grassmanntn-1.2.0.tar.gz
+[2023-07-12 09:40:10] INFO root fetch - processPackages [ora2]: Downloading https://files.pythonhosted.org/packages/54/d9/9d6dd1d7eb65512c26606c797f664e6ae14f760723b7b32bd647c5888e2d/ora2-5.1.0.tar.gz
+[2023-07-12 09:40:10] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/d8/ba/1a6c5e57a4380cc9fabc842fef38521b8334f6623292f8f3e779af3a2a62/pymycobot-3.1.5.tar.gz
+[2023-07-12 09:40:10] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-12 09:40:10] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-12 09:40:10] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230712/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-12 09:40:10] INFO root fetch - processPackages [encab]: Downloading https://files.pythonhosted.org/packages/4c/90/3204603b0fc12aa904d5913f552e25991fc5b6dfb6ede68a4e705243d986/encab-0.0.5.tar.gz
+[2023-07-12 09:40:10] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/f4/78/b8bdecd1071f0d9c8eeb2e63595e92f9f089aa8fdec4bcb225981abb738f/cg-38.2.4.tar.gz
+[2023-07-12 09:40:10] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/cf/8b/1f79237c17645c768d08f784442140e64859327f34ddb723c0ce20fcf7c8/grassmanntn-1.2.1.tar.gz
+[2023-07-12 09:40:10] INFO root fetch - processPackages [encab]: executing diffoscope
+[2023-07-12 09:40:10] INFO root fetch - processPackages [encab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encab-0.0.4.tar.gz tmp/encab-0.0.5.tar.gz --markdown 20230712/e/encab/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-12 09:40:10] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/43/b6/dd6118c182c8f2dce732ff949ccd136018dc308151c79ea9b279962e8eab/pymycobot-3.1.6b1.tar.gz
+[2023-07-12 09:40:10] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2023-07-12 09:40:10] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.1.5.tar.gz tmp/pymycobot-3.1.6b1.tar.gz --markdown 20230712/p/pymycobot/3.1.5-3.1.6b1/diff.md --exclude *.pyd
+[2023-07-12 09:40:10] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-12 09:40:10] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.2.0.tar.gz tmp/grassmanntn-1.2.1.tar.gz --markdown 20230712/g/grassmanntn/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-12 09:40:10] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-12 09:40:10] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.2.3.tar.gz tmp/cg-38.2.4.tar.gz --markdown 20230712/c/cg/38.2.3-38.2.4/diff.md --exclude *.pyd
+[2023-07-12 09:40:11] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-12 09:40:11] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-12 09:40:11] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-12 09:40:11] INFO root fetch - processPackages [encab]: Remove: archive file [/home/abi/fetcher/tmp/encab-0.0.4.tar.gz]
+[2023-07-12 09:40:11] INFO root fetch - processPackages [encab]: Remove: archive file [/home/abi/fetcher/tmp/encab-0.0.5.tar.gz]
+[2023-07-12 09:40:11] INFO root fetch - main [MainThread]: End processing [encab]: success
+[2023-07-12 09:40:11] INFO root fetch - processPackages [ora2]: Downloading https://files.pythonhosted.org/packages/28/39/1582500ed6c22e5854d0878de9b08b2cdafda56e881216804c8b4b0a2338/ora2-5.1.1.tar.gz
+[2023-07-12 09:40:11] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.2.0.tar.gz]
+[2023-07-12 09:40:11] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.2.1.tar.gz]
+[2023-07-12 09:40:11] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-12 09:40:11] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.5.tar.gz]
+[2023-07-12 09:40:11] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.6b1.tar.gz]
+[2023-07-12 09:40:11] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2023-07-12 09:40:11] INFO root fetch - processPackages [ora2]: executing diffoscope
+[2023-07-12 09:40:11] INFO root fetch - processPackages [ora2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ora2-5.1.0.tar.gz tmp/ora2-5.1.1.tar.gz --markdown 20230712/o/ora2/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-07-12 09:40:16] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.3.tar.gz]
+[2023-07-12 09:40:16] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.4.tar.gz]
+[2023-07-12 09:40:16] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-12 09:40:16] INFO root fetch - processPackages [ora2]: Remove: archive file [/home/abi/fetcher/tmp/ora2-5.1.0.tar.gz]
+[2023-07-12 09:40:16] INFO root fetch - processPackages [ora2]: Remove: archive file [/home/abi/fetcher/tmp/ora2-5.1.1.tar.gz]
+[2023-07-12 09:40:16] INFO root fetch - main [MainThread]: End processing [ora2]: success
+[2023-07-12 09:40:16] INFO root fetch - main [MainThread]: Store serial: [18856970]
