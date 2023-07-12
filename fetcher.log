@@ -18956,3 +18956,136 @@
 [2023-07-12 12:24:25] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.7.0.dev1.tar.gz]
 [2023-07-12 12:24:25] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
 [2023-07-12 12:24:25] INFO root fetch - main [MainThread]: Store serial: [18858755]
+[2023-07-12 12:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858755]
+[2023-07-12 12:29:35] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-12 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systembridgewindowssensors
+[2023-07-12 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmtracer
+[2023-07-12 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azure-native
+[2023-07-12 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: no-comment
+[2023-07-12 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opack
+[2023-07-12 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: histeqkit
+[2023-07-12 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: emlib
+[2023-07-12 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taskiq
+[2023-07-12 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: practistyle
+[2023-07-12 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: memorious
+[2023-07-12 12:29:36] INFO root fetch - processPackages [systembridgewindowssensors]: New version: [3.7.0.dev1] Old Version: [3.7.0]
+[2023-07-12 12:29:36] INFO root fetch - processPackages [opack]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-12 12:29:36] WARNING root fetch - processPackages [llmtracer]: Skipping, unable to determine old version
+[2023-07-12 12:29:36] INFO root fetch - processPackages [llmtracer]: Start processing: sqlapydantic
+[2023-07-12 12:29:36] INFO root fetch - main [MainThread]: End processing [llmtracer] error
+[2023-07-12 12:29:36] WARNING root fetch - processPackages [histeqkit]: Skipping, unable to determine old version
+[2023-07-12 12:29:36] INFO root fetch - processPackages [histeqkit]: Start processing: easy-ge
+[2023-07-12 12:29:36] INFO root fetch - main [MainThread]: End processing [histeqkit] error
+[2023-07-12 12:29:36] INFO root fetch - processPackages [taskiq]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-12 12:29:36] INFO root fetch - processPackages [no-comment]: New version: [0.1.1] Old Version: [0.1.0a9]
+[2023-07-12 12:29:36] INFO root fetch - processPackages [practistyle]: New version: [0.0.78] Old Version: [0.0.76]
+[2023-07-12 12:29:36] INFO root fetch - processPackages [emlib]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-12 12:29:36] INFO root fetch - processPackages [memorious]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-07-12 12:29:36] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.0.0b4] Old Version: [2.0.0b3]
+[2023-07-12 12:29:36] INFO root fetch - processPackages [sqlapydantic]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-12 12:29:36] INFO root fetch - processPackages [easy-ge]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-12 12:29:36] INFO root fetch - processPackages [no-comment]: Downloading https://files.pythonhosted.org/packages/18/b8/51c4e296be331b451712a82bfde49e13bbc24620d56c078b0d3e3c8f9d6c/no-comment-0.1.0a9.tar.gz
+[2023-07-12 12:29:36] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/c2/86/30ff2e003f36b5c9c9d0b9295473f96cd9878214c2a4d271f7ac32627856/systembridgewindowssensors-3.7.0.tar.gz
+[2023-07-12 12:29:36] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/e6/57/a8d9687e66695b401ecfb6e6b34f2af9c43553c001116337cfdfdd8105cc/pulumi_azure_native-2.0.0b3.tar.gz
+[2023-07-12 12:29:36] INFO root fetch - processPackages [sqlapydantic]: Downloading https://files.pythonhosted.org/packages/95/88/dea9d4633f5392254b678fbe1b7ee2311d1f7e5d9df5e321621c38652bce/sqlapydantic-0.0.2.tar.gz
+[2023-07-12 12:29:36] INFO root fetch - processPackages [easy-ge]: Downloading https://files.pythonhosted.org/packages/4a/66/7e23807eda3ce7ed983300951ef87a700b0a34280e9a1cb16dc385399a1b/easy_ge-0.1.2.tar.gz
+[2023-07-12 12:29:36] INFO root fetch - processPackages [opack]: Downloading https://files.pythonhosted.org/packages/41/0c/8a8e97ddedf8c17eda0d808c6fa8dc22e73a06bf5405482d2069ab99431a/opack-0.0.1.tar.gz
+[2023-07-12 12:29:36] INFO root fetch - processPackages [memorious]: Downloading https://files.pythonhosted.org/packages/78/2b/14133a6d9e36865798207cab1fcdb37563135ccba509fd45b629683c3960/memorious-2.6.2.tar.gz
+[2023-07-12 12:29:36] INFO root fetch - processPackages [emlib]: Downloading https://files.pythonhosted.org/packages/ea/67/fcf1b6dc7769f14e2b9f7d88a82eceead943a9d14bd5e7491c508bda8545/emlib-1.9.1.tar.gz
+[2023-07-12 12:29:36] INFO root fetch - processPackages [practistyle]: Downloading https://files.pythonhosted.org/packages/94/e9/82881ce500bd6b9450943350cc16201b3dba1c553611ad2775e2333f0421/practistyle-0.0.77.tar.gz
+[2023-07-12 12:29:36] INFO root fetch - processPackages [taskiq]: Downloading https://files.pythonhosted.org/packages/ec/96/8529b83375b9eddea01e66429370346edea83c613253f51eb205271ea630/taskiq-0.8.1.tar.gz
+[2023-07-12 12:29:36] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 21623040>=10485760
+[2023-07-12 12:29:36] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: nonebot-plugin-pjsk
+[2023-07-12 12:29:36] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-07-12 12:29:36] WARNING root fetch - processPackages [practistyle]: Skipping package: exceeds size limit 64891399>=10485760
+[2023-07-12 12:29:36] INFO root fetch - processPackages [practistyle]: Start processing: redis-om
+[2023-07-12 12:29:36] WARNING root fetch - processPackages [nonebot-plugin-pjsk]: Skipping, unable to determine old version
+[2023-07-12 12:29:36] INFO root fetch - main [MainThread]: End processing [practistyle] error
+[2023-07-12 12:29:36] INFO root fetch - processPackages [nonebot-plugin-pjsk]: Start processing: ytsaurus-spyt
+[2023-07-12 12:29:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pjsk] error
+[2023-07-12 12:29:36] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.70.1b456.post13970065.dev23] Old Version: [1.70.1b451.post5605632.dev23]
+[2023-07-12 12:29:36] INFO root fetch - processPackages [sqlapydantic]: Downloading https://files.pythonhosted.org/packages/98/27/982b597a32323dd703bf9c4de0a4cc0b25bf9a1a7c3568581e96d3fcf170/sqlapydantic-0.0.3.tar.gz
+[2023-07-12 12:29:36] INFO root fetch - processPackages [easy-ge]: Downloading https://files.pythonhosted.org/packages/33/50/73dbfe132642de31a3e0f3d7d20e1e30d64a1d92fe328efc34677159638e/easy_ge-0.1.3.tar.gz
+[2023-07-12 12:29:36] INFO root fetch - processPackages [no-comment]: Downloading https://files.pythonhosted.org/packages/0f/55/0a19e1f7be7266c18720c7afcb4fc31a03b9803a9860969fbdf7515b5ce5/no-comment-0.1.1.tar.gz
+[2023-07-12 12:29:36] INFO root fetch - processPackages [redis-om]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-12 12:29:37] INFO root fetch - processPackages [taskiq]: Downloading https://files.pythonhosted.org/packages/7b/f0/b732b0e5f23196477bd8b42c3eba243dc2c58b8cfe78cab69bfff11bdc36/taskiq-0.8.2.tar.gz
+[2023-07-12 12:29:37] INFO root fetch - processPackages [opack]: Downloading https://files.pythonhosted.org/packages/e4/d6/21151244a97765d177dc02d7861b671f5351ad8dc753f2b053e6dcc8a8b1/opack-0.1.0.tar.gz
+[2023-07-12 12:29:37] INFO root fetch - processPackages [memorious]: Downloading https://files.pythonhosted.org/packages/a3/8c/7e20b2ac8c771ce4bb908850bae383e95407e48ec7d5a9f2c1227fe1b089/memorious-2.6.3.tar.gz
+[2023-07-12 12:29:37] INFO root fetch - processPackages [sqlapydantic]: executing diffoscope
+[2023-07-12 12:29:37] INFO root fetch - processPackages [sqlapydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlapydantic-0.0.2.tar.gz tmp/sqlapydantic-0.0.3.tar.gz --markdown 20230712/s/sqlapydantic/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-12 12:29:37] INFO root fetch - processPackages [easy-ge]: executing diffoscope
+[2023-07-12 12:29:37] INFO root fetch - processPackages [easy-ge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_ge-0.1.2.tar.gz tmp/easy_ge-0.1.3.tar.gz --markdown 20230712/e/easy-ge/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-12 12:29:37] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/eb/72/acf0b96c6eb7c827c71af387662c7b2a60410706130b7bfc5b9e8babb129/ytsaurus-spyt-1.70.1b451.post5605632.dev23.tar.gz
+[2023-07-12 12:29:37] INFO root fetch - processPackages [no-comment]: executing diffoscope
+[2023-07-12 12:29:37] INFO root fetch - processPackages [no-comment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/no-comment-0.1.0a9.tar.gz tmp/no-comment-0.1.1.tar.gz --markdown 20230712/n/no-comment/0.1.0a9-0.1.1/diff.md --exclude *.pyd
+[2023-07-12 12:29:37] INFO root fetch - processPackages [emlib]: Downloading https://files.pythonhosted.org/packages/2a/c4/46ac55b0f07ecc3157df3355733a20fad3d385671267e699bd178aabd98b/emlib-1.9.2.tar.gz
+[2023-07-12 12:29:37] INFO root fetch - processPackages [taskiq]: executing diffoscope
+[2023-07-12 12:29:37] INFO root fetch - processPackages [opack]: executing diffoscope
+[2023-07-12 12:29:37] INFO root fetch - processPackages [taskiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq-0.8.1.tar.gz tmp/taskiq-0.8.2.tar.gz --markdown 20230712/t/taskiq/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-12 12:29:37] INFO root fetch - processPackages [opack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opack-0.0.1.tar.gz tmp/opack-0.1.0.tar.gz --markdown 20230712/o/opack/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-12 12:29:37] INFO root fetch - processPackages [redis-om]: Downloading https://files.pythonhosted.org/packages/d8/ac/51b504acb91f66997b1d8c0a3f37f8a4a7c3e33ed93bd4cba59bab2ff660/redis_om-0.1.2.tar.gz
+[2023-07-12 12:29:37] INFO root fetch - processPackages [systembridgewindowssensors]: Downloading https://files.pythonhosted.org/packages/97/8f/a750b9d6f89a982d7898f6c4dbf4c36fbb968276552c04ff333cd54eae30/systembridgewindowssensors-3.7.0.dev1.tar.gz
+[2023-07-12 12:29:37] INFO root fetch - processPackages [memorious]: executing diffoscope
+[2023-07-12 12:29:37] INFO root fetch - processPackages [memorious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memorious-2.6.2.tar.gz tmp/memorious-2.6.3.tar.gz --markdown 20230712/m/memorious/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-07-12 12:29:37] INFO root fetch - processPackages [emlib]: executing diffoscope
+[2023-07-12 12:29:37] INFO root fetch - processPackages [emlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emlib-1.9.1.tar.gz tmp/emlib-1.9.2.tar.gz --markdown 20230712/e/emlib/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-12 12:29:37] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/c4/08/b83b0ebd93210fcd7c5e0165598ea1589ef181cdb120530635cbf0c6cfb6/ytsaurus-spyt-1.70.1b456.post13970065.dev23.tar.gz
+[2023-07-12 12:29:37] INFO root fetch - processPackages [systembridgewindowssensors]: executing diffoscope
+[2023-07-12 12:29:37] INFO root fetch - processPackages [systembridgewindowssensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgewindowssensors-3.7.0.tar.gz tmp/systembridgewindowssensors-3.7.0.dev1.tar.gz --markdown 20230712/s/systembridgewindowssensors/3.7.0-3.7.0.dev1/diff.md --exclude *.pyd
+[2023-07-12 12:29:37] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-07-12 12:29:37] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.70.1b451.post5605632.dev23.tar.gz tmp/ytsaurus-spyt-1.70.1b456.post13970065.dev23.tar.gz --markdown 20230712/y/ytsaurus-spyt/1.70.1b451.post5605632.dev23-1.70.1b456.post13970065.dev23/diff.md --exclude *.pyd
+[2023-07-12 12:29:37] INFO root fetch - processPackages [redis-om]: Downloading https://files.pythonhosted.org/packages/45/6a/9293998289e4c0d65bf57fd81fe0b0a113bc7f7a94e24ee2e1aa5d104399/redis_om-0.1.3.tar.gz
+[2023-07-12 12:29:37] INFO root fetch - processPackages [redis-om]: executing diffoscope
+[2023-07-12 12:29:37] INFO root fetch - processPackages [redis-om]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_om-0.1.2.tar.gz tmp/redis_om-0.1.3.tar.gz --markdown 20230712/r/redis-om/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-12 12:29:38] INFO root fetch - processPackages [sqlapydantic]: Remove: archive file [/home/abi/fetcher/tmp/sqlapydantic-0.0.2.tar.gz]
+[2023-07-12 12:29:38] INFO root fetch - processPackages [sqlapydantic]: Remove: archive file [/home/abi/fetcher/tmp/sqlapydantic-0.0.3.tar.gz]
+[2023-07-12 12:29:38] INFO root fetch - processPackages [sqlapydantic]: Start processing: histeqkit
+[2023-07-12 12:29:38] INFO root fetch - main [MainThread]: End processing [sqlapydantic]: success
+[2023-07-12 12:29:38] INFO root fetch - processPackages [histeqkit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-12 12:29:38] INFO root fetch - processPackages [easy-ge]: Remove: archive file [/home/abi/fetcher/tmp/easy_ge-0.1.2.tar.gz]
+[2023-07-12 12:29:38] INFO root fetch - processPackages [easy-ge]: Remove: archive file [/home/abi/fetcher/tmp/easy_ge-0.1.3.tar.gz]
+[2023-07-12 12:29:38] INFO root fetch - processPackages [easy-ge]: Start processing: codeforlife-portal
+[2023-07-12 12:29:38] INFO root fetch - main [MainThread]: End processing [easy-ge]: success
+[2023-07-12 12:29:38] INFO root fetch - processPackages [histeqkit]: Downloading https://files.pythonhosted.org/packages/52/24/2ce836498ecff6d2c606e2dd05978d250374e4a9bd13db32249b59bd4087/histeqkit-0.0.5.tar.gz
+[2023-07-12 12:29:38] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-07-12 12:29:38] INFO root fetch - processPackages [opack]: Remove: archive file [/home/abi/fetcher/tmp/opack-0.0.1.tar.gz]
+[2023-07-12 12:29:38] INFO root fetch - processPackages [opack]: Remove: archive file [/home/abi/fetcher/tmp/opack-0.1.0.tar.gz]
+[2023-07-12 12:29:38] INFO root fetch - processPackages [opack]: Start processing: meteplanet-room-chat
+[2023-07-12 12:29:38] INFO root fetch - main [MainThread]: End processing [opack]: success
+[2023-07-12 12:29:38] WARNING root fetch - processPackages [meteplanet-room-chat]: Skipping, unable to determine old version
+[2023-07-12 12:29:38] INFO root fetch - main [MainThread]: End processing [meteplanet-room-chat] error
+[2023-07-12 12:29:38] INFO root fetch - processPackages [taskiq]: Remove: archive file [/home/abi/fetcher/tmp/taskiq-0.8.1.tar.gz]
+[2023-07-12 12:29:38] INFO root fetch - processPackages [taskiq]: Remove: archive file [/home/abi/fetcher/tmp/taskiq-0.8.2.tar.gz]
+[2023-07-12 12:29:38] INFO root fetch - main [MainThread]: End processing [taskiq]: success
+[2023-07-12 12:29:39] INFO root fetch - processPackages [histeqkit]: Downloading https://files.pythonhosted.org/packages/7e/82/ba419d54e782cc24c61cb51d3a22837b76cd5e32e410985806cd1304192c/histeqkit-0.0.6.tar.gz
+[2023-07-12 12:29:39] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2023-07-12 12:29:39] INFO root fetch - processPackages [emlib]: Remove: archive file [/home/abi/fetcher/tmp/emlib-1.9.1.tar.gz]
+[2023-07-12 12:29:39] INFO root fetch - processPackages [emlib]: Remove: archive file [/home/abi/fetcher/tmp/emlib-1.9.2.tar.gz]
+[2023-07-12 12:29:39] INFO root fetch - main [MainThread]: End processing [emlib]: success
+[2023-07-12 12:29:39] INFO root fetch - processPackages [memorious]: Remove: archive file [/home/abi/fetcher/tmp/memorious-2.6.2.tar.gz]
+[2023-07-12 12:29:39] INFO root fetch - processPackages [memorious]: Remove: archive file [/home/abi/fetcher/tmp/memorious-2.6.3.tar.gz]
+[2023-07-12 12:29:39] INFO root fetch - main [MainThread]: End processing [memorious]: success
+[2023-07-12 12:29:39] INFO root fetch - processPackages [histeqkit]: executing diffoscope
+[2023-07-12 12:29:39] INFO root fetch - processPackages [histeqkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histeqkit-0.0.5.tar.gz tmp/histeqkit-0.0.6.tar.gz --markdown 20230712/h/histeqkit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-12 12:29:39] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.7.0.tar.gz]
+[2023-07-12 12:29:39] INFO root fetch - processPackages [systembridgewindowssensors]: Remove: archive file [/home/abi/fetcher/tmp/systembridgewindowssensors-3.7.0.dev1.tar.gz]
+[2023-07-12 12:29:39] INFO root fetch - main [MainThread]: End processing [systembridgewindowssensors]: success
+[2023-07-12 12:29:39] INFO root fetch - processPackages [redis-om]: Remove: archive file [/home/abi/fetcher/tmp/redis_om-0.1.2.tar.gz]
+[2023-07-12 12:29:39] INFO root fetch - processPackages [redis-om]: Remove: archive file [/home/abi/fetcher/tmp/redis_om-0.1.3.tar.gz]
+[2023-07-12 12:29:39] INFO root fetch - main [MainThread]: End processing [redis-om]: success
+[2023-07-12 12:29:40] INFO root fetch - processPackages [histeqkit]: Remove: archive file [/home/abi/fetcher/tmp/histeqkit-0.0.5.tar.gz]
+[2023-07-12 12:29:40] INFO root fetch - processPackages [histeqkit]: Remove: archive file [/home/abi/fetcher/tmp/histeqkit-0.0.6.tar.gz]
+[2023-07-12 12:29:40] INFO root fetch - main [MainThread]: End processing [histeqkit]: success
+[2023-07-12 12:29:40] INFO root fetch - processPackages [no-comment]: Remove: archive file [/home/abi/fetcher/tmp/no-comment-0.1.0a9.tar.gz]
+[2023-07-12 12:29:40] INFO root fetch - processPackages [no-comment]: Remove: archive file [/home/abi/fetcher/tmp/no-comment-0.1.1.tar.gz]
+[2023-07-12 12:29:40] INFO root fetch - main [MainThread]: End processing [no-comment]: success
+[2023-07-12 12:29:40] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2023-07-12 12:29:41] INFO root fetch - processPackages [ytsaurus-spyt]: Remove: archive file [/home/abi/fetcher/tmp/ytsaurus-spyt-1.70.1b451.post5605632.dev23.tar.gz]
+[2023-07-12 12:29:41] INFO root fetch - processPackages [ytsaurus-spyt]: Remove: archive file [/home/abi/fetcher/tmp/ytsaurus-spyt-1.70.1b456.post13970065.dev23.tar.gz]
+[2023-07-12 12:29:41] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-07-12 12:29:43] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2023-07-12 12:29:43] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20230712/c/codeforlife-portal/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-07-12 12:29:46] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2023-07-12 12:29:46] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2023-07-12 12:29:46] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2023-07-12 12:29:46] INFO root fetch - main [MainThread]: Store serial: [18858824]
