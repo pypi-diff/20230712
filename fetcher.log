@@ -18109,3 +18109,108 @@
 [2023-07-12 11:52:12] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-12 11:52:12] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-12 11:52:12] INFO root fetch - main [MainThread]: Store serial: [18858393]
+[2023-07-12 11:57:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858393]
+[2023-07-12 11:57:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-12 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foscat
+[2023-07-12 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crepe-notes
+[2023-07-12 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swh.scrubber
+[2023-07-12 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpwt
+[2023-07-12 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ul-data-aggregator-sdk
+[2023-07-12 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyBPPIBridge
+[2023-07-12 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nwebclient
+[2023-07-12 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dummy-url-wrapper
+[2023-07-12 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-payfast
+[2023-07-12 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fenjing
+[2023-07-12 11:57:23] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [8.9.5] Old Version: [8.11.9]
+[2023-07-12 11:57:23] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 11:57:23] INFO root fetch - processPackages [swh.scrubber]: New version: [2.0.0] Old Version: [1.0.3]
+[2023-07-12 11:57:23] INFO root fetch - processPackages [fenjing]: New version: [0.4.6.1] Old Version: [0.4.6]
+[2023-07-12 11:57:23] INFO root fetch - processPackages [mpwt]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-12 11:57:23] INFO root fetch - processPackages [crepe-notes]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-12 11:57:23] INFO root fetch - processPackages [foscat]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-12 11:57:23] INFO root fetch - processPackages [dummy-url-wrapper]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-12 11:57:23] WARNING root fetch - processPackages [python-payfast]: Skipping, unable to determine old version
+[2023-07-12 11:57:23] INFO root fetch - processPackages [python-payfast]: Start processing: findpython
+[2023-07-12 11:57:23] INFO root fetch - main [MainThread]: End processing [python-payfast] error
+[2023-07-12 11:57:23] INFO root fetch - processPackages [pyBPPIBridge]: New version: [0.4.7] Old Version: [0.4.5]
+[2023-07-12 11:57:23] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 11:57:23] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/e9/c6/db38d7a0cc17c492970067f505ab304ace2a240dd929f68aaeab79f84da9/fenjing-0.4.6.tar.gz
+[2023-07-12 11:57:23] INFO root fetch - processPackages [dummy-url-wrapper]: Downloading https://files.pythonhosted.org/packages/17/9a/2ac537552e23ff847d0bea27e8d967a86000b04eea7359beb4cccc234270/dummy_url_wrapper-0.0.4.tar.gz
+[2023-07-12 11:57:23] INFO root fetch - processPackages [findpython]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2023-07-12 11:57:23] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/5e/a3/cdcf8f0aed9d2dd9daae366a3f5c93faefb3d2a0502cd1816e688d4818c4/foscat-2.1.1.tar.gz
+[2023-07-12 11:57:23] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/e7/7d/364639265bd01bce941511ceafa3611d148125d2cb1324ddbb8e934eb821/ul-data-aggregator-sdk-8.11.9.tar.gz
+[2023-07-12 11:57:23] INFO root fetch - processPackages [crepe-notes]: Downloading https://files.pythonhosted.org/packages/93/f8/4df3d700024c9c8089706e9dc5adb57719ddbb153477c89a4541b788142b/crepe_notes-0.1.0-py2.py3-none-any.whl
+[2023-07-12 11:57:23] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/66/4f/b66907843af4dceeb4045f63e69f36b7c93b2aa38bc735e9cddd2916e991/findpython-1.0.0a2.tar.gz
+[2023-07-12 11:57:23] INFO root fetch - processPackages [pyBPPIBridge]: Downloading https://files.pythonhosted.org/packages/b8/41/2a4d59ddf40f6c4919a14552f3639c03dd982ea19b77d508483a14a66f88/pyBPPIBridge-0.4.5-py3-none-any.whl
+[2023-07-12 11:57:23] INFO root fetch - processPackages [swh.scrubber]: Downloading https://files.pythonhosted.org/packages/67/0c/c9cca72b31de3e4ba2b0f5a0e3977582cfc4ab2b731516ef1abd0a49ebb1/swh.scrubber-1.0.3.tar.gz
+[2023-07-12 11:57:23] INFO root fetch - processPackages [mpwt]: Downloading https://files.pythonhosted.org/packages/5e/dc/ada78dfa28c1bd84c091928b9b3c6effe556b7eb6f1e2505b2b6a9493142/mpwt-0.8.3.tar.gz
+[2023-07-12 11:57:23] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 11:57:23] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/b7/b9/15edc8db7f45d211c868f9f97c44c9e36b8bdada7da3263fef286c4c7c12/fenjing-0.4.6.1.tar.gz
+[2023-07-12 11:57:23] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/ae/cf/20ade1e77c7db14608e4ad73e7b31dd0bd4ee46d7222add34aa0ee1abaca/ul-data-aggregator-sdk-8.9.5.tar.gz
+[2023-07-12 11:57:23] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 11:57:23] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 11:57:23] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/2c/9c/6954794dbd451b0eaabd2472f043ced2125515707ed65ba235bca3572510/foscat-2.1.2.tar.gz
+[2023-07-12 11:57:24] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/ab/fe/9a940da77097423a57e1f18f6ce837728d60ef3178b7ddf7175412259eab/findpython-1.0.0a3.tar.gz
+[2023-07-12 11:57:24] INFO root fetch - processPackages [dummy-url-wrapper]: Downloading https://files.pythonhosted.org/packages/3a/b2/e61200b5b927789d13136a7e5e0f5568c18dc9bece52ba3b98a0f3229f4a/dummy_url_wrapper-0.0.5.tar.gz
+[2023-07-12 11:57:24] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2023-07-12 11:57:24] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-8.11.9.tar.gz tmp/ul-data-aggregator-sdk-8.9.5.tar.gz --markdown 20230712/u/ul-data-aggregator-sdk/8.11.9-8.9.5/diff.md --exclude *.pyd
+[2023-07-12 11:57:24] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-07-12 11:57:24] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.4.6.tar.gz tmp/fenjing-0.4.6.1.tar.gz --markdown 20230712/f/fenjing/0.4.6-0.4.6.1/diff.md --exclude *.pyd
+[2023-07-12 11:57:24] INFO root fetch - processPackages [pyBPPIBridge]: Downloading https://files.pythonhosted.org/packages/f8/88/0c26f36f67707c1e4f837e8c2390a8369c810359516d6eec3d8227039f6c/pybppibridge-0.4.7-py3-none-any.whl
+[2023-07-12 11:57:24] INFO root fetch - processPackages [crepe-notes]: Downloading https://files.pythonhosted.org/packages/96/ac/a19ca03320b16206018ec30a074a3e2dded97a029f3ad4fec9f528c0c9c2/crepe_notes-0.1.1-py2.py3-none-any.whl
+[2023-07-12 11:57:24] INFO root fetch - processPackages [dummy-url-wrapper]: executing diffoscope
+[2023-07-12 11:57:24] INFO root fetch - processPackages [dummy-url-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummy_url_wrapper-0.0.4.tar.gz tmp/dummy_url_wrapper-0.0.5.tar.gz --markdown 20230712/d/dummy-url-wrapper/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-12 11:57:24] INFO root fetch - processPackages [foscat]: executing diffoscope
+[2023-07-12 11:57:24] INFO root fetch - processPackages [foscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foscat-2.1.1.tar.gz tmp/foscat-2.1.2.tar.gz --markdown 20230712/f/foscat/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-12 11:57:24] INFO root fetch - processPackages [findpython]: executing diffoscope
+[2023-07-12 11:57:24] INFO root fetch - processPackages [findpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findpython-1.0.0a2.tar.gz tmp/findpython-1.0.0a3.tar.gz --markdown 20230712/f/findpython/1.0.0a2-1.0.0a3/diff.md --exclude *.pyd
+[2023-07-12 11:57:24] INFO root fetch - processPackages [pyBPPIBridge]: executing diffoscope
+[2023-07-12 11:57:24] INFO root fetch - processPackages [pyBPPIBridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBPPIBridge-0.4.5-py3-none-any.whl.zip tmp/pybppibridge-0.4.7-py3-none-any.whl.zip --markdown 20230712/p/pyBPPIBridge/0.4.5-0.4.7/diff.md --exclude *.pyd
+[2023-07-12 11:57:24] INFO root fetch - processPackages [mpwt]: Downloading https://files.pythonhosted.org/packages/ac/1d/9c7c5946dfde6d647475501d874f367cf298135b36990438af9129fe07ae/mpwt-0.8.4.tar.gz
+[2023-07-12 11:57:24] INFO root fetch - processPackages [crepe-notes]: executing diffoscope
+[2023-07-12 11:57:24] INFO root fetch - processPackages [crepe-notes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crepe_notes-0.1.0-py2.py3-none-any.whl.zip tmp/crepe_notes-0.1.1-py2.py3-none-any.whl.zip --markdown 20230712/c/crepe-notes/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-12 11:57:24] INFO root fetch - processPackages [swh.scrubber]: Downloading https://files.pythonhosted.org/packages/64/5f/fb222ec2f5fe319d24d2894e7c6444c852289b7da484e4d8b5d7fd5dd7eb/swh.scrubber-2.0.0.tar.gz
+[2023-07-12 11:57:24] INFO root fetch - processPackages [mpwt]: executing diffoscope
+[2023-07-12 11:57:24] INFO root fetch - processPackages [mpwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpwt-0.8.3.tar.gz tmp/mpwt-0.8.4.tar.gz --markdown 20230712/m/mpwt/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-12 11:57:24] INFO root fetch - processPackages [swh.scrubber]: executing diffoscope
+[2023-07-12 11:57:24] INFO root fetch - processPackages [swh.scrubber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.scrubber-1.0.3.tar.gz tmp/swh.scrubber-2.0.0.tar.gz --markdown 20230712/s/swh.scrubber/1.0.3-2.0.0/diff.md --exclude *.pyd
+[2023-07-12 11:57:25] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 11:57:25] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 11:57:25] INFO root fetch - processPackages [nwebclient]: Start processing: geonlplify
+[2023-07-12 11:57:25] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 11:57:25] INFO root fetch - processPackages [geonlplify]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-12 11:57:25] INFO root fetch - processPackages [dummy-url-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/dummy_url_wrapper-0.0.4.tar.gz]
+[2023-07-12 11:57:25] INFO root fetch - processPackages [dummy-url-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/dummy_url_wrapper-0.0.5.tar.gz]
+[2023-07-12 11:57:25] INFO root fetch - main [MainThread]: End processing [dummy-url-wrapper]: success
+[2023-07-12 11:57:25] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.11.9.tar.gz]
+[2023-07-12 11:57:25] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.9.5.tar.gz]
+[2023-07-12 11:57:25] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2023-07-12 11:57:25] INFO root fetch - processPackages [geonlplify]: Downloading https://files.pythonhosted.org/packages/87/01/8caf084300b9b5678bc99d425f9bdefbdc61609ebd60ae71583a5c75271d/GeoNLPlify-0.1.0.tar.gz
+[2023-07-12 11:57:25] INFO root fetch - processPackages [crepe-notes]: Remove: archive file [/home/abi/fetcher/tmp/crepe_notes-0.1.0-py2.py3-none-any.whl.zip]
+[2023-07-12 11:57:25] INFO root fetch - processPackages [crepe-notes]: Remove: archive file [/home/abi/fetcher/tmp/crepe_notes-0.1.1-py2.py3-none-any.whl.zip]
+[2023-07-12 11:57:25] INFO root fetch - main [MainThread]: End processing [crepe-notes]: success
+[2023-07-12 11:57:25] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-2.1.1.tar.gz]
+[2023-07-12 11:57:25] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-2.1.2.tar.gz]
+[2023-07-12 11:57:25] INFO root fetch - main [MainThread]: End processing [foscat]: success
+[2023-07-12 11:57:25] INFO root fetch - processPackages [pyBPPIBridge]: Remove: archive file [/home/abi/fetcher/tmp/pyBPPIBridge-0.4.5-py3-none-any.whl.zip]
+[2023-07-12 11:57:25] INFO root fetch - processPackages [pyBPPIBridge]: Remove: archive file [/home/abi/fetcher/tmp/pybppibridge-0.4.7-py3-none-any.whl.zip]
+[2023-07-12 11:57:25] INFO root fetch - main [MainThread]: End processing [pyBPPIBridge]: success
+[2023-07-12 11:57:26] INFO root fetch - processPackages [findpython]: Remove: archive file [/home/abi/fetcher/tmp/findpython-1.0.0a2.tar.gz]
+[2023-07-12 11:57:26] INFO root fetch - processPackages [findpython]: Remove: archive file [/home/abi/fetcher/tmp/findpython-1.0.0a3.tar.gz]
+[2023-07-12 11:57:26] INFO root fetch - main [MainThread]: End processing [findpython]: success
+[2023-07-12 11:57:26] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.4.6.tar.gz]
+[2023-07-12 11:57:26] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.4.6.1.tar.gz]
+[2023-07-12 11:57:26] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-07-12 11:57:26] INFO root fetch - processPackages [swh.scrubber]: Remove: archive file [/home/abi/fetcher/tmp/swh.scrubber-1.0.3.tar.gz]
+[2023-07-12 11:57:26] INFO root fetch - processPackages [swh.scrubber]: Remove: archive file [/home/abi/fetcher/tmp/swh.scrubber-2.0.0.tar.gz]
+[2023-07-12 11:57:26] INFO root fetch - main [MainThread]: End processing [swh.scrubber]: success
+[2023-07-12 11:57:26] INFO root fetch - processPackages [mpwt]: Remove: archive file [/home/abi/fetcher/tmp/mpwt-0.8.3.tar.gz]
+[2023-07-12 11:57:26] INFO root fetch - processPackages [mpwt]: Remove: archive file [/home/abi/fetcher/tmp/mpwt-0.8.4.tar.gz]
+[2023-07-12 11:57:26] INFO root fetch - main [MainThread]: End processing [mpwt]: success
+[2023-07-12 11:57:26] INFO root fetch - processPackages [geonlplify]: Downloading https://files.pythonhosted.org/packages/0d/38/9a093e587858ec1897b8c619c45b63ef0406b10f6e9fcb342ee8e4e8a4b0/geonlplify-0.2.0.tar.gz
+[2023-07-12 11:57:26] INFO root fetch - processPackages [geonlplify]: executing diffoscope
+[2023-07-12 11:57:26] INFO root fetch - processPackages [geonlplify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeoNLPlify-0.1.0.tar.gz tmp/geonlplify-0.2.0.tar.gz --markdown 20230712/g/geonlplify/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-12 11:57:27] INFO root fetch - processPackages [geonlplify]: Remove: archive file [/home/abi/fetcher/tmp/GeoNLPlify-0.1.0.tar.gz]
+[2023-07-12 11:57:27] INFO root fetch - processPackages [geonlplify]: Remove: archive file [/home/abi/fetcher/tmp/geonlplify-0.2.0.tar.gz]
+[2023-07-12 11:57:27] INFO root fetch - main [MainThread]: End processing [geonlplify]: success
+[2023-07-12 11:57:27] INFO root fetch - main [MainThread]: Store serial: [18858428]
