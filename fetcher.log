@@ -10635,3 +10635,102 @@
 [2023-07-12 05:03:49] INFO root fetch - processPackages [mmengine]: Remove: archive file [/home/abi/fetcher/tmp/mmengine-0.8.2.tar.gz]
 [2023-07-12 05:03:49] INFO root fetch - main [MainThread]: End processing [mmengine]: success
 [2023-07-12 05:03:49] INFO root fetch - main [MainThread]: Store serial: [18855046]
+[2023-07-12 05:08:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855046]
+[2023-07-12 05:08:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-12 05:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oganesson
+[2023-07-12 05:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wizlib
+[2023-07-12 05:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-product-contract
+[2023-07-12 05:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: popp
+[2023-07-12 05:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addons-oca-contract
+[2023-07-12 05:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DQR-Data
+[2023-07-12 05:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gigs-client
+[2023-07-12 05:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-account-invoice-overdue-reminder
+[2023-07-12 05:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: astromorphlib
+[2023-07-12 05:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-restit
+[2023-07-12 05:08:58] INFO root fetch - processPackages [odoo14-addon-product-contract]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2023-07-12 05:08:58] INFO root fetch - processPackages [oganesson]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 05:08:58] INFO root fetch - processPackages [astromorphlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-12 05:08:58] INFO root fetch - processPackages [popp]: New version: [0.11] Old Version: [0.1]
+[2023-07-12 05:08:58] INFO root fetch - processPackages [DQR-Data]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-12 05:08:58] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: New version: [12.0.2.2.1.99.dev4] Old Version: [12.0.2.2.1.99.dev3]
+[2023-07-12 05:08:58] WARNING root fetch - processPackages [gigs-client]: Skipping, unable to determine old version
+[2023-07-12 05:08:58] INFO root fetch - processPackages [gigs-client]: Start processing: yplib
+[2023-07-12 05:08:58] INFO root fetch - main [MainThread]: End processing [gigs-client] error
+[2023-07-12 05:08:58] INFO root fetch - processPackages [odoo14-addons-oca-contract]: New version: [14.0.20230711.0] Old Version: [14.0.20230418.0]
+[2023-07-12 05:08:58] INFO root fetch - processPackages [wizlib]: New version: [0.5.1] Old Version: [0.3.0]
+[2023-07-12 05:08:58] INFO root fetch - processPackages [django-restit]: New version: [4.1.3] Old Version: [4.1.2]
+[2023-07-12 05:08:58] INFO root fetch - processPackages [yplib]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-07-12 05:08:58] INFO root fetch - processPackages [DQR-Data]: Downloading https://files.pythonhosted.org/packages/c2/5f/0bfb25e9fc3688d394fc21d0035d2fc713c4bd046cf3fceceb8c8947381a/DQR_Data-0.1.3.tar.gz
+[2023-07-12 05:08:58] INFO root fetch - processPackages [odoo14-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/53/67/11d7838f39ec70430dada441d0c7de297b6eeb80821d218cd7c7d30c8d81/odoo14_addon_product_contract-14.0.1.1.0-py3-none-any.whl
+[2023-07-12 05:08:58] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/90/85/566b0f08fc0a54b2dc586915d7de520038d772bb5636e1503e8abd96228a/django_restit-4.1.2.tar.gz
+[2023-07-12 05:08:58] INFO root fetch - processPackages [popp]: Downloading https://files.pythonhosted.org/packages/6c/b3/ac906f5a5790a3f64588ad6b14cdf056b717e140aa7bde7ed06136840ca5/popp-0.1.tar.gz
+[2023-07-12 05:08:59] INFO root fetch - processPackages [astromorphlib]: Downloading https://files.pythonhosted.org/packages/0f/28/2511adf022115262e3e86c7fc00595fd58b965f1b292dc2e4dd8bc06f2b3/astromorphlib-0.2.8.tar.gz
+[2023-07-12 05:08:59] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/d0/d1/9877db80791b74690f2e36d8c45f1d9b1545d854b5cfa979d7b64fdeed2b/yplib-2.5.0.tar.gz
+[2023-07-12 05:08:59] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/5a/16/eb08948b07191480b03a8bfac4c5f9a14865543131abac8c609c459a3005/oganesson-0.1.8.tar.gz
+[2023-07-12 05:08:59] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/dd/f8/d70a2a0d4914c0d8a9aecdc385b6ed781f1c652aeb08a086ffe62b01ba1a/wizlib-0.3.0.tar.gz
+[2023-07-12 05:08:59] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/8b/f4/e4b5a3d18f782fce29552ce47766c90bd0cf74582a74dfaaf7ef9b10a0db/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.1.99.dev3-py3-none-any.whl
+[2023-07-12 05:08:59] INFO root fetch - processPackages [odoo14-addons-oca-contract]: Downloading https://files.pythonhosted.org/packages/8a/26/ed72f06ca2f364dcf44489ce06de2f1348f159988edfee2f7524d4b5b732/odoo14_addons_oca_contract-14.0.20230418.0-py3-none-any.whl
+[2023-07-12 05:08:59] INFO root fetch - processPackages [odoo14-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/3f/b3/46c8a0b9f412bc17648a5dc760bd807ad16df234275138d342740885a04b/odoo14_addon_product_contract-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-07-12 05:08:59] INFO root fetch - processPackages [DQR-Data]: Downloading https://files.pythonhosted.org/packages/e6/6e/a045d4f804e07c658acbe6987601b8205ebae8fdac96078f0022e4b86971/DQR_Data-0.1.4.tar.gz
+[2023-07-12 05:08:59] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/8f/e7/9547d5839766477b9949b266179fab91ec295ed10b0313958d8e7ed7a535/django_restit-4.1.3.tar.gz
+[2023-07-12 05:08:59] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/05/db/1b18682fee5d525252641c347d391b743b769a7809e791da9420088de943/yplib-2.5.1.tar.gz
+[2023-07-12 05:08:59] INFO root fetch - processPackages [DQR-Data]: executing diffoscope
+[2023-07-12 05:08:59] INFO root fetch - processPackages [DQR-Data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DQR_Data-0.1.3.tar.gz tmp/DQR_Data-0.1.4.tar.gz --markdown 20230712/D/DQR-Data/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-12 05:08:59] INFO root fetch - processPackages [popp]: Downloading https://files.pythonhosted.org/packages/cd/e4/e6032fde8b61b420dc4fcd984a8f632af70bd579544e99177f1c5d5c5f34/popp-0.11.tar.gz
+[2023-07-12 05:08:59] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/2f/8f/a44e1819d2a1095fc4c02b8a416d20b780d1138dd614d5daa1f1173515d9/wizlib-0.5.1.tar.gz
+[2023-07-12 05:08:59] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/0e/b0/0bf47252cc54184d446e9d6f6d65b1704e58cddd08024db40a08c09c3252/oganesson-0.1.9.tar.gz
+[2023-07-12 05:08:59] INFO root fetch - processPackages [odoo14-addon-product-contract]: executing diffoscope
+[2023-07-12 05:08:59] INFO root fetch - processPackages [odoo14-addon-product-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_contract-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_product_contract-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addon-product-contract/14.0.1.1.0-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-07-12 05:08:59] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2023-07-12 05:08:59] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.1.2.tar.gz tmp/django_restit-4.1.3.tar.gz --markdown 20230712/d/django-restit/4.1.2-4.1.3/diff.md --exclude *.pyd
+[2023-07-12 05:08:59] INFO root fetch - processPackages [astromorphlib]: Downloading https://files.pythonhosted.org/packages/8a/31/4e0541344cced0b7e70e1a23d6044c5cc5794cfc808caa8e60c53458e3fc/astromorphlib-0.2.9.tar.gz
+[2023-07-12 05:08:59] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-12 05:08:59] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.5.0.tar.gz tmp/yplib-2.5.1.tar.gz --markdown 20230712/y/yplib/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-07-12 05:08:59] INFO root fetch - processPackages [odoo14-addons-oca-contract]: Downloading https://files.pythonhosted.org/packages/ae/a8/30d771669656285902b049628dc724f3b4bbd3bcb7dd9ef1d5e650ad693e/odoo14_addons_oca_contract-14.0.20230711.0-py3-none-any.whl
+[2023-07-12 05:08:59] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2023-07-12 05:08:59] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-0.3.0.tar.gz tmp/wizlib-0.5.1.tar.gz --markdown 20230712/w/wizlib/0.3.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-12 05:08:59] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/c3/64/e936b98f88c383f01535cdf49e984352b714140309a331a213bd8656c40c/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.1.99.dev4-py3-none-any.whl
+[2023-07-12 05:08:59] INFO root fetch - processPackages [popp]: executing diffoscope
+[2023-07-12 05:08:59] INFO root fetch - processPackages [popp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popp-0.1.tar.gz tmp/popp-0.11.tar.gz --markdown 20230712/p/popp/0.1-0.11/diff.md --exclude *.pyd
+[2023-07-12 05:08:59] INFO root fetch - processPackages [oganesson]: executing diffoscope
+[2023-07-12 05:08:59] INFO root fetch - processPackages [oganesson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oganesson-0.1.8.tar.gz tmp/oganesson-0.1.9.tar.gz --markdown 20230712/o/oganesson/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 05:08:59] INFO root fetch - processPackages [odoo14-addons-oca-contract]: executing diffoscope
+[2023-07-12 05:08:59] INFO root fetch - processPackages [odoo14-addons-oca-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_contract-14.0.20230418.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_contract-14.0.20230711.0-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addons-oca-contract/14.0.20230418.0-14.0.20230711.0/diff.md --exclude *.pyd
+[2023-07-12 05:08:59] INFO root fetch - processPackages [astromorphlib]: executing diffoscope
+[2023-07-12 05:08:59] INFO root fetch - processPackages [astromorphlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astromorphlib-0.2.8.tar.gz tmp/astromorphlib-0.2.9.tar.gz --markdown 20230712/a/astromorphlib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-12 05:09:00] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-07-12 05:09:00] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.1.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.1.99.dev4-py3-none-any.whl.zip --markdown 20230712/o/odoo12-addon-account-invoice-overdue-reminder/12.0.2.2.1.99.dev3-12.0.2.2.1.99.dev4/diff.md --exclude *.pyd
+[2023-07-12 05:09:00] INFO root fetch - processPackages [DQR-Data]: Remove: archive file [/home/abi/fetcher/tmp/DQR_Data-0.1.3.tar.gz]
+[2023-07-12 05:09:00] INFO root fetch - processPackages [DQR-Data]: Remove: archive file [/home/abi/fetcher/tmp/DQR_Data-0.1.4.tar.gz]
+[2023-07-12 05:09:00] INFO root fetch - processPackages [DQR-Data]: Start processing: lemon-md
+[2023-07-12 05:09:00] INFO root fetch - main [MainThread]: End processing [DQR-Data]: success
+[2023-07-12 05:09:00] WARNING root fetch - processPackages [lemon-md]: Skipping, unable to determine old version
+[2023-07-12 05:09:00] INFO root fetch - main [MainThread]: End processing [lemon-md] error
+[2023-07-12 05:09:01] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.5.0.tar.gz]
+[2023-07-12 05:09:01] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.5.1.tar.gz]
+[2023-07-12 05:09:01] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-12 05:09:01] INFO root fetch - processPackages [odoo14-addons-oca-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_contract-14.0.20230418.0-py3-none-any.whl.zip]
+[2023-07-12 05:09:01] INFO root fetch - processPackages [odoo14-addons-oca-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_contract-14.0.20230711.0-py3-none-any.whl.zip]
+[2023-07-12 05:09:01] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-contract]: success
+[2023-07-12 05:09:01] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.3.0.tar.gz]
+[2023-07-12 05:09:01] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.5.1.tar.gz]
+[2023-07-12 05:09:01] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2023-07-12 05:09:01] INFO root fetch - processPackages [odoo14-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_contract-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-12 05:09:01] INFO root fetch - processPackages [odoo14-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_contract-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-07-12 05:09:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-contract]: success
+[2023-07-12 05:09:01] INFO root fetch - processPackages [popp]: Remove: archive file [/home/abi/fetcher/tmp/popp-0.1.tar.gz]
+[2023-07-12 05:09:01] INFO root fetch - processPackages [popp]: Remove: archive file [/home/abi/fetcher/tmp/popp-0.11.tar.gz]
+[2023-07-12 05:09:01] INFO root fetch - main [MainThread]: End processing [popp]: success
+[2023-07-12 05:09:01] INFO root fetch - processPackages [astromorphlib]: Remove: archive file [/home/abi/fetcher/tmp/astromorphlib-0.2.8.tar.gz]
+[2023-07-12 05:09:01] INFO root fetch - processPackages [astromorphlib]: Remove: archive file [/home/abi/fetcher/tmp/astromorphlib-0.2.9.tar.gz]
+[2023-07-12 05:09:01] INFO root fetch - main [MainThread]: End processing [astromorphlib]: success
+[2023-07-12 05:09:01] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.1.99.dev3-py3-none-any.whl.zip]
+[2023-07-12 05:09:01] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.1.99.dev4-py3-none-any.whl.zip]
+[2023-07-12 05:09:01] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-invoice-overdue-reminder]: success
+[2023-07-12 05:09:01] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.8.tar.gz]
+[2023-07-12 05:09:01] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.9.tar.gz]
+[2023-07-12 05:09:01] INFO root fetch - main [MainThread]: End processing [oganesson]: success
+[2023-07-12 05:09:02] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.2.tar.gz]
+[2023-07-12 05:09:02] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.3.tar.gz]
+[2023-07-12 05:09:02] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2023-07-12 05:09:02] INFO root fetch - main [MainThread]: Store serial: [18855079]
