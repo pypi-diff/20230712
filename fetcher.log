@@ -5782,3 +5782,64 @@
 [2023-07-12 03:29:44] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.4.tar.gz]
 [2023-07-12 03:29:44] INFO root fetch - main [MainThread]: End processing [trimnami]: success
 [2023-07-12 03:29:44] INFO root fetch - main [MainThread]: Store serial: [18853385]
+[2023-07-12 03:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18853385]
+[2023-07-12 03:34:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-invoice
+[2023-07-12 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: westat
+[2023-07-12 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cbcmgr
+[2023-07-12 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eispac
+[2023-07-12 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NeuralFoil
+[2023-07-12 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-subminute
+[2023-07-12 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-lambda-layer-curl
+[2023-07-12 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tahoma-gpt
+[2023-07-12 03:34:53] INFO root fetch - processPackages [eispac]: New version: [0.94.7] Old Version: [0.94.6]
+[2023-07-12 03:34:53] INFO root fetch - processPackages [cbcmgr]: New version: [1.4.0] Old Version: [1.3.7]
+[2023-07-12 03:34:53] INFO root fetch - processPackages [NeuralFoil]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-12 03:34:53] INFO root fetch - processPackages [xj-invoice]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-12 03:34:53] INFO root fetch - processPackages [westat]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-12 03:34:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-12 03:34:53] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-12 03:34:53] WARNING root fetch - processPackages [tahoma-gpt]: Skipping, unable to determine old version
+[2023-07-12 03:34:53] INFO root fetch - main [MainThread]: End processing [tahoma-gpt] error
+[2023-07-12 03:34:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-12 03:34:53] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-12 03:34:53] INFO root fetch - processPackages [eispac]: Downloading https://files.pythonhosted.org/packages/9f/02/a3e4c6128809f47a921c76e4581704808fbc980b8ea16f77853b5eecd148/eispac-0.94.6.tar.gz
+[2023-07-12 03:34:53] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/38/d8/08f426eabd6f32950b3a51c2575017b5827c8d6fcf44149c2fa6ed3aebf0/cbcmgr-1.3.7.tar.gz
+[2023-07-12 03:34:53] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/8f/a8/6ccf5ba58df70541e82764c6a8e664574509e720a9ebae521eb95658f7ef/xj_invoice-1.0.7.tar.gz
+[2023-07-12 03:34:53] INFO root fetch - processPackages [westat]: Downloading https://files.pythonhosted.org/packages/45/74/5f285eee7256d878bba4b99c526b1bf618e459015e0df70507b2af4c87c2/westat-0.2.6.tar.gz
+[2023-07-12 03:34:53] INFO root fetch - processPackages [NeuralFoil]: Downloading https://files.pythonhosted.org/packages/b9/9d/a407928f6587b88741935924abfda140897310fd774b4a2d61ed3969f238/NeuralFoil-0.1.3.tar.gz
+[2023-07-12 03:34:53] WARNING root fetch - processPackages [eispac]: Skipping package: exceeds size limit 12499219>=10485760
+[2023-07-12 03:34:53] INFO root fetch - main [MainThread]: End processing [eispac] error
+[2023-07-12 03:34:53] WARNING root fetch - processPackages [westat]: Skipping package: exceeds size limit 14260789>=10485760
+[2023-07-12 03:34:53] INFO root fetch - main [MainThread]: End processing [westat] error
+[2023-07-12 03:34:53] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-12 03:34:53] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/56/f1/2c38f0ca43469f4685d74a585c9ecc2aa515c71c9358a6ad5bf3cb0bac78/cbcmgr-1.4.0.tar.gz
+[2023-07-12 03:34:53] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-12 03:34:53] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230712/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-12 03:34:53] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/a9/77/baae3fb8c2842e9ee7a0d5261ca27a183ef075f699c7e37397093b4062f2/xj_invoice-1.0.9.tar.gz
+[2023-07-12 03:34:54] INFO root fetch - processPackages [cbcmgr]: executing diffoscope
+[2023-07-12 03:34:54] INFO root fetch - processPackages [cbcmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcmgr-1.3.7.tar.gz tmp/cbcmgr-1.4.0.tar.gz --markdown 20230712/c/cbcmgr/1.3.7-1.4.0/diff.md --exclude *.pyd
+[2023-07-12 03:34:54] INFO root fetch - processPackages [xj-invoice]: executing diffoscope
+[2023-07-12 03:34:54] INFO root fetch - processPackages [xj-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_invoice-1.0.7.tar.gz tmp/xj_invoice-1.0.9.tar.gz --markdown 20230712/x/xj-invoice/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 03:34:54] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-12 03:34:54] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-12 03:34:54] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-12 03:34:54] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-12 03:34:54] INFO root fetch - processPackages [NeuralFoil]: Downloading https://files.pythonhosted.org/packages/59/2c/02387e8125ecb00dd057e9a733b15d1b8f1f627271cb7348aaf83abd1e03/NeuralFoil-0.1.4.tar.gz
+[2023-07-12 03:34:54] INFO root fetch - processPackages [xj-invoice]: Remove: archive file [/home/abi/fetcher/tmp/xj_invoice-1.0.7.tar.gz]
+[2023-07-12 03:34:54] INFO root fetch - processPackages [xj-invoice]: Remove: archive file [/home/abi/fetcher/tmp/xj_invoice-1.0.9.tar.gz]
+[2023-07-12 03:34:54] INFO root fetch - main [MainThread]: End processing [xj-invoice]: success
+[2023-07-12 03:34:54] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-1.3.7.tar.gz]
+[2023-07-12 03:34:54] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-1.4.0.tar.gz]
+[2023-07-12 03:34:54] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
+[2023-07-12 03:34:54] INFO root fetch - processPackages [NeuralFoil]: executing diffoscope
+[2023-07-12 03:34:54] INFO root fetch - processPackages [NeuralFoil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuralFoil-0.1.3.tar.gz tmp/NeuralFoil-0.1.4.tar.gz --markdown 20230712/N/NeuralFoil/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-12 03:34:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-12 03:34:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230712/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-12 03:34:56] INFO root fetch - processPackages [NeuralFoil]: Remove: archive file [/home/abi/fetcher/tmp/NeuralFoil-0.1.3.tar.gz]
+[2023-07-12 03:34:56] INFO root fetch - processPackages [NeuralFoil]: Remove: archive file [/home/abi/fetcher/tmp/NeuralFoil-0.1.4.tar.gz]
+[2023-07-12 03:34:56] INFO root fetch - main [MainThread]: End processing [NeuralFoil]: success
+[2023-07-12 03:34:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-12 03:34:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-12 03:34:56] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-12 03:34:56] INFO root fetch - main [MainThread]: Store serial: [18853411]
