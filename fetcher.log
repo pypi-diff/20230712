@@ -9746,3 +9746,64 @@
 [2023-07-12 04:10:51] INFO root fetch - processPackages [equine]: Remove: archive file [/home/abi/fetcher/tmp/equine-0.1.1rc4.tar.gz]
 [2023-07-12 04:10:51] INFO root fetch - main [MainThread]: End processing [equine]: success
 [2023-07-12 04:10:51] INFO root fetch - main [MainThread]: Store serial: [18854757]
+[2023-07-12 04:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18854757]
+[2023-07-12 04:16:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 04:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sinabs
+[2023-07-12 04:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinabs
+[2023-07-12 04:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: code-to-text
+[2023-07-12 04:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: healdata-utils
+[2023-07-12 04:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polyconnect
+[2023-07-12 04:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-skill-weather
+[2023-07-12 04:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-skill-user-settings
+[2023-07-12 04:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sinabs
+[2023-07-12 04:16:01] INFO root fetch - processPackages [sinabs]: New version: [1.2.9.dev5] Old Version: [1.2.9.dev4]
+[2023-07-12 04:16:01] INFO root fetch - processPackages [sinabs]: New version: [1.2.9.dev5] Old Version: [1.2.9.dev4]
+[2023-07-12 04:16:01] INFO root fetch - processPackages [healdata-utils]: New version: [0.1.1a0] Old Version: [0.0.8a0]
+[2023-07-12 04:16:01] INFO root fetch - processPackages [neon-skill-user-settings]: New version: [1.0.1a1] Old Version: [1.0.0]
+[2023-07-12 04:16:01] WARNING root fetch - processPackages [code-to-text]: Skipping, unable to determine old version
+[2023-07-12 04:16:01] INFO root fetch - main [MainThread]: End processing [code-to-text] error
+[2023-07-12 04:16:01] INFO root fetch - processPackages [polyconnect]: New version: [0.0.1.dev0] Old Version: [0.0.1]
+[2023-07-12 04:16:01] INFO root fetch - processPackages [neon-skill-weather]: New version: [1.0.1a2] Old Version: [1.0.1a1]
+[2023-07-12 04:16:01] INFO root fetch - processPackages [sinabs]: New version: [1.2.9.dev5] Old Version: [1.2.9.dev4]
+[2023-07-12 04:16:02] INFO root fetch - processPackages [healdata-utils]: Downloading https://files.pythonhosted.org/packages/bc/62/b8a23e295b4158f15d40a00fb4ace3d0ec97a57dc4b4fb832bd4a34acf72/healdata_utils-0.0.8a0.tar.gz
+[2023-07-12 04:16:02] INFO root fetch - processPackages [neon-skill-user-settings]: Downloading https://files.pythonhosted.org/packages/0f/a2/6c4dd031270758726a07726f043f54a91f8d47550e916f3d57831b98b1a3/neon-skill-user_settings-1.0.0.tar.gz
+[2023-07-12 04:16:02] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/2d/c7/0e9965bcd3cad9c3557f0e8b3a430cc4438079aa386800f78371ff00b786/sinabs-1.2.9.dev4.tar.gz
+[2023-07-12 04:16:02] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/2d/c7/0e9965bcd3cad9c3557f0e8b3a430cc4438079aa386800f78371ff00b786/sinabs-1.2.9.dev4.tar.gz
+[2023-07-12 04:16:02] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/2d/c7/0e9965bcd3cad9c3557f0e8b3a430cc4438079aa386800f78371ff00b786/sinabs-1.2.9.dev4.tar.gz
+[2023-07-12 04:16:02] INFO root fetch - processPackages [neon-skill-weather]: Downloading https://files.pythonhosted.org/packages/c7/61/b983e65c79c8c5009a2f229b57b932dc72b3dbc12a4cc5ec4f1045a273f6/neon-skill-weather-1.0.1a1.tar.gz
+[2023-07-12 04:16:02] INFO root fetch - processPackages [polyconnect]: Downloading https://files.pythonhosted.org/packages/18/c3/7e10898d0c6c1c11e0b615c2b4251a9523a10659c74977e4f3b3e24ac07f/polyconnect-0.0.1.tar.gz
+[2023-07-12 04:16:02] ERROR root fetch - processPackages [polyconnect]: Unable to fetch info: No such project/version 'polyconnect' 0.0.1.dev0
+[2023-07-12 04:16:02] INFO root fetch - main [MainThread]: End processing [polyconnect] error
+[2023-07-12 04:16:02] INFO root fetch - processPackages [neon-skill-user-settings]: Downloading https://files.pythonhosted.org/packages/26/e8/ea1fa3e267fa3e71677697fa0c39ccfd90348d44034c491f80b3202d5a9f/neon-skill-user_settings-1.0.1a1.tar.gz
+[2023-07-12 04:16:02] INFO root fetch - processPackages [healdata-utils]: Downloading https://files.pythonhosted.org/packages/39/73/460b53c8f469f6540a764633ca3bc6e8c62318f911b4c3152212424b15fa/healdata_utils-0.1.1a0.tar.gz
+[2023-07-12 04:16:02] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/1c/f5/e021d4c7a05eeea7cd1e3d807b7872e3f6555a22c3ccfebf297a8917466f/sinabs-1.2.9.dev5.tar.gz
+[2023-07-12 04:16:02] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/1c/f5/e021d4c7a05eeea7cd1e3d807b7872e3f6555a22c3ccfebf297a8917466f/sinabs-1.2.9.dev5.tar.gz
+[2023-07-12 04:16:02] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/1c/f5/e021d4c7a05eeea7cd1e3d807b7872e3f6555a22c3ccfebf297a8917466f/sinabs-1.2.9.dev5.tar.gz
+[2023-07-12 04:16:02] INFO root fetch - processPackages [neon-skill-weather]: Downloading https://files.pythonhosted.org/packages/ea/e4/56e90724339d7e0145c94e5ac7e5faaaa40c3cc5d16442190f5cf724eca2/neon-skill-weather-1.0.1a2.tar.gz
+[2023-07-12 04:16:02] INFO root fetch - processPackages [healdata-utils]: executing diffoscope
+[2023-07-12 04:16:02] INFO root fetch - processPackages [healdata-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/healdata_utils-0.0.8a0.tar.gz tmp/healdata_utils-0.1.1a0.tar.gz --markdown 20230712/h/healdata-utils/0.0.8a0-0.1.1a0/diff.md --exclude *.pyd
+[2023-07-12 04:16:02] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-07-12 04:16:02] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.9.dev4.tar.gz tmp/sinabs-1.2.9.dev5.tar.gz --markdown 20230712/s/sinabs/1.2.9.dev4-1.2.9.dev5/diff.md --exclude *.pyd
+[2023-07-12 04:16:02] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-07-12 04:16:02] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.9.dev4.tar.gz tmp/sinabs-1.2.9.dev5.tar.gz --markdown 20230712/s/sinabs/1.2.9.dev4-1.2.9.dev5/diff.md --exclude *.pyd
+[2023-07-12 04:16:02] INFO root fetch - processPackages [neon-skill-user-settings]: executing diffoscope
+[2023-07-12 04:16:02] INFO root fetch - processPackages [neon-skill-user-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-user_settings-1.0.0.tar.gz tmp/neon-skill-user_settings-1.0.1a1.tar.gz --markdown 20230712/n/neon-skill-user-settings/1.0.0-1.0.1a1/diff.md --exclude *.pyd
+[2023-07-12 04:16:02] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-07-12 04:16:02] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.9.dev4.tar.gz tmp/sinabs-1.2.9.dev5.tar.gz --markdown 20230712/s/sinabs/1.2.9.dev4-1.2.9.dev5/diff.md --exclude *.pyd
+[2023-07-12 04:16:02] INFO root fetch - processPackages [neon-skill-weather]: executing diffoscope
+[2023-07-12 04:16:02] INFO root fetch - processPackages [neon-skill-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-weather-1.0.1a1.tar.gz tmp/neon-skill-weather-1.0.1a2.tar.gz --markdown 20230712/n/neon-skill-weather/1.0.1a1-1.0.1a2/diff.md --exclude *.pyd
+[2023-07-12 04:16:03] INFO root fetch - processPackages [healdata-utils]: Remove: archive file [/home/abi/fetcher/tmp/healdata_utils-0.0.8a0.tar.gz]
+[2023-07-12 04:16:03] INFO root fetch - processPackages [healdata-utils]: Remove: archive file [/home/abi/fetcher/tmp/healdata_utils-0.1.1a0.tar.gz]
+[2023-07-12 04:16:03] INFO root fetch - main [MainThread]: End processing [healdata-utils]: success
+[2023-07-12 04:16:04] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.9.dev4.tar.gz]
+[2023-07-12 04:16:04] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.9.dev5.tar.gz]
+[2023-07-12 04:16:04] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-07-12 04:16:04] INFO root fetch - processPackages [neon-skill-user-settings]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-user_settings-1.0.0.tar.gz]
+[2023-07-12 04:16:04] INFO root fetch - processPackages [neon-skill-user-settings]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-user_settings-1.0.1a1.tar.gz]
+[2023-07-12 04:16:04] INFO root fetch - main [MainThread]: End processing [neon-skill-user-settings]: success
+[2023-07-12 04:16:04] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-07-12 04:16:04] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-07-12 04:16:07] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-weather-1.0.1a1.tar.gz]
+[2023-07-12 04:16:07] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-weather-1.0.1a2.tar.gz]
+[2023-07-12 04:16:07] INFO root fetch - main [MainThread]: End processing [neon-skill-weather]: success
+[2023-07-12 04:16:07] INFO root fetch - main [MainThread]: Store serial: [18854786]
