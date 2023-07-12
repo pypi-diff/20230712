@@ -11656,3 +11656,24 @@
 [2023-07-12 06:22:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-manufacture]: success
 [2023-07-12 06:22:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-manufacture]: success
 [2023-07-12 06:22:07] INFO root fetch - main [MainThread]: Store serial: [18855588]
+[2023-07-12 06:27:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855588]
+[2023-07-12 06:27:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-12 06:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strinpy
+[2023-07-12 06:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-12 06:27:16] INFO root fetch - processPackages [strinpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-12 06:27:16] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.9] Old Version: [16.0.1.0.3.7]
+[2023-07-12 06:27:16] INFO root fetch - processPackages [strinpy]: Downloading https://files.pythonhosted.org/packages/7e/ec/c9aef591da0462d97f45b425fa90fddac0cea16eff3eb918d0d5cb5e6304/strinpy-0.0.3.tar.gz
+[2023-07-12 06:27:17] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d2/29/e2cb7ea93979e027e6d5309d7a314ee9e6d65f7021f477e355ae236a55c9/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl
+[2023-07-12 06:27:17] INFO root fetch - processPackages [strinpy]: Downloading https://files.pythonhosted.org/packages/fd/96/307e29b9bef2ef773be6e9fa00dfd25ee2e02ebb07309cf74fbb7ed9990a/strinpy-0.0.4.tar.gz
+[2023-07-12 06:27:17] INFO root fetch - processPackages [strinpy]: executing diffoscope
+[2023-07-12 06:27:17] INFO root fetch - processPackages [strinpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strinpy-0.0.3.tar.gz tmp/strinpy-0.0.4.tar.gz --markdown 20230712/s/strinpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-12 06:27:17] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/17/81/574f2d588623a030241dff9b1e5a89ed58aca17a00ce25c81995ecf57f8c/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl
+[2023-07-12 06:27:17] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-12 06:27:17] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.7-16.0.1.0.3.9/diff.md --exclude *.pyd
+[2023-07-12 06:27:18] INFO root fetch - processPackages [strinpy]: Remove: archive file [/home/abi/fetcher/tmp/strinpy-0.0.3.tar.gz]
+[2023-07-12 06:27:18] INFO root fetch - processPackages [strinpy]: Remove: archive file [/home/abi/fetcher/tmp/strinpy-0.0.4.tar.gz]
+[2023-07-12 06:27:18] INFO root fetch - main [MainThread]: End processing [strinpy]: success
+[2023-07-12 06:27:20] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip]
+[2023-07-12 06:27:20] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
+[2023-07-12 06:27:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-12 06:27:20] INFO root fetch - main [MainThread]: Store serial: [18855592]
