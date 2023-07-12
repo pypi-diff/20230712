@@ -12625,3 +12625,85 @@
 [2023-07-12 07:30:20] INFO root fetch - processPackages [fabrique-nodes-core]: Remove: archive file [/home/abi/fetcher/tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip]
 [2023-07-12 07:30:20] INFO root fetch - main [MainThread]: End processing [fabrique-nodes-core]: success
 [2023-07-12 07:30:20] INFO root fetch - main [MainThread]: Store serial: [18856095]
+[2023-07-12 07:35:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856095]
+[2023-07-12 07:35:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-12 07:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-game-collection
+[2023-07-12 07:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-stock-logistics-warehouse
+[2023-07-12 07:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-07-12 07:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huggingface-tool
+[2023-07-12 07:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notros2
+[2023-07-12 07:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notros2
+[2023-07-12 07:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: control-lab-ly
+[2023-07-12 07:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qctrl-visualizer
+[2023-07-12 07:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: boulder-opal-toolkits
+[2023-07-12 07:35:29] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: New version: [16.0.20230704.0] Old Version: [16.0.20230519.0]
+[2023-07-12 07:35:29] INFO root fetch - processPackages [notros2]: New version: [23.7.12.53346] Old Version: [23.7.12.53339]
+[2023-07-12 07:35:29] INFO root fetch - processPackages [huggingface-tool]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 07:35:29] INFO root fetch - processPackages [notros2]: New version: [23.7.12.53346] Old Version: [23.7.12.53339]
+[2023-07-12 07:35:29] INFO root fetch - processPackages [control-lab-ly]: New version: [1.1.1a2] Old Version: [1.1.1a1]
+[2023-07-12 07:35:29] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-12 07:35:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-12 07:35:29] INFO root fetch - processPackages [qctrl-visualizer]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-07-12 07:35:29] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/50/82/57476a97fd7370f4b41a1c01f16ea47ba157686d0b6cb4c22b981fd48756/control-lab-ly-1.1.1a1.tar.gz
+[2023-07-12 07:35:29] INFO root fetch - processPackages [boulder-opal-toolkits]: New version: [2.0.0b6] Old Version: [2.0.0b5]
+[2023-07-12 07:35:29] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/67/1c/bb5ac4956adbbe54c8670add52a25fd72d4f296daeac54ab780d825bf0d2/notros2-23.7.12.53339.tar.gz
+[2023-07-12 07:35:29] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/67/1c/bb5ac4956adbbe54c8670add52a25fd72d4f296daeac54ab780d825bf0d2/notros2-23.7.12.53339.tar.gz
+[2023-07-12 07:35:29] INFO root fetch - processPackages [huggingface-tool]: Downloading https://files.pythonhosted.org/packages/2a/26/55f371ddabf128e0d8d8fed69597c6bacb421d44d8784822459229d7d8f9/huggingface_tool-0.0.1.tar.gz
+[2023-07-12 07:35:29] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-12 07:35:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-07-12 07:35:29] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/d2/42/e6d278a42eac2401d15ee044831875047f5ea49b6f66fc0ff725f8ba5b91/odoo_addons_oca_stock_logistics_warehouse-16.0.20230519.0-py3-none-any.whl
+[2023-07-12 07:35:29] INFO root fetch - processPackages [qctrl-visualizer]: Downloading https://files.pythonhosted.org/packages/cb/bf/cc6456bfc92ebe685edfb7eb5c695c7ae02352e4104b1e53b6357ef3ec6f/qctrl_visualizer-6.0.0.tar.gz
+[2023-07-12 07:35:29] INFO root fetch - processPackages [boulder-opal-toolkits]: Downloading https://files.pythonhosted.org/packages/13/54/60ffae28ec0efe35247cd804ca36799b46c97b8af5d481ea833536963808/boulder_opal_toolkits-2.0.0b5.tar.gz
+[2023-07-12 07:35:29] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/f3/81/f08e6972003b78868ba830fa00cd2c45233647245078258791093efe3f6f/control-lab-ly-1.1.1a2.tar.gz
+[2023-07-12 07:35:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-07-12 07:35:29] INFO root fetch - processPackages [huggingface-tool]: Downloading https://files.pythonhosted.org/packages/bb/37/4c48cb00e836bb792b0b729b60f9dfc937949142336d569127cf42f2c503/huggingface_tool-0.0.2.tar.gz
+[2023-07-12 07:35:29] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-12 07:35:29] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2023-07-12 07:35:29] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.1.1a1.tar.gz tmp/control-lab-ly-1.1.1a2.tar.gz --markdown 20230712/c/control-lab-ly/1.1.1a1-1.1.1a2/diff.md --exclude *.pyd
+[2023-07-12 07:35:30] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/c2/16/659e3a04b4c18510e22bb7b2a097f1eae44102c1ccea42ad25d55195228c/notros2-23.7.12.53346-py3-none-any.whl
+[2023-07-12 07:35:30] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/c2/16/659e3a04b4c18510e22bb7b2a097f1eae44102c1ccea42ad25d55195228c/notros2-23.7.12.53346-py3-none-any.whl
+[2023-07-12 07:35:30] INFO root fetch - processPackages [huggingface-tool]: executing diffoscope
+[2023-07-12 07:35:30] INFO root fetch - processPackages [huggingface-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huggingface_tool-0.0.1.tar.gz tmp/huggingface_tool-0.0.2.tar.gz --markdown 20230712/h/huggingface-tool/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 07:35:30] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-12 07:35:30] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230712/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-12 07:35:30] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/a8/57/622402efbec8510183d2609028f8210708b4bb56e0b06c5996cf0f828ca0/odoo_addons_oca_stock_logistics_warehouse-16.0.20230704.0-py3-none-any.whl
+[2023-07-12 07:35:30] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-12 07:35:30] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230712/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-12 07:35:30] INFO root fetch - processPackages [qctrl-visualizer]: Downloading https://files.pythonhosted.org/packages/6d/70/85b8c7d44322804d4dccff6646adcb0ed578f7f09339e07a0ee78bfb68d0/qctrl_visualizer-6.0.1.tar.gz
+[2023-07-12 07:35:30] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: executing diffoscope
+[2023-07-12 07:35:30] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20230519.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20230704.0-py3-none-any.whl.zip --markdown 20230712/o/odoo-addons-oca-stock-logistics-warehouse/16.0.20230519.0-16.0.20230704.0/diff.md --exclude *.pyd
+[2023-07-12 07:35:30] INFO root fetch - processPackages [boulder-opal-toolkits]: Downloading https://files.pythonhosted.org/packages/8f/3f/6f39ba08a164ab6e8576eb7f61d14cca13539ffa6d4d217edb1efaef2995/boulder_opal_toolkits-2.0.0b6.tar.gz
+[2023-07-12 07:35:30] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-12 07:35:30] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.12.53339.tar.gz tmp/notros2-23.7.12.53346-py3-none-any.whl.zip --markdown 20230712/n/notros2/23.7.12.53339-23.7.12.53346/diff.md --exclude *.pyd
+[2023-07-12 07:35:30] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-12 07:35:30] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.12.53339.tar.gz tmp/notros2-23.7.12.53346-py3-none-any.whl.zip --markdown 20230712/n/notros2/23.7.12.53339-23.7.12.53346/diff.md --exclude *.pyd
+[2023-07-12 07:35:30] INFO root fetch - processPackages [qctrl-visualizer]: executing diffoscope
+[2023-07-12 07:35:30] INFO root fetch - processPackages [qctrl-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_visualizer-6.0.0.tar.gz tmp/qctrl_visualizer-6.0.1.tar.gz --markdown 20230712/q/qctrl-visualizer/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-07-12 07:35:30] INFO root fetch - processPackages [boulder-opal-toolkits]: executing diffoscope
+[2023-07-12 07:35:30] INFO root fetch - processPackages [boulder-opal-toolkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boulder_opal_toolkits-2.0.0b5.tar.gz tmp/boulder_opal_toolkits-2.0.0b6.tar.gz --markdown 20230712/b/boulder-opal-toolkits/2.0.0b5-2.0.0b6/diff.md --exclude *.pyd
+[2023-07-12 07:35:31] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20230519.0-py3-none-any.whl.zip]
+[2023-07-12 07:35:31] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20230704.0-py3-none-any.whl.zip]
+[2023-07-12 07:35:31] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-warehouse]: success
+[2023-07-12 07:35:31] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-12 07:35:31] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.12.53339.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.12.53346-py3-none-any.whl.zip]
+[2023-07-12 07:35:31] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-12 07:35:31] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-12 07:35:31] INFO root fetch - processPackages [huggingface-tool]: Remove: archive file [/home/abi/fetcher/tmp/huggingface_tool-0.0.1.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - processPackages [huggingface-tool]: Remove: archive file [/home/abi/fetcher/tmp/huggingface_tool-0.0.2.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - main [MainThread]: End processing [huggingface-tool]: success
+[2023-07-12 07:35:31] INFO root fetch - processPackages [boulder-opal-toolkits]: Remove: archive file [/home/abi/fetcher/tmp/boulder_opal_toolkits-2.0.0b5.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - processPackages [boulder-opal-toolkits]: Remove: archive file [/home/abi/fetcher/tmp/boulder_opal_toolkits-2.0.0b6.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - main [MainThread]: End processing [boulder-opal-toolkits]: success
+[2023-07-12 07:35:31] INFO root fetch - processPackages [qctrl-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_visualizer-6.0.0.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - processPackages [qctrl-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_visualizer-6.0.1.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - main [MainThread]: End processing [qctrl-visualizer]: success
+[2023-07-12 07:35:31] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-12 07:35:31] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.1a1.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.1a2.tar.gz]
+[2023-07-12 07:35:31] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2023-07-12 07:35:31] INFO root fetch - main [MainThread]: Store serial: [18856119]
