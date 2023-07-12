@@ -12027,3 +12027,78 @@
 [2023-07-12 06:48:12] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.5.tar.gz]
 [2023-07-12 06:48:12] INFO root fetch - main [MainThread]: End processing [trimnami]: success
 [2023-07-12 06:48:12] INFO root fetch - main [MainThread]: Store serial: [18855823]
+[2023-07-12 06:53:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855823]
+[2023-07-12 06:53:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 06:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grai-client
+[2023-07-12 06:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agsconfig
+[2023-07-12 06:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mercury-sync
+[2023-07-12 06:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoevals
+[2023-07-12 06:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wicked-expressions
+[2023-07-12 06:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyberdrop-dl
+[2023-07-12 06:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: honeybadger
+[2023-07-12 06:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalkpy
+[2023-07-12 06:53:21] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-12 06:53:21] INFO root fetch - processPackages [honeybadger]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-12 06:53:21] INFO root fetch - processPackages [wicked-expressions]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-12 06:53:21] INFO root fetch - processPackages [autoevals]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-12 06:53:21] INFO root fetch - processPackages [agsconfig]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-12 06:53:21] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-12 06:53:21] INFO root fetch - processPackages [grai-client]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-07-12 06:53:21] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-12 06:53:21] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-12 06:53:21] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-07-12 06:53:21] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-12 06:53:21] INFO root fetch - processPackages [honeybadger]: Downloading https://files.pythonhosted.org/packages/22/48/5223fac00bea0837a044966dc5ef3a0b7033651eaf8cedc1335e814e0ec0/honeybadger-0.8.0-py3-none-any.whl
+[2023-07-12 06:53:21] INFO root fetch - processPackages [autoevals]: Downloading https://files.pythonhosted.org/packages/b4/9c/40626c5fc30424df615964a317e5faac650a1a4670d44a46a52e11cedc92/autoevals-0.0.3.tar.gz
+[2023-07-12 06:53:22] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/2d/6f/60cc36dfdd0b98870f749b8413f2e77838fdf139002a079fbe05577ff657/wicked_expressions-0.8.0.tar.gz
+[2023-07-12 06:53:22] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-12 06:53:22] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/51/ee/2af679c542d34a450372db86148c3bcfeca5a7e55954cd9bc77b81118782/agsconfig-0.2.6-py2.py3-none-any.whl
+[2023-07-12 06:53:22] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/7b/0c/3ea2e50fbd7275dd1c4003dc273a6673f7f6072e73030d815eb008c57cf7/grai_client-0.3.0a8.tar.gz
+[2023-07-12 06:53:22] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-07-12 06:53:22] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-12 06:53:22] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230712/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-12 06:53:22] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-12 06:53:22] INFO root fetch - processPackages [autoevals]: Downloading https://files.pythonhosted.org/packages/99/c6/cf6713ec96f13dfbbb54e03b464a4a4cfecff009ac038922d7f9c5eef7ee/autoevals-0.0.4.tar.gz
+[2023-07-12 06:53:22] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-07-12 06:53:22] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230712/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-12 06:53:22] INFO root fetch - processPackages [honeybadger]: Downloading https://files.pythonhosted.org/packages/6d/03/993109cf9c68d0cbe76f135f40070307650f9e125ec4da47b53cb65686ca/honeybadger-0.9.0-py3-none-any.whl
+[2023-07-12 06:53:22] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/32/33/6f7a8da618ea9e3be2aeb06f96de9daa5e12771afb23747066d0b58953d8/wicked_expressions-0.8.1.tar.gz
+[2023-07-12 06:53:22] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-12 06:53:22] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230712/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-12 06:53:22] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/fe/91/f3fa01e840cacd5b0af913885403418bc6778d687a03c0d224bba4e267a3/agsconfig-0.2.7-py2.py3-none-any.whl
+[2023-07-12 06:53:22] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/99/fe/aff0ad822eae61047cf64181e643629668c44ac5d46f6baf5af3086d1f1b/grai_client-0.3.0a9.tar.gz
+[2023-07-12 06:53:22] INFO root fetch - processPackages [wicked-expressions]: executing diffoscope
+[2023-07-12 06:53:22] INFO root fetch - processPackages [wicked-expressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wicked_expressions-0.8.0.tar.gz tmp/wicked_expressions-0.8.1.tar.gz --markdown 20230712/w/wicked-expressions/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-12 06:53:22] INFO root fetch - processPackages [honeybadger]: executing diffoscope
+[2023-07-12 06:53:22] INFO root fetch - processPackages [honeybadger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybadger-0.8.0-py3-none-any.whl.zip tmp/honeybadger-0.9.0-py3-none-any.whl.zip --markdown 20230712/h/honeybadger/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 06:53:22] INFO root fetch - processPackages [autoevals]: executing diffoscope
+[2023-07-12 06:53:22] INFO root fetch - processPackages [autoevals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoevals-0.0.3.tar.gz tmp/autoevals-0.0.4.tar.gz --markdown 20230712/a/autoevals/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-12 06:53:22] INFO root fetch - processPackages [agsconfig]: executing diffoscope
+[2023-07-12 06:53:22] INFO root fetch - processPackages [agsconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsconfig-0.2.6-py2.py3-none-any.whl.zip tmp/agsconfig-0.2.7-py2.py3-none-any.whl.zip --markdown 20230712/a/agsconfig/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-12 06:53:22] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-07-12 06:53:22] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.3.0a8.tar.gz tmp/grai_client-0.3.0a9.tar.gz --markdown 20230712/g/grai-client/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-07-12 06:53:23] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-12 06:53:23] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-12 06:53:23] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-12 06:53:23] INFO root fetch - processPackages [honeybadger]: Remove: archive file [/home/abi/fetcher/tmp/honeybadger-0.8.0-py3-none-any.whl.zip]
+[2023-07-12 06:53:23] INFO root fetch - processPackages [honeybadger]: Remove: archive file [/home/abi/fetcher/tmp/honeybadger-0.9.0-py3-none-any.whl.zip]
+[2023-07-12 06:53:24] INFO root fetch - main [MainThread]: End processing [honeybadger]: success
+[2023-07-12 06:53:24] INFO root fetch - processPackages [autoevals]: Remove: archive file [/home/abi/fetcher/tmp/autoevals-0.0.3.tar.gz]
+[2023-07-12 06:53:24] INFO root fetch - processPackages [autoevals]: Remove: archive file [/home/abi/fetcher/tmp/autoevals-0.0.4.tar.gz]
+[2023-07-12 06:53:24] INFO root fetch - main [MainThread]: End processing [autoevals]: success
+[2023-07-12 06:53:24] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-12 06:53:24] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-12 06:53:24] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-12 06:53:24] INFO root fetch - processPackages [wicked-expressions]: Remove: archive file [/home/abi/fetcher/tmp/wicked_expressions-0.8.0.tar.gz]
+[2023-07-12 06:53:24] INFO root fetch - processPackages [wicked-expressions]: Remove: archive file [/home/abi/fetcher/tmp/wicked_expressions-0.8.1.tar.gz]
+[2023-07-12 06:53:24] INFO root fetch - main [MainThread]: End processing [wicked-expressions]: success
+[2023-07-12 06:53:24] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a8.tar.gz]
+[2023-07-12 06:53:24] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a9.tar.gz]
+[2023-07-12 06:53:24] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-07-12 06:53:24] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.2.6-py2.py3-none-any.whl.zip]
+[2023-07-12 06:53:24] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.2.7-py2.py3-none-any.whl.zip]
+[2023-07-12 06:53:24] INFO root fetch - main [MainThread]: End processing [agsconfig]: success
+[2023-07-12 06:53:25] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-07-12 06:53:25] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-07-12 06:53:25] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-07-12 06:53:25] INFO root fetch - main [MainThread]: Store serial: [18855845]
