@@ -15788,3 +15788,166 @@
 [2023-07-12 10:31:19] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip]
 [2023-07-12 10:31:19] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
 [2023-07-12 10:31:19] INFO root fetch - main [MainThread]: Store serial: [18857461]
+[2023-07-12 10:36:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857461]
+[2023-07-12 10:36:33] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-12 10:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfaust-openblaso
+[2023-07-12 10:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfaust-torch
+[2023-07-12 10:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2023-07-12 10:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bbox-visualizer2
+[2023-07-12 10:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mystring
+[2023-07-12 10:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: findpython
+[2023-07-12 10:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: control-lab-ly
+[2023-07-12 10:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pana
+[2023-07-12 10:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anarchy-bot
+[2023-07-12 10:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: osemosys2iamc
+[2023-07-12 10:36:33] INFO root fetch - processPackages [control-lab-ly]: New version: [1.1.2] Old Version: [1.1.1a2]
+[2023-07-12 10:36:33] WARNING root fetch - processPackages [pana]: Skipping, unable to determine old version
+[2023-07-12 10:36:33] INFO root fetch - processPackages [pana]: Start processing: os2mo-data-import
+[2023-07-12 10:36:33] INFO root fetch - main [MainThread]: End processing [pana] error
+[2023-07-12 10:36:33] INFO root fetch - processPackages [mystring]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 10:36:33] INFO root fetch - processPackages [findpython]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2023-07-12 10:36:33] INFO root fetch - processPackages [bbox-visualizer2]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-12 10:36:33] INFO root fetch - processPackages [osemosys2iamc]: New version: [0.2a2] Old Version: [0.2.1]
+[2023-07-12 10:36:33] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-07-12 10:36:33] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-07-12 10:36:33] WARNING root fetch - processPackages [anarchy-bot]: Skipping, unable to determine old version
+[2023-07-12 10:36:33] INFO root fetch - processPackages [anarchy-bot]: Start processing: th2-grpc-act-template
+[2023-07-12 10:36:33] INFO root fetch - main [MainThread]: End processing [anarchy-bot] error
+[2023-07-12 10:36:34] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-12 10:36:34] INFO root fetch - processPackages [os2mo-data-import]: New version: [5.4.2] Old Version: [5.4.1]
+[2023-07-12 10:36:34] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/f3/81/f08e6972003b78868ba830fa00cd2c45233647245078258791093efe3f6f/control-lab-ly-1.1.1a2.tar.gz
+[2023-07-12 10:36:34] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/66/4f/b66907843af4dceeb4045f63e69f36b7c93b2aa38bc735e9cddd2916e991/findpython-1.0.0a2.tar.gz
+[2023-07-12 10:36:34] INFO root fetch - processPackages [th2-grpc-act-template]: New version: [4.1.0.dev5529367480] Old Version: [4.1.0.dev5521707556]
+[2023-07-12 10:36:34] INFO root fetch - processPackages [bbox-visualizer2]: Downloading https://files.pythonhosted.org/packages/67/84/eb4ca6b11a311025d776c0af8b8f12eb8eb587b9114f92e80f2fc6799d90/bbox_visualizer2-0.0.2.tar.gz
+[2023-07-12 10:36:34] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/7b/b2/93d76068d648339a62fdf56ea563149059b40acd2f903f5abe247ef04a25/mystring-0.0.98.tar.gz
+[2023-07-12 10:36:34] WARNING root fetch - processPackages [bbox-visualizer2]: Skipping package: exceeds size limit 11221224>=10485760
+[2023-07-12 10:36:34] INFO root fetch - processPackages [bbox-visualizer2]: Start processing: odoo14-addon-sale-order-invoicing-finished-task
+[2023-07-12 10:36:34] INFO root fetch - main [MainThread]: End processing [bbox-visualizer2] error
+[2023-07-12 10:36:34] INFO root fetch - processPackages [osemosys2iamc]: Downloading https://files.pythonhosted.org/packages/c7/3a/4b4f50e8590998d69956010979ee08ddf478715a6fce2a25f7e3c0e1274c/osemosys2iamc-0.2.1.tar.gz
+[2023-07-12 10:36:34] INFO root fetch - processPackages [th2-grpc-act-template]: Downloading https://files.pythonhosted.org/packages/29/c1/1598b2528b22b1a97e849fc4f27464a1177246408842f33cae3cba3e8cc5/th2_grpc_act_template-4.1.0.dev5521707556.tar.gz
+[2023-07-12 10:36:34] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-finished-task]: New version: [14.0.1.1.1] Old Version: [14.0.1.1.0]
+[2023-07-12 10:36:34] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/59/0f/a671bb18f0866e38b3711c876d95dfa037f0ffd6e093480ae6ce5db7d8a6/pyfaust_openblaso-3.38.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-07-12 10:36:34] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-12 10:36:34] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/26/77/6d6f6c74db3fb6eea549a03a2bd2fa5effb4fadb83aa038856b0abfce6e7/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-07-12 10:36:34] INFO root fetch - processPackages [os2mo-data-import]: Downloading https://files.pythonhosted.org/packages/02/5b/85c448d64a6e22452a5827664de58cd34e3d2e0e28e759104acf7388944f/os2mo_data_import-5.4.1.tar.gz
+[2023-07-12 10:36:34] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/ab/fe/9a940da77097423a57e1f18f6ce837728d60ef3178b7ddf7175412259eab/findpython-1.0.0a3.tar.gz
+[2023-07-12 10:36:34] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/d1/74/c8949d037142e817bcd6521db8140d98f1b99f953a5d577bec5ae132355b/mystring-0.0.99.tar.gz
+[2023-07-12 10:36:34] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-finished-task]: Downloading https://files.pythonhosted.org/packages/30/f6/6922786362b70b3bf263746bbc3f7f2a61b4509de02964a6e43340ca4c6f/odoo14_addon_sale_order_invoicing_finished_task-14.0.1.1.0-py3-none-any.whl
+[2023-07-12 10:36:34] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/dd/b1/3adf2c16916d44292e01f7ec784d5e25c66667b254b8a0368fa8ab2f697d/control-lab-ly-1.1.2.tar.gz
+[2023-07-12 10:36:34] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-07-12 10:36:34] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.98.tar.gz tmp/mystring-0.0.99.tar.gz --markdown 20230712/m/mystring/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 10:36:34] INFO root fetch - processPackages [osemosys2iamc]: Downloading https://files.pythonhosted.org/packages/b6/d2/cf9bbcda973e9c0d83996a4edadf436322c14808358e2171887440e10d15/osemosys2iamc-0.2a2.tar.gz
+[2023-07-12 10:36:34] INFO root fetch - processPackages [findpython]: executing diffoscope
+[2023-07-12 10:36:34] INFO root fetch - processPackages [findpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findpython-1.0.0a2.tar.gz tmp/findpython-1.0.0a3.tar.gz --markdown 20230712/f/findpython/1.0.0a2-1.0.0a3/diff.md --exclude *.pyd
+[2023-07-12 10:36:34] INFO root fetch - processPackages [th2-grpc-act-template]: Downloading https://files.pythonhosted.org/packages/b6/89/afaa068c9e43be7fa877553c11b54807c8ae953a2187db8d47640c6b46f5/th2_grpc_act_template-4.1.0.dev5529367480.tar.gz
+[2023-07-12 10:36:34] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2023-07-12 10:36:34] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.1.1a2.tar.gz tmp/control-lab-ly-1.1.2.tar.gz --markdown 20230712/c/control-lab-ly/1.1.1a2-1.1.2/diff.md --exclude *.pyd
+[2023-07-12 10:36:34] INFO root fetch - processPackages [osemosys2iamc]: executing diffoscope
+[2023-07-12 10:36:34] INFO root fetch - processPackages [osemosys2iamc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osemosys2iamc-0.2.1.tar.gz tmp/osemosys2iamc-0.2a2.tar.gz --markdown 20230712/o/osemosys2iamc/0.2.1-0.2a2/diff.md --exclude *.pyd
+[2023-07-12 10:36:35] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-12 10:36:35] INFO root fetch - processPackages [os2mo-data-import]: Downloading https://files.pythonhosted.org/packages/7b/f4/f7c5a474274480b8cf942121df45c5c7ae28e27700114b4c35ad8e1bd3a1/os2mo_data_import-5.4.2.tar.gz
+[2023-07-12 10:36:35] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-12 10:36:35] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230712/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-12 10:36:35] INFO root fetch - processPackages [th2-grpc-act-template]: executing diffoscope
+[2023-07-12 10:36:35] INFO root fetch - processPackages [th2-grpc-act-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_act_template-4.1.0.dev5521707556.tar.gz tmp/th2_grpc_act_template-4.1.0.dev5529367480.tar.gz --markdown 20230712/t/th2-grpc-act-template/4.1.0.dev5521707556-4.1.0.dev5529367480/diff.md --exclude *.pyd
+[2023-07-12 10:36:35] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 22956958>=10485760
+[2023-07-12 10:36:35] INFO root fetch - processPackages [pyfaust-openblaso]: Start processing: luminesce-sdk-preview
+[2023-07-12 10:36:35] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2023-07-12 10:36:35] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-finished-task]: Downloading https://files.pythonhosted.org/packages/c1/42/bb53937fa8a36c7173498fc95215d1eda314351f694e979353d2aa433de4/odoo14_addon_sale_order_invoicing_finished_task-14.0.1.1.1-py3-none-any.whl
+[2023-07-12 10:36:35] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-12 10:36:35] INFO root fetch - processPackages [os2mo-data-import]: executing diffoscope
+[2023-07-12 10:36:35] INFO root fetch - processPackages [os2mo-data-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os2mo_data_import-5.4.1.tar.gz tmp/os2mo_data_import-5.4.2.tar.gz --markdown 20230712/o/os2mo-data-import/5.4.1-5.4.2/diff.md --exclude *.pyd
+[2023-07-12 10:36:35] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-12 10:36:35] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-finished-task]: executing diffoscope
+[2023-07-12 10:36:35] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-finished-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_invoicing_finished_task-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_invoicing_finished_task-14.0.1.1.1-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addon-sale-order-invoicing-finished-task/14.0.1.1.0-14.0.1.1.1/diff.md --exclude *.pyd
+[2023-07-12 10:36:35] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-12 10:36:35] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-12 10:36:35] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230712/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-12 10:36:36] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/6b/7a/69cf6ad676c709b11407df6a8f180ea20bb9f143ecca990b23dda5f76ca2/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-07-12 10:36:36] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.98.tar.gz]
+[2023-07-12 10:36:36] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.99.tar.gz]
+[2023-07-12 10:36:36] INFO root fetch - processPackages [mystring]: Start processing: geohashr
+[2023-07-12 10:36:36] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-07-12 10:36:36] INFO root fetch - processPackages [findpython]: Remove: archive file [/home/abi/fetcher/tmp/findpython-1.0.0a2.tar.gz]
+[2023-07-12 10:36:36] INFO root fetch - processPackages [findpython]: Remove: archive file [/home/abi/fetcher/tmp/findpython-1.0.0a3.tar.gz]
+[2023-07-12 10:36:36] INFO root fetch - processPackages [findpython]: Start processing: sqlapydantic
+[2023-07-12 10:36:36] INFO root fetch - main [MainThread]: End processing [findpython]: success
+[2023-07-12 10:36:36] WARNING root fetch - processPackages [geohashr]: Skipping, unable to determine old version
+[2023-07-12 10:36:36] INFO root fetch - processPackages [geohashr]: Start processing: spai
+[2023-07-12 10:36:36] INFO root fetch - main [MainThread]: End processing [geohashr] error
+[2023-07-12 10:36:36] INFO root fetch - processPackages [sqlapydantic]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 10:36:36] INFO root fetch - processPackages [spai]: New version: [2023.7.4] Old Version: [2023.7.12.post2]
+[2023-07-12 10:36:36] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/fd/fd/ebfae7235dda96e34610a95a4359aa2934436afe70ccd0f057b3fa1c3595/spai-2023.7.12.post2.tar.gz
+[2023-07-12 10:36:36] INFO root fetch - processPackages [osemosys2iamc]: Remove: archive file [/home/abi/fetcher/tmp/osemosys2iamc-0.2.1.tar.gz]
+[2023-07-12 10:36:36] INFO root fetch - processPackages [osemosys2iamc]: Remove: archive file [/home/abi/fetcher/tmp/osemosys2iamc-0.2a2.tar.gz]
+[2023-07-12 10:36:36] INFO root fetch - processPackages [osemosys2iamc]: Start processing: HighLevelOfFramework
+[2023-07-12 10:36:36] INFO root fetch - main [MainThread]: End processing [osemosys2iamc]: success
+[2023-07-12 10:36:36] INFO root fetch - processPackages [th2-grpc-act-template]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_template-4.1.0.dev5521707556.tar.gz]
+[2023-07-12 10:36:36] INFO root fetch - processPackages [th2-grpc-act-template]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_template-4.1.0.dev5529367480.tar.gz]
+[2023-07-12 10:36:36] INFO root fetch - processPackages [th2-grpc-act-template]: Start processing: nwebclient
+[2023-07-12 10:36:36] INFO root fetch - main [MainThread]: End processing [th2-grpc-act-template]: success
+[2023-07-12 10:36:36] INFO root fetch - processPackages [sqlapydantic]: Downloading https://files.pythonhosted.org/packages/47/fd/376046ac7f3450206fc500fbd910b9289972704aa0d1ce62d97b28262192/sqlapydantic-0.0.1.tar.gz
+[2023-07-12 10:36:37] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 10:36:37] WARNING root fetch - processPackages [HighLevelOfFramework]: Skipping, unable to determine old version
+[2023-07-12 10:36:37] INFO root fetch - processPackages [HighLevelOfFramework]: Start processing: python-pbxonline
+[2023-07-12 10:36:37] INFO root fetch - main [MainThread]: End processing [HighLevelOfFramework] error
+[2023-07-12 10:36:37] INFO root fetch - processPackages [os2mo-data-import]: Remove: archive file [/home/abi/fetcher/tmp/os2mo_data_import-5.4.1.tar.gz]
+[2023-07-12 10:36:37] INFO root fetch - processPackages [os2mo-data-import]: Remove: archive file [/home/abi/fetcher/tmp/os2mo_data_import-5.4.2.tar.gz]
+[2023-07-12 10:36:37] INFO root fetch - processPackages [os2mo-data-import]: Start processing: kthreading
+[2023-07-12 10:36:37] INFO root fetch - main [MainThread]: End processing [os2mo-data-import]: success
+[2023-07-12 10:36:37] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 10:36:37] INFO root fetch - processPackages [python-pbxonline]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-12 10:36:37] WARNING root fetch - processPackages [kthreading]: Skipping, unable to determine old version
+[2023-07-12 10:36:37] INFO root fetch - processPackages [kthreading]: Start processing: domolibrary
+[2023-07-12 10:36:37] INFO root fetch - main [MainThread]: End processing [kthreading] error
+[2023-07-12 10:36:37] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/3d/f8/1df4e0e757644d3a07491afda0747699ef57e62726ae648bdb9121ee3774/spai-2023.7.4.tar.gz
+[2023-07-12 10:36:37] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 10:36:37] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-12 10:36:37] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-finished-task]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_invoicing_finished_task-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-12 10:36:37] INFO root fetch - processPackages [odoo14-addon-sale-order-invoicing-finished-task]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_invoicing_finished_task-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-12 10:36:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-invoicing-finished-task]: success
+[2023-07-12 10:36:37] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-07-12 10:36:37] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.7.12.post2.tar.gz tmp/spai-2023.7.4.tar.gz --markdown 20230712/s/spai/2023.7.12.post2-2023.7.4/diff.md --exclude *.pyd
+[2023-07-12 10:36:37] INFO root fetch - processPackages [sqlapydantic]: Downloading https://files.pythonhosted.org/packages/95/88/dea9d4633f5392254b678fbe1b7ee2311d1f7e5d9df5e321621c38652bce/sqlapydantic-0.0.2.tar.gz
+[2023-07-12 10:36:37] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 10:36:37] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 10:36:37] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.1a2.tar.gz]
+[2023-07-12 10:36:37] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.2.tar.gz]
+[2023-07-12 10:36:37] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2023-07-12 10:36:37] INFO root fetch - processPackages [sqlapydantic]: executing diffoscope
+[2023-07-12 10:36:37] INFO root fetch - processPackages [sqlapydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlapydantic-0.0.1.tar.gz tmp/sqlapydantic-0.0.2.tar.gz --markdown 20230712/s/sqlapydantic/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 10:36:37] INFO root fetch - processPackages [python-pbxonline]: Downloading https://files.pythonhosted.org/packages/98/bc/62757c422734c9f8df4c9d8e1ee5437fc396f6e052073bbc5627ea0f688e/python-pbxonline-0.1.3.tar.gz
+[2023-07-12 10:36:37] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-12 10:36:37] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-12 10:36:37] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-12 10:36:37] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-12 10:36:38] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-12 10:36:38] INFO root fetch - processPackages [python-pbxonline]: Downloading https://files.pythonhosted.org/packages/f4/c0/d32d9fdb516d3ae2a5ca7dfaa43a88696cfa276dcd339e0bc8f84fe31c05/python-pbxonline-0.2.0.tar.gz
+[2023-07-12 10:36:38] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-12 10:36:38] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230712/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-12 10:36:38] INFO root fetch - processPackages [python-pbxonline]: executing diffoscope
+[2023-07-12 10:36:38] INFO root fetch - processPackages [python-pbxonline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-pbxonline-0.1.3.tar.gz tmp/python-pbxonline-0.2.0.tar.gz --markdown 20230712/p/python-pbxonline/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-12 10:36:38] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 10:36:38] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 10:36:38] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 10:36:38] INFO root fetch - processPackages [sqlapydantic]: Remove: archive file [/home/abi/fetcher/tmp/sqlapydantic-0.0.1.tar.gz]
+[2023-07-12 10:36:38] INFO root fetch - processPackages [sqlapydantic]: Remove: archive file [/home/abi/fetcher/tmp/sqlapydantic-0.0.2.tar.gz]
+[2023-07-12 10:36:38] INFO root fetch - main [MainThread]: End processing [sqlapydantic]: success
+[2023-07-12 10:36:38] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2023-07-12 10:36:38] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230712/p/pyfaust-torch/3.38.8-3.38.9/diff.md --exclude *.pyd
+[2023-07-12 10:36:38] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.12.post2.tar.gz]
+[2023-07-12 10:36:38] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.4.tar.gz]
+[2023-07-12 10:36:38] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-07-12 10:36:39] INFO root fetch - processPackages [python-pbxonline]: Remove: archive file [/home/abi/fetcher/tmp/python-pbxonline-0.1.3.tar.gz]
+[2023-07-12 10:36:39] INFO root fetch - processPackages [python-pbxonline]: Remove: archive file [/home/abi/fetcher/tmp/python-pbxonline-0.2.0.tar.gz]
+[2023-07-12 10:36:39] INFO root fetch - main [MainThread]: End processing [python-pbxonline]: success
+[2023-07-12 10:36:39] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-12 10:36:39] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-12 10:36:39] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-12 10:36:39] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-12 10:36:39] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-12 10:36:39] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-12 10:37:04] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-07-12 10:37:04] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-07-12 10:37:04] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2023-07-12 10:37:04] INFO root fetch - main [MainThread]: Store serial: [18857575]
