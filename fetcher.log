@@ -11009,3 +11009,139 @@
 [2023-07-12 05:24:43] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip]
 [2023-07-12 05:24:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
 [2023-07-12 05:24:43] INFO root fetch - main [MainThread]: Store serial: [18855216]
+[2023-07-12 05:29:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855216]
+[2023-07-12 05:29:52] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-12 05:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fieldservice-fleet
+[2023-07-12 05:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-field-service
+[2023-07-12 05:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-fieldservice-size
+[2023-07-12 05:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-fieldservice-recurring
+[2023-07-12 05:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-field-service
+[2023-07-12 05:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-fleet-vehicle-inspection-template
+[2023-07-12 05:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-fleet-vehicle-history-date-end
+[2023-07-12 05:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-fleet-vehicle-category
+[2023-07-12 05:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-fleet-vehicle-service-kanban
+[2023-07-12 05:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-fleet-vehicle-inspection
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.9]
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.8]
+[2023-07-12 05:29:52] WARNING root fetch - processPackages [odoo-addon-fleet-vehicle-history-date-end]: Skipping, unable to determine old version
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-history-date-end]: Start processing: odoo-addon-fleet-vehicle-service-kanban
+[2023-07-12 05:29:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-history-date-end] error
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addons-oca-field-service]: New version: [16.0.20230711.1] Old Version: [16.0.20230704.0]
+[2023-07-12 05:29:52] WARNING root fetch - processPackages [odoo-addon-fleet-vehicle-inspection-template]: Skipping, unable to determine old version
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection-template]: Start processing: odoo-addons-oca-fleet
+[2023-07-12 05:29:52] WARNING root fetch - processPackages [odoo-addon-fleet-vehicle-category]: Skipping, unable to determine old version
+[2023-07-12 05:29:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-inspection-template] error
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-category]: Start processing: odoo-addons-oca-fleet
+[2023-07-12 05:29:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-category] error
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addons-oca-field-service]: New version: [16.0.20230711.1] Old Version: [16.0.20230704.0]
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: Downloading https://files.pythonhosted.org/packages/43/d7/90efccaa75833289979eb552ad67956c53844ec5a67cd37f3864196865a6/odoo14_addon_fleet_vehicle_service_kanban-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: Downloading https://files.pythonhosted.org/packages/fe/6d/b3a611c6430c49e5ee73970fcdf5937043162759d76302e76a086c136538/odoo_addon_fieldservice_size-15.0.1.0.0.8-py3-none-any.whl
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Downloading https://files.pythonhosted.org/packages/04/e4/b22a70f62aeee2e5142765a18c2638b8da78b1cdcf3e79bbe6065a09923f/odoo_addon_fieldservice_recurring-15.0.1.0.0.9-py3-none-any.whl
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-kanban]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addons-oca-fleet]: New version: [16.0.20230711.0] Old Version: [16.0.20230417.1]
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addons-oca-fleet]: New version: [16.0.20230711.0] Old Version: [16.0.20230417.1]
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/0d/ff/78e3a140cc6aecf12f1ed4bc9979c01fac644241d116ac8c3f1a54e8edf8/odoo_addons_oca_field_service-16.0.20230704.0-py3-none-any.whl
+[2023-07-12 05:29:52] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/0d/ff/78e3a140cc6aecf12f1ed4bc9979c01fac644241d116ac8c3f1a54e8edf8/odoo_addons_oca_field_service-16.0.20230704.0-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Downloading https://files.pythonhosted.org/packages/7b/8c/02ad9ce42103eb4890f429a5bc5edfb951b2ad204579358021ae8ae81e89/odoo_addon_fleet_vehicle_inspection-15.0.1.0.0.8-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: Downloading https://files.pythonhosted.org/packages/84/8b/606aba0b9f76e3811051720c68354ddae07dfc8fd3962b6817ebaa51a7ed/odoo_addon_fieldservice_fleet-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-fleet]: Downloading https://files.pythonhosted.org/packages/d1/01/2ede5cf9c01f60166226b7f1c4a0882344f40420a884bd159900cf87e526/odoo_addons_oca_fleet-16.0.20230417.1-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-kanban]: Downloading https://files.pythonhosted.org/packages/3d/5f/e76e46d6b8c583aab4715511e4766b52842ea65419025d84175041ce111e/odoo_addon_fleet_vehicle_service_kanban-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-fleet]: Downloading https://files.pythonhosted.org/packages/d1/01/2ede5cf9c01f60166226b7f1c4a0882344f40420a884bd159900cf87e526/odoo_addons_oca_fleet-16.0.20230417.1-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: Downloading https://files.pythonhosted.org/packages/c2/43/5176e8c31315b589a7d2eef23fcd9bdc26dcc1e9cacbf7735d5416533262/odoo14_addon_fleet_vehicle_service_kanban-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Downloading https://files.pythonhosted.org/packages/e3/fc/3ed64c44f80a3b2004128585fcfdc8c2f9abdccdeb3aa0ff2b5443b1eb5d/odoo_addon_fieldservice_recurring-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: Downloading https://files.pythonhosted.org/packages/fa/dc/b0ed396ece2d2db62264332a9f05268a7536b051c7c72bcd074d8da2d87a/odoo_addon_fieldservice_size-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/ef/f1/16d2071528b69e076610f84413a3cbd98ce6a91d12541aee3efd60194ff6/odoo_addons_oca_field_service-16.0.20230711.1-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/ef/f1/16d2071528b69e076610f84413a3cbd98ce6a91d12541aee3efd60194ff6/odoo_addons_oca_field_service-16.0.20230711.1-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: executing diffoscope
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fleet_vehicle_service_kanban-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_fleet_vehicle_service_kanban-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addon-fleet-vehicle-service-kanban/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: executing diffoscope
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_recurring-15.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_recurring-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-fieldservice-recurring/15.0.1.0.0.9-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: Downloading https://files.pythonhosted.org/packages/2c/06/69aaf9f3680bc85cfcd6cdbf9962cd65ae962c8cf687dc176e692f8aa1de/odoo_addon_fieldservice_fleet-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: executing diffoscope
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_size-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_size-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-fieldservice-size/15.0.1.0.0.8-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Downloading https://files.pythonhosted.org/packages/74/c2/8511e168a5541365b6ee664df1f7bb1cec15a1c309ad134b166660e05e4a/odoo_addon_fleet_vehicle_inspection-15.0.1.0.0.9-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-fleet]: Downloading https://files.pythonhosted.org/packages/25/dc/23a845212983260229744330d397266f0bcfdb9ab0511a7d899c7b260124/odoo_addons_oca_fleet-16.0.20230711.0-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-field-service]: executing diffoscope
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-field-service]: executing diffoscope
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-field-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_field_service-16.0.20230704.0-py3-none-any.whl.zip tmp/odoo_addons_oca_field_service-16.0.20230711.1-py3-none-any.whl.zip --markdown 20230712/o/odoo-addons-oca-field-service/16.0.20230704.0-16.0.20230711.1/diff.md --exclude *.pyd
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-field-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_field_service-16.0.20230704.0-py3-none-any.whl.zip tmp/odoo_addons_oca_field_service-16.0.20230711.1-py3-none-any.whl.zip --markdown 20230712/o/odoo-addons-oca-field-service/16.0.20230704.0-16.0.20230711.1/diff.md --exclude *.pyd
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-fleet]: Downloading https://files.pythonhosted.org/packages/25/dc/23a845212983260229744330d397266f0bcfdb9ab0511a7d899c7b260124/odoo_addons_oca_fleet-16.0.20230711.0-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-kanban]: Downloading https://files.pythonhosted.org/packages/17/c6/50c49afdea35633a90fa232d564949a5acf1c6608a2e19596b38237a1467/odoo_addon_fleet_vehicle_service_kanban-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: executing diffoscope
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_fleet-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_fleet-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-fieldservice-fleet/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: executing diffoscope
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fleet_vehicle_inspection-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_fleet_vehicle_inspection-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-fleet-vehicle-inspection/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-fleet]: executing diffoscope
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-fleet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_fleet-16.0.20230417.1-py3-none-any.whl.zip tmp/odoo_addons_oca_fleet-16.0.20230711.0-py3-none-any.whl.zip --markdown 20230712/o/odoo-addons-oca-fleet/16.0.20230417.1-16.0.20230711.0/diff.md --exclude *.pyd
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-fleet]: executing diffoscope
+[2023-07-12 05:29:53] INFO root fetch - processPackages [odoo-addons-oca-fleet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_fleet-16.0.20230417.1-py3-none-any.whl.zip tmp/odoo_addons_oca_fleet-16.0.20230711.0-py3-none-any.whl.zip --markdown 20230712/o/odoo-addons-oca-fleet/16.0.20230417.1-16.0.20230711.0/diff.md --exclude *.pyd
+[2023-07-12 05:29:54] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-kanban]: executing diffoscope
+[2023-07-12 05:29:54] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-kanban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fleet_vehicle_service_kanban-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_fleet_vehicle_service_kanban-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-fleet-vehicle-service-kanban/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20230704.0-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20230711.1-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Start processing: aaz-dev
+[2023-07-12 05:29:55] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-field-service]: success
+[2023-07-12 05:29:55] INFO root fetch - processPackages [aaz-dev]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fleet_vehicle_service_kanban-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fleet_vehicle_service_kanban-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: Start processing: planet
+[2023-07-12 05:29:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fleet-vehicle-service-kanban]: success
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_size-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_size-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: Start processing: llm-workflow
+[2023-07-12 05:29:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-size]: success
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addons-oca-fleet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_fleet-16.0.20230417.1-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addons-oca-fleet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_fleet-16.0.20230711.0-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addons-oca-fleet]: Start processing: seaduck
+[2023-07-12 05:29:55] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-fleet]: success
+[2023-07-12 05:29:55] WARNING root fetch - processPackages [llm-workflow]: Skipping, unable to determine old version
+[2023-07-12 05:29:55] INFO root fetch - processPackages [llm-workflow]: Start processing: pyntree
+[2023-07-12 05:29:55] INFO root fetch - main [MainThread]: End processing [llm-workflow] error
+[2023-07-12 05:29:55] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-field-service]: success
+[2023-07-12 05:29:55] INFO root fetch - processPackages [planet]: New version: [2.1b1] Old Version: [2.0a6]
+[2023-07-12 05:29:55] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-fleet]: success
+[2023-07-12 05:29:55] INFO root fetch - processPackages [pyntree]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/2a/74/ca8643d960ec96757b26d0ff2ff7939f9a269abc7737c2d9f3fa1f3917c9/aaz-dev-1.3.1.tar.gz
+[2023-07-12 05:29:55] INFO root fetch - processPackages [seaduck]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_recurring-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addon-fieldservice-recurring]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_recurring-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-recurring]: success
+[2023-07-12 05:29:55] INFO root fetch - processPackages [pyntree]: Downloading https://files.pythonhosted.org/packages/2a/61/3b30e7038e84ffead28035fc282f368e7c1e3d76f89f3c46262b0ea6c8ec/pyntree-1.2.1.tar.gz
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_fleet-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addon-fieldservice-fleet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_fleet-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-fleet]: success
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-kanban]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fleet_vehicle_service_kanban-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-kanban]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fleet_vehicle_service_kanban-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-service-kanban]: success
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fleet_vehicle_inspection-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fleet_vehicle_inspection-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-12 05:29:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-inspection]: success
+[2023-07-12 05:29:55] INFO root fetch - processPackages [seaduck]: Downloading https://files.pythonhosted.org/packages/81/55/64af7a1491c80e6d8dc4f39cf4ebe727df9a11b102a76ec98128984b0a00/seaduck-0.1.2.tar.gz
+[2023-07-12 05:29:55] INFO root fetch - processPackages [pyntree]: Downloading https://files.pythonhosted.org/packages/23/5e/ee0abdfbd3104be8c9adffa2fca3a9db274c5fa2fe34898906fb103b4fe0/pyntree-1.2.2.tar.gz
+[2023-07-12 05:29:55] INFO root fetch - processPackages [planet]: Downloading https://files.pythonhosted.org/packages/35/71/970168ae5f90ccf7e20294f55cca0e19e98980e981d2f1ba30dd26055eb0/planet-2.1b1.tar.gz
+[2023-07-12 05:29:55] INFO root fetch - processPackages [pyntree]: executing diffoscope
+[2023-07-12 05:29:55] INFO root fetch - processPackages [pyntree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntree-1.2.1.tar.gz tmp/pyntree-1.2.2.tar.gz --markdown 20230712/p/pyntree/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-12 05:29:56] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/d6/df/adfde0105c071f00992ed82276a10d4764ca3f09b6961623461cea9f1b12/aaz-dev-1.4.0.tar.gz
+[2023-07-12 05:29:56] INFO root fetch - processPackages [seaduck]: Downloading https://files.pythonhosted.org/packages/c6/37/d51bd2da23a18042bceed120c028dd4ef4ba6b408e43f7007afdf18db410/seaduck-0.1.3.tar.gz
+[2023-07-12 05:29:56] INFO root fetch - processPackages [planet]: executing diffoscope
+[2023-07-12 05:29:56] INFO root fetch - processPackages [planet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planet-2.0a6.tar.gz tmp/planet-2.1b1.tar.gz --markdown 20230712/p/planet/2.0a6-2.1b1/diff.md --exclude *.pyd
+[2023-07-12 05:29:56] INFO root fetch - processPackages [seaduck]: executing diffoscope
+[2023-07-12 05:29:56] INFO root fetch - processPackages [seaduck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaduck-0.1.2.tar.gz tmp/seaduck-0.1.3.tar.gz --markdown 20230712/s/seaduck/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-12 05:29:56] INFO root fetch - processPackages [aaz-dev]: executing diffoscope
+[2023-07-12 05:29:56] INFO root fetch - processPackages [aaz-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aaz-dev-1.3.1.tar.gz tmp/aaz-dev-1.4.0.tar.gz --markdown 20230712/a/aaz-dev/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-12 05:29:56] INFO root fetch - processPackages [pyntree]: Remove: archive file [/home/abi/fetcher/tmp/pyntree-1.2.1.tar.gz]
+[2023-07-12 05:29:56] INFO root fetch - processPackages [pyntree]: Remove: archive file [/home/abi/fetcher/tmp/pyntree-1.2.2.tar.gz]
+[2023-07-12 05:29:56] INFO root fetch - main [MainThread]: End processing [pyntree]: success
+[2023-07-12 05:29:56] INFO root fetch - processPackages [planet]: Remove: archive file [/home/abi/fetcher/tmp/planet-2.0a6.tar.gz]
+[2023-07-12 05:29:56] INFO root fetch - processPackages [planet]: Remove: archive file [/home/abi/fetcher/tmp/planet-2.1b1.tar.gz]
+[2023-07-12 05:29:56] INFO root fetch - main [MainThread]: End processing [planet]: success
+[2023-07-12 05:29:57] INFO root fetch - processPackages [seaduck]: Remove: archive file [/home/abi/fetcher/tmp/seaduck-0.1.2.tar.gz]
+[2023-07-12 05:29:57] INFO root fetch - processPackages [seaduck]: Remove: archive file [/home/abi/fetcher/tmp/seaduck-0.1.3.tar.gz]
+[2023-07-12 05:29:57] INFO root fetch - main [MainThread]: End processing [seaduck]: success
+[2023-07-12 05:29:58] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-1.3.1.tar.gz]
+[2023-07-12 05:29:58] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-1.4.0.tar.gz]
+[2023-07-12 05:29:58] INFO root fetch - main [MainThread]: End processing [aaz-dev]: success
+[2023-07-12 05:29:58] INFO root fetch - main [MainThread]: Store serial: [18855317]
