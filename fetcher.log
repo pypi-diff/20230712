@@ -21713,3 +21713,249 @@ AssertionError: tmp/flask_validators-0.5.tar.gz does not exist
 [2023-07-12 14:06:07] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.75.0.tar.gz]
 [2023-07-12 14:06:07] INFO root fetch - main [MainThread]: End processing [libmata]: success
 [2023-07-12 14:06:07] INFO root fetch - main [MainThread]: Store serial: [18859922]
+[2023-07-12 14:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18859922]
+[2023-07-12 14:11:16] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-07-12 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dh-potluck
+[2023-07-12 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb
+[2023-07-12 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-client
+[2023-07-12 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-dataset
+[2023-07-12 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-models
+[2023-07-12 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-protos
+[2023-07-12 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anyjson2csv
+[2023-07-12 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-sdk
+[2023-07-12 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-utils
+[2023-07-12 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langfuse
+[2023-07-12 14:11:16] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-12 14:11:16] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-12 14:11:16] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-12 14:11:16] INFO root fetch - processPackages [anyjson2csv]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-12 14:11:16] INFO root fetch - processPackages [langfuse]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-12 14:11:16] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-12 14:11:16] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-12 14:11:17] INFO root fetch - processPackages [anyjson2csv]: Downloading https://files.pythonhosted.org/packages/e5/42/45c19331953671024e74b9e84eed546742ef46a075d6c2693c8e47911932/anyjson2csv-0.0.2.tar.gz
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-07-12 14:11:17] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/c8/88/70fdeaf23d7481c0189729176e6456d5184284d850b9e879c38ec807d3bc/langfuse-0.0.4.tar.gz
+[2023-07-12 14:11:17] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/6c/85/d5529ba47bcfff2278b73467b2003491ff930a8916ec90ab6d347fbd037b/dh-potluck-1.9.0.tar.gz
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-07-12 14:11:17] INFO root fetch - processPackages [anyjson2csv]: Downloading https://files.pythonhosted.org/packages/38/16/d2468d4c9804b7df5340c6ad3bf34d990f11c36291ca7293dd12a482f33c/anyjson2csv-0.0.3.tar.gz
+[2023-07-12 14:11:17] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/6f/6a/04821926b988d4cfa52c38f4d25e108474ce517f7df66ba5d76af78510e4/langfuse-0.0.5.tar.gz
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-07-12 14:11:17] INFO root fetch - processPackages [anyjson2csv]: executing diffoscope
+[2023-07-12 14:11:17] INFO root fetch - processPackages [anyjson2csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyjson2csv-0.0.2.tar.gz tmp/anyjson2csv-0.0.3.tar.gz --markdown 20230712/a/anyjson2csv/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-12 14:11:17] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/5d/ea/c5f6e8c82d824dad4198a98dfb092cefc1dfdd950baaf6168a964441a559/dh-potluck-1.9.1.tar.gz
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-07-12 14:11:17] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230712/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-12 14:11:18] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2023-07-12 14:11:18] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-0.0.4.tar.gz tmp/langfuse-0.0.5.tar.gz --markdown 20230712/l/langfuse/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230712/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-12 14:11:18] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2023-07-12 14:11:18] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20230712/d/dh-potluck/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230712/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230712/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230712/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230712/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-07-12 14:11:18] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230712/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-12 14:11:19] INFO root fetch - processPackages [anyjson2csv]: Remove: archive file [/home/abi/fetcher/tmp/anyjson2csv-0.0.2.tar.gz]
+[2023-07-12 14:11:19] INFO root fetch - processPackages [anyjson2csv]: Remove: archive file [/home/abi/fetcher/tmp/anyjson2csv-0.0.3.tar.gz]
+[2023-07-12 14:11:19] INFO root fetch - processPackages [anyjson2csv]: Start processing: DGet
+[2023-07-12 14:11:19] INFO root fetch - main [MainThread]: End processing [anyjson2csv]: success
+[2023-07-12 14:11:19] INFO root fetch - processPackages [DGet]: New version: [0.9] Old Version: [0.8]
+[2023-07-12 14:11:19] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/9d/da/c24dfb2d507cb307cb8aa1a7eb560de93376054f8184bc55124a3834e932/DGet-0.8.tar.gz
+[2023-07-12 14:11:19] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-12 14:11:19] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-12 14:11:19] INFO root fetch - processPackages [nucliadb-protos]: Start processing: tagreader
+[2023-07-12 14:11:19] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-07-12 14:11:19] INFO root fetch - processPackages [tagreader]: New version: [4.2.4] Old Version: [4.2.3]
+[2023-07-12 14:11:19] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-12 14:11:19] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-12 14:11:19] INFO root fetch - processPackages [nucliadb-client]: Start processing: punktdict
+[2023-07-12 14:11:19] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-07-12 14:11:19] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.4.tar.gz]
+[2023-07-12 14:11:19] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.5.tar.gz]
+[2023-07-12 14:11:19] INFO root fetch - processPackages [langfuse]: Start processing: ntdsdotsqlite
+[2023-07-12 14:11:19] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2023-07-12 14:11:19] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-12 14:11:19] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-12 14:11:19] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: ML-Algo
+[2023-07-12 14:11:19] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-07-12 14:11:20] INFO root fetch - processPackages [ntdsdotsqlite]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [tagreader]: Downloading https://files.pythonhosted.org/packages/c4/73/961408cac1e73f9c93214f198cb72736f22c03ed62db6a91ce7925ecdeec/tagreader-4.2.3.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [punktdict]: New version: [0.11] Old Version: [0.10]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [dh-potluck]: Remove: archive file [/home/abi/fetcher/tmp/dh-potluck-1.9.0.tar.gz]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [dh-potluck]: Remove: archive file [/home/abi/fetcher/tmp/dh-potluck-1.9.1.tar.gz]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [dh-potluck]: Start processing: mass-composition
+[2023-07-12 14:11:20] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2023-07-12 14:11:20] INFO root fetch - processPackages [ML-Algo]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [mass-composition]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: eef-data
+[2023-07-12 14:11:20] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-07-12 14:11:20] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/34/87/4cf24c82732362ebb31866944ddbb4566ad0b8a317c80e4983dcf18e525f/DGet-0.9.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [nucliadb-models]: Start processing: langfuse
+[2023-07-12 14:11:20] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-07-12 14:11:20] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/64/40/bf707b0de7a3a2e8b822a561b800ad0dbb067f2b413a8eae4bc905a5f84d/ML_Algo-1.0.7.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [nucliadb-utils]: Start processing: igrafx-mining-sdk
+[2023-07-12 14:11:20] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-07-12 14:11:20] INFO root fetch - processPackages [ntdsdotsqlite]: Downloading https://files.pythonhosted.org/packages/c8/43/dccee9dda575f521133f337b935c9666528c0b19bb1b490a4853b996e03e/ntdsdotsqlite-1.1.1.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [eef-data]: New version: [0.4] Old Version: [0.3]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [langfuse]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [punktdict]: Downloading https://files.pythonhosted.org/packages/eb/21/6dc28cfa5858632958d93022d3740b021b58cdd598e1e8f329a88a6f55e6/punktdict-0.10.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [igrafx-mining-sdk]: New version: [2.24.9] Old Version: [2.24.8]
+[2023-07-12 14:11:20] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/c3/b9/841cc2b3e5d624d3f0d4611ab926933ef4275486ab60a4e31866620a05f7/mass_composition-0.1.8.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/3c/cb/2a731d3e9b85e9b70f5868696e99d4d130ae59decbb532b11057b095b215/eef-data-0.3.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/6f/6a/04821926b988d4cfa52c38f4d25e108474ce517f7df66ba5d76af78510e4/langfuse-0.0.5.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [tagreader]: Downloading https://files.pythonhosted.org/packages/a3/bd/2864baef1535144f35c874dc61c70eb70621ef9d0fcb1543b7efec7f71b0/tagreader-4.2.4.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [DGet]: executing diffoscope
+[2023-07-12 14:11:20] INFO root fetch - processPackages [DGet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DGet-0.8.tar.gz tmp/DGet-0.9.tar.gz --markdown 20230712/D/DGet/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-12 14:11:20] INFO root fetch - processPackages [igrafx-mining-sdk]: Downloading https://files.pythonhosted.org/packages/44/18/3988a38efc529899a4bd307cfae9d55ae4588cde1e938e7584fbd9abefd7/igrafx_mining_sdk-2.24.8.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/00/21/141ed9efc45c2dd1543368c109e73e4c7bca7b2298ea705f1cb3a72cd661/ML_Algo-1.0.8.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [ntdsdotsqlite]: Downloading https://files.pythonhosted.org/packages/e1/54/02e42fd47041e9d86e8d37493aff6173b75542bc14ea614f7e272b5bc94a/ntdsdotsqlite-1.1.2.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [punktdict]: Downloading https://files.pythonhosted.org/packages/f9/cf/c4cd7742e4f636714d4cf91e1d269df0f679161f325ada06dfdc6fc7d125/punktdict-0.11.tar.gz
+[2023-07-12 14:11:20] INFO root fetch - processPackages [tagreader]: executing diffoscope
+[2023-07-12 14:11:20] INFO root fetch - processPackages [tagreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tagreader-4.2.3.tar.gz tmp/tagreader-4.2.4.tar.gz --markdown 20230712/t/tagreader/4.2.3-4.2.4/diff.md --exclude *.pyd
+[2023-07-12 14:11:20] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/55/a6/198bd75dca44e30822211636f815331cfbe661869a6dd874e64d459cacf2/langfuse-0.0.6.tar.gz
+[2023-07-12 14:11:21] INFO root fetch - processPackages [punktdict]: executing diffoscope
+[2023-07-12 14:11:21] INFO root fetch - processPackages [punktdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punktdict-0.10.tar.gz tmp/punktdict-0.11.tar.gz --markdown 20230712/p/punktdict/0.10-0.11/diff.md --exclude *.pyd
+[2023-07-12 14:11:21] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4f/ea/2897c098efd0fa32ba87bc7885f3dfea4a69075a3aaec9f6f06641157246/mass_composition-0.1.9.tar.gz
+[2023-07-12 14:11:21] INFO root fetch - processPackages [igrafx-mining-sdk]: Downloading https://files.pythonhosted.org/packages/52/69/13b6e90594dac7caaa4793dd0e8a11319c592c84723c9a8750072a408f8e/igrafx_mining_sdk-2.24.9.tar.gz
+[2023-07-12 14:11:21] INFO root fetch - processPackages [ML-Algo]: executing diffoscope
+[2023-07-12 14:11:21] INFO root fetch - processPackages [ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ML_Algo-1.0.7.tar.gz tmp/ML_Algo-1.0.8.tar.gz --markdown 20230712/M/ML-Algo/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-12 14:11:21] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/d8/a9/2222018ea5c404cd8e098b34e02be382f66dde87461c268117a56058b799/eef-data-0.4.tar.gz
+[2023-07-12 14:11:21] INFO root fetch - processPackages [ntdsdotsqlite]: executing diffoscope
+[2023-07-12 14:11:21] INFO root fetch - processPackages [ntdsdotsqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntdsdotsqlite-1.1.1.tar.gz tmp/ntdsdotsqlite-1.1.2.tar.gz --markdown 20230712/n/ntdsdotsqlite/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-12 14:11:21] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2023-07-12 14:11:21] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.1.8.tar.gz tmp/mass_composition-0.1.9.tar.gz --markdown 20230712/m/mass-composition/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 14:11:21] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2023-07-12 14:11:21] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-0.0.5.tar.gz tmp/langfuse-0.0.6.tar.gz --markdown 20230712/l/langfuse/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-12 14:11:21] INFO root fetch - processPackages [igrafx-mining-sdk]: executing diffoscope
+[2023-07-12 14:11:21] INFO root fetch - processPackages [igrafx-mining-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igrafx_mining_sdk-2.24.8.tar.gz tmp/igrafx_mining_sdk-2.24.9.tar.gz --markdown 20230712/i/igrafx-mining-sdk/2.24.8-2.24.9/diff.md --exclude *.pyd
+[2023-07-12 14:11:21] INFO root fetch - processPackages [eef-data]: executing diffoscope
+[2023-07-12 14:11:21] INFO root fetch - processPackages [eef-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eef-data-0.3.tar.gz tmp/eef-data-0.4.tar.gz --markdown 20230712/e/eef-data/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-12 14:11:21] INFO root fetch - processPackages [DGet]: Remove: archive file [/home/abi/fetcher/tmp/DGet-0.8.tar.gz]
+[2023-07-12 14:11:21] INFO root fetch - processPackages [DGet]: Remove: archive file [/home/abi/fetcher/tmp/DGet-0.9.tar.gz]
+[2023-07-12 14:11:21] INFO root fetch - processPackages [DGet]: Start processing: re-y
+[2023-07-12 14:11:21] INFO root fetch - main [MainThread]: End processing [DGet]: success
+[2023-07-12 14:11:21] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-12 14:11:21] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-12 14:11:21] INFO root fetch - processPackages [nucliadb]: Start processing: opnsenseapi
+[2023-07-12 14:11:21] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-07-12 14:11:21] INFO root fetch - processPackages [re-y]: New version: [2.1.2] Old Version: [2.0.0]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [opnsenseapi]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [re-y]: Downloading https://files.pythonhosted.org/packages/d0/d4/17a730a458f1bbb2b07feb3e70ac1110725ef1b67e2b34655e9f33034143/re_y-2.0.0-py3-none-any.whl
+[2023-07-12 14:11:22] INFO root fetch - processPackages [opnsenseapi]: Downloading https://files.pythonhosted.org/packages/2d/79/22f930b23bbb23d09394b4ce94d3e6d1ef7fc036f2245c8cc4266adddf9d/opnsenseapi-0.2.0.tar.gz
+[2023-07-12 14:11:22] INFO root fetch - processPackages [punktdict]: Remove: archive file [/home/abi/fetcher/tmp/punktdict-0.10.tar.gz]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [punktdict]: Remove: archive file [/home/abi/fetcher/tmp/punktdict-0.11.tar.gz]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [punktdict]: Start processing: OpenGeode-GeosciencesIO
+[2023-07-12 14:11:22] INFO root fetch - main [MainThread]: End processing [punktdict]: success
+[2023-07-12 14:11:22] INFO root fetch - processPackages [tagreader]: Remove: archive file [/home/abi/fetcher/tmp/tagreader-4.2.3.tar.gz]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [tagreader]: Remove: archive file [/home/abi/fetcher/tmp/tagreader-4.2.4.tar.gz]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [tagreader]: Start processing: vanoma-api-utils
+[2023-07-12 14:11:22] INFO root fetch - main [MainThread]: End processing [tagreader]: success
+[2023-07-12 14:11:22] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.2.0rc1] Old Version: [4.1.6rc1]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [vanoma-api-utils]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML_Algo-1.0.7.tar.gz]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML_Algo-1.0.8.tar.gz]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [ML-Algo]: Start processing: swiftly-unix
+[2023-07-12 14:11:22] INFO root fetch - main [MainThread]: End processing [ML-Algo]: success
+[2023-07-12 14:11:22] INFO root fetch - processPackages [re-y]: Downloading https://files.pythonhosted.org/packages/92/aa/ba4786ccbe73383bf7a587cbb873ee20982e8ce0b034e814c6786534b603/re_y-2.1.2-py3-none-any.whl
+[2023-07-12 14:11:22] INFO root fetch - processPackages [swiftly-unix]: New version: [0.1.26] Old Version: [0.1.25]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [opnsenseapi]: Downloading https://files.pythonhosted.org/packages/19/d0/77a35004c802a01d7e7691bb3d58bbf2017d28038593a494fd11a7e09dd8/opnsenseapi-0.3.0.tar.gz
+[2023-07-12 14:11:22] INFO root fetch - processPackages [ntdsdotsqlite]: Remove: archive file [/home/abi/fetcher/tmp/ntdsdotsqlite-1.1.1.tar.gz]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [ntdsdotsqlite]: Remove: archive file [/home/abi/fetcher/tmp/ntdsdotsqlite-1.1.2.tar.gz]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [ntdsdotsqlite]: Start processing: esp-cryptoauth-utility
+[2023-07-12 14:11:22] INFO root fetch - main [MainThread]: End processing [ntdsdotsqlite]: success
+[2023-07-12 14:11:22] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/7c/9e/f73ed404ce9e60981ee448d39e3b055e19b228be2cfd51966458fc8cdfa4/vanoma_api_utils-0.98.0.tar.gz
+[2023-07-12 14:11:22] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/8e/9c/bdd50f5978edfaac06d55c6ac947bb5dd93cde892242279b74235a7984b0/swiftly-unix-0.1.25.tar.gz
+[2023-07-12 14:11:22] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/c0/1f/a8790df505a37ba27affa5395a8d20843d9ebeea3165d3e33bf76d0d4ef9/OpenGeode_GeosciencesIO-4.1.6rc1-cp39-cp39-win_amd64.whl
+[2023-07-12 14:11:22] INFO root fetch - processPackages [esp-cryptoauth-utility]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [igrafx-mining-sdk]: Remove: archive file [/home/abi/fetcher/tmp/igrafx_mining_sdk-2.24.8.tar.gz]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [igrafx-mining-sdk]: Remove: archive file [/home/abi/fetcher/tmp/igrafx_mining_sdk-2.24.9.tar.gz]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [igrafx-mining-sdk]: Start processing: langfuse
+[2023-07-12 14:11:22] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.3.tar.gz]
+[2023-07-12 14:11:22] INFO root fetch - main [MainThread]: End processing [igrafx-mining-sdk]: success
+[2023-07-12 14:11:22] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.4.tar.gz]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [eef-data]: Start processing: nonebot-adapter-villa
+[2023-07-12 14:11:22] INFO root fetch - main [MainThread]: End processing [eef-data]: success
+[2023-07-12 14:11:22] INFO root fetch - processPackages [langfuse]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-12 14:11:22] INFO root fetch - processPackages [re-y]: executing diffoscope
+[2023-07-12 14:11:22] INFO root fetch - processPackages [re-y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_y-2.0.0-py3-none-any.whl.zip tmp/re_y-2.1.2-py3-none-any.whl.zip --markdown 20230712/r/re-y/2.0.0-2.1.2/diff.md --exclude *.pyd
+[2023-07-12 14:11:23] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.8.tar.gz]
+[2023-07-12 14:11:23] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.9.tar.gz]
+[2023-07-12 14:11:23] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2023-07-12 14:11:23] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.5.tar.gz]
+[2023-07-12 14:11:23] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.6.tar.gz]
+[2023-07-12 14:11:23] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2023-07-12 14:11:23] INFO root fetch - processPackages [opnsenseapi]: executing diffoscope
+[2023-07-12 14:11:23] INFO root fetch - processPackages [opnsenseapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opnsenseapi-0.2.0.tar.gz tmp/opnsenseapi-0.3.0.tar.gz --markdown 20230712/o/opnsenseapi/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-12 14:11:23] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-12 14:11:23] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/6f/6a/04821926b988d4cfa52c38f4d25e108474ce517f7df66ba5d76af78510e4/langfuse-0.0.5.tar.gz
+[2023-07-12 14:11:23] INFO root fetch - processPackages [esp-cryptoauth-utility]: Downloading https://files.pythonhosted.org/packages/95/c6/0f1efe5dd520012b42b3b82c3e9cfb012ed2a71f6c87086bf1363313dbc0/esp-cryptoauth-utility-0.9.0.tar.gz
+[2023-07-12 14:11:23] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/08/33/b2d796eb02aac48a38a8cbb3ef3703b06b26cd09727f065036201b3e7aef/vanoma_api_utils-0.99.0.tar.gz
+[2023-07-12 14:11:23] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/21/a3/d80013b0459f946ef19a1cec53cf2f9ca7bc67d00f57ec36fa8e099fb30d/nonebot_adapter_villa-0.5.4.tar.gz
+[2023-07-12 14:11:23] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/c1/28/56203e84398a48711306feb288fc0c17f5c3530010f9ef0a50da46aee5d5/swiftly-unix-0.1.26.tar.gz
+[2023-07-12 14:11:23] INFO root fetch - processPackages [vanoma-api-utils]: executing diffoscope
+[2023-07-12 14:11:23] INFO root fetch - processPackages [vanoma-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanoma_api_utils-0.98.0.tar.gz tmp/vanoma_api_utils-0.99.0.tar.gz --markdown 20230712/v/vanoma-api-utils/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-12 14:11:23] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/81/ed/3977794614d91189be4d60e6bd43c40826e6cdb9523c2ad0159c08c238c1/OpenGeode_GeosciencesIO-4.2.0rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-12 14:11:23] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/55/a6/198bd75dca44e30822211636f815331cfbe661869a6dd874e64d459cacf2/langfuse-0.0.6.tar.gz
+[2023-07-12 14:11:23] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2023-07-12 14:11:23] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-0.0.5.tar.gz tmp/langfuse-0.0.6.tar.gz --markdown 20230712/l/langfuse/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-12 14:11:23] INFO root fetch - processPackages [swiftly-unix]: executing diffoscope
+[2023-07-12 14:11:23] INFO root fetch - processPackages [swiftly-unix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-unix-0.1.25.tar.gz tmp/swiftly-unix-0.1.26.tar.gz --markdown 20230712/s/swiftly-unix/0.1.25-0.1.26/diff.md --exclude *.pyd
+[2023-07-12 14:11:23] INFO root fetch - processPackages [esp-cryptoauth-utility]: Downloading https://files.pythonhosted.org/packages/3b/fa/148e7bc472b231198d8043c9829515c7bdb8bbddd01bcdb5469034555817/esp-cryptoauth-utility-0.9.1.tar.gz
+[2023-07-12 14:11:23] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2023-07-12 14:11:23] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.1.6rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_GeosciencesIO-4.2.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230712/O/OpenGeode-GeosciencesIO/4.1.6rc1-4.2.0rc1/diff.md --exclude *.pyd
+[2023-07-12 14:11:23] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/9f/81/fe48fcdb74ffd33e13785a5da0b7a62f8315eb9559f3096f3cac093a7670/nonebot_adapter_villa-0.5.5.tar.gz
+[2023-07-12 14:11:23] INFO root fetch - processPackages [esp-cryptoauth-utility]: executing diffoscope
+[2023-07-12 14:11:23] INFO root fetch - processPackages [esp-cryptoauth-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-cryptoauth-utility-0.9.0.tar.gz tmp/esp-cryptoauth-utility-0.9.1.tar.gz --markdown 20230712/e/esp-cryptoauth-utility/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-12 14:11:23] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-07-12 14:11:23] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.5.4.tar.gz tmp/nonebot_adapter_villa-0.5.5.tar.gz --markdown 20230712/n/nonebot-adapter-villa/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-12 14:11:24] INFO root fetch - processPackages [opnsenseapi]: Remove: archive file [/home/abi/fetcher/tmp/opnsenseapi-0.2.0.tar.gz]
+[2023-07-12 14:11:24] INFO root fetch - processPackages [opnsenseapi]: Remove: archive file [/home/abi/fetcher/tmp/opnsenseapi-0.3.0.tar.gz]
+[2023-07-12 14:11:24] INFO root fetch - main [MainThread]: End processing [opnsenseapi]: success
+[2023-07-12 14:11:24] INFO root fetch - processPackages [re-y]: Remove: archive file [/home/abi/fetcher/tmp/re_y-2.0.0-py3-none-any.whl.zip]
+[2023-07-12 14:11:24] INFO root fetch - processPackages [re-y]: Remove: archive file [/home/abi/fetcher/tmp/re_y-2.1.2-py3-none-any.whl.zip]
+[2023-07-12 14:11:24] INFO root fetch - main [MainThread]: End processing [re-y]: success
+[2023-07-12 14:11:24] INFO root fetch - processPackages [vanoma-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/vanoma_api_utils-0.98.0.tar.gz]
+[2023-07-12 14:11:24] INFO root fetch - processPackages [vanoma-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/vanoma_api_utils-0.99.0.tar.gz]
+[2023-07-12 14:11:24] INFO root fetch - main [MainThread]: End processing [vanoma-api-utils]: success
+[2023-07-12 14:11:25] INFO root fetch - processPackages [swiftly-unix]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-unix-0.1.25.tar.gz]
+[2023-07-12 14:11:25] INFO root fetch - processPackages [swiftly-unix]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-unix-0.1.26.tar.gz]
+[2023-07-12 14:11:25] INFO root fetch - main [MainThread]: End processing [swiftly-unix]: success
+[2023-07-12 14:11:25] INFO root fetch - processPackages [esp-cryptoauth-utility]: Remove: archive file [/home/abi/fetcher/tmp/esp-cryptoauth-utility-0.9.0.tar.gz]
+[2023-07-12 14:11:25] INFO root fetch - processPackages [esp-cryptoauth-utility]: Remove: archive file [/home/abi/fetcher/tmp/esp-cryptoauth-utility-0.9.1.tar.gz]
+[2023-07-12 14:11:25] INFO root fetch - main [MainThread]: End processing [esp-cryptoauth-utility]: success
+[2023-07-12 14:11:25] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.5.tar.gz]
+[2023-07-12 14:11:25] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.6.tar.gz]
+[2023-07-12 14:11:25] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2023-07-12 14:11:25] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.1.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-12 14:11:25] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.2.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-12 14:11:25] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2023-07-12 14:11:25] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.4.tar.gz]
+[2023-07-12 14:11:25] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.5.tar.gz]
+[2023-07-12 14:11:25] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-07-12 14:11:25] INFO root fetch - main [MainThread]: Store serial: [18860002]
