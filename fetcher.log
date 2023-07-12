@@ -5714,3 +5714,71 @@
 [2023-07-12 03:24:29] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0a5.tar.gz]
 [2023-07-12 03:24:29] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
 [2023-07-12 03:24:29] INFO root fetch - main [MainThread]: Store serial: [18853331]
+[2023-07-12 03:29:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18853331]
+[2023-07-12 03:29:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-12 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssh-negotiate-term
+[2023-07-12 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-07-12 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idg-metadata-client
+[2023-07-12 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trimnami
+[2023-07-12 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: common-pygrpc
+[2023-07-12 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yplib
+[2023-07-12 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: duckdb
+[2023-07-12 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idg-superset-client
+[2023-07-12 03:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: msgspec
+[2023-07-12 03:29:39] WARNING root fetch - processPackages [idg-metadata-client]: Skipping, unable to determine old version
+[2023-07-12 03:29:39] INFO root fetch - main [MainThread]: End processing [idg-metadata-client] error
+[2023-07-12 03:29:39] WARNING root fetch - processPackages [idg-superset-client]: Skipping, unable to determine old version
+[2023-07-12 03:29:39] INFO root fetch - main [MainThread]: End processing [idg-superset-client] error
+[2023-07-12 03:29:39] INFO root fetch - processPackages [trimnami]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-12 03:29:39] INFO root fetch - processPackages [common-pygrpc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-12 03:29:40] INFO root fetch - processPackages [ssh-negotiate-term]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 03:29:40] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-12 03:29:40] INFO root fetch - processPackages [yplib]: New version: [2.4.8] Old Version: [2.4.7]
+[2023-07-12 03:29:40] INFO root fetch - processPackages [msgspec]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-12 03:29:40] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f0/ef/3fe5dec5607602cf2a8d37e02b02aa0419f92fa208f7893362f76cd9861c/yplib-2.4.7.tar.gz
+[2023-07-12 03:29:40] INFO root fetch - processPackages [common-pygrpc]: Downloading https://files.pythonhosted.org/packages/e9/ba/549c2d3da4f45c81ecb33c772ef052a11e492b9b7d2a91a890d51ea757ab/common_pygrpc-0.0.3-py3-none-any.whl
+[2023-07-12 03:29:40] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev1573] Old Version: [0.8.2.dev1559]
+[2023-07-12 03:29:40] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-12 03:29:40] INFO root fetch - processPackages [ssh-negotiate-term]: Downloading https://files.pythonhosted.org/packages/53/9a/78623daa4521c9caeba07b13d4dbec47eaef2441228cfb3be452f789f478/ssh_negotiate_term-0.0.1.tar.gz
+[2023-07-12 03:29:40] INFO root fetch - processPackages [trimnami]: Downloading https://files.pythonhosted.org/packages/a8/c4/dc51a41d52eff1b30f6b7fa14ec2650be5cf15bb3b0d9326b7f10d700470/trimnami-0.0.3.tar.gz
+[2023-07-12 03:29:40] INFO root fetch - processPackages [msgspec]: Downloading https://files.pythonhosted.org/packages/b2/11/ec75058f046fa1792136bdaea4215dc4d57c0685e8b4ae89d06848500241/msgspec-0.9.0.tar.gz
+[2023-07-12 03:29:40] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/ec/71/3656074714b85ce91a2c526736796e4bdee65b58767f38ffc8f145bc6a36/duckdb-0.8.2.dev1559.tar.gz
+[2023-07-12 03:29:40] INFO root fetch - processPackages [common-pygrpc]: Downloading https://files.pythonhosted.org/packages/4e/e5/b7c7dd7557d4910c94eb06ca4fe62572423eb6ddc93799e466168e0247fd/common_pygrpc-0.0.4-py3-none-any.whl
+[2023-07-12 03:29:40] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/d5/e2/d8db9b0a8f9453fb96ed7f715d75706127dbf0a6891c808479b0fb20f59b/yplib-2.4.8.tar.gz
+[2023-07-12 03:29:40] INFO root fetch - processPackages [ssh-negotiate-term]: Downloading https://files.pythonhosted.org/packages/71/d0/2a550764915977b9e7d86aa97c96e987f03c22211e4ecbe07d43f0570595/ssh_negotiate_term-0.0.2.tar.gz
+[2023-07-12 03:29:40] INFO root fetch - processPackages [ssh-negotiate-term]: executing diffoscope
+[2023-07-12 03:29:40] INFO root fetch - processPackages [ssh-negotiate-term]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_negotiate_term-0.0.1.tar.gz tmp/ssh_negotiate_term-0.0.2.tar.gz --markdown 20230712/s/ssh-negotiate-term/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 03:29:40] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-12 03:29:40] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.4.7.tar.gz tmp/yplib-2.4.8.tar.gz --markdown 20230712/y/yplib/2.4.7-2.4.8/diff.md --exclude *.pyd
+[2023-07-12 03:29:40] INFO root fetch - processPackages [common-pygrpc]: executing diffoscope
+[2023-07-12 03:29:40] INFO root fetch - processPackages [common-pygrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_pygrpc-0.0.3-py3-none-any.whl.zip tmp/common_pygrpc-0.0.4-py3-none-any.whl.zip --markdown 20230712/c/common-pygrpc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-12 03:29:40] INFO root fetch - processPackages [msgspec]: Downloading https://files.pythonhosted.org/packages/46/4a/86b834cc4b368ef7f76d74b50e523126b6df014ad0fe27472be1a6a76c75/msgspec-0.9.1.tar.gz
+[2023-07-12 03:29:40] INFO root fetch - processPackages [msgspec]: executing diffoscope
+[2023-07-12 03:29:40] INFO root fetch - processPackages [msgspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgspec-0.9.0.tar.gz tmp/msgspec-0.9.1.tar.gz --markdown 20230712/m/msgspec/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-12 03:29:40] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-12 03:29:40] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10487156>=10485760
+[2023-07-12 03:29:40] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-07-12 03:29:41] INFO root fetch - processPackages [trimnami]: Downloading https://files.pythonhosted.org/packages/3d/4b/11e5e5966fe6146ea4b78d598107e3776733e8e3942e14d1c00af0cec52d/trimnami-0.0.4.tar.gz
+[2023-07-12 03:29:41] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.7.tar.gz]
+[2023-07-12 03:29:41] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.8.tar.gz]
+[2023-07-12 03:29:41] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-12 03:29:41] INFO root fetch - processPackages [ssh-negotiate-term]: Remove: archive file [/home/abi/fetcher/tmp/ssh_negotiate_term-0.0.1.tar.gz]
+[2023-07-12 03:29:41] INFO root fetch - processPackages [ssh-negotiate-term]: Remove: archive file [/home/abi/fetcher/tmp/ssh_negotiate_term-0.0.2.tar.gz]
+[2023-07-12 03:29:41] INFO root fetch - main [MainThread]: End processing [ssh-negotiate-term]: success
+[2023-07-12 03:29:41] INFO root fetch - processPackages [common-pygrpc]: Remove: archive file [/home/abi/fetcher/tmp/common_pygrpc-0.0.3-py3-none-any.whl.zip]
+[2023-07-12 03:29:41] INFO root fetch - processPackages [common-pygrpc]: Remove: archive file [/home/abi/fetcher/tmp/common_pygrpc-0.0.4-py3-none-any.whl.zip]
+[2023-07-12 03:29:41] INFO root fetch - main [MainThread]: End processing [common-pygrpc]: success
+[2023-07-12 03:29:41] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-12 03:29:41] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230712/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-12 03:29:41] INFO root fetch - processPackages [msgspec]: Remove: archive file [/home/abi/fetcher/tmp/msgspec-0.9.0.tar.gz]
+[2023-07-12 03:29:41] INFO root fetch - processPackages [msgspec]: Remove: archive file [/home/abi/fetcher/tmp/msgspec-0.9.1.tar.gz]
+[2023-07-12 03:29:41] INFO root fetch - main [MainThread]: End processing [msgspec]: success
+[2023-07-12 03:29:42] INFO root fetch - processPackages [trimnami]: executing diffoscope
+[2023-07-12 03:29:42] INFO root fetch - processPackages [trimnami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trimnami-0.0.3.tar.gz tmp/trimnami-0.0.4.tar.gz --markdown 20230712/t/trimnami/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-12 03:29:42] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-12 03:29:42] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-12 03:29:42] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-12 03:29:44] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.3.tar.gz]
+[2023-07-12 03:29:44] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.4.tar.gz]
+[2023-07-12 03:29:44] INFO root fetch - main [MainThread]: End processing [trimnami]: success
+[2023-07-12 03:29:44] INFO root fetch - main [MainThread]: Store serial: [18853385]
