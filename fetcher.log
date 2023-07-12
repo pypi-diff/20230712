@@ -14946,3 +14946,138 @@
 [2023-07-12 09:53:48] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-12 09:53:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-12 09:53:48] INFO root fetch - main [MainThread]: Store serial: [18857130]
+[2023-07-12 09:58:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857130]
+[2023-07-12 09:58:58] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-12 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssh-terminal-manager
+[2023-07-12 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xso
+[2023-07-12 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: renderg-sdk
+[2023-07-12 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nettoolkit
+[2023-07-12 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: impose-cli
+[2023-07-12 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-aligenieip-1-0
+[2023-07-12 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spai
+[2023-07-12 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stoobly-agent
+[2023-07-12 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: impose-cli
+[2023-07-12 09:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dumb-file-drop
+[2023-07-12 09:58:58] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-12 09:58:58] INFO root fetch - processPackages [impose-cli]: New version: [0.3.5] Old Version: [0.3.4rc2]
+[2023-07-12 09:58:58] INFO root fetch - processPackages [dumb-file-drop]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-12 09:58:58] INFO root fetch - processPackages [nettoolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 09:58:58] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-12 09:58:58] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: New version: [1.0.9] Old Version: [1.0.25]
+[2023-07-12 09:58:58] INFO root fetch - processPackages [spai]: New version: [2023.7.4] Old Version: [2023.7.12]
+[2023-07-12 09:58:58] INFO root fetch - processPackages [impose-cli]: New version: [0.3.5] Old Version: [0.3.4rc2]
+[2023-07-12 09:58:58] INFO root fetch - processPackages [renderg-sdk]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-07-12 09:58:58] INFO root fetch - processPackages [xso]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 09:58:58] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2023-07-12 09:58:58] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/25/87/32ed410eeb0f922ede936a835148e3b94077cc1f3c01a5b06014f73161ab/alibabacloud_aligenieip_1_0-1.0.25.tar.gz
+[2023-07-12 09:58:58] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/50/dd/4ab427f337cd3d87bf45dc19486a424fd2578440eaafba8bc07eb6e9e3be/impose-cli-0.3.4rc2.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/50/dd/4ab427f337cd3d87bf45dc19486a424fd2578440eaafba8bc07eb6e9e3be/impose-cli-0.3.4rc2.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [nettoolkit]: Downloading https://files.pythonhosted.org/packages/18/38/d6e9b88b8315431232fff7fc1ae8c9e2464a96ce661e26c7f8bda5d5567d/nettoolkit-0.0.8.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/3d/0f/459d7cb6ed4dadeb3bcd206cf65b75c4b7481719009b28fbdcae043a1290/spai-2023.7.12.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [dumb-file-drop]: Downloading https://files.pythonhosted.org/packages/3b/86/d21e44cd5d6bc27b0f250a08242cca66d1efd0c0a1601c251f60721ba6ba/dumb-file-drop-0.0.1.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [xso]: Downloading https://files.pythonhosted.org/packages/7d/3c/d1b0f8acb65db2083d97e30d7fcd29bc47885db5b8248d0e8313aa8fc266/xso-0.0.1.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [renderg-sdk]: Downloading https://files.pythonhosted.org/packages/28/4f/7af5e7d4b7618e175d95aff961e08f41ef29d265ca02c02f57bda04d3109/renderg-sdk-0.1.3.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/b7/33/05a2b870b131c76a314e7d8008f4a04712f658abb24ea3da83712d709b76/ssh_terminal_manager-0.2.0.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/cc/f9/8e8f3beb90eb0d5aaefa6c2e3d7873ed761e3275d9d89b78f318811f6d6b/alibabacloud_aligenieip_1_0-1.0.9.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/00/ab/14c10f0caa5a4566d23394c9f859f34591246b0d5a041a56bf994e9c7b3c/impose-cli-0.3.5.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2023-07-12 09:58:59] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20230712/s/stoobly-agent/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-12 09:58:59] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/00/ab/14c10f0caa5a4566d23394c9f859f34591246b0d5a041a56bf994e9c7b3c/impose-cli-0.3.5.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [nettoolkit]: Downloading https://files.pythonhosted.org/packages/6f/81/cfb5e4bdcd71e171a932ad997820a912c4a4e3265d0d8ccf79f4994c8092/nettoolkit-0.0.9.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-12 09:58:59] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.3.4rc2.tar.gz tmp/impose-cli-0.3.5.tar.gz --markdown 20230712/i/impose-cli/0.3.4rc2-0.3.5/diff.md --exclude *.pyd
+[2023-07-12 09:58:59] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-12 09:58:59] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.3.4rc2.tar.gz tmp/impose-cli-0.3.5.tar.gz --markdown 20230712/i/impose-cli/0.3.4rc2-0.3.5/diff.md --exclude *.pyd
+[2023-07-12 09:58:59] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: executing diffoscope
+[2023-07-12 09:58:59] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aligenieip_1_0-1.0.25.tar.gz tmp/alibabacloud_aligenieip_1_0-1.0.9.tar.gz --markdown 20230712/a/alibabacloud-aligenieip-1-0/1.0.25-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 09:58:59] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/3d/f8/1df4e0e757644d3a07491afda0747699ef57e62726ae648bdb9121ee3774/spai-2023.7.4.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [renderg-sdk]: Downloading https://files.pythonhosted.org/packages/aa/3c/15881623ff2ae3efc215d768656c78b40d5675eb634a5c45fc4af5754356/renderg-sdk-0.1.5.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/c3/a5/3bdac0f988dbcc3a23f40bc4be7cbc88cfc84f7961d7b969b8a771bb40aa/ssh_terminal_manager-0.3.0.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [dumb-file-drop]: Downloading https://files.pythonhosted.org/packages/44/2d/0fe02dbea3aab01078b8ff014f4d31bfff8595ee2bc08651b81b74171da4/dumb-file-drop-0.1.0.tar.gz
+[2023-07-12 09:58:59] INFO root fetch - processPackages [nettoolkit]: executing diffoscope
+[2023-07-12 09:58:59] INFO root fetch - processPackages [nettoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nettoolkit-0.0.8.tar.gz tmp/nettoolkit-0.0.9.tar.gz --markdown 20230712/n/nettoolkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 09:58:59] INFO root fetch - processPackages [xso]: Downloading https://files.pythonhosted.org/packages/39/4b/e1ba209fc5d765723926e148858e382350ca169de1b705f95be73a49bd83/xso-0.0.2.tar.gz
+[2023-07-12 09:59:00] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-12 09:59:00] INFO root fetch - processPackages [dumb-file-drop]: executing diffoscope
+[2023-07-12 09:59:00] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.2.0.tar.gz tmp/ssh_terminal_manager-0.3.0.tar.gz --markdown 20230712/s/ssh-terminal-manager/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-12 09:59:00] INFO root fetch - processPackages [dumb-file-drop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumb-file-drop-0.0.1.tar.gz tmp/dumb-file-drop-0.1.0.tar.gz --markdown 20230712/d/dumb-file-drop/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-12 09:59:00] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-07-12 09:59:00] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.7.12.tar.gz tmp/spai-2023.7.4.tar.gz --markdown 20230712/s/spai/2023.7.12-2023.7.4/diff.md --exclude *.pyd
+[2023-07-12 09:59:00] INFO root fetch - processPackages [xso]: executing diffoscope
+[2023-07-12 09:59:00] INFO root fetch - processPackages [xso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xso-0.0.1.tar.gz tmp/xso-0.0.2.tar.gz --markdown 20230712/x/xso/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 09:59:00] INFO root fetch - processPackages [renderg-sdk]: executing diffoscope
+[2023-07-12 09:59:00] INFO root fetch - processPackages [renderg-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renderg-sdk-0.1.3.tar.gz tmp/renderg-sdk-0.1.5.tar.gz --markdown 20230712/r/renderg-sdk/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-07-12 09:59:01] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.3.4rc2.tar.gz]
+[2023-07-12 09:59:01] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.3.5.tar.gz]
+[2023-07-12 09:59:01] INFO root fetch - processPackages [impose-cli]: Start processing: phydra
+[2023-07-12 09:59:01] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-12 09:59:01] INFO root fetch - processPackages [phydra]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 09:59:01] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-1.0.25.tar.gz]
+[2023-07-12 09:59:01] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-1.0.9.tar.gz]
+[2023-07-12 09:59:01] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Start processing: sydeploy
+[2023-07-12 09:59:01] INFO root fetch - main [MainThread]: End processing [alibabacloud-aligenieip-1-0]: success
+[2023-07-12 09:59:01] INFO root fetch - processPackages [impose-cli]: Start processing: MSLXPluginHelper
+[2023-07-12 09:59:01] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-12 09:59:01] WARNING root fetch - processPackages [MSLXPluginHelper]: Skipping, unable to determine old version
+[2023-07-12 09:59:01] INFO root fetch - processPackages [MSLXPluginHelper]: Start processing: causal-ccm
+[2023-07-12 09:59:01] INFO root fetch - main [MainThread]: End processing [MSLXPluginHelper] error
+[2023-07-12 09:59:01] INFO root fetch - processPackages [sydeploy]: New version: [0.3.3] Old Version: [0.3.2rc0]
+[2023-07-12 09:59:01] INFO root fetch - processPackages [causal-ccm]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-12 09:59:02] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/20/dc/9520382d93b1640b9c4015a2d4df36f136ba401e384ef08821d1bc045ff3/sydeploy-0.3.2rc0-py3-none-any.whl
+[2023-07-12 09:59:02] INFO root fetch - processPackages [phydra]: Downloading https://files.pythonhosted.org/packages/34/e3/f4d116c591f9d997961290357303cf2e2bcb2e0e14d76ce4ec0e303b8e43/phydra-0.0.1.tar.gz
+[2023-07-12 09:59:02] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.2.0.tar.gz]
+[2023-07-12 09:59:02] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.3.0.tar.gz]
+[2023-07-12 09:59:02] INFO root fetch - processPackages [ssh-terminal-manager]: Start processing: aspose-words
+[2023-07-12 09:59:02] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-12 09:59:02] INFO root fetch - processPackages [causal-ccm]: Downloading https://files.pythonhosted.org/packages/43/e3/d49c61576381a9b7f4f4e53b11e17495a09dcbf8d31dbfb33d8b2513d449/causal_ccm-0.3.3.tar.gz
+[2023-07-12 09:59:02] INFO root fetch - processPackages [nettoolkit]: Remove: archive file [/home/abi/fetcher/tmp/nettoolkit-0.0.8.tar.gz]
+[2023-07-12 09:59:02] INFO root fetch - processPackages [nettoolkit]: Remove: archive file [/home/abi/fetcher/tmp/nettoolkit-0.0.9.tar.gz]
+[2023-07-12 09:59:02] INFO root fetch - processPackages [nettoolkit]: Start processing: nlppackage
+[2023-07-12 09:59:02] INFO root fetch - main [MainThread]: End processing [nettoolkit]: success
+[2023-07-12 09:59:02] INFO root fetch - processPackages [dumb-file-drop]: Remove: archive file [/home/abi/fetcher/tmp/dumb-file-drop-0.0.1.tar.gz]
+[2023-07-12 09:59:02] INFO root fetch - processPackages [dumb-file-drop]: Remove: archive file [/home/abi/fetcher/tmp/dumb-file-drop-0.1.0.tar.gz]
+[2023-07-12 09:59:02] INFO root fetch - main [MainThread]: End processing [dumb-file-drop]: success
+[2023-07-12 09:59:02] INFO root fetch - processPackages [aspose-words]: New version: [23.7.0] Old Version: [23.6.0]
+[2023-07-12 09:59:02] INFO root fetch - processPackages [nlppackage]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-07-12 09:59:02] INFO root fetch - processPackages [xso]: Remove: archive file [/home/abi/fetcher/tmp/xso-0.0.1.tar.gz]
+[2023-07-12 09:59:02] INFO root fetch - processPackages [xso]: Remove: archive file [/home/abi/fetcher/tmp/xso-0.0.2.tar.gz]
+[2023-07-12 09:59:02] INFO root fetch - main [MainThread]: End processing [xso]: success
+[2023-07-12 09:59:02] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/65/49/ba1164c02999c1984c9a431fbf293da0fc0d6f42bc8c562d534cc1abf995/sydeploy-0.3.3-py3-none-any.whl
+[2023-07-12 09:59:02] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2023-07-12 09:59:02] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2023-07-12 09:59:02] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2023-07-12 09:59:02] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.12.tar.gz]
+[2023-07-12 09:59:02] INFO root fetch - processPackages [phydra]: Downloading https://files.pythonhosted.org/packages/f8/1c/2201603ca37f14df953d3677bd18acc6494bb26f939e841cfa436c86da15/phydra-0.0.2.tar.gz
+[2023-07-12 09:59:02] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.4.tar.gz]
+[2023-07-12 09:59:02] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-07-12 09:59:02] INFO root fetch - processPackages [aspose-words]: Downloading https://files.pythonhosted.org/packages/38/ff/75e995fe810589858204df85e7e6fb4ad7cc5bcc9ad53fcdb64de4ed0feb/aspose_words-23.6.0-py3-none-win_amd64.whl
+[2023-07-12 09:59:02] WARNING root fetch - processPackages [aspose-words]: Skipping package: exceeds size limit 62765086>=10485760
+[2023-07-12 09:59:02] INFO root fetch - main [MainThread]: End processing [aspose-words] error
+[2023-07-12 09:59:02] INFO root fetch - processPackages [nlppackage]: Downloading https://files.pythonhosted.org/packages/5a/30/1f3c344355265f43e01e5fc28baa37d98e1952b101207e753076ce0e952f/nlppackage-0.0.18.tar.gz
+[2023-07-12 09:59:02] INFO root fetch - processPackages [causal-ccm]: Downloading https://files.pythonhosted.org/packages/9a/d3/4a099c6397d18f6fb386fcb04705b902dc4a417f4640399244703b24c71d/causal_ccm-0.4.0.tar.gz
+[2023-07-12 09:59:02] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-12 09:59:02] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.3.2rc0-py3-none-any.whl.zip tmp/sydeploy-0.3.3-py3-none-any.whl.zip --markdown 20230712/s/sydeploy/0.3.2rc0-0.3.3/diff.md --exclude *.pyd
+[2023-07-12 09:59:02] INFO root fetch - processPackages [phydra]: executing diffoscope
+[2023-07-12 09:59:02] INFO root fetch - processPackages [phydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phydra-0.0.1.tar.gz tmp/phydra-0.0.2.tar.gz --markdown 20230712/p/phydra/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 09:59:02] INFO root fetch - processPackages [causal-ccm]: executing diffoscope
+[2023-07-12 09:59:02] INFO root fetch - processPackages [causal-ccm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causal_ccm-0.3.3.tar.gz tmp/causal_ccm-0.4.0.tar.gz --markdown 20230712/c/causal-ccm/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-12 09:59:02] INFO root fetch - processPackages [nlppackage]: Downloading https://files.pythonhosted.org/packages/dc/a6/e564b3a75f293c4ad6b322bcf170525b4cde7525cdcd6fb9e6d02704d1dc/nlppackage-0.0.19.tar.gz
+[2023-07-12 09:59:03] INFO root fetch - processPackages [nlppackage]: executing diffoscope
+[2023-07-12 09:59:03] INFO root fetch - processPackages [nlppackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlppackage-0.0.18.tar.gz tmp/nlppackage-0.0.19.tar.gz --markdown 20230712/n/nlppackage/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-07-12 09:59:03] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.3.2rc0-py3-none-any.whl.zip]
+[2023-07-12 09:59:03] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.3.3-py3-none-any.whl.zip]
+[2023-07-12 09:59:03] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-12 09:59:03] INFO root fetch - processPackages [phydra]: Remove: archive file [/home/abi/fetcher/tmp/phydra-0.0.1.tar.gz]
+[2023-07-12 09:59:03] INFO root fetch - processPackages [phydra]: Remove: archive file [/home/abi/fetcher/tmp/phydra-0.0.2.tar.gz]
+[2023-07-12 09:59:03] INFO root fetch - main [MainThread]: End processing [phydra]: success
+[2023-07-12 09:59:03] INFO root fetch - processPackages [causal-ccm]: Remove: archive file [/home/abi/fetcher/tmp/causal_ccm-0.3.3.tar.gz]
+[2023-07-12 09:59:03] INFO root fetch - processPackages [causal-ccm]: Remove: archive file [/home/abi/fetcher/tmp/causal_ccm-0.4.0.tar.gz]
+[2023-07-12 09:59:03] INFO root fetch - main [MainThread]: End processing [causal-ccm]: success
+[2023-07-12 09:59:03] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg-sdk-0.1.3.tar.gz]
+[2023-07-12 09:59:03] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg-sdk-0.1.5.tar.gz]
+[2023-07-12 09:59:03] INFO root fetch - main [MainThread]: End processing [renderg-sdk]: success
+[2023-07-12 09:59:04] INFO root fetch - processPackages [nlppackage]: Remove: archive file [/home/abi/fetcher/tmp/nlppackage-0.0.18.tar.gz]
+[2023-07-12 09:59:04] INFO root fetch - processPackages [nlppackage]: Remove: archive file [/home/abi/fetcher/tmp/nlppackage-0.0.19.tar.gz]
+[2023-07-12 09:59:04] INFO root fetch - main [MainThread]: End processing [nlppackage]: success
+[2023-07-12 09:59:04] INFO root fetch - main [MainThread]: Store serial: [18857179]
