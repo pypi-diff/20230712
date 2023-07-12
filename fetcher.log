@@ -1931,3 +1931,134 @@
 [2023-07-12 01:58:49] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2023-07-12 01:58:49] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-07-12 01:58:49] INFO root fetch - main [MainThread]: Store serial: [18851954]
+[2023-07-12 02:03:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18851954]
+[2023-07-12 02:03:57] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-12 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jijmodeling-transpiler
+[2023-07-12 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rssadd
+[2023-07-12 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SwarmLogic
+[2023-07-12 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-storage-file-datalake
+[2023-07-12 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-core
+[2023-07-12 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: b2sim
+[2023-07-12 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smart-home-tng
+[2023-07-12 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agixt
+[2023-07-12 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wire4-client
+[2023-07-12 02:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pmccc
+[2023-07-12 02:03:57] WARNING root fetch - processPackages [SwarmLogic]: Skipping, unable to determine old version
+[2023-07-12 02:03:57] INFO root fetch - processPackages [SwarmLogic]: Start processing: bluetooth-adapters
+[2023-07-12 02:03:57] INFO root fetch - main [MainThread]: End processing [SwarmLogic] error
+[2023-07-12 02:03:57] INFO root fetch - processPackages [rssadd]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-12 02:03:57] INFO root fetch - processPackages [b2sim]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 02:03:57] INFO root fetch - processPackages [wire4-client]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-12 02:03:57] INFO root fetch - processPackages [pmccc]: New version: [0.2] Old Version: [0.1]
+[2023-07-12 02:03:57] INFO root fetch - processPackages [smart-home-tng]: New version: [2023.1.1] Old Version: [2023.1.0]
+[2023-07-12 02:03:57] INFO root fetch - processPackages [azure-storage-file-datalake]: New version: [12.9.1] Old Version: [12.9.0b1]
+[2023-07-12 02:03:57] INFO root fetch - processPackages [jijmodeling-transpiler]: New version: [0.6.0rc2] Old Version: [0.6.0rc1]
+[2023-07-12 02:03:57] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-12 02:03:57] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-12 02:03:58] INFO root fetch - processPackages [bluetooth-adapters]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-12 02:03:58] INFO root fetch - processPackages [rssadd]: Downloading https://files.pythonhosted.org/packages/cb/11/c491262b42f0dcd162d5cde30d7de8e127e937430a3cfed3bcd98aaa384b/rssadd-0.1.0-py3-none-any.whl
+[2023-07-12 02:03:58] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2023-07-12 02:03:58] INFO root fetch - processPackages [wire4-client]: Downloading https://files.pythonhosted.org/packages/aa/a6/2d7fc19e258399f82100d9e77ba9295f43463f128251cc15064d66a90102/wire4-client-1.1.2.tar.gz
+[2023-07-12 02:03:58] INFO root fetch - processPackages [pmccc]: Downloading https://files.pythonhosted.org/packages/41/af/d7b95cac330e212f04688c1314ef566c13612198a30d49213a91a4f9f167/pmccc-0.1-py3-none-any.whl
+[2023-07-12 02:03:58] INFO root fetch - processPackages [smart-home-tng]: Downloading https://files.pythonhosted.org/packages/fa/10/6d01cb7258d05b0d6343addf235f473b0d21b8aa66b5c98930d2e7eebe25/smart_home_tng-2023.1.0.tar.gz
+[2023-07-12 02:03:58] INFO root fetch - processPackages [azure-storage-file-datalake]: Downloading https://files.pythonhosted.org/packages/be/69/ca18cbfcc175046da49df768a085a16e0f0e550df3aad42b5fa25533b47e/azure-storage-file-datalake-12.9.0b1.zip
+[2023-07-12 02:03:58] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-07-12 02:03:58] WARNING root fetch - processPackages [smart-home-tng]: Skipping package: exceeds size limit 46652614>=10485760
+[2023-07-12 02:03:58] INFO root fetch - processPackages [smart-home-tng]: Start processing: multiple-inference
+[2023-07-12 02:03:58] INFO root fetch - main [MainThread]: End processing [smart-home-tng] error
+[2023-07-12 02:03:58] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/a9/e4/7cbeaa6f880a3895fa9b950dc9eb90d6357f389d556542e12c424398a3c7/b2sim-1.0.8.tar.gz
+[2023-07-12 02:03:58] INFO root fetch - processPackages [jijmodeling-transpiler]: Downloading https://files.pythonhosted.org/packages/95/8f/85194040f37bcf4b17cd4d75ea1d3c08e3e743ca7dadc00d55f75b8a4e1f/jijmodeling_transpiler-0.6.0rc1-cp39-cp39-win_amd64.whl
+[2023-07-12 02:03:58] INFO root fetch - processPackages [bluetooth-adapters]: Downloading https://files.pythonhosted.org/packages/97/e6/295a3e28b4b43961f0e2b2937f0ce6b20b10263624ba11027112071f5bec/bluetooth_adapters-0.8.0.tar.gz
+[2023-07-12 02:03:58] INFO root fetch - processPackages [multiple-inference]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-12 02:03:58] INFO root fetch - processPackages [rssadd]: Downloading https://files.pythonhosted.org/packages/b7/0a/203766a0a3160e5a5b8f760da36f317335846f9db538717d5e9283166961/rssadd-1.0.0-py3-none-any.whl
+[2023-07-12 02:03:58] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-07-12 02:03:58] INFO root fetch - processPackages [multiple-inference]: Downloading https://files.pythonhosted.org/packages/18/3a/751a6186913f8fede0650d12d9723ea75156ae47cba152e8715c79a7fd84/multiple-inference-1.1.0.tar.gz
+[2023-07-12 02:03:58] INFO root fetch - processPackages [pmccc]: Downloading https://files.pythonhosted.org/packages/94/b1/c0fb31be21703e03e3f486a720aec7de61053ca46fa21bb6cfe84dc0b93d/pmccc-0.2-py3-none-any.whl
+[2023-07-12 02:03:58] INFO root fetch - processPackages [wire4-client]: Downloading https://files.pythonhosted.org/packages/53/87/c5d7de70fb5e42ffecaa01a9f3a2026d71529372e5797125743d855a78f6/wire4-client-1.1.3.tar.gz
+[2023-07-12 02:03:58] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/a4/85/77a4eebeb490d7bc45e60e6916c5ab10d190723c7ae4c5663b7b845f1035/b2sim-1.0.9.tar.gz
+[2023-07-12 02:03:58] INFO root fetch - processPackages [jijmodeling-transpiler]: Downloading https://files.pythonhosted.org/packages/4b/56/c3e16c3c8627d6ae905c34d48144c6da91cafc765cfdb3372f53c58484d0/jijmodeling_transpiler-0.6.0rc2-cp39-cp39-win_amd64.whl
+[2023-07-12 02:03:58] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2023-07-12 02:03:58] INFO root fetch - processPackages [rssadd]: executing diffoscope
+[2023-07-12 02:03:58] INFO root fetch - processPackages [rssadd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssadd-0.1.0-py3-none-any.whl.zip tmp/rssadd-1.0.0-py3-none-any.whl.zip --markdown 20230712/r/rssadd/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-12 02:03:58] INFO root fetch - processPackages [azure-storage-file-datalake]: Downloading https://files.pythonhosted.org/packages/a9/3a/6a1f4e6e2b09159f3e4da0dc39c1c52f3b85c83cb4f005b3b0772bdaf630/azure-storage-file-datalake-12.9.1.zip
+[2023-07-12 02:03:58] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-12 02:03:58] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230712/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-12 02:03:59] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2023-07-12 02:03:59] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-1.0.8.tar.gz tmp/b2sim-1.0.9.tar.gz --markdown 20230712/b/b2sim/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 02:03:59] INFO root fetch - processPackages [bluetooth-adapters]: Downloading https://files.pythonhosted.org/packages/cb/29/45f86e0db2abae311227eac6d39f676f6e68930f05cd1210a8b69dca580e/bluetooth_adapters-0.9.0.tar.gz
+[2023-07-12 02:03:59] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2023-07-12 02:03:59] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20230712/h/honeybee-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-12 02:03:59] INFO root fetch - processPackages [pmccc]: executing diffoscope
+[2023-07-12 02:03:59] INFO root fetch - processPackages [pmccc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmccc-0.1-py3-none-any.whl.zip tmp/pmccc-0.2-py3-none-any.whl.zip --markdown 20230712/p/pmccc/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-12 02:03:59] INFO root fetch - processPackages [wire4-client]: executing diffoscope
+[2023-07-12 02:03:59] INFO root fetch - processPackages [wire4-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wire4-client-1.1.2.tar.gz tmp/wire4-client-1.1.3.tar.gz --markdown 20230712/w/wire4-client/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-12 02:03:59] INFO root fetch - processPackages [jijmodeling-transpiler]: executing diffoscope
+[2023-07-12 02:03:59] INFO root fetch - processPackages [jijmodeling-transpiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling_transpiler-0.6.0rc1-cp39-cp39-win_amd64.whl.zip tmp/jijmodeling_transpiler-0.6.0rc2-cp39-cp39-win_amd64.whl.zip --markdown 20230712/j/jijmodeling-transpiler/0.6.0rc1-0.6.0rc2/diff.md --exclude *.pyd
+[2023-07-12 02:03:59] INFO root fetch - processPackages [azure-storage-file-datalake]: executing diffoscope
+[2023-07-12 02:03:59] INFO root fetch - processPackages [azure-storage-file-datalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-storage-file-datalake-12.9.0b1.zip tmp/azure-storage-file-datalake-12.9.1.zip --markdown 20230712/a/azure-storage-file-datalake/12.9.0b1-12.9.1/diff.md --exclude *.pyd
+[2023-07-12 02:03:59] INFO root fetch - processPackages [bluetooth-adapters]: executing diffoscope
+[2023-07-12 02:03:59] INFO root fetch - processPackages [bluetooth-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_adapters-0.8.0.tar.gz tmp/bluetooth_adapters-0.9.0.tar.gz --markdown 20230712/b/bluetooth-adapters/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 02:04:00] INFO root fetch - processPackages [multiple-inference]: Downloading https://files.pythonhosted.org/packages/49/ec/c56798c07aa29942bcc6d83fd02c6d896280ac6f88c13f2a0f5cb8a74c69/multiple-inference-1.2.0.tar.gz
+[2023-07-12 02:04:00] INFO root fetch - processPackages [multiple-inference]: executing diffoscope
+[2023-07-12 02:04:00] INFO root fetch - processPackages [multiple-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiple-inference-1.1.0.tar.gz tmp/multiple-inference-1.2.0.tar.gz --markdown 20230712/m/multiple-inference/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-12 02:04:00] INFO root fetch - processPackages [pmccc]: Remove: archive file [/home/abi/fetcher/tmp/pmccc-0.1-py3-none-any.whl.zip]
+[2023-07-12 02:04:00] INFO root fetch - processPackages [pmccc]: Remove: archive file [/home/abi/fetcher/tmp/pmccc-0.2-py3-none-any.whl.zip]
+[2023-07-12 02:04:00] INFO root fetch - processPackages [pmccc]: Start processing: aioping
+[2023-07-12 02:04:00] INFO root fetch - main [MainThread]: End processing [pmccc]: success
+[2023-07-12 02:04:00] INFO root fetch - processPackages [rssadd]: Remove: archive file [/home/abi/fetcher/tmp/rssadd-0.1.0-py3-none-any.whl.zip]
+[2023-07-12 02:04:00] INFO root fetch - processPackages [rssadd]: Remove: archive file [/home/abi/fetcher/tmp/rssadd-1.0.0-py3-none-any.whl.zip]
+[2023-07-12 02:04:00] INFO root fetch - processPackages [rssadd]: Start processing: citation-title
+[2023-07-12 02:04:00] INFO root fetch - main [MainThread]: End processing [rssadd]: success
+[2023-07-12 02:04:00] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.8.tar.gz]
+[2023-07-12 02:04:00] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.9.tar.gz]
+[2023-07-12 02:04:00] INFO root fetch - processPackages [b2sim]: Start processing: torchdatasets-nightly
+[2023-07-12 02:04:00] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2023-07-12 02:04:00] INFO root fetch - processPackages [aioping]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-12 02:04:00] WARNING root fetch - processPackages [citation-title]: Skipping, unable to determine old version
+[2023-07-12 02:04:00] INFO root fetch - processPackages [citation-title]: Start processing: ecoengine
+[2023-07-12 02:04:00] INFO root fetch - main [MainThread]: End processing [citation-title] error
+[2023-07-12 02:04:00] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1689033837] Old Version: [1688947418]
+[2023-07-12 02:04:00] INFO root fetch - processPackages [ecoengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 02:04:00] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/6a/0a/8776760514fd43c3c55855a42f9b129d29f9efce125ff05085188aa32acd/torchdatasets-nightly-1688947418.tar.gz
+[2023-07-12 02:04:00] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/d8/e5/5b3594045f107ce24e058d4f5ac188087d76010f4389991a7c9a9ce4beb6/ecoengine-0.0.8.tar.gz
+[2023-07-12 02:04:00] INFO root fetch - processPackages [bluetooth-adapters]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_adapters-0.8.0.tar.gz]
+[2023-07-12 02:04:00] INFO root fetch - processPackages [bluetooth-adapters]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_adapters-0.9.0.tar.gz]
+[2023-07-12 02:04:00] INFO root fetch - main [MainThread]: End processing [bluetooth-adapters]: success
+[2023-07-12 02:04:00] INFO root fetch - processPackages [aioping]: Downloading https://files.pythonhosted.org/packages/c4/79/101ac97ed3a4c993531c71435b975105dcaa1fe4e1f9dab7061f633dd39f/aioping-0.3.1.tar.gz
+[2023-07-12 02:04:00] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2023-07-12 02:04:00] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2023-07-12 02:04:00] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2023-07-12 02:04:00] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/b4/06/8712491ed487422ca74801e6051cd89e398183d43abb0a99e904022af6ba/ecoengine-0.0.9.tar.gz
+[2023-07-12 02:04:00] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-07-12 02:04:00] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-07-12 02:04:01] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-12 02:04:01] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2023-07-12 02:04:01] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-0.0.8.tar.gz tmp/ecoengine-0.0.9.tar.gz --markdown 20230712/e/ecoengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 02:04:01] INFO root fetch - processPackages [aioping]: Downloading https://files.pythonhosted.org/packages/11/7b/376edd5def408b7369518a8825f12f4ef5de9da7208257c739edb720c25f/aioping-0.4.0.tar.gz
+[2023-07-12 02:04:01] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/37/80/dbe4140241b6b9914d88c932850243c55ac54409e6a4d9c93708d625ea3b/torchdatasets-nightly-1689033837.tar.gz
+[2023-07-12 02:04:01] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-12 02:04:01] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1688947418.tar.gz tmp/torchdatasets-nightly-1689033837.tar.gz --markdown 20230712/t/torchdatasets-nightly/1688947418-1689033837/diff.md --exclude *.pyd
+[2023-07-12 02:04:01] INFO root fetch - processPackages [aioping]: executing diffoscope
+[2023-07-12 02:04:01] INFO root fetch - processPackages [aioping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioping-0.3.1.tar.gz tmp/aioping-0.4.0.tar.gz --markdown 20230712/a/aioping/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-12 02:04:01] INFO root fetch - processPackages [azure-storage-file-datalake]: Remove: archive file [/home/abi/fetcher/tmp/azure-storage-file-datalake-12.9.0b1.zip]
+[2023-07-12 02:04:01] INFO root fetch - processPackages [azure-storage-file-datalake]: Remove: archive file [/home/abi/fetcher/tmp/azure-storage-file-datalake-12.9.1.zip]
+[2023-07-12 02:04:01] INFO root fetch - main [MainThread]: End processing [azure-storage-file-datalake]: success
+[2023-07-12 02:04:02] INFO root fetch - processPackages [multiple-inference]: Remove: archive file [/home/abi/fetcher/tmp/multiple-inference-1.1.0.tar.gz]
+[2023-07-12 02:04:02] INFO root fetch - processPackages [multiple-inference]: Remove: archive file [/home/abi/fetcher/tmp/multiple-inference-1.2.0.tar.gz]
+[2023-07-12 02:04:02] INFO root fetch - main [MainThread]: End processing [multiple-inference]: success
+[2023-07-12 02:04:02] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.8.tar.gz]
+[2023-07-12 02:04:02] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.9.tar.gz]
+[2023-07-12 02:04:02] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2023-07-12 02:04:02] INFO root fetch - processPackages [aioping]: Remove: archive file [/home/abi/fetcher/tmp/aioping-0.3.1.tar.gz]
+[2023-07-12 02:04:02] INFO root fetch - processPackages [aioping]: Remove: archive file [/home/abi/fetcher/tmp/aioping-0.4.0.tar.gz]
+[2023-07-12 02:04:02] INFO root fetch - main [MainThread]: End processing [aioping]: success
+[2023-07-12 02:04:02] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688947418.tar.gz]
+[2023-07-12 02:04:02] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689033837.tar.gz]
+[2023-07-12 02:04:02] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-12 02:04:03] INFO root fetch - processPackages [jijmodeling-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler-0.6.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-12 02:04:03] INFO root fetch - processPackages [jijmodeling-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler-0.6.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-12 02:04:03] INFO root fetch - main [MainThread]: End processing [jijmodeling-transpiler]: success
+[2023-07-12 02:04:03] INFO root fetch - processPackages [wire4-client]: Remove: archive file [/home/abi/fetcher/tmp/wire4-client-1.1.2.tar.gz]
+[2023-07-12 02:04:03] INFO root fetch - processPackages [wire4-client]: Remove: archive file [/home/abi/fetcher/tmp/wire4-client-1.1.3.tar.gz]
+[2023-07-12 02:04:03] INFO root fetch - main [MainThread]: End processing [wire4-client]: success
+[2023-07-12 02:04:03] INFO root fetch - main [MainThread]: Store serial: [18852017]
