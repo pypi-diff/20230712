@@ -14418,3 +14418,75 @@
 [2023-07-12 09:29:42] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a1.tar.gz]
 [2023-07-12 09:29:42] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2023-07-12 09:29:42] INFO root fetch - main [MainThread]: Store serial: [18856883]
+[2023-07-12 09:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856883]
+[2023-07-12 09:34:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-12 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mona-openai
+[2023-07-12 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BaAug
+[2023-07-12 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grokcore.catalog
+[2023-07-12 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: email-domain-verification
+[2023-07-12 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MissionData
+[2023-07-12 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FinQuant
+[2023-07-12 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qoqo-quest
+[2023-07-12 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyzjr
+[2023-07-12 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fa-models
+[2023-07-12 09:34:54] INFO root fetch - processPackages [fa-models]: New version: [1.0.77] Old Version: [1.0.76]
+[2023-07-12 09:34:54] WARNING root fetch - processPackages [MissionData]: Skipping, unable to determine old version
+[2023-07-12 09:34:54] INFO root fetch - main [MainThread]: End processing [MissionData] error
+[2023-07-12 09:34:54] INFO root fetch - processPackages [BaAug]: New version: [1.0.0] Old Version: [0.1]
+[2023-07-12 09:34:54] INFO root fetch - processPackages [mona-openai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-12 09:34:54] INFO root fetch - processPackages [FinQuant]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-12 09:34:54] INFO root fetch - processPackages [grokcore.catalog]: New version: [4.0] Old Version: [3.0.1]
+[2023-07-12 09:34:54] WARNING root fetch - processPackages [email-domain-verification]: Skipping, unable to determine old version
+[2023-07-12 09:34:54] INFO root fetch - main [MainThread]: End processing [email-domain-verification] error
+[2023-07-12 09:34:54] INFO root fetch - processPackages [pyzjr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 09:34:54] INFO root fetch - processPackages [qoqo-quest]: New version: [0.9.1] Old Version: [0.9.0a2]
+[2023-07-12 09:34:54] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/99/56/601a5b2704ab5f31078cafbf83e55c4909f666ed634917c324d549671f36/fa-models-1.0.76.tar.gz
+[2023-07-12 09:34:54] INFO root fetch - processPackages [mona-openai]: Downloading https://files.pythonhosted.org/packages/cd/d6/dce0ed1e24fe0535a0acae50fc0493bf2e8879264c1a6cf2ef683f885222/mona-openai-0.1.1.tar.gz
+[2023-07-12 09:34:54] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/5b/74/3f51fdc1e582d7f4ae6d53c08080fecc9f7e1f0fb7954193d9d0d9885043/pyzjr-0.0.8.tar.gz
+[2023-07-12 09:34:54] INFO root fetch - processPackages [grokcore.catalog]: Downloading https://files.pythonhosted.org/packages/3b/29/2f760c2fd95d94fce4c4dfd7e20cfcaaa8a2994e698c62bf5e082240bad4/grokcore.catalog-3.0.1.tar.gz
+[2023-07-12 09:34:54] INFO root fetch - processPackages [qoqo-quest]: Downloading https://files.pythonhosted.org/packages/b7/fb/aa5063f6366dc8c6c3d39350b423986abf45c2cf71cd3ae2281c765a126a/qoqo_quest-0.9.0a2.tar.gz
+[2023-07-12 09:34:54] INFO root fetch - processPackages [FinQuant]: Downloading https://files.pythonhosted.org/packages/4a/0e/6d8f5d12192b855942e7c01a3c38c99412574654702fc7ba113297cecbce/FinQuant-0.2.2.tar.gz
+[2023-07-12 09:34:54] INFO root fetch - processPackages [BaAug]: Downloading https://files.pythonhosted.org/packages/1e/57/396e1d7b0c61cd5b30e8cd7a781293b6afdd9869b9acd51cc86378f831fd/BaAug-0.1.tar.gz
+[2023-07-12 09:34:54] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/fc/a4/fa430d09bba1aa7bfd9e42c76f03111a351fd4d138a1b6913396b41e7fbd/pyzjr-0.0.9.tar.gz
+[2023-07-12 09:34:54] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/6c/b5/b4349b42bedd383823c988c2cd8887e5247a750a43839896705b7aedb968/fa-models-1.0.77.tar.gz
+[2023-07-12 09:34:54] INFO root fetch - processPackages [mona-openai]: Downloading https://files.pythonhosted.org/packages/ed/03/12f524f9d35470bb8b99b19a7784afbdc7eb6c95d36c4720fcad0823d3d1/mona-openai-0.1.2.tar.gz
+[2023-07-12 09:34:54] INFO root fetch - processPackages [pyzjr]: executing diffoscope
+[2023-07-12 09:34:54] INFO root fetch - processPackages [pyzjr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzjr-0.0.8.tar.gz tmp/pyzjr-0.0.9.tar.gz --markdown 20230712/p/pyzjr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 09:34:54] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-07-12 09:34:54] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.76.tar.gz tmp/fa-models-1.0.77.tar.gz --markdown 20230712/f/fa-models/1.0.76-1.0.77/diff.md --exclude *.pyd
+[2023-07-12 09:34:54] INFO root fetch - processPackages [grokcore.catalog]: Downloading https://files.pythonhosted.org/packages/8f/17/d3a28124fcde2852e2abf1957697e6e5a2b9e69a6bd4a359823ac5668760/grokcore.catalog-4.0.tar.gz
+[2023-07-12 09:34:54] INFO root fetch - processPackages [mona-openai]: executing diffoscope
+[2023-07-12 09:34:54] INFO root fetch - processPackages [mona-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mona-openai-0.1.1.tar.gz tmp/mona-openai-0.1.2.tar.gz --markdown 20230712/m/mona-openai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-12 09:34:54] INFO root fetch - processPackages [grokcore.catalog]: executing diffoscope
+[2023-07-12 09:34:54] INFO root fetch - processPackages [grokcore.catalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grokcore.catalog-3.0.1.tar.gz tmp/grokcore.catalog-4.0.tar.gz --markdown 20230712/g/grokcore.catalog/3.0.1-4.0/diff.md --exclude *.pyd
+[2023-07-12 09:34:54] INFO root fetch - processPackages [FinQuant]: Downloading https://files.pythonhosted.org/packages/de/8b/2483dc869af336872af28882a3196d2cc9cd22ec49109b2c3f82a6393cc5/FinQuant-0.2.3.tar.gz
+[2023-07-12 09:34:54] INFO root fetch - processPackages [BaAug]: Downloading https://files.pythonhosted.org/packages/4a/01/c1d4c2e2e178f6320c910f196d067707d7ea5db2f089211caf2fb4c884e8/BaAug-1.0.0.tar.gz
+[2023-07-12 09:34:55] INFO root fetch - processPackages [qoqo-quest]: Downloading https://files.pythonhosted.org/packages/ad/89/c2c3b72abec9a727687852135d8dfff1143811314cf40458f2a4c5d08fb2/qoqo_quest-0.9.1.tar.gz
+[2023-07-12 09:34:55] INFO root fetch - processPackages [BaAug]: executing diffoscope
+[2023-07-12 09:34:55] INFO root fetch - processPackages [BaAug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BaAug-0.1.tar.gz tmp/BaAug-1.0.0.tar.gz --markdown 20230712/B/BaAug/0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-12 09:34:55] INFO root fetch - processPackages [FinQuant]: executing diffoscope
+[2023-07-12 09:34:55] INFO root fetch - processPackages [FinQuant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinQuant-0.2.2.tar.gz tmp/FinQuant-0.2.3.tar.gz --markdown 20230712/F/FinQuant/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-12 09:34:55] INFO root fetch - processPackages [qoqo-quest]: executing diffoscope
+[2023-07-12 09:34:55] INFO root fetch - processPackages [qoqo-quest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_quest-0.9.0a2.tar.gz tmp/qoqo_quest-0.9.1.tar.gz --markdown 20230712/q/qoqo-quest/0.9.0a2-0.9.1/diff.md --exclude *.pyd
+[2023-07-12 09:34:55] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.76.tar.gz]
+[2023-07-12 09:34:55] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.77.tar.gz]
+[2023-07-12 09:34:55] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-07-12 09:34:55] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-0.0.8.tar.gz]
+[2023-07-12 09:34:55] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-0.0.9.tar.gz]
+[2023-07-12 09:34:55] INFO root fetch - main [MainThread]: End processing [pyzjr]: success
+[2023-07-12 09:34:56] INFO root fetch - processPackages [BaAug]: Remove: archive file [/home/abi/fetcher/tmp/BaAug-0.1.tar.gz]
+[2023-07-12 09:34:56] INFO root fetch - processPackages [BaAug]: Remove: archive file [/home/abi/fetcher/tmp/BaAug-1.0.0.tar.gz]
+[2023-07-12 09:34:56] INFO root fetch - main [MainThread]: End processing [BaAug]: success
+[2023-07-12 09:34:56] INFO root fetch - processPackages [grokcore.catalog]: Remove: archive file [/home/abi/fetcher/tmp/grokcore.catalog-3.0.1.tar.gz]
+[2023-07-12 09:34:56] INFO root fetch - processPackages [grokcore.catalog]: Remove: archive file [/home/abi/fetcher/tmp/grokcore.catalog-4.0.tar.gz]
+[2023-07-12 09:34:56] INFO root fetch - main [MainThread]: End processing [grokcore.catalog]: success
+[2023-07-12 09:34:56] INFO root fetch - processPackages [FinQuant]: Remove: archive file [/home/abi/fetcher/tmp/FinQuant-0.2.2.tar.gz]
+[2023-07-12 09:34:56] INFO root fetch - processPackages [FinQuant]: Remove: archive file [/home/abi/fetcher/tmp/FinQuant-0.2.3.tar.gz]
+[2023-07-12 09:34:56] INFO root fetch - main [MainThread]: End processing [FinQuant]: success
+[2023-07-12 09:34:56] INFO root fetch - processPackages [mona-openai]: Remove: archive file [/home/abi/fetcher/tmp/mona-openai-0.1.1.tar.gz]
+[2023-07-12 09:34:56] INFO root fetch - processPackages [mona-openai]: Remove: archive file [/home/abi/fetcher/tmp/mona-openai-0.1.2.tar.gz]
+[2023-07-12 09:34:56] INFO root fetch - main [MainThread]: End processing [mona-openai]: success
+[2023-07-12 09:34:57] INFO root fetch - processPackages [qoqo-quest]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_quest-0.9.0a2.tar.gz]
+[2023-07-12 09:34:57] INFO root fetch - processPackages [qoqo-quest]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_quest-0.9.1.tar.gz]
+[2023-07-12 09:34:57] INFO root fetch - main [MainThread]: End processing [qoqo-quest]: success
+[2023-07-12 09:34:57] INFO root fetch - main [MainThread]: Store serial: [18856920]
