@@ -2062,3 +2062,87 @@
 [2023-07-12 02:04:03] INFO root fetch - processPackages [wire4-client]: Remove: archive file [/home/abi/fetcher/tmp/wire4-client-1.1.3.tar.gz]
 [2023-07-12 02:04:03] INFO root fetch - main [MainThread]: End processing [wire4-client]: success
 [2023-07-12 02:04:03] INFO root fetch - main [MainThread]: Store serial: [18852017]
+[2023-07-12 02:09:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18852017]
+[2023-07-12 02:09:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-12 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2023-07-12 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluetooth-adapters
+[2023-07-12 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxkern-nightly
+[2023-07-12 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-djangogql
+[2023-07-12 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxutils-nightly
+[2023-07-12 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorflow-addons
+[2023-07-12 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whylogs
+[2023-07-12 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-compiler-opt
+[2023-07-12 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchlayers-nightly
+[2023-07-12 02:09:12] INFO root fetch - processPackages [python-djangogql]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-12 02:09:12] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230711] Old Version: [0.0.8.dev20230710]
+[2023-07-12 02:09:12] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-12 02:09:12] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307120007] Old Version: [0.0.1.dev202307110008]
+[2023-07-12 02:09:12] INFO root fetch - processPackages [bluetooth-adapters]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-12 02:09:12] INFO root fetch - processPackages [tensorflow-addons]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-12 02:09:12] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/c9/79/9ce034e815dd03061ee506dada12af04d7034d9130303ac2853d40772bed/ml-compiler-opt-0.0.1.dev202307110008.tar.gz
+[2023-07-12 02:09:12] INFO root fetch - processPackages [whylogs]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-12 02:09:12] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230711.post446] Old Version: [1.9.0.20230710.post454]
+[2023-07-12 02:09:12] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1689034117] Old Version: [1688947723]
+[2023-07-12 02:09:13] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/49/13/2d0443cd83c89fa241a5354714ee97710ea50d6842216f58b58d1f74b463/jaxutils-nightly-0.0.8.dev20230710.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [python-djangogql]: Downloading https://files.pythonhosted.org/packages/ea/3c/584fd1673e63645582f156ed611ec92d4183cf676e72315fd9259a91bdde/python-djangogql-1.3.0.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/38/eb/cc123e056a6f85b9ed05584a39cbf03d7727238e8931ee5c27025d7d3042/mct-nightly-1.9.0.20230710.post454.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [bluetooth-adapters]: Downloading https://files.pythonhosted.org/packages/97/e6/295a3e28b4b43961f0e2b2937f0ce6b20b10263624ba11027112071f5bec/bluetooth_adapters-0.8.0.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/84/3f/340b79e9258e58bf16f34f3aaf1755c30a140704788c1f12749c3da15f4e/torchlayers-nightly-1688947723.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [tensorflow-addons]: Downloading https://files.pythonhosted.org/packages/0d/db/7920db05f80bfa5006f1bd4c5d8b20500708f29e632bd71a2f9350691094/tensorflow_addons-0.9.0-cp37-cp37m-win_amd64.whl
+[2023-07-12 02:09:13] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/b9/85/a41828693bec9e753ceae3a034ac10bed0332c92db26d1e5017db42fcd99/whylogs-1.2.1.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/3a/cd/bc6d45461b6a81a2562a413df2ad3ab2e96f194e92b6317340ec316ce34a/ml-compiler-opt-0.0.1.dev202307120007.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [bluetooth-adapters]: Downloading https://files.pythonhosted.org/packages/cb/29/45f86e0db2abae311227eac6d39f676f6e68930f05cd1210a8b69dca580e/bluetooth_adapters-0.9.0.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [python-djangogql]: Downloading https://files.pythonhosted.org/packages/df/e0/876231cbb358426d6091f0f862ce6ac95dc68b6e239fde40402df03ec5bf/python-djangogql-1.3.1.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-12 02:09:13] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230712/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-12 02:09:13] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/a0/fb/633287d38c15310767d6fa7f9a84974db0d8edd3d5f167f0d9b0a18dc31b/jaxutils-nightly-0.0.8.dev20230711.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [python-djangogql]: executing diffoscope
+[2023-07-12 02:09:13] INFO root fetch - processPackages [python-djangogql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-djangogql-1.3.0.tar.gz tmp/python-djangogql-1.3.1.tar.gz --markdown 20230712/p/python-djangogql/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-12 02:09:13] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/08/36/3571fa818d5cf0d73cc535dd6f539f3bc7b0bf0ffa6d98bc93646f66d8e5/mct-nightly-1.9.0.20230711.post446.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [bluetooth-adapters]: executing diffoscope
+[2023-07-12 02:09:13] INFO root fetch - processPackages [bluetooth-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_adapters-0.8.0.tar.gz tmp/bluetooth_adapters-0.9.0.tar.gz --markdown 20230712/b/bluetooth-adapters/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 02:09:13] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/17/1a/71a514b639510c493e34498f46484595f52e838a1fd32dd373498a9726ef/torchlayers-nightly-1689034117.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-12 02:09:13] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307110008.tar.gz tmp/ml-compiler-opt-0.0.1.dev202307120007.tar.gz --markdown 20230712/m/ml-compiler-opt/0.0.1.dev202307110008-0.0.1.dev202307120007/diff.md --exclude *.pyd
+[2023-07-12 02:09:13] INFO root fetch - processPackages [tensorflow-addons]: Downloading https://files.pythonhosted.org/packages/83/17/f00b4c5d6e19020e321ffb67ea137e79d4a96c482512975524ec7caa76e1/tensorflow_addons-0.9.1-cp37-cp37m-win_amd64.whl
+[2023-07-12 02:09:13] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/70/b2/bcff605b3ed7251d9642aefe037cff5281d84b009eac79119029c3b22682/whylogs-1.2.2.tar.gz
+[2023-07-12 02:09:13] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-12 02:09:13] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230710.post454.tar.gz tmp/mct-nightly-1.9.0.20230711.post446.tar.gz --markdown 20230712/m/mct-nightly/1.9.0.20230710.post454-1.9.0.20230711.post446/diff.md --exclude *.pyd
+[2023-07-12 02:09:13] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-12 02:09:13] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230710.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230711.tar.gz --markdown 20230712/j/jaxutils-nightly/0.0.8.dev20230710-0.0.8.dev20230711/diff.md --exclude *.pyd
+[2023-07-12 02:09:14] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-07-12 02:09:14] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.2.1.tar.gz tmp/whylogs-1.2.2.tar.gz --markdown 20230712/w/whylogs/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-12 02:09:14] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-12 02:09:14] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1688947723.tar.gz tmp/torchlayers-nightly-1689034117.tar.gz --markdown 20230712/t/torchlayers-nightly/1688947723-1689034117/diff.md --exclude *.pyd
+[2023-07-12 02:09:14] INFO root fetch - processPackages [tensorflow-addons]: executing diffoscope
+[2023-07-12 02:09:14] INFO root fetch - processPackages [tensorflow-addons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_addons-0.9.0-cp37-cp37m-win_amd64.whl.zip tmp/tensorflow_addons-0.9.1-cp37-cp37m-win_amd64.whl.zip --markdown 20230712/t/tensorflow-addons/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-12 02:09:15] INFO root fetch - processPackages [bluetooth-adapters]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_adapters-0.8.0.tar.gz]
+[2023-07-12 02:09:15] INFO root fetch - processPackages [bluetooth-adapters]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_adapters-0.9.0.tar.gz]
+[2023-07-12 02:09:15] INFO root fetch - main [MainThread]: End processing [bluetooth-adapters]: success
+[2023-07-12 02:09:15] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-12 02:09:15] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-12 02:09:15] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-12 02:09:15] INFO root fetch - processPackages [python-djangogql]: Remove: archive file [/home/abi/fetcher/tmp/python-djangogql-1.3.0.tar.gz]
+[2023-07-12 02:09:15] INFO root fetch - processPackages [python-djangogql]: Remove: archive file [/home/abi/fetcher/tmp/python-djangogql-1.3.1.tar.gz]
+[2023-07-12 02:09:15] INFO root fetch - main [MainThread]: End processing [python-djangogql]: success
+[2023-07-12 02:09:15] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230710.tar.gz]
+[2023-07-12 02:09:15] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230711.tar.gz]
+[2023-07-12 02:09:15] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-12 02:09:15] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1688947723.tar.gz]
+[2023-07-12 02:09:15] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1689034117.tar.gz]
+[2023-07-12 02:09:15] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-12 02:09:15] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307110008.tar.gz]
+[2023-07-12 02:09:15] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307120007.tar.gz]
+[2023-07-12 02:09:15] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-12 02:09:16] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.2.1.tar.gz]
+[2023-07-12 02:09:16] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.2.2.tar.gz]
+[2023-07-12 02:09:16] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-07-12 02:09:17] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230710.post454.tar.gz]
+[2023-07-12 02:09:17] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230711.post446.tar.gz]
+[2023-07-12 02:09:17] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-12 02:09:30] INFO root fetch - processPackages [tensorflow-addons]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_addons-0.9.0-cp37-cp37m-win_amd64.whl.zip]
+[2023-07-12 02:09:30] INFO root fetch - processPackages [tensorflow-addons]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_addons-0.9.1-cp37-cp37m-win_amd64.whl.zip]
+[2023-07-12 02:09:30] INFO root fetch - main [MainThread]: End processing [tensorflow-addons]: success
+[2023-07-12 02:09:30] INFO root fetch - main [MainThread]: Store serial: [18852058]
