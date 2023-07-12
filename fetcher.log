@@ -12896,3 +12896,68 @@
 [2023-07-12 07:51:09] INFO root fetch - processPackages [qpd]: Remove: archive file [/home/abi/fetcher/tmp/qpd-0.4.4.tar.gz]
 [2023-07-12 07:51:09] INFO root fetch - main [MainThread]: End processing [qpd]: success
 [2023-07-12 07:51:09] INFO root fetch - main [MainThread]: Store serial: [18856199]
+[2023-07-12 07:56:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856199]
+[2023-07-12 07:56:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 07:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clp-ffi-py
+[2023-07-12 07:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findpython
+[2023-07-12 07:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crypto-screening
+[2023-07-12 07:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viqi-api
+[2023-07-12 07:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apache-tvm
+[2023-07-12 07:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aocd-example-parser
+[2023-07-12 07:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpboost
+[2023-07-12 07:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pcapy-binary
+[2023-07-12 07:56:18] INFO root fetch - processPackages [findpython]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-07-12 07:56:18] INFO root fetch - processPackages [crypto-screening]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-07-12 07:56:18] INFO root fetch - processPackages [viqi-api]: New version: [0.6.4.9] Old Version: [0.6.4.8]
+[2023-07-12 07:56:18] WARNING root fetch - processPackages [aocd-example-parser]: Skipping, unable to determine old version
+[2023-07-12 07:56:18] INFO root fetch - main [MainThread]: End processing [aocd-example-parser] error
+[2023-07-12 07:56:18] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.14.dev9]
+[2023-07-12 07:56:18] INFO root fetch - processPackages [gpboost]: New version: [1.2.2] Old Version: [1.2.1.1]
+[2023-07-12 07:56:18] INFO root fetch - processPackages [clp-ffi-py]: New version: [0.0.0b2] Old Version: [0.0.0b1]
+[2023-07-12 07:56:18] INFO root fetch - processPackages [pcapy-binary]: New version: [0.11.5.dev0] Old Version: [0.11.5.2]
+[2023-07-12 07:56:18] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/56/29/27c563c7ce214b9ca5236f1bed2480e3479f39eb6bff500bb6e1e99236f6/crypto-screening-2.7.0.tar.gz
+[2023-07-12 07:56:18] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/c4/2b/73d88b898b8a81197ba3fa0879cfe29988c7f5e898b245d7cb584e0b13a7/findpython-1.0.0a1.tar.gz
+[2023-07-12 07:56:18] INFO root fetch - processPackages [clp-ffi-py]: Downloading https://files.pythonhosted.org/packages/cb/04/8c79e68c3bdc6c2482530a5227feb2048595953989ab06d238a2014cd6aa/clp_ffi_py-0.0.0b1.tar.gz
+[2023-07-12 07:56:18] INFO root fetch - processPackages [gpboost]: Downloading https://files.pythonhosted.org/packages/f7/1a/802639996e915cf002d8d682cc48fab9e836612e39382879ba6c0865d509/gpboost-1.2.1.1.tar.gz
+[2023-07-12 07:56:18] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/97/25/3524632ea469082fdcd74f8989d5b4ac507351cb9f2ed216b86976d1dbaf/apache_tvm-0.14.dev9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 07:56:18] INFO root fetch - processPackages [pcapy-binary]: Downloading https://files.pythonhosted.org/packages/4d/88/f357927f2e55531eeda34de45a3e749e0be4b35ddf026c55134b46d4fb45/pcapy_binary-0.11.5.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 07:56:18] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/66/0e/f83992b00f99a63e08615e86c74eadb6338a741c69240b2bce9a985d060a/viqi_api-0.6.4.8-py3-none-any.whl
+[2023-07-12 07:56:18] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/35/78/e3aa6bfa56954522a745f92c05b3446fc9e1561da235cbb367311de84cca/crypto-screening-2.7.1.tar.gz
+[2023-07-12 07:56:18] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 82327624>=10485760
+[2023-07-12 07:56:18] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-07-12 07:56:18] INFO root fetch - processPackages [clp-ffi-py]: Downloading https://files.pythonhosted.org/packages/58/e4/a21e98e12b3a2d82e7a8b39a19ce47926ee15443821186f033b63a5944e0/clp_ffi_py-0.0.0b2.tar.gz
+[2023-07-12 07:56:18] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/66/4f/b66907843af4dceeb4045f63e69f36b7c93b2aa38bc735e9cddd2916e991/findpython-1.0.0a2.tar.gz
+[2023-07-12 07:56:18] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-12 07:56:18] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-2.7.0.tar.gz tmp/crypto-screening-2.7.1.tar.gz --markdown 20230712/c/crypto-screening/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-07-12 07:56:19] INFO root fetch - processPackages [clp-ffi-py]: executing diffoscope
+[2023-07-12 07:56:19] INFO root fetch - processPackages [clp-ffi-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clp_ffi_py-0.0.0b1.tar.gz tmp/clp_ffi_py-0.0.0b2.tar.gz --markdown 20230712/c/clp-ffi-py/0.0.0b1-0.0.0b2/diff.md --exclude *.pyd
+[2023-07-12 07:56:19] INFO root fetch - processPackages [findpython]: executing diffoscope
+[2023-07-12 07:56:19] INFO root fetch - processPackages [findpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findpython-1.0.0a1.tar.gz tmp/findpython-1.0.0a2.tar.gz --markdown 20230712/f/findpython/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-07-12 07:56:19] INFO root fetch - processPackages [pcapy-binary]: Downloading https://files.pythonhosted.org/packages/9e/31/4bc16d61371733c7c6db78ca2e945afad63262de2db62a1da5564dd911f8/pcapy_binary-0.11.5.dev0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 07:56:19] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/e9/5c/44c9cdd455eadd370d8ec9e177faee8af6887be8f78f33d89a2ae15bcc14/viqi_api-0.6.4.9-py3-none-any.whl
+[2023-07-12 07:56:19] INFO root fetch - processPackages [pcapy-binary]: executing diffoscope
+[2023-07-12 07:56:19] INFO root fetch - processPackages [pcapy-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcapy_binary-0.11.5.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pcapy_binary-0.11.5.dev0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230712/p/pcapy-binary/0.11.5.2-0.11.5.dev0/diff.md --exclude *.pyd
+[2023-07-12 07:56:19] INFO root fetch - processPackages [viqi-api]: executing diffoscope
+[2023-07-12 07:56:19] INFO root fetch - processPackages [viqi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip --markdown 20230712/v/viqi-api/0.6.4.8-0.6.4.9/diff.md --exclude *.pyd
+[2023-07-12 07:56:19] INFO root fetch - processPackages [gpboost]: Downloading https://files.pythonhosted.org/packages/f2/ab/529b4baff0ba5285b5ae331c7449bbe229726ab890251376473bc2b4bc8f/gpboost-1.2.2.tar.gz
+[2023-07-12 07:56:19] INFO root fetch - processPackages [gpboost]: executing diffoscope
+[2023-07-12 07:56:19] INFO root fetch - processPackages [gpboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpboost-1.2.1.1.tar.gz tmp/gpboost-1.2.2.tar.gz --markdown 20230712/g/gpboost/1.2.1.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-12 07:56:20] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.7.0.tar.gz]
+[2023-07-12 07:56:20] INFO root fetch - processPackages [findpython]: Remove: archive file [/home/abi/fetcher/tmp/findpython-1.0.0a1.tar.gz]
+[2023-07-12 07:56:20] INFO root fetch - processPackages [findpython]: Remove: archive file [/home/abi/fetcher/tmp/findpython-1.0.0a2.tar.gz]
+[2023-07-12 07:56:20] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.7.1.tar.gz]
+[2023-07-12 07:56:20] INFO root fetch - main [MainThread]: End processing [findpython]: success
+[2023-07-12 07:56:20] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-12 07:56:20] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip]
+[2023-07-12 07:56:20] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip]
+[2023-07-12 07:56:20] INFO root fetch - main [MainThread]: End processing [viqi-api]: success
+[2023-07-12 07:56:20] INFO root fetch - processPackages [clp-ffi-py]: Remove: archive file [/home/abi/fetcher/tmp/clp_ffi_py-0.0.0b1.tar.gz]
+[2023-07-12 07:56:20] INFO root fetch - processPackages [clp-ffi-py]: Remove: archive file [/home/abi/fetcher/tmp/clp_ffi_py-0.0.0b2.tar.gz]
+[2023-07-12 07:56:20] INFO root fetch - main [MainThread]: End processing [clp-ffi-py]: success
+[2023-07-12 07:56:21] INFO root fetch - processPackages [pcapy-binary]: Remove: archive file [/home/abi/fetcher/tmp/pcapy_binary-0.11.5.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-12 07:56:21] INFO root fetch - processPackages [pcapy-binary]: Remove: archive file [/home/abi/fetcher/tmp/pcapy_binary-0.11.5.dev0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-12 07:56:21] INFO root fetch - main [MainThread]: End processing [pcapy-binary]: success
+[2023-07-12 07:56:25] INFO root fetch - processPackages [gpboost]: Remove: archive file [/home/abi/fetcher/tmp/gpboost-1.2.1.1.tar.gz]
+[2023-07-12 07:56:25] INFO root fetch - processPackages [gpboost]: Remove: archive file [/home/abi/fetcher/tmp/gpboost-1.2.2.tar.gz]
+[2023-07-12 07:56:25] INFO root fetch - main [MainThread]: End processing [gpboost]: success
+[2023-07-12 07:56:25] INFO root fetch - main [MainThread]: Store serial: [18856243]
