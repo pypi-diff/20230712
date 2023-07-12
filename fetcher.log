@@ -12558,3 +12558,42 @@
 [2023-07-12 07:19:58] INFO root fetch - processPackages [aiokeydb]: Remove: archive file [/home/abi/fetcher/tmp/aiokeydb-0.1.9.tar.gz]
 [2023-07-12 07:19:58] INFO root fetch - main [MainThread]: End processing [aiokeydb]: success
 [2023-07-12 07:19:58] INFO root fetch - main [MainThread]: Store serial: [18856066]
+[2023-07-12 07:25:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856066]
+[2023-07-12 07:25:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-12 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: developer-disk-image
+[2023-07-12 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minchin.pelican.plugins.autoloader
+[2023-07-12 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: androidMemoryTool
+[2023-07-12 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: layerx-sdk-beta
+[2023-07-12 07:25:07] INFO root fetch - processPackages [developer-disk-image]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 07:25:07] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-07-12 07:25:07] INFO root fetch - processPackages [minchin.pelican.plugins.autoloader]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-12 07:25:07] INFO root fetch - processPackages [androidMemoryTool]: New version: [0.5] Old Version: [0.4]
+[2023-07-12 07:25:07] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-07-12 07:25:08] INFO root fetch - processPackages [developer-disk-image]: Downloading https://files.pythonhosted.org/packages/8c/e6/714dc643f712cd10f6ab3ba2c360b3761af1897c413691031542ea0ad915/developer_disk_image-0.0.1.tar.gz
+[2023-07-12 07:25:08] INFO root fetch - processPackages [minchin.pelican.plugins.autoloader]: Downloading https://files.pythonhosted.org/packages/55/32/48646e17c6a9300385fa7c5d8873095f0224d811d78fdd48547eede4eed0/minchin.pelican.plugins.autoloader-1.1.0.tar.gz
+[2023-07-12 07:25:08] INFO root fetch - processPackages [androidMemoryTool]: Downloading https://files.pythonhosted.org/packages/93/f5/e0f9b610aa6d0d0ae4514ff4e73675976a8ee165a50b704ee760a4f931af/androidMemoryTool-0.4.tar.gz
+[2023-07-12 07:25:08] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-07-12 07:25:08] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-07-12 07:25:08] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230712/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-07-12 07:25:08] INFO root fetch - processPackages [developer-disk-image]: Downloading https://files.pythonhosted.org/packages/e7/83/ef1e4f140cfee09a917aa3add0bf2ac13cdb4ea6312210d282eee3838efc/developer_disk_image-0.0.2.tar.gz
+[2023-07-12 07:25:08] INFO root fetch - processPackages [androidMemoryTool]: Downloading https://files.pythonhosted.org/packages/98/6c/48b06d505d3f78f5a8c243b0462a52d9a18f15bf69670766ff66b57844c3/androidMemoryTool-0.5-py3-none-any.whl
+[2023-07-12 07:25:08] INFO root fetch - processPackages [minchin.pelican.plugins.autoloader]: Downloading https://files.pythonhosted.org/packages/9f/5e/d2233858fb1a282a9b61085e95dfe1c460ee67465156d2c1ec303304524d/minchin.pelican.plugins.autoloader-1.2.0.tar.gz
+[2023-07-12 07:25:08] INFO root fetch - processPackages [developer-disk-image]: executing diffoscope
+[2023-07-12 07:25:08] INFO root fetch - processPackages [developer-disk-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/developer_disk_image-0.0.1.tar.gz tmp/developer_disk_image-0.0.2.tar.gz --markdown 20230712/d/developer-disk-image/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 07:25:08] INFO root fetch - processPackages [androidMemoryTool]: executing diffoscope
+[2023-07-12 07:25:08] INFO root fetch - processPackages [androidMemoryTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androidMemoryTool-0.4.tar.gz tmp/androidMemoryTool-0.5-py3-none-any.whl.zip --markdown 20230712/a/androidMemoryTool/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-12 07:25:08] INFO root fetch - processPackages [minchin.pelican.plugins.autoloader]: executing diffoscope
+[2023-07-12 07:25:08] INFO root fetch - processPackages [minchin.pelican.plugins.autoloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minchin.pelican.plugins.autoloader-1.1.0.tar.gz tmp/minchin.pelican.plugins.autoloader-1.2.0.tar.gz --markdown 20230712/m/minchin.pelican.plugins.autoloader/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-12 07:25:09] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-07-12 07:25:09] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-07-12 07:25:09] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-07-12 07:25:09] INFO root fetch - processPackages [androidMemoryTool]: Remove: archive file [/home/abi/fetcher/tmp/androidMemoryTool-0.4.tar.gz]
+[2023-07-12 07:25:09] INFO root fetch - processPackages [androidMemoryTool]: Remove: archive file [/home/abi/fetcher/tmp/androidMemoryTool-0.5-py3-none-any.whl.zip]
+[2023-07-12 07:25:09] INFO root fetch - main [MainThread]: End processing [androidMemoryTool]: success
+[2023-07-12 07:25:09] INFO root fetch - processPackages [developer-disk-image]: Remove: archive file [/home/abi/fetcher/tmp/developer_disk_image-0.0.1.tar.gz]
+[2023-07-12 07:25:09] INFO root fetch - processPackages [developer-disk-image]: Remove: archive file [/home/abi/fetcher/tmp/developer_disk_image-0.0.2.tar.gz]
+[2023-07-12 07:25:09] INFO root fetch - main [MainThread]: End processing [developer-disk-image]: success
+[2023-07-12 07:25:09] INFO root fetch - processPackages [minchin.pelican.plugins.autoloader]: Remove: archive file [/home/abi/fetcher/tmp/minchin.pelican.plugins.autoloader-1.1.0.tar.gz]
+[2023-07-12 07:25:09] INFO root fetch - processPackages [minchin.pelican.plugins.autoloader]: Remove: archive file [/home/abi/fetcher/tmp/minchin.pelican.plugins.autoloader-1.2.0.tar.gz]
+[2023-07-12 07:25:09] INFO root fetch - main [MainThread]: End processing [minchin.pelican.plugins.autoloader]: success
+[2023-07-12 07:25:09] INFO root fetch - main [MainThread]: Store serial: [18856077]
