@@ -5843,3 +5843,87 @@
 [2023-07-12 03:34:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-07-12 03:34:56] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-07-12 03:34:56] INFO root fetch - main [MainThread]: Store serial: [18853411]
+[2023-07-12 03:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18853411]
+[2023-07-12 03:40:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-12 03:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysparkler
+[2023-07-12 03:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioregistry
+[2023-07-12 03:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-07-12 03:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-invoice
+[2023-07-12 03:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: promptrix
+[2023-07-12 03:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typetype
+[2023-07-12 03:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-numpy
+[2023-07-12 03:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chik-blockchain
+[2023-07-12 03:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yplib
+[2023-07-12 03:40:06] INFO root fetch - processPackages [pysparkler]: New version: [0.9.dev1689125747] Old Version: [0.9.dev1687900650]
+[2023-07-12 03:40:06] INFO root fetch - processPackages [typetype]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-12 03:40:06] INFO root fetch - processPackages [xj-invoice]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-12 03:40:06] INFO root fetch - processPackages [promptrix]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-12 03:40:06] INFO root fetch - processPackages [yplib]: New version: [2.4.8] Old Version: [2.4.7]
+[2023-07-12 03:40:06] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-12 03:40:06] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 03:40:06] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 03:40:06] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/0a/ae/0f49188e91891adc37ff25edcf9111e3a42fbf46dd0f8a95a0a82afdc315/typetype-1.1.3.tar.gz
+[2023-07-12 03:40:06] INFO root fetch - processPackages [chik-blockchain]: New version: [1.8.3rc1] Old Version: [1.8.2.1]
+[2023-07-12 03:40:06] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f0/ef/3fe5dec5607602cf2a8d37e02b02aa0419f92fa208f7893362f76cd9861c/yplib-2.4.7.tar.gz
+[2023-07-12 03:40:06] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/8f/a8/6ccf5ba58df70541e82764c6a8e664574509e720a9ebae521eb95658f7ef/xj_invoice-1.0.7.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [pysparkler]: Downloading https://files.pythonhosted.org/packages/d0/2c/2cec14f61a1ed8ce7f50c8bc5ad7da6c01b62f98787514d20edc4d4d4a17/pysparkler-0.9.dev1687900650.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/8f/2e/219351632a8d7d0df4aedee5e03d276f4ac12c2c1f6e3240c3bb3987d5e8/promptrix-0.3.0.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/d5/e2/d8db9b0a8f9453fb96ed7f715d75706127dbf0a6891c808479b0fb20f59b/yplib-2.4.8.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/a9/77/baae3fb8c2842e9ee7a0d5261ca27a183ef075f699c7e37397093b4062f2/xj_invoice-1.0.9.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [chik-blockchain]: Downloading https://files.pythonhosted.org/packages/d7/57/d37fea4ff2a00815c3e9a6cb4ba93af9fffc6a8764a6abc39df9b3bae79b/chik-blockchain-1.8.2.1.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [xj-invoice]: executing diffoscope
+[2023-07-12 03:40:07] INFO root fetch - processPackages [xj-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_invoice-1.0.7.tar.gz tmp/xj_invoice-1.0.9.tar.gz --markdown 20230712/x/xj-invoice/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 03:40:07] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-12 03:40:07] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.4.7.tar.gz tmp/yplib-2.4.8.tar.gz --markdown 20230712/y/yplib/2.4.7-2.4.8/diff.md --exclude *.pyd
+[2023-07-12 03:40:07] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/6b/cb/c3a8faa5e45632a1a9b2fd912c1d6003e1ac6086a46d7a9cdf42e45b731f/typetype-1.1.4.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/21/75/9c7f9637eb6a8054a2f6c46f68fb4c087db59f895a1ce03036cc98d4d23f/promptrix-0.3.1.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-12 03:40:07] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230712/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 03:40:07] INFO root fetch - processPackages [pysparkler]: Downloading https://files.pythonhosted.org/packages/94/e4/558f8f9d679230a402111e6380d2bf6a71a5d4a8728cc948e41325da71bb/pysparkler-0.9.dev1689125747.tar.gz
+[2023-07-12 03:40:07] INFO root fetch - processPackages [promptrix]: executing diffoscope
+[2023-07-12 03:40:07] INFO root fetch - processPackages [promptrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptrix-0.3.0.tar.gz tmp/promptrix-0.3.1.tar.gz --markdown 20230712/p/promptrix/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-12 03:40:07] INFO root fetch - processPackages [typetype]: executing diffoscope
+[2023-07-12 03:40:07] INFO root fetch - processPackages [typetype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typetype-1.1.3.tar.gz tmp/typetype-1.1.4.tar.gz --markdown 20230712/t/typetype/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-12 03:40:07] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-12 03:40:07] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230712/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 03:40:07] INFO root fetch - processPackages [pysparkler]: executing diffoscope
+[2023-07-12 03:40:07] INFO root fetch - processPackages [pysparkler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkler-0.9.dev1687900650.tar.gz tmp/pysparkler-0.9.dev1689125747.tar.gz --markdown 20230712/p/pysparkler/0.9.dev1687900650-0.9.dev1689125747/diff.md --exclude *.pyd
+[2023-07-12 03:40:08] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.7.tar.gz]
+[2023-07-12 03:40:08] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.8.tar.gz]
+[2023-07-12 03:40:08] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-12 03:40:08] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-12 03:40:08] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-12 03:40:08] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-12 03:40:08] INFO root fetch - processPackages [xj-invoice]: Remove: archive file [/home/abi/fetcher/tmp/xj_invoice-1.0.7.tar.gz]
+[2023-07-12 03:40:08] INFO root fetch - processPackages [xj-invoice]: Remove: archive file [/home/abi/fetcher/tmp/xj_invoice-1.0.9.tar.gz]
+[2023-07-12 03:40:08] INFO root fetch - main [MainThread]: End processing [xj-invoice]: success
+[2023-07-12 03:40:08] INFO root fetch - processPackages [chik-blockchain]: Downloading https://files.pythonhosted.org/packages/b2/74/2b46d1aaf3881051d6b7b6119b1b258dbe5d3e9e7af38de019f7821fb586/chik-blockchain-1.8.3rc1.tar.gz
+[2023-07-12 03:40:08] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-12 03:40:08] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-12 03:40:08] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-12 03:40:08] INFO root fetch - processPackages [pysparkler]: Remove: archive file [/home/abi/fetcher/tmp/pysparkler-0.9.dev1687900650.tar.gz]
+[2023-07-12 03:40:08] INFO root fetch - processPackages [pysparkler]: Remove: archive file [/home/abi/fetcher/tmp/pysparkler-0.9.dev1689125747.tar.gz]
+[2023-07-12 03:40:08] INFO root fetch - main [MainThread]: End processing [pysparkler]: success
+[2023-07-12 03:40:09] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.3.0.tar.gz]
+[2023-07-12 03:40:09] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.3.1.tar.gz]
+[2023-07-12 03:40:09] INFO root fetch - main [MainThread]: End processing [promptrix]: success
+[2023-07-12 03:40:09] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.1.3.tar.gz]
+[2023-07-12 03:40:09] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.1.4.tar.gz]
+[2023-07-12 03:40:09] INFO root fetch - main [MainThread]: End processing [typetype]: success
+[2023-07-12 03:40:09] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-12 03:40:09] INFO root fetch - processPackages [chik-blockchain]: executing diffoscope
+[2023-07-12 03:40:09] INFO root fetch - processPackages [chik-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chik-blockchain-1.8.2.1.tar.gz tmp/chik-blockchain-1.8.3rc1.tar.gz --markdown 20230712/c/chik-blockchain/1.8.2.1-1.8.3rc1/diff.md --exclude *.pyd
+[2023-07-12 03:40:10] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-12 03:40:10] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230712/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-12 03:40:15] INFO root fetch - processPackages [chik-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chik-blockchain-1.8.2.1.tar.gz]
+[2023-07-12 03:40:15] INFO root fetch - processPackages [chik-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chik-blockchain-1.8.3rc1.tar.gz]
+[2023-07-12 03:40:15] INFO root fetch - main [MainThread]: End processing [chik-blockchain]: success
+[2023-07-12 03:42:06] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-12 03:42:06] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-12 03:42:06] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-12 03:42:06] INFO root fetch - main [MainThread]: Store serial: [18853437]
