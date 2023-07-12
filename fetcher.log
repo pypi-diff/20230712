@@ -14301,3 +14301,120 @@
 [2023-07-12 09:24:13] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.2.9.tar.gz]
 [2023-07-12 09:24:13] INFO root fetch - main [MainThread]: End processing [guify]: success
 [2023-07-12 09:24:13] INFO root fetch - main [MainThread]: Store serial: [18856839]
+[2023-07-12 09:29:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856839]
+[2023-07-12 09:29:23] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-12 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Products.MeetingMons
+[2023-07-12 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcg-service
+[2023-07-12 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelicalang
+[2023-07-12 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hitrustai-lab
+[2023-07-12 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yoloexplorer
+[2023-07-12 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zqmtool
+[2023-07-12 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: terminal-manager
+[2023-07-12 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LIFEsim
+[2023-07-12 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nwebclient
+[2023-07-12 09:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyclpu
+[2023-07-12 09:29:23] WARNING root fetch - processPackages [yoloexplorer]: Skipping, unable to determine old version
+[2023-07-12 09:29:23] INFO root fetch - processPackages [yoloexplorer]: Start processing: simpleworkspace
+[2023-07-12 09:29:23] INFO root fetch - main [MainThread]: End processing [yoloexplorer] error
+[2023-07-12 09:29:23] INFO root fetch - processPackages [Products.MeetingMons]: New version: [4.2.0b4] Old Version: [4.2.0b3]
+[2023-07-12 09:29:23] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 09:29:23] INFO root fetch - processPackages [modelicalang]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2023-07-12 09:29:23] INFO root fetch - processPackages [hitrustai-lab]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 09:29:23] INFO root fetch - processPackages [LIFEsim]: New version: [0.2.9] Old Version: [0.2.28]
+[2023-07-12 09:29:23] INFO root fetch - processPackages [pyclpu]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-12 09:29:23] INFO root fetch - processPackages [terminal-manager]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-12 09:29:23] INFO root fetch - processPackages [zqmtool]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-07-12 09:29:23] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-12 09:29:23] WARNING root fetch - processPackages [dcg-service]: Skipping, unable to determine old version
+[2023-07-12 09:29:23] INFO root fetch - processPackages [dcg-service]: Start processing: PVNet
+[2023-07-12 09:29:23] INFO root fetch - main [MainThread]: End processing [dcg-service] error
+[2023-07-12 09:29:23] INFO root fetch - processPackages [modelicalang]: Downloading https://files.pythonhosted.org/packages/2b/bd/e1201ed378f6267cff9ed1430dea53fc06ccfe6edebf97a64b09222c295a/modelicalang-0.1.0a0.tar.gz
+[2023-07-12 09:29:23] INFO root fetch - processPackages [PVNet]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-12 09:29:23] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 09:29:23] INFO root fetch - processPackages [hitrustai-lab]: Downloading https://files.pythonhosted.org/packages/62/e0/caeef3836f6779aebd93956257125a60f56a3731f28455ee85d42e570115/hitrustai_lab-1.0.8.tar.gz
+[2023-07-12 09:29:23] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-07-12 09:29:23] INFO root fetch - processPackages [Products.MeetingMons]: Downloading https://files.pythonhosted.org/packages/2c/38/791a3878051ad167a94f98ee20183884d49ea8d9b6f19d126bd2316b0e41/Products.MeetingMons-4.2.0b3.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [zqmtool]: Downloading https://files.pythonhosted.org/packages/05/f4/8a397c3f43e7ad9db5a7916d2c9acccb6574f4d71ba63ba76f1c5a67342e/zqmtool-0.0.80.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [pyclpu]: Downloading https://files.pythonhosted.org/packages/ba/88/9b10db57250b1bda95d1f2e45a825aeb2479f0a60219cf3ca18b1dd606a2/pyclpu-1.1.1.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/0c/21/aa352b74357a2f3e6d8d203d40dd17ae3d7f1ebea50c8b5f5f682fd0e5d0/terminal_manager-0.2.0.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [LIFEsim]: Downloading https://files.pythonhosted.org/packages/ae/38/dc03b3b215afe540b15a19d4b4210548275767819c48f42689b3e910bb57/LIFEsim-0.2.28.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/69/09/f33a8c25bbe470ac36ab6fcbc17dfb91e283c4b4920a26dc0e72553f686c/PVNet-2.1.8.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-07-12 09:29:24] INFO root fetch - processPackages [modelicalang]: Downloading https://files.pythonhosted.org/packages/d0/c7/22ab7063202ed3291927bae8d2fd0a41bdee176e8fc8cd1e7e7097d488b4/modelicalang-0.1.0a1.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [hitrustai-lab]: Downloading https://files.pythonhosted.org/packages/c6/a8/d005771def830398c114c064804050a67c4d5c9c77c6d9cdca0c2526ccd9/hitrustai_lab-1.0.9.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 09:29:24] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 09:29:24] INFO root fetch - processPackages [modelicalang]: executing diffoscope
+[2023-07-12 09:29:24] INFO root fetch - processPackages [modelicalang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelicalang-0.1.0a0.tar.gz tmp/modelicalang-0.1.0a1.tar.gz --markdown 20230712/m/modelicalang/0.1.0a0-0.1.0a1/diff.md --exclude *.pyd
+[2023-07-12 09:29:24] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/d4/ba/ef96e95b87f300f958926cc7928727e003991e00e4da411929847acb2b71/PVNet-2.1.9.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-07-12 09:29:24] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230712/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-12 09:29:24] INFO root fetch - processPackages [zqmtool]: Downloading https://files.pythonhosted.org/packages/f1/87/51c14c7d475136a800f40694a9461172fe82da6960afcb49c3d6ea928359/zqmtool-0.0.9.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [Products.MeetingMons]: Downloading https://files.pythonhosted.org/packages/22/93/63bda087c5572f698c75a99f15cda06eeaf2fafe223e34c78a7315f54716/Products.MeetingMons-4.2.0b4.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/41/36/bc8e618001308c0bb460a24e4ff5d1b7459ff86dec6d286ab3f7060407bf/terminal_manager-0.3.0.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [pyclpu]: Downloading https://files.pythonhosted.org/packages/f2/97/3f88792bb5964d613f26a6ee9413cd8050804462998f000f1595ce3f48bc/pyclpu-1.1.2.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [LIFEsim]: Downloading https://files.pythonhosted.org/packages/7a/3a/d79a51374a8889ac11e2c0f3daabf1d0262266150f9c04e32c9dea4081b6/LIFEsim-0.2.9.tar.gz
+[2023-07-12 09:29:24] INFO root fetch - processPackages [hitrustai-lab]: executing diffoscope
+[2023-07-12 09:29:24] INFO root fetch - processPackages [hitrustai-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hitrustai_lab-1.0.8.tar.gz tmp/hitrustai_lab-1.0.9.tar.gz --markdown 20230712/h/hitrustai-lab/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 09:29:24] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-07-12 09:29:24] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-2.1.8.tar.gz tmp/PVNet-2.1.9.tar.gz --markdown 20230712/P/PVNet/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-12 09:29:24] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-12 09:29:24] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.2.0.tar.gz tmp/terminal_manager-0.3.0.tar.gz --markdown 20230712/t/terminal-manager/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-12 09:29:24] INFO root fetch - processPackages [pyclpu]: executing diffoscope
+[2023-07-12 09:29:24] INFO root fetch - processPackages [pyclpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclpu-1.1.1.tar.gz tmp/pyclpu-1.1.2.tar.gz --markdown 20230712/p/pyclpu/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-12 09:29:24] INFO root fetch - processPackages [zqmtool]: executing diffoscope
+[2023-07-12 09:29:24] INFO root fetch - processPackages [zqmtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zqmtool-0.0.80.tar.gz tmp/zqmtool-0.0.9.tar.gz --markdown 20230712/z/zqmtool/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 09:29:24] INFO root fetch - processPackages [Products.MeetingMons]: executing diffoscope
+[2023-07-12 09:29:24] INFO root fetch - processPackages [Products.MeetingMons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingMons-4.2.0b3.tar.gz tmp/Products.MeetingMons-4.2.0b4.tar.gz --markdown 20230712/P/Products.MeetingMons/4.2.0b3-4.2.0b4/diff.md --exclude *.pyd
+[2023-07-12 09:29:24] INFO root fetch - processPackages [LIFEsim]: executing diffoscope
+[2023-07-12 09:29:24] INFO root fetch - processPackages [LIFEsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LIFEsim-0.2.28.tar.gz tmp/LIFEsim-0.2.9.tar.gz --markdown 20230712/L/LIFEsim/0.2.28-0.2.9/diff.md --exclude *.pyd
+[2023-07-12 09:29:25] INFO root fetch - processPackages [modelicalang]: Remove: archive file [/home/abi/fetcher/tmp/modelicalang-0.1.0a0.tar.gz]
+[2023-07-12 09:29:25] INFO root fetch - processPackages [modelicalang]: Remove: archive file [/home/abi/fetcher/tmp/modelicalang-0.1.0a1.tar.gz]
+[2023-07-12 09:29:25] INFO root fetch - processPackages [modelicalang]: Start processing: pygwalker
+[2023-07-12 09:29:25] INFO root fetch - main [MainThread]: End processing [modelicalang]: success
+[2023-07-12 09:29:26] INFO root fetch - processPackages [pygwalker]: New version: [0.2.0a1] Old Version: [0.1.9.1]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [nwebclient]: Start processing: requests-oauth2client
+[2023-07-12 09:29:26] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 09:29:26] INFO root fetch - processPackages [requests-oauth2client]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.8.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.9.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-07-12 09:29:26] INFO root fetch - processPackages [hitrustai-lab]: Remove: archive file [/home/abi/fetcher/tmp/hitrustai_lab-1.0.8.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [hitrustai-lab]: Remove: archive file [/home/abi/fetcher/tmp/hitrustai_lab-1.0.9.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/31/8c/e8da2569902cccf2ec59dca0a2c1d8f83b94c75fdcbe705dd7903deb25e3/pygwalker-0.1.9.1.tar.gz
+[2023-07-12 09:29:26] INFO root fetch - main [MainThread]: End processing [hitrustai-lab]: success
+[2023-07-12 09:29:26] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-07-12 09:29:26] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-07-12 09:29:26] INFO root fetch - processPackages [requests-oauth2client]: Downloading https://files.pythonhosted.org/packages/17/e8/e769626b2627c5a6da2b0392137e3e3af47040f90638564dbef5ab21fa4d/requests_oauth2client-1.1.0.tar.gz
+[2023-07-12 09:29:26] INFO root fetch - processPackages [zqmtool]: Remove: archive file [/home/abi/fetcher/tmp/zqmtool-0.0.80.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [zqmtool]: Remove: archive file [/home/abi/fetcher/tmp/zqmtool-0.0.9.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - main [MainThread]: End processing [zqmtool]: success
+[2023-07-12 09:29:26] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.2.0.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.3.0.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-12 09:29:26] INFO root fetch - processPackages [pyclpu]: Remove: archive file [/home/abi/fetcher/tmp/pyclpu-1.1.1.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [pyclpu]: Remove: archive file [/home/abi/fetcher/tmp/pyclpu-1.1.2.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - main [MainThread]: End processing [pyclpu]: success
+[2023-07-12 09:29:26] INFO root fetch - processPackages [LIFEsim]: Remove: archive file [/home/abi/fetcher/tmp/LIFEsim-0.2.28.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [LIFEsim]: Remove: archive file [/home/abi/fetcher/tmp/LIFEsim-0.2.9.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - main [MainThread]: End processing [LIFEsim]: success
+[2023-07-12 09:29:26] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/b7/2d/e9d2b5b2a2762cbc1f6aba8ffeccb54b3cff644f6df2bce40ace73abe7d4/pygwalker-0.2.0a1.tar.gz
+[2023-07-12 09:29:26] INFO root fetch - processPackages [requests-oauth2client]: Downloading https://files.pythonhosted.org/packages/45/6f/f4b8782707f63d3c40e508c6415638c3feedc48c8d4830e25ea8c6726a2a/requests_oauth2client-1.2.0.tar.gz
+[2023-07-12 09:29:26] INFO root fetch - processPackages [Products.MeetingMons]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingMons-4.2.0b3.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - processPackages [Products.MeetingMons]: Remove: archive file [/home/abi/fetcher/tmp/Products.MeetingMons-4.2.0b4.tar.gz]
+[2023-07-12 09:29:26] INFO root fetch - main [MainThread]: End processing [Products.MeetingMons]: success
+[2023-07-12 09:29:27] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2023-07-12 09:29:27] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.1.9.1.tar.gz tmp/pygwalker-0.2.0a1.tar.gz --markdown 20230712/p/pygwalker/0.1.9.1-0.2.0a1/diff.md --exclude *.pyd
+[2023-07-12 09:29:27] INFO root fetch - processPackages [requests-oauth2client]: executing diffoscope
+[2023-07-12 09:29:27] INFO root fetch - processPackages [requests-oauth2client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_oauth2client-1.1.0.tar.gz tmp/requests_oauth2client-1.2.0.tar.gz --markdown 20230712/r/requests-oauth2client/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-12 09:29:28] INFO root fetch - processPackages [requests-oauth2client]: Remove: archive file [/home/abi/fetcher/tmp/requests_oauth2client-1.1.0.tar.gz]
+[2023-07-12 09:29:28] INFO root fetch - processPackages [requests-oauth2client]: Remove: archive file [/home/abi/fetcher/tmp/requests_oauth2client-1.2.0.tar.gz]
+[2023-07-12 09:29:28] INFO root fetch - main [MainThread]: End processing [requests-oauth2client]: success
+[2023-07-12 09:29:42] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.1.9.1.tar.gz]
+[2023-07-12 09:29:42] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a1.tar.gz]
+[2023-07-12 09:29:42] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2023-07-12 09:29:42] INFO root fetch - main [MainThread]: Store serial: [18856883]
