@@ -9892,3 +9892,69 @@
 [2023-07-12 04:27:05] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev3.tar.gz]
 [2023-07-12 04:27:05] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy]: success
 [2023-07-12 04:27:05] INFO root fetch - main [MainThread]: Store serial: [18854816]
+[2023-07-12 04:32:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18854816]
+[2023-07-12 04:32:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-12 04:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygrab
+[2023-07-12 04:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findpython
+[2023-07-12 04:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bbat
+[2023-07-12 04:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tictactoetools
+[2023-07-12 04:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: YYYTools
+[2023-07-12 04:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdm-backend
+[2023-07-12 04:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: murloc
+[2023-07-12 04:32:14] INFO root fetch - processPackages [YYYTools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 04:32:14] INFO root fetch - processPackages [pdm-backend]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-12 04:32:14] INFO root fetch - processPackages [bbat]: New version: [5.2.6] Old Version: [5.2.5]
+[2023-07-12 04:32:14] INFO root fetch - processPackages [findpython]: New version: [1.0.0a1] Old Version: [1.0.0a0]
+[2023-07-12 04:32:14] INFO root fetch - processPackages [tictactoetools]: New version: [2.0] Old Version: [1.0.5]
+[2023-07-12 04:32:14] INFO root fetch - processPackages [pygrab]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-12 04:32:14] INFO root fetch - processPackages [murloc]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-12 04:32:14] INFO root fetch - processPackages [tictactoetools]: Downloading https://files.pythonhosted.org/packages/1f/f0/f8793c934826df7ed90dfdd79ff3bdcb9ca4ab27e37347f9fa400a7a3b47/tictactoetools-1.0.5.tar.gz
+[2023-07-12 04:32:14] INFO root fetch - processPackages [YYYTools]: Downloading https://files.pythonhosted.org/packages/a3/2d/a51f3af1c4022e8828be764ecc2035f73ca295154d150e125e1bf6ecf12d/YYYTools-0.1.8.tar.gz
+[2023-07-12 04:32:14] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/b8/4e/78c13d27b09a693a7c492a0e5cc994f9f428fba4b4075dfce235af50937c/findpython-1.0.0a0.tar.gz
+[2023-07-12 04:32:14] INFO root fetch - processPackages [pdm-backend]: Downloading https://files.pythonhosted.org/packages/87/8e/2b9d0017e388c3f30fe61fe1da5b0cd3b52bd8bb1c0327f4307d77c43361/pdm_backend-2.1.2.tar.gz
+[2023-07-12 04:32:14] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/d4/0f/51600d01bde4f1519368abaeabfc6e71cb8b261212846160b9bbc67e1b19/bbat-5.2.5.tar.gz
+[2023-07-12 04:32:14] INFO root fetch - processPackages [pygrab]: Downloading https://files.pythonhosted.org/packages/68/cb/e1cfa0776053f4d3ff962e95685700b528f8650c2e1a5a748b311c29f1b0/pygrab-1.1.3.tar.gz
+[2023-07-12 04:32:15] INFO root fetch - processPackages [YYYTools]: Downloading https://files.pythonhosted.org/packages/a0/12/a35d4f6588ab31f265ff7823cad95e190c9d2bfd91e0de59511bf89fae72/YYYTools-0.1.9.tar.gz
+[2023-07-12 04:32:15] INFO root fetch - processPackages [murloc]: Downloading https://files.pythonhosted.org/packages/ce/a3/9102a791586530058974fbec255671e3e055f10fb66c2770fd7d5281ab34/murloc-0.0.5.tar.gz
+[2023-07-12 04:32:15] INFO root fetch - processPackages [tictactoetools]: Downloading https://files.pythonhosted.org/packages/50/87/a32a85f67bc428c0254642c281b6abdc0cc6b61e0720a38b8849142177de/tictactoetools-2.0.tar.gz
+[2023-07-12 04:32:15] INFO root fetch - processPackages [YYYTools]: executing diffoscope
+[2023-07-12 04:32:15] INFO root fetch - processPackages [YYYTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YYYTools-0.1.8.tar.gz tmp/YYYTools-0.1.9.tar.gz --markdown 20230712/Y/YYYTools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 04:32:15] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/c4/2b/73d88b898b8a81197ba3fa0879cfe29988c7f5e898b245d7cb584e0b13a7/findpython-1.0.0a1.tar.gz
+[2023-07-12 04:32:15] INFO root fetch - processPackages [tictactoetools]: executing diffoscope
+[2023-07-12 04:32:15] INFO root fetch - processPackages [tictactoetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tictactoetools-1.0.5.tar.gz tmp/tictactoetools-2.0.tar.gz --markdown 20230712/t/tictactoetools/1.0.5-2.0/diff.md --exclude *.pyd
+[2023-07-12 04:32:15] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/3f/a9/2206c1b6f55a91e26e89f4bd659c88246cfd4b32d63b06aea50d98274dfa/bbat-5.2.6.tar.gz
+[2023-07-12 04:32:15] INFO root fetch - processPackages [pdm-backend]: Downloading https://files.pythonhosted.org/packages/df/a4/12ca230765c9415dbbda44f541696786ebf7e2d64f00e341251da6e83642/pdm_backend-2.1.3.tar.gz
+[2023-07-12 04:32:15] INFO root fetch - processPackages [pygrab]: Downloading https://files.pythonhosted.org/packages/d6/9f/9178b753620bcc268240d2f6ed7f8f5e5b8335674e04c708264d0fb7cb34/pygrab-1.1.4.tar.gz
+[2023-07-12 04:32:15] INFO root fetch - processPackages [murloc]: Downloading https://files.pythonhosted.org/packages/39/35/c85ee4807b2f0a521c843b3550d55eef659e21192014239dba4f5c1d0ffe/murloc-0.0.6.tar.gz
+[2023-07-12 04:32:15] INFO root fetch - processPackages [findpython]: executing diffoscope
+[2023-07-12 04:32:15] INFO root fetch - processPackages [findpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findpython-1.0.0a0.tar.gz tmp/findpython-1.0.0a1.tar.gz --markdown 20230712/f/findpython/1.0.0a0-1.0.0a1/diff.md --exclude *.pyd
+[2023-07-12 04:32:15] INFO root fetch - processPackages [pdm-backend]: executing diffoscope
+[2023-07-12 04:32:15] INFO root fetch - processPackages [pdm-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_backend-2.1.2.tar.gz tmp/pdm_backend-2.1.3.tar.gz --markdown 20230712/p/pdm-backend/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-12 04:32:15] INFO root fetch - processPackages [bbat]: executing diffoscope
+[2023-07-12 04:32:15] INFO root fetch - processPackages [bbat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbat-5.2.5.tar.gz tmp/bbat-5.2.6.tar.gz --markdown 20230712/b/bbat/5.2.5-5.2.6/diff.md --exclude *.pyd
+[2023-07-12 04:32:15] INFO root fetch - processPackages [pygrab]: executing diffoscope
+[2023-07-12 04:32:15] INFO root fetch - processPackages [pygrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrab-1.1.3.tar.gz tmp/pygrab-1.1.4.tar.gz --markdown 20230712/p/pygrab/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-12 04:32:15] INFO root fetch - processPackages [murloc]: executing diffoscope
+[2023-07-12 04:32:15] INFO root fetch - processPackages [murloc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murloc-0.0.5.tar.gz tmp/murloc-0.0.6.tar.gz --markdown 20230712/m/murloc/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-12 04:32:16] INFO root fetch - processPackages [tictactoetools]: Remove: archive file [/home/abi/fetcher/tmp/tictactoetools-1.0.5.tar.gz]
+[2023-07-12 04:32:16] INFO root fetch - processPackages [tictactoetools]: Remove: archive file [/home/abi/fetcher/tmp/tictactoetools-2.0.tar.gz]
+[2023-07-12 04:32:16] INFO root fetch - main [MainThread]: End processing [tictactoetools]: success
+[2023-07-12 04:32:16] INFO root fetch - processPackages [YYYTools]: Remove: archive file [/home/abi/fetcher/tmp/YYYTools-0.1.8.tar.gz]
+[2023-07-12 04:32:16] INFO root fetch - processPackages [YYYTools]: Remove: archive file [/home/abi/fetcher/tmp/YYYTools-0.1.9.tar.gz]
+[2023-07-12 04:32:16] INFO root fetch - main [MainThread]: End processing [YYYTools]: success
+[2023-07-12 04:32:16] INFO root fetch - processPackages [murloc]: Remove: archive file [/home/abi/fetcher/tmp/murloc-0.0.5.tar.gz]
+[2023-07-12 04:32:16] INFO root fetch - processPackages [murloc]: Remove: archive file [/home/abi/fetcher/tmp/murloc-0.0.6.tar.gz]
+[2023-07-12 04:32:16] INFO root fetch - main [MainThread]: End processing [murloc]: success
+[2023-07-12 04:32:16] INFO root fetch - processPackages [findpython]: Remove: archive file [/home/abi/fetcher/tmp/findpython-1.0.0a0.tar.gz]
+[2023-07-12 04:32:16] INFO root fetch - processPackages [findpython]: Remove: archive file [/home/abi/fetcher/tmp/findpython-1.0.0a1.tar.gz]
+[2023-07-12 04:32:16] INFO root fetch - main [MainThread]: End processing [findpython]: success
+[2023-07-12 04:32:16] INFO root fetch - processPackages [pygrab]: Remove: archive file [/home/abi/fetcher/tmp/pygrab-1.1.3.tar.gz]
+[2023-07-12 04:32:16] INFO root fetch - processPackages [pygrab]: Remove: archive file [/home/abi/fetcher/tmp/pygrab-1.1.4.tar.gz]
+[2023-07-12 04:32:16] INFO root fetch - main [MainThread]: End processing [pygrab]: success
+[2023-07-12 04:32:16] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-5.2.5.tar.gz]
+[2023-07-12 04:32:16] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-5.2.6.tar.gz]
+[2023-07-12 04:32:16] INFO root fetch - main [MainThread]: End processing [bbat]: success
+[2023-07-12 04:32:17] INFO root fetch - processPackages [pdm-backend]: Remove: archive file [/home/abi/fetcher/tmp/pdm_backend-2.1.2.tar.gz]
+[2023-07-12 04:32:17] INFO root fetch - processPackages [pdm-backend]: Remove: archive file [/home/abi/fetcher/tmp/pdm_backend-2.1.3.tar.gz]
+[2023-07-12 04:32:17] INFO root fetch - main [MainThread]: End processing [pdm-backend]: success
+[2023-07-12 04:32:17] INFO root fetch - main [MainThread]: Store serial: [18854851]
