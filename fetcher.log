@@ -18001,3 +18001,111 @@
 [2023-07-12 11:46:40] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-12 11:46:40] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2023-07-12 11:46:40] INFO root fetch - main [MainThread]: Store serial: [18858325]
+[2023-07-12 11:51:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858325]
+[2023-07-12 11:51:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-12 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enebootools
+[2023-07-12 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nwebclient
+[2023-07-12 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyquadim
+[2023-07-12 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jureqex
+[2023-07-12 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: luminesce-sdk-preview
+[2023-07-12 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythogen
+[2023-07-12 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fh-fablib
+[2023-07-12 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: igrafx-mining-sdk
+[2023-07-12 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fenjing
+[2023-07-12 11:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ML-Algo
+[2023-07-12 11:51:55] WARNING root fetch - processPackages [jureqex]: Skipping, unable to determine old version
+[2023-07-12 11:51:55] INFO root fetch - processPackages [jureqex]: Start processing: akshare
+[2023-07-12 11:51:55] INFO root fetch - main [MainThread]: End processing [jureqex] error
+[2023-07-12 11:51:55] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 11:51:55] INFO root fetch - processPackages [fh-fablib]: New version: [1.0.20230712] Old Version: [1.0.20230705]
+[2023-07-12 11:51:55] INFO root fetch - processPackages [pythogen]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-12 11:51:55] INFO root fetch - processPackages [igrafx-mining-sdk]: New version: [2.24.5] Old Version: [2.24.4]
+[2023-07-12 11:51:55] INFO root fetch - processPackages [ML-Algo]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-12 11:51:55] WARNING root fetch - processPackages [pyquadim]: Skipping, unable to determine old version
+[2023-07-12 11:51:55] INFO root fetch - processPackages [pyquadim]: Start processing: xpag
+[2023-07-12 11:51:55] INFO root fetch - main [MainThread]: End processing [pyquadim] error
+[2023-07-12 11:51:55] INFO root fetch - processPackages [fenjing]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-12 11:51:55] INFO root fetch - processPackages [enebootools]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-12 11:51:55] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-12 11:51:55] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-12 11:51:55] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/30/2f/48ac4745cbb8e228ee44e5d2a52ef5856292205f0ba7c0cad1324e85e9ee/pythogen-0.2.3.tar.gz
+[2023-07-12 11:51:55] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/5f/fa/0a4359944eb2d85faae3e7612ca89be95484d4cb2138a0ad7c625b6c0a1c/ML_Algo-1.0.5.tar.gz
+[2023-07-12 11:51:55] INFO root fetch - processPackages [igrafx-mining-sdk]: Downloading https://files.pythonhosted.org/packages/0e/94/197ddde4e76199025af151c5d5fed424c726cb45d21076ab0273cdaa46e7/igrafx_mining_sdk-2.24.4.tar.gz
+[2023-07-12 11:51:55] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-12 11:51:55] INFO root fetch - processPackages [xpag]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-12 11:51:55] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 11:51:55] INFO root fetch - processPackages [fh-fablib]: Downloading https://files.pythonhosted.org/packages/82/66/b1cdee2b708740b59466dcfd718fe0917df72f97658b9996913dac99eed8/fh_fablib-1.0.20230705.tar.gz
+[2023-07-12 11:51:55] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/96/a6/f5dbde2a17640259ee0c244a670ffca24661530f548753a68de5b812a140/enebootools-2.0.8.tar.gz
+[2023-07-12 11:51:55] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/b0/4e/909c5947c67900d5a5353b013d15608979941228e2803ba80fe9d89a5450/fenjing-0.4.5.tar.gz
+[2023-07-12 11:51:55] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-12 11:51:55] INFO root fetch - processPackages [xpag]: Downloading https://files.pythonhosted.org/packages/b4/b6/53b653f45093e3c8a8babd00c054908bfe6ba55646b4ff93db299d4dce91/xpag-0.1.9-py3-none-any.whl
+[2023-07-12 11:51:55] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/a1/b6/7f15f6b6311955f30f7afbb65cd6014bff0f479300d01d4b763979062b42/pythogen-0.2.4.tar.gz
+[2023-07-12 11:51:55] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-12 11:51:55] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/f6/df/e4fa6d95d759604953a123c4bc2b6efa71595b432d57e3568101d8e39bc3/ML_Algo-1.0.6.tar.gz
+[2023-07-12 11:51:55] INFO root fetch - processPackages [igrafx-mining-sdk]: Downloading https://files.pythonhosted.org/packages/90/4d/c6caa1448d083b9a747493309650890e1059151de3c5e1ee8f41f9623e92/igrafx_mining_sdk-2.24.5.tar.gz
+[2023-07-12 11:51:56] INFO root fetch - processPackages [fh-fablib]: Downloading https://files.pythonhosted.org/packages/4f/b7/e7a53d576f57b34ff8cdd711e79aeb5755ca8024094dda425b6a9e0a31b3/fh_fablib-1.0.20230712.tar.gz
+[2023-07-12 11:51:56] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/e9/c6/db38d7a0cc17c492970067f505ab304ace2a240dd929f68aaeab79f84da9/fenjing-0.4.6.tar.gz
+[2023-07-12 11:51:56] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 11:51:56] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/0b/50/a98ff2d478f2b96df200e7e6a5c0ff28fe92712c685482f5ce0bd910c066/enebootools-2.0.9.tar.gz
+[2023-07-12 11:51:56] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-12 11:51:56] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230712/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-12 11:51:56] INFO root fetch - processPackages [pythogen]: executing diffoscope
+[2023-07-12 11:51:56] INFO root fetch - processPackages [pythogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythogen-0.2.3.tar.gz tmp/pythogen-0.2.4.tar.gz --markdown 20230712/p/pythogen/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-12 11:51:56] INFO root fetch - processPackages [xpag]: Downloading https://files.pythonhosted.org/packages/d2/99/f72d1b37922846b11edeac73fa16872cd9922408a246c6778e7bc6bd2847/xpag-0.2.0-py3-none-any.whl
+[2023-07-12 11:51:56] INFO root fetch - processPackages [ML-Algo]: executing diffoscope
+[2023-07-12 11:51:56] INFO root fetch - processPackages [ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ML_Algo-1.0.5.tar.gz tmp/ML_Algo-1.0.6.tar.gz --markdown 20230712/M/ML-Algo/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-12 11:51:56] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 11:51:56] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 11:51:56] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-07-12 11:51:56] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.4.5.tar.gz tmp/fenjing-0.4.6.tar.gz --markdown 20230712/f/fenjing/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-12 11:51:56] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-12 11:51:56] INFO root fetch - processPackages [igrafx-mining-sdk]: executing diffoscope
+[2023-07-12 11:51:56] INFO root fetch - processPackages [igrafx-mining-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igrafx_mining_sdk-2.24.4.tar.gz tmp/igrafx_mining_sdk-2.24.5.tar.gz --markdown 20230712/i/igrafx-mining-sdk/2.24.4-2.24.5/diff.md --exclude *.pyd
+[2023-07-12 11:51:56] INFO root fetch - processPackages [fh-fablib]: executing diffoscope
+[2023-07-12 11:51:56] INFO root fetch - processPackages [fh-fablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fh_fablib-1.0.20230705.tar.gz tmp/fh_fablib-1.0.20230712.tar.gz --markdown 20230712/f/fh-fablib/1.0.20230705-1.0.20230712/diff.md --exclude *.pyd
+[2023-07-12 11:51:56] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-07-12 11:51:56] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-2.0.8.tar.gz tmp/enebootools-2.0.9.tar.gz --markdown 20230712/e/enebootools/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:51:56] INFO root fetch - processPackages [xpag]: executing diffoscope
+[2023-07-12 11:51:56] INFO root fetch - processPackages [xpag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpag-0.1.9-py3-none-any.whl.zip tmp/xpag-0.2.0-py3-none-any.whl.zip --markdown 20230712/x/xpag/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-12 11:51:56] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-12 11:51:56] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230712/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-12 11:51:57] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.2.3.tar.gz]
+[2023-07-12 11:51:57] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.2.4.tar.gz]
+[2023-07-12 11:51:57] INFO root fetch - processPackages [pythogen]: Start processing: checkov
+[2023-07-12 11:51:57] INFO root fetch - main [MainThread]: End processing [pythogen]: success
+[2023-07-12 11:51:57] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML_Algo-1.0.5.tar.gz]
+[2023-07-12 11:51:57] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML_Algo-1.0.6.tar.gz]
+[2023-07-12 11:51:57] INFO root fetch - main [MainThread]: End processing [ML-Algo]: success
+[2023-07-12 11:51:57] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-12 11:51:58] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 11:51:58] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 11:51:58] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 11:51:58] INFO root fetch - processPackages [igrafx-mining-sdk]: Remove: archive file [/home/abi/fetcher/tmp/igrafx_mining_sdk-2.24.4.tar.gz]
+[2023-07-12 11:51:58] INFO root fetch - processPackages [igrafx-mining-sdk]: Remove: archive file [/home/abi/fetcher/tmp/igrafx_mining_sdk-2.24.5.tar.gz]
+[2023-07-12 11:51:58] INFO root fetch - main [MainThread]: End processing [igrafx-mining-sdk]: success
+[2023-07-12 11:51:58] INFO root fetch - processPackages [fh-fablib]: Remove: archive file [/home/abi/fetcher/tmp/fh_fablib-1.0.20230705.tar.gz]
+[2023-07-12 11:51:58] INFO root fetch - processPackages [fh-fablib]: Remove: archive file [/home/abi/fetcher/tmp/fh_fablib-1.0.20230712.tar.gz]
+[2023-07-12 11:51:58] INFO root fetch - main [MainThread]: End processing [fh-fablib]: success
+[2023-07-12 11:51:58] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.4.5.tar.gz]
+[2023-07-12 11:51:58] INFO root fetch - processPackages [fenjing]: Remove: archive file [/home/abi/fetcher/tmp/fenjing-0.4.6.tar.gz]
+[2023-07-12 11:51:58] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-07-12 11:51:58] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-12 11:51:58] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-12 11:51:58] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-12 11:51:58] INFO root fetch - processPackages [xpag]: Remove: archive file [/home/abi/fetcher/tmp/xpag-0.1.9-py3-none-any.whl.zip]
+[2023-07-12 11:51:58] INFO root fetch - processPackages [xpag]: Remove: archive file [/home/abi/fetcher/tmp/xpag-0.2.0-py3-none-any.whl.zip]
+[2023-07-12 11:51:58] INFO root fetch - main [MainThread]: End processing [xpag]: success
+[2023-07-12 11:51:58] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-12 11:51:58] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.8.tar.gz]
+[2023-07-12 11:51:58] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.9.tar.gz]
+[2023-07-12 11:51:58] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-07-12 11:51:58] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-12 11:51:58] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-12 11:51:58] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230712/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-12 11:52:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-12 11:52:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-12 11:52:00] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-12 11:52:12] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-12 11:52:12] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-12 11:52:12] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-12 11:52:12] INFO root fetch - main [MainThread]: Store serial: [18858393]
