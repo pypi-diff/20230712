@@ -17860,3 +17860,144 @@
 [2023-07-12 11:41:21] INFO root fetch - processPackages [fastly]: Remove: archive file [/home/abi/fetcher/tmp/fastly-3.0.1.tar.gz]
 [2023-07-12 11:41:21] INFO root fetch - main [MainThread]: End processing [fastly]: success
 [2023-07-12 11:41:21] INFO root fetch - main [MainThread]: Store serial: [18858269]
+[2023-07-12 11:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858269]
+[2023-07-12 11:46:30] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-12 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quality-result-gui
+[2023-07-12 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: understar
+[2023-07-12 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bestPR1
+[2023-07-12 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ytsaurus-spyt
+[2023-07-12 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mtng
+[2023-07-12 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: suanpan-sprt
+[2023-07-12 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fair-cli
+[2023-07-12 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LbProdRun
+[2023-07-12 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: postgreslite
+[2023-07-12 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ovos-core
+[2023-07-12 11:46:30] INFO root fetch - processPackages [bestPR1]: New version: [0.6.9] Old Version: [0.6.10]
+[2023-07-12 11:46:30] INFO root fetch - processPackages [LbProdRun]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-12 11:46:30] INFO root fetch - processPackages [quality-result-gui]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-12 11:46:30] INFO root fetch - processPackages [fair-cli]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-07-12 11:46:30] WARNING root fetch - processPackages [understar]: Skipping, unable to determine old version
+[2023-07-12 11:46:30] INFO root fetch - processPackages [understar]: Start processing: ANNarchy
+[2023-07-12 11:46:30] INFO root fetch - main [MainThread]: End processing [understar] error
+[2023-07-12 11:46:30] INFO root fetch - processPackages [mtng]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-12 11:46:30] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.70.1b456.post13970065.dev23] Old Version: [1.70.1b451.post5605632.dev23]
+[2023-07-12 11:46:30] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.6.1] Old Version: [0.5.9]
+[2023-07-12 11:46:30] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a9] Old Version: [0.0.8a8]
+[2023-07-12 11:46:30] INFO root fetch - processPackages [postgreslite]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-12 11:46:31] INFO root fetch - processPackages [ANNarchy]: New version: [4.7.2.5] Old Version: [4.7.2.4]
+[2023-07-12 11:46:31] INFO root fetch - processPackages [postgreslite]: Downloading https://files.pythonhosted.org/packages/1a/94/fc3f7f933e9cb819333dab5035c8040fcc10a165b32dc47e0962bcdaf78f/postgreslite-0.1.2.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [fair-cli]: Downloading https://files.pythonhosted.org/packages/ca/1e/cd6b9147fc6ff89e01eae32788b717337f97ae1b97fddaa6f720a7370aa8/fair_cli-0.8.5.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [quality-result-gui]: Downloading https://files.pythonhosted.org/packages/03/cf/10edf56efbea55e4b8894dcd5d02b8656eed9f249e133c7d3d198a69cb6d/quality-result-gui-2.0.0.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [LbProdRun]: Downloading https://files.pythonhosted.org/packages/6d/af/f29dca5f714697d42c60e4f47ace208cf680ee235aa5fcc7e3a2d2f0f3eb/LbProdRun-1.5.0.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [bestPR1]: Downloading https://files.pythonhosted.org/packages/dd/62/f12385f94d63aa75a31ba746b847893264ce974565b15316ab0dfc92b63a/bestPR1-0.6.10.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/eb/72/acf0b96c6eb7c827c71af387662c7b2a60410706130b7bfc5b9e8babb129/ytsaurus-spyt-1.70.1b451.post5605632.dev23.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/8f/dc/0a3a0355f7e81268715d09ec36bbd8e91b78d1c0a8d6c0fb38189ae2d477/suanpan-sprt-0.5.9.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/dd/9c/0945c96587052dea91a0ceedf6f8aca8fb29db6717064aa852e7e73917ad/ovos_core-0.0.8a8-py3-none-any.whl
+[2023-07-12 11:46:31] INFO root fetch - processPackages [ANNarchy]: Downloading https://files.pythonhosted.org/packages/b7/26/a6a10002dd2d467c327ee827a304e582962121977645db66fcb5a482da25/ANNarchy-4.7.2.4.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [mtng]: Downloading https://files.pythonhosted.org/packages/92/a6/da088fab9fd0dd4c01dcf1de7d0372ea1cc4e7950f10c850a4edd1325ab7/mtng-0.7.0.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [postgreslite]: Downloading https://files.pythonhosted.org/packages/78/eb/65e66e3a7a8ea7f8ce9c6b68a315fba659f9fd23498cc6b3c4cfd8d81e29/postgreslite-0.1.3.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [quality-result-gui]: Downloading https://files.pythonhosted.org/packages/35/b8/b3c70281912bca6e25a6d41e75aebdad5a11366d774eca991c6fa32642ab/quality-result-gui-2.0.1.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [fair-cli]: Downloading https://files.pythonhosted.org/packages/34/bf/11386b710e5a18dc36849dc9fa6f9fa86134dc4db2bb5b4d8a19ccd6a8b7/fair_cli-0.9.0.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [bestPR1]: Downloading https://files.pythonhosted.org/packages/c8/97/ceb7513917664bb3032571f2bed7e393ca1082c9538635fde088fc007400/bestPR1-0.6.9.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [LbProdRun]: Downloading https://files.pythonhosted.org/packages/10/24/b3d86779748df029978a7a358b236a6464e18e10ced85c1e178cfca0a6a9/LbProdRun-1.5.1.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [postgreslite]: executing diffoscope
+[2023-07-12 11:46:31] INFO root fetch - processPackages [postgreslite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgreslite-0.1.2.tar.gz tmp/postgreslite-0.1.3.tar.gz --markdown 20230712/p/postgreslite/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-12 11:46:31] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/65/d9/883af6fa97bb6b057ad45cd18e85b2e7638808071266ac027dafdbcfa50b/suanpan-sprt-0.6.1.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [mtng]: Downloading https://files.pythonhosted.org/packages/4f/72/0aa4cca53efb69400ab500b3e0c3110250d5c3d363765701ce0bf077b544/mtng-0.7.1.tar.gz
+[2023-07-12 11:46:31] INFO root fetch - processPackages [bestPR1]: executing diffoscope
+[2023-07-12 11:46:31] INFO root fetch - processPackages [bestPR1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR1-0.6.10.tar.gz tmp/bestPR1-0.6.9.tar.gz --markdown 20230712/b/bestPR1/0.6.10-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 11:46:31] INFO root fetch - processPackages [quality-result-gui]: executing diffoscope
+[2023-07-12 11:46:31] INFO root fetch - processPackages [quality-result-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quality-result-gui-2.0.0.tar.gz tmp/quality-result-gui-2.0.1.tar.gz --markdown 20230712/q/quality-result-gui/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-12 11:46:31] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/51/ee/52ce34726935c8c4c45d526690a3c83e2b71585a918b26cc886d29b8bf0b/ovos_core-0.0.8a9-py3-none-any.whl
+[2023-07-12 11:46:31] INFO root fetch - processPackages [fair-cli]: executing diffoscope
+[2023-07-12 11:46:31] INFO root fetch - processPackages [fair-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fair_cli-0.8.5.tar.gz tmp/fair_cli-0.9.0.tar.gz --markdown 20230712/f/fair-cli/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 11:46:31] INFO root fetch - processPackages [LbProdRun]: executing diffoscope
+[2023-07-12 11:46:31] INFO root fetch - processPackages [LbProdRun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbProdRun-1.5.0.tar.gz tmp/LbProdRun-1.5.1.tar.gz --markdown 20230712/L/LbProdRun/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-12 11:46:32] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-07-12 11:46:32] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.5.9.tar.gz tmp/suanpan-sprt-0.6.1.tar.gz --markdown 20230712/s/suanpan-sprt/0.5.9-0.6.1/diff.md --exclude *.pyd
+[2023-07-12 11:46:32] INFO root fetch - processPackages [ANNarchy]: Downloading https://files.pythonhosted.org/packages/76/cc/3a7219686a51e4dd535e66549d7d68b0dc32473bcbaefc43d958931bb4bb/ANNarchy-4.7.2.5.tar.gz
+[2023-07-12 11:46:32] INFO root fetch - processPackages [mtng]: executing diffoscope
+[2023-07-12 11:46:32] INFO root fetch - processPackages [mtng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtng-0.7.0.tar.gz tmp/mtng-0.7.1.tar.gz --markdown 20230712/m/mtng/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-12 11:46:32] INFO root fetch - processPackages [ovos-core]: executing diffoscope
+[2023-07-12 11:46:32] INFO root fetch - processPackages [ovos-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip --markdown 20230712/o/ovos-core/0.0.8a8-0.0.8a9/diff.md --exclude *.pyd
+[2023-07-12 11:46:32] INFO root fetch - processPackages [ANNarchy]: executing diffoscope
+[2023-07-12 11:46:32] INFO root fetch - processPackages [ANNarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANNarchy-4.7.2.4.tar.gz tmp/ANNarchy-4.7.2.5.tar.gz --markdown 20230712/A/ANNarchy/4.7.2.4-4.7.2.5/diff.md --exclude *.pyd
+[2023-07-12 11:46:32] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/c4/08/b83b0ebd93210fcd7c5e0165598ea1589ef181cdb120530635cbf0c6cfb6/ytsaurus-spyt-1.70.1b456.post13970065.dev23.tar.gz
+[2023-07-12 11:46:32] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-07-12 11:46:32] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.70.1b451.post5605632.dev23.tar.gz tmp/ytsaurus-spyt-1.70.1b456.post13970065.dev23.tar.gz --markdown 20230712/y/ytsaurus-spyt/1.70.1b451.post5605632.dev23-1.70.1b456.post13970065.dev23/diff.md --exclude *.pyd
+[2023-07-12 11:46:33] INFO root fetch - processPackages [postgreslite]: Remove: archive file [/home/abi/fetcher/tmp/postgreslite-0.1.2.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [postgreslite]: Remove: archive file [/home/abi/fetcher/tmp/postgreslite-0.1.3.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [postgreslite]: Start processing: mtng
+[2023-07-12 11:46:33] INFO root fetch - main [MainThread]: End processing [postgreslite]: success
+[2023-07-12 11:46:33] INFO root fetch - processPackages [bestPR1]: Remove: archive file [/home/abi/fetcher/tmp/bestPR1-0.6.10.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [bestPR1]: Remove: archive file [/home/abi/fetcher/tmp/bestPR1-0.6.9.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [bestPR1]: Start processing: ert
+[2023-07-12 11:46:33] INFO root fetch - main [MainThread]: End processing [bestPR1]: success
+[2023-07-12 11:46:33] INFO root fetch - processPackages [mtng]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [ert]: New version: [5.1.0b3] Old Version: [5.1.0b2]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [LbProdRun]: Remove: archive file [/home/abi/fetcher/tmp/LbProdRun-1.5.0.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [LbProdRun]: Remove: archive file [/home/abi/fetcher/tmp/LbProdRun-1.5.1.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [LbProdRun]: Start processing: flask-me
+[2023-07-12 11:46:33] INFO root fetch - main [MainThread]: End processing [LbProdRun]: success
+[2023-07-12 11:46:33] INFO root fetch - processPackages [flask-me]: New version: [1.0.1] Old Version: [0.1.dev977]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.5.9.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/2b/26/b7282bd9570f0247b6ca5528718dada34c4fe166df3e85cdb8f21b441fc6/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 11:46:33] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.6.1.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [suanpan-sprt]: Start processing: nwebclient
+[2023-07-12 11:46:33] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-07-12 11:46:33] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [mtng]: executing diffoscope
+[2023-07-12 11:46:33] INFO root fetch - processPackages [mtng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtng-0.7.0.tar.gz tmp/mtng-0.7.1.tar.gz --markdown 20230712/m/mtng/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-12 11:46:33] INFO root fetch - processPackages [quality-result-gui]: Remove: archive file [/home/abi/fetcher/tmp/quality-result-gui-2.0.0.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [quality-result-gui]: Remove: archive file [/home/abi/fetcher/tmp/quality-result-gui-2.0.1.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [quality-result-gui]: Start processing: biotrade
+[2023-07-12 11:46:33] INFO root fetch - main [MainThread]: End processing [quality-result-gui]: success
+[2023-07-12 11:46:33] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 11:46:33] INFO root fetch - processPackages [fair-cli]: Remove: archive file [/home/abi/fetcher/tmp/fair_cli-0.8.5.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [fair-cli]: Remove: archive file [/home/abi/fetcher/tmp/fair_cli-0.9.0.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - main [MainThread]: End processing [fair-cli]: success
+[2023-07-12 11:46:33] INFO root fetch - processPackages [flask-me]: Downloading https://files.pythonhosted.org/packages/aa/cc/339b6ac451ee14a6be0c150e6fc7099cf40129d570a919dfb5785052a304/flask_me-0.1.dev977-py3-none-any.whl
+[2023-07-12 11:46:33] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/ce/d4/65d5abc2e7010477d6ba80ef0f47380093c6e2369eb9f3ac2abfd057835b/ert-5.1.0b3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 11:46:33] INFO root fetch - processPackages [mtng]: Remove: archive file [/home/abi/fetcher/tmp/mtng-0.7.0.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [biotrade]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-12 11:46:33] INFO root fetch - processPackages [mtng]: Remove: archive file [/home/abi/fetcher/tmp/mtng-0.7.1.tar.gz]
+[2023-07-12 11:46:33] INFO root fetch - main [MainThread]: End processing [mtng]: success
+[2023-07-12 11:46:34] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 11:46:34] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-07-12 11:46:34] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.1.0b3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230712/e/ert/5.1.0b2-5.1.0b3/diff.md --exclude *.pyd
+[2023-07-12 11:46:34] INFO root fetch - processPackages [biotrade]: Downloading https://files.pythonhosted.org/packages/8f/e2/59cbf96614abe07a7456f67ff0285a1b6de45a9d8ec7998dad8ceda6fb69/biotrade-0.2.4.tar.gz
+[2023-07-12 11:46:34] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 11:46:34] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 11:46:34] INFO root fetch - processPackages [flask-me]: Downloading https://files.pythonhosted.org/packages/5c/6b/b9dbe71d54858388135ee3a4b2021476408b1b4d8ce81f607566947667f9/flask-me-1.0.1.tar.gz
+[2023-07-12 11:46:34] INFO root fetch - processPackages [biotrade]: Downloading https://files.pythonhosted.org/packages/28/2c/e2b375952876bfec09c1434db1026daf46364b1d3e3bc5a015cc96669b0a/biotrade-0.2.5.tar.gz
+[2023-07-12 11:46:34] INFO root fetch - processPackages [flask-me]: executing diffoscope
+[2023-07-12 11:46:34] INFO root fetch - processPackages [flask-me]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_me-0.1.dev977-py3-none-any.whl.zip tmp/flask-me-1.0.1.tar.gz --markdown 20230712/f/flask-me/0.1.dev977-1.0.1/diff.md --exclude *.pyd
+[2023-07-12 11:46:34] ERROR root fetch - processPackages [mtng]: Diffoscope failed: time="2023-07-12T11:46:33+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/mtng-0.7.0.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mtng-0.7.1.tar.gz: No such file or directory
+
+[2023-07-12 11:46:34] INFO root fetch - main [MainThread]: End processing [mtng] error
+[2023-07-12 11:46:34] INFO root fetch - processPackages [biotrade]: executing diffoscope
+[2023-07-12 11:46:34] INFO root fetch - processPackages [biotrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biotrade-0.2.4.tar.gz tmp/biotrade-0.2.5.tar.gz --markdown 20230712/b/biotrade/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-12 11:46:35] INFO root fetch - processPackages [ANNarchy]: Remove: archive file [/home/abi/fetcher/tmp/ANNarchy-4.7.2.4.tar.gz]
+[2023-07-12 11:46:35] INFO root fetch - processPackages [ANNarchy]: Remove: archive file [/home/abi/fetcher/tmp/ANNarchy-4.7.2.5.tar.gz]
+[2023-07-12 11:46:35] INFO root fetch - main [MainThread]: End processing [ANNarchy]: success
+[2023-07-12 11:46:35] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 11:46:35] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 11:46:35] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 11:46:35] INFO root fetch - processPackages [flask-me]: Remove: archive file [/home/abi/fetcher/tmp/flask_me-0.1.dev977-py3-none-any.whl.zip]
+[2023-07-12 11:46:35] INFO root fetch - processPackages [flask-me]: Remove: archive file [/home/abi/fetcher/tmp/flask-me-1.0.1.tar.gz]
+[2023-07-12 11:46:35] INFO root fetch - main [MainThread]: End processing [flask-me]: success
+[2023-07-12 11:46:36] INFO root fetch - processPackages [biotrade]: Remove: archive file [/home/abi/fetcher/tmp/biotrade-0.2.4.tar.gz]
+[2023-07-12 11:46:36] INFO root fetch - processPackages [biotrade]: Remove: archive file [/home/abi/fetcher/tmp/biotrade-0.2.5.tar.gz]
+[2023-07-12 11:46:36] INFO root fetch - main [MainThread]: End processing [biotrade]: success
+[2023-07-12 11:46:37] INFO root fetch - processPackages [ytsaurus-spyt]: Remove: archive file [/home/abi/fetcher/tmp/ytsaurus-spyt-1.70.1b451.post5605632.dev23.tar.gz]
+[2023-07-12 11:46:37] INFO root fetch - processPackages [ytsaurus-spyt]: Remove: archive file [/home/abi/fetcher/tmp/ytsaurus-spyt-1.70.1b456.post13970065.dev23.tar.gz]
+[2023-07-12 11:46:37] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-07-12 11:46:38] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip]
+[2023-07-12 11:46:38] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip]
+[2023-07-12 11:46:38] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
+[2023-07-12 11:46:40] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-12 11:46:40] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-12 11:46:40] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-07-12 11:46:40] INFO root fetch - main [MainThread]: Store serial: [18858325]
