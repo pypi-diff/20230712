@@ -20194,3 +20194,133 @@ AssertionError: tmp/flask_validators-0.5.tar.gz does not exist
 [2023-07-12 13:17:23] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.43.tar.gz]
 [2023-07-12 13:17:23] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
 [2023-07-12 13:17:23] INFO root fetch - main [MainThread]: Store serial: [18859343]
+[2023-07-12 13:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18859343]
+[2023-07-12 13:22:36] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-12 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tah-data
+[2023-07-12 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clannotation
+[2023-07-12 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcloud-setup
+[2023-07-12 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langcorn
+[2023-07-12 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invoicing-pdf-harshith
+[2023-07-12 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlmodelservice
+[2023-07-12 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PySortAlgos
+[2023-07-12 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: renumics-spotlight
+[2023-07-12 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mystring
+[2023-07-12 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fcs-ql-parser
+[2023-07-12 13:22:36] INFO root fetch - processPackages [qcloud-setup]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-12 13:22:36] INFO root fetch - processPackages [fcs-ql-parser]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-12 13:22:36] INFO root fetch - processPackages [tah-data]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-12 13:22:36] INFO root fetch - processPackages [PySortAlgos]: New version: [0.4] Old Version: [0.2]
+[2023-07-12 13:22:36] INFO root fetch - processPackages [mystring]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 13:22:36] INFO root fetch - processPackages [clannotation]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-12 13:22:36] INFO root fetch - processPackages [langcorn]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 13:22:36] WARNING root fetch - processPackages [sqlmodelservice]: Skipping, unable to determine old version
+[2023-07-12 13:22:36] INFO root fetch - processPackages [sqlmodelservice]: Start processing: tb-nightly
+[2023-07-12 13:22:36] INFO root fetch - main [MainThread]: End processing [sqlmodelservice] error
+[2023-07-12 13:22:36] INFO root fetch - processPackages [renumics-spotlight]: New version: [1.3.0rc4] Old Version: [1.3.0rc3]
+[2023-07-12 13:22:36] WARNING root fetch - processPackages [invoicing-pdf-harshith]: Skipping, unable to determine old version
+[2023-07-12 13:22:36] INFO root fetch - processPackages [invoicing-pdf-harshith]: Start processing: scribelex
+[2023-07-12 13:22:36] INFO root fetch - main [MainThread]: End processing [invoicing-pdf-harshith] error
+[2023-07-12 13:22:36] INFO root fetch - processPackages [scribelex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 13:22:36] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-12 13:22:36] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/7b/b2/93d76068d648339a62fdf56ea563149059b40acd2f903f5abe247ef04a25/mystring-0.0.98.tar.gz
+[2023-07-12 13:22:36] INFO root fetch - processPackages [fcs-ql-parser]: Downloading https://files.pythonhosted.org/packages/67/b6/7ff47d15f7e4bdd245a4118eab6202b59f56b40783cdbf744f004c735312/fcs-ql-parser-1.0.0.tar.gz
+[2023-07-12 13:22:36] INFO root fetch - processPackages [langcorn]: Downloading https://files.pythonhosted.org/packages/5b/b6/4e339350d08bda1b703ea151ef499beaa7f114f2353a7bb28e0068339692/langcorn-0.0.8.tar.gz
+[2023-07-12 13:22:36] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/fb/a3/7683fb5099f2677dd60486c19f1c67ad303543d83dc89287206b6b3d58f0/renumics_spotlight-1.3.0rc3-py3-none-any.whl
+[2023-07-12 13:22:36] INFO root fetch - processPackages [tah-data]: Downloading https://files.pythonhosted.org/packages/7c/31/6aaa3b73e80a5e5a0f990a19e7b8089fa20124f3df115064476f6706768f/tah_data-1.1.1.tar.gz
+[2023-07-12 13:22:36] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/7f/0b/3610d2f60cb4dac9af01db4c4e21c53b791b14422ef34569add96311c0ab/qcloud_setup-1.0.1.tar.gz
+[2023-07-12 13:22:36] INFO root fetch - processPackages [PySortAlgos]: Downloading https://files.pythonhosted.org/packages/4c/a3/70f0b0652432cf81941ec2be966eb79f58d560177fd7f41c69dc053d93f6/PySortAlgos-0.2.tar.gz
+[2023-07-12 13:22:37] INFO root fetch - processPackages [clannotation]: Downloading https://files.pythonhosted.org/packages/9b/be/20610e5e60e5952b6957de6d89a1609b8130b539e25a88cddd25521197bd/clannotation-0.0.7.tar.gz
+[2023-07-12 13:22:37] INFO root fetch - processPackages [scribelex]: Downloading https://files.pythonhosted.org/packages/64/53/832f25379dcf726148e1f4e1e3a840f2755058bc9e9327ca0062120e0dd3/scribelex-1.0.8.tar.gz
+[2023-07-12 13:22:37] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-12 13:22:37] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-07-12 13:22:37] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.98.tar.gz tmp/mystring-0.0.99.tar.gz --markdown 20230712/m/mystring/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 13:22:37] INFO root fetch - processPackages [langcorn]: Downloading https://files.pythonhosted.org/packages/15/e9/60c38955fbe18d183e7c4fe77ca679aa9819b4370f45bad245d07185c4b4/langcorn-0.0.9.tar.gz
+[2023-07-12 13:22:37] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/a7/05/a70c5ff58078b5ccb8b4ab0f79224ad1f192b042536fed3140795152b4f1/renumics_spotlight-1.3.0rc4-py3-none-any.whl
+[2023-07-12 13:22:37] INFO root fetch - processPackages [scribelex]: Downloading https://files.pythonhosted.org/packages/75/b3/8b5001b3f148f4060c7792db770fee626d53e78d0d413a9d00c42630469a/scribelex-1.0.9.tar.gz
+[2023-07-12 13:22:37] INFO root fetch - processPackages [fcs-ql-parser]: Downloading https://files.pythonhosted.org/packages/0a/dd/ab3973b8534f7761ef764b3867a7d910a2a8d391b20b16e89eb7446d6012/fcs-ql-parser-1.0.1.tar.gz
+[2023-07-12 13:22:37] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-12 13:22:37] INFO root fetch - processPackages [langcorn]: executing diffoscope
+[2023-07-12 13:22:37] INFO root fetch - processPackages [langcorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langcorn-0.0.8.tar.gz tmp/langcorn-0.0.9.tar.gz --markdown 20230712/l/langcorn/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 13:22:37] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/7f/ab/cbc9325c78153960ec2e14f5fd1f5a221d5b1b91c857eafef1bdbcbf4844/qcloud_setup-1.0.2.tar.gz
+[2023-07-12 13:22:37] INFO root fetch - processPackages [clannotation]: Downloading https://files.pythonhosted.org/packages/50/0f/0950d5e7c98b8b63677dc7805a465aee71f927d9fb2e6dd8d9d5f9d53409/clannotation-0.0.8.tar.gz
+[2023-07-12 13:22:37] INFO root fetch - processPackages [scribelex]: executing diffoscope
+[2023-07-12 13:22:37] INFO root fetch - processPackages [scribelex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scribelex-1.0.8.tar.gz tmp/scribelex-1.0.9.tar.gz --markdown 20230712/s/scribelex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 13:22:37] INFO root fetch - processPackages [PySortAlgos]: Downloading https://files.pythonhosted.org/packages/8c/25/7f074abe9d51c5e2c5b6e34fd27b2a251b6fac705e4b6416cdfd78f04edf/PySortAlgos-0.4.tar.gz
+[2023-07-12 13:22:37] INFO root fetch - processPackages [tah-data]: Downloading https://files.pythonhosted.org/packages/62/dd/8ab14f8938cb9419d7b93e9639c7d990a31545cab15c7438353b033a11e3/tah_data-1.2.0.tar.gz
+[2023-07-12 13:22:37] INFO root fetch - processPackages [renumics-spotlight]: executing diffoscope
+[2023-07-12 13:22:37] INFO root fetch - processPackages [renumics-spotlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renumics_spotlight-1.3.0rc3-py3-none-any.whl.zip tmp/renumics_spotlight-1.3.0rc4-py3-none-any.whl.zip --markdown 20230712/r/renumics-spotlight/1.3.0rc3-1.3.0rc4/diff.md --exclude *.pyd
+[2023-07-12 13:22:37] INFO root fetch - processPackages [qcloud-setup]: executing diffoscope
+[2023-07-12 13:22:37] INFO root fetch - processPackages [qcloud-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud_setup-1.0.1.tar.gz tmp/qcloud_setup-1.0.2.tar.gz --markdown 20230712/q/qcloud-setup/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-12 13:22:37] INFO root fetch - processPackages [fcs-ql-parser]: executing diffoscope
+[2023-07-12 13:22:37] INFO root fetch - processPackages [fcs-ql-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcs-ql-parser-1.0.0.tar.gz tmp/fcs-ql-parser-1.0.1.tar.gz --markdown 20230712/f/fcs-ql-parser/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-12 13:22:37] INFO root fetch - processPackages [tah-data]: executing diffoscope
+[2023-07-12 13:22:37] INFO root fetch - processPackages [tah-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tah_data-1.1.1.tar.gz tmp/tah_data-1.2.0.tar.gz --markdown 20230712/t/tah-data/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-12 13:22:37] INFO root fetch - processPackages [clannotation]: executing diffoscope
+[2023-07-12 13:22:37] INFO root fetch - processPackages [clannotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clannotation-0.0.7.tar.gz tmp/clannotation-0.0.8.tar.gz --markdown 20230712/c/clannotation/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-12 13:22:37] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-12 13:22:37] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230712/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-12 13:22:37] INFO root fetch - processPackages [PySortAlgos]: executing diffoscope
+[2023-07-12 13:22:37] INFO root fetch - processPackages [PySortAlgos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySortAlgos-0.2.tar.gz tmp/PySortAlgos-0.4.tar.gz --markdown 20230712/P/PySortAlgos/0.2-0.4/diff.md --exclude *.pyd
+[2023-07-12 13:22:38] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.98.tar.gz]
+[2023-07-12 13:22:38] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.99.tar.gz]
+[2023-07-12 13:22:38] INFO root fetch - processPackages [mystring]: Start processing: pydeezer-asy
+[2023-07-12 13:22:38] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-07-12 13:22:38] INFO root fetch - processPackages [pydeezer-asy]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-12 13:22:38] INFO root fetch - processPackages [pydeezer-asy]: Downloading https://files.pythonhosted.org/packages/71/fc/7efc545823fdecd078c7677dd1ba0feaa2cd843f32608d27d0cc186f1596/pydeezer_asy-1.1.0.tar.gz
+[2023-07-12 13:22:39] INFO root fetch - processPackages [langcorn]: Remove: archive file [/home/abi/fetcher/tmp/langcorn-0.0.8.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [langcorn]: Remove: archive file [/home/abi/fetcher/tmp/langcorn-0.0.9.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [langcorn]: Start processing: grai-source-postgres
+[2023-07-12 13:22:39] INFO root fetch - main [MainThread]: End processing [langcorn]: success
+[2023-07-12 13:22:39] INFO root fetch - processPackages [scribelex]: Remove: archive file [/home/abi/fetcher/tmp/scribelex-1.0.8.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [scribelex]: Remove: archive file [/home/abi/fetcher/tmp/scribelex-1.0.9.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [scribelex]: Start processing: NearBeach
+[2023-07-12 13:22:39] INFO root fetch - main [MainThread]: End processing [scribelex]: success
+[2023-07-12 13:22:39] INFO root fetch - processPackages [grai-source-postgres]: New version: [0.2.0a4] Old Version: [0.2.0a3]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [tah-data]: Remove: archive file [/home/abi/fetcher/tmp/tah_data-1.1.1.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [tah-data]: Remove: archive file [/home/abi/fetcher/tmp/tah_data-1.2.0.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [tah-data]: Start processing: sqlmodelservice
+[2023-07-12 13:22:39] INFO root fetch - main [MainThread]: End processing [tah-data]: success
+[2023-07-12 13:22:39] INFO root fetch - processPackages [pydeezer-asy]: Downloading https://files.pythonhosted.org/packages/3d/22/6b9aa4ccf295bb3d0d693fbb53736c01a9ecec11d33a29285979f27df3d5/pydeezer_asy-1.2.0.tar.gz
+[2023-07-12 13:22:39] INFO root fetch - processPackages [sqlmodelservice]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [NearBeach]: New version: [0.30.1] Old Version: [0.30.0rc4]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [grai-source-postgres]: Downloading https://files.pythonhosted.org/packages/19/be/e2babee1dda07250cf6fb957bfc98c2bedd90fd696a90098cf2d0cf94f3a/grai_source_postgres-0.2.0a3.tar.gz
+[2023-07-12 13:22:39] INFO root fetch - processPackages [PySortAlgos]: Remove: archive file [/home/abi/fetcher/tmp/PySortAlgos-0.2.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [PySortAlgos]: Remove: archive file [/home/abi/fetcher/tmp/PySortAlgos-0.4.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - main [MainThread]: End processing [PySortAlgos]: success
+[2023-07-12 13:22:39] INFO root fetch - processPackages [fcs-ql-parser]: Remove: archive file [/home/abi/fetcher/tmp/fcs-ql-parser-1.0.0.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [fcs-ql-parser]: Remove: archive file [/home/abi/fetcher/tmp/fcs-ql-parser-1.0.1.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - main [MainThread]: End processing [fcs-ql-parser]: success
+[2023-07-12 13:22:39] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.1.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.2.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - main [MainThread]: End processing [qcloud-setup]: success
+[2023-07-12 13:22:39] INFO root fetch - processPackages [sqlmodelservice]: Downloading https://files.pythonhosted.org/packages/88/d4/af6a04bd6aa9765bb4cbe981e0b14f766d0063f6a9dc32e617a10894bccb/sqlmodelservice-0.1.0.tar.gz
+[2023-07-12 13:22:39] INFO root fetch - processPackages [clannotation]: Remove: archive file [/home/abi/fetcher/tmp/clannotation-0.0.7.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - processPackages [clannotation]: Remove: archive file [/home/abi/fetcher/tmp/clannotation-0.0.8.tar.gz]
+[2023-07-12 13:22:39] INFO root fetch - main [MainThread]: End processing [clannotation]: success
+[2023-07-12 13:22:39] INFO root fetch - processPackages [pydeezer-asy]: executing diffoscope
+[2023-07-12 13:22:39] INFO root fetch - processPackages [pydeezer-asy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeezer_asy-1.1.0.tar.gz tmp/pydeezer_asy-1.2.0.tar.gz --markdown 20230712/p/pydeezer-asy/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-12 13:22:39] INFO root fetch - processPackages [NearBeach]: Downloading https://files.pythonhosted.org/packages/83/c2/6ebeb344831efe0cd20f506494218a707b3548d8493397b79a691b91b1cb/NearBeach-0.30.0rc4.tar.gz
+[2023-07-12 13:22:39] INFO root fetch - processPackages [grai-source-postgres]: Downloading https://files.pythonhosted.org/packages/de/d1/104bd7335606e041be13a282ed17ed7fb1d39781a910ccc50d156cf1ca26/grai_source_postgres-0.2.0a4.tar.gz
+[2023-07-12 13:22:39] INFO root fetch - processPackages [grai-source-postgres]: executing diffoscope
+[2023-07-12 13:22:39] INFO root fetch - processPackages [grai-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_postgres-0.2.0a3.tar.gz tmp/grai_source_postgres-0.2.0a4.tar.gz --markdown 20230712/g/grai-source-postgres/0.2.0a3-0.2.0a4/diff.md --exclude *.pyd
+[2023-07-12 13:22:40] INFO root fetch - processPackages [sqlmodelservice]: Downloading https://files.pythonhosted.org/packages/a1/ec/dbc382c3b68aa7725f5357bc2d4505115510b5402cd0265f08f34a3d351b/sqlmodelservice-0.2.0.tar.gz
+[2023-07-12 13:22:40] INFO root fetch - processPackages [sqlmodelservice]: executing diffoscope
+[2023-07-12 13:22:40] INFO root fetch - processPackages [sqlmodelservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmodelservice-0.1.0.tar.gz tmp/sqlmodelservice-0.2.0.tar.gz --markdown 20230712/s/sqlmodelservice/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-12 13:22:40] INFO root fetch - processPackages [pydeezer-asy]: Remove: archive file [/home/abi/fetcher/tmp/pydeezer_asy-1.1.0.tar.gz]
+[2023-07-12 13:22:40] INFO root fetch - processPackages [pydeezer-asy]: Remove: archive file [/home/abi/fetcher/tmp/pydeezer_asy-1.2.0.tar.gz]
+[2023-07-12 13:22:40] INFO root fetch - main [MainThread]: End processing [pydeezer-asy]: success
+[2023-07-12 13:22:40] WARNING root fetch - processPackages [NearBeach]: Skipping package: exceeds size limit 15031231>=10485760
+[2023-07-12 13:22:40] INFO root fetch - main [MainThread]: End processing [NearBeach] error
+[2023-07-12 13:22:40] INFO root fetch - processPackages [grai-source-postgres]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_postgres-0.2.0a3.tar.gz]
+[2023-07-12 13:22:40] INFO root fetch - processPackages [grai-source-postgres]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_postgres-0.2.0a4.tar.gz]
+[2023-07-12 13:22:40] INFO root fetch - main [MainThread]: End processing [grai-source-postgres]: success
+[2023-07-12 13:22:40] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-12 13:22:40] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-12 13:22:40] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-12 13:22:41] INFO root fetch - processPackages [sqlmodelservice]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodelservice-0.1.0.tar.gz]
+[2023-07-12 13:22:41] INFO root fetch - processPackages [sqlmodelservice]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodelservice-0.2.0.tar.gz]
+[2023-07-12 13:22:41] INFO root fetch - main [MainThread]: End processing [sqlmodelservice]: success
+[2023-07-12 13:23:05] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc3-py3-none-any.whl.zip]
+[2023-07-12 13:23:05] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc4-py3-none-any.whl.zip]
+[2023-07-12 13:23:05] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
+[2023-07-12 13:23:05] INFO root fetch - main [MainThread]: Store serial: [18859388]
