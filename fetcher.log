@@ -19773,3 +19773,183 @@ AssertionError: tmp/flask_validators-0.5.tar.gz does not exist
 [2023-07-12 13:01:11] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip]
 [2023-07-12 13:01:11] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
 [2023-07-12 13:01:11] INFO root fetch - main [MainThread]: Store serial: [18859141]
+[2023-07-12 13:06:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18859141]
+[2023-07-12 13:06:21] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molgenis-emx2-pyclient
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: route-visualization
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ttb
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grafiki
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: encord-active
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: barlidb
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qiskit-aer-gpu-cu11
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xj-role
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: helios-rl
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blocksat-cli
+[2023-07-12 13:06:21] INFO root fetch - processPackages [route-visualization]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-12 13:06:21] WARNING root fetch - processPackages [ttb]: Skipping, unable to determine old version
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ttb]: Start processing: swiftly-unix
+[2023-07-12 13:06:21] INFO root fetch - main [MainThread]: End processing [ttb] error
+[2023-07-12 13:06:21] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.203.0] Old Version: [8.202.3]
+[2023-07-12 13:06:21] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 13:06:21] WARNING root fetch - processPackages [qiskit-aer-gpu-cu11]: Skipping, unable to determine old version
+[2023-07-12 13:06:21] INFO root fetch - processPackages [qiskit-aer-gpu-cu11]: Start processing: ramodels
+[2023-07-12 13:06:21] INFO root fetch - main [MainThread]: End processing [qiskit-aer-gpu-cu11] error
+[2023-07-12 13:06:21] INFO root fetch - processPackages [blocksat-cli]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-12 13:06:21] INFO root fetch - processPackages [barlidb]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-12 13:06:21] INFO root fetch - processPackages [encord-active]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 13:06:21] WARNING root fetch - processPackages [grafiki]: Skipping, unable to determine old version
+[2023-07-12 13:06:21] INFO root fetch - processPackages [grafiki]: Start processing: velintegrator
+[2023-07-12 13:06:21] INFO root fetch - main [MainThread]: End processing [grafiki] error
+[2023-07-12 13:06:21] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.86]
+[2023-07-12 13:06:21] INFO root fetch - processPackages [swiftly-unix]: New version: [0.1.21] Old Version: [0.1.20]
+[2023-07-12 13:06:21] INFO root fetch - processPackages [velintegrator]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-12 13:06:21] INFO root fetch - processPackages [route-visualization]: Downloading https://files.pythonhosted.org/packages/28/88/b3221e993d9bf9397320bc8136b6d1129d3c1bca5d7d416c7ee840361ba8/route_visualization-0.0.2-py3-none-any.whl
+[2023-07-12 13:06:21] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/14/53/4cb3529f62b21b97e90761ad702d4e864b643e4772935fb9c464f8ab6758/encord-active-0.1.8.tar.gz
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-12 13:06:21] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-12 13:06:21] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/c4/35/58f2a1f86d0cc1ac9ff0a806523a17f30c731be0cfbfe5762d064f159899/molgenis_emx2_pyclient-8.202.3.tar.gz
+[2023-07-12 13:06:21] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/15/0b/95a5bced29a3f9b725920af9f9a5fd8b35d521718209519b4bf3593feeb4/swiftly-unix-0.1.20.tar.gz
+[2023-07-12 13:06:21] INFO root fetch - processPackages [barlidb]: Downloading https://files.pythonhosted.org/packages/c1/4d/b90f00ee9e6eccddf17d767b9923a809d5e88dcab5ee0245c276a606cf52/barlidb-0.1.5.tar.gz
+[2023-07-12 13:06:21] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-12 13:06:21] INFO root fetch - processPackages [blocksat-cli]: Downloading https://files.pythonhosted.org/packages/02/5e/58e602bec01db1e17460554c1ff15f8b3472ff3c879ef6c2a51556d43791/blocksat-cli-0.4.5.tar.gz
+[2023-07-12 13:06:21] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/59/aa/857de70021f7854ed375b86835783578acdf2fa15112f659636d68e08ad4/xj_role-1.0.86.tar.gz
+[2023-07-12 13:06:21] INFO root fetch - processPackages [velintegrator]: Downloading https://files.pythonhosted.org/packages/01/70/b2bca76eb87c2733f85197cfe98d4cf52aa56f1eb9fecd381a41c2d17bc2/velintegrator-1.0.3.tar.gz
+[2023-07-12 13:06:21] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/c3/14/4bad612dc1f21c818799f76b076d38fbaeeaedf2288d7c41c915b0cdce4d/encord-active-0.1.9.tar.gz
+[2023-07-12 13:06:22] INFO root fetch - processPackages [route-visualization]: Downloading https://files.pythonhosted.org/packages/38/e4/fd547f0c31c891fd724103e202d27a9c48cb313f87e5ad9c3cd2f3abc151/route_visualization-0.0.3-py3-none-any.whl
+[2023-07-12 13:06:22] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-12 13:06:22] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/c2/7e/d8ed7c6533fd0cacafacb87ff2433b7e0188ac9574f07999ba6f70138f4d/molgenis_emx2_pyclient-8.203.0.tar.gz
+[2023-07-12 13:06:22] INFO root fetch - processPackages [encord-active]: executing diffoscope
+[2023-07-12 13:06:22] INFO root fetch - processPackages [encord-active]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-active-0.1.8.tar.gz tmp/encord-active-0.1.9.tar.gz --markdown 20230712/e/encord-active/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 13:06:22] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-12 13:06:22] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/f7/4f/48fbf9537a7c46db46aa30331168d07e114468e49f2e6d2ed7bc820a4ee9/swiftly-unix-0.1.21.tar.gz
+[2023-07-12 13:06:22] INFO root fetch - processPackages [barlidb]: Downloading https://files.pythonhosted.org/packages/03/a1/b0872e5a885965df0fbb734691fd5620969b4c2119d5cab35dd816f2f052/barlidb-0.1.6.tar.gz
+[2023-07-12 13:06:22] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-12 13:06:22] INFO root fetch - processPackages [route-visualization]: executing diffoscope
+[2023-07-12 13:06:22] INFO root fetch - processPackages [route-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/route_visualization-0.0.2-py3-none-any.whl.zip tmp/route_visualization-0.0.3-py3-none-any.whl.zip --markdown 20230712/r/route-visualization/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-12 13:06:22] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-12 13:06:22] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230712/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 13:06:22] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-12 13:06:22] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.202.3.tar.gz tmp/molgenis_emx2_pyclient-8.203.0.tar.gz --markdown 20230712/m/molgenis-emx2-pyclient/8.202.3-8.203.0/diff.md --exclude *.pyd
+[2023-07-12 13:06:22] INFO root fetch - processPackages [velintegrator]: Downloading https://files.pythonhosted.org/packages/de/53/e0cdb8a349a3c314b9ceb1473e7dd9d7f33ebcbbf490146079819815676c/velintegrator-1.0.4.tar.gz
+[2023-07-12 13:06:22] INFO root fetch - processPackages [barlidb]: executing diffoscope
+[2023-07-12 13:06:22] INFO root fetch - processPackages [barlidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barlidb-0.1.5.tar.gz tmp/barlidb-0.1.6.tar.gz --markdown 20230712/b/barlidb/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-12 13:06:22] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-12 13:06:22] INFO root fetch - processPackages [swiftly-unix]: executing diffoscope
+[2023-07-12 13:06:22] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230712/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-12 13:06:22] INFO root fetch - processPackages [swiftly-unix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-unix-0.1.20.tar.gz tmp/swiftly-unix-0.1.21.tar.gz --markdown 20230712/s/swiftly-unix/0.1.20-0.1.21/diff.md --exclude *.pyd
+[2023-07-12 13:06:22] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-12 13:06:22] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.86.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230712/x/xj-role/1.0.86-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 13:06:22] INFO root fetch - processPackages [velintegrator]: executing diffoscope
+[2023-07-12 13:06:22] INFO root fetch - processPackages [velintegrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velintegrator-1.0.3.tar.gz tmp/velintegrator-1.0.4.tar.gz --markdown 20230712/v/velintegrator/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-12 13:06:22] INFO root fetch - processPackages [blocksat-cli]: Downloading https://files.pythonhosted.org/packages/38/ed/08093eb50c8f007053ac35887dc902ff2ba303492e7793d93a661d26919a/blocksat-cli-0.4.6.tar.gz
+[2023-07-12 13:06:22] INFO root fetch - processPackages [blocksat-cli]: executing diffoscope
+[2023-07-12 13:06:22] INFO root fetch - processPackages [blocksat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blocksat-cli-0.4.5.tar.gz tmp/blocksat-cli-0.4.6.tar.gz --markdown 20230712/b/blocksat-cli/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-12 13:06:23] INFO root fetch - processPackages [route-visualization]: Remove: archive file [/home/abi/fetcher/tmp/route_visualization-0.0.2-py3-none-any.whl.zip]
+[2023-07-12 13:06:23] INFO root fetch - processPackages [route-visualization]: Remove: archive file [/home/abi/fetcher/tmp/route_visualization-0.0.3-py3-none-any.whl.zip]
+[2023-07-12 13:06:23] INFO root fetch - processPackages [route-visualization]: Start processing: mscales
+[2023-07-12 13:06:23] INFO root fetch - main [MainThread]: End processing [route-visualization]: success
+[2023-07-12 13:06:24] INFO root fetch - processPackages [mscales]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.202.3.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.203.0.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Start processing: metaplanet-room-chat
+[2023-07-12 13:06:24] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-12 13:06:24] WARNING root fetch - processPackages [metaplanet-room-chat]: Skipping, unable to determine old version
+[2023-07-12 13:06:24] INFO root fetch - processPackages [metaplanet-room-chat]: Start processing: mystring
+[2023-07-12 13:06:24] INFO root fetch - main [MainThread]: End processing [metaplanet-room-chat] error
+[2023-07-12 13:06:24] INFO root fetch - processPackages [mystring]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [mscales]: Downloading https://files.pythonhosted.org/packages/69/f5/5b60ab251e82d9eb1f48346ba52dd4bdd5cdd5cadc94186e04a968a94a54/mscales-1.3.5.tar.gz
+[2023-07-12 13:06:24] INFO root fetch - processPackages [barlidb]: Remove: archive file [/home/abi/fetcher/tmp/barlidb-0.1.5.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [barlidb]: Remove: archive file [/home/abi/fetcher/tmp/barlidb-0.1.6.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [barlidb]: Start processing: zawolib
+[2023-07-12 13:06:24] INFO root fetch - main [MainThread]: End processing [barlidb]: success
+[2023-07-12 13:06:24] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/7b/b2/93d76068d648339a62fdf56ea563149059b40acd2f903f5abe247ef04a25/mystring-0.0.98.tar.gz
+[2023-07-12 13:06:24] WARNING root fetch - processPackages [zawolib]: Skipping, unable to determine old version
+[2023-07-12 13:06:24] INFO root fetch - processPackages [zawolib]: Start processing: comet-ml
+[2023-07-12 13:06:24] INFO root fetch - main [MainThread]: End processing [zawolib] error
+[2023-07-12 13:06:24] INFO root fetch - processPackages [swiftly-unix]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-unix-0.1.20.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [swiftly-unix]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-unix-0.1.21.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [swiftly-unix]: Start processing: jigsawwm
+[2023-07-12 13:06:24] INFO root fetch - main [MainThread]: End processing [swiftly-unix]: success
+[2023-07-12 13:06:24] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [helios-rl]: Start processing: mlbi-at-dku-lib
+[2023-07-12 13:06:24] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-12 13:06:24] INFO root fetch - processPackages [comet-ml]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.86.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [xj-role]: Start processing: tlgateway
+[2023-07-12 13:06:24] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-12 13:06:24] INFO root fetch - processPackages [velintegrator]: Remove: archive file [/home/abi/fetcher/tmp/velintegrator-1.0.3.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [velintegrator]: Remove: archive file [/home/abi/fetcher/tmp/velintegrator-1.0.4.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [velintegrator]: Start processing: Alpha-Rabbit
+[2023-07-12 13:06:24] INFO root fetch - main [MainThread]: End processing [velintegrator]: success
+[2023-07-12 13:06:24] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [ramodels]: Start processing: pytlgateway
+[2023-07-12 13:06:24] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-12 13:06:24] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/d1/74/c8949d037142e817bcd6521db8140d98f1b99f953a5d577bec5ae132355b/mystring-0.0.99.tar.gz
+[2023-07-12 13:06:24] INFO root fetch - processPackages [jigsawwm]: New version: [2.0.0] Old Version: [1.2.1]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [mscales]: Downloading https://files.pythonhosted.org/packages/4d/e9/294dfbb15a5d6d4c59a7bc7dadecc79ceadc56ad5cef9f7ef0681819386c/mscales-1.3.6.tar.gz
+[2023-07-12 13:06:24] INFO root fetch - processPackages [tlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/35/82/6173c866ce153a468f677358bef5e57c1e22a09b5be39538aa0856e51671/mlbi_at_dku_lib-0.2.5.tar.gz
+[2023-07-12 13:06:24] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-07-12 13:06:24] INFO root fetch - processPackages [pytlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.98.tar.gz tmp/mystring-0.0.99.tar.gz --markdown 20230712/m/mystring/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 13:06:24] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/fb/d1/5b364541fde741bc08ab30b76b39bd9dceaf41e597c7878d897b2397d984/comet_ml-3.9.0.tar.gz
+[2023-07-12 13:06:24] INFO root fetch - processPackages [mscales]: executing diffoscope
+[2023-07-12 13:06:24] INFO root fetch - processPackages [mscales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mscales-1.3.5.tar.gz tmp/mscales-1.3.6.tar.gz --markdown 20230712/m/mscales/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-12 13:06:24] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/72/23/8b4ab5c409ca84ec1c0478b8447fcb43f8b99641e60ecaf26183e1c7a9c6/Alpha_Rabbit-1.4.7.tar.gz
+[2023-07-12 13:06:24] INFO root fetch - processPackages [jigsawwm]: Downloading https://files.pythonhosted.org/packages/d4/0b/b5e38e7bc4ed6b5ecaf328412a9ef3a1b407bbe17d039013b6b368e19f1c/jigsawwm-1.2.1.tar.gz
+[2023-07-12 13:06:24] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.8.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.9.tar.gz]
+[2023-07-12 13:06:24] INFO root fetch - main [MainThread]: End processing [encord-active]: success
+[2023-07-12 13:06:24] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/35/b5/caf8984bb26f6f0882adefb2fe248f314943e74fc6f5becd2e33c58505a1/tlgateway-0.2.8.tar.gz
+[2023-07-12 13:06:25] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/0b/6e/e2fc0214c9d6a7c53afde40502cdbafda192a0978fc61e4aa29c752eaf6a/Alpha_Rabbit-1.4.8.tar.gz
+[2023-07-12 13:06:25] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/e3/0b/a307305c8607d605d2d5f0ff5730b4e6e0455c02ef1ba9252280a95dc55a/pytlgateway-0.2.8.tar.gz
+[2023-07-12 13:06:25] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/bb/43/66954f46c4858595a8d73bec03cd793746dc60a12384ca77908e0c3cc2c0/mlbi_at_dku_lib-0.2.6.tar.gz
+[2023-07-12 13:06:25] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-07-12 13:06:25] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.4.7.tar.gz tmp/Alpha_Rabbit-1.4.8.tar.gz --markdown 20230712/A/Alpha-Rabbit/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-12 13:06:25] INFO root fetch - processPackages [jigsawwm]: Downloading https://files.pythonhosted.org/packages/4a/c0/e8f83865a172e5f3a98e6e32cb52a17f1e6c7702a7cb0efb9a8e2430bd41/jigsawwm-2.0.0.tar.gz
+[2023-07-12 13:06:25] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/17/97/9f1e153f6b4df253f5eea38e51f9be34256bc8bf0d363d01a1ffc2d2d668/comet_ml-3.9.1.tar.gz
+[2023-07-12 13:06:25] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/1b/83/52f36a3a7bf56d581a8138b72788416f2e9432ff0b53ebeecada9a66e70a/tlgateway-0.2.9.tar.gz
+[2023-07-12 13:06:25] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-07-12 13:06:25] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.2.5.tar.gz tmp/mlbi_at_dku_lib-0.2.6.tar.gz --markdown 20230712/m/mlbi-at-dku-lib/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-12 13:06:25] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/9f/e6/9b96f04a4f3ec43222c9c9fc99dfdaa689ae9fa03583b57727c461413769/pytlgateway-0.2.9.tar.gz
+[2023-07-12 13:06:25] INFO root fetch - processPackages [jigsawwm]: executing diffoscope
+[2023-07-12 13:06:25] INFO root fetch - processPackages [jigsawwm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jigsawwm-1.2.1.tar.gz tmp/jigsawwm-2.0.0.tar.gz --markdown 20230712/j/jigsawwm/1.2.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-12 13:06:25] INFO root fetch - processPackages [comet-ml]: executing diffoscope
+[2023-07-12 13:06:25] INFO root fetch - processPackages [comet-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_ml-3.9.0.tar.gz tmp/comet_ml-3.9.1.tar.gz --markdown 20230712/c/comet-ml/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-12 13:06:25] INFO root fetch - processPackages [tlgateway]: executing diffoscope
+[2023-07-12 13:06:25] INFO root fetch - processPackages [tlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlgateway-0.2.8.tar.gz tmp/tlgateway-0.2.9.tar.gz --markdown 20230712/t/tlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-12 13:06:25] INFO root fetch - processPackages [pytlgateway]: executing diffoscope
+[2023-07-12 13:06:25] INFO root fetch - processPackages [pytlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytlgateway-0.2.8.tar.gz tmp/pytlgateway-0.2.9.tar.gz --markdown 20230712/p/pytlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-12 13:06:25] INFO root fetch - processPackages [blocksat-cli]: Remove: archive file [/home/abi/fetcher/tmp/blocksat-cli-0.4.5.tar.gz]
+[2023-07-12 13:06:25] INFO root fetch - processPackages [blocksat-cli]: Remove: archive file [/home/abi/fetcher/tmp/blocksat-cli-0.4.6.tar.gz]
+[2023-07-12 13:06:25] INFO root fetch - main [MainThread]: End processing [blocksat-cli]: success
+[2023-07-12 13:06:26] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.98.tar.gz]
+[2023-07-12 13:06:26] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.99.tar.gz]
+[2023-07-12 13:06:26] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-07-12 13:06:26] INFO root fetch - processPackages [mscales]: Remove: archive file [/home/abi/fetcher/tmp/mscales-1.3.5.tar.gz]
+[2023-07-12 13:06:26] INFO root fetch - processPackages [mscales]: Remove: archive file [/home/abi/fetcher/tmp/mscales-1.3.6.tar.gz]
+[2023-07-12 13:06:26] INFO root fetch - main [MainThread]: End processing [mscales]: success
+[2023-07-12 13:06:26] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.7.tar.gz]
+[2023-07-12 13:06:26] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.8.tar.gz]
+[2023-07-12 13:06:26] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-07-12 13:06:26] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.8.tar.gz]
+[2023-07-12 13:06:26] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.9.tar.gz]
+[2023-07-12 13:06:26] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
+[2023-07-12 13:06:26] INFO root fetch - processPackages [jigsawwm]: Remove: archive file [/home/abi/fetcher/tmp/jigsawwm-1.2.1.tar.gz]
+[2023-07-12 13:06:26] INFO root fetch - processPackages [jigsawwm]: Remove: archive file [/home/abi/fetcher/tmp/jigsawwm-2.0.0.tar.gz]
+[2023-07-12 13:06:26] INFO root fetch - main [MainThread]: End processing [jigsawwm]: success
+[2023-07-12 13:06:27] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.8.tar.gz]
+[2023-07-12 13:06:27] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.9.tar.gz]
+[2023-07-12 13:06:27] INFO root fetch - main [MainThread]: End processing [pytlgateway]: success
+[2023-07-12 13:06:27] INFO root fetch - processPackages [comet-ml]: Remove: archive file [/home/abi/fetcher/tmp/comet_ml-3.9.0.tar.gz]
+[2023-07-12 13:06:27] INFO root fetch - processPackages [comet-ml]: Remove: archive file [/home/abi/fetcher/tmp/comet_ml-3.9.1.tar.gz]
+[2023-07-12 13:06:27] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
+[2023-07-12 13:06:29] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.5.tar.gz]
+[2023-07-12 13:06:29] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.6.tar.gz]
+[2023-07-12 13:06:29] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-07-12 13:06:29] INFO root fetch - main [MainThread]: Store serial: [18859226]
