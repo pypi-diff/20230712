@@ -11259,3 +11259,51 @@
 [2023-07-12 05:40:30] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-radiance-1.9.5.tar.gz]
 [2023-07-12 05:40:30] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-radiance]: success
 [2023-07-12 05:40:30] INFO root fetch - main [MainThread]: Store serial: [18855385]
+[2023-07-12 05:45:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855385]
+[2023-07-12 05:45:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-12 05:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-grasshopper
+[2023-07-12 05:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydflow
+[2023-07-12 05:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-account
+[2023-07-12 05:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oganesson
+[2023-07-12 05:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ultima-scraper-renamer
+[2023-07-12 05:45:40] INFO root fetch - processPackages [oganesson]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 05:45:40] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-12 05:45:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.8.2.0] Old Version: [14.0.8.1.0]
+[2023-07-12 05:45:40] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-12 05:45:40] INFO root fetch - processPackages [ultima-scraper-renamer]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-12 05:45:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/05/3c/95d08949039cd2770c53c6d2c75267ca855b868b0f346d9db75b59739ab2/odoo14_addon_l10n_br_account-14.0.8.1.0-py3-none-any.whl
+[2023-07-12 05:45:40] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/5a/16/eb08948b07191480b03a8bfac4c5f9a14865543131abac8c609c459a3005/oganesson-0.1.8.tar.gz
+[2023-07-12 05:45:40] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-12 05:45:40] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/30/e6/3685f99cfd36f45ae30b5ab732ec26ae4730b99648a47480cf683b1142a4/lbt-grasshopper-1.6.8.tar.gz
+[2023-07-12 05:45:40] INFO root fetch - processPackages [ultima-scraper-renamer]: Downloading https://files.pythonhosted.org/packages/62/a0/0374ddf6a0e904e6dd37411e555fd2f623dc942d159ee2693de7c46a666e/ultima_scraper_renamer-1.1.1.tar.gz
+[2023-07-12 05:45:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/e5/f6/928043f7f225a22cd50dd6b958c8caa6b9c83ccac6e5100c20208a927d0a/odoo14_addon_l10n_br_account-14.0.8.2.0-py3-none-any.whl
+[2023-07-12 05:45:40] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/0e/b0/0bf47252cc54184d446e9d6f6d65b1704e58cddd08024db40a08c09c3252/oganesson-0.1.9.tar.gz
+[2023-07-12 05:45:40] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/24/e9/d155575f4d38b7ae3d21b6f6e0c4c34409ce3b7b0412b7e24694915ec0e0/lbt-grasshopper-1.6.9.tar.gz
+[2023-07-12 05:45:40] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-12 05:45:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-07-12 05:45:40] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.8.1.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.8.2.0-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addon-l10n-br-account/14.0.8.1.0-14.0.8.2.0/diff.md --exclude *.pyd
+[2023-07-12 05:45:40] INFO root fetch - processPackages [ultima-scraper-renamer]: Downloading https://files.pythonhosted.org/packages/f8/e7/0b773119c67db77c6781a42b9ec3e8b6f02b4eded420ce86b235473e541a/ultima_scraper_renamer-1.1.2.tar.gz
+[2023-07-12 05:45:40] INFO root fetch - processPackages [oganesson]: executing diffoscope
+[2023-07-12 05:45:40] INFO root fetch - processPackages [oganesson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oganesson-0.1.8.tar.gz tmp/oganesson-0.1.9.tar.gz --markdown 20230712/o/oganesson/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 05:45:41] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-12 05:45:41] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230712/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-12 05:45:41] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2023-07-12 05:45:41] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.6.8.tar.gz tmp/lbt-grasshopper-1.6.9.tar.gz --markdown 20230712/l/lbt-grasshopper/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-12 05:45:41] INFO root fetch - processPackages [ultima-scraper-renamer]: executing diffoscope
+[2023-07-12 05:45:41] INFO root fetch - processPackages [ultima-scraper-renamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_renamer-1.1.1.tar.gz tmp/ultima_scraper_renamer-1.1.2.tar.gz --markdown 20230712/u/ultima-scraper-renamer/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-12 05:45:42] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.8.tar.gz]
+[2023-07-12 05:45:42] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.9.tar.gz]
+[2023-07-12 05:45:42] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2023-07-12 05:45:42] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.8.tar.gz]
+[2023-07-12 05:45:42] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.9.tar.gz]
+[2023-07-12 05:45:42] INFO root fetch - main [MainThread]: End processing [oganesson]: success
+[2023-07-12 05:45:42] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-12 05:45:42] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-12 05:45:42] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-12 05:45:42] INFO root fetch - processPackages [ultima-scraper-renamer]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_renamer-1.1.1.tar.gz]
+[2023-07-12 05:45:42] INFO root fetch - processPackages [ultima-scraper-renamer]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_renamer-1.1.2.tar.gz]
+[2023-07-12 05:45:42] INFO root fetch - main [MainThread]: End processing [ultima-scraper-renamer]: success
+[2023-07-12 05:45:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.8.1.0-py3-none-any.whl.zip]
+[2023-07-12 05:45:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.8.2.0-py3-none-any.whl.zip]
+[2023-07-12 05:45:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-07-12 05:45:42] INFO root fetch - main [MainThread]: Store serial: [18855410]
