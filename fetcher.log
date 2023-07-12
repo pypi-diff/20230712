@@ -19089,3 +19089,88 @@
 [2023-07-12 12:29:46] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2023-07-12 12:29:46] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2023-07-12 12:29:46] INFO root fetch - main [MainThread]: Store serial: [18858824]
+[2023-07-12 12:34:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858824]
+[2023-07-12 12:34:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-12 12:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfl-common
+[2023-07-12 12:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zawolib
+[2023-07-12 12:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CSVD
+[2023-07-12 12:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assisted-service-client
+[2023-07-12 12:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: target-s3-delta
+[2023-07-12 12:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-azure-native
+[2023-07-12 12:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rtbhouse-sdk
+[2023-07-12 12:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: faasmctl
+[2023-07-12 12:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zawolib
+[2023-07-12 12:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multiremote-fm
+[2023-07-12 12:34:56] INFO root fetch - processPackages [CSVD]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-12 12:34:56] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 12:34:56] INFO root fetch - processPackages [zawolib]: New version: [1.0] Old Version: [0.0.13]
+[2023-07-12 12:34:56] INFO root fetch - processPackages [rtbhouse-sdk]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-12 12:34:56] INFO root fetch - processPackages [faasmctl]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-12 12:34:56] INFO root fetch - processPackages [zawolib]: New version: [1.0] Old Version: [0.0.13]
+[2023-07-12 12:34:56] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-12 12:34:56] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-07-12 12:34:56] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.0.0b4] Old Version: [2.0.0b3]
+[2023-07-12 12:34:56] WARNING root fetch - processPackages [multiremote-fm]: Skipping, unable to determine old version
+[2023-07-12 12:34:56] INFO root fetch - processPackages [multiremote-fm]: Start processing: pyBPPIBridge
+[2023-07-12 12:34:56] INFO root fetch - main [MainThread]: End processing [multiremote-fm] error
+[2023-07-12 12:34:56] WARNING root fetch - processPackages [pyBPPIBridge]: Skipping, unable to determine old version
+[2023-07-12 12:34:56] INFO root fetch - processPackages [pyBPPIBridge]: Start processing: sinli
+[2023-07-12 12:34:56] INFO root fetch - main [MainThread]: End processing [pyBPPIBridge] error
+[2023-07-12 12:34:56] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/c0/8b/cfe2e698d1042876eddef2f6ad5126eeb7766e994a5f1a9823a66d1c5afc/faasmctl-0.3.3.tar.gz
+[2023-07-12 12:34:56] ERROR root fetch - processPackages [zawolib]: Unable to fetch info: No such project/version 'zawolib' 0.0.13
+[2023-07-12 12:34:56] INFO root fetch - main [MainThread]: End processing [zawolib] error
+[2023-07-12 12:34:56] ERROR root fetch - processPackages [zawolib]: Unable to fetch info: No such project/version 'zawolib' 0.0.13
+[2023-07-12 12:34:56] INFO root fetch - main [MainThread]: End processing [zawolib] error
+[2023-07-12 12:34:56] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/e6/57/a8d9687e66695b401ecfb6e6b34f2af9c43553c001116337cfdfdd8105cc/pulumi_azure_native-2.0.0b3.tar.gz
+[2023-07-12 12:34:56] INFO root fetch - processPackages [CSVD]: Downloading https://files.pythonhosted.org/packages/0a/01/0b11cff27cb606af108e80bed33a0b38a7ac5b8d027c78ce525e691695b3/CSVD-0.1.4.tar.gz
+[2023-07-12 12:34:56] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-12 12:34:56] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 21623040>=10485760
+[2023-07-12 12:34:56] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-07-12 12:34:56] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/6e/50/6609962e0ce887f6c841f96a73f490fe61ec69bc79eed9c6942d332cbd98/target_s3_delta-0.0.8.tar.gz
+[2023-07-12 12:34:56] INFO root fetch - processPackages [rtbhouse-sdk]: Downloading https://files.pythonhosted.org/packages/b0/55/a62c7c560cd13b5a97950192dec10f2c3f29936d4c130c5666b5313e3c58/rtbhouse-sdk-9.0.0.tar.gz
+[2023-07-12 12:34:56] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2023-07-12 12:34:56] INFO root fetch - processPackages [sinli]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-12 12:34:56] INFO root fetch - processPackages [sinli]: Downloading https://files.pythonhosted.org/packages/55/6f/2e4f875bbca6d32f9ab728ce4d3c1ff36d7491b2db00ccf8e5c776402147/sinli-1.1.3.tar.gz
+[2023-07-12 12:34:56] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/c8/30/26b49e7fd69c1175700d8bd8f6eb2a8455f53b0e991572ff4439bc34dfed/faasmctl-0.3.4.tar.gz
+[2023-07-12 12:34:56] INFO root fetch - processPackages [CSVD]: Downloading https://files.pythonhosted.org/packages/9e/16/e3451d3542cf02fcc5bde822dde2bec5bc1428c72adf21c929b2540671de/CSVD-0.1.5.tar.gz
+[2023-07-12 12:34:56] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-12 12:34:56] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2023-07-12 12:34:56] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/fb/f8/26c91f2455b8afd469305bcff50568a081c15ba427ed9957fa9c40f0067f/target_s3_delta-0.0.9.tar.gz
+[2023-07-12 12:34:56] INFO root fetch - processPackages [rtbhouse-sdk]: Downloading https://files.pythonhosted.org/packages/33/92/b2798a572eb76e6333859b917420ac34246ec5251946cdee934a80832248/rtbhouse_sdk-9.0.1.tar.gz
+[2023-07-12 12:34:57] INFO root fetch - processPackages [CSVD]: executing diffoscope
+[2023-07-12 12:34:57] INFO root fetch - processPackages [CSVD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CSVD-0.1.4.tar.gz tmp/CSVD-0.1.5.tar.gz --markdown 20230712/C/CSVD/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-12 12:34:57] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-12 12:34:57] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230712/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-12 12:34:57] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-12 12:34:57] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.3.3.tar.gz tmp/faasmctl-0.3.4.tar.gz --markdown 20230712/f/faasmctl/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-12 12:34:57] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-07-12 12:34:57] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.8.tar.gz tmp/target_s3_delta-0.0.9.tar.gz --markdown 20230712/t/target-s3-delta/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 12:34:57] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2023-07-12 12:34:57] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20230712/c/cfl-common/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-07-12 12:34:57] INFO root fetch - processPackages [rtbhouse-sdk]: executing diffoscope
+[2023-07-12 12:34:57] INFO root fetch - processPackages [rtbhouse-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtbhouse-sdk-9.0.0.tar.gz tmp/rtbhouse_sdk-9.0.1.tar.gz --markdown 20230712/r/rtbhouse-sdk/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-07-12 12:34:57] INFO root fetch - processPackages [sinli]: Downloading https://files.pythonhosted.org/packages/5b/06/2367bcd238a61905a99002179a108dff949af9b5fe911a606b5ffd0c27cf/sinli-1.1.4.tar.gz
+[2023-07-12 12:34:57] INFO root fetch - processPackages [sinli]: executing diffoscope
+[2023-07-12 12:34:57] INFO root fetch - processPackages [sinli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinli-1.1.3.tar.gz tmp/sinli-1.1.4.tar.gz --markdown 20230712/s/sinli/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-12 12:34:58] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.8.tar.gz]
+[2023-07-12 12:34:58] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.9.tar.gz]
+[2023-07-12 12:34:58] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-07-12 12:34:58] INFO root fetch - processPackages [CSVD]: Remove: archive file [/home/abi/fetcher/tmp/CSVD-0.1.4.tar.gz]
+[2023-07-12 12:34:58] INFO root fetch - processPackages [CSVD]: Remove: archive file [/home/abi/fetcher/tmp/CSVD-0.1.5.tar.gz]
+[2023-07-12 12:34:58] INFO root fetch - main [MainThread]: End processing [CSVD]: success
+[2023-07-12 12:34:58] INFO root fetch - processPackages [rtbhouse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rtbhouse-sdk-9.0.0.tar.gz]
+[2023-07-12 12:34:58] INFO root fetch - processPackages [rtbhouse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rtbhouse_sdk-9.0.1.tar.gz]
+[2023-07-12 12:34:58] INFO root fetch - main [MainThread]: End processing [rtbhouse-sdk]: success
+[2023-07-12 12:34:58] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.3.tar.gz]
+[2023-07-12 12:34:58] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.4.tar.gz]
+[2023-07-12 12:34:58] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-12 12:34:58] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2023-07-12 12:34:58] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2023-07-12 12:34:58] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2023-07-12 12:34:58] INFO root fetch - processPackages [sinli]: Remove: archive file [/home/abi/fetcher/tmp/sinli-1.1.3.tar.gz]
+[2023-07-12 12:34:58] INFO root fetch - processPackages [sinli]: Remove: archive file [/home/abi/fetcher/tmp/sinli-1.1.4.tar.gz]
+[2023-07-12 12:34:58] INFO root fetch - main [MainThread]: End processing [sinli]: success
+[2023-07-12 12:34:59] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-12 12:34:59] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-12 12:34:59] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-12 12:34:59] INFO root fetch - main [MainThread]: Store serial: [18858860]
