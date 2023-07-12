@@ -13026,3 +13026,102 @@
 [2023-07-12 08:06:50] INFO root fetch - processPackages [ragraph]: Remove: archive file [/home/abi/fetcher/tmp/ragraph-1.19.1.tar.gz]
 [2023-07-12 08:06:50] INFO root fetch - main [MainThread]: End processing [ragraph]: success
 [2023-07-12 08:06:50] INFO root fetch - main [MainThread]: Store serial: [18856293]
+[2023-07-12 08:11:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856293]
+[2023-07-12 08:12:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-12 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cuopt-thin-client
+[2023-07-12 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyipsw
+[2023-07-12 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-file-explorer
+[2023-07-12 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elasticnet
+[2023-07-12 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notros2
+[2023-07-12 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notros2
+[2023-07-12 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: holoviews
+[2023-07-12 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-07-12 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-07-12 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.identity
+[2023-07-12 08:12:00] INFO root fetch - processPackages [pyipsw]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 08:12:00] INFO root fetch - processPackages [django-file-explorer]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-12 08:12:00] INFO root fetch - processPackages [cuopt-thin-client]: New version: [23.6.2] Old Version: [23.6.1]
+[2023-07-12 08:12:00] INFO root fetch - processPackages [notros2]: New version: [23.7.12.61027] Old Version: [23.7.12.61020]
+[2023-07-12 08:12:00] WARNING root fetch - processPackages [elasticnet]: Skipping, unable to determine old version
+[2023-07-12 08:12:00] INFO root fetch - processPackages [elasticnet]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-07-12 08:12:00] INFO root fetch - main [MainThread]: End processing [elasticnet] error
+[2023-07-12 08:12:00] INFO root fetch - processPackages [notros2]: New version: [23.7.12.61027] Old Version: [23.7.12.61020]
+[2023-07-12 08:12:00] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-07-12 08:12:00] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-12 08:12:00] INFO root fetch - processPackages [holoviews]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-12 08:12:00] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-12 08:12:00] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [django-file-explorer]: Downloading https://files.pythonhosted.org/packages/ab/e0/615bb7771858b6c754f13eb53bc2e39da9b281d17b37866976716aed1705/django-file-explorer-1.6.0.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [pyipsw]: Downloading https://files.pythonhosted.org/packages/58/99/21aa3a88edf1d3b81c3fd38fc8c3d79a0507cd3999dc01ef1050ee006229/pyipsw-0.0.1.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/ab/84/126111c0db22ef6abcf25f9c6e9ede8060d5d162806e4d85d6ef95a4c0fa/notros2-23.7.12.61020.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/ab/84/126111c0db22ef6abcf25f9c6e9ede8060d5d162806e4d85d6ef95a4c0fa/notros2-23.7.12.61020.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-07-12 08:12:01] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-07-12 08:12:01] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [cuopt-thin-client]: Downloading https://files.pythonhosted.org/packages/8e/e8/6501f74fd4120761a6bcb3c686ae6958f7ef8d5a082ef832bc0d2c45e0fa/cuopt-thin-client-23.6.1.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [holoviews]: Downloading https://files.pythonhosted.org/packages/59/1c/f3bab15afa70d6424f04ba98eacf877b469d4196177d1fda90c0870823d6/holoviews-1.9.4.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [pyipsw]: Downloading https://files.pythonhosted.org/packages/c2/ae/d776bac64092d2d68789b99c53ac16fe243a78f7aaab1e889eb0d70d7372/pyipsw-0.0.2.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [django-file-explorer]: Downloading https://files.pythonhosted.org/packages/18/f5/aa71f6842ee4f5389bd113a5369df4d073903484c14ae82fc982c33e052c/django-file-explorer-1.6.1.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/7c/d6/f5ad50df5eb4f882f3072ba7073a2878ab2ffb5ba4b7e3473566637988d0/notros2-23.7.12.61027-py3-none-any.whl
+[2023-07-12 08:12:01] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/7c/d6/f5ad50df5eb4f882f3072ba7073a2878ab2ffb5ba4b7e3473566637988d0/notros2-23.7.12.61027-py3-none-any.whl
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230712/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [cuopt-thin-client]: Downloading https://files.pythonhosted.org/packages/fb/f0/4b4b1b81146266d8f6418e153356aa0fbcd9361bcf468b8f08536af0ef52/cuopt-thin-client-23.6.2.tar.gz
+[2023-07-12 08:12:01] INFO root fetch - processPackages [pyipsw]: executing diffoscope
+[2023-07-12 08:12:01] INFO root fetch - processPackages [pyipsw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyipsw-0.0.1.tar.gz tmp/pyipsw-0.0.2.tar.gz --markdown 20230712/p/pyipsw/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-07-12 08:12:01] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230712/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-12 08:12:01] INFO root fetch - processPackages [django-file-explorer]: executing diffoscope
+[2023-07-12 08:12:01] INFO root fetch - processPackages [django-file-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-file-explorer-1.6.0.tar.gz tmp/django-file-explorer-1.6.1.tar.gz --markdown 20230712/d/django-file-explorer/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-12 08:12:01] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-12 08:12:01] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.12.61020.tar.gz tmp/notros2-23.7.12.61027-py3-none-any.whl.zip --markdown 20230712/n/notros2/23.7.12.61020-23.7.12.61027/diff.md --exclude *.pyd
+[2023-07-12 08:12:01] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-12 08:12:01] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.12.61020.tar.gz tmp/notros2-23.7.12.61027-py3-none-any.whl.zip --markdown 20230712/n/notros2/23.7.12.61020-23.7.12.61027/diff.md --exclude *.pyd
+[2023-07-12 08:12:02] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-07-12 08:12:02] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230712/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-12 08:12:02] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-07-12 08:12:02] INFO root fetch - processPackages [cuopt-thin-client]: executing diffoscope
+[2023-07-12 08:12:02] INFO root fetch - processPackages [cuopt-thin-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuopt-thin-client-23.6.1.tar.gz tmp/cuopt-thin-client-23.6.2.tar.gz --markdown 20230712/c/cuopt-thin-client/23.6.1-23.6.2/diff.md --exclude *.pyd
+[2023-07-12 08:12:02] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-07-12 08:12:02] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230712/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-12 08:12:03] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-07-12 08:12:03] INFO root fetch - processPackages [pyipsw]: Remove: archive file [/home/abi/fetcher/tmp/pyipsw-0.0.1.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - processPackages [pyipsw]: Remove: archive file [/home/abi/fetcher/tmp/pyipsw-0.0.2.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - main [MainThread]: End processing [pyipsw]: success
+[2023-07-12 08:12:03] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.12.61020.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.12.61027-py3-none-any.whl.zip]
+[2023-07-12 08:12:03] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-12 08:12:03] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-12 08:12:03] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-07-12 08:12:03] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-07-12 08:12:03] INFO root fetch - processPackages [cuopt-thin-client]: Remove: archive file [/home/abi/fetcher/tmp/cuopt-thin-client-23.6.1.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - processPackages [cuopt-thin-client]: Remove: archive file [/home/abi/fetcher/tmp/cuopt-thin-client-23.6.2.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - main [MainThread]: End processing [cuopt-thin-client]: success
+[2023-07-12 08:12:03] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-07-12 08:12:03] INFO root fetch - processPackages [django-file-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django-file-explorer-1.6.0.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - processPackages [django-file-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django-file-explorer-1.6.1.tar.gz]
+[2023-07-12 08:12:03] INFO root fetch - main [MainThread]: End processing [django-file-explorer]: success
+[2023-07-12 08:12:04] INFO root fetch - processPackages [holoviews]: Downloading https://files.pythonhosted.org/packages/ef/d1/fbb719d25a5118f76229625ecbbf1505259ad1c95a309fdd184fcfbce7ef/holoviews-1.9.5.tar.gz
+[2023-07-12 08:12:06] INFO root fetch - processPackages [holoviews]: executing diffoscope
+[2023-07-12 08:12:06] INFO root fetch - processPackages [holoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holoviews-1.9.4.tar.gz tmp/holoviews-1.9.5.tar.gz --markdown 20230712/h/holoviews/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-12 08:12:11] INFO root fetch - processPackages [holoviews]: Remove: archive file [/home/abi/fetcher/tmp/holoviews-1.9.4.tar.gz]
+[2023-07-12 08:12:11] INFO root fetch - processPackages [holoviews]: Remove: archive file [/home/abi/fetcher/tmp/holoviews-1.9.5.tar.gz]
+[2023-07-12 08:12:11] INFO root fetch - main [MainThread]: End processing [holoviews]: success
+[2023-07-12 08:12:11] INFO root fetch - main [MainThread]: Store serial: [18856329]
