@@ -19443,3 +19443,110 @@ AssertionError: tmp/flask_validators-0.5.tar.gz does not exist
 [2023-07-12 12:45:29] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.4.0.tar.gz]
 [2023-07-12 12:45:29] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
 [2023-07-12 12:45:29] INFO root fetch - main [MainThread]: Store serial: [18858979]
+[2023-07-12 12:50:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858979]
+[2023-07-12 12:50:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-12 12:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ptal-api
+[2023-07-12 12:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-validators
+[2023-07-12 12:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fcs-ql-parser
+[2023-07-12 12:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: helios-rl
+[2023-07-12 12:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickstart-vdk
+[2023-07-12 12:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pubpypack-harmony-lawrence-laugesen
+[2023-07-12 12:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swiftly-unix
+[2023-07-12 12:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otrs-somconnexio
+[2023-07-12 12:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cryolo
+[2023-07-12 12:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepchecks-llm-client
+[2023-07-12 12:50:38] INFO root fetch - processPackages [flask-validators]: New version: [1.0] Old Version: [0.7]
+[2023-07-12 12:50:38] WARNING root fetch - processPackages [fcs-ql-parser]: Skipping, unable to determine old version
+[2023-07-12 12:50:38] INFO root fetch - processPackages [fcs-ql-parser]: Start processing: breeze-connect
+[2023-07-12 12:50:38] INFO root fetch - main [MainThread]: End processing [fcs-ql-parser] error
+[2023-07-12 12:50:38] INFO root fetch - processPackages [swiftly-unix]: New version: [0.1.20] Old Version: [0.1.19]
+[2023-07-12 12:50:38] ERROR root fetch - processPackages [deepchecks-llm-client]: Unable to get metadata: No such project 'deepchecks-llm-client'
+[2023-07-12 12:50:38] INFO root fetch - processPackages [deepchecks-llm-client]: Start processing: documentdataextraction
+[2023-07-12 12:50:38] INFO root fetch - main [MainThread]: End processing [deepchecks-llm-client] error
+[2023-07-12 12:50:38] INFO root fetch - processPackages [otrs-somconnexio]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-12 12:50:38] INFO root fetch - processPackages [ptal-api]: New version: [0.12.3.1] Old Version: [0.12.3]
+[2023-07-12 12:50:38] INFO root fetch - processPackages [helios-rl]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 12:50:38] INFO root fetch - processPackages [pubpypack-harmony-lawrence-laugesen]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 12:50:38] INFO root fetch - processPackages [cryolo]: New version: [1.9.4b3] Old Version: [1.9.4b2]
+[2023-07-12 12:50:38] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.928743296.dev12219] Old Version: [0.2.928366524.dev12215]
+[2023-07-12 12:50:38] INFO root fetch - processPackages [breeze-connect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 12:50:39] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 12:50:39] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/55/11/0bf9fff4176f04450e7c1fd6754f903722655b73c798fd76ec61e7bf6c31/swiftly-unix-0.1.19.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/a7/66/39a9e56a54604493fea91a12e3aba8c55ac0ca3d681b5d0b0583d278f3fe/quickstart-vdk-0.2.928366524.dev12215.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [otrs-somconnexio]: Downloading https://files.pythonhosted.org/packages/24/61/f12a7af09c175dfc8830738eef0b0f2e7248bc680d1b4d319dacd61b1c4b/otrs_somconnexio-0.4.8.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/eb/38/10bd4db4bbc0b15976ae792c12746686d284a9fc380eb2e473a18c8cf40a/breeze_connect-1.0.8.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [pubpypack-harmony-lawrence-laugesen]: Downloading https://files.pythonhosted.org/packages/01/da/3757e669041205d14d0ce97f212345534b9599a0cfb8916e67cb9c948756/pubpypack-harmony-lawrence-laugesen-0.0.1.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/a9/ef/e5951d62fa96f7922a81b126e17332c81983f41427ae60154c73d37fa6f0/ptal_api-0.12.3.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [cryolo]: Downloading https://files.pythonhosted.org/packages/f0/09/ade94fffe9b251557876d8e622289960770ee937e5f0039dda50a58246cb/cryolo-1.9.4b2.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/78/71/112109ad2b1aa685617dd84a150048372fbd6a5546c749679f55b88e8825/helios-rl-1.0.8.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [flask-validators]: Downloading https://files.pythonhosted.org/packages/0f/53/aefaeb4aa77266fa002bb9136145555eb9a01caa6f8681d345b77e8cafad/flask_validators-1.0.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-12 12:50:39] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/5d/ed/3174d2bb998f47d4ab61d0f5b932ac4456fbd61064bac48be35ab20c5539/quickstart-vdk-0.2.928743296.dev12219.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [flask-validators]: executing diffoscope
+[2023-07-12 12:50:39] INFO root fetch - processPackages [flask-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_validators-0.7.tar.gz tmp/flask_validators-1.0.tar.gz --markdown 20230712/f/flask-validators/0.7-1.0/diff.md --exclude *.pyd
+[2023-07-12 12:50:39] INFO root fetch - processPackages [pubpypack-harmony-lawrence-laugesen]: Downloading https://files.pythonhosted.org/packages/0d/61/45160a34a6dd2198ee002bb70abfb903d9d77435ad5c288ade4cb93eae17/pubpypack-harmony-lawrence-laugesen-0.0.2.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/15/0b/95a5bced29a3f9b725920af9f9a5fd8b35d521718209519b4bf3593feeb4/swiftly-unix-0.1.20.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-12 12:50:39] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.928366524.dev12215.tar.gz tmp/quickstart-vdk-0.2.928743296.dev12219.tar.gz --markdown 20230712/q/quickstart-vdk/0.2.928366524.dev12215-0.2.928743296.dev12219/diff.md --exclude *.pyd
+[2023-07-12 12:50:39] INFO root fetch - processPackages [helios-rl]: Downloading https://files.pythonhosted.org/packages/38/b0/396024a90d94cd1b942fb7b480a67ba92baba52b21d550f8b04102a9c2ef/helios-rl-1.0.9.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/eb/c2/3a24e0b30b7087fbed03447c9f6f2854096829c379245df58c621c7d0f9d/ptal_api-0.12.3.1.tar.gz
+[2023-07-12 12:50:39] INFO root fetch - processPackages [cryolo]: Downloading https://files.pythonhosted.org/packages/25/b7/587a319b14bfcf46aa93f6ec736372d221604cebf1d511f467bb88f342d9/cryolo-1.9.4b3.tar.gz
+[2023-07-12 12:50:40] INFO root fetch - processPackages [swiftly-unix]: executing diffoscope
+[2023-07-12 12:50:40] INFO root fetch - processPackages [otrs-somconnexio]: Downloading https://files.pythonhosted.org/packages/e5/91/0ea2de8ef72bee6e5e7ad4882d4afa735692fe75764c546ea0a7f8b2bee1/otrs_somconnexio-0.4.9.tar.gz
+[2023-07-12 12:50:40] INFO root fetch - processPackages [swiftly-unix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-unix-0.1.19.tar.gz tmp/swiftly-unix-0.1.20.tar.gz --markdown 20230712/s/swiftly-unix/0.1.19-0.1.20/diff.md --exclude *.pyd
+[2023-07-12 12:50:40] INFO root fetch - processPackages [pubpypack-harmony-lawrence-laugesen]: executing diffoscope
+[2023-07-12 12:50:40] INFO root fetch - processPackages [pubpypack-harmony-lawrence-laugesen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubpypack-harmony-lawrence-laugesen-0.0.1.tar.gz tmp/pubpypack-harmony-lawrence-laugesen-0.0.2.tar.gz --markdown 20230712/p/pubpypack-harmony-lawrence-laugesen/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 12:50:40] INFO root fetch - processPackages [helios-rl]: executing diffoscope
+[2023-07-12 12:50:40] INFO root fetch - processPackages [helios-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-rl-1.0.8.tar.gz tmp/helios-rl-1.0.9.tar.gz --markdown 20230712/h/helios-rl/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 12:50:40] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/4c/42/710b1f5e8f9fd52127641623d4bd1c641247bcf346c97a3bb5c022588e32/breeze_connect-1.0.9.tar.gz
+[2023-07-12 12:50:40] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-12 12:50:40] INFO root fetch - processPackages [ptal-api]: executing diffoscope
+[2023-07-12 12:50:40] INFO root fetch - processPackages [ptal-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptal_api-0.12.3.tar.gz tmp/ptal_api-0.12.3.1.tar.gz --markdown 20230712/p/ptal-api/0.12.3-0.12.3.1/diff.md --exclude *.pyd
+[2023-07-12 12:50:40] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-12 12:50:40] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230712/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 12:50:40] INFO root fetch - processPackages [otrs-somconnexio]: executing diffoscope
+[2023-07-12 12:50:40] INFO root fetch - processPackages [otrs-somconnexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otrs_somconnexio-0.4.8.tar.gz tmp/otrs_somconnexio-0.4.9.tar.gz --markdown 20230712/o/otrs-somconnexio/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-12 12:50:40] INFO root fetch - processPackages [breeze-connect]: executing diffoscope
+[2023-07-12 12:50:40] INFO root fetch - processPackages [breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_connect-1.0.8.tar.gz tmp/breeze_connect-1.0.9.tar.gz --markdown 20230712/b/breeze-connect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 12:50:40] INFO root fetch - processPackages [cryolo]: executing diffoscope
+[2023-07-12 12:50:40] INFO root fetch - processPackages [cryolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryolo-1.9.4b2.tar.gz tmp/cryolo-1.9.4b3.tar.gz --markdown 20230712/c/cryolo/1.9.4b2-1.9.4b3/diff.md --exclude *.pyd
+[2023-07-12 12:50:41] INFO root fetch - processPackages [flask-validators]: Remove: archive file [/home/abi/fetcher/tmp/flask_validators-0.7.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - processPackages [flask-validators]: Remove: archive file [/home/abi/fetcher/tmp/flask_validators-1.0.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - processPackages [flask-validators]: Start processing: pyppr
+[2023-07-12 12:50:41] INFO root fetch - main [MainThread]: End processing [flask-validators]: success
+[2023-07-12 12:50:41] WARNING root fetch - processPackages [pyppr]: Skipping, unable to determine old version
+[2023-07-12 12:50:41] INFO root fetch - processPackages [pyppr]: Start processing: barlidb
+[2023-07-12 12:50:41] INFO root fetch - main [MainThread]: End processing [pyppr] error
+[2023-07-12 12:50:41] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.928366524.dev12215.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.928743296.dev12219.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - processPackages [quickstart-vdk]: Start processing: route-visualization
+[2023-07-12 12:50:41] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-12 12:50:41] WARNING root fetch - processPackages [barlidb]: Skipping, unable to determine old version
+[2023-07-12 12:50:41] INFO root fetch - main [MainThread]: End processing [barlidb] error
+[2023-07-12 12:50:41] WARNING root fetch - processPackages [route-visualization]: Skipping, unable to determine old version
+[2023-07-12 12:50:41] INFO root fetch - main [MainThread]: End processing [route-visualization] error
+[2023-07-12 12:50:41] INFO root fetch - processPackages [swiftly-unix]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-unix-0.1.19.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - processPackages [swiftly-unix]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-unix-0.1.20.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - main [MainThread]: End processing [swiftly-unix]: success
+[2023-07-12 12:50:41] INFO root fetch - processPackages [pubpypack-harmony-lawrence-laugesen]: Remove: archive file [/home/abi/fetcher/tmp/pubpypack-harmony-lawrence-laugesen-0.0.1.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - processPackages [pubpypack-harmony-lawrence-laugesen]: Remove: archive file [/home/abi/fetcher/tmp/pubpypack-harmony-lawrence-laugesen-0.0.2.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - main [MainThread]: End processing [pubpypack-harmony-lawrence-laugesen]: success
+[2023-07-12 12:50:41] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.8.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - processPackages [helios-rl]: Remove: archive file [/home/abi/fetcher/tmp/helios-rl-1.0.9.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - main [MainThread]: End processing [helios-rl]: success
+[2023-07-12 12:50:41] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-12 12:50:41] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-12 12:50:41] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-12 12:50:41] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.8.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.9.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - main [MainThread]: End processing [breeze-connect]: success
+[2023-07-12 12:50:41] INFO root fetch - processPackages [ptal-api]: Remove: archive file [/home/abi/fetcher/tmp/ptal_api-0.12.3.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - processPackages [ptal-api]: Remove: archive file [/home/abi/fetcher/tmp/ptal_api-0.12.3.1.tar.gz]
+[2023-07-12 12:50:41] INFO root fetch - main [MainThread]: End processing [ptal-api]: success
+[2023-07-12 12:50:42] INFO root fetch - processPackages [otrs-somconnexio]: Remove: archive file [/home/abi/fetcher/tmp/otrs_somconnexio-0.4.8.tar.gz]
+[2023-07-12 12:50:42] INFO root fetch - processPackages [otrs-somconnexio]: Remove: archive file [/home/abi/fetcher/tmp/otrs_somconnexio-0.4.9.tar.gz]
+[2023-07-12 12:50:42] INFO root fetch - main [MainThread]: End processing [otrs-somconnexio]: success
+[2023-07-12 12:50:42] INFO root fetch - processPackages [cryolo]: Remove: archive file [/home/abi/fetcher/tmp/cryolo-1.9.4b2.tar.gz]
+[2023-07-12 12:50:42] INFO root fetch - processPackages [cryolo]: Remove: archive file [/home/abi/fetcher/tmp/cryolo-1.9.4b3.tar.gz]
+[2023-07-12 12:50:42] INFO root fetch - main [MainThread]: End processing [cryolo]: success
+[2023-07-12 12:50:42] INFO root fetch - main [MainThread]: Store serial: [18859033]
