@@ -12354,3 +12354,103 @@
 [2023-07-12 07:03:57] INFO root fetch - processPackages [pyzmq]: Remove: archive file [/home/abi/fetcher/tmp/pyzmq-25.1.1b2.tar.gz]
 [2023-07-12 07:03:57] INFO root fetch - main [MainThread]: End processing [pyzmq]: success
 [2023-07-12 07:03:57] INFO root fetch - main [MainThread]: Store serial: [18855911]
+[2023-07-12 07:09:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855911]
+[2023-07-12 07:09:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-12 07:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kkutils
+[2023-07-12 07:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-pe
+[2023-07-12 07:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nrsdk
+[2023-07-12 07:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gspatial-plot
+[2023-07-12 07:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-sale-product-set-packaging-qty
+[2023-07-12 07:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aicodebot
+[2023-07-12 07:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-cuda
+[2023-07-12 07:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aicodebot
+[2023-07-12 07:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: open-gpt-torch
+[2023-07-12 07:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openplugin-py
+[2023-07-12 07:09:08] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.9.dev2] Old Version: [0.0.9.dev1]
+[2023-07-12 07:09:08] INFO root fetch - processPackages [odoo14-addon-sale-product-set-packaging-qty]: New version: [14.0.1.1.1.dev5] Old Version: [14.0.1.1.1.dev4]
+[2023-07-12 07:09:08] INFO root fetch - processPackages [openplugin-py]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-12 07:09:08] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-12 07:09:08] INFO root fetch - processPackages [kkutils]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-07-12 07:09:08] INFO root fetch - processPackages [nrsdk]: New version: [1.1.3.1] Old Version: [1.1.3]
+[2023-07-12 07:09:08] INFO root fetch - processPackages [gspatial-plot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-12 07:09:08] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-12 07:09:08] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230712] Old Version: [0.1.1.dev20230711]
+[2023-07-12 07:09:08] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230712] Old Version: [23.8.0a230711]
+[2023-07-12 07:09:08] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/85/01/c86f02628dc3d625944458a1346bb6ab8035d46b71e56bbc8ac129597871/rapid_pe-0.1.1.dev20230711.tar.gz
+[2023-07-12 07:09:08] INFO root fetch - processPackages [nrsdk]: Downloading https://files.pythonhosted.org/packages/cb/ec/d68b09b3c952620e3d1f5e9f9165eb1fb38a1af3ddff6cffb4c84107fd78/nrsdk-1.1.3.tar.gz
+[2023-07-12 07:09:08] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/09/2f/4478ba3e88744f70bcca54e77c31ae318d42adf1089bab3c8a859792e74c/dask-cuda-23.8.0a230711.tar.gz
+[2023-07-12 07:09:08] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-12 07:09:08] INFO root fetch - processPackages [openplugin-py]: Downloading https://files.pythonhosted.org/packages/9e/4d/0d79407c093c2ad212f875df126397f5838deecaeca7420e0cc4240ddd31/openplugin-py-0.0.3.tar.gz
+[2023-07-12 07:09:08] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-12 07:09:08] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/26/81/fbe34f4ba5ac8fe314218f19136de0fb5155cfb04f58ec35a16bfc756c1a/open-gpt-torch-0.0.9.dev1.tar.gz
+[2023-07-12 07:09:08] INFO root fetch - processPackages [kkutils]: Downloading https://files.pythonhosted.org/packages/e9/1f/27be83e59f30583bbf54b25f2c3d1379192ba878cd3e994049f49497bdf0/kkutils-1.6.5.tar.gz
+[2023-07-12 07:09:08] INFO root fetch - processPackages [odoo14-addon-sale-product-set-packaging-qty]: Downloading https://files.pythonhosted.org/packages/52/8b/1becbb781f7fcaa6177500ccb159cf9b33f08140578cf3fd8c3f7e9b9e53/odoo14_addon_sale_product_set_packaging_qty-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-07-12 07:09:09] INFO root fetch - processPackages [gspatial-plot]: Downloading https://files.pythonhosted.org/packages/22/7e/7a00e2c021fccb3df6a5a8ccd951d444b233ac5a8dd611800ca7ef9b9f86/gspatial_plot-0.1.1.tar.gz
+[2023-07-12 07:09:09] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/5c/90/b58e5fbefdc46f29aa9f9b92f3ced0025cc05ca85e539e4dbbd6f0d5301c/rapid_pe-0.1.1.dev20230712.tar.gz
+[2023-07-12 07:09:09] INFO root fetch - processPackages [nrsdk]: Downloading https://files.pythonhosted.org/packages/88/f4/49e55974347be3d7679e0691dde8d087a6421a73e8da643fc07b28342d46/nrsdk-1.1.3.1.tar.gz
+[2023-07-12 07:09:09] INFO root fetch - processPackages [openplugin-py]: Downloading https://files.pythonhosted.org/packages/58/41/c06f34c620b6fdc57d4281608f60cfc095689b9c4ccd9c70e6df3ae974d3/openplugin-py-0.0.4.tar.gz
+[2023-07-12 07:09:09] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/f0/69/c8926450cc7935134f7d8d61bfb07ac444036ea9e5aa6b5eff75fd29edf9/dask-cuda-23.8.0a230712.tar.gz
+[2023-07-12 07:09:09] INFO root fetch - processPackages [odoo14-addon-sale-product-set-packaging-qty]: Downloading https://files.pythonhosted.org/packages/ad/96/132b6d119a388aecfaa4cb1cf87231fc7888ab0c1a6b30910725518361c4/odoo14_addon_sale_product_set_packaging_qty-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-07-12 07:09:09] INFO root fetch - processPackages [openplugin-py]: executing diffoscope
+[2023-07-12 07:09:09] INFO root fetch - processPackages [openplugin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugin-py-0.0.3.tar.gz tmp/openplugin-py-0.0.4.tar.gz --markdown 20230712/o/openplugin-py/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-12 07:09:09] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-12 07:09:09] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-12 07:09:09] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230711.tar.gz tmp/rapid_pe-0.1.1.dev20230712.tar.gz --markdown 20230712/r/rapid-pe/0.1.1.dev20230711-0.1.1.dev20230712/diff.md --exclude *.pyd
+[2023-07-12 07:09:09] INFO root fetch - processPackages [kkutils]: Downloading https://files.pythonhosted.org/packages/92/aa/be51bf63aa1b04986ae1b56730d19ab7e8f76ce8ef8e3a3729c1ff5837e6/kkutils-1.6.6.tar.gz
+[2023-07-12 07:09:09] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/f2/39/4e48e66313b5aca4a636946a7f31cfdc9bc2b1b43c35fe150b8f915b85ea/open-gpt-torch-0.0.9.dev2.tar.gz
+[2023-07-12 07:09:09] INFO root fetch - processPackages [nrsdk]: executing diffoscope
+[2023-07-12 07:09:09] INFO root fetch - processPackages [nrsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrsdk-1.1.3.tar.gz tmp/nrsdk-1.1.3.1.tar.gz --markdown 20230712/n/nrsdk/1.1.3-1.1.3.1/diff.md --exclude *.pyd
+[2023-07-12 07:09:09] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-12 07:09:09] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-12 07:09:09] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230711.tar.gz tmp/dask-cuda-23.8.0a230712.tar.gz --markdown 20230712/d/dask-cuda/23.8.0a230711-23.8.0a230712/diff.md --exclude *.pyd
+[2023-07-12 07:09:09] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-12 07:09:09] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230712/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-12 07:09:09] INFO root fetch - processPackages [kkutils]: executing diffoscope
+[2023-07-12 07:09:09] INFO root fetch - processPackages [kkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkutils-1.6.5.tar.gz tmp/kkutils-1.6.6.tar.gz --markdown 20230712/k/kkutils/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-07-12 07:09:09] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-12 07:09:09] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230712/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-12 07:09:09] INFO root fetch - processPackages [odoo14-addon-sale-product-set-packaging-qty]: executing diffoscope
+[2023-07-12 07:09:09] INFO root fetch - processPackages [odoo14-addon-sale-product-set-packaging-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_product_set_packaging_qty-14.0.1.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_sale_product_set_packaging_qty-14.0.1.1.1.dev5-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addon-sale-product-set-packaging-qty/14.0.1.1.1.dev4-14.0.1.1.1.dev5/diff.md --exclude *.pyd
+[2023-07-12 07:09:09] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-07-12 07:09:09] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-gpt-torch-0.0.9.dev1.tar.gz tmp/open-gpt-torch-0.0.9.dev2.tar.gz --markdown 20230712/o/open-gpt-torch/0.0.9.dev1-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-07-12 07:09:09] INFO root fetch - processPackages [gspatial-plot]: Downloading https://files.pythonhosted.org/packages/81/bb/4c06f760b1439d5eb11c0601fd3c4184426991c51262cc96a2025df96b8e/gspatial_plot-0.1.2.tar.gz
+[2023-07-12 07:09:09] INFO root fetch - processPackages [gspatial-plot]: executing diffoscope
+[2023-07-12 07:09:09] INFO root fetch - processPackages [gspatial-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspatial_plot-0.1.1.tar.gz tmp/gspatial_plot-0.1.2.tar.gz --markdown 20230712/g/gspatial-plot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-12 07:09:11] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.3.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.3.1.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - processPackages [nrsdk]: Start processing: pypomes-db
+[2023-07-12 07:09:11] INFO root fetch - main [MainThread]: End processing [nrsdk]: success
+[2023-07-12 07:09:11] INFO root fetch - processPackages [kkutils]: Remove: archive file [/home/abi/fetcher/tmp/kkutils-1.6.5.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - processPackages [kkutils]: Remove: archive file [/home/abi/fetcher/tmp/kkutils-1.6.6.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - main [MainThread]: End processing [kkutils]: success
+[2023-07-12 07:09:11] INFO root fetch - processPackages [openplugin-py]: Remove: archive file [/home/abi/fetcher/tmp/openplugin-py-0.0.3.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - processPackages [openplugin-py]: Remove: archive file [/home/abi/fetcher/tmp/openplugin-py-0.0.4.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - main [MainThread]: End processing [openplugin-py]: success
+[2023-07-12 07:09:11] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-12 07:09:11] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230711.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230712.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-12 07:09:11] INFO root fetch - processPackages [pypomes-db]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-12 07:09:11] INFO root fetch - processPackages [odoo14-addon-sale-product-set-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_product_set_packaging_qty-14.0.1.1.1.dev4-py3-none-any.whl.zip]
+[2023-07-12 07:09:11] INFO root fetch - processPackages [odoo14-addon-sale-product-set-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_product_set_packaging_qty-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-07-12 07:09:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-product-set-packaging-qty]: success
+[2023-07-12 07:09:11] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230711.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230712.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-12 07:09:11] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/32/ac/4926d50cd3362d855f9163ad29aafbae4be2f108965454455bac95a09ec9/pypomes_db-0.1.3.tar.gz
+[2023-07-12 07:09:11] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-12 07:09:11] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open-gpt-torch-0.0.9.dev1.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open-gpt-torch-0.0.9.dev2.tar.gz]
+[2023-07-12 07:09:11] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-07-12 07:09:11] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/3b/57/31d2e2090d0018b02089b62f827fa20afbbdd708b6ad0f878f472ca51e88/pypomes_db-0.1.4.tar.gz
+[2023-07-12 07:09:12] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2023-07-12 07:09:12] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.1.3.tar.gz tmp/pypomes_db-0.1.4.tar.gz --markdown 20230712/p/pypomes-db/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-12 07:09:12] INFO root fetch - processPackages [gspatial-plot]: Remove: archive file [/home/abi/fetcher/tmp/gspatial_plot-0.1.1.tar.gz]
+[2023-07-12 07:09:12] INFO root fetch - processPackages [gspatial-plot]: Remove: archive file [/home/abi/fetcher/tmp/gspatial_plot-0.1.2.tar.gz]
+[2023-07-12 07:09:12] INFO root fetch - main [MainThread]: End processing [gspatial-plot]: success
+[2023-07-12 07:09:12] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.1.3.tar.gz]
+[2023-07-12 07:09:12] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.1.4.tar.gz]
+[2023-07-12 07:09:12] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2023-07-12 07:09:12] INFO root fetch - main [MainThread]: Store serial: [18855963]
