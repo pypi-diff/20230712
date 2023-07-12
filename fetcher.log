@@ -22419,3 +22419,182 @@ AssertionError: tmp/flask_validators-0.5.tar.gz does not exist
 [2023-07-12 14:32:58] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.2.tar.gz]
 [2023-07-12 14:32:58] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
 [2023-07-12 14:32:58] INFO root fetch - main [MainThread]: Store serial: [18860208]
+[2023-07-12 14:38:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18860208]
+[2023-07-12 14:38:07] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-12 14:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-sdk
+[2023-07-12 14:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TimeForge
+[2023-07-12 14:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taf
+[2023-07-12 14:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clean-python
+[2023-07-12 14:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vectordb-bench
+[2023-07-12 14:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: target-s3-delta
+[2023-07-12 14:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-calendar-plugin
+[2023-07-12 14:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mpyl
+[2023-07-12 14:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: projen
+[2023-07-12 14:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: middleware-apm
+[2023-07-12 14:38:08] INFO root fetch - processPackages [vectordb-bench]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-12 14:38:08] INFO root fetch - processPackages [TimeForge]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 14:38:08] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 14:38:08] INFO root fetch - processPackages [middleware-apm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 14:38:08] INFO root fetch - processPackages [mkdocs-calendar-plugin]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-12 14:38:08] WARNING root fetch - processPackages [clean-python]: Skipping, unable to determine old version
+[2023-07-12 14:38:08] INFO root fetch - processPackages [clean-python]: Start processing: FileInfo-Video-Audio
+[2023-07-12 14:38:08] INFO root fetch - main [MainThread]: End processing [clean-python] error
+[2023-07-12 14:38:08] INFO root fetch - processPackages [mpyl]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-12 14:38:08] INFO root fetch - processPackages [cognite-sdk]: New version: [6.8.3] Old Version: [6.8.2]
+[2023-07-12 14:38:08] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-12 14:38:08] INFO root fetch - processPackages [taf]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-12 14:38:08] INFO root fetch - processPackages [FileInfo-Video-Audio]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-12 14:38:08] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/c9/db/fa7ab1c9673926a8c26bdabf7311df866a835268e7663803b060886a9354/middleware-apm-0.1.8.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/6e/50/6609962e0ce887f6c841f96a73f490fe61ec69bc79eed9c6942d332cbd98/target_s3_delta-0.0.8.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [mkdocs-calendar-plugin]: Downloading https://files.pythonhosted.org/packages/0a/6a/567ca5c956f116bc87068e2a1410b832aa803c6dbb8ba19a717a24ab0699/mkdocs_calendar_plugin-0.2.2.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/86/39/53f37c38065f11438b6d931f07671e476b0938ba5fdb20de2513adb3c774/cognite_sdk-6.8.2.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [TimeForge]: Downloading https://files.pythonhosted.org/packages/0a/6b/d92d4def5457618d23e1feb4fcf4d06e8470171e5f7f97d0905b3e57b335/TimeForge-0.1.8.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [vectordb-bench]: Downloading https://files.pythonhosted.org/packages/c5/a2/b61aeb579a6aaa92a5f63a17ef68accf211d1bc9453e3e81dcdeed4e73ad/vectordb-bench-0.0.2.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/2d/59/c29f30cfaf216f4537cf8fa4579ee01c65ccc02c0a74edf5abc1b1a8fd33/mpyl-1.0.7-py3-none-any.whl
+[2023-07-12 14:38:08] INFO root fetch - processPackages [taf]: Downloading https://files.pythonhosted.org/packages/89/f7/e35125701c586a714a62be792f61cc1b686566f6832b1d23cc0dde61af99/taf-0.8.1.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [FileInfo-Video-Audio]: Downloading https://files.pythonhosted.org/packages/7a/2c/1aefe4a712c324129b4cfcd82d83fdcdd43dcfd66c545ff4b50525a3ae07/FileInfo_Video_Audio-0.1.2.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/85/4e/51d46e303433412c897f03bf1f831155e665f691f00202ec4c762fb8eed6/middleware-apm-0.1.9.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/fb/f8/26c91f2455b8afd469305bcff50568a081c15ba427ed9957fa9c40f0067f/target_s3_delta-0.0.9.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [middleware-apm]: executing diffoscope
+[2023-07-12 14:38:08] INFO root fetch - processPackages [middleware-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-apm-0.1.8.tar.gz tmp/middleware-apm-0.1.9.tar.gz --markdown 20230712/m/middleware-apm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 14:38:08] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/84/f6/9a664dff7596c325f4cd2a935d95e74a7bbf57b2bba94c556f0849baaecc/cognite_sdk-6.8.3.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-07-12 14:38:08] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.8.tar.gz tmp/target_s3_delta-0.0.9.tar.gz --markdown 20230712/t/target-s3-delta/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 14:38:08] INFO root fetch - processPackages [mkdocs-calendar-plugin]: Downloading https://files.pythonhosted.org/packages/45/a7/8efb9dc1ae03e6bdcc70f441eb7ea25b91617e72c0f4ed4c73facb5fadea/mkdocs_calendar_plugin-0.3.0.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [vectordb-bench]: Downloading https://files.pythonhosted.org/packages/4c/11/2c93bef0d609b2a3bfad5986bd2c567ab0c20993628545a6d25d3df86bd0/vectordb-bench-0.0.3.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [TimeForge]: Downloading https://files.pythonhosted.org/packages/0a/d6/180f73c0255115129a84d037bee65cde59eb33ed0de7bb7f331ad5b8d92e/TimeForge-0.1.9.tar.gz
+[2023-07-12 14:38:08] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-12 14:38:09] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/23/99/8904673790a08548420bd393e84a4443d34b1c4532c6649e0d3ac202a37f/mpyl-1.0.8-py3-none-any.whl
+[2023-07-12 14:38:09] INFO root fetch - processPackages [FileInfo-Video-Audio]: Downloading https://files.pythonhosted.org/packages/08/66/817e7986807fca5a7a764c3fca13dcb12092d2b4f67e2bf2608fbf31a6d2/FileInfo_Video_Audio-0.1.3.tar.gz
+[2023-07-12 14:38:09] INFO root fetch - processPackages [mkdocs-calendar-plugin]: executing diffoscope
+[2023-07-12 14:38:09] INFO root fetch - processPackages [mkdocs-calendar-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_calendar_plugin-0.2.2.tar.gz tmp/mkdocs_calendar_plugin-0.3.0.tar.gz --markdown 20230712/m/mkdocs-calendar-plugin/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-12 14:38:09] INFO root fetch - processPackages [TimeForge]: executing diffoscope
+[2023-07-12 14:38:09] INFO root fetch - processPackages [TimeForge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TimeForge-0.1.8.tar.gz tmp/TimeForge-0.1.9.tar.gz --markdown 20230712/T/TimeForge/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 14:38:09] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-07-12 14:38:09] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.8.2.tar.gz tmp/cognite_sdk-6.8.3.tar.gz --markdown 20230712/c/cognite-sdk/6.8.2-6.8.3/diff.md --exclude *.pyd
+[2023-07-12 14:38:09] INFO root fetch - processPackages [mpyl]: executing diffoscope
+[2023-07-12 14:38:09] INFO root fetch - processPackages [mpyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpyl-1.0.7-py3-none-any.whl.zip tmp/mpyl-1.0.8-py3-none-any.whl.zip --markdown 20230712/m/mpyl/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-12 14:38:09] INFO root fetch - processPackages [vectordb-bench]: executing diffoscope
+[2023-07-12 14:38:09] INFO root fetch - processPackages [vectordb-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-bench-0.0.2.tar.gz tmp/vectordb-bench-0.0.3.tar.gz --markdown 20230712/v/vectordb-bench/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-12 14:38:09] INFO root fetch - processPackages [FileInfo-Video-Audio]: executing diffoscope
+[2023-07-12 14:38:09] INFO root fetch - processPackages [FileInfo-Video-Audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FileInfo_Video_Audio-0.1.2.tar.gz tmp/FileInfo_Video_Audio-0.1.3.tar.gz --markdown 20230712/F/FileInfo-Video-Audio/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-12 14:38:09] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-12 14:38:09] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230712/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-12 14:38:09] INFO root fetch - processPackages [taf]: Downloading https://files.pythonhosted.org/packages/24/05/22bda1ef1fbdfee2ed688f401b08d601966349dbf3ddc88cbf13eabe8a11/taf-0.9.0.tar.gz
+[2023-07-12 14:38:10] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.8.tar.gz]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.9.tar.gz]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [target-s3-delta]: Start processing: labeva
+[2023-07-12 14:38:10] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-07-12 14:38:10] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.1.8.tar.gz]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.1.9.tar.gz]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [middleware-apm]: Start processing: neptune
+[2023-07-12 14:38:10] INFO root fetch - main [MainThread]: End processing [middleware-apm]: success
+[2023-07-12 14:38:10] WARNING root fetch - processPackages [labeva]: Skipping, unable to determine old version
+[2023-07-12 14:38:10] INFO root fetch - processPackages [labeva]: Start processing: neptune-client
+[2023-07-12 14:38:10] INFO root fetch - main [MainThread]: End processing [labeva] error
+[2023-07-12 14:38:10] INFO root fetch - processPackages [neptune]: New version: [1.3.3rc0] Old Version: [1.3.2rc1]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [neptune-client]: New version: [1.3.3rc0] Old Version: [1.3.2rc1]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [mkdocs-calendar-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_calendar_plugin-0.2.2.tar.gz]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [mkdocs-calendar-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_calendar_plugin-0.3.0.tar.gz]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [mkdocs-calendar-plugin]: Start processing: DomoAPI-lib
+[2023-07-12 14:38:10] INFO root fetch - main [MainThread]: End processing [mkdocs-calendar-plugin]: success
+[2023-07-12 14:38:10] INFO root fetch - processPackages [TimeForge]: Remove: archive file [/home/abi/fetcher/tmp/TimeForge-0.1.8.tar.gz]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [TimeForge]: Remove: archive file [/home/abi/fetcher/tmp/TimeForge-0.1.9.tar.gz]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [TimeForge]: Start processing: extLog
+[2023-07-12 14:38:10] INFO root fetch - main [MainThread]: End processing [TimeForge]: success
+[2023-07-12 14:38:10] WARNING root fetch - processPackages [DomoAPI-lib]: Skipping, unable to determine old version
+[2023-07-12 14:38:10] INFO root fetch - processPackages [DomoAPI-lib]: Start processing: aioqui
+[2023-07-12 14:38:10] INFO root fetch - main [MainThread]: End processing [DomoAPI-lib] error
+[2023-07-12 14:38:10] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/02/76/7bba219177270cd7106f1e78e0f2c8250cdf7bd1eb560e35456ee63a0fdf/neptune-1.3.2rc1.tar.gz
+[2023-07-12 14:38:10] INFO root fetch - processPackages [taf]: executing diffoscope
+[2023-07-12 14:38:10] INFO root fetch - processPackages [taf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taf-0.8.1.tar.gz tmp/taf-0.9.0.tar.gz --markdown 20230712/t/taf/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 14:38:10] INFO root fetch - processPackages [extLog]: New version: [20230712.2] Old Version: [20230712.1]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [aioqui]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [FileInfo-Video-Audio]: Remove: archive file [/home/abi/fetcher/tmp/FileInfo_Video_Audio-0.1.2.tar.gz]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [FileInfo-Video-Audio]: Remove: archive file [/home/abi/fetcher/tmp/FileInfo_Video_Audio-0.1.3.tar.gz]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [FileInfo-Video-Audio]: Start processing: oxasl-ve
+[2023-07-12 14:38:10] INFO root fetch - main [MainThread]: End processing [FileInfo-Video-Audio]: success
+[2023-07-12 14:38:10] INFO root fetch - processPackages [neptune-client]: Downloading https://files.pythonhosted.org/packages/05/30/c8c62425cd244d7b7506fd5f3e11ffc5096af0382ccb1862c1bc6e7fa98d/neptune_client-1.3.2rc1.tar.gz
+[2023-07-12 14:38:10] INFO root fetch - processPackages [oxasl-ve]: New version: [0.2.0.post6] Old Version: [0.2.0.post5]
+[2023-07-12 14:38:10] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/94/79/7c13ff05d232671618ca3286b9fd82663a455e37cfeb478080064998d1f4/aioqui-2.2.0.tar.gz
+[2023-07-12 14:38:10] INFO root fetch - processPackages [extLog]: Downloading https://files.pythonhosted.org/packages/e4/68/63c4cf7987f4e37815c1e1cca3db4b757ddfcb768d26aff552067fd43aa8/extLog-20230712.1.tar.gz
+[2023-07-12 14:38:10] INFO root fetch - processPackages [oxasl-ve]: Downloading https://files.pythonhosted.org/packages/5d/af/3c10a9de3e99f3f8490708913cbd015ad747823c303c9a8810b813e576ba/oxasl-ve-0.2.0.post5.tar.gz
+[2023-07-12 14:38:11] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/99/43/4d7fe93f22a4bf8c6406484e805b7b01050c32d4e5c395bfe71ca0f8e291/neptune-1.3.3rc0.tar.gz
+[2023-07-12 14:38:11] INFO root fetch - processPackages [neptune-client]: Downloading https://files.pythonhosted.org/packages/32/27/eec1c38d93af21338763a3525f5f026d3fbd4dceb9e792c9e56905506805/neptune_client-1.3.3rc0.tar.gz
+[2023-07-12 14:38:11] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/0e/e9/f5fa277e4b894446e2ff5770bf0ec8e9f01de95f85872a0141b61104eb66/aioqui-2.2.1.tar.gz
+[2023-07-12 14:38:11] INFO root fetch - processPackages [extLog]: Downloading https://files.pythonhosted.org/packages/26/e5/fd6f02b12e2e8e92660ed1b335a7f428283737ca8ea1cccc21436a9c6557/extLog-20230712.2.tar.gz
+[2023-07-12 14:38:11] INFO root fetch - processPackages [mpyl]: Remove: archive file [/home/abi/fetcher/tmp/mpyl-1.0.7-py3-none-any.whl.zip]
+[2023-07-12 14:38:11] INFO root fetch - processPackages [mpyl]: Remove: archive file [/home/abi/fetcher/tmp/mpyl-1.0.8-py3-none-any.whl.zip]
+[2023-07-12 14:38:11] INFO root fetch - processPackages [mpyl]: Start processing: bump-my-version
+[2023-07-12 14:38:11] INFO root fetch - main [MainThread]: End processing [mpyl]: success
+[2023-07-12 14:38:11] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.2.tar.gz]
+[2023-07-12 14:38:11] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.3.tar.gz]
+[2023-07-12 14:38:11] INFO root fetch - processPackages [cognite-sdk]: Start processing: checkov3
+[2023-07-12 14:38:11] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-07-12 14:38:11] INFO root fetch - processPackages [neptune-client]: executing diffoscope
+[2023-07-12 14:38:11] INFO root fetch - processPackages [bump-my-version]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-12 14:38:11] INFO root fetch - processPackages [neptune-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_client-1.3.2rc1.tar.gz tmp/neptune_client-1.3.3rc0.tar.gz --markdown 20230712/n/neptune-client/1.3.2rc1-1.3.3rc0/diff.md --exclude *.pyd
+[2023-07-12 14:38:11] INFO root fetch - processPackages [checkov3]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 14:38:11] INFO root fetch - processPackages [neptune]: executing diffoscope
+[2023-07-12 14:38:11] INFO root fetch - processPackages [neptune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune-1.3.2rc1.tar.gz tmp/neptune-1.3.3rc0.tar.gz --markdown 20230712/n/neptune/1.3.2rc1-1.3.3rc0/diff.md --exclude *.pyd
+[2023-07-12 14:38:11] INFO root fetch - processPackages [oxasl-ve]: Downloading https://files.pythonhosted.org/packages/58/c0/627dee95ff81d853968651bc0c42b3d0bf7787ccbf9f0200d386b7fb30ac/oxasl-ve-0.2.0.post6.tar.gz
+[2023-07-12 14:38:11] INFO root fetch - processPackages [extLog]: executing diffoscope
+[2023-07-12 14:38:11] INFO root fetch - processPackages [extLog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extLog-20230712.1.tar.gz tmp/extLog-20230712.2.tar.gz --markdown 20230712/e/extLog/20230712.1-20230712.2/diff.md --exclude *.pyd
+[2023-07-12 14:38:11] INFO root fetch - processPackages [aioqui]: executing diffoscope
+[2023-07-12 14:38:11] INFO root fetch - processPackages [aioqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqui-2.2.0.tar.gz tmp/aioqui-2.2.1.tar.gz --markdown 20230712/a/aioqui/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-12 14:38:11] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-12 14:38:11] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-12 14:38:11] INFO root fetch - processPackages [projen]: Start processing: phylo-matt
+[2023-07-12 14:38:11] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-12 14:38:11] INFO root fetch - processPackages [phylo-matt]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-07-12 14:38:11] INFO root fetch - processPackages [checkov3]: Downloading https://files.pythonhosted.org/packages/61/1e/4e033f962f90e316186c790b47156b97c7487d8b98697561c2787970cba6/checkov3-0.1.8.tar.gz
+[2023-07-12 14:38:11] INFO root fetch - processPackages [bump-my-version]: Downloading https://files.pythonhosted.org/packages/49/59/f6005e5e1c4e361025cb203f54d6bf3d917b0db815ccbeffa0b0829eb28b/bump-my-version-0.7.0.tar.gz
+[2023-07-12 14:38:11] INFO root fetch - processPackages [oxasl-ve]: executing diffoscope
+[2023-07-12 14:38:11] INFO root fetch - processPackages [oxasl-ve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxasl-ve-0.2.0.post5.tar.gz tmp/oxasl-ve-0.2.0.post6.tar.gz --markdown 20230712/o/oxasl-ve/0.2.0.post5-0.2.0.post6/diff.md --exclude *.pyd
+[2023-07-12 14:38:11] INFO root fetch - processPackages [vectordb-bench]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-bench-0.0.2.tar.gz]
+[2023-07-12 14:38:11] INFO root fetch - processPackages [vectordb-bench]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-bench-0.0.3.tar.gz]
+[2023-07-12 14:38:11] INFO root fetch - processPackages [vectordb-bench]: Start processing: udata-front
+[2023-07-12 14:38:11] INFO root fetch - main [MainThread]: End processing [vectordb-bench]: success
+[2023-07-12 14:38:11] INFO root fetch - processPackages [udata-front]: New version: [3.2.5.dev11638] Old Version: [3.2.5.dev11615]
+[2023-07-12 14:38:11] INFO root fetch - processPackages [phylo-matt]: Downloading https://files.pythonhosted.org/packages/17/7f/9e7d1b0eb3f019446162c785809e522fe48458884e6bd347c018fd32275a/phylo-matt-1.3.6.tar.gz
+[2023-07-12 14:38:12] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/4c/3b/43a8e80464f66e6d3776fb46fa04475c53122de658fe3ec521522f3a0c58/udata_front-3.2.5.dev11615-py2.py3-none-any.whl
+[2023-07-12 14:38:12] INFO root fetch - processPackages [bump-my-version]: Downloading https://files.pythonhosted.org/packages/40/ba/bf6ddb7c3986adf68345da2e2735c9114731d548c1257c0f98f48ef6d7d6/bump-my-version-0.7.1.tar.gz
+[2023-07-12 14:38:12] WARNING root fetch - processPackages [phylo-matt]: Skipping package: exceeds size limit 13134077>=10485760
+[2023-07-12 14:38:12] INFO root fetch - main [MainThread]: End processing [phylo-matt] error
+[2023-07-12 14:38:12] INFO root fetch - processPackages [checkov3]: Downloading https://files.pythonhosted.org/packages/7d/45/f4fee69b84307792994b7b9a62b38085cb6b5c008df32da5d7661e06b611/checkov3-0.1.9.tar.gz
+[2023-07-12 14:38:12] INFO root fetch - processPackages [bump-my-version]: executing diffoscope
+[2023-07-12 14:38:12] INFO root fetch - processPackages [bump-my-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bump-my-version-0.7.0.tar.gz tmp/bump-my-version-0.7.1.tar.gz --markdown 20230712/b/bump-my-version/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-12 14:38:12] INFO root fetch - processPackages [checkov3]: executing diffoscope
+[2023-07-12 14:38:12] INFO root fetch - processPackages [checkov3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov3-0.1.8.tar.gz tmp/checkov3-0.1.9.tar.gz --markdown 20230712/c/checkov3/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 14:38:12] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/37/e8/08f37c28eebf3376d19293df8f896ca26ae4332f9e028c7a4e63bde8e337/udata_front-3.2.5.dev11638-py2.py3-none-any.whl
+[2023-07-12 14:38:12] INFO root fetch - processPackages [extLog]: Remove: archive file [/home/abi/fetcher/tmp/extLog-20230712.1.tar.gz]
+[2023-07-12 14:38:12] INFO root fetch - processPackages [extLog]: Remove: archive file [/home/abi/fetcher/tmp/extLog-20230712.2.tar.gz]
+[2023-07-12 14:38:12] INFO root fetch - main [MainThread]: End processing [extLog]: success
+[2023-07-12 14:38:13] INFO root fetch - processPackages [oxasl-ve]: Remove: archive file [/home/abi/fetcher/tmp/oxasl-ve-0.2.0.post5.tar.gz]
+[2023-07-12 14:38:13] INFO root fetch - processPackages [oxasl-ve]: Remove: archive file [/home/abi/fetcher/tmp/oxasl-ve-0.2.0.post6.tar.gz]
+[2023-07-12 14:38:13] INFO root fetch - main [MainThread]: End processing [oxasl-ve]: success
+[2023-07-12 14:38:13] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-07-12 14:38:13] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.5.dev11615-py2.py3-none-any.whl.zip tmp/udata_front-3.2.5.dev11638-py2.py3-none-any.whl.zip --markdown 20230712/u/udata-front/3.2.5.dev11615-3.2.5.dev11638/diff.md --exclude *.pyd
+[2023-07-12 14:38:13] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.2.0.tar.gz]
+[2023-07-12 14:38:13] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.2.1.tar.gz]
+[2023-07-12 14:38:13] INFO root fetch - main [MainThread]: End processing [aioqui]: success
+[2023-07-12 14:38:13] INFO root fetch - processPackages [bump-my-version]: Remove: archive file [/home/abi/fetcher/tmp/bump-my-version-0.7.0.tar.gz]
+[2023-07-12 14:38:13] INFO root fetch - processPackages [bump-my-version]: Remove: archive file [/home/abi/fetcher/tmp/bump-my-version-0.7.1.tar.gz]
+[2023-07-12 14:38:13] INFO root fetch - main [MainThread]: End processing [bump-my-version]: success
+[2023-07-12 14:38:14] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-1.3.2rc1.tar.gz]
+[2023-07-12 14:38:14] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-1.3.3rc0.tar.gz]
+[2023-07-12 14:38:14] INFO root fetch - main [MainThread]: End processing [neptune]: success
+[2023-07-12 14:38:14] INFO root fetch - processPackages [neptune-client]: Remove: archive file [/home/abi/fetcher/tmp/neptune_client-1.3.2rc1.tar.gz]
+[2023-07-12 14:38:14] INFO root fetch - processPackages [neptune-client]: Remove: archive file [/home/abi/fetcher/tmp/neptune_client-1.3.3rc0.tar.gz]
+[2023-07-12 14:38:14] INFO root fetch - main [MainThread]: End processing [neptune-client]: success
+[2023-07-12 14:38:20] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11615-py2.py3-none-any.whl.zip]
+[2023-07-12 14:38:20] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11638-py2.py3-none-any.whl.zip]
+[2023-07-12 14:38:20] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-07-12 14:38:27] INFO root fetch - processPackages [checkov3]: Remove: archive file [/home/abi/fetcher/tmp/checkov3-0.1.8.tar.gz]
+[2023-07-12 14:38:27] INFO root fetch - processPackages [checkov3]: Remove: archive file [/home/abi/fetcher/tmp/checkov3-0.1.9.tar.gz]
+[2023-07-12 14:38:27] INFO root fetch - main [MainThread]: End processing [checkov3]: success
+[2023-07-12 14:38:52] INFO root fetch - processPackages [taf]: Remove: archive file [/home/abi/fetcher/tmp/taf-0.8.1.tar.gz]
+[2023-07-12 14:38:52] INFO root fetch - processPackages [taf]: Remove: archive file [/home/abi/fetcher/tmp/taf-0.9.0.tar.gz]
+[2023-07-12 14:38:52] INFO root fetch - main [MainThread]: End processing [taf]: success
+[2023-07-12 14:38:52] INFO root fetch - main [MainThread]: Store serial: [18860298]
