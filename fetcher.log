@@ -11937,3 +11937,42 @@
 [2023-07-12 06:37:49] INFO root fetch - processPackages [odoo-addon-pos-lot-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_lot_selection-16.0.1.0.0.5-py3-none-any.whl.zip]
 [2023-07-12 06:37:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-lot-selection]: success
 [2023-07-12 06:37:49] INFO root fetch - main [MainThread]: Store serial: [18855753]
+[2023-07-12 06:42:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855753]
+[2023-07-12 06:42:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-12 06:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abqpy2023
+[2023-07-12 06:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quao
+[2023-07-12 06:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sociallimits
+[2023-07-12 06:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taichu-storage
+[2023-07-12 06:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: macro-kit
+[2023-07-12 06:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abqpy2022
+[2023-07-12 06:42:58] WARNING root fetch - processPackages [sociallimits]: Skipping, unable to determine old version
+[2023-07-12 06:42:58] INFO root fetch - main [MainThread]: End processing [sociallimits] error
+[2023-07-12 06:42:58] INFO root fetch - processPackages [taichu-storage]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 06:42:58] WARNING root fetch - processPackages [abqpy2023]: Skipping, unable to determine old version
+[2023-07-12 06:42:58] INFO root fetch - main [MainThread]: End processing [abqpy2023] error
+[2023-07-12 06:42:58] INFO root fetch - processPackages [quao]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-12 06:42:58] INFO root fetch - processPackages [macro-kit]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-12 06:42:59] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/57/5d/bf204333cd526dc68a86cdc89d8516f961e0c6c2479200372c68de8a0c00/taichu-storage-0.0.8.tar.gz
+[2023-07-12 06:42:59] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/e1/32/5548567e9c8cf8685a2f236b60a9a83925adebe5cd63f269935474baab41/quao-0.3.3.tar.gz
+[2023-07-12 06:42:59] WARNING root fetch - processPackages [abqpy2022]: Skipping, unable to determine old version
+[2023-07-12 06:42:59] INFO root fetch - main [MainThread]: End processing [abqpy2022] error
+[2023-07-12 06:42:59] INFO root fetch - processPackages [macro-kit]: Downloading https://files.pythonhosted.org/packages/bb/7f/497e44f4092aee2e631cebbcd9ee0e3efb80fa45ddbc7c137e828dbbead8/macro_kit-0.4.5.tar.gz
+[2023-07-12 06:42:59] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/b6/4c/bb0274a35c4976e46f46d7e1809f3a9f4a6e4936f25b4e38a739eca05e04/taichu-storage-0.0.9.tar.gz
+[2023-07-12 06:42:59] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/bb/cc/47c9dfb3e80763c4c467925f95ea34781881cbcab9f9819749d26ffb62de/quao-0.3.4.tar.gz
+[2023-07-12 06:42:59] INFO root fetch - processPackages [taichu-storage]: executing diffoscope
+[2023-07-12 06:42:59] INFO root fetch - processPackages [taichu-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-storage-0.0.8.tar.gz tmp/taichu-storage-0.0.9.tar.gz --markdown 20230712/t/taichu-storage/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 06:42:59] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-12 06:42:59] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.3.tar.gz tmp/quao-0.3.4.tar.gz --markdown 20230712/q/quao/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-12 06:42:59] INFO root fetch - processPackages [macro-kit]: Downloading https://files.pythonhosted.org/packages/d2/2f/4e2a5d2e442fa81e370a757229a84f5719994b345a03407e1ba72c8ef072/macro_kit-0.4.6.tar.gz
+[2023-07-12 06:42:59] INFO root fetch - processPackages [macro-kit]: executing diffoscope
+[2023-07-12 06:42:59] INFO root fetch - processPackages [macro-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macro_kit-0.4.5.tar.gz tmp/macro_kit-0.4.6.tar.gz --markdown 20230712/m/macro-kit/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-12 06:43:00] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.8.tar.gz]
+[2023-07-12 06:43:00] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.9.tar.gz]
+[2023-07-12 06:43:00] INFO root fetch - main [MainThread]: End processing [taichu-storage]: success
+[2023-07-12 06:43:00] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.3.tar.gz]
+[2023-07-12 06:43:00] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.4.tar.gz]
+[2023-07-12 06:43:00] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-12 06:43:00] INFO root fetch - processPackages [macro-kit]: Remove: archive file [/home/abi/fetcher/tmp/macro_kit-0.4.5.tar.gz]
+[2023-07-12 06:43:00] INFO root fetch - processPackages [macro-kit]: Remove: archive file [/home/abi/fetcher/tmp/macro_kit-0.4.6.tar.gz]
+[2023-07-12 06:43:00] INFO root fetch - main [MainThread]: End processing [macro-kit]: success
+[2023-07-12 06:43:00] INFO root fetch - main [MainThread]: Store serial: [18855778]
