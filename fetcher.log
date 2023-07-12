@@ -12752,3 +12752,78 @@
 [2023-07-12 07:40:45] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.0.3.tar.gz]
 [2023-07-12 07:40:45] INFO root fetch - main [MainThread]: End processing [pymobiledevice3]: success
 [2023-07-12 07:40:45] INFO root fetch - main [MainThread]: Store serial: [18856135]
+[2023-07-12 07:45:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856135]
+[2023-07-12 07:45:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 07:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-game-collection
+[2023-07-12 07:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jageocoder
+[2023-07-12 07:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maci
+[2023-07-12 07:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libcoveocds
+[2023-07-12 07:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyTDC
+[2023-07-12 07:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qufit
+[2023-07-12 07:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: daisyfl
+[2023-07-12 07:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rustga
+[2023-07-12 07:45:54] INFO root fetch - processPackages [jageocoder]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-12 07:45:54] INFO root fetch - processPackages [rustga]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-12 07:45:54] INFO root fetch - processPackages [libcoveocds]: New version: [0.9.1] Old Version: [0.8.0]
+[2023-07-12 07:45:54] INFO root fetch - processPackages [maci]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-12 07:45:54] INFO root fetch - processPackages [daisyfl]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-12 07:45:54] INFO root fetch - processPackages [qufit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-12 07:45:54] INFO root fetch - processPackages [PyTDC]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-12 07:45:54] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-12 07:45:55] INFO root fetch - processPackages [rustga]: Downloading https://files.pythonhosted.org/packages/5a/7f/fae2ef75a08428f8611099e61c988737e83f957bdb60d8321955f0ae14db/rustga-0.2.0.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [libcoveocds]: Downloading https://files.pythonhosted.org/packages/b7/b4/2b873431df98689c83915a10a174d7282a55f2b39f647cda36489fe2e632/libcoveocds-0.8.0.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/bf/9d/2a36464ff48208bbdce99dbe76ded530f6975fa12153153557069a02783d/jageocoder-2.0.1.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [maci]: Downloading https://files.pythonhosted.org/packages/81/5b/5ae2c5d3882af1e41d853ece8e64d017844be266c753dd47826f5eaf8f8f/maci-0.3.1.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [daisyfl]: Downloading https://files.pythonhosted.org/packages/45/7e/4f710ab361fd9018d1dcd2a1f2c95aaf5cf6b8e38f3b5727e906e8b81d76/daisyfl-0.4.6.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/48/26/3346b635a896f4a794f8bf96c76e7c1ba52eddfdbf89069c6b89f423f730/qufit-1.1.8.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [PyTDC]: Downloading https://files.pythonhosted.org/packages/dc/97/9bd426c4cd40d3f13b0f40ad09db703144d276f656aa8ceeca3ea8066fc7/PyTDC-0.4.0.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [rustga]: Downloading https://files.pythonhosted.org/packages/b7/63/0513f1aa0574d22704a79b523a086aa026009b4f5e3320353fc2cf0f142d/rustga-0.3.0.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [libcoveocds]: Downloading https://files.pythonhosted.org/packages/dc/d4/34b312466d9a426024eedf241eebdc465f0909df4fbc0d877a6ae8c0bd5f/libcoveocds-0.9.1.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [rustga]: executing diffoscope
+[2023-07-12 07:45:55] INFO root fetch - processPackages [rustga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustga-0.2.0.tar.gz tmp/rustga-0.3.0.tar.gz --markdown 20230712/r/rustga/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-12 07:45:55] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-12 07:45:55] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230712/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-12 07:45:55] INFO root fetch - processPackages [libcoveocds]: executing diffoscope
+[2023-07-12 07:45:55] INFO root fetch - processPackages [libcoveocds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcoveocds-0.8.0.tar.gz tmp/libcoveocds-0.9.1.tar.gz --markdown 20230712/l/libcoveocds/0.8.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-12 07:45:55] INFO root fetch - processPackages [daisyfl]: Downloading https://files.pythonhosted.org/packages/a8/fa/6462363503aadb6f8a27c1d62b77e809b4db40d24c190407ab7d4d6b1c19/daisyfl-0.4.7.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/76/2e/86a3cdc36075857867ce3ba6b0ce5f4e3b387e619ca776b205fb456909e4/jageocoder-2.0.2.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [maci]: Downloading https://files.pythonhosted.org/packages/e1/a6/2cab8c5ee6f0a30caf67e4251c6c7a5c046a55726f268ff5fd8c7856c745/maci-0.4.0.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [PyTDC]: Downloading https://files.pythonhosted.org/packages/d4/01/bd7429c6afdcf675d7c08f69748022bd527f16788cccef6eb63e15845dbc/PyTDC-0.4.1.tar.gz
+[2023-07-12 07:45:55] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/87/39/3d967f4675c26fd1a70df93f23c6afec385d0e325a5ecb715849a65e084f/qufit-1.1.9.tar.gz
+[2023-07-12 07:45:56] INFO root fetch - processPackages [daisyfl]: executing diffoscope
+[2023-07-12 07:45:56] INFO root fetch - processPackages [daisyfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daisyfl-0.4.6.tar.gz tmp/daisyfl-0.4.7.tar.gz --markdown 20230712/d/daisyfl/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-12 07:45:56] INFO root fetch - processPackages [jageocoder]: executing diffoscope
+[2023-07-12 07:45:56] INFO root fetch - processPackages [jageocoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jageocoder-2.0.1.tar.gz tmp/jageocoder-2.0.2.tar.gz --markdown 20230712/j/jageocoder/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-12 07:45:56] INFO root fetch - processPackages [maci]: executing diffoscope
+[2023-07-12 07:45:56] INFO root fetch - processPackages [maci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maci-0.3.1.tar.gz tmp/maci-0.4.0.tar.gz --markdown 20230712/m/maci/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-12 07:45:56] INFO root fetch - processPackages [PyTDC]: executing diffoscope
+[2023-07-12 07:45:56] INFO root fetch - processPackages [PyTDC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTDC-0.4.0.tar.gz tmp/PyTDC-0.4.1.tar.gz --markdown 20230712/P/PyTDC/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-12 07:45:56] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-07-12 07:45:56] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.8.tar.gz tmp/qufit-1.1.9.tar.gz --markdown 20230712/q/qufit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-12 07:45:56] INFO root fetch - processPackages [rustga]: Remove: archive file [/home/abi/fetcher/tmp/rustga-0.2.0.tar.gz]
+[2023-07-12 07:45:56] INFO root fetch - processPackages [rustga]: Remove: archive file [/home/abi/fetcher/tmp/rustga-0.3.0.tar.gz]
+[2023-07-12 07:45:56] INFO root fetch - main [MainThread]: End processing [rustga]: success
+[2023-07-12 07:45:57] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-12 07:45:57] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.8.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - processPackages [qufit]: Remove: archive file [/home/abi/fetcher/tmp/qufit-1.1.9.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-07-12 07:45:57] INFO root fetch - processPackages [daisyfl]: Remove: archive file [/home/abi/fetcher/tmp/daisyfl-0.4.6.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - processPackages [daisyfl]: Remove: archive file [/home/abi/fetcher/tmp/daisyfl-0.4.7.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - main [MainThread]: End processing [daisyfl]: success
+[2023-07-12 07:45:57] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.0.1.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.0.2.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - main [MainThread]: End processing [jageocoder]: success
+[2023-07-12 07:45:57] INFO root fetch - processPackages [maci]: Remove: archive file [/home/abi/fetcher/tmp/maci-0.3.1.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - processPackages [maci]: Remove: archive file [/home/abi/fetcher/tmp/maci-0.4.0.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - main [MainThread]: End processing [maci]: success
+[2023-07-12 07:45:57] INFO root fetch - processPackages [PyTDC]: Remove: archive file [/home/abi/fetcher/tmp/PyTDC-0.4.0.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - processPackages [PyTDC]: Remove: archive file [/home/abi/fetcher/tmp/PyTDC-0.4.1.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - main [MainThread]: End processing [PyTDC]: success
+[2023-07-12 07:45:57] INFO root fetch - processPackages [libcoveocds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveocds-0.8.0.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - processPackages [libcoveocds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveocds-0.9.1.tar.gz]
+[2023-07-12 07:45:57] INFO root fetch - main [MainThread]: End processing [libcoveocds]: success
+[2023-07-12 07:45:57] INFO root fetch - main [MainThread]: Store serial: [18856179]
