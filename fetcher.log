@@ -18778,3 +18778,181 @@
 [2023-07-12 12:19:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307121017-py3-none-any.whl.zip]
 [2023-07-12 12:19:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-12 12:19:03] INFO root fetch - main [MainThread]: Store serial: [18858683]
+[2023-07-12 12:24:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858683]
+[2023-07-12 12:24:12] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-12 12:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-auth0
+[2023-07-12 12:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jureqex
+[2023-07-12 12:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-sale-substate
+[2023-07-12 12:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-asyncio
+[2023-07-12 12:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-07-12 12:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openedx-django-pyfs
+[2023-07-12 12:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: systembridgeconnector
+[2023-07-12 12:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bl-hector
+[2023-07-12 12:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: systembridgeshared
+[2023-07-12 12:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skytek-utils
+[2023-07-12 12:24:12] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-07-12 12:24:12] INFO root fetch - processPackages [kfish]: New version: [99.0.202307121019] Old Version: [99.0.202307120645]
+[2023-07-12 12:24:12] WARNING root fetch - processPackages [odoo14-addon-sale-substate]: Skipping, unable to determine old version
+[2023-07-12 12:24:12] INFO root fetch - processPackages [odoo14-addon-sale-substate]: Start processing: systembridgebackend
+[2023-07-12 12:24:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-substate] error
+[2023-07-12 12:24:12] INFO root fetch - processPackages [skytek-utils]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-12 12:24:12] INFO root fetch - processPackages [bl-hector]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-12 12:24:12] INFO root fetch - processPackages [pytest-asyncio]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-12 12:24:12] WARNING root fetch - processPackages [jureqex]: Skipping, unable to determine old version
+[2023-07-12 12:24:12] INFO root fetch - processPackages [jureqex]: Start processing: cql-parser
+[2023-07-12 12:24:12] INFO root fetch - main [MainThread]: End processing [jureqex] error
+[2023-07-12 12:24:12] INFO root fetch - processPackages [openedx-django-pyfs]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-07-12 12:24:12] WARNING root fetch - processPackages [cql-parser]: Skipping, unable to determine old version
+[2023-07-12 12:24:12] INFO root fetch - processPackages [cql-parser]: Start processing: finbourne-identity-sdk
+[2023-07-12 12:24:12] INFO root fetch - main [MainThread]: End processing [cql-parser] error
+[2023-07-12 12:24:12] INFO root fetch - processPackages [systembridgeshared]: New version: [3.7.0.dev1] Old Version: [3.7.0]
+[2023-07-12 12:24:12] INFO root fetch - processPackages [systembridgeconnector]: New version: [3.7.0.dev1] Old Version: [3.7.0]
+[2023-07-12 12:24:12] INFO root fetch - processPackages [systembridgebackend]: New version: [3.7.0.dev1] Old Version: [3.7.0]
+[2023-07-12 12:24:12] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2493]
+[2023-07-12 12:24:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/0c/72/8285b13c90ba05b1604c251305e11a8f412c81f202968db75d6eb6e76666/kfish-99.0.202307120645-py3-none-any.whl
+[2023-07-12 12:24:12] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/07/42/3cd646032d5ac585e33ff401363cdb57c233a1ff3db1818c15751b5a4acf/bl_hector-0.3.2.tar.gz
+[2023-07-12 12:24:12] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/3e/35/7d6e4499bceba97755c0134f6a13d88ed94dadff204afd15746602f4d885/pulumi_auth0-2.9.0a1651588791.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [pytest-asyncio]: Downloading https://files.pythonhosted.org/packages/c9/28/032baa7ba981928ec31faeb700b19fd7d3434bedff6aaff30b2e630dd82d/pytest-asyncio-0.8.0.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/c2/22/c14c0d607e4e3045722348079f1ca791e3e45a27e4c26c835f25f178cce5/systembridgeshared-3.7.0.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/fe/76/8634e5820dd267fc6c9d364b0cbe61060e59a3a7e4a3d52c8e967596a4e9/systembridgeconnector-3.7.0.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/e9/b9/a57366a52c84b29815c4c3485fec02f451a6a1d63e986d3c6f33d1d9c555/systembridgebackend-3.7.0.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [skytek-utils]: Downloading https://files.pythonhosted.org/packages/14/e4/dee29b120c03ae49dd9246204b7a780f4d8b0a4a22ff364e37ef54c80aac/skytek-utils-0.6.0.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [openedx-django-pyfs]: Downloading https://files.pythonhosted.org/packages/22/d9/b15742a4a5dfcfe9eeaa383bd06c2a40c630b47d312df6414849275da78f/openedx-django-pyfs-3.3.0.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/c1/82/abfce2cd6c5644bc4b208f1319952521a0b38dce75bdb9b348c4f01405f6/finbourne-identity-sdk-0.0.2493.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/2b/ed/f395cfee323e6c1898dbc7a25064902636aff8e99a09d8d1c2a891741a56/kfish-99.0.202307121019-py3-none-any.whl
+[2023-07-12 12:24:13] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/3c/8f/539791dfabd19cc3db1b2967a8434fe765846383f1db001ef6fdbee5c249/bl_hector-0.4.0.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-12 12:24:13] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307120645-py3-none-any.whl.zip tmp/kfish-99.0.202307121019-py3-none-any.whl.zip --markdown 20230712/k/kfish/99.0.202307120645-99.0.202307121019/diff.md --exclude *.pyd
+[2023-07-12 12:24:13] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/19/fc/57f01dd941ba0ec2ad79d6e6f06dc951a65e89280d974bb8be71b3a6bc6a/pulumi_auth0-2.9.0a1653604814.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [skytek-utils]: Downloading https://files.pythonhosted.org/packages/c6/00/233c65e2733e14a5a32180976fa91b9342dd7d07b11d29465bd8bf381783/skytek-utils-0.7.0.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [systembridgeshared]: Downloading https://files.pythonhosted.org/packages/ce/cd/fe65200c4bbc88ed1d3315888d9001460bee16ed37c1b62ba4c405846b30/systembridgeshared-3.7.0.dev1.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [pytest-asyncio]: Downloading https://files.pythonhosted.org/packages/22/fd/6be59ed6eb49798d248730b8c2589e4f862a39b49775a1415972b31a3362/pytest-asyncio-0.9.0.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [systembridgebackend]: Downloading https://files.pythonhosted.org/packages/59/9a/b8afe65ffc2994c3a5b053262cc3d7072738e7008d27b4d7d1310294c3f7/systembridgebackend-3.7.0.dev1.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [openedx-django-pyfs]: Downloading https://files.pythonhosted.org/packages/b1/47/f066e36fd995a63e564ac2b6de600a8a32fcdaf59d7909599eb1165a8706/openedx-django-pyfs-3.4.0.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/a6/3d/f0ec38cf3a763fce1e964ae250e8288892f46c7d094cf724532e02401b52/systembridgeconnector-3.7.0.dev1.tar.gz
+[2023-07-12 12:24:13] INFO root fetch - processPackages [bl-hector]: executing diffoscope
+[2023-07-12 12:24:13] INFO root fetch - processPackages [bl-hector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bl_hector-0.3.2.tar.gz tmp/bl_hector-0.4.0.tar.gz --markdown 20230712/b/bl-hector/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-12 12:24:13] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-07-12 12:24:13] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230712/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-07-12 12:24:13] INFO root fetch - processPackages [skytek-utils]: executing diffoscope
+[2023-07-12 12:24:13] INFO root fetch - processPackages [skytek-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytek-utils-0.6.0.tar.gz tmp/skytek-utils-0.7.0.tar.gz --markdown 20230712/s/skytek-utils/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-12 12:24:13] INFO root fetch - processPackages [systembridgeshared]: executing diffoscope
+[2023-07-12 12:24:13] INFO root fetch - processPackages [systembridgeshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeshared-3.7.0.tar.gz tmp/systembridgeshared-3.7.0.dev1.tar.gz --markdown 20230712/s/systembridgeshared/3.7.0-3.7.0.dev1/diff.md --exclude *.pyd
+[2023-07-12 12:24:13] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-07-12 12:24:13] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2493.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230712/f/finbourne-identity-sdk/0.0.2493-0.0.840/diff.md --exclude *.pyd
+[2023-07-12 12:24:13] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2023-07-12 12:24:13] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-3.7.0.tar.gz tmp/systembridgeconnector-3.7.0.dev1.tar.gz --markdown 20230712/s/systembridgeconnector/3.7.0-3.7.0.dev1/diff.md --exclude *.pyd
+[2023-07-12 12:24:13] INFO root fetch - processPackages [systembridgebackend]: executing diffoscope
+[2023-07-12 12:24:13] INFO root fetch - processPackages [systembridgebackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgebackend-3.7.0.tar.gz tmp/systembridgebackend-3.7.0.dev1.tar.gz --markdown 20230712/s/systembridgebackend/3.7.0-3.7.0.dev1/diff.md --exclude *.pyd
+[2023-07-12 12:24:13] INFO root fetch - processPackages [pytest-asyncio]: executing diffoscope
+[2023-07-12 12:24:13] INFO root fetch - processPackages [pytest-asyncio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-asyncio-0.8.0.tar.gz tmp/pytest-asyncio-0.9.0.tar.gz --markdown 20230712/p/pytest-asyncio/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 12:24:13] INFO root fetch - processPackages [openedx-django-pyfs]: executing diffoscope
+[2023-07-12 12:24:13] INFO root fetch - processPackages [openedx-django-pyfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-django-pyfs-3.3.0.tar.gz tmp/openedx-django-pyfs-3.4.0.tar.gz --markdown 20230712/o/openedx-django-pyfs/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-07-12 12:24:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307120645-py3-none-any.whl.zip]
+[2023-07-12 12:24:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307121019-py3-none-any.whl.zip]
+[2023-07-12 12:24:14] INFO root fetch - processPackages [kfish]: Start processing: systembridgecli
+[2023-07-12 12:24:14] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-12 12:24:14] INFO root fetch - processPackages [systembridgecli]: New version: [3.7.0.dev1] Old Version: [3.7.0]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/63/8c/1aa91b4b3fc2afcd28957f27a5fd8f7b62d9c0d9fb592c3807b3e6f5a7fb/systembridgecli-3.7.0.tar.gz
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgecli]: Downloading https://files.pythonhosted.org/packages/97/6b/b594c33b5cc902fdf97d11006034cf48f896262fe5c3389cad1a84a87b9e/systembridgecli-3.7.0.dev1.tar.gz
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgecli]: executing diffoscope
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgecli-3.7.0.tar.gz tmp/systembridgecli-3.7.0.dev1.tar.gz --markdown 20230712/s/systembridgecli/3.7.0-3.7.0.dev1/diff.md --exclude *.pyd
+[2023-07-12 12:24:15] INFO root fetch - processPackages [skytek-utils]: Remove: archive file [/home/abi/fetcher/tmp/skytek-utils-0.6.0.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [skytek-utils]: Remove: archive file [/home/abi/fetcher/tmp/skytek-utils-0.7.0.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [skytek-utils]: Start processing: textualodon
+[2023-07-12 12:24:15] INFO root fetch - main [MainThread]: End processing [skytek-utils]: success
+[2023-07-12 12:24:15] INFO root fetch - processPackages [textualodon]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.7.0.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgeshared]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeshared-3.7.0.dev1.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgeshared]: Start processing: qiskit-aer
+[2023-07-12 12:24:15] INFO root fetch - main [MainThread]: End processing [systembridgeshared]: success
+[2023-07-12 12:24:15] INFO root fetch - processPackages [qiskit-aer]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-12 12:24:15] ERROR root fetch - processPackages [textualodon]: Unable to fetch info: No such project/version 'textualodon' 0.1.0
+[2023-07-12 12:24:15] INFO root fetch - processPackages [textualodon]: Start processing: sbpack
+[2023-07-12 12:24:15] INFO root fetch - main [MainThread]: End processing [textualodon] error
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.7.0.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-3.7.0.dev1.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgeconnector]: Start processing: systembridgefrontend
+[2023-07-12 12:24:15] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2023-07-12 12:24:15] INFO root fetch - processPackages [openedx-django-pyfs]: Remove: archive file [/home/abi/fetcher/tmp/openedx-django-pyfs-3.3.0.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [openedx-django-pyfs]: Remove: archive file [/home/abi/fetcher/tmp/openedx-django-pyfs-3.4.0.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [openedx-django-pyfs]: Start processing: neuralpit
+[2023-07-12 12:24:15] INFO root fetch - main [MainThread]: End processing [openedx-django-pyfs]: success
+[2023-07-12 12:24:15] INFO root fetch - processPackages [sbpack]: New version: [2023.6.20rc2] Old Version: [2023.6.20rc1]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgefrontend]: New version: [3.7.0.dev1] Old Version: [3.7.0]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.7.0.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgebackend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgebackend-3.7.0.dev1.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [systembridgebackend]: Start processing: nwebclient
+[2023-07-12 12:24:15] INFO root fetch - main [MainThread]: End processing [systembridgebackend]: success
+[2023-07-12 12:24:15] INFO root fetch - processPackages [neuralpit]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [pytest-asyncio]: Remove: archive file [/home/abi/fetcher/tmp/pytest-asyncio-0.8.0.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [pytest-asyncio]: Remove: archive file [/home/abi/fetcher/tmp/pytest-asyncio-0.9.0.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [pytest-asyncio]: Start processing: qwak-core
+[2023-07-12 12:24:15] INFO root fetch - main [MainThread]: End processing [pytest-asyncio]: success
+[2023-07-12 12:24:15] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1651588791.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1653604814.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [pulumi-auth0]: Start processing: systembridgegui
+[2023-07-12 12:24:15] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-07-12 12:24:15] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.3.2.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.4.0.tar.gz]
+[2023-07-12 12:24:15] INFO root fetch - main [MainThread]: End processing [bl-hector]: success
+[2023-07-12 12:24:15] INFO root fetch - processPackages [qiskit-aer]: Downloading https://files.pythonhosted.org/packages/f2/c9/8432ff9213212a6c01590a4deaed308b2a82fe64faa41bc7210f4370cd24/qiskit-aer-0.9.0.tar.gz
+[2023-07-12 12:24:16] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 12:24:16] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/b7/62/b00d86a5ac9c73db8b6b5d20df9354b0238a5c367ae80f047f86561569c9/systembridgefrontend-3.7.0.tar.gz
+[2023-07-12 12:24:16] INFO root fetch - processPackages [systembridgegui]: New version: [3.7.0.dev1] Old Version: [3.7.0]
+[2023-07-12 12:24:16] INFO root fetch - processPackages [sbpack]: Downloading https://files.pythonhosted.org/packages/fb/04/d91f1e1e66b74048a964d43195970982ccec9974e6fd4278921d69761088/sbpack-2023.6.20rc1-py3-none-any.whl
+[2023-07-12 12:24:16] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2493.tar.gz]
+[2023-07-12 12:24:16] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-07-12 12:24:16] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-07-12 12:24:16] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-12 12:24:16] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/4a/9f/5ee4560c5c4dd3237a0d1c75d4b23052451881a4a0ca365c2a329dced6d9/neuralpit-2.0.4.tar.gz
+[2023-07-12 12:24:16] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 12:24:16] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/59/d5/518bcb8350b2036caf303bf648f50e3e3f6b600385d072e1ad3bae823171/systembridgegui-3.7.0.tar.gz
+[2023-07-12 12:24:16] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 12:24:16] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 12:24:16] INFO root fetch - processPackages [systembridgefrontend]: Downloading https://files.pythonhosted.org/packages/b8/44/944aad46fa3d13a9af1dbe308ffc45f092fa6113d6b8044265695820a80b/systembridgefrontend-3.7.0.dev1.tar.gz
+[2023-07-12 12:24:16] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.7.0.tar.gz]
+[2023-07-12 12:24:16] INFO root fetch - processPackages [systembridgecli]: Remove: archive file [/home/abi/fetcher/tmp/systembridgecli-3.7.0.dev1.tar.gz]
+[2023-07-12 12:24:16] INFO root fetch - main [MainThread]: End processing [systembridgecli]: success
+[2023-07-12 12:24:16] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/76/3c/916fec234a5c84afc9eff0818403ebc5dc3df349e729c7d1c9baa5fee321/neuralpit-2.0.5.tar.gz
+[2023-07-12 12:24:16] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-12 12:24:16] INFO root fetch - processPackages [sbpack]: Downloading https://files.pythonhosted.org/packages/18/77/022c036ce49dd0e74a4fe8992f746793956104d1f53e7679d112045523d7/sbpack-2023.6.20rc2-py3-none-any.whl
+[2023-07-12 12:24:16] INFO root fetch - processPackages [systembridgefrontend]: executing diffoscope
+[2023-07-12 12:24:16] INFO root fetch - processPackages [systembridgefrontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgefrontend-3.7.0.tar.gz tmp/systembridgefrontend-3.7.0.dev1.tar.gz --markdown 20230712/s/systembridgefrontend/3.7.0-3.7.0.dev1/diff.md --exclude *.pyd
+[2023-07-12 12:24:16] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-12 12:24:16] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.4.tar.gz tmp/neuralpit-2.0.5.tar.gz --markdown 20230712/n/neuralpit/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-12 12:24:16] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-12 12:24:16] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230712/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 12:24:16] INFO root fetch - processPackages [sbpack]: executing diffoscope
+[2023-07-12 12:24:16] INFO root fetch - processPackages [sbpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbpack-2023.6.20rc1-py3-none-any.whl.zip tmp/sbpack-2023.6.20rc2-py3-none-any.whl.zip --markdown 20230712/s/sbpack/2023.6.20rc1-2023.6.20rc2/diff.md --exclude *.pyd
+[2023-07-12 12:24:16] INFO root fetch - processPackages [systembridgegui]: Downloading https://files.pythonhosted.org/packages/f5/a2/20a61e75fe66a4721c742c8d936868f50cba8f896a753836a35266f03b24/systembridgegui-3.7.0.dev1.tar.gz
+[2023-07-12 12:24:16] INFO root fetch - processPackages [systembridgegui]: executing diffoscope
+[2023-07-12 12:24:16] INFO root fetch - processPackages [systembridgegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgegui-3.7.0.tar.gz tmp/systembridgegui-3.7.0.dev1.tar.gz --markdown 20230712/s/systembridgegui/3.7.0-3.7.0.dev1/diff.md --exclude *.pyd
+[2023-07-12 12:24:17] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 12:24:17] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 12:24:17] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 12:24:17] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.4.tar.gz]
+[2023-07-12 12:24:17] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.5.tar.gz]
+[2023-07-12 12:24:17] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-12 12:24:17] INFO root fetch - processPackages [sbpack]: Remove: archive file [/home/abi/fetcher/tmp/sbpack-2023.6.20rc1-py3-none-any.whl.zip]
+[2023-07-12 12:24:17] INFO root fetch - processPackages [sbpack]: Remove: archive file [/home/abi/fetcher/tmp/sbpack-2023.6.20rc2-py3-none-any.whl.zip]
+[2023-07-12 12:24:17] INFO root fetch - main [MainThread]: End processing [sbpack]: success
+[2023-07-12 12:24:17] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.7.0.tar.gz]
+[2023-07-12 12:24:17] INFO root fetch - processPackages [systembridgegui]: Remove: archive file [/home/abi/fetcher/tmp/systembridgegui-3.7.0.dev1.tar.gz]
+[2023-07-12 12:24:17] INFO root fetch - main [MainThread]: End processing [systembridgegui]: success
+[2023-07-12 12:24:18] INFO root fetch - processPackages [qiskit-aer]: Downloading https://files.pythonhosted.org/packages/c5/25/bb6a38726d2fe5c5201e452943f793f7461bdb8bb2895c6a3fea177833d8/qiskit-aer-0.9.1.tar.gz
+[2023-07-12 12:24:18] INFO root fetch - processPackages [qiskit-aer]: executing diffoscope
+[2023-07-12 12:24:18] INFO root fetch - processPackages [qiskit-aer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-aer-0.9.0.tar.gz tmp/qiskit-aer-0.9.1.tar.gz --markdown 20230712/q/qiskit-aer/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-12 12:24:19] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-12 12:24:19] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-12 12:24:19] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-12 12:24:21] INFO root fetch - processPackages [qiskit-aer]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-aer-0.9.0.tar.gz]
+[2023-07-12 12:24:21] INFO root fetch - processPackages [qiskit-aer]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-aer-0.9.1.tar.gz]
+[2023-07-12 12:24:21] INFO root fetch - main [MainThread]: End processing [qiskit-aer]: success
+[2023-07-12 12:24:25] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.7.0.tar.gz]
+[2023-07-12 12:24:25] INFO root fetch - processPackages [systembridgefrontend]: Remove: archive file [/home/abi/fetcher/tmp/systembridgefrontend-3.7.0.dev1.tar.gz]
+[2023-07-12 12:24:25] INFO root fetch - main [MainThread]: End processing [systembridgefrontend]: success
+[2023-07-12 12:24:25] INFO root fetch - main [MainThread]: Store serial: [18858755]
