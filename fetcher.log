@@ -15585,3 +15585,206 @@
 [2023-07-12 10:25:40] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.8.1.tar.gz]
 [2023-07-12 10:25:40] INFO root fetch - main [MainThread]: End processing [langchain-wenxin]: success
 [2023-07-12 10:25:40] INFO root fetch - main [MainThread]: Store serial: [18857390]
+[2023-07-12 10:30:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857390]
+[2023-07-12 10:30:50] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-07-12 10:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openlimitHW
+[2023-07-12 10:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modis-crawler-utils
+[2023-07-12 10:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cval-lib
+[2023-07-12 10:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codetell
+[2023-07-12 10:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyatmoslogger
+[2023-07-12 10:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-manual-delivery
+[2023-07-12 10:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fibsem
+[2023-07-12 10:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aicodebot
+[2023-07-12 10:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyMysqlTools
+[2023-07-12 10:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bestPR
+[2023-07-12 10:30:51] INFO root fetch - processPackages [openlimitHW]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-12 10:30:51] WARNING root fetch - processPackages [odoo-addon-sale-manual-delivery]: Skipping, unable to determine old version
+[2023-07-12 10:30:51] INFO root fetch - processPackages [odoo-addon-sale-manual-delivery]: Start processing: bestPR
+[2023-07-12 10:30:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-manual-delivery] error
+[2023-07-12 10:30:51] WARNING root fetch - processPackages [pyatmoslogger]: Skipping, unable to determine old version
+[2023-07-12 10:30:51] INFO root fetch - processPackages [pyatmoslogger]: Start processing: bestPR
+[2023-07-12 10:30:51] INFO root fetch - main [MainThread]: End processing [pyatmoslogger] error
+[2023-07-12 10:30:51] WARNING root fetch - processPackages [codetell]: Skipping, unable to determine old version
+[2023-07-12 10:30:51] INFO root fetch - processPackages [codetell]: Start processing: bestPR
+[2023-07-12 10:30:51] INFO root fetch - main [MainThread]: End processing [codetell] error
+[2023-07-12 10:30:51] INFO root fetch - processPackages [cval-lib]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2023-07-12 10:30:51] INFO root fetch - processPackages [fibsem]: New version: [0.2.1a1] Old Version: [0.2.1a0]
+[2023-07-12 10:30:51] INFO root fetch - processPackages [modis-crawler-utils]: New version: [0.2.75] Old Version: [0.2.74]
+[2023-07-12 10:30:51] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-12 10:30:51] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:51] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:51] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:51] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:51] INFO root fetch - processPackages [PyMysqlTools]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-12 10:30:51] INFO root fetch - processPackages [modis-crawler-utils]: Downloading https://files.pythonhosted.org/packages/a9/bb/9a5844a16fadaf1900ffac39fc2bd4167d24f198d59d2345c7e193e8a3bc/modis_crawler_utils-0.2.74.tar.gz
+[2023-07-12 10:30:51] INFO root fetch - processPackages [openlimitHW]: Downloading https://files.pythonhosted.org/packages/39/37/6c8da24135bde1fc08ddc52674f553fdd290a37d36578615b984b67ca4df/openlimitHW-0.5.2.tar.gz
+[2023-07-12 10:30:51] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-12 10:30:51] INFO root fetch - processPackages [fibsem]: Downloading https://files.pythonhosted.org/packages/4c/cf/0ed2a796e278cf9de3d52e287cc7d8d9892c21c0a00920a9ff30f5033a56/fibsem-0.2.1a0-py3-none-any.whl
+[2023-07-12 10:30:51] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/9a/70/031d75ff39efd5cfbf481fa0b0070109f80278197ca0e35e59f2860b242c/cval-lib-0.0.2.8.tar.gz
+[2023-07-12 10:30:51] INFO root fetch - processPackages [PyMysqlTools]: Downloading https://files.pythonhosted.org/packages/cb/3a/2e690548dd47a03d841065a44dfda33d1cb3be6362d623f847a8522b9a16/PyMysqlTools-0.6.0.tar.gz
+[2023-07-12 10:30:51] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/06/8f/63a3381de95634831b29e4b1d41652ace3990d7c77f7ad696710d49d85f2/bestPR-0.6.7-py3-none-any.whl
+[2023-07-12 10:30:51] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/06/8f/63a3381de95634831b29e4b1d41652ace3990d7c77f7ad696710d49d85f2/bestPR-0.6.7-py3-none-any.whl
+[2023-07-12 10:30:51] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/06/8f/63a3381de95634831b29e4b1d41652ace3990d7c77f7ad696710d49d85f2/bestPR-0.6.7-py3-none-any.whl
+[2023-07-12 10:30:51] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/06/8f/63a3381de95634831b29e4b1d41652ace3990d7c77f7ad696710d49d85f2/bestPR-0.6.7-py3-none-any.whl
+[2023-07-12 10:30:51] INFO root fetch - processPackages [modis-crawler-utils]: Downloading https://files.pythonhosted.org/packages/58/ca/9ac33fb20de92eb0a0a2ca6ab50d82c63776b7d0e9c65ba077068e6725a6/modis_crawler_utils-0.2.75-py3-none-any.whl
+[2023-07-12 10:30:51] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-12 10:30:51] INFO root fetch - processPackages [openlimitHW]: Downloading https://files.pythonhosted.org/packages/c8/a7/1de3dcb0bf2541065876f00d64d9c21f5ac7709140e608f159e6b6572fce/openlimitHW-0.5.3.tar.gz
+[2023-07-12 10:30:51] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/ed/84/ceaf16394358aa9387e43867724a88572ee9160fb8f47ad8c56ea5dd9ff6/cval-lib-0.0.2.9.tar.gz
+[2023-07-12 10:30:52] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-12 10:30:52] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230712/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-12 10:30:52] INFO root fetch - processPackages [modis-crawler-utils]: executing diffoscope
+[2023-07-12 10:30:52] INFO root fetch - processPackages [modis-crawler-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modis_crawler_utils-0.2.74.tar.gz tmp/modis_crawler_utils-0.2.75-py3-none-any.whl.zip --markdown 20230712/m/modis-crawler-utils/0.2.74-0.2.75/diff.md --exclude *.pyd
+[2023-07-12 10:30:52] INFO root fetch - processPackages [openlimitHW]: executing diffoscope
+[2023-07-12 10:30:52] INFO root fetch - processPackages [openlimitHW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlimitHW-0.5.2.tar.gz tmp/openlimitHW-0.5.3.tar.gz --markdown 20230712/o/openlimitHW/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-12 10:30:52] INFO root fetch - processPackages [PyMysqlTools]: Downloading https://files.pythonhosted.org/packages/56/e7/b1b42c6ad657ca5a13016dfa3e2f47c15440309ad2a9e1b4616e6228a957/PyMysqlTools-0.6.1.tar.gz
+[2023-07-12 10:30:52] INFO root fetch - processPackages [cval-lib]: executing diffoscope
+[2023-07-12 10:30:52] INFO root fetch - processPackages [cval-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cval-lib-0.0.2.8.tar.gz tmp/cval-lib-0.0.2.9.tar.gz --markdown 20230712/c/cval-lib/0.0.2.8-0.0.2.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:52] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/50/80/f793f75b002f0e07a0af92092df39b8c4eaecd64fb171bb3c4ca8090785e/bestPR-0.6.9-py3-none-any.whl
+[2023-07-12 10:30:52] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/50/80/f793f75b002f0e07a0af92092df39b8c4eaecd64fb171bb3c4ca8090785e/bestPR-0.6.9-py3-none-any.whl
+[2023-07-12 10:30:52] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/50/80/f793f75b002f0e07a0af92092df39b8c4eaecd64fb171bb3c4ca8090785e/bestPR-0.6.9-py3-none-any.whl
+[2023-07-12 10:30:52] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/50/80/f793f75b002f0e07a0af92092df39b8c4eaecd64fb171bb3c4ca8090785e/bestPR-0.6.9-py3-none-any.whl
+[2023-07-12 10:30:52] INFO root fetch - processPackages [PyMysqlTools]: executing diffoscope
+[2023-07-12 10:30:52] INFO root fetch - processPackages [PyMysqlTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMysqlTools-0.6.0.tar.gz tmp/PyMysqlTools-0.6.1.tar.gz --markdown 20230712/P/PyMysqlTools/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-12 10:30:52] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:52] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:52] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:52] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:52] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:52] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:52] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:52] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:53] INFO root fetch - processPackages [fibsem]: Downloading https://files.pythonhosted.org/packages/ad/73/b8cf8db0dba6e191be400b025e534b4f6d7d18c39d86428101720ee58e4e/fibsem-0.2.1a1-py3-none-any.whl
+[2023-07-12 10:30:53] INFO root fetch - processPackages [modis-crawler-utils]: Remove: archive file [/home/abi/fetcher/tmp/modis_crawler_utils-0.2.74.tar.gz]
+[2023-07-12 10:30:53] INFO root fetch - processPackages [modis-crawler-utils]: Remove: archive file [/home/abi/fetcher/tmp/modis_crawler_utils-0.2.75-py3-none-any.whl.zip]
+[2023-07-12 10:30:53] INFO root fetch - processPackages [modis-crawler-utils]: Start processing: bestPR
+[2023-07-12 10:30:53] INFO root fetch - main [MainThread]: End processing [modis-crawler-utils]: success
+[2023-07-12 10:30:53] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-12 10:30:53] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-12 10:30:53] INFO root fetch - processPackages [aicodebot]: Start processing: bestPR
+[2023-07-12 10:30:53] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-12 10:30:53] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:53] INFO root fetch - processPackages [openlimitHW]: Remove: archive file [/home/abi/fetcher/tmp/openlimitHW-0.5.2.tar.gz]
+[2023-07-12 10:30:53] INFO root fetch - processPackages [openlimitHW]: Remove: archive file [/home/abi/fetcher/tmp/openlimitHW-0.5.3.tar.gz]
+[2023-07-12 10:30:53] INFO root fetch - processPackages [openlimitHW]: Start processing: velikafkaclient
+[2023-07-12 10:30:53] INFO root fetch - main [MainThread]: End processing [openlimitHW]: success
+[2023-07-12 10:30:53] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:53] INFO root fetch - processPackages [velikafkaclient]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-12 10:30:53] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.8.tar.gz]
+[2023-07-12 10:30:53] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.9.tar.gz]
+[2023-07-12 10:30:53] INFO root fetch - processPackages [cval-lib]: Start processing: bestPR
+[2023-07-12 10:30:53] INFO root fetch - main [MainThread]: End processing [cval-lib]: success
+[2023-07-12 10:30:53] INFO root fetch - processPackages [velikafkaclient]: Downloading https://files.pythonhosted.org/packages/71/fc/03f715ad225ba3afb7c6adcfd2432756623bc101e2d8e8384e80cfcbe276/velikafkaclient-1.0.3.tar.gz
+[2023-07-12 10:30:53] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:53] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:53] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:53] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:53] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:54] INFO root fetch - processPackages [velikafkaclient]: Downloading https://files.pythonhosted.org/packages/e9/8a/975309d34938650cd6261187455c19bc1c523084928d9d0566b41fc2ad9a/velikafkaclient-1.0.4.tar.gz
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: Remove: archive file [/home/abi/fetcher/tmp/bestPR-0.6.7-py3-none-any.whl.zip]
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: Remove: archive file [/home/abi/fetcher/tmp/bestPR-0.6.9-py3-none-any.whl.zip]
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: Start processing: lib310-lite
+[2023-07-12 10:30:54] INFO root fetch - main [MainThread]: End processing [bestPR]: success
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: Start processing: bestPR
+[2023-07-12 10:30:54] INFO root fetch - main [MainThread]: End processing [bestPR]: success
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/50/80/f793f75b002f0e07a0af92092df39b8c4eaecd64fb171bb3c4ca8090785e/bestPR-0.6.9-py3-none-any.whl
+[2023-07-12 10:30:54] INFO root fetch - processPackages [PyMysqlTools]: Remove: archive file [/home/abi/fetcher/tmp/PyMysqlTools-0.6.0.tar.gz]
+[2023-07-12 10:30:54] INFO root fetch - processPackages [PyMysqlTools]: Remove: archive file [/home/abi/fetcher/tmp/PyMysqlTools-0.6.1.tar.gz]
+[2023-07-12 10:30:54] INFO root fetch - processPackages [PyMysqlTools]: Start processing: bestPR
+[2023-07-12 10:30:54] INFO root fetch - main [MainThread]: End processing [PyMysqlTools]: success
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: Start processing: bestPR
+[2023-07-12 10:30:54] INFO root fetch - main [MainThread]: End processing [bestPR]: success
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: Start processing: bestPR
+[2023-07-12 10:30:54] INFO root fetch - main [MainThread]: End processing [bestPR]: success
+[2023-07-12 10:30:54] INFO root fetch - processPackages [lib310-lite]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:54] INFO root fetch - processPackages [velikafkaclient]: executing diffoscope
+[2023-07-12 10:30:54] INFO root fetch - processPackages [velikafkaclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velikafkaclient-1.0.3.tar.gz tmp/velikafkaclient-1.0.4.tar.gz --markdown 20230712/v/velikafkaclient/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:54] INFO root fetch - processPackages [fibsem]: executing diffoscope
+[2023-07-12 10:30:54] INFO root fetch - processPackages [fibsem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fibsem-0.2.1a0-py3-none-any.whl.zip tmp/fibsem-0.2.1a1-py3-none-any.whl.zip --markdown 20230712/f/fibsem/0.2.1a0-0.2.1a1/diff.md --exclude *.pyd
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/06/8f/63a3381de95634831b29e4b1d41652ace3990d7c77f7ad696710d49d85f2/bestPR-0.6.7-py3-none-any.whl
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/06/8f/63a3381de95634831b29e4b1d41652ace3990d7c77f7ad696710d49d85f2/bestPR-0.6.7-py3-none-any.whl
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/06/8f/63a3381de95634831b29e4b1d41652ace3990d7c77f7ad696710d49d85f2/bestPR-0.6.7-py3-none-any.whl
+[2023-07-12 10:30:54] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/f8/de/d25530fa463cff571316333f840e0b4e3959d869b0711ba5087325bd5d77/lib310_lite-0.1.0.dev8.tar.gz
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/06/8f/63a3381de95634831b29e4b1d41652ace3990d7c77f7ad696710d49d85f2/bestPR-0.6.7-py3-none-any.whl
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:54] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:54] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/20/e4/20c53fe2129a4308e9c7e229416e41834bb45adbebac2c13ae1d2e82098c/lib310_lite-0.1.0.dev9.tar.gz
+[2023-07-12 10:30:55] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-07-12 10:30:55] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.1.0.dev8.tar.gz tmp/lib310_lite-0.1.0.dev9.tar.gz --markdown 20230712/l/lib310-lite/0.1.0.dev8-0.1.0.dev9/diff.md --exclude *.pyd
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: Remove: archive file [/home/abi/fetcher/tmp/bestPR-0.6.7-py3-none-any.whl.zip]
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: Remove: archive file [/home/abi/fetcher/tmp/bestPR-0.6.9-py3-none-any.whl.zip]
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: Start processing: bestPR
+[2023-07-12 10:30:55] INFO root fetch - main [MainThread]: End processing [bestPR]: success
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: Start processing: bestPR
+[2023-07-12 10:30:55] INFO root fetch - main [MainThread]: End processing [bestPR]: success
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/06/8f/63a3381de95634831b29e4b1d41652ace3990d7c77f7ad696710d49d85f2/bestPR-0.6.7-py3-none-any.whl
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/06/8f/63a3381de95634831b29e4b1d41652ace3990d7c77f7ad696710d49d85f2/bestPR-0.6.7-py3-none-any.whl
+[2023-07-12 10:30:55] ERROR root fetch - processPackages [bestPR]: Diffoscope failed: time="2023-07-12T10:30:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/bestPR-0.6.7-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/bestPR-0.6.9-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: Start processing: bestPR
+[2023-07-12 10:30:55] INFO root fetch - main [MainThread]: End processing [bestPR] error
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/50/80/f793f75b002f0e07a0af92092df39b8c4eaecd64fb171bb3c4ca8090785e/bestPR-0.6.9-py3-none-any.whl
+[2023-07-12 10:30:55] ERROR root fetch - processPackages [bestPR]: Diffoscope failed: time="2023-07-12T10:30:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/bestPR-0.6.7-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/bestPR-0.6.9-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: Start processing: pyfaust
+[2023-07-12 10:30:55] INFO root fetch - main [MainThread]: End processing [bestPR] error
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: Remove: archive file [/home/abi/fetcher/tmp/bestPR-0.6.7-py3-none-any.whl.zip]
+[2023-07-12 10:30:55] INFO root fetch - main [MainThread]: End processing [bestPR]: success
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-12 10:30:55] INFO root fetch - processPackages [velikafkaclient]: Remove: archive file [/home/abi/fetcher/tmp/velikafkaclient-1.0.3.tar.gz]
+[2023-07-12 10:30:55] INFO root fetch - processPackages [velikafkaclient]: Remove: archive file [/home/abi/fetcher/tmp/velikafkaclient-1.0.4.tar.gz]
+[2023-07-12 10:30:55] INFO root fetch - main [MainThread]: End processing [velikafkaclient]: success
+[2023-07-12 10:30:55] ERROR root fetch - processPackages [bestPR]: Diffoscope failed: time="2023-07-12T10:30:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/bestPR-0.6.7-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/bestPR-0.6.9-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-12 10:30:55] INFO root fetch - main [MainThread]: End processing [bestPR] error
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:55] INFO root fetch - processPackages [bestPR]: Downloading https://files.pythonhosted.org/packages/06/8f/63a3381de95634831b29e4b1d41652ace3990d7c77f7ad696710d49d85f2/bestPR-0.6.7-py3-none-any.whl
+[2023-07-12 10:30:56] ERROR root fetch - processPackages [bestPR]: Diffoscope failed: time="2023-07-12T10:30:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/bestPR-0.6.7-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/bestPR-0.6.9-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-12 10:30:56] INFO root fetch - main [MainThread]: End processing [bestPR] error
+[2023-07-12 10:30:56] INFO root fetch - processPackages [bestPR]: executing diffoscope
+[2023-07-12 10:30:56] INFO root fetch - processPackages [bestPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestPR-0.6.7-py3-none-any.whl.zip tmp/bestPR-0.6.9-py3-none-any.whl.zip --markdown 20230712/b/bestPR/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-12 10:30:56] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-12 10:30:56] INFO root fetch - processPackages [lib310-lite]: Remove: archive file [/home/abi/fetcher/tmp/lib310_lite-0.1.0.dev8.tar.gz]
+[2023-07-12 10:30:56] INFO root fetch - processPackages [lib310-lite]: Remove: archive file [/home/abi/fetcher/tmp/lib310_lite-0.1.0.dev9.tar.gz]
+[2023-07-12 10:30:56] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-07-12 10:30:56] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/18/b5/0740195b9ccd0e43e427280344d5fb3706996ff6f66655fe6f79cd230aaa/pyfaust-3.9.0-cp39-cp39-win_amd64.whl
+[2023-07-12 10:30:56] INFO root fetch - processPackages [fibsem]: Remove: archive file [/home/abi/fetcher/tmp/fibsem-0.2.1a0-py3-none-any.whl.zip]
+[2023-07-12 10:30:56] INFO root fetch - processPackages [fibsem]: Remove: archive file [/home/abi/fetcher/tmp/fibsem-0.2.1a1-py3-none-any.whl.zip]
+[2023-07-12 10:30:56] INFO root fetch - main [MainThread]: End processing [fibsem]: success
+[2023-07-12 10:30:56] INFO root fetch - processPackages [bestPR]: Remove: archive file [/home/abi/fetcher/tmp/bestPR-0.6.7-py3-none-any.whl.zip]
+[2023-07-12 10:30:56] INFO root fetch - processPackages [bestPR]: Remove: archive file [/home/abi/fetcher/tmp/bestPR-0.6.9-py3-none-any.whl.zip]
+[2023-07-12 10:30:56] INFO root fetch - main [MainThread]: End processing [bestPR]: success
+[2023-07-12 10:30:56] INFO root fetch - main [MainThread]: End processing [bestPR]: success
+[2023-07-12 10:30:56] INFO root fetch - main [MainThread]: End processing [bestPR]: success
+[2023-07-12 10:30:58] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/34/28/ab7cd91f9611bbe2d9ff5bfc6934eb6af283249b75ac68c9d0b6befcd0b5/pyfaust-3.9.1-cp39-cp39-win_amd64.whl
+[2023-07-12 10:31:00] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2023-07-12 10:31:00] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230712/p/pyfaust/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-12 10:31:19] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-12 10:31:19] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-12 10:31:19] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2023-07-12 10:31:19] INFO root fetch - main [MainThread]: Store serial: [18857461]
