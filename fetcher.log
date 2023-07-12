@@ -10734,3 +10734,143 @@
 [2023-07-12 05:09:02] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.3.tar.gz]
 [2023-07-12 05:09:02] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2023-07-12 05:09:02] INFO root fetch - main [MainThread]: Store serial: [18855079]
+[2023-07-12 05:14:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855079]
+[2023-07-12 05:14:13] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-12 05:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-eais
+[2023-07-12 05:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-currency-monthly-rate
+[2023-07-12 05:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-currency-rate-update
+[2023-07-12 05:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidocr-onnxruntime
+[2023-07-12 05:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fogLedger
+[2023-07-12 05:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gita
+[2023-07-12 05:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rssadd
+[2023-07-12 05:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lm-datahandler
+[2023-07-12 05:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datamini-toolkits
+[2023-07-12 05:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyntree
+[2023-07-12 05:14:13] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 05:14:13] INFO root fetch - processPackages [pyntree]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-12 05:14:13] INFO root fetch - processPackages [gita]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-12 05:14:13] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2023-07-12 05:14:13] INFO root fetch - processPackages [datamini-toolkits]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-12 05:14:13] INFO root fetch - processPackages [fogLedger]: New version: [3.0.1b0] Old Version: [3.0.0b0]
+[2023-07-12 05:14:13] INFO root fetch - processPackages [aliyun-python-sdk-eais]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-12 05:14:13] INFO root fetch - processPackages [rssadd]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-12 05:14:13] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: New version: [16.0.1.1.1.4] Old Version: [16.0.1.1.1.3]
+[2023-07-12 05:14:13] INFO root fetch - processPackages [rapidocr-onnxruntime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-12 05:14:13] INFO root fetch - processPackages [rssadd]: Downloading https://files.pythonhosted.org/packages/b7/0a/203766a0a3160e5a5b8f760da36f317335846f9db538717d5e9283166961/rssadd-1.0.0-py3-none-any.whl
+[2023-07-12 05:14:13] INFO root fetch - processPackages [datamini-toolkits]: Downloading https://files.pythonhosted.org/packages/5e/cf/31c870273149d9875250f7cab632fb523be5c80959ce65a2a8330f9820b5/datamini_toolkits-0.1.3.tar.gz
+[2023-07-12 05:14:13] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: Downloading https://files.pythonhosted.org/packages/fc/53/a71e917dc2a59fa86946d4110922f822c16e3a7ddc054604deab68f2dc74/odoo14_addon_currency_monthly_rate-14.0.1.1.0-py3-none-any.whl
+[2023-07-12 05:14:13] INFO root fetch - processPackages [fogLedger]: Downloading https://files.pythonhosted.org/packages/cb/ae/7ed87703fdc76763a5dd1156ebab1c665a6b92da9c1d60d3412b0c95b2e8/fogLedger-3.0.0b0.tar.gz
+[2023-07-12 05:14:13] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/b4/d7/7dcaa505f7fff528cdb521de02112889d60479670aded56b702a54a4dfa1/odoo_addon_currency_rate_update-16.0.1.1.1.3-py3-none-any.whl
+[2023-07-12 05:14:13] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-07-12 05:14:13] INFO root fetch - processPackages [pyntree]: Downloading https://files.pythonhosted.org/packages/2a/61/3b30e7038e84ffead28035fc282f368e7c1e3d76f89f3c46262b0ea6c8ec/pyntree-1.2.1.tar.gz
+[2023-07-12 05:14:13] INFO root fetch - processPackages [rapidocr-onnxruntime]: Downloading https://files.pythonhosted.org/packages/69/da/333dc321825b1da48c8e2760e58d9b64d7431cec083e89fa719102b99dba/rapidocr_onnxruntime-1.2.8-py3-none-any.whl
+[2023-07-12 05:14:13] INFO root fetch - processPackages [aliyun-python-sdk-eais]: Downloading https://files.pythonhosted.org/packages/3f/da/a11684fd41a5ba5cf9b57624b86e8d0369c9dce0066c4c1c034415763588/aliyun-python-sdk-eais-2.1.2.tar.gz
+[2023-07-12 05:14:13] WARNING root fetch - processPackages [rapidocr-onnxruntime]: Skipping package: exceeds size limit 12326258>=10485760
+[2023-07-12 05:14:13] INFO root fetch - processPackages [rapidocr-onnxruntime]: Start processing: yplib
+[2023-07-12 05:14:13] INFO root fetch - main [MainThread]: End processing [rapidocr-onnxruntime] error
+[2023-07-12 05:14:13] INFO root fetch - processPackages [gita]: Downloading https://files.pythonhosted.org/packages/08/74/f22a1b2f90d56fbe2c376a3b676b3863eb1f5b17712bf29abb3b48d8ec8d/gita-0.9.8.tar.gz
+[2023-07-12 05:14:14] INFO root fetch - processPackages [rssadd]: Downloading https://files.pythonhosted.org/packages/dd/a0/1eed38b9bed654aed0cd23873cf3abd0435ebd1024e025b811712b2e32a5/rssadd-1.1.0-py3-none-any.whl
+[2023-07-12 05:14:14] INFO root fetch - processPackages [yplib]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-07-12 05:14:14] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/05/db/1b18682fee5d525252641c347d391b743b769a7809e791da9420088de943/yplib-2.5.1.tar.gz
+[2023-07-12 05:14:14] INFO root fetch - processPackages [rssadd]: executing diffoscope
+[2023-07-12 05:14:14] INFO root fetch - processPackages [rssadd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssadd-1.0.0-py3-none-any.whl.zip tmp/rssadd-1.1.0-py3-none-any.whl.zip --markdown 20230712/r/rssadd/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-12 05:14:14] INFO root fetch - processPackages [datamini-toolkits]: Downloading https://files.pythonhosted.org/packages/0c/fa/7d06b547ed7df956a636aa593a30386ef2a0aa0a76cbc595d3b93b9e1068/datamini_toolkits-0.1.4.tar.gz
+[2023-07-12 05:14:14] INFO root fetch - processPackages [fogLedger]: Downloading https://files.pythonhosted.org/packages/68/24/525c872be7f521eaaf6eebacd0b5ed433d6466fe9cf18585eddbda19f60a/fogLedger-3.0.1b0.tar.gz
+[2023-07-12 05:14:14] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: Downloading https://files.pythonhosted.org/packages/14/d3/596e48063b150ca3e820c24a9b9e3d00886354d664ee153be571458b24f6/odoo14_addon_currency_monthly_rate-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-07-12 05:14:14] INFO root fetch - processPackages [pyntree]: Downloading https://files.pythonhosted.org/packages/23/5e/ee0abdfbd3104be8c9adffa2fca3a9db274c5fa2fe34898906fb103b4fe0/pyntree-1.2.2.tar.gz
+[2023-07-12 05:14:14] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Downloading https://files.pythonhosted.org/packages/32/d5/b234a88eb15f1858b6d449cc2c3662f906b0b0a356a45e4f316954b57467/odoo_addon_currency_rate_update-16.0.1.1.1.4-py3-none-any.whl
+[2023-07-12 05:14:14] INFO root fetch - processPackages [aliyun-python-sdk-eais]: Downloading https://files.pythonhosted.org/packages/31/82/f72a11e27856426029d481e77782b9d9f3a9359b7019770af64b0be90b7b/aliyun-python-sdk-eais-2.1.3.tar.gz
+[2023-07-12 05:14:14] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-07-12 05:14:14] INFO root fetch - processPackages [datamini-toolkits]: executing diffoscope
+[2023-07-12 05:14:14] INFO root fetch - processPackages [datamini-toolkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamini_toolkits-0.1.3.tar.gz tmp/datamini_toolkits-0.1.4.tar.gz --markdown 20230712/d/datamini-toolkits/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-12 05:14:14] INFO root fetch - processPackages [pyntree]: executing diffoscope
+[2023-07-12 05:14:14] INFO root fetch - processPackages [pyntree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntree-1.2.1.tar.gz tmp/pyntree-1.2.2.tar.gz --markdown 20230712/p/pyntree/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-12 05:14:14] INFO root fetch - processPackages [aliyun-python-sdk-eais]: executing diffoscope
+[2023-07-12 05:14:14] INFO root fetch - processPackages [aliyun-python-sdk-eais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-eais-2.1.2.tar.gz tmp/aliyun-python-sdk-eais-2.1.3.tar.gz --markdown 20230712/a/aliyun-python-sdk-eais/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-12 05:14:14] INFO root fetch - processPackages [fogLedger]: executing diffoscope
+[2023-07-12 05:14:14] INFO root fetch - processPackages [fogLedger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fogLedger-3.0.0b0.tar.gz tmp/fogLedger-3.0.1b0.tar.gz --markdown 20230712/f/fogLedger/3.0.0b0-3.0.1b0/diff.md --exclude *.pyd
+[2023-07-12 05:14:14] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: executing diffoscope
+[2023-07-12 05:14:14] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update-16.0.1.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update-16.0.1.1.1.4-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-currency-rate-update/16.0.1.1.1.3-16.0.1.1.1.4/diff.md --exclude *.pyd
+[2023-07-12 05:14:14] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-07-12 05:14:14] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230712/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 05:14:14] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: executing diffoscope
+[2023-07-12 05:14:14] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_currency_monthly_rate-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_currency_monthly_rate-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addon-currency-monthly-rate/14.0.1.1.0-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-07-12 05:14:14] INFO root fetch - processPackages [gita]: Downloading https://files.pythonhosted.org/packages/1d/46/236c7ff23d6debdb85880ac7785267931325f3896b58d56f306e7a592a0f/gita-0.9.9.tar.gz
+[2023-07-12 05:14:14] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/8d/bf/3dda6dd4257e65bfd501badac642f8aeec4a0aac3525ebc4292c397b5eea/yplib-2.5.2.tar.gz
+[2023-07-12 05:14:14] INFO root fetch - processPackages [gita]: executing diffoscope
+[2023-07-12 05:14:14] INFO root fetch - processPackages [gita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gita-0.9.8.tar.gz tmp/gita-0.9.9.tar.gz --markdown 20230712/g/gita/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-12 05:14:14] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-12 05:14:14] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.5.1.tar.gz tmp/yplib-2.5.2.tar.gz --markdown 20230712/y/yplib/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-07-12 05:14:15] INFO root fetch - processPackages [rssadd]: Remove: archive file [/home/abi/fetcher/tmp/rssadd-1.0.0-py3-none-any.whl.zip]
+[2023-07-12 05:14:15] INFO root fetch - processPackages [rssadd]: Remove: archive file [/home/abi/fetcher/tmp/rssadd-1.1.0-py3-none-any.whl.zip]
+[2023-07-12 05:14:15] INFO root fetch - processPackages [rssadd]: Start processing: zeus-ml
+[2023-07-12 05:14:15] INFO root fetch - main [MainThread]: End processing [rssadd]: success
+[2023-07-12 05:14:15] INFO root fetch - processPackages [zeus-ml]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-12 05:14:15] INFO root fetch - processPackages [zeus-ml]: Downloading https://files.pythonhosted.org/packages/b2/bd/745e913fab7b0ac08600fd42441b31126e905f1105fe5b3ea0f21a153b03/zeus-ml-0.4.0.tar.gz
+[2023-07-12 05:14:16] INFO root fetch - processPackages [zeus-ml]: Downloading https://files.pythonhosted.org/packages/79/32/a167818770f982c92969bb4d9326deec3606ebbe66b95bbc3ad17ac3e70b/zeus-ml-0.5.0.tar.gz
+[2023-07-12 05:14:16] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-3.0.0b0.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-3.0.1b0.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [fogLedger]: Start processing: datamini-toolkits
+[2023-07-12 05:14:16] INFO root fetch - main [MainThread]: End processing [fogLedger]: success
+[2023-07-12 05:14:16] INFO root fetch - processPackages [datamini-toolkits]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [pyntree]: Remove: archive file [/home/abi/fetcher/tmp/pyntree-1.2.1.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [pyntree]: Remove: archive file [/home/abi/fetcher/tmp/pyntree-1.2.2.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [pyntree]: Start processing: voxelfarm
+[2023-07-12 05:14:16] INFO root fetch - main [MainThread]: End processing [pyntree]: success
+[2023-07-12 05:14:16] INFO root fetch - processPackages [datamini-toolkits]: Remove: archive file [/home/abi/fetcher/tmp/datamini_toolkits-0.1.3.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [datamini-toolkits]: Remove: archive file [/home/abi/fetcher/tmp/datamini_toolkits-0.1.4.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [datamini-toolkits]: Start processing: m23
+[2023-07-12 05:14:16] INFO root fetch - main [MainThread]: End processing [datamini-toolkits]: success
+[2023-07-12 05:14:16] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [lm-datahandler]: Start processing: datamini-toolkits
+[2023-07-12 05:14:16] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-07-12 05:14:16] INFO root fetch - processPackages [zeus-ml]: executing diffoscope
+[2023-07-12 05:14:16] INFO root fetch - processPackages [zeus-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeus-ml-0.4.0.tar.gz tmp/zeus-ml-0.5.0.tar.gz --markdown 20230712/z/zeus-ml/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-12 05:14:16] INFO root fetch - processPackages [datamini-toolkits]: Downloading https://files.pythonhosted.org/packages/0c/fa/7d06b547ed7df956a636aa593a30386ef2a0aa0a76cbc595d3b93b9e1068/datamini_toolkits-0.1.4.tar.gz
+[2023-07-12 05:14:16] INFO root fetch - processPackages [voxelfarm]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [datamini-toolkits]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [aliyun-python-sdk-eais]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eais-2.1.2.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [aliyun-python-sdk-eais]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eais-2.1.3.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-eais]: success
+[2023-07-12 05:14:16] INFO root fetch - processPackages [voxelfarm]: Downloading https://files.pythonhosted.org/packages/20/85/9611d3c2a2121654fde0a31930b66953ce55c84d1d65f5067e28d13afd84/voxelfarm-0.0.98.tar.gz
+[2023-07-12 05:14:16] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [datamini-toolkits]: Downloading https://files.pythonhosted.org/packages/c3/49/9e6db67fb0c136638b8d22ef374716de2a593ca9d7f1de2e3d22ab3f5d30/datamini_toolkits-0.1.5.tar.gz
+[2023-07-12 05:14:16] INFO root fetch - processPackages [gita]: Remove: archive file [/home/abi/fetcher/tmp/gita-0.9.8.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [gita]: Remove: archive file [/home/abi/fetcher/tmp/gita-0.9.9.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [datamini-toolkits]: Downloading https://files.pythonhosted.org/packages/c3/49/9e6db67fb0c136638b8d22ef374716de2a593ca9d7f1de2e3d22ab3f5d30/datamini_toolkits-0.1.5.tar.gz
+[2023-07-12 05:14:16] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.5.1.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - main [MainThread]: End processing [gita]: success
+[2023-07-12 05:14:16] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_currency_monthly_rate-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.5.2.tar.gz]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_currency_monthly_rate-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-07-12 05:14:16] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-12 05:14:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-currency-monthly-rate]: success
+[2023-07-12 05:14:16] INFO root fetch - processPackages [voxelfarm]: Downloading https://files.pythonhosted.org/packages/e0/53/b3cc1d3af35da7434a2086b0ce3422a7fa824b2780185a6fa1a2487bbc1d/voxelfarm-0.0.99.tar.gz
+[2023-07-12 05:14:16] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1.3-py3-none-any.whl.zip]
+[2023-07-12 05:14:16] INFO root fetch - processPackages [odoo-addon-currency-rate-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update-16.0.1.1.1.4-py3-none-any.whl.zip]
+[2023-07-12 05:14:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update]: success
+[2023-07-12 05:14:16] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-07-12 05:14:16] INFO root fetch - processPackages [voxelfarm]: executing diffoscope
+[2023-07-12 05:14:16] INFO root fetch - processPackages [voxelfarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxelfarm-0.0.98.tar.gz tmp/voxelfarm-0.0.99.tar.gz --markdown 20230712/v/voxelfarm/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 05:14:16] INFO root fetch - processPackages [datamini-toolkits]: executing diffoscope
+[2023-07-12 05:14:16] INFO root fetch - processPackages [datamini-toolkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamini_toolkits-0.1.4.tar.gz tmp/datamini_toolkits-0.1.5.tar.gz --markdown 20230712/d/datamini-toolkits/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-12 05:14:16] INFO root fetch - processPackages [datamini-toolkits]: executing diffoscope
+[2023-07-12 05:14:16] INFO root fetch - processPackages [datamini-toolkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamini_toolkits-0.1.4.tar.gz tmp/datamini_toolkits-0.1.5.tar.gz --markdown 20230712/d/datamini-toolkits/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-12 05:14:17] INFO root fetch - processPackages [zeus-ml]: Remove: archive file [/home/abi/fetcher/tmp/zeus-ml-0.4.0.tar.gz]
+[2023-07-12 05:14:17] INFO root fetch - processPackages [zeus-ml]: Remove: archive file [/home/abi/fetcher/tmp/zeus-ml-0.5.0.tar.gz]
+[2023-07-12 05:14:17] INFO root fetch - main [MainThread]: End processing [zeus-ml]: success
+[2023-07-12 05:14:17] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-07-12 05:14:17] INFO root fetch - processPackages [voxelfarm]: Remove: archive file [/home/abi/fetcher/tmp/voxelfarm-0.0.98.tar.gz]
+[2023-07-12 05:14:17] INFO root fetch - processPackages [voxelfarm]: Remove: archive file [/home/abi/fetcher/tmp/voxelfarm-0.0.99.tar.gz]
+[2023-07-12 05:14:17] INFO root fetch - main [MainThread]: End processing [voxelfarm]: success
+[2023-07-12 05:14:17] INFO root fetch - processPackages [datamini-toolkits]: Remove: archive file [/home/abi/fetcher/tmp/datamini_toolkits-0.1.4.tar.gz]
+[2023-07-12 05:14:17] INFO root fetch - processPackages [datamini-toolkits]: Remove: archive file [/home/abi/fetcher/tmp/datamini_toolkits-0.1.5.tar.gz]
+[2023-07-12 05:14:17] INFO root fetch - main [MainThread]: End processing [datamini-toolkits]: success
+[2023-07-12 05:14:17] INFO root fetch - main [MainThread]: End processing [datamini-toolkits]: success
+[2023-07-12 05:14:18] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-07-12 05:14:18] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230712/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-12 05:14:19] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-07-12 05:14:19] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-07-12 05:14:19] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-07-12 05:14:19] INFO root fetch - main [MainThread]: Store serial: [18855131]
