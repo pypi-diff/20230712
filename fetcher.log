@@ -19664,3 +19664,112 @@ AssertionError: tmp/flask_validators-0.5.tar.gz does not exist
 [2023-07-12 12:55:56] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip]
 [2023-07-12 12:55:56] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2023-07-12 12:55:56] INFO root fetch - main [MainThread]: Store serial: [18859086]
+[2023-07-12 13:01:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18859086]
+[2023-07-12 13:01:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-12 13:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vdk-plugin-control-cli
+[2023-07-12 13:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: app-confetti
+[2023-07-12 13:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-macros-plugin
+[2023-07-12 13:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mira-multiome
+[2023-07-12 13:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QuantumPathQSOAPySDK
+[2023-07-12 13:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ocx
+[2023-07-12 13:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-core
+[2023-07-12 13:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymeteosource
+[2023-07-12 13:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: elody
+[2023-07-12 13:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opensesame-core
+[2023-07-12 13:01:05] INFO root fetch - processPackages [mkdocs-macros-plugin]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-12 13:01:05] INFO root fetch - processPackages [vdk-plugin-control-cli]: New version: [0.1.928743296] Old Version: [0.1.886059298]
+[2023-07-12 13:01:05] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 13:01:05] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-12 13:01:05] INFO root fetch - processPackages [pymeteosource]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-12 13:01:05] INFO root fetch - processPackages [app-confetti]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-12 13:01:05] INFO root fetch - processPackages [mira-multiome]: New version: [2.0.2] Old Version: [1.0.4]
+[2023-07-12 13:01:05] WARNING root fetch - processPackages [ocx]: Skipping, unable to determine old version
+[2023-07-12 13:01:05] INFO root fetch - processPackages [ocx]: Start processing: openapi-to-fastapi
+[2023-07-12 13:01:05] INFO root fetch - main [MainThread]: End processing [ocx] error
+[2023-07-12 13:01:05] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.1] Old Version: [4.0.0a54]
+[2023-07-12 13:01:05] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a9] Old Version: [0.0.8a8]
+[2023-07-12 13:01:05] INFO root fetch - processPackages [openapi-to-fastapi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-12 13:01:05] INFO root fetch - processPackages [vdk-plugin-control-cli]: Downloading https://files.pythonhosted.org/packages/1d/6e/7f79fb6fa1805c92945accbdd036d74d3538587d4ac471cf0098e343c696/vdk-plugin-control-cli-0.1.886059298.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [mkdocs-macros-plugin]: Downloading https://files.pythonhosted.org/packages/64/6e/c2066950a761af36386080c7baec1c16b9cfb8230ecc37147788cd5f4783/mkdocs-macros-plugin-1.0.1.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/dd/9c/0945c96587052dea91a0ceedf6f8aca8fb29db6717064aa852e7e73917ad/ovos_core-0.0.8a8-py3-none-any.whl
+[2023-07-12 13:01:06] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/14/85/dcf8ab018bbc225f911ce5f407f5d2b730dcf1cbe3c337d8c462c8444d4e/elody-0.0.8.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/91/16/bc033953e72afde10944786450c9c0a82c1c44702164f708bac7671f1cc1/QuantumPathQSOAPySDK-1.5.8.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [pymeteosource]: Downloading https://files.pythonhosted.org/packages/a8/2d/1cc1d68baf9b416192efc7c8b1e4c6ae12c9bad2dfba24c3e2d3644e7daa/pymeteosource-1.5.0.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [app-confetti]: Downloading https://files.pythonhosted.org/packages/28/4b/a012e4b985fafca4b43fdaea07eb50c31c8761c91daf2b31f5fd7084ac44/app_confetti-0.2.0.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [mira-multiome]: Downloading https://files.pythonhosted.org/packages/ef/20/4431013330c485f5fe2bcc02ddae331d5a5e4b1d28ed6a9eb3cd22b7c192/mira-multiome-1.0.4.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/86/9c/e14516ec7d88e5743eecc878f61e881a69847f7139c09eae8771902d5ddc/opensesame_core-4.0.0a54.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [openapi-to-fastapi]: Downloading https://files.pythonhosted.org/packages/d9/e9/6b817cd0dbd4c358a219516afe0ae0eb61ddbb250da5dd9816ba70b76fb8/openapi_to_fastapi-0.8.0.tar.gz
+[2023-07-12 13:01:06] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18927355>=10485760
+[2023-07-12 13:01:06] INFO root fetch - processPackages [opensesame-core]: Start processing: mmWave
+[2023-07-12 13:01:06] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-07-12 13:01:06] INFO root fetch - processPackages [mmWave]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-12 13:01:06] WARNING root fetch - processPackages [mira-multiome]: Skipping package: exceeds size limit 35691089>=10485760
+[2023-07-12 13:01:06] INFO root fetch - processPackages [mira-multiome]: Start processing: lambdastic
+[2023-07-12 13:01:06] INFO root fetch - main [MainThread]: End processing [mira-multiome] error
+[2023-07-12 13:01:06] INFO root fetch - processPackages [vdk-plugin-control-cli]: Downloading https://files.pythonhosted.org/packages/81/d4/a5b7808be872e48daab28bba7a1bcb29601150c8c96049e4e38f3f9659a4/vdk-plugin-control-cli-0.1.928743296.tar.gz
+[2023-07-12 13:01:06] WARNING root fetch - processPackages [lambdastic]: Skipping, unable to determine old version
+[2023-07-12 13:01:06] INFO root fetch - processPackages [lambdastic]: Start processing: chgksuite
+[2023-07-12 13:01:06] INFO root fetch - main [MainThread]: End processing [lambdastic] error
+[2023-07-12 13:01:06] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [mkdocs-macros-plugin]: Downloading https://files.pythonhosted.org/packages/1a/d7/c3ce0c631cd2cd3b5df697954e2d8e72f5549970c39d4dd41ac0d1407630/mkdocs-macros-plugin-1.0.2.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [chgksuite]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-12 13:01:06] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/8b/d3/143f046929680bdc4de86380fff9b25136630fa1e7d0daa5c80306786312/QuantumPathQSOAPySDK-1.5.9.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [pymeteosource]: Downloading https://files.pythonhosted.org/packages/4f/2f/e407faf56139860363415e7fcfb3fb2b529b297fee62521f91bbc39f747d/pymeteosource-1.6.0.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/51/ee/52ce34726935c8c4c45d526690a3c83e2b71585a918b26cc886d29b8bf0b/ovos_core-0.0.8a9-py3-none-any.whl
+[2023-07-12 13:01:06] INFO root fetch - processPackages [mmWave]: Downloading https://files.pythonhosted.org/packages/40/ab/0fb967aeff054c14e7d1610d6aecdecc566e1c8084d01a597e4f0688bc6d/mmWave-0.1.98.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [app-confetti]: Downloading https://files.pythonhosted.org/packages/a9/25/2a0de6d4b8bb8d66da9524d551dd87128206832f2ed9a295acdb667865ea/app_confetti-0.3.0.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [vdk-plugin-control-cli]: executing diffoscope
+[2023-07-12 13:01:06] INFO root fetch - processPackages [vdk-plugin-control-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-plugin-control-cli-0.1.886059298.tar.gz tmp/vdk-plugin-control-cli-0.1.928743296.tar.gz --markdown 20230712/v/vdk-plugin-control-cli/0.1.886059298-0.1.928743296/diff.md --exclude *.pyd
+[2023-07-12 13:01:06] INFO root fetch - processPackages [elody]: executing diffoscope
+[2023-07-12 13:01:06] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.8.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20230712/e/elody/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 13:01:06] INFO root fetch - processPackages [pymeteosource]: executing diffoscope
+[2023-07-12 13:01:06] INFO root fetch - processPackages [pymeteosource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeteosource-1.5.0.tar.gz tmp/pymeteosource-1.6.0.tar.gz --markdown 20230712/p/pymeteosource/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-12 13:01:06] INFO root fetch - processPackages [openapi-to-fastapi]: Downloading https://files.pythonhosted.org/packages/e3/b1/5980a7ee0d31164e97c3e1c63a0b70b2d53876678217b3dcf223eb73e0cd/openapi_to_fastapi-0.9.0.tar.gz
+[2023-07-12 13:01:06] INFO root fetch - processPackages [chgksuite]: Downloading https://files.pythonhosted.org/packages/08/2b/0f75e642fcf6761c9237515450091e8f2eada4286e45f82cc52053558c7b/chgksuite-0.9.0.tar.gz
+[2023-07-12 13:01:07] INFO root fetch - processPackages [ovos-core]: executing diffoscope
+[2023-07-12 13:01:07] INFO root fetch - processPackages [ovos-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip --markdown 20230712/o/ovos-core/0.0.8a8-0.0.8a9/diff.md --exclude *.pyd
+[2023-07-12 13:01:07] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: executing diffoscope
+[2023-07-12 13:01:07] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumPathQSOAPySDK-1.5.8.tar.gz tmp/QuantumPathQSOAPySDK-1.5.9.tar.gz --markdown 20230712/Q/QuantumPathQSOAPySDK/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-12 13:01:07] INFO root fetch - processPackages [mkdocs-macros-plugin]: executing diffoscope
+[2023-07-12 13:01:07] INFO root fetch - processPackages [mkdocs-macros-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-macros-plugin-1.0.1.tar.gz tmp/mkdocs-macros-plugin-1.0.2.tar.gz --markdown 20230712/m/mkdocs-macros-plugin/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-12 13:01:07] INFO root fetch - processPackages [app-confetti]: executing diffoscope
+[2023-07-12 13:01:07] INFO root fetch - processPackages [app-confetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_confetti-0.2.0.tar.gz tmp/app_confetti-0.3.0.tar.gz --markdown 20230712/a/app-confetti/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-12 13:01:07] INFO root fetch - processPackages [openapi-to-fastapi]: executing diffoscope
+[2023-07-12 13:01:07] INFO root fetch - processPackages [openapi-to-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_to_fastapi-0.8.0.tar.gz tmp/openapi_to_fastapi-0.9.0.tar.gz --markdown 20230712/o/openapi-to-fastapi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 13:01:07] INFO root fetch - processPackages [mmWave]: Downloading https://files.pythonhosted.org/packages/61/fa/6257dbf26b26ba9efebbbd239943e6981e9caff26d8b4d2c88d2d2c53a9a/mmWave-0.1.99.tar.gz
+[2023-07-12 13:01:07] INFO root fetch - processPackages [mmWave]: executing diffoscope
+[2023-07-12 13:01:07] INFO root fetch - processPackages [mmWave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmWave-0.1.98.tar.gz tmp/mmWave-0.1.99.tar.gz --markdown 20230712/m/mmWave/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-12 13:01:07] INFO root fetch - processPackages [chgksuite]: Downloading https://files.pythonhosted.org/packages/cd/f6/800bb5f46eb8b4639b4c81f8c7ad31a582abdb353fd822359c239ec699fd/chgksuite-0.9.1.tar.gz
+[2023-07-12 13:01:07] INFO root fetch - processPackages [chgksuite]: executing diffoscope
+[2023-07-12 13:01:07] INFO root fetch - processPackages [chgksuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chgksuite-0.9.0.tar.gz tmp/chgksuite-0.9.1.tar.gz --markdown 20230712/c/chgksuite/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-12 13:01:08] INFO root fetch - processPackages [vdk-plugin-control-cli]: Remove: archive file [/home/abi/fetcher/tmp/vdk-plugin-control-cli-0.1.886059298.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - processPackages [vdk-plugin-control-cli]: Remove: archive file [/home/abi/fetcher/tmp/vdk-plugin-control-cli-0.1.928743296.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - main [MainThread]: End processing [vdk-plugin-control-cli]: success
+[2023-07-12 13:01:08] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.8.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2023-07-12 13:01:08] INFO root fetch - processPackages [app-confetti]: Remove: archive file [/home/abi/fetcher/tmp/app_confetti-0.2.0.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - processPackages [app-confetti]: Remove: archive file [/home/abi/fetcher/tmp/app_confetti-0.3.0.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - main [MainThread]: End processing [app-confetti]: success
+[2023-07-12 13:01:08] INFO root fetch - processPackages [pymeteosource]: Remove: archive file [/home/abi/fetcher/tmp/pymeteosource-1.5.0.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - processPackages [pymeteosource]: Remove: archive file [/home/abi/fetcher/tmp/pymeteosource-1.6.0.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - main [MainThread]: End processing [pymeteosource]: success
+[2023-07-12 13:01:08] INFO root fetch - processPackages [openapi-to-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/openapi_to_fastapi-0.8.0.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - processPackages [openapi-to-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/openapi_to_fastapi-0.9.0.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - main [MainThread]: End processing [openapi-to-fastapi]: success
+[2023-07-12 13:01:08] INFO root fetch - processPackages [mkdocs-macros-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-macros-plugin-1.0.1.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - processPackages [mkdocs-macros-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-macros-plugin-1.0.2.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - main [MainThread]: End processing [mkdocs-macros-plugin]: success
+[2023-07-12 13:01:08] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.8.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.9.tar.gz]
+[2023-07-12 13:01:08] INFO root fetch - main [MainThread]: End processing [QuantumPathQSOAPySDK]: success
+[2023-07-12 13:01:09] INFO root fetch - processPackages [mmWave]: Remove: archive file [/home/abi/fetcher/tmp/mmWave-0.1.98.tar.gz]
+[2023-07-12 13:01:09] INFO root fetch - processPackages [mmWave]: Remove: archive file [/home/abi/fetcher/tmp/mmWave-0.1.99.tar.gz]
+[2023-07-12 13:01:09] INFO root fetch - main [MainThread]: End processing [mmWave]: success
+[2023-07-12 13:01:09] INFO root fetch - processPackages [chgksuite]: Remove: archive file [/home/abi/fetcher/tmp/chgksuite-0.9.0.tar.gz]
+[2023-07-12 13:01:09] INFO root fetch - processPackages [chgksuite]: Remove: archive file [/home/abi/fetcher/tmp/chgksuite-0.9.1.tar.gz]
+[2023-07-12 13:01:09] INFO root fetch - main [MainThread]: End processing [chgksuite]: success
+[2023-07-12 13:01:11] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip]
+[2023-07-12 13:01:11] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip]
+[2023-07-12 13:01:11] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
+[2023-07-12 13:01:11] INFO root fetch - main [MainThread]: Store serial: [18859141]
