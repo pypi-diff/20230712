@@ -5540,3 +5540,75 @@
 [2023-07-12 03:08:43] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-07-12 03:08:43] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-07-12 03:08:43] INFO root fetch - main [MainThread]: Store serial: [18853244]
+[2023-07-12 03:13:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18853244]
+[2023-07-12 03:13:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-12 03:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-12 03:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serm
+[2023-07-12 03:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-12 03:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bluegenes
+[2023-07-12 03:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grafana-dashboard
+[2023-07-12 03:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aemcmc-nightly
+[2023-07-12 03:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taichu-storage
+[2023-07-12 03:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hypha
+[2023-07-12 03:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-layer-curl
+[2023-07-12 03:13:52] INFO root fetch - processPackages [serm]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-12 03:13:52] INFO root fetch - processPackages [taichu-storage]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 03:13:52] WARNING root fetch - processPackages [bluegenes]: Skipping, unable to determine old version
+[2023-07-12 03:13:52] INFO root fetch - main [MainThread]: End processing [bluegenes] error
+[2023-07-12 03:13:52] WARNING root fetch - processPackages [grafana-dashboard]: Skipping, unable to determine old version
+[2023-07-12 03:13:52] INFO root fetch - main [MainThread]: End processing [grafana-dashboard] error
+[2023-07-12 03:13:52] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-07-12 03:13:52] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230711] Old Version: [0.0.8.dev20230710]
+[2023-07-12 03:13:52] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-12 03:13:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-12 03:13:52] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-12 03:13:52] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-07-12 03:13:52] INFO root fetch - processPackages [serm]: Downloading https://files.pythonhosted.org/packages/92/cf/c32d20265ab737c642e18ea29a1b1db7a95849347e951d8fc2b56731c626/serm-1.0.3.tar.gz
+[2023-07-12 03:13:52] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/57/5d/bf204333cd526dc68a86cdc89d8516f961e0c6c2479200372c68de8a0c00/taichu-storage-0.0.8.tar.gz
+[2023-07-12 03:13:52] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-12 03:13:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-12 03:13:52] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/ac/73/f43a81c0e02edbe93018607d333aabe8fb370dda10bb92c16bbf7195caff/aemcmc-nightly-0.0.8.dev20230710.tar.gz
+[2023-07-12 03:13:52] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-12 03:13:53] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-07-12 03:13:53] INFO root fetch - processPackages [serm]: Downloading https://files.pythonhosted.org/packages/71/60/5cd89dca4301ec96dd1dd0f1fbf56a3e8d1957049de571dfdb94c6bba47f/serm-1.0.4.tar.gz
+[2023-07-12 03:13:53] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/b6/4c/bb0274a35c4976e46f46d7e1809f3a9f4a6e4936f25b4e38a739eca05e04/taichu-storage-0.0.9.tar.gz
+[2023-07-12 03:13:53] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-07-12 03:13:53] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230712/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-07-12 03:13:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-12 03:13:53] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/df/ae/7a9c9fbb2670809c02322f6adc7ed4103512ca67c6f7b626e9ef5743603f/aemcmc-nightly-0.0.8.dev20230711.tar.gz
+[2023-07-12 03:13:53] INFO root fetch - processPackages [taichu-storage]: executing diffoscope
+[2023-07-12 03:13:53] INFO root fetch - processPackages [taichu-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-storage-0.0.8.tar.gz tmp/taichu-storage-0.0.9.tar.gz --markdown 20230712/t/taichu-storage/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 03:13:53] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-12 03:13:53] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-12 03:13:53] INFO root fetch - processPackages [serm]: executing diffoscope
+[2023-07-12 03:13:53] INFO root fetch - processPackages [serm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serm-1.0.3.tar.gz tmp/serm-1.0.4.tar.gz --markdown 20230712/s/serm/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-12 03:13:53] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-12 03:13:53] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230710.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230711.tar.gz --markdown 20230712/a/aemcmc-nightly/0.0.8.dev20230710-0.0.8.dev20230711/diff.md --exclude *.pyd
+[2023-07-12 03:13:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-12 03:13:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230712/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-12 03:13:53] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-12 03:13:53] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230712/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-12 03:13:53] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-12 03:13:53] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230712/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-12 03:13:54] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.8.tar.gz]
+[2023-07-12 03:13:54] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.9.tar.gz]
+[2023-07-12 03:13:54] INFO root fetch - main [MainThread]: End processing [taichu-storage]: success
+[2023-07-12 03:13:54] INFO root fetch - processPackages [serm]: Remove: archive file [/home/abi/fetcher/tmp/serm-1.0.3.tar.gz]
+[2023-07-12 03:13:54] INFO root fetch - processPackages [serm]: Remove: archive file [/home/abi/fetcher/tmp/serm-1.0.4.tar.gz]
+[2023-07-12 03:13:54] INFO root fetch - main [MainThread]: End processing [serm]: success
+[2023-07-12 03:13:54] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230710.tar.gz]
+[2023-07-12 03:13:54] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230711.tar.gz]
+[2023-07-12 03:13:54] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-12 03:13:54] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-12 03:13:54] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-12 03:13:54] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-12 03:13:54] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-07-12 03:13:54] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-07-12 03:13:54] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-07-12 03:13:55] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-12 03:13:55] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-12 03:13:55] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-12 03:13:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-12 03:13:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-12 03:13:55] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-12 03:13:55] INFO root fetch - main [MainThread]: Store serial: [18853276]
