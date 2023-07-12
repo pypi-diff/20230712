@@ -11196,3 +11196,66 @@
 [2023-07-12 05:35:13] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.3.tar.gz]
 [2023-07-12 05:35:13] INFO root fetch - main [MainThread]: End processing [nrsdk]: success
 [2023-07-12 05:35:13] INFO root fetch - main [MainThread]: Store serial: [18855343]
+[2023-07-12 05:40:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855343]
+[2023-07-12 05:40:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 05:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-eci
+[2023-07-12 05:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quao
+[2023-07-12 05:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-url-filter-fixed
+[2023-07-12 05:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: konfuzio-sdk
+[2023-07-12 05:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libcoveocds
+[2023-07-12 05:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roblox-pyc
+[2023-07-12 05:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tasker-frugal
+[2023-07-12 05:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: honeybee-grasshopper-radiance
+[2023-07-12 05:40:28] INFO root fetch - processPackages [libcoveocds]: New version: [0.9.1] Old Version: [0.8.0]
+[2023-07-12 05:40:28] WARNING root fetch - processPackages [django-url-filter-fixed]: Skipping, unable to determine old version
+[2023-07-12 05:40:28] INFO root fetch - main [MainThread]: End processing [django-url-filter-fixed] error
+[2023-07-12 05:40:28] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-12 05:40:28] INFO root fetch - processPackages [aliyun-python-sdk-eci]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-12 05:40:28] INFO root fetch - processPackages [quao]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-12 05:40:28] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-12 05:40:28] WARNING root fetch - processPackages [tasker-frugal]: Skipping, unable to determine old version
+[2023-07-12 05:40:28] INFO root fetch - main [MainThread]: End processing [tasker-frugal] error
+[2023-07-12 05:40:28] INFO root fetch - processPackages [libcoveocds]: Downloading https://files.pythonhosted.org/packages/b7/b4/2b873431df98689c83915a10a174d7282a55f2b39f647cda36489fe2e632/libcoveocds-0.8.0.tar.gz
+[2023-07-12 05:40:28] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-12 05:40:28] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-12 05:40:28] INFO root fetch - processPackages [aliyun-python-sdk-eci]: Downloading https://files.pythonhosted.org/packages/c4/eb/10d0cd16c560c215eddf9bb4fd87c8b854e96a5d75aa9e6f1691355465fb/aliyun-python-sdk-eci-1.2.4.tar.gz
+[2023-07-12 05:40:28] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/85/1c/6ac8e0e92db9bbfbcae49d5b2bddab1e9dccaa82b6cde636db4fced44f5d/quao-0.3.0.tar.gz
+[2023-07-12 05:40:28] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-12 05:40:28] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Downloading https://files.pythonhosted.org/packages/c5/57/e62f02310363fe5e170d0080379047075c89078b9a0f26010d29334fc7a7/honeybee-grasshopper-radiance-1.9.4.tar.gz
+[2023-07-12 05:40:28] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-12 05:40:28] INFO root fetch - processPackages [libcoveocds]: Downloading https://files.pythonhosted.org/packages/dc/d4/34b312466d9a426024eedf241eebdc465f0909df4fbc0d877a6ae8c0bd5f/libcoveocds-0.9.1.tar.gz
+[2023-07-12 05:40:28] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-12 05:40:28] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230712/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-12 05:40:28] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/fe/77/3ccd3593e8d68ed3d252c5ae44412117a2be0f41db35d7b1aab10fd4b90c/quao-0.3.1.tar.gz
+[2023-07-12 05:40:29] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-12 05:40:29] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.0.tar.gz tmp/quao-0.3.1.tar.gz --markdown 20230712/q/quao/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-12 05:40:29] INFO root fetch - processPackages [aliyun-python-sdk-eci]: Downloading https://files.pythonhosted.org/packages/6d/9e/a093698000d700641ccf062b3c570b910a33b225ca3515110bbe109465f5/aliyun-python-sdk-eci-1.2.5.tar.gz
+[2023-07-12 05:40:29] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-12 05:40:29] INFO root fetch - processPackages [libcoveocds]: executing diffoscope
+[2023-07-12 05:40:29] INFO root fetch - processPackages [libcoveocds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcoveocds-0.8.0.tar.gz tmp/libcoveocds-0.9.1.tar.gz --markdown 20230712/l/libcoveocds/0.8.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-12 05:40:29] INFO root fetch - processPackages [aliyun-python-sdk-eci]: executing diffoscope
+[2023-07-12 05:40:29] INFO root fetch - processPackages [aliyun-python-sdk-eci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-eci-1.2.4.tar.gz tmp/aliyun-python-sdk-eci-1.2.5.tar.gz --markdown 20230712/a/aliyun-python-sdk-eci/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-12 05:40:29] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Downloading https://files.pythonhosted.org/packages/98/2b/58d14159864fadd0311230f7a15bbc845650cf115c191c0830bfe73c4035/honeybee-grasshopper-radiance-1.9.5.tar.gz
+[2023-07-12 05:40:29] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-12 05:40:29] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230712/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-12 05:40:29] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: executing diffoscope
+[2023-07-12 05:40:29] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-radiance-1.9.4.tar.gz tmp/honeybee-grasshopper-radiance-1.9.5.tar.gz --markdown 20230712/h/honeybee-grasshopper-radiance/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-12 05:40:29] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-12 05:40:29] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-12 05:40:29] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-12 05:40:30] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.0.tar.gz]
+[2023-07-12 05:40:30] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.1.tar.gz]
+[2023-07-12 05:40:30] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-12 05:40:30] INFO root fetch - processPackages [aliyun-python-sdk-eci]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eci-1.2.4.tar.gz]
+[2023-07-12 05:40:30] INFO root fetch - processPackages [aliyun-python-sdk-eci]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eci-1.2.5.tar.gz]
+[2023-07-12 05:40:30] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-eci]: success
+[2023-07-12 05:40:30] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-12 05:40:30] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-12 05:40:30] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-12 05:40:30] INFO root fetch - processPackages [libcoveocds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveocds-0.8.0.tar.gz]
+[2023-07-12 05:40:30] INFO root fetch - processPackages [libcoveocds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveocds-0.9.1.tar.gz]
+[2023-07-12 05:40:30] INFO root fetch - main [MainThread]: End processing [libcoveocds]: success
+[2023-07-12 05:40:30] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-radiance-1.9.4.tar.gz]
+[2023-07-12 05:40:30] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-radiance-1.9.5.tar.gz]
+[2023-07-12 05:40:30] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-radiance]: success
+[2023-07-12 05:40:30] INFO root fetch - main [MainThread]: Store serial: [18855385]
