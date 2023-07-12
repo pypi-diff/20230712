@@ -21396,3 +21396,165 @@ AssertionError: tmp/flask_validators-0.5.tar.gz does not exist
 [2023-07-12 13:55:31] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11638-py2.py3-none-any.whl.zip]
 [2023-07-12 13:55:31] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-07-12 13:55:31] INFO root fetch - main [MainThread]: Store serial: [18859810]
+[2023-07-12 14:00:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18859810]
+[2023-07-12 14:00:40] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-12 14:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlbi-at-dku-lib
+[2023-07-12 14:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iCount-Mini
+[2023-07-12 14:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: woebin-python
+[2023-07-12 14:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: triton-patched
+[2023-07-12 14:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ghq
+[2023-07-12 14:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eef-data
+[2023-07-12 14:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ttb
+[2023-07-12 14:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langfuse
+[2023-07-12 14:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-12 14:00:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: target-s3-delta
+[2023-07-12 14:00:40] INFO root fetch - processPackages [eef-data]: New version: [0.3] Old Version: [0.2]
+[2023-07-12 14:00:40] INFO root fetch - processPackages [woebin-python]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-12 14:00:40] INFO root fetch - processPackages [ttb]: New version: [0.3] Old Version: [0.2]
+[2023-07-12 14:00:40] WARNING root fetch - processPackages [triton-patched]: Skipping, unable to determine old version
+[2023-07-12 14:00:40] INFO root fetch - processPackages [langfuse]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-12 14:00:40] INFO root fetch - processPackages [triton-patched]: Start processing: data-gradients
+[2023-07-12 14:00:40] INFO root fetch - main [MainThread]: End processing [triton-patched] error
+[2023-07-12 14:00:40] WARNING root fetch - processPackages [ghq]: Skipping, unable to determine old version
+[2023-07-12 14:00:40] INFO root fetch - processPackages [ghq]: Start processing: addfunctions
+[2023-07-12 14:00:40] INFO root fetch - main [MainThread]: End processing [ghq] error
+[2023-07-12 14:00:41] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-12 14:00:41] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 14:00:41] INFO root fetch - processPackages [iCount-Mini]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-12 14:00:41] INFO root fetch - processPackages [data-gradients]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-12 14:00:41] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-12 14:00:41] INFO root fetch - processPackages [addfunctions]: New version: [0.0.101] Old Version: [0.0.1]
+[2023-07-12 14:00:41] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/de/95/3bee4cbb10f5d25e117e278729861afe2fbf6ebe71872da23ce44d1d7963/eef-data-0.2.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [woebin-python]: Downloading https://files.pythonhosted.org/packages/64/2e/cba4c82f9546fe734aabbed2b802933afa67db7d9396aaa08a7c6acbf03c/woebin-python-0.1.4.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/6e/50/6609962e0ce887f6c841f96a73f490fe61ec69bc79eed9c6942d332cbd98/target_s3_delta-0.0.8.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [iCount-Mini]: Downloading https://files.pythonhosted.org/packages/66/9f/d6d08dd3fd0d463715c3ed991215c9bc3fa03554f450e035c58e1165e8da/iCount-Mini-3.0.0.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [ttb]: Downloading https://files.pythonhosted.org/packages/de/4b/1f395ae067dc4665457893f3114660c64a1fecc63b1edb545e995afbad97/ttb-0.2.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/ed/28/ce2580408834b6e8da15a5070bc15ede43f518452f50d952eebb40e9960a/langfuse-0.0.2.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/fe/95/b0bd8ce3740c5846b281f5325d01027fa5d5041b0702cfcfa6345ca17bf1/nonebot_plugin_stable_diffusion_diao-0.3.2.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/26/36/2096f3cec8675e7a9277a728972d445a1ee518206edd85dbbb168fa7d551/mlbi_at_dku_lib-0.2.8.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [data-gradients]: Downloading https://files.pythonhosted.org/packages/a8/52/1b3594f5ad06f218daa4872f912f07ed5c1f563c0e2942733130af4dc39a/data_gradients-0.1.2-py3-none-any.whl
+[2023-07-12 14:00:41] INFO root fetch - processPackages [addfunctions]: Downloading https://files.pythonhosted.org/packages/91/e1/8847642dc98e8146626797f4e394895f046d8cb19c1fe6f765bfa687f723/addfunctions-0.0.1.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/fb/f8/26c91f2455b8afd469305bcff50568a081c15ba427ed9957fa9c40f0067f/target_s3_delta-0.0.9.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [woebin-python]: Downloading https://files.pythonhosted.org/packages/46/4e/48420fc61466cf37c9abcf87670df16fbe4ed8abd2734b91a55c7126daa8/woebin-python-0.1.5.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/3c/cb/2a731d3e9b85e9b70f5868696e99d4d130ae59decbb532b11057b095b215/eef-data-0.3.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [ttb]: Downloading https://files.pythonhosted.org/packages/b1/09/c7c0f7a8d3a8e7d0195073f429d8912d7db410e7b95ed17c6b11ed391e09/ttb-0.3.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-07-12 14:00:41] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.8.tar.gz tmp/target_s3_delta-0.0.9.tar.gz --markdown 20230712/t/target-s3-delta/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 14:00:41] INFO root fetch - processPackages [woebin-python]: executing diffoscope
+[2023-07-12 14:00:41] INFO root fetch - processPackages [woebin-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woebin-python-0.1.4.tar.gz tmp/woebin-python-0.1.5.tar.gz --markdown 20230712/w/woebin-python/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-12 14:00:41] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/02/3d/b016f522a050ae3887075f90a4e1d5071540b5f061595655dd08f5df67e4/langfuse-0.0.3.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [iCount-Mini]: Downloading https://files.pythonhosted.org/packages/5d/9f/01e4cbc13a4310734d125b3c4e8bd8e821f76650e4ee377528fa91ddf2ca/iCount-Mini-3.0.1.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [addfunctions]: Downloading https://files.pythonhosted.org/packages/4b/1b/7641f5d85022e38ee389d7767cd8b2a7398b1db0f0038194564f1ec724a1/addfunctions-0.0.101.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [eef-data]: executing diffoscope
+[2023-07-12 14:00:41] INFO root fetch - processPackages [eef-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eef-data-0.2.tar.gz tmp/eef-data-0.3.tar.gz --markdown 20230712/e/eef-data/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-12 14:00:41] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/54/5a/1a886c786d122fb3333b12506240c7247fea916a8dcb1f20852c5bb5bc70/mlbi_at_dku_lib-0.2.9.tar.gz
+[2023-07-12 14:00:41] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/57/7f/bcba156d1d232a0bf41e347b84f061f3a31d621d963de8079b6ccc2d2b53/nonebot_plugin_stable_diffusion_diao-0.3.3.tar.gz
+[2023-07-12 14:00:42] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2023-07-12 14:00:42] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-0.0.2.tar.gz tmp/langfuse-0.0.3.tar.gz --markdown 20230712/l/langfuse/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-12 14:00:42] INFO root fetch - processPackages [ttb]: executing diffoscope
+[2023-07-12 14:00:42] INFO root fetch - processPackages [ttb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttb-0.2.tar.gz tmp/ttb-0.3.tar.gz --markdown 20230712/t/ttb/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-12 14:00:42] INFO root fetch - processPackages [addfunctions]: executing diffoscope
+[2023-07-12 14:00:42] INFO root fetch - processPackages [addfunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addfunctions-0.0.1.tar.gz tmp/addfunctions-0.0.101.tar.gz --markdown 20230712/a/addfunctions/0.0.1-0.0.101/diff.md --exclude *.pyd
+[2023-07-12 14:00:42] INFO root fetch - processPackages [iCount-Mini]: executing diffoscope
+[2023-07-12 14:00:42] INFO root fetch - processPackages [iCount-Mini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iCount-Mini-3.0.0.tar.gz tmp/iCount-Mini-3.0.1.tar.gz --markdown 20230712/i/iCount-Mini/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-12 14:00:42] INFO root fetch - processPackages [data-gradients]: Downloading https://files.pythonhosted.org/packages/4f/81/08e9b8984431100a878313fd580b493e36a7af3f1b6e5ae88b138b0c3bb3/data_gradients-0.1.3-py3-none-any.whl
+[2023-07-12 14:00:42] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-12 14:00:42] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.2.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.3.tar.gz --markdown 20230712/n/nonebot-plugin-stable-diffusion-diao/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-12 14:00:42] INFO root fetch - processPackages [data-gradients]: executing diffoscope
+[2023-07-12 14:00:42] INFO root fetch - processPackages [data-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_gradients-0.1.2-py3-none-any.whl.zip tmp/data_gradients-0.1.3-py3-none-any.whl.zip --markdown 20230712/d/data-gradients/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-12 14:00:42] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-07-12 14:00:42] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.2.8.tar.gz tmp/mlbi_at_dku_lib-0.2.9.tar.gz --markdown 20230712/m/mlbi-at-dku-lib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-12 14:00:43] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.8.tar.gz]
+[2023-07-12 14:00:43] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.9.tar.gz]
+[2023-07-12 14:00:43] INFO root fetch - processPackages [target-s3-delta]: Start processing: joblibspark
+[2023-07-12 14:00:43] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-07-12 14:00:43] INFO root fetch - processPackages [joblibspark]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-12 14:00:43] INFO root fetch - processPackages [joblibspark]: Downloading https://files.pythonhosted.org/packages/da/70/c990f495a71d87cb2a13c7b76a6495b1371045905c973536dd67009733cc/joblibspark-0.5.1-py3-none-any.whl
+[2023-07-12 14:00:43] INFO root fetch - processPackages [addfunctions]: Remove: archive file [/home/abi/fetcher/tmp/addfunctions-0.0.1.tar.gz]
+[2023-07-12 14:00:43] INFO root fetch - processPackages [addfunctions]: Remove: archive file [/home/abi/fetcher/tmp/addfunctions-0.0.101.tar.gz]
+[2023-07-12 14:00:43] INFO root fetch - processPackages [addfunctions]: Start processing: ttb
+[2023-07-12 14:00:43] INFO root fetch - main [MainThread]: End processing [addfunctions]: success
+[2023-07-12 14:00:43] INFO root fetch - processPackages [ttb]: New version: [0.3] Old Version: [0.2]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.2.tar.gz]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.3.tar.gz]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [eef-data]: Start processing: langfuse
+[2023-07-12 14:00:44] INFO root fetch - main [MainThread]: End processing [eef-data]: success
+[2023-07-12 14:00:44] INFO root fetch - processPackages [ttb]: Remove: archive file [/home/abi/fetcher/tmp/ttb-0.2.tar.gz]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [ttb]: Remove: archive file [/home/abi/fetcher/tmp/ttb-0.3.tar.gz]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [ttb]: Start processing: eef-data
+[2023-07-12 14:00:44] INFO root fetch - main [MainThread]: End processing [ttb]: success
+[2023-07-12 14:00:44] INFO root fetch - processPackages [ttb]: Downloading https://files.pythonhosted.org/packages/de/4b/1f395ae067dc4665457893f3114660c64a1fecc63b1edb545e995afbad97/ttb-0.2.tar.gz
+[2023-07-12 14:00:44] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.2.tar.gz]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.3.tar.gz]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [langfuse]: Start processing: jupyterlab-empinken-extension
+[2023-07-12 14:00:44] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2023-07-12 14:00:44] INFO root fetch - processPackages [langfuse]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [jupyterlab-empinken-extension]: New version: [0.4.2] Old Version: [0.4.0]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [eef-data]: New version: [0.3] Old Version: [0.2]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.2.tar.gz]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.3.tar.gz]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Start processing: diz
+[2023-07-12 14:00:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-12 14:00:44] INFO root fetch - processPackages [joblibspark]: Downloading https://files.pythonhosted.org/packages/c3/3d/397881c1e7cef3f12ba514de64504aa2218c2618b9d05da7314d3f301116/joblibspark-0.5.2.tar.gz
+[2023-07-12 14:00:44] INFO root fetch - processPackages [woebin-python]: Remove: archive file [/home/abi/fetcher/tmp/woebin-python-0.1.4.tar.gz]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [woebin-python]: Remove: archive file [/home/abi/fetcher/tmp/woebin-python-0.1.5.tar.gz]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [woebin-python]: Start processing: pyspedas
+[2023-07-12 14:00:44] INFO root fetch - main [MainThread]: End processing [woebin-python]: success
+[2023-07-12 14:00:44] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/ed/28/ce2580408834b6e8da15a5070bc15ede43f518452f50d952eebb40e9960a/langfuse-0.0.2.tar.gz
+[2023-07-12 14:00:44] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/de/95/3bee4cbb10f5d25e117e278729861afe2fbf6ebe71872da23ce44d1d7963/eef-data-0.2.tar.gz
+[2023-07-12 14:00:44] INFO root fetch - processPackages [ttb]: Downloading https://files.pythonhosted.org/packages/b1/09/c7c0f7a8d3a8e7d0195073f429d8912d7db410e7b95ed17c6b11ed391e09/ttb-0.3.tar.gz
+[2023-07-12 14:00:44] INFO root fetch - processPackages [diz]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [joblibspark]: executing diffoscope
+[2023-07-12 14:00:44] INFO root fetch - processPackages [joblibspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joblibspark-0.5.1-py3-none-any.whl.zip tmp/joblibspark-0.5.2.tar.gz --markdown 20230712/j/joblibspark/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-12 14:00:44] INFO root fetch - processPackages [jupyterlab-empinken-extension]: Downloading https://files.pythonhosted.org/packages/45/64/dcd3a58c663810032d4564132356996dbc186464faec73866ca35249ab3c/jupyterlab_empinken_extension-0.4.0-py3-none-any.whl
+[2023-07-12 14:00:44] INFO root fetch - processPackages [pyspedas]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [ttb]: executing diffoscope
+[2023-07-12 14:00:44] INFO root fetch - processPackages [ttb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttb-0.2.tar.gz tmp/ttb-0.3.tar.gz --markdown 20230712/t/ttb/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-12 14:00:44] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/02/3d/b016f522a050ae3887075f90a4e1d5071540b5f061595655dd08f5df67e4/langfuse-0.0.3.tar.gz
+[2023-07-12 14:00:44] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/60/93/f852e7b886239fcbedb32e0e042c2fb46358e311b494ba32b39fedfe73b3/diz-1.0.0.tar.gz
+[2023-07-12 14:00:44] INFO root fetch - processPackages [iCount-Mini]: Remove: archive file [/home/abi/fetcher/tmp/iCount-Mini-3.0.0.tar.gz]
+[2023-07-12 14:00:44] INFO root fetch - processPackages [iCount-Mini]: Remove: archive file [/home/abi/fetcher/tmp/iCount-Mini-3.0.1.tar.gz]
+[2023-07-12 14:00:44] INFO root fetch - main [MainThread]: End processing [iCount-Mini]: success
+[2023-07-12 14:00:44] INFO root fetch - processPackages [eef-data]: Downloading https://files.pythonhosted.org/packages/3c/cb/2a731d3e9b85e9b70f5868696e99d4d130ae59decbb532b11057b095b215/eef-data-0.3.tar.gz
+[2023-07-12 14:00:44] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2023-07-12 14:00:44] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-0.0.2.tar.gz tmp/langfuse-0.0.3.tar.gz --markdown 20230712/l/langfuse/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-12 14:00:44] INFO root fetch - processPackages [pyspedas]: Downloading https://files.pythonhosted.org/packages/bf/ad/dd5890f9278e06a201ee6130e2aa675b3982727c5e12f18a5a30aef3b52f/pyspedas-1.4.8.tar.gz
+[2023-07-12 14:00:44] INFO root fetch - processPackages [jupyterlab-empinken-extension]: Downloading https://files.pythonhosted.org/packages/68/42/f8bdbfb1e0e7ef03e2c00061e657f2ae5e65edb87506b94d006e84ae8723/jupyterlab_empinken_extension-0.4.2-py3-none-any.whl
+[2023-07-12 14:00:44] INFO root fetch - processPackages [eef-data]: executing diffoscope
+[2023-07-12 14:00:44] INFO root fetch - processPackages [eef-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eef-data-0.2.tar.gz tmp/eef-data-0.3.tar.gz --markdown 20230712/e/eef-data/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-12 14:00:45] INFO root fetch - processPackages [jupyterlab-empinken-extension]: executing diffoscope
+[2023-07-12 14:00:45] INFO root fetch - processPackages [jupyterlab-empinken-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_empinken_extension-0.4.0-py3-none-any.whl.zip tmp/jupyterlab_empinken_extension-0.4.2-py3-none-any.whl.zip --markdown 20230712/j/jupyterlab-empinken-extension/0.4.0-0.4.2/diff.md --exclude *.pyd
+[2023-07-12 14:00:45] INFO root fetch - processPackages [diz]: Downloading https://files.pythonhosted.org/packages/88/b7/a017b70979cc2c04587bd1d9dadd1fba8ebb3f2c76fcdb34bb8632dccb78/diz-1.0.2.tar.gz
+[2023-07-12 14:00:45] INFO root fetch - processPackages [data-gradients]: Remove: archive file [/home/abi/fetcher/tmp/data_gradients-0.1.2-py3-none-any.whl.zip]
+[2023-07-12 14:00:45] INFO root fetch - processPackages [data-gradients]: Remove: archive file [/home/abi/fetcher/tmp/data_gradients-0.1.3-py3-none-any.whl.zip]
+[2023-07-12 14:00:45] INFO root fetch - main [MainThread]: End processing [data-gradients]: success
+[2023-07-12 14:00:45] INFO root fetch - processPackages [diz]: executing diffoscope
+[2023-07-12 14:00:45] INFO root fetch - processPackages [diz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diz-1.0.0.tar.gz tmp/diz-1.0.2.tar.gz --markdown 20230712/d/diz/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-12 14:00:45] INFO root fetch - processPackages [pyspedas]: Downloading https://files.pythonhosted.org/packages/b5/b7/3d48261535fe611ab7382df525da5ac6ff263d92d0ddfb4219bafdc22a84/pyspedas-1.4.9.tar.gz
+[2023-07-12 14:00:45] INFO root fetch - processPackages [pyspedas]: executing diffoscope
+[2023-07-12 14:00:45] INFO root fetch - processPackages [pyspedas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspedas-1.4.8.tar.gz tmp/pyspedas-1.4.9.tar.gz --markdown 20230712/p/pyspedas/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-12 14:00:46] INFO root fetch - processPackages [joblibspark]: Remove: archive file [/home/abi/fetcher/tmp/joblibspark-0.5.1-py3-none-any.whl.zip]
+[2023-07-12 14:00:46] INFO root fetch - processPackages [joblibspark]: Remove: archive file [/home/abi/fetcher/tmp/joblibspark-0.5.2.tar.gz]
+[2023-07-12 14:00:46] INFO root fetch - main [MainThread]: End processing [joblibspark]: success
+[2023-07-12 14:00:46] INFO root fetch - processPackages [ttb]: Remove: archive file [/home/abi/fetcher/tmp/ttb-0.2.tar.gz]
+[2023-07-12 14:00:46] INFO root fetch - processPackages [ttb]: Remove: archive file [/home/abi/fetcher/tmp/ttb-0.3.tar.gz]
+[2023-07-12 14:00:46] INFO root fetch - main [MainThread]: End processing [ttb]: success
+[2023-07-12 14:00:46] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.2.tar.gz]
+[2023-07-12 14:00:46] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.3.tar.gz]
+[2023-07-12 14:00:46] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2023-07-12 14:00:46] INFO root fetch - processPackages [jupyterlab-empinken-extension]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_empinken_extension-0.4.0-py3-none-any.whl.zip]
+[2023-07-12 14:00:46] INFO root fetch - processPackages [jupyterlab-empinken-extension]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_empinken_extension-0.4.2-py3-none-any.whl.zip]
+[2023-07-12 14:00:46] INFO root fetch - main [MainThread]: End processing [jupyterlab-empinken-extension]: success
+[2023-07-12 14:00:46] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-1.0.0.tar.gz]
+[2023-07-12 14:00:46] INFO root fetch - processPackages [diz]: Remove: archive file [/home/abi/fetcher/tmp/diz-1.0.2.tar.gz]
+[2023-07-12 14:00:46] INFO root fetch - main [MainThread]: End processing [diz]: success
+[2023-07-12 14:00:46] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.2.tar.gz]
+[2023-07-12 14:00:46] INFO root fetch - processPackages [eef-data]: Remove: archive file [/home/abi/fetcher/tmp/eef-data-0.3.tar.gz]
+[2023-07-12 14:00:46] INFO root fetch - main [MainThread]: End processing [eef-data]: success
+[2023-07-12 14:00:47] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.8.tar.gz]
+[2023-07-12 14:00:47] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.9.tar.gz]
+[2023-07-12 14:00:47] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-07-12 14:00:49] INFO root fetch - processPackages [pyspedas]: Remove: archive file [/home/abi/fetcher/tmp/pyspedas-1.4.8.tar.gz]
+[2023-07-12 14:00:49] INFO root fetch - processPackages [pyspedas]: Remove: archive file [/home/abi/fetcher/tmp/pyspedas-1.4.9.tar.gz]
+[2023-07-12 14:00:49] INFO root fetch - main [MainThread]: End processing [pyspedas]: success
+[2023-07-12 14:00:49] INFO root fetch - main [MainThread]: Store serial: [18859864]
