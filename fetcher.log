@@ -5612,3 +5612,39 @@
 [2023-07-12 03:13:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-07-12 03:13:55] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-07-12 03:13:55] INFO root fetch - main [MainThread]: Store serial: [18853276]
+[2023-07-12 03:18:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18853276]
+[2023-07-12 03:19:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-12 03:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-12 03:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfa-nightly
+[2023-07-12 03:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mi-pyral
+[2023-07-12 03:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tiledb-cloud
+[2023-07-12 03:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssh-negotiate-term
+[2023-07-12 03:19:04] WARNING root fetch - processPackages [ssh-negotiate-term]: Skipping, unable to determine old version
+[2023-07-12 03:19:04] INFO root fetch - main [MainThread]: End processing [ssh-negotiate-term] error
+[2023-07-12 03:19:04] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-12 03:19:04] WARNING root fetch - processPackages [mi-pyral]: Skipping, unable to determine old version
+[2023-07-12 03:19:04] INFO root fetch - main [MainThread]: End processing [mi-pyral] error
+[2023-07-12 03:19:04] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-12 03:19:04] INFO root fetch - processPackages [tfa-nightly]: New version: [0.9.0.dev20200409113748] Old Version: [0.9.0.dev20200409113542]
+[2023-07-12 03:19:04] INFO root fetch - processPackages [tfa-nightly]: Downloading https://files.pythonhosted.org/packages/34/17/7b8002ef7fdb4182d1c44a881b9ad71684473435ed0c14f28809a844d906/tfa_nightly-0.9.0.dev20200409113542-cp35-cp35m-macosx_10_13_x86_64.whl
+[2023-07-12 03:19:04] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2023-07-12 03:19:04] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-12 03:19:04] INFO root fetch - processPackages [tfa-nightly]: Downloading https://files.pythonhosted.org/packages/40/b1/b86ad1d7db615313b9a26fcbfe48caaef6470ddde4eba57af69fdb7f0841/tfa_nightly-0.9.0.dev20200409113748-cp37-cp37m-macosx_10_13_x86_64.whl
+[2023-07-12 03:19:04] INFO root fetch - processPackages [tfa-nightly]: executing diffoscope
+[2023-07-12 03:19:04] INFO root fetch - processPackages [tfa-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfa_nightly-0.9.0.dev20200409113542-cp35-cp35m-macosx_10_13_x86_64.whl.zip tmp/tfa_nightly-0.9.0.dev20200409113748-cp37-cp37m-macosx_10_13_x86_64.whl.zip --markdown 20230712/t/tfa-nightly/0.9.0.dev20200409113542-0.9.0.dev20200409113748/diff.md --exclude *.pyd
+[2023-07-12 03:19:04] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-12 03:19:05] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2023-07-12 03:19:05] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-12 03:19:05] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230712/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-12 03:19:05] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2023-07-12 03:19:05] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20230712/t/tiledb-cloud/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-12 03:19:05] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-12 03:19:05] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-12 03:19:05] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-12 03:19:06] INFO root fetch - processPackages [tfa-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfa_nightly-0.9.0.dev20200409113542-cp35-cp35m-macosx_10_13_x86_64.whl.zip]
+[2023-07-12 03:19:06] INFO root fetch - processPackages [tfa-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfa_nightly-0.9.0.dev20200409113748-cp37-cp37m-macosx_10_13_x86_64.whl.zip]
+[2023-07-12 03:19:06] INFO root fetch - main [MainThread]: End processing [tfa-nightly]: success
+[2023-07-12 03:19:07] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip]
+[2023-07-12 03:19:07] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
+[2023-07-12 03:19:07] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2023-07-12 03:19:07] INFO root fetch - main [MainThread]: Store serial: [18853311]
