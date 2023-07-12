@@ -9584,3 +9584,42 @@
 [2023-07-12 04:00:25] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 13486206>=10485760
 [2023-07-12 04:00:25] INFO root fetch - main [MainThread]: End processing [pycde] error
 [2023-07-12 04:00:25] INFO root fetch - main [MainThread]: Store serial: [18854687]
+[2023-07-12 04:05:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18854687]
+[2023-07-12 04:05:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-12 04:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tahoma-gpt
+[2023-07-12 04:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-role
+[2023-07-12 04:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fabric_fim
+[2023-07-12 04:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imesh
+[2023-07-12 04:05:35] INFO root fetch - processPackages [tahoma-gpt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-12 04:05:35] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.85]
+[2023-07-12 04:05:35] INFO root fetch - processPackages [fabric_fim]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-12 04:05:35] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 04:05:36] INFO root fetch - processPackages [tahoma-gpt]: Downloading https://files.pythonhosted.org/packages/c7/74/70ebdfe786bfda926eaa62bde77a2148e72ea6671366ed3a6ea1e71e42f7/tahoma_gpt-0.0.3.tar.gz
+[2023-07-12 04:05:36] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/6a/db/d29455c79c82211a6e4ef59d4df102795b55c8a7b467323494906759be7c/xj_role-1.0.85.tar.gz
+[2023-07-12 04:05:36] INFO root fetch - processPackages [fabric_fim]: Downloading https://files.pythonhosted.org/packages/00/46/90b773945d7f6fdeb74593ba69a0e2190d208c79218ff5a040b7cf3356a2/fabric_fim-1.5.2.tar.gz
+[2023-07-12 04:05:36] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2023-07-12 04:05:36] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-12 04:05:36] INFO root fetch - processPackages [tahoma-gpt]: Downloading https://files.pythonhosted.org/packages/ae/02/c712ea268f20a2ef82d1091186fadb1d0ea58a25bedac28747c42dbf594a/tahoma_gpt-0.0.4.tar.gz
+[2023-07-12 04:05:36] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-12 04:05:36] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.85.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230712/x/xj-role/1.0.85-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 04:05:36] INFO root fetch - processPackages [tahoma-gpt]: executing diffoscope
+[2023-07-12 04:05:36] INFO root fetch - processPackages [tahoma-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tahoma_gpt-0.0.3.tar.gz tmp/tahoma_gpt-0.0.4.tar.gz --markdown 20230712/t/tahoma-gpt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-12 04:05:36] INFO root fetch - processPackages [fabric_fim]: Downloading https://files.pythonhosted.org/packages/cd/bd/060dfe1cad38cfe22786ee5935672b45b5878aed4bf8c8add692018033f8/fabric_fim-1.5.3.tar.gz
+[2023-07-12 04:05:36] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2023-07-12 04:05:36] INFO root fetch - processPackages [fabric_fim]: executing diffoscope
+[2023-07-12 04:05:36] INFO root fetch - processPackages [fabric_fim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric_fim-1.5.2.tar.gz tmp/fabric_fim-1.5.3.tar.gz --markdown 20230712/f/fabric_fim/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-12 04:05:36] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2023-07-12 04:05:36] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20230712/i/imesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 04:05:37] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.85.tar.gz]
+[2023-07-12 04:05:37] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-12 04:05:37] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-12 04:05:37] INFO root fetch - processPackages [tahoma-gpt]: Remove: archive file [/home/abi/fetcher/tmp/tahoma_gpt-0.0.3.tar.gz]
+[2023-07-12 04:05:37] INFO root fetch - processPackages [tahoma-gpt]: Remove: archive file [/home/abi/fetcher/tmp/tahoma_gpt-0.0.4.tar.gz]
+[2023-07-12 04:05:37] INFO root fetch - main [MainThread]: End processing [tahoma-gpt]: success
+[2023-07-12 04:05:38] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2023-07-12 04:05:38] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2023-07-12 04:05:38] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2023-07-12 04:05:38] INFO root fetch - processPackages [fabric_fim]: Remove: archive file [/home/abi/fetcher/tmp/fabric_fim-1.5.2.tar.gz]
+[2023-07-12 04:05:38] INFO root fetch - processPackages [fabric_fim]: Remove: archive file [/home/abi/fetcher/tmp/fabric_fim-1.5.3.tar.gz]
+[2023-07-12 04:05:38] INFO root fetch - main [MainThread]: End processing [fabric_fim]: success
+[2023-07-12 04:05:38] INFO root fetch - main [MainThread]: Store serial: [18854708]
