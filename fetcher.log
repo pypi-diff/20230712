@@ -17066,3 +17066,140 @@
 [2023-07-12 11:14:43] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-12 11:14:43] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-12 11:14:43] INFO root fetch - main [MainThread]: Store serial: [18857955]
+[2023-07-12 11:19:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857955]
+[2023-07-12 11:19:53] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-12 11:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmem-plugin-kaggle
+[2023-07-12 11:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rankfmc
+[2023-07-12 11:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dtool-lookup-api
+[2023-07-12 11:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-oz-pinnedgambit
+[2023-07-12 11:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thipster
+[2023-07-12 11:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cval-lib
+[2023-07-12 11:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thipstercli
+[2023-07-12 11:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hawkflow
+[2023-07-12 11:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cercis
+[2023-07-12 11:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: taktile-client
+[2023-07-12 11:19:53] INFO root fetch - processPackages [thipstercli]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-12 11:19:53] INFO root fetch - processPackages [hawkflow]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-07-12 11:19:53] INFO root fetch - processPackages [thipster]: New version: [0.23.3] Old Version: [0.23.2]
+[2023-07-12 11:19:53] INFO root fetch - processPackages [rankfmc]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-12 11:19:53] INFO root fetch - processPackages [certora-cli-alpha-oz-pinnedgambit]: New version: [20230712.9.14.462803] Old Version: [20230711.21.15.488401]
+[2023-07-12 11:19:53] INFO root fetch - processPackages [cmem-plugin-kaggle]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-07-12 11:19:53] INFO root fetch - processPackages [dtool-lookup-api]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-12 11:19:53] INFO root fetch - processPackages [cval-lib]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2023-07-12 11:19:53] INFO root fetch - processPackages [taktile-client]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-12 11:19:53] INFO root fetch - processPackages [cercis]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-07-12 11:19:53] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/2b/da/407fd2d37bc63fcc58b83e2cff3f53a0e3976dd06a12df6361cb86b80b59/thipstercli-0.5.8.tar.gz
+[2023-07-12 11:19:53] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/04/d3/581a5bea9caf876b268fccd543699393b8e77929d7b85d3cae174026d8cc/thipster-0.23.2.tar.gz
+[2023-07-12 11:19:53] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/9a/70/031d75ff39efd5cfbf481fa0b0070109f80278197ca0e35e59f2860b242c/cval-lib-0.0.2.8.tar.gz
+[2023-07-12 11:19:53] INFO root fetch - processPackages [certora-cli-alpha-oz-pinnedgambit]: Downloading https://files.pythonhosted.org/packages/91/fa/b611fca8cbbecdb8db65468b9f9b23632a0677b91eb6d0fa178d0cfe7fb3/certora-cli-alpha-oz-pinnedgambit-20230711.21.15.488401.tar.gz
+[2023-07-12 11:19:53] INFO root fetch - processPackages [cmem-plugin-kaggle]: Downloading https://files.pythonhosted.org/packages/78/b3/c01aa5dcf9dea1d82124563b2f24ddb3313fb5219332fab7d883072b9339/cmem_plugin_kaggle-1.0.2.tar.gz
+[2023-07-12 11:19:53] INFO root fetch - processPackages [rankfmc]: Downloading https://files.pythonhosted.org/packages/51/84/38f2ed84648b35a059cc9710e7f0d1239d3f072424c709b3695adc745ed9/rankfmc-0.2.6.tar.gz
+[2023-07-12 11:19:53] INFO root fetch - processPackages [dtool-lookup-api]: Downloading https://files.pythonhosted.org/packages/4e/1d/3327ed14e728fe810aa585b379207386a086943c52d561498f7b8b474e82/dtool-lookup-api-0.6.0.tar.gz
+[2023-07-12 11:19:53] INFO root fetch - processPackages [taktile-client]: Downloading https://files.pythonhosted.org/packages/5d/76/a0989d8b6aea3f16ed392d71788b5e3a8c7bf46f3e0c3c53eef11995330f/taktile_client-1.0.7.tar.gz
+[2023-07-12 11:19:53] INFO root fetch - processPackages [cercis]: Downloading https://files.pythonhosted.org/packages/e9/83/28500012dc6f07c00cabf3cabe834d8cb17294b969b28c59fc919433acf0/cercis-0.1.7.tar.gz
+[2023-07-12 11:19:53] WARNING root fetch - processPackages [certora-cli-alpha-oz-pinnedgambit]: Skipping package: exceeds size limit 37462686>=10485760
+[2023-07-12 11:19:54] INFO root fetch - processPackages [certora-cli-alpha-oz-pinnedgambit]: Start processing: flashcam
+[2023-07-12 11:19:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-oz-pinnedgambit] error
+[2023-07-12 11:19:54] INFO root fetch - processPackages [flashcam]: New version: [1.5.1] Old Version: [1.4.2]
+[2023-07-12 11:19:54] INFO root fetch - processPackages [hawkflow]: Downloading https://files.pythonhosted.org/packages/81/21/b42461760ae42e9ae7c9fa1a4707b5b039b673ac187a3b460a390c892844/hawkflow-0.0.95.tar.gz
+[2023-07-12 11:19:54] INFO root fetch - processPackages [cval-lib]: Downloading https://files.pythonhosted.org/packages/ed/84/ceaf16394358aa9387e43867724a88572ee9160fb8f47ad8c56ea5dd9ff6/cval-lib-0.0.2.9.tar.gz
+[2023-07-12 11:19:54] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/ca/93/0176a61faa13c3a53c556d028b5a8f64799c7dc89c98fbfaeeac643e8a41/thipstercli-0.5.9.tar.gz
+[2023-07-12 11:19:54] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/31/8b/04ebf233858ace2236a41f8d645083b7588d2f248aa974c5670af537c3be/thipster-0.23.3.tar.gz
+[2023-07-12 11:19:54] INFO root fetch - processPackages [cval-lib]: executing diffoscope
+[2023-07-12 11:19:54] INFO root fetch - processPackages [cval-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cval-lib-0.0.2.8.tar.gz tmp/cval-lib-0.0.2.9.tar.gz --markdown 20230712/c/cval-lib/0.0.2.8-0.0.2.9/diff.md --exclude *.pyd
+[2023-07-12 11:19:54] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/78/ba/2285962af98b1546e9074a78708679c2f112d96d95ce0035d0d66b46ccf7/flashcam-1.4.2.tar.gz
+[2023-07-12 11:19:54] INFO root fetch - processPackages [cmem-plugin-kaggle]: Downloading https://files.pythonhosted.org/packages/b6/6d/6cc1507cf6299628b18e9b0808ac882c6d6972f03aedf010e61fb6d080b8/cmem_plugin_kaggle-2.0.0.tar.gz
+[2023-07-12 11:19:54] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-07-12 11:19:54] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.5.8.tar.gz tmp/thipstercli-0.5.9.tar.gz --markdown 20230712/t/thipstercli/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-12 11:19:54] INFO root fetch - processPackages [rankfmc]: Downloading https://files.pythonhosted.org/packages/8d/67/90879a9f2a654916d7de6d81a10001fec7652bb10aeed50aa32729526173/rankfmc-0.2.7.tar.gz
+[2023-07-12 11:19:54] INFO root fetch - processPackages [dtool-lookup-api]: Downloading https://files.pythonhosted.org/packages/31/86/c0919f3e08e6df2c596b4fb8a96c6c07d655924c2e203a1da1f1ac79ec6f/dtool-lookup-api-0.6.1.tar.gz
+[2023-07-12 11:19:54] INFO root fetch - processPackages [taktile-client]: Downloading https://files.pythonhosted.org/packages/d2/04/42e1c259b40eeb21caeb35dc408be68553a09a61c23dbdae07f6153cc8f7/taktile_client-1.0.8.tar.gz
+[2023-07-12 11:19:54] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-07-12 11:19:54] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.23.2.tar.gz tmp/thipster-0.23.3.tar.gz --markdown 20230712/t/thipster/0.23.2-0.23.3/diff.md --exclude *.pyd
+[2023-07-12 11:19:54] INFO root fetch - processPackages [cmem-plugin-kaggle]: executing diffoscope
+[2023-07-12 11:19:54] INFO root fetch - processPackages [cmem-plugin-kaggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_kaggle-1.0.2.tar.gz tmp/cmem_plugin_kaggle-2.0.0.tar.gz --markdown 20230712/c/cmem-plugin-kaggle/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-07-12 11:19:54] INFO root fetch - processPackages [hawkflow]: Downloading https://files.pythonhosted.org/packages/ef/5e/f84734f8d7b4c183ba4d81e5569b6c90b53c7cfc1de07ac49ece2f2643df/hawkflow-0.0.96.tar.gz
+[2023-07-12 11:19:54] INFO root fetch - processPackages [cercis]: Downloading https://files.pythonhosted.org/packages/00/00/9c99e5a7810480029ea3ed06294c10852a693cbd0abd46a9048cb3e65a16/cercis-0.2.0.tar.gz
+[2023-07-12 11:19:54] INFO root fetch - processPackages [rankfmc]: executing diffoscope
+[2023-07-12 11:19:54] INFO root fetch - processPackages [rankfmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rankfmc-0.2.6.tar.gz tmp/rankfmc-0.2.7.tar.gz --markdown 20230712/r/rankfmc/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-12 11:19:54] INFO root fetch - processPackages [taktile-client]: executing diffoscope
+[2023-07-12 11:19:54] INFO root fetch - processPackages [taktile-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taktile_client-1.0.7.tar.gz tmp/taktile_client-1.0.8.tar.gz --markdown 20230712/t/taktile-client/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-12 11:19:54] INFO root fetch - processPackages [dtool-lookup-api]: executing diffoscope
+[2023-07-12 11:19:54] INFO root fetch - processPackages [dtool-lookup-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtool-lookup-api-0.6.0.tar.gz tmp/dtool-lookup-api-0.6.1.tar.gz --markdown 20230712/d/dtool-lookup-api/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-12 11:19:54] INFO root fetch - processPackages [hawkflow]: executing diffoscope
+[2023-07-12 11:19:54] INFO root fetch - processPackages [hawkflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hawkflow-0.0.95.tar.gz tmp/hawkflow-0.0.96.tar.gz --markdown 20230712/h/hawkflow/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-07-12 11:19:54] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/f1/e2/583947632b816f0e47c44c28c27134ce819698aa83afcd3d9c1897239c60/flashcam-1.5.1.tar.gz
+[2023-07-12 11:19:54] INFO root fetch - processPackages [cercis]: executing diffoscope
+[2023-07-12 11:19:54] INFO root fetch - processPackages [cercis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cercis-0.1.7.tar.gz tmp/cercis-0.2.0.tar.gz --markdown 20230712/c/cercis/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-07-12 11:19:55] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2023-07-12 11:19:55] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.4.2.tar.gz tmp/flashcam-1.5.1.tar.gz --markdown 20230712/f/flashcam/1.4.2-1.5.1/diff.md --exclude *.pyd
+[2023-07-12 11:19:56] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.8.tar.gz]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.9.tar.gz]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [thipstercli]: Start processing: pso-keras
+[2023-07-12 11:19:56] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-07-12 11:19:56] WARNING root fetch - processPackages [pso-keras]: Skipping, unable to determine old version
+[2023-07-12 11:19:56] INFO root fetch - processPackages [pso-keras]: Start processing: elphtk
+[2023-07-12 11:19:56] INFO root fetch - main [MainThread]: End processing [pso-keras] error
+[2023-07-12 11:19:56] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.8.tar.gz]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [cval-lib]: Remove: archive file [/home/abi/fetcher/tmp/cval-lib-0.0.2.9.tar.gz]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [cval-lib]: Start processing: virtue
+[2023-07-12 11:19:56] INFO root fetch - main [MainThread]: End processing [cval-lib]: success
+[2023-07-12 11:19:56] INFO root fetch - processPackages [cmem-plugin-kaggle]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_kaggle-1.0.2.tar.gz]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [cmem-plugin-kaggle]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_kaggle-2.0.0.tar.gz]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [cmem-plugin-kaggle]: Start processing: exodusutils
+[2023-07-12 11:19:56] INFO root fetch - main [MainThread]: End processing [cmem-plugin-kaggle]: success
+[2023-07-12 11:19:56] INFO root fetch - processPackages [elphtk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [virtue]: New version: [2023.7.2] Old Version: [2023.5.3]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [exodusutils]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [hawkflow]: Remove: archive file [/home/abi/fetcher/tmp/hawkflow-0.0.95.tar.gz]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [hawkflow]: Remove: archive file [/home/abi/fetcher/tmp/hawkflow-0.0.96.tar.gz]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [hawkflow]: Start processing: elody
+[2023-07-12 11:19:56] INFO root fetch - main [MainThread]: End processing [hawkflow]: success
+[2023-07-12 11:19:56] INFO root fetch - processPackages [elody]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [rankfmc]: Remove: archive file [/home/abi/fetcher/tmp/rankfmc-0.2.6.tar.gz]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [rankfmc]: Remove: archive file [/home/abi/fetcher/tmp/rankfmc-0.2.7.tar.gz]
+[2023-07-12 11:19:56] INFO root fetch - main [MainThread]: End processing [rankfmc]: success
+[2023-07-12 11:19:56] INFO root fetch - processPackages [elphtk]: Downloading https://files.pythonhosted.org/packages/d4/98/40d4c878b8cb142918f99c51b49f461ee15d705a203bae17d012260dcddd/elphtk-0.0.1.tar.gz
+[2023-07-12 11:19:56] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/a0/64/7d9c7f121d6aff77909f165eaf492765f42d6f0f03a251957e8501e68cd1/elody-0.0.4.tar.gz
+[2023-07-12 11:19:56] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.23.2.tar.gz]
+[2023-07-12 11:19:56] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.23.3.tar.gz]
+[2023-07-12 11:19:56] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-07-12 11:19:57] INFO root fetch - processPackages [virtue]: Downloading https://files.pythonhosted.org/packages/50/f5/1ad4cc3e767350814ab953b6966af6b7b685fa7a63ae11017e23dccc1cf4/virtue-2023.5.3.tar.gz
+[2023-07-12 11:19:57] INFO root fetch - processPackages [exodusutils]: Downloading https://files.pythonhosted.org/packages/6a/73/8528d31e8b44e95e1d1b25f2812403d52815e8a3f8519129fe20f8996f9d/exodusutils-0.3.7.tar.gz
+[2023-07-12 11:19:57] INFO root fetch - processPackages [dtool-lookup-api]: Remove: archive file [/home/abi/fetcher/tmp/dtool-lookup-api-0.6.0.tar.gz]
+[2023-07-12 11:19:57] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.4.2.tar.gz]
+[2023-07-12 11:19:57] INFO root fetch - processPackages [dtool-lookup-api]: Remove: archive file [/home/abi/fetcher/tmp/dtool-lookup-api-0.6.1.tar.gz]
+[2023-07-12 11:19:57] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.1.tar.gz]
+[2023-07-12 11:19:57] INFO root fetch - main [MainThread]: End processing [dtool-lookup-api]: success
+[2023-07-12 11:19:57] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2023-07-12 11:19:57] INFO root fetch - processPackages [taktile-client]: Remove: archive file [/home/abi/fetcher/tmp/taktile_client-1.0.7.tar.gz]
+[2023-07-12 11:19:57] INFO root fetch - processPackages [taktile-client]: Remove: archive file [/home/abi/fetcher/tmp/taktile_client-1.0.8.tar.gz]
+[2023-07-12 11:19:57] INFO root fetch - main [MainThread]: End processing [taktile-client]: success
+[2023-07-12 11:19:57] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/34/27/91979317cfa3d34332a053b2a6a38f99778a8f47140fc5574584da3f3957/elody-0.0.5.tar.gz
+[2023-07-12 11:19:57] INFO root fetch - processPackages [elody]: executing diffoscope
+[2023-07-12 11:19:57] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.4.tar.gz tmp/elody-0.0.5.tar.gz --markdown 20230712/e/elody/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-12 11:19:57] INFO root fetch - processPackages [elphtk]: Downloading https://files.pythonhosted.org/packages/d5/4c/17bd7b03be502ab9ef37a06b27a5464bed9d26860ace26f3ba1c720ce7a7/elphtk-0.0.2.tar.gz
+[2023-07-12 11:19:57] INFO root fetch - processPackages [virtue]: Downloading https://files.pythonhosted.org/packages/34/04/ada292c72dd8e76b01d1052ecfd1fd7d952fefdfa2301139fb9691fba055/virtue-2023.7.2.tar.gz
+[2023-07-12 11:19:57] INFO root fetch - processPackages [exodusutils]: Downloading https://files.pythonhosted.org/packages/e2/83/372173aabc6d446059c022a2637a661536088a9b6ea7ea3507ce56b46795/exodusutils-0.3.9.tar.gz
+[2023-07-12 11:19:57] INFO root fetch - processPackages [elphtk]: executing diffoscope
+[2023-07-12 11:19:57] INFO root fetch - processPackages [elphtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elphtk-0.0.1.tar.gz tmp/elphtk-0.0.2.tar.gz --markdown 20230712/e/elphtk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 11:19:57] INFO root fetch - processPackages [virtue]: executing diffoscope
+[2023-07-12 11:19:57] INFO root fetch - processPackages [virtue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtue-2023.5.3.tar.gz tmp/virtue-2023.7.2.tar.gz --markdown 20230712/v/virtue/2023.5.3-2023.7.2/diff.md --exclude *.pyd
+[2023-07-12 11:19:57] INFO root fetch - processPackages [exodusutils]: executing diffoscope
+[2023-07-12 11:19:57] INFO root fetch - processPackages [exodusutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exodusutils-0.3.7.tar.gz tmp/exodusutils-0.3.9.tar.gz --markdown 20230712/e/exodusutils/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-07-12 11:19:58] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.4.tar.gz]
+[2023-07-12 11:19:58] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.5.tar.gz]
+[2023-07-12 11:19:58] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2023-07-12 11:19:58] INFO root fetch - processPackages [virtue]: Remove: archive file [/home/abi/fetcher/tmp/virtue-2023.5.3.tar.gz]
+[2023-07-12 11:19:58] INFO root fetch - processPackages [virtue]: Remove: archive file [/home/abi/fetcher/tmp/virtue-2023.7.2.tar.gz]
+[2023-07-12 11:19:58] INFO root fetch - main [MainThread]: End processing [virtue]: success
+[2023-07-12 11:19:58] INFO root fetch - processPackages [exodusutils]: Remove: archive file [/home/abi/fetcher/tmp/exodusutils-0.3.7.tar.gz]
+[2023-07-12 11:19:58] INFO root fetch - processPackages [exodusutils]: Remove: archive file [/home/abi/fetcher/tmp/exodusutils-0.3.9.tar.gz]
+[2023-07-12 11:19:58] INFO root fetch - main [MainThread]: End processing [exodusutils]: success
+[2023-07-12 11:19:59] INFO root fetch - processPackages [elphtk]: Remove: archive file [/home/abi/fetcher/tmp/elphtk-0.0.1.tar.gz]
+[2023-07-12 11:19:59] INFO root fetch - processPackages [elphtk]: Remove: archive file [/home/abi/fetcher/tmp/elphtk-0.0.2.tar.gz]
+[2023-07-12 11:19:59] INFO root fetch - main [MainThread]: End processing [elphtk]: success
+[2023-07-12 11:19:59] INFO root fetch - processPackages [cercis]: Remove: archive file [/home/abi/fetcher/tmp/cercis-0.1.7.tar.gz]
+[2023-07-12 11:19:59] INFO root fetch - processPackages [cercis]: Remove: archive file [/home/abi/fetcher/tmp/cercis-0.2.0.tar.gz]
+[2023-07-12 11:19:59] INFO root fetch - main [MainThread]: End processing [cercis]: success
+[2023-07-12 11:19:59] INFO root fetch - main [MainThread]: Store serial: [18858021]
