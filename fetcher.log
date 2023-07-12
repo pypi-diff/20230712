@@ -11369,3 +11369,60 @@
 [2023-07-12 05:50:54] INFO root fetch - processPackages [odoo-addon-l10n-fr-chorus-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_chorus_account-16.0.1.0.0.4-py3-none-any.whl.zip]
 [2023-07-12 05:50:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-chorus-account]: success
 [2023-07-12 05:50:54] INFO root fetch - main [MainThread]: Store serial: [18855456]
+[2023-07-12 05:55:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855456]
+[2023-07-12 05:56:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-12 05:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-maps-render
+[2023-07-12 05:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voicemeeter-api
+[2023-07-12 05:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vban-cmd
+[2023-07-12 05:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-l10n-it-intrastat
+[2023-07-12 05:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: devopstrabalhofinal
+[2023-07-12 05:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chima
+[2023-07-12 05:56:04] INFO root fetch - processPackages [azure-maps-render]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-12 05:56:04] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: New version: [12.0.1.3.0.99.dev5] Old Version: [12.0.1.3.0.99.dev4]
+[2023-07-12 05:56:04] INFO root fetch - processPackages [devopstrabalhofinal]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-12 05:56:04] INFO root fetch - processPackages [chima]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 05:56:04] INFO root fetch - processPackages [vban-cmd]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-12 05:56:04] INFO root fetch - processPackages [voicemeeter-api]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-12 05:56:04] INFO root fetch - processPackages [chima]: Downloading https://files.pythonhosted.org/packages/9a/3d/11b770dc58d2b75c58442deb2971499f66c8a510b4b49baaddd1752beb81/chima-0.0.8.tar.gz
+[2023-07-12 05:56:04] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/38/31/2f1dc16fcc88417af557bf0155c48b00f23c8706a244144a2450f2b8d75a/voicemeeter_api-2.3.0.tar.gz
+[2023-07-12 05:56:04] INFO root fetch - processPackages [devopstrabalhofinal]: Downloading https://files.pythonhosted.org/packages/cc/3d/4a31d3505b2046b0d95ea0487f89be303bf2f33adc87837520a25296239b/devopstrabalhofinal-0.0.2.tar.gz
+[2023-07-12 05:56:04] INFO root fetch - processPackages [azure-maps-render]: Downloading https://files.pythonhosted.org/packages/82/ef/f4090f8afe96a6a4bebda023c8f458fc889fb6ca107fc5ab9b0e8135ced7/azure-maps-render-1.0.0b1.zip
+[2023-07-12 05:56:04] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/a0/7f/d1b0fd1cf8d58dcee39b01df804ca9532f5e9fa79c64430584a2486ef96b/vban_cmd-2.3.0.tar.gz
+[2023-07-12 05:56:04] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/d1/df/a00194a187995257f28b2205c9f86dc2c1dc889c75d9d54aa9e04e43560d/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev4-py3-none-any.whl
+[2023-07-12 05:56:04] INFO root fetch - processPackages [chima]: Downloading https://files.pythonhosted.org/packages/76/50/145f581fdbaac6a541c615987d5bdf818f3aa19de5578423cd52b460e3dd/chima-0.0.9.tar.gz
+[2023-07-12 05:56:04] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/29/1c/8bc577faa7afc32d1e59cc27ca3aec2d3127d0d6a8194174a8e50176759c/voicemeeter_api-2.3.1.tar.gz
+[2023-07-12 05:56:04] INFO root fetch - processPackages [chima]: executing diffoscope
+[2023-07-12 05:56:04] INFO root fetch - processPackages [chima]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chima-0.0.8.tar.gz tmp/chima-0.0.9.tar.gz --markdown 20230712/c/chima/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 05:56:04] INFO root fetch - processPackages [devopstrabalhofinal]: Downloading https://files.pythonhosted.org/packages/62/97/e43f27acbd2db27cfb9f3020be0eb855c79a35f536a7871eabf4a3c28415/devopstrabalhofinal-0.0.3.tar.gz
+[2023-07-12 05:56:04] INFO root fetch - processPackages [azure-maps-render]: Downloading https://files.pythonhosted.org/packages/19/d1/f1a9b54c68243b87125f98a5f39d7a113c35037ae91e30d3e17a12d4935f/azure-maps-render-1.0.0b2.zip
+[2023-07-12 05:56:04] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/d9/07/6abc7634424813ff73a80549d15b4c705f865fea0e177199c1c65c4cfa61/vban_cmd-2.3.1.tar.gz
+[2023-07-12 05:56:05] INFO root fetch - processPackages [voicemeeter-api]: executing diffoscope
+[2023-07-12 05:56:05] INFO root fetch - processPackages [voicemeeter-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter_api-2.3.0.tar.gz tmp/voicemeeter_api-2.3.1.tar.gz --markdown 20230712/v/voicemeeter-api/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-12 05:56:05] INFO root fetch - processPackages [devopstrabalhofinal]: executing diffoscope
+[2023-07-12 05:56:05] INFO root fetch - processPackages [devopstrabalhofinal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopstrabalhofinal-0.0.2.tar.gz tmp/devopstrabalhofinal-0.0.3.tar.gz --markdown 20230712/d/devopstrabalhofinal/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-12 05:56:05] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/8b/45/849b1022e7ce12687d2affc651fc2e9e16bb4a13c18fd258ab88a51dc9e4/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev5-py3-none-any.whl
+[2023-07-12 05:56:05] INFO root fetch - processPackages [vban-cmd]: executing diffoscope
+[2023-07-12 05:56:05] INFO root fetch - processPackages [vban-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vban_cmd-2.3.0.tar.gz tmp/vban_cmd-2.3.1.tar.gz --markdown 20230712/v/vban-cmd/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-12 05:56:05] INFO root fetch - processPackages [azure-maps-render]: executing diffoscope
+[2023-07-12 05:56:05] INFO root fetch - processPackages [azure-maps-render]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-maps-render-1.0.0b1.zip tmp/azure-maps-render-1.0.0b2.zip --markdown 20230712/a/azure-maps-render/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-12 05:56:05] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: executing diffoscope
+[2023-07-12 05:56:05] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev5-py3-none-any.whl.zip --markdown 20230712/o/odoo12-addon-l10n-it-intrastat/12.0.1.3.0.99.dev4-12.0.1.3.0.99.dev5/diff.md --exclude *.pyd
+[2023-07-12 05:56:05] INFO root fetch - processPackages [chima]: Remove: archive file [/home/abi/fetcher/tmp/chima-0.0.8.tar.gz]
+[2023-07-12 05:56:05] INFO root fetch - processPackages [chima]: Remove: archive file [/home/abi/fetcher/tmp/chima-0.0.9.tar.gz]
+[2023-07-12 05:56:05] INFO root fetch - main [MainThread]: End processing [chima]: success
+[2023-07-12 05:56:06] INFO root fetch - processPackages [devopstrabalhofinal]: Remove: archive file [/home/abi/fetcher/tmp/devopstrabalhofinal-0.0.2.tar.gz]
+[2023-07-12 05:56:06] INFO root fetch - processPackages [devopstrabalhofinal]: Remove: archive file [/home/abi/fetcher/tmp/devopstrabalhofinal-0.0.3.tar.gz]
+[2023-07-12 05:56:06] INFO root fetch - main [MainThread]: End processing [devopstrabalhofinal]: success
+[2023-07-12 05:56:06] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.3.0.tar.gz]
+[2023-07-12 05:56:06] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.3.1.tar.gz]
+[2023-07-12 05:56:06] INFO root fetch - main [MainThread]: End processing [voicemeeter-api]: success
+[2023-07-12 05:56:06] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban_cmd-2.3.0.tar.gz]
+[2023-07-12 05:56:06] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban_cmd-2.3.1.tar.gz]
+[2023-07-12 05:56:06] INFO root fetch - main [MainThread]: End processing [vban-cmd]: success
+[2023-07-12 05:56:06] INFO root fetch - processPackages [azure-maps-render]: Remove: archive file [/home/abi/fetcher/tmp/azure-maps-render-1.0.0b1.zip]
+[2023-07-12 05:56:06] INFO root fetch - processPackages [azure-maps-render]: Remove: archive file [/home/abi/fetcher/tmp/azure-maps-render-1.0.0b2.zip]
+[2023-07-12 05:56:06] INFO root fetch - main [MainThread]: End processing [azure-maps-render]: success
+[2023-07-12 05:56:06] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev4-py3-none-any.whl.zip]
+[2023-07-12 05:56:06] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev5-py3-none-any.whl.zip]
+[2023-07-12 05:56:06] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-intrastat]: success
+[2023-07-12 05:56:06] INFO root fetch - main [MainThread]: Store serial: [18855502]
