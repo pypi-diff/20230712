@@ -15483,3 +15483,105 @@
 [2023-07-12 10:20:26] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11615-py2.py3-none-any.whl.zip]
 [2023-07-12 10:20:26] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-07-12 10:20:26] INFO root fetch - main [MainThread]: Store serial: [18857356]
+[2023-07-12 10:25:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857356]
+[2023-07-12 10:25:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-12 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ucloud-sdk-python3
+[2023-07-12 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inviz
+[2023-07-12 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-invoice-plan
+[2023-07-12 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TreeSAK
+[2023-07-12 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ul-data-aggregator-sdk
+[2023-07-12 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nwebclient
+[2023-07-12 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: voila-vuetify-template-tuwien
+[2023-07-12 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydantic-collections
+[2023-07-12 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: echofish-aws-raw-to-zarr-lambda
+[2023-07-12 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: whoisdomain
+[2023-07-12 10:25:35] INFO root fetch - processPackages [odoo-addon-sale-invoice-plan]: New version: [15.0.1.4.0] Old Version: [15.0.1.3.2]
+[2023-07-12 10:25:35] INFO root fetch - processPackages [ucloud-sdk-python3]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-12 10:25:35] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-12 10:25:35] INFO root fetch - processPackages [pydantic-collections]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-12 10:25:35] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 10:25:35] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: New version: [1.0.0.dev20230712080521] Old Version: [1.0.0.dev20230711214025]
+[2023-07-12 10:25:35] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-12 10:25:35] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [8.9.5] Old Version: [8.11.8]
+[2023-07-12 10:25:35] INFO root fetch - processPackages [inviz]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-12 10:25:35] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230712.2] Old Version: [1.20230627.3]
+[2023-07-12 10:25:36] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/11/39/681d23b3f682f1d179b8b511d05101a0f51573eac81040b179fb09c7631e/ul-data-aggregator-sdk-8.11.8.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/cc/04/97fcdf7f243b470850396df1d1605ef4d9671e02ea34e8b1c7e27e63b6fe/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230711214025.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [ucloud-sdk-python3]: Downloading https://files.pythonhosted.org/packages/b9/ad/8d3ba7b74be635980377f25b6df78942d28c0c11684ba86aa7adca44ff22/ucloud-sdk-python3-0.9.3.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [odoo-addon-sale-invoice-plan]: Downloading https://files.pythonhosted.org/packages/71/fe/b8b6d4f158650d7ba028eb22f4bb4ed7ed070d3af9b64d2eb13405cc7a01/odoo_addon_sale_invoice_plan-15.0.1.3.2-py3-none-any.whl
+[2023-07-12 10:25:36] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Downloading https://files.pythonhosted.org/packages/c4/6b/d53913f35ae2ef416ad107aefd9627b4b8dc4993755642a17eb0416b285c/voila-vuetify-template-tuwien-0.6.1.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [pydantic-collections]: Downloading https://files.pythonhosted.org/packages/3a/10/4beb18bb6c82194d9985b874aac32b537b21c8a661995208f834f7f53b22/pydantic-collections-0.4.1.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/c8/cb/49a03367513389b7596e888993a29039aa2df0d9d49e0cba06851d9722f2/whoisdomain-1.20230627.3.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/91/f0/a2e48c7a7d17a37584ca6e5056b712264b0f64edc1000c69bbace2b42064/inviz-0.2.0.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/d9/ed/eb438ef4c4c4b598add3ae42d2a364a5ca49bd7fda6bdc4aa3832c54aa91/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230712080521.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/ae/cf/20ade1e77c7db14608e4ad73e7b31dd0bd4ee46d7222add34aa0ee1abaca/ul-data-aggregator-sdk-8.9.5.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 10:25:36] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 10:25:36] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Downloading https://files.pythonhosted.org/packages/22/3a/b2b9be143008f550ba6f83593d8c9fdb8d4c92e3be60dd9ce979e816ca01/voila-vuetify-template-tuwien-0.6.2.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/d2/9a/372e79f552d19333e1e3c6224851d03a28d7aac023b16fee62469f403777/whoisdomain-1.20230712.2.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [pydantic-collections]: Downloading https://files.pythonhosted.org/packages/e0/2c/d679a81c47e9f390ac6ffcdfb9ea96b6a1899bc3b7f6ad46ab2037748694/pydantic-collections-0.5.0.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [ucloud-sdk-python3]: Downloading https://files.pythonhosted.org/packages/ce/46/23811142fdf629c84759319dd47a810e863e87ba1562172242caa1df2ba7/ucloud-sdk-python3-0.9.4.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/0d/c4/ef09b8a4fa98c0a5d9b43dbf053b4d364fce563b9fdb1ef5610388f95936/inviz-0.2.1.tar.gz
+[2023-07-12 10:25:36] INFO root fetch - processPackages [odoo-addon-sale-invoice-plan]: Downloading https://files.pythonhosted.org/packages/a6/20/e8edc25f19054dcb324b49b248d30df5f4328e7d540d23b909c053a1b7bc/odoo_addon_sale_invoice_plan-15.0.1.4.0-py3-none-any.whl
+[2023-07-12 10:25:36] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-07-12 10:25:36] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230712/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-12 10:25:36] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: executing diffoscope
+[2023-07-12 10:25:36] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230711214025.tar.gz tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230712080521.tar.gz --markdown 20230712/e/echofish-aws-raw-to-zarr-lambda/1.0.0.dev20230711214025-1.0.0.dev20230712080521/diff.md --exclude *.pyd
+[2023-07-12 10:25:36] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2023-07-12 10:25:36] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-8.11.8.tar.gz tmp/ul-data-aggregator-sdk-8.9.5.tar.gz --markdown 20230712/u/ul-data-aggregator-sdk/8.11.8-8.9.5/diff.md --exclude *.pyd
+[2023-07-12 10:25:36] INFO root fetch - processPackages [ucloud-sdk-python3]: executing diffoscope
+[2023-07-12 10:25:36] INFO root fetch - processPackages [ucloud-sdk-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucloud-sdk-python3-0.9.3.tar.gz tmp/ucloud-sdk-python3-0.9.4.tar.gz --markdown 20230712/u/ucloud-sdk-python3/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-12 10:25:36] INFO root fetch - processPackages [odoo-addon-sale-invoice-plan]: executing diffoscope
+[2023-07-12 10:25:36] INFO root fetch - processPackages [odoo-addon-sale-invoice-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_invoice_plan-15.0.1.3.2-py3-none-any.whl.zip tmp/odoo_addon_sale_invoice_plan-15.0.1.4.0-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-sale-invoice-plan/15.0.1.3.2-15.0.1.4.0/diff.md --exclude *.pyd
+[2023-07-12 10:25:36] INFO root fetch - processPackages [inviz]: executing diffoscope
+[2023-07-12 10:25:36] INFO root fetch - processPackages [inviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inviz-0.2.0.tar.gz tmp/inviz-0.2.1.tar.gz --markdown 20230712/i/inviz/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-12 10:25:37] INFO root fetch - processPackages [pydantic-collections]: executing diffoscope
+[2023-07-12 10:25:37] INFO root fetch - processPackages [pydantic-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-collections-0.4.1.tar.gz tmp/pydantic-collections-0.5.0.tar.gz --markdown 20230712/p/pydantic-collections/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-12 10:25:37] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-07-12 10:25:37] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230627.3.tar.gz tmp/whoisdomain-1.20230712.2.tar.gz --markdown 20230712/w/whoisdomain/1.20230627.3-1.20230712.2/diff.md --exclude *.pyd
+[2023-07-12 10:25:37] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: executing diffoscope
+[2023-07-12 10:25:37] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-vuetify-template-tuwien-0.6.1.tar.gz tmp/voila-vuetify-template-tuwien-0.6.2.tar.gz --markdown 20230712/v/voila-vuetify-template-tuwien/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-12 10:25:38] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 10:25:38] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 10:25:38] INFO root fetch - processPackages [nwebclient]: Start processing: langchain-wenxin
+[2023-07-12 10:25:38] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 10:25:38] INFO root fetch - processPackages [langchain-wenxin]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-12 10:25:38] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/8b/a3/93c9c1ff0f2ee7bd34f28d6b46af587806de91ceb5483972227db2323e02/langchain_wenxin-0.8.0.tar.gz
+[2023-07-12 10:25:39] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/d6/a3/ec84eda21fa2e22a76a0c89b559db471a4a8e1e07afddc0142efd1280cd9/langchain_wenxin-0.8.1.tar.gz
+[2023-07-12 10:25:39] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-07-12 10:25:39] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.11.8.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.9.5.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2023-07-12 10:25:39] INFO root fetch - processPackages [langchain-wenxin]: executing diffoscope
+[2023-07-12 10:25:39] INFO root fetch - processPackages [langchain-wenxin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_wenxin-0.8.0.tar.gz tmp/langchain_wenxin-0.8.1.tar.gz --markdown 20230712/l/langchain-wenxin/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-12 10:25:39] INFO root fetch - processPackages [odoo-addon-sale-invoice-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_invoice_plan-15.0.1.3.2-py3-none-any.whl.zip]
+[2023-07-12 10:25:39] INFO root fetch - processPackages [odoo-addon-sale-invoice-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_invoice_plan-15.0.1.4.0-py3-none-any.whl.zip]
+[2023-07-12 10:25:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-invoice-plan]: success
+[2023-07-12 10:25:39] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230627.3.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230712.2.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-07-12 10:25:39] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.0.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.1.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - main [MainThread]: End processing [inviz]: success
+[2023-07-12 10:25:39] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-vuetify-template-tuwien-0.6.1.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-vuetify-template-tuwien-0.6.2.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - main [MainThread]: End processing [voila-vuetify-template-tuwien]: success
+[2023-07-12 10:25:39] INFO root fetch - processPackages [pydantic-collections]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-collections-0.4.1.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - processPackages [pydantic-collections]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-collections-0.5.0.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - main [MainThread]: End processing [pydantic-collections]: success
+[2023-07-12 10:25:39] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230711214025.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230712080521.tar.gz]
+[2023-07-12 10:25:39] INFO root fetch - main [MainThread]: End processing [echofish-aws-raw-to-zarr-lambda]: success
+[2023-07-12 10:25:40] INFO root fetch - processPackages [ucloud-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/ucloud-sdk-python3-0.9.3.tar.gz]
+[2023-07-12 10:25:40] INFO root fetch - processPackages [ucloud-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/ucloud-sdk-python3-0.9.4.tar.gz]
+[2023-07-12 10:25:40] INFO root fetch - main [MainThread]: End processing [ucloud-sdk-python3]: success
+[2023-07-12 10:25:40] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.8.0.tar.gz]
+[2023-07-12 10:25:40] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.8.1.tar.gz]
+[2023-07-12 10:25:40] INFO root fetch - main [MainThread]: End processing [langchain-wenxin]: success
+[2023-07-12 10:25:40] INFO root fetch - main [MainThread]: Store serial: [18857390]
