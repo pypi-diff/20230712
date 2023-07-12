@@ -14102,3 +14102,127 @@
 [2023-07-12 09:13:38] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-12 09:13:38] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-12 09:13:38] INFO root fetch - main [MainThread]: Store serial: [18856773]
+[2023-07-12 09:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856773]
+[2023-07-12 09:18:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-12 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ats-case
+[2023-07-12 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fuxictr
+[2023-07-12 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hitrustai-lab
+[2023-07-12 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Lindex
+[2023-07-12 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fileformats-medimage
+[2023-07-12 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iman
+[2023-07-12 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gns3-gui
+[2023-07-12 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfq-nightly
+[2023-07-12 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: huhk
+[2023-07-12 09:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: capsula
+[2023-07-12 09:18:48] INFO root fetch - processPackages [capsula]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-12 09:18:48] INFO root fetch - processPackages [iman]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-07-12 09:18:48] INFO root fetch - processPackages [huhk]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-07-12 09:18:48] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-12 09:18:48] INFO root fetch - processPackages [fuxictr]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-12 09:18:48] INFO root fetch - processPackages [fileformats-medimage]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-12 09:18:48] INFO root fetch - processPackages [Lindex]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-07-12 09:18:48] INFO root fetch - processPackages [hitrustai-lab]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 09:18:48] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230711] Old Version: [0.7.3.dev20230710]
+[2023-07-12 09:18:48] INFO root fetch - processPackages [gns3-gui]: New version: [3.0.0a3] Old Version: [3.0.0a2]
+[2023-07-12 09:18:48] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/c0/f9/bed403d3aff35a1e6a9a8c1ab9d94b2e53054af370e15362dd7ec5d2ed12/capsula-0.0.7.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/4a/b6/9af8b1c18cffbfebd04032640c92e04e1caa84b3a27cbc812528c3c9da74/huhk-1.6.3.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/87/31/14f8bb7ff2c541102baab81e75ac31934631f0a0eb392e0610339417c78b/iman-0.0.83.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [fuxictr]: Downloading https://files.pythonhosted.org/packages/7d/fb/0d644a3f04018c7512da99d52a3f5268abc8c9f6e41a4c0e3a513d54a619/fuxictr-2.0.2.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/08/9d/763d1cd9d1c2018f8489534e92e22674d13172787220f2dc26092ef394dc/fileformats_medimage-0.3.4.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [hitrustai-lab]: Downloading https://files.pythonhosted.org/packages/62/e0/caeef3836f6779aebd93956257125a60f56a3731f28455ee85d42e570115/hitrustai_lab-1.0.8.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [Lindex]: Downloading https://files.pythonhosted.org/packages/89/fb/ee252dfb3a54069c182905c5e34b9bcde3e2e9f1c216efcddb6ed5cd12cb/Lindex-1.0.0.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [gns3-gui]: Downloading https://files.pythonhosted.org/packages/62/9a/1387c4b06e150035dae2743434539e28292f0deaed11e4731f5cac8ff208/gns3-gui-3.0.0a2.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/9c/5e/d37218bbdc3b9d5b91c8d3e4e58a791a7ad410b5cc36a04942bc80c39489/tfq_nightly-0.7.3.dev20230710-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-12 09:18:48] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/7d/c4/def8d08198b8a888674c564686a8cf42a4d81fc38235562ed7e76b8ca787/capsula-0.0.9.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/97/ce/1962b610d199353dec96c1d36b6be629265767c99dbb52e23c7b6819ead9/huhk-1.6.4.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [capsula]: executing diffoscope
+[2023-07-12 09:18:48] INFO root fetch - processPackages [capsula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsula-0.0.7.tar.gz tmp/capsula-0.0.9.tar.gz --markdown 20230712/c/capsula/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 09:18:48] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-12 09:18:48] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.6.3.tar.gz tmp/huhk-1.6.4.tar.gz --markdown 20230712/h/huhk/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-07-12 09:18:48] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/30/17/389821fbd85328fbda7e038746aa1d02011502958e2d9589ede98d2f5b0b/iman-0.0.9.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-12 09:18:48] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.83.tar.gz tmp/iman-0.0.9.tar.gz --markdown 20230712/i/iman/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 09:18:48] INFO root fetch - processPackages [fuxictr]: Downloading https://files.pythonhosted.org/packages/61/69/9795c205e1f095be6d07bbdf3aad15536a748b6aaa4b38a26ec5caffb10e/fuxictr-2.0.3.tar.gz
+[2023-07-12 09:18:48] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-12 09:18:48] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230712/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-12 09:18:49] INFO root fetch - processPackages [Lindex]: Downloading https://files.pythonhosted.org/packages/6d/eb/442b571a71f4579f566a8e228b0001d13969bbfea85671d71eeea1702fc9/Lindex-1.1.1.tar.gz
+[2023-07-12 09:18:49] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/d3/2e/40d7ab07eea6b4b5b38f483dd315bace135ee12309e2e2bf14d6266c9de7/fileformats_medimage-0.3.5.tar.gz
+[2023-07-12 09:18:49] INFO root fetch - processPackages [hitrustai-lab]: Downloading https://files.pythonhosted.org/packages/c6/a8/d005771def830398c114c064804050a67c4d5c9c77c6d9cdca0c2526ccd9/hitrustai_lab-1.0.9.tar.gz
+[2023-07-12 09:18:49] INFO root fetch - processPackages [fuxictr]: executing diffoscope
+[2023-07-12 09:18:49] INFO root fetch - processPackages [fuxictr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuxictr-2.0.2.tar.gz tmp/fuxictr-2.0.3.tar.gz --markdown 20230712/f/fuxictr/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-12 09:18:49] INFO root fetch - processPackages [Lindex]: executing diffoscope
+[2023-07-12 09:18:49] INFO root fetch - processPackages [Lindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lindex-1.0.0.tar.gz tmp/Lindex-1.1.1.tar.gz --markdown 20230712/L/Lindex/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-12 09:18:49] INFO root fetch - processPackages [fileformats-medimage]: executing diffoscope
+[2023-07-12 09:18:49] INFO root fetch - processPackages [fileformats-medimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage-0.3.4.tar.gz tmp/fileformats_medimage-0.3.5.tar.gz --markdown 20230712/f/fileformats-medimage/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-12 09:18:49] INFO root fetch - processPackages [hitrustai-lab]: executing diffoscope
+[2023-07-12 09:18:49] INFO root fetch - processPackages [hitrustai-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hitrustai_lab-1.0.8.tar.gz tmp/hitrustai_lab-1.0.9.tar.gz --markdown 20230712/h/hitrustai-lab/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 09:18:49] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807263>=10485760
+[2023-07-12 09:18:49] INFO root fetch - processPackages [tfq-nightly]: Start processing: gns3-server
+[2023-07-12 09:18:49] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-12 09:18:49] INFO root fetch - processPackages [gns3-gui]: Downloading https://files.pythonhosted.org/packages/e2/82/1ee7996124e6120bdddc377acb2e41de242ae5f11e58252f94e00be797e0/gns3-gui-3.0.0a3.tar.gz
+[2023-07-12 09:18:49] INFO root fetch - processPackages [gns3-server]: New version: [3.0.0a3] Old Version: [3.0.0a2]
+[2023-07-12 09:18:49] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.7.tar.gz]
+[2023-07-12 09:18:49] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.9.tar.gz]
+[2023-07-12 09:18:49] INFO root fetch - processPackages [capsula]: Start processing: systrack
+[2023-07-12 09:18:49] INFO root fetch - main [MainThread]: End processing [capsula]: success
+[2023-07-12 09:18:49] INFO root fetch - processPackages [systrack]: New version: [0.3rc3] Old Version: [0.3rc2]
+[2023-07-12 09:18:49] INFO root fetch - processPackages [gns3-server]: Downloading https://files.pythonhosted.org/packages/76/9f/37cd34b9d2adaa1f623deb3512df6985042e29a59f172df45233f2978436/gns3-server-3.0.0a2.tar.gz
+[2023-07-12 09:18:50] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.3.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.4.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - processPackages [huhk]: Start processing: armonik
+[2023-07-12 09:18:50] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-12 09:18:50] WARNING root fetch - processPackages [gns3-server]: Skipping package: exceeds size limit 11101961>=10485760
+[2023-07-12 09:18:50] INFO root fetch - processPackages [gns3-server]: Start processing: django-markwhat-next
+[2023-07-12 09:18:50] INFO root fetch - main [MainThread]: End processing [gns3-server] error
+[2023-07-12 09:18:50] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-12 09:18:50] INFO root fetch - processPackages [systrack]: Downloading https://files.pythonhosted.org/packages/f4/e8/dc3a5307879cf3f73bac34c05d1752f56476d40e408b0977f506b59ce7cc/systrack-0.3rc2.tar.gz
+[2023-07-12 09:18:50] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.83.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - processPackages [ats-case]: Start processing: core-models
+[2023-07-12 09:18:50] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.9.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-12 09:18:50] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-12 09:18:50] WARNING root fetch - processPackages [django-markwhat-next]: Skipping, unable to determine old version
+[2023-07-12 09:18:50] INFO root fetch - main [MainThread]: End processing [django-markwhat-next] error
+[2023-07-12 09:18:50] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-12 09:18:50] INFO root fetch - processPackages [gns3-gui]: executing diffoscope
+[2023-07-12 09:18:50] INFO root fetch - processPackages [gns3-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gns3-gui-3.0.0a2.tar.gz tmp/gns3-gui-3.0.0a3.tar.gz --markdown 20230712/g/gns3-gui/3.0.0a2-3.0.0a3/diff.md --exclude *.pyd
+[2023-07-12 09:18:50] INFO root fetch - processPackages [Lindex]: Remove: archive file [/home/abi/fetcher/tmp/Lindex-1.0.0.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - processPackages [Lindex]: Remove: archive file [/home/abi/fetcher/tmp/Lindex-1.1.1.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - main [MainThread]: End processing [Lindex]: success
+[2023-07-12 09:18:50] INFO root fetch - processPackages [core-models]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-12 09:18:50] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-12 09:18:50] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.3.4.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.3.5.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - main [MainThread]: End processing [fileformats-medimage]: success
+[2023-07-12 09:18:50] INFO root fetch - processPackages [hitrustai-lab]: Remove: archive file [/home/abi/fetcher/tmp/hitrustai_lab-1.0.8.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - processPackages [hitrustai-lab]: Remove: archive file [/home/abi/fetcher/tmp/hitrustai_lab-1.0.9.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - main [MainThread]: End processing [hitrustai-lab]: success
+[2023-07-12 09:18:50] INFO root fetch - processPackages [systrack]: Downloading https://files.pythonhosted.org/packages/fe/dc/5ef7ae9eb74f5b783d57ee3b89da42819129d439f4efcaf96fce4c988d06/systrack-0.3rc3.tar.gz
+[2023-07-12 09:18:50] INFO root fetch - processPackages [fuxictr]: Remove: archive file [/home/abi/fetcher/tmp/fuxictr-2.0.2.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - processPackages [fuxictr]: Remove: archive file [/home/abi/fetcher/tmp/fuxictr-2.0.3.tar.gz]
+[2023-07-12 09:18:50] INFO root fetch - main [MainThread]: End processing [fuxictr]: success
+[2023-07-12 09:18:50] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-12 09:18:50] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230712/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-12 09:18:50] INFO root fetch - processPackages [systrack]: executing diffoscope
+[2023-07-12 09:18:50] INFO root fetch - processPackages [systrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systrack-0.3rc2.tar.gz tmp/systrack-0.3rc3.tar.gz --markdown 20230712/s/systrack/0.3rc2-0.3rc3/diff.md --exclude *.pyd
+[2023-07-12 09:18:50] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/ff/2c/ec1911c709bf81b3d5a08e372379757c5fc2a2568e54d8bb7ce50d134105/core_models-0.1.2.tar.gz
+[2023-07-12 09:18:51] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/cb/17/2f68bcf608d3191772ac2672909af240e5958d9821885b27214bf980679a/core_models-0.1.3.tar.gz
+[2023-07-12 09:18:51] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2023-07-12 09:18:51] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.1.2.tar.gz tmp/core_models-0.1.3.tar.gz --markdown 20230712/c/core-models/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-12 09:18:51] INFO root fetch - processPackages [systrack]: Remove: archive file [/home/abi/fetcher/tmp/systrack-0.3rc2.tar.gz]
+[2023-07-12 09:18:51] INFO root fetch - processPackages [systrack]: Remove: archive file [/home/abi/fetcher/tmp/systrack-0.3rc3.tar.gz]
+[2023-07-12 09:18:51] INFO root fetch - main [MainThread]: End processing [systrack]: success
+[2023-07-12 09:18:51] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-12 09:18:51] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-12 09:18:51] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-12 09:18:52] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.2.tar.gz]
+[2023-07-12 09:18:52] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.3.tar.gz]
+[2023-07-12 09:18:52] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2023-07-12 09:18:55] INFO root fetch - processPackages [gns3-gui]: Remove: archive file [/home/abi/fetcher/tmp/gns3-gui-3.0.0a2.tar.gz]
+[2023-07-12 09:18:55] INFO root fetch - processPackages [gns3-gui]: Remove: archive file [/home/abi/fetcher/tmp/gns3-gui-3.0.0a3.tar.gz]
+[2023-07-12 09:18:55] INFO root fetch - main [MainThread]: End processing [gns3-gui]: success
+[2023-07-12 09:18:55] INFO root fetch - main [MainThread]: Store serial: [18856817]
