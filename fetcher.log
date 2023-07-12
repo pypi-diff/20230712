@@ -15951,3 +15951,129 @@
 [2023-07-12 10:37:04] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip]
 [2023-07-12 10:37:04] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
 [2023-07-12 10:37:04] INFO root fetch - main [MainThread]: Store serial: [18857575]
+[2023-07-12 10:42:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857575]
+[2023-07-12 10:42:18] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-12 10:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domolibrary
+[2023-07-12 10:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-webhooks
+[2023-07-12 10:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tqsdk
+[2023-07-12 10:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aloso
+[2023-07-12 10:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2023-07-12 10:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-estimator-nightly
+[2023-07-12 10:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-sale-stock-line-sequence
+[2023-07-12 10:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coretex
+[2023-07-12 10:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nwebclient
+[2023-07-12 10:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CToolKit
+[2023-07-12 10:42:18] INFO root fetch - processPackages [invenio-webhooks]: New version: [1.0.1] Old Version: [1.0.0a4]
+[2023-07-12 10:42:18] WARNING root fetch - processPackages [odoo13-addon-sale-stock-line-sequence]: Skipping, unable to determine old version
+[2023-07-12 10:42:18] INFO root fetch - processPackages [odoo13-addon-sale-stock-line-sequence]: Start processing: email-domain-verification
+[2023-07-12 10:42:18] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-stock-line-sequence] error
+[2023-07-12 10:42:18] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-12 10:42:18] INFO root fetch - processPackages [tqsdk]: New version: [3.4.4] Old Version: [3.4.3]
+[2023-07-12 10:42:18] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 10:42:18] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 10:42:18] INFO root fetch - processPackages [coretex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 10:42:18] INFO root fetch - processPackages [CToolKit]: New version: [2.45] Old Version: [1.20]
+[2023-07-12 10:42:18] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230712083713] Old Version: [2.1.1.dev20230711135103]
+[2023-07-12 10:42:18] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-12 10:42:18] INFO root fetch - processPackages [email-domain-verification]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-12 10:42:18] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-07-12 10:42:18] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-12 10:42:18] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d7/75/8f4b6144971b3d6263e9a16d64f4cdb7e8674d361ee6bf7eb12131095413/coretex-1.0.8.tar.gz
+[2023-07-12 10:42:18] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/3d/a0/f574912e4200a0864fe6985e9b91d5ab4550d50c09ed491c055149ae72cc/localstack-core-2.1.1.dev20230711135103.tar.gz
+[2023-07-12 10:42:18] INFO root fetch - processPackages [email-domain-verification]: Downloading https://files.pythonhosted.org/packages/96/1b/5fd4d7cd2dae8991323efc079243c962990ddb9a6c65fb53cf4b38945edc/email_domain_verification-1.0.2.tar.gz
+[2023-07-12 10:42:18] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-12 10:42:18] INFO root fetch - processPackages [invenio-webhooks]: Downloading https://files.pythonhosted.org/packages/15/92/1e063f925f7e30d8b443a587cce4829e454a9a3c4ca7aebaa3b264ed163a/invenio-webhooks-1.0.0a4.tar.gz
+[2023-07-12 10:42:18] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 10:42:19] INFO root fetch - processPackages [tqsdk]: Downloading https://files.pythonhosted.org/packages/bb/ab/a993920162c355f73b83c5b02b4ff498118b5d35a5cee696186547d5c93c/tqsdk-3.4.3.tar.gz
+[2023-07-12 10:42:19] INFO root fetch - processPackages [CToolKit]: Downloading https://files.pythonhosted.org/packages/3f/67/2e57e746fb6c3bc87ea7a54ad75289f216acece6a7d62eb2289372483355/CToolKit-1.20.tar.gz
+[2023-07-12 10:42:19] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-07-12 10:42:19] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d6/c4/89dc77c1c4645d9dfc7e2c5fabe518d4c2a28b7142db6b030a93cb938fca/coretex-1.0.9.tar.gz
+[2023-07-12 10:42:19] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-12 10:42:19] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 10:42:19] INFO root fetch - processPackages [email-domain-verification]: Downloading https://files.pythonhosted.org/packages/5b/3c/a5aa0d703b7016b49cbd7d106b297eb01a75914bdeb99327a6ba92465074/email_domain_verification-1.1.0.tar.gz
+[2023-07-12 10:42:19] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-12 10:42:19] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-07-12 10:42:19] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230712/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 10:42:19] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-07-12 10:42:19] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.8.tar.gz tmp/coretex-1.0.9.tar.gz --markdown 20230712/c/coretex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 10:42:19] INFO root fetch - processPackages [invenio-webhooks]: Downloading https://files.pythonhosted.org/packages/b2/3f/f750dd349ac1d838f897f8863856a3550e2a8c8ac43398175e451a24fe71/invenio-webhooks-1.0.1.tar.gz
+[2023-07-12 10:42:19] INFO root fetch - processPackages [CToolKit]: Downloading https://files.pythonhosted.org/packages/15/28/1df00c36d73f749dee567e91c07ed6cb55487adc9155b6716259fe5d5aa7/CToolKit-2.45.tar.gz
+[2023-07-12 10:42:19] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/72/24/112fa2eb90bec4751ef5f35a3f746996250f50456d7f2c529550e349e1a4/localstack-core-2.1.1.dev20230712083713.tar.gz
+[2023-07-12 10:42:19] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-12 10:42:19] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230712/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-12 10:42:19] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 10:42:19] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 10:42:19] INFO root fetch - processPackages [email-domain-verification]: executing diffoscope
+[2023-07-12 10:42:19] INFO root fetch - processPackages [email-domain-verification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email_domain_verification-1.0.2.tar.gz tmp/email_domain_verification-1.1.0.tar.gz --markdown 20230712/e/email-domain-verification/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-12 10:42:19] INFO root fetch - processPackages [tqsdk]: Downloading https://files.pythonhosted.org/packages/7f/11/ff5523ae10e933d92c98e5bfa8e295ed67404dee2c4fbd938abf77b04258/tqsdk-3.4.4.tar.gz
+[2023-07-12 10:42:19] INFO root fetch - processPackages [invenio-webhooks]: executing diffoscope
+[2023-07-12 10:42:19] INFO root fetch - processPackages [invenio-webhooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-webhooks-1.0.0a4.tar.gz tmp/invenio-webhooks-1.0.1.tar.gz --markdown 20230712/i/invenio-webhooks/1.0.0a4-1.0.1/diff.md --exclude *.pyd
+[2023-07-12 10:42:19] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-12 10:42:19] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230712/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-12 10:42:19] INFO root fetch - processPackages [CToolKit]: executing diffoscope
+[2023-07-12 10:42:19] INFO root fetch - processPackages [CToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CToolKit-1.20.tar.gz tmp/CToolKit-2.45.tar.gz --markdown 20230712/C/CToolKit/1.20-2.45/diff.md --exclude *.pyd
+[2023-07-12 10:42:20] INFO root fetch - processPackages [tqsdk]: executing diffoscope
+[2023-07-12 10:42:20] INFO root fetch - processPackages [tqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tqsdk-3.4.3.tar.gz tmp/tqsdk-3.4.4.tar.gz --markdown 20230712/t/tqsdk/3.4.3-3.4.4/diff.md --exclude *.pyd
+[2023-07-12 10:42:20] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-12 10:42:20] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230711135103.tar.gz tmp/localstack-core-2.1.1.dev20230712083713.tar.gz --markdown 20230712/l/localstack-core/2.1.1.dev20230711135103-2.1.1.dev20230712083713/diff.md --exclude *.pyd
+[2023-07-12 10:42:21] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-07-12 10:42:21] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-07-12 10:42:21] INFO root fetch - processPackages [aloso]: Start processing: tff-nightly
+[2023-07-12 10:42:21] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-07-12 10:42:21] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230711] Old Version: [0.0.1.dev20230710]
+[2023-07-12 10:42:21] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 10:42:21] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 10:42:21] INFO root fetch - processPackages [nwebclient]: Start processing: useckit
+[2023-07-12 10:42:21] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 10:42:21] INFO root fetch - processPackages [email-domain-verification]: Remove: archive file [/home/abi/fetcher/tmp/email_domain_verification-1.0.2.tar.gz]
+[2023-07-12 10:42:21] INFO root fetch - processPackages [email-domain-verification]: Remove: archive file [/home/abi/fetcher/tmp/email_domain_verification-1.1.0.tar.gz]
+[2023-07-12 10:42:21] INFO root fetch - processPackages [email-domain-verification]: Start processing: pelican-sitemap
+[2023-07-12 10:42:21] INFO root fetch - main [MainThread]: End processing [email-domain-verification]: success
+[2023-07-12 10:42:21] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/be/69/d5084c4979c36bed1257cab96c52386affc3bc2b7f89ec6b806f951d2279/tff_nightly-0.0.1.dev20230710-py2.py3-none-any.whl
+[2023-07-12 10:42:21] INFO root fetch - processPackages [useckit]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-12 10:42:21] INFO root fetch - processPackages [CToolKit]: Remove: archive file [/home/abi/fetcher/tmp/CToolKit-1.20.tar.gz]
+[2023-07-12 10:42:21] INFO root fetch - processPackages [pelican-sitemap]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-12 10:42:21] INFO root fetch - processPackages [CToolKit]: Remove: archive file [/home/abi/fetcher/tmp/CToolKit-2.45.tar.gz]
+[2023-07-12 10:42:21] INFO root fetch - processPackages [CToolKit]: Start processing: odoo-addon-l10n-us-gaap
+[2023-07-12 10:42:21] INFO root fetch - main [MainThread]: End processing [CToolKit]: success
+[2023-07-12 10:42:21] WARNING root fetch - processPackages [odoo-addon-l10n-us-gaap]: Skipping, unable to determine old version
+[2023-07-12 10:42:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-us-gaap] error
+[2023-07-12 10:42:21] INFO root fetch - processPackages [useckit]: Downloading https://files.pythonhosted.org/packages/52/f3/813f4056fe291685ddc4fd56f66932bca7c558e8a8ca7389b462caee99b6/useckit-0.3.3.tar.gz
+[2023-07-12 10:42:22] INFO root fetch - processPackages [pelican-sitemap]: Downloading https://files.pythonhosted.org/packages/b6/5c/8639dd10e4a691511e2564ca8e466ff8f5c55b1b7e0bdb600c0f61329048/pelican-sitemap-1.0.2.tar.gz
+[2023-07-12 10:42:22] INFO root fetch - processPackages [invenio-webhooks]: Remove: archive file [/home/abi/fetcher/tmp/invenio-webhooks-1.0.0a4.tar.gz]
+[2023-07-12 10:42:22] INFO root fetch - processPackages [invenio-webhooks]: Remove: archive file [/home/abi/fetcher/tmp/invenio-webhooks-1.0.1.tar.gz]
+[2023-07-12 10:42:22] INFO root fetch - main [MainThread]: End processing [invenio-webhooks]: success
+[2023-07-12 10:42:22] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/5b/ac/dbb9a890e8b9345c6dba5fcc4c58ea3d95396761eda95ccb5c57f46eb7cd/tff_nightly-0.0.1.dev20230711-py2.py3-none-any.whl
+[2023-07-12 10:42:22] INFO root fetch - processPackages [pelican-sitemap]: Downloading https://files.pythonhosted.org/packages/51/16/c35c694d2844b1575b64dd502650e1bfdb83a6e1855a7e09f07fc145e953/pelican_sitemap-1.0.3.tar.gz
+[2023-07-12 10:42:22] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-12 10:42:22] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230710-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230711-py2.py3-none-any.whl.zip --markdown 20230712/t/tff-nightly/0.0.1.dev20230710-0.0.1.dev20230711/diff.md --exclude *.pyd
+[2023-07-12 10:42:22] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.8.tar.gz]
+[2023-07-12 10:42:22] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.9.tar.gz]
+[2023-07-12 10:42:22] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-07-12 10:42:22] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-12 10:42:22] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-12 10:42:22] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-12 10:42:22] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-12 10:42:22] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-12 10:42:22] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-12 10:42:22] INFO root fetch - processPackages [useckit]: Downloading https://files.pythonhosted.org/packages/20/9d/ba11f92bc77723ceca7fb9427d5be9e6e9d4da5642780e58186e6f1660be/useckit-0.4.0.tar.gz
+[2023-07-12 10:42:22] INFO root fetch - processPackages [pelican-sitemap]: executing diffoscope
+[2023-07-12 10:42:22] INFO root fetch - processPackages [pelican-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican-sitemap-1.0.2.tar.gz tmp/pelican_sitemap-1.0.3.tar.gz --markdown 20230712/p/pelican-sitemap/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-12 10:42:22] INFO root fetch - processPackages [useckit]: executing diffoscope
+[2023-07-12 10:42:22] INFO root fetch - processPackages [useckit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useckit-0.3.3.tar.gz tmp/useckit-0.4.0.tar.gz --markdown 20230712/u/useckit/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-12 10:42:22] INFO root fetch - processPackages [tqsdk]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk-3.4.3.tar.gz]
+[2023-07-12 10:42:22] INFO root fetch - processPackages [tqsdk]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk-3.4.4.tar.gz]
+[2023-07-12 10:42:22] INFO root fetch - main [MainThread]: End processing [tqsdk]: success
+[2023-07-12 10:42:23] INFO root fetch - processPackages [pelican-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/pelican-sitemap-1.0.2.tar.gz]
+[2023-07-12 10:42:23] INFO root fetch - processPackages [pelican-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/pelican_sitemap-1.0.3.tar.gz]
+[2023-07-12 10:42:23] INFO root fetch - main [MainThread]: End processing [pelican-sitemap]: success
+[2023-07-12 10:42:23] INFO root fetch - processPackages [useckit]: Remove: archive file [/home/abi/fetcher/tmp/useckit-0.3.3.tar.gz]
+[2023-07-12 10:42:23] INFO root fetch - processPackages [useckit]: Remove: archive file [/home/abi/fetcher/tmp/useckit-0.4.0.tar.gz]
+[2023-07-12 10:42:23] INFO root fetch - main [MainThread]: End processing [useckit]: success
+[2023-07-12 10:42:24] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230710-py2.py3-none-any.whl.zip]
+[2023-07-12 10:42:24] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230711-py2.py3-none-any.whl.zip]
+[2023-07-12 10:42:24] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-12 10:42:25] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230711135103.tar.gz]
+[2023-07-12 10:42:25] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230712083713.tar.gz]
+[2023-07-12 10:42:25] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-12 10:42:25] INFO root fetch - main [MainThread]: Store serial: [18857622]
