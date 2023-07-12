@@ -13760,3 +13760,123 @@
 [2023-07-12 08:57:31] ERROR root fetch - processPackages [sphinx-social-cards]: Timeout during execution of pkgdiff
 [2023-07-12 08:57:31] INFO root fetch - main [MainThread]: End processing [sphinx-social-cards] error
 [2023-07-12 08:57:31] INFO root fetch - main [MainThread]: Store serial: [18856632]
+[2023-07-12 09:02:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856632]
+[2023-07-12 09:02:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-12 09:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: janis-pipelines.bioinformatics
+[2023-07-12 09:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylittle
+[2023-07-12 09:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evosegment
+[2023-07-12 09:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythogen
+[2023-07-12 09:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-plugin-common-play
+[2023-07-12 09:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: areixio
+[2023-07-12 09:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-announcement
+[2023-07-12 09:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smart-vector
+[2023-07-12 09:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: btclib-libsecp256k1
+[2023-07-12 09:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nwebclient
+[2023-07-12 09:02:41] INFO root fetch - processPackages [btclib-libsecp256k1]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-12 09:02:41] INFO root fetch - processPackages [pylittle]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-12 09:02:41] INFO root fetch - processPackages [odoo-addon-announcement]: New version: [15.0.1.2.0] Old Version: [15.0.1.1.0.3]
+[2023-07-12 09:02:41] INFO root fetch - processPackages [janis-pipelines.bioinformatics]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-12 09:02:41] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 09:02:41] INFO root fetch - processPackages [evosegment]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-12 09:02:41] INFO root fetch - processPackages [pythogen]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-12 09:02:41] INFO root fetch - processPackages [smart-vector]: New version: [0.1.dev736] Old Version: [0.1.dev735]
+[2023-07-12 09:02:41] INFO root fetch - processPackages [ovos-plugin-common-play]: New version: [0.0.6a3] Old Version: [0.0.6a2]
+[2023-07-12 09:02:41] INFO root fetch - processPackages [areixio]: New version: [0.2.93] Old Version: [0.2.92]
+[2023-07-12 09:02:41] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 09:02:41] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/d6/02/b0c1520fd99ae778f4ad7924ddb40022c6756c2e68686063e5dd27140fd8/pythogen-0.2.2.tar.gz
+[2023-07-12 09:02:41] INFO root fetch - processPackages [btclib-libsecp256k1]: Downloading https://files.pythonhosted.org/packages/dd/e7/19b90385d5afacb9e2dcaf35c0a276a087a21b2cab159fae2a39a739d83c/btclib_libsecp256k1-0.2.1.tar.gz
+[2023-07-12 09:02:41] INFO root fetch - processPackages [janis-pipelines.bioinformatics]: Downloading https://files.pythonhosted.org/packages/ae/4c/ea4fd2667c4a4dfe7c99d17a93870dc6c1e5ae4c6a9e415cf37253e8c67e/janis-pipelines.bioinformatics-0.9.8.tar.gz
+[2023-07-12 09:02:41] INFO root fetch - processPackages [pylittle]: Downloading https://files.pythonhosted.org/packages/51/56/99bebaefc35cc76ed978f81ff9f0b256b22b7f6ae2d66d3312c9ee8e6c1d/pylittle-0.0.1.tar.gz
+[2023-07-12 09:02:41] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/e0/81/81adac7d41439ee16bb54437eb84b094e6f4fe2ae6472c3ac0641e9e2275/odoo_addon_announcement-15.0.1.1.0.3-py3-none-any.whl
+[2023-07-12 09:02:41] INFO root fetch - processPackages [smart-vector]: Downloading https://files.pythonhosted.org/packages/80/6d/198dd4cd98a181a5a69e6f42616a92401791baf9e148a4a2e44a512a06f9/smart_vector-0.1.dev735.tar.gz
+[2023-07-12 09:02:41] INFO root fetch - processPackages [ovos-plugin-common-play]: Downloading https://files.pythonhosted.org/packages/01/67/ddf86bb5badef0a7b3d4541c1d55007465f864cb5efacb1d67d41792a30f/ovos_plugin_common_play-0.0.6a2.tar.gz
+[2023-07-12 09:02:41] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/31/57/23e802f0d9e354ba3b3cab1ea9621054599a63af3d4f2d6be77d5a92ecfc/areixio-0.2.92.tar.gz
+[2023-07-12 09:02:41] INFO root fetch - processPackages [evosegment]: Downloading https://files.pythonhosted.org/packages/55/26/fb12b6041aea9c90f35edd0547e968cae306456a6d2c839096422e13749d/evosegment-0.0.5.tar.gz
+[2023-07-12 09:02:41] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 09:02:41] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 09:02:41] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 09:02:41] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/30/2f/48ac4745cbb8e228ee44e5d2a52ef5856292205f0ba7c0cad1324e85e9ee/pythogen-0.2.3.tar.gz
+[2023-07-12 09:02:41] INFO root fetch - processPackages [pylittle]: Downloading https://files.pythonhosted.org/packages/12/4e/a94e6f09a3d472b8774b8b7da07a35e202aa0535e77b09fdde6dbd6d8417/pylittle-0.0.2.tar.gz
+[2023-07-12 09:02:41] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/d5/f4/044e3fae225c8ef46f74f8f3cad97246bbb6dcece1b7e705b2c4a606e1b0/odoo_addon_announcement-15.0.1.2.0-py3-none-any.whl
+[2023-07-12 09:02:41] INFO root fetch - processPackages [smart-vector]: Downloading https://files.pythonhosted.org/packages/6e/03/063c8ffd2fa4dc8380445f05e38d77eac908801b98722b49bb83b15fceb4/smart_vector-0.1.dev736.tar.gz
+[2023-07-12 09:02:42] INFO root fetch - processPackages [pythogen]: executing diffoscope
+[2023-07-12 09:02:42] INFO root fetch - processPackages [pythogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythogen-0.2.2.tar.gz tmp/pythogen-0.2.3.tar.gz --markdown 20230712/p/pythogen/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-12 09:02:42] INFO root fetch - processPackages [ovos-plugin-common-play]: Downloading https://files.pythonhosted.org/packages/ee/a4/35f786930581a1fb0f6ae77c2e0bbc5e03e787b350952c818a5c3c856e3d/ovos_plugin_common_play-0.0.6a3.tar.gz
+[2023-07-12 09:02:42] INFO root fetch - processPackages [pylittle]: executing diffoscope
+[2023-07-12 09:02:42] INFO root fetch - processPackages [pylittle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylittle-0.0.1.tar.gz tmp/pylittle-0.0.2.tar.gz --markdown 20230712/p/pylittle/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-12 09:02:42] INFO root fetch - processPackages [odoo-addon-announcement]: executing diffoscope
+[2023-07-12 09:02:42] INFO root fetch - processPackages [odoo-addon-announcement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_announcement-15.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_announcement-15.0.1.2.0-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-announcement/15.0.1.1.0.3-15.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-12 09:02:42] INFO root fetch - processPackages [janis-pipelines.bioinformatics]: Downloading https://files.pythonhosted.org/packages/8c/81/8d0eed124fd5f399f2670384e5f6d3c784cf6a360b3c1af86d7f6682e1dc/janis-pipelines.bioinformatics-0.9.9.tar.gz
+[2023-07-12 09:02:42] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/9d/a9/2aa5a744b2c1434da0b9f1a5a863874daa922a7d654eda37b0285694adc8/areixio-0.2.93.tar.gz
+[2023-07-12 09:02:42] INFO root fetch - processPackages [smart-vector]: executing diffoscope
+[2023-07-12 09:02:42] INFO root fetch - processPackages [smart-vector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_vector-0.1.dev735.tar.gz tmp/smart_vector-0.1.dev736.tar.gz --markdown 20230712/s/smart-vector/0.1.dev735-0.1.dev736/diff.md --exclude *.pyd
+[2023-07-12 09:02:42] INFO root fetch - processPackages [janis-pipelines.bioinformatics]: executing diffoscope
+[2023-07-12 09:02:42] INFO root fetch - processPackages [janis-pipelines.bioinformatics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janis-pipelines.bioinformatics-0.9.8.tar.gz tmp/janis-pipelines.bioinformatics-0.9.9.tar.gz --markdown 20230712/j/janis-pipelines.bioinformatics/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-12 09:02:42] INFO root fetch - processPackages [evosegment]: Downloading https://files.pythonhosted.org/packages/71/e3/48722da56d002c9ab309f8943ae8085c9682894e04142c0f551ec93d902b/evosegment-0.0.6.tar.gz
+[2023-07-12 09:02:42] INFO root fetch - processPackages [btclib-libsecp256k1]: Downloading https://files.pythonhosted.org/packages/9c/a1/8da8fa156ae054df9e22e7f9571360f151cd0f93ba2a1fc4a38dbadaf8af/btclib_libsecp256k1-0.3.0-py3-none-macosx_10_16_x86_64.whl
+[2023-07-12 09:02:42] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-07-12 09:02:42] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.92.tar.gz tmp/areixio-0.2.93.tar.gz --markdown 20230712/a/areixio/0.2.92-0.2.93/diff.md --exclude *.pyd
+[2023-07-12 09:02:42] INFO root fetch - processPackages [evosegment]: executing diffoscope
+[2023-07-12 09:02:42] INFO root fetch - processPackages [evosegment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evosegment-0.0.5.tar.gz tmp/evosegment-0.0.6.tar.gz --markdown 20230712/e/evosegment/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-12 09:02:42] INFO root fetch - processPackages [ovos-plugin-common-play]: executing diffoscope
+[2023-07-12 09:02:42] INFO root fetch - processPackages [ovos-plugin-common-play]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_common_play-0.0.6a2.tar.gz tmp/ovos_plugin_common_play-0.0.6a3.tar.gz --markdown 20230712/o/ovos-plugin-common-play/0.0.6a2-0.0.6a3/diff.md --exclude *.pyd
+[2023-07-12 09:02:43] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 09:02:43] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 09:02:43] INFO root fetch - processPackages [nwebclient]: Start processing: dockerlab
+[2023-07-12 09:02:43] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 09:02:43] INFO root fetch - processPackages [dockerlab]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-07-12 09:02:43] INFO root fetch - processPackages [dockerlab]: Downloading https://files.pythonhosted.org/packages/95/f6/60e5b43320dbd6aae1a8b7212b239c8d83cc003b63976d8b59523fe16c8f/dockerlab-0.3.7.tar.gz
+[2023-07-12 09:02:43] INFO root fetch - processPackages [btclib-libsecp256k1]: executing diffoscope
+[2023-07-12 09:02:43] INFO root fetch - processPackages [btclib-libsecp256k1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btclib_libsecp256k1-0.2.1.tar.gz tmp/btclib_libsecp256k1-0.3.0-py3-none-macosx_10_16_x86_64.whl.zip --markdown 20230712/b/btclib-libsecp256k1/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-12 09:02:43] INFO root fetch - processPackages [pylittle]: Remove: archive file [/home/abi/fetcher/tmp/pylittle-0.0.1.tar.gz]
+[2023-07-12 09:02:43] INFO root fetch - processPackages [pylittle]: Remove: archive file [/home/abi/fetcher/tmp/pylittle-0.0.2.tar.gz]
+[2023-07-12 09:02:43] INFO root fetch - processPackages [pylittle]: Start processing: seqio-nightly
+[2023-07-12 09:02:43] INFO root fetch - main [MainThread]: End processing [pylittle]: success
+[2023-07-12 09:02:43] INFO root fetch - processPackages [dockerlab]: Downloading https://files.pythonhosted.org/packages/cb/9a/d8ad33f9aa0cba3ed03d87a950634ac9a0e96666ec7a0cd34c98ce99b597/dockerlab-0.3.9.tar.gz
+[2023-07-12 09:02:43] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-12 09:02:43] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-15.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-07-12 09:02:43] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.2.2.tar.gz]
+[2023-07-12 09:02:43] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-15.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-12 09:02:43] INFO root fetch - processPackages [pythogen]: Remove: archive file [/home/abi/fetcher/tmp/pythogen-0.2.3.tar.gz]
+[2023-07-12 09:02:43] INFO root fetch - processPackages [odoo-addon-announcement]: Start processing: scoamp
+[2023-07-12 09:02:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-announcement]: success
+[2023-07-12 09:02:43] INFO root fetch - main [MainThread]: End processing [pythogen]: success
+[2023-07-12 09:02:43] INFO root fetch - processPackages [dockerlab]: executing diffoscope
+[2023-07-12 09:02:43] INFO root fetch - processPackages [dockerlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockerlab-0.3.7.tar.gz tmp/dockerlab-0.3.9.tar.gz --markdown 20230712/d/dockerlab/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-07-12 09:02:43] INFO root fetch - processPackages [scoamp]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-12 09:02:43] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-12 09:02:44] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/91/1a/bf84e70559af330eaeea98202bc055809289674859478dcfd3fbf7c1fcd3/scoamp-0.3.3-py3-none-any.whl
+[2023-07-12 09:02:44] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-12 09:02:44] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-12 09:02:44] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230712/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-12 09:02:44] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/35/62/e6bf07f3e4e11b92495c611f1c5d1cc34b5f6ec8e5073b70506a29a64694/scoamp-0.3.4-py3-none-any.whl
+[2023-07-12 09:02:44] INFO root fetch - processPackages [scoamp]: executing diffoscope
+[2023-07-12 09:02:44] INFO root fetch - processPackages [scoamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamp-0.3.3-py3-none-any.whl.zip tmp/scoamp-0.3.4-py3-none-any.whl.zip --markdown 20230712/s/scoamp/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-12 09:02:44] INFO root fetch - processPackages [smart-vector]: Remove: archive file [/home/abi/fetcher/tmp/smart_vector-0.1.dev735.tar.gz]
+[2023-07-12 09:02:44] INFO root fetch - processPackages [smart-vector]: Remove: archive file [/home/abi/fetcher/tmp/smart_vector-0.1.dev736.tar.gz]
+[2023-07-12 09:02:45] INFO root fetch - main [MainThread]: End processing [smart-vector]: success
+[2023-07-12 09:02:45] INFO root fetch - processPackages [dockerlab]: Remove: archive file [/home/abi/fetcher/tmp/dockerlab-0.3.7.tar.gz]
+[2023-07-12 09:02:45] INFO root fetch - processPackages [dockerlab]: Remove: archive file [/home/abi/fetcher/tmp/dockerlab-0.3.9.tar.gz]
+[2023-07-12 09:02:45] INFO root fetch - main [MainThread]: End processing [dockerlab]: success
+[2023-07-12 09:02:45] INFO root fetch - processPackages [janis-pipelines.bioinformatics]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.bioinformatics-0.9.8.tar.gz]
+[2023-07-12 09:02:45] INFO root fetch - processPackages [janis-pipelines.bioinformatics]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.bioinformatics-0.9.9.tar.gz]
+[2023-07-12 09:02:45] INFO root fetch - main [MainThread]: End processing [janis-pipelines.bioinformatics]: success
+[2023-07-12 09:02:45] INFO root fetch - processPackages [btclib-libsecp256k1]: Remove: archive file [/home/abi/fetcher/tmp/btclib_libsecp256k1-0.2.1.tar.gz]
+[2023-07-12 09:02:45] INFO root fetch - processPackages [btclib-libsecp256k1]: Remove: archive file [/home/abi/fetcher/tmp/btclib_libsecp256k1-0.3.0-py3-none-macosx_10_16_x86_64.whl.zip]
+[2023-07-12 09:02:45] INFO root fetch - main [MainThread]: End processing [btclib-libsecp256k1]: success
+[2023-07-12 09:02:45] INFO root fetch - processPackages [evosegment]: Remove: archive file [/home/abi/fetcher/tmp/evosegment-0.0.5.tar.gz]
+[2023-07-12 09:02:45] INFO root fetch - processPackages [evosegment]: Remove: archive file [/home/abi/fetcher/tmp/evosegment-0.0.6.tar.gz]
+[2023-07-12 09:02:45] INFO root fetch - main [MainThread]: End processing [evosegment]: success
+[2023-07-12 09:02:45] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.3-py3-none-any.whl.zip]
+[2023-07-12 09:02:45] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.4-py3-none-any.whl.zip]
+[2023-07-12 09:02:45] INFO root fetch - main [MainThread]: End processing [scoamp]: success
+[2023-07-12 09:02:45] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-12 09:02:45] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-12 09:02:45] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-12 09:02:47] INFO root fetch - processPackages [ovos-plugin-common-play]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_common_play-0.0.6a2.tar.gz]
+[2023-07-12 09:02:47] INFO root fetch - processPackages [ovos-plugin-common-play]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_common_play-0.0.6a3.tar.gz]
+[2023-07-12 09:02:47] INFO root fetch - main [MainThread]: End processing [ovos-plugin-common-play]: success
+[2023-07-12 09:02:56] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.92.tar.gz]
+[2023-07-12 09:02:56] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.93.tar.gz]
+[2023-07-12 09:02:56] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-07-12 09:02:56] INFO root fetch - main [MainThread]: Store serial: [18856687]
