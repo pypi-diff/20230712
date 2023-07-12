@@ -20773,3 +20773,135 @@ AssertionError: tmp/flask_validators-0.5.tar.gz does not exist
 [2023-07-12 13:33:50] INFO root fetch - processPackages [dmlab2d]: Remove: archive file [/home/abi/fetcher/tmp/dmlab2d-1.0.0_dev.9-cp39-cp39-manylinux_2_35_x86_64.whl.zip]
 [2023-07-12 13:33:50] INFO root fetch - main [MainThread]: End processing [dmlab2d]: success
 [2023-07-12 13:33:50] INFO root fetch - main [MainThread]: Store serial: [18859578]
+[2023-07-12 13:38:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18859578]
+[2023-07-12 13:39:03] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-12 13:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-serving
+[2023-07-12 13:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: route-visualization
+[2023-07-12 13:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moftransformer
+[2023-07-12 13:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymc-bart
+[2023-07-12 13:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logPPP
+[2023-07-12 13:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multiremote-fm
+[2023-07-12 13:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mchplnet
+[2023-07-12 13:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: QuNet
+[2023-07-12 13:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dlcore
+[2023-07-12 13:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anarchy-bot
+[2023-07-12 13:39:03] INFO root fetch - processPackages [route-visualization]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-12 13:39:03] WARNING root fetch - processPackages [anarchy-bot]: Skipping, unable to determine old version
+[2023-07-12 13:39:03] INFO root fetch - processPackages [anarchy-bot]: Start processing: pyMOTO
+[2023-07-12 13:39:03] INFO root fetch - main [MainThread]: End processing [anarchy-bot] error
+[2023-07-12 13:39:03] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 13:39:03] INFO root fetch - processPackages [logPPP]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-12 13:39:03] WARNING root fetch - processPackages [multiremote-fm]: Skipping, unable to determine old version
+[2023-07-12 13:39:03] INFO root fetch - processPackages [multiremote-fm]: Start processing: croydon
+[2023-07-12 13:39:03] INFO root fetch - main [MainThread]: End processing [multiremote-fm] error
+[2023-07-12 13:39:03] INFO root fetch - processPackages [dlcore]: New version: [0.1.0] Old Version: [0.0.15]
+[2023-07-12 13:39:03] INFO root fetch - processPackages [pymc-bart]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-12 13:39:03] WARNING root fetch - processPackages [mchplnet]: Skipping, unable to determine old version
+[2023-07-12 13:39:03] INFO root fetch - processPackages [mchplnet]: Start processing: MicrosoftEasterEggs
+[2023-07-12 13:39:03] INFO root fetch - main [MainThread]: End processing [mchplnet] error
+[2023-07-12 13:39:03] INFO root fetch - processPackages [moftransformer]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-12 13:39:03] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230712] Old Version: [2.4.0b20230711]
+[2023-07-12 13:39:03] INFO root fetch - processPackages [pyMOTO]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-12 13:39:03] INFO root fetch - processPackages [croydon]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-12 13:39:03] WARNING root fetch - processPackages [MicrosoftEasterEggs]: Skipping, unable to determine old version
+[2023-07-12 13:39:03] INFO root fetch - processPackages [MicrosoftEasterEggs]: Start processing: json-any
+[2023-07-12 13:39:03] INFO root fetch - main [MainThread]: End processing [MicrosoftEasterEggs] error
+[2023-07-12 13:39:03] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-12 13:39:03] INFO root fetch - processPackages [logPPP]: Downloading https://files.pythonhosted.org/packages/be/35/b1e99042d0f3a7bca0e5f08bec47a3595b924eaae057e6b9b7a8231f85c4/logPPP-1.0.2.tar.gz
+[2023-07-12 13:39:03] INFO root fetch - processPackages [json-any]: New version: [2023.2] Old Version: [2023.1]
+[2023-07-12 13:39:03] INFO root fetch - processPackages [route-visualization]: Downloading https://files.pythonhosted.org/packages/38/e4/fd547f0c31c891fd724103e202d27a9c48cb313f87e5ad9c3cd2f3abc151/route_visualization-0.0.3-py3-none-any.whl
+[2023-07-12 13:39:03] INFO root fetch - processPackages [dlcore]: Downloading https://files.pythonhosted.org/packages/0a/a4/cff0f1b1811d0f70b26ace409502acb154143accd7cf89579f2ff30b12bc/dlcore-0.0.15.tar.gz
+[2023-07-12 13:39:04] INFO root fetch - processPackages [pymc-bart]: Downloading https://files.pythonhosted.org/packages/7e/bc/f68af483fb7997c4d99ac7c7c14873de89447a4bf71edaf23a8ec2298b95/pymc_bart-0.5.0.tar.gz
+[2023-07-12 13:39:04] INFO root fetch - processPackages [json-any]: Downloading https://files.pythonhosted.org/packages/e5/59/429b20a9b1d13c08c2e6e18336347a2c7d3052e00a6122f77c3a3e5e2be7/json-any-2023.1.tar.gz
+[2023-07-12 13:39:04] INFO root fetch - processPackages [moftransformer]: Downloading https://files.pythonhosted.org/packages/7b/3f/31dec70c96cab3123f36761630625b1426d1cd9001a30a57e30bacce252f/moftransformer-2.1.1.tar.gz
+[2023-07-12 13:39:04] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/75/0a/0951608022d268db59a3bff538e9ff113e3dbea22fc2c252bf90e3d0d9fe/bigdl_serving-2.4.0b20230711-py2.py3-none-any.whl
+[2023-07-12 13:39:04] INFO root fetch - processPackages [pyMOTO]: Downloading https://files.pythonhosted.org/packages/e7/c6/01f602f67f95254e69b73322c3760934a0e8b46ead082e1cbb5c9a0756cb/pyMOTO-1.0.1.tar.gz
+[2023-07-12 13:39:04] INFO root fetch - processPackages [croydon]: Downloading https://files.pythonhosted.org/packages/8f/23/59276ea8901c9d7e6d675111626865c10bbda893cddb6cf2144637c0d607/croydon-0.9.0.tar.gz
+[2023-07-12 13:39:04] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-12 13:39:04] INFO root fetch - processPackages [route-visualization]: Downloading https://files.pythonhosted.org/packages/52/b5/44744fa1f44755f1a3bb2e2081fc15604f13bf6fb6fd27102e47823f9ee2/route_visualization-0.0.4-py3-none-any.whl
+[2023-07-12 13:39:04] INFO root fetch - processPackages [logPPP]: Downloading https://files.pythonhosted.org/packages/ba/ba/92d51efdd5a51f22d252405dc765ea8c8412638b8ba852389043f60e69ea/logPPP-1.0.3.tar.gz
+[2023-07-12 13:39:04] INFO root fetch - processPackages [json-any]: Downloading https://files.pythonhosted.org/packages/9e/d5/0bc63f9bc5f8d9cc3c014c2fd220ae78282f6cf9d56bd57b8a7ee7874a66/json-any-2023.2.tar.gz
+[2023-07-12 13:39:04] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-12 13:39:04] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230712/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 13:39:04] INFO root fetch - processPackages [dlcore]: Downloading https://files.pythonhosted.org/packages/dd/5b/2155a58150f4dfa2ebd8841e1b197f1a450c11e466cd1a904fba0e203e30/dlcore-0.1.0.tar.gz
+[2023-07-12 13:39:04] INFO root fetch - processPackages [pyMOTO]: Downloading https://files.pythonhosted.org/packages/a6/38/4da4e4a9a6ce39530379c17c07abeb5636f23f20a0d928e7aebc6932b56b/pyMOTO-1.0.2.tar.gz
+[2023-07-12 13:39:04] INFO root fetch - processPackages [route-visualization]: executing diffoscope
+[2023-07-12 13:39:04] INFO root fetch - processPackages [route-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/route_visualization-0.0.3-py3-none-any.whl.zip tmp/route_visualization-0.0.4-py3-none-any.whl.zip --markdown 20230712/r/route-visualization/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-12 13:39:04] INFO root fetch - processPackages [logPPP]: executing diffoscope
+[2023-07-12 13:39:04] INFO root fetch - processPackages [logPPP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logPPP-1.0.2.tar.gz tmp/logPPP-1.0.3.tar.gz --markdown 20230712/l/logPPP/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-12 13:39:04] INFO root fetch - processPackages [json-any]: executing diffoscope
+[2023-07-12 13:39:04] INFO root fetch - processPackages [json-any]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-any-2023.1.tar.gz tmp/json-any-2023.2.tar.gz --markdown 20230712/j/json-any/2023.1-2023.2/diff.md --exclude *.pyd
+[2023-07-12 13:39:04] INFO root fetch - processPackages [dlcore]: executing diffoscope
+[2023-07-12 13:39:04] INFO root fetch - processPackages [dlcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlcore-0.0.15.tar.gz tmp/dlcore-0.1.0.tar.gz --markdown 20230712/d/dlcore/0.0.15-0.1.0/diff.md --exclude *.pyd
+[2023-07-12 13:39:04] INFO root fetch - processPackages [croydon]: Downloading https://files.pythonhosted.org/packages/0f/a7/2941c78a03d5afe7b6cd8bb571d61a9caa4a3c07479b0bd17ea6c4f2aba6/croydon-0.9.1.tar.gz
+[2023-07-12 13:39:04] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/9e/0d/51c3ad1c5d73b41f9ef7f2bc08d2beee59e8194d0bb8221e3a1126ff6e30/bigdl_serving-2.4.0b20230712-py2.py3-none-any.whl
+[2023-07-12 13:39:04] INFO root fetch - processPackages [pymc-bart]: Downloading https://files.pythonhosted.org/packages/cc/55/8ce1b2b4e1169eafa4519403bb235234356f08c18b6c839432b7c3358f98/pymc_bart-0.5.1.tar.gz
+[2023-07-12 13:39:04] INFO root fetch - processPackages [pyMOTO]: executing diffoscope
+[2023-07-12 13:39:04] INFO root fetch - processPackages [pyMOTO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyMOTO-1.0.1.tar.gz tmp/pyMOTO-1.0.2.tar.gz --markdown 20230712/p/pyMOTO/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-12 13:39:04] INFO root fetch - processPackages [pymc-bart]: executing diffoscope
+[2023-07-12 13:39:04] INFO root fetch - processPackages [pymc-bart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc_bart-0.5.0.tar.gz tmp/pymc_bart-0.5.1.tar.gz --markdown 20230712/p/pymc-bart/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-12 13:39:04] INFO root fetch - processPackages [croydon]: executing diffoscope
+[2023-07-12 13:39:04] INFO root fetch - processPackages [croydon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croydon-0.9.0.tar.gz tmp/croydon-0.9.1.tar.gz --markdown 20230712/c/croydon/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-12 13:39:04] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-12 13:39:04] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230711-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230712-py2.py3-none-any.whl.zip --markdown 20230712/b/bigdl-serving/2.4.0b20230711-2.4.0b20230712/diff.md --exclude *.pyd
+[2023-07-12 13:39:04] INFO root fetch - processPackages [moftransformer]: Downloading https://files.pythonhosted.org/packages/c0/97/9134494ec54a15d36e59a9a14ed088c32200bf450c2bf9dc7e08d84ef8f9/moftransformer-2.1.2.tar.gz
+[2023-07-12 13:39:05] INFO root fetch - processPackages [moftransformer]: executing diffoscope
+[2023-07-12 13:39:05] INFO root fetch - processPackages [moftransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moftransformer-2.1.1.tar.gz tmp/moftransformer-2.1.2.tar.gz --markdown 20230712/m/moftransformer/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-12 13:39:05] INFO root fetch - processPackages [logPPP]: Remove: archive file [/home/abi/fetcher/tmp/logPPP-1.0.2.tar.gz]
+[2023-07-12 13:39:05] INFO root fetch - processPackages [logPPP]: Remove: archive file [/home/abi/fetcher/tmp/logPPP-1.0.3.tar.gz]
+[2023-07-12 13:39:05] INFO root fetch - processPackages [logPPP]: Start processing: amlopsvueelements
+[2023-07-12 13:39:06] INFO root fetch - main [MainThread]: End processing [logPPP]: success
+[2023-07-12 13:39:06] INFO root fetch - processPackages [amlopsvueelements]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [route-visualization]: Remove: archive file [/home/abi/fetcher/tmp/route_visualization-0.0.3-py3-none-any.whl.zip]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [route-visualization]: Remove: archive file [/home/abi/fetcher/tmp/route_visualization-0.0.4-py3-none-any.whl.zip]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [route-visualization]: Start processing: mlbi-at-dku-lib
+[2023-07-12 13:39:06] INFO root fetch - main [MainThread]: End processing [route-visualization]: success
+[2023-07-12 13:39:06] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/bb/43/66954f46c4858595a8d73bec03cd793746dc60a12384ca77908e0c3cc2c0/mlbi_at_dku_lib-0.2.6.tar.gz
+[2023-07-12 13:39:06] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [QuNet]: Start processing: woebin-python
+[2023-07-12 13:39:06] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-12 13:39:06] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/66/c5/7cc4562a9948fa70330c8597948fda7c968a965313e177f21cd9f6e69c15/amlopsvueelements-1.2.8.tar.gz
+[2023-07-12 13:39:06] INFO root fetch - processPackages [dlcore]: Remove: archive file [/home/abi/fetcher/tmp/dlcore-0.0.15.tar.gz]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [dlcore]: Remove: archive file [/home/abi/fetcher/tmp/dlcore-0.1.0.tar.gz]
+[2023-07-12 13:39:06] INFO root fetch - main [MainThread]: End processing [dlcore]: success
+[2023-07-12 13:39:06] INFO root fetch - processPackages [json-any]: Remove: archive file [/home/abi/fetcher/tmp/json-any-2023.1.tar.gz]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230711-py2.py3-none-any.whl.zip]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [json-any]: Remove: archive file [/home/abi/fetcher/tmp/json-any-2023.2.tar.gz]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230712-py2.py3-none-any.whl.zip]
+[2023-07-12 13:39:06] INFO root fetch - main [MainThread]: End processing [json-any]: success
+[2023-07-12 13:39:06] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-12 13:39:06] INFO root fetch - processPackages [woebin-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [pyMOTO]: Remove: archive file [/home/abi/fetcher/tmp/pyMOTO-1.0.1.tar.gz]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [pyMOTO]: Remove: archive file [/home/abi/fetcher/tmp/pyMOTO-1.0.2.tar.gz]
+[2023-07-12 13:39:06] INFO root fetch - main [MainThread]: End processing [pyMOTO]: success
+[2023-07-12 13:39:06] INFO root fetch - processPackages [pymc-bart]: Remove: archive file [/home/abi/fetcher/tmp/pymc_bart-0.5.0.tar.gz]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [pymc-bart]: Remove: archive file [/home/abi/fetcher/tmp/pymc_bart-0.5.1.tar.gz]
+[2023-07-12 13:39:06] INFO root fetch - main [MainThread]: End processing [pymc-bart]: success
+[2023-07-12 13:39:06] INFO root fetch - processPackages [croydon]: Remove: archive file [/home/abi/fetcher/tmp/croydon-0.9.0.tar.gz]
+[2023-07-12 13:39:06] INFO root fetch - processPackages [croydon]: Remove: archive file [/home/abi/fetcher/tmp/croydon-0.9.1.tar.gz]
+[2023-07-12 13:39:06] INFO root fetch - main [MainThread]: End processing [croydon]: success
+[2023-07-12 13:39:06] INFO root fetch - processPackages [woebin-python]: Downloading https://files.pythonhosted.org/packages/9c/c7/6ad5338976b442d2ac6e6cb4c5e3887aedcfa9f5902e8809a1d56692d45e/woebin-python-0.1.2.tar.gz
+[2023-07-12 13:39:06] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/81/58/db4b4069bb422745938f59d2f4d057c0e0e34fd503d3d2d12ca14df2ab37/mlbi_at_dku_lib-0.2.7.tar.gz
+[2023-07-12 13:39:07] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/66/13/78a0a71cbe22ea1ba27617b67cbd09d3dd5db33dcfc03407cadf975cb283/amlopsvueelements-1.2.9.tar.gz
+[2023-07-12 13:39:07] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-07-12 13:39:07] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.2.6.tar.gz tmp/mlbi_at_dku_lib-0.2.7.tar.gz --markdown 20230712/m/mlbi-at-dku-lib/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-12 13:39:07] INFO root fetch - processPackages [amlopsvueelements]: executing diffoscope
+[2023-07-12 13:39:07] INFO root fetch - processPackages [amlopsvueelements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopsvueelements-1.2.8.tar.gz tmp/amlopsvueelements-1.2.9.tar.gz --markdown 20230712/a/amlopsvueelements/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-12 13:39:07] INFO root fetch - processPackages [woebin-python]: Downloading https://files.pythonhosted.org/packages/6c/5c/a4b58ea9deb23172d0a6628d794d57edc18f1a5d2abf26cc96d8207a3d66/woebin-python-0.1.3.tar.gz
+[2023-07-12 13:39:07] INFO root fetch - processPackages [woebin-python]: executing diffoscope
+[2023-07-12 13:39:07] INFO root fetch - processPackages [woebin-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woebin-python-0.1.2.tar.gz tmp/woebin-python-0.1.3.tar.gz --markdown 20230712/w/woebin-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-12 13:39:08] INFO root fetch - processPackages [moftransformer]: Remove: archive file [/home/abi/fetcher/tmp/moftransformer-2.1.1.tar.gz]
+[2023-07-12 13:39:08] INFO root fetch - processPackages [moftransformer]: Remove: archive file [/home/abi/fetcher/tmp/moftransformer-2.1.2.tar.gz]
+[2023-07-12 13:39:08] INFO root fetch - main [MainThread]: End processing [moftransformer]: success
+[2023-07-12 13:39:08] INFO root fetch - processPackages [woebin-python]: Remove: archive file [/home/abi/fetcher/tmp/woebin-python-0.1.2.tar.gz]
+[2023-07-12 13:39:08] INFO root fetch - processPackages [woebin-python]: Remove: archive file [/home/abi/fetcher/tmp/woebin-python-0.1.3.tar.gz]
+[2023-07-12 13:39:08] INFO root fetch - main [MainThread]: End processing [woebin-python]: success
+[2023-07-12 13:39:11] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.6.tar.gz]
+[2023-07-12 13:39:11] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.7.tar.gz]
+[2023-07-12 13:39:11] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-07-12 13:39:12] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.8.tar.gz]
+[2023-07-12 13:39:12] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.9.tar.gz]
+[2023-07-12 13:39:12] INFO root fetch - main [MainThread]: End processing [amlopsvueelements]: success
+[2023-07-12 13:39:12] INFO root fetch - main [MainThread]: Store serial: [18859636]
