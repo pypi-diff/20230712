@@ -15381,3 +15381,105 @@
 [2023-07-12 10:15:08] INFO root fetch - processPackages [plotly-resampler]: Remove: archive file [/home/abi/fetcher/tmp/plotly_resampler-0.9.0rc6.tar.gz]
 [2023-07-12 10:15:08] INFO root fetch - main [MainThread]: End processing [plotly-resampler]: success
 [2023-07-12 10:15:08] INFO root fetch - main [MainThread]: Store serial: [18857319]
+[2023-07-12 10:20:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857319]
+[2023-07-12 10:20:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-12 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crepe-notes
+[2023-07-12 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openlimitHW
+[2023-07-12 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-serve
+[2023-07-12 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-sdk
+[2023-07-12 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwebclient
+[2023-07-12 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata-front
+[2023-07-12 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-game-collection
+[2023-07-12 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: udata
+[2023-07-12 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openlimitHW
+[2023-07-12 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tremolo
+[2023-07-12 10:20:17] INFO root fetch - processPackages [openlimitHW]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-12 10:20:17] WARNING root fetch - processPackages [crepe-notes]: Skipping, unable to determine old version
+[2023-07-12 10:20:17] INFO root fetch - processPackages [crepe-notes]: Start processing: aliste
+[2023-07-12 10:20:17] INFO root fetch - main [MainThread]: End processing [crepe-notes] error
+[2023-07-12 10:20:17] INFO root fetch - processPackages [openlimitHW]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-12 10:20:17] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 10:20:17] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.2.dev6] Old Version: [0.0.2.dev4]
+[2023-07-12 10:20:17] INFO root fetch - processPackages [udata-front]: New version: [3.2.5.dev11615] Old Version: [3.2.5.dev11593]
+[2023-07-12 10:20:17] INFO root fetch - processPackages [cognite-sdk]: New version: [6.8.2] Old Version: [6.8.1]
+[2023-07-12 10:20:17] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-12 10:20:17] INFO root fetch - processPackages [aliste]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-12 10:20:17] INFO root fetch - processPackages [udata]: New version: [6.1.6.dev25643] Old Version: [6.1.6.dev25633]
+[2023-07-12 10:20:17] INFO root fetch - processPackages [tremolo]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 10:20:17] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/00/fa/0843ba7662aeab34d6f6c6475ac0cdc31eff66d8b412eea2accef661858b/udata_front-3.2.5.dev11593-py2.py3-none-any.whl
+[2023-07-12 10:20:17] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 10:20:17] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/c7/c7/9855d22956674e1c8ab9c94529d7b5722efc4cf81322e4a364ba1a31f091/fastapi-serve-0.0.2.dev4.tar.gz
+[2023-07-12 10:20:17] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-07-12 10:20:17] INFO root fetch - processPackages [aliste]: Downloading https://files.pythonhosted.org/packages/67/89/aaabce04c63ef2995dd7a3104a95156d079d700d8a1fa2d5a09643a56630/aliste-0.1.4.tar.gz
+[2023-07-12 10:20:17] INFO root fetch - processPackages [openlimitHW]: Downloading https://files.pythonhosted.org/packages/e4/b0/49c8c336a4ef8bbb25e84c0d19b3cbfefed7e00b6b30e352278c16fa1348/openlimitHW-0.5.0.tar.gz
+[2023-07-12 10:20:17] INFO root fetch - processPackages [openlimitHW]: Downloading https://files.pythonhosted.org/packages/e4/b0/49c8c336a4ef8bbb25e84c0d19b3cbfefed7e00b6b30e352278c16fa1348/openlimitHW-0.5.0.tar.gz
+[2023-07-12 10:20:18] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/63/23/ab55a6e138e900c24b76873941ce8bfd68b2b68e10889a0bf9912e5eb8d2/cognite_sdk-6.8.1.tar.gz
+[2023-07-12 10:20:18] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/17/91/55df15a00968bc570dc929dde0d884467bd21d9f1dc571df2cf31ad3d9c0/tremolo-0.0.98.tar.gz
+[2023-07-12 10:20:18] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/10/35/070989fa8cfb90c82bf698850f44bf10ac6ee88bd95921bf54aa1a980da5/udata-6.1.6.dev25633-py2.py3-none-any.whl
+[2023-07-12 10:20:18] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 10:20:18] INFO root fetch - processPackages [aliste]: Downloading https://files.pythonhosted.org/packages/27/af/0f8c1bbb352cda05466b38e01855e028a2ed1de9744406a4a866a58d6a63/aliste-0.1.5.tar.gz
+[2023-07-12 10:20:18] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19609168>=10485760
+[2023-07-12 10:20:18] INFO root fetch - processPackages [udata]: Start processing: keepalive-socket
+[2023-07-12 10:20:18] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-07-12 10:20:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-07-12 10:20:18] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/0c/7d/8e786cd77877ae30097c2257d9016442330e77185a04ee20262d8c992c7e/fastapi-serve-0.0.2.dev6.tar.gz
+[2023-07-12 10:20:18] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 10:20:18] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 10:20:18] WARNING root fetch - processPackages [keepalive-socket]: Skipping, unable to determine old version
+[2023-07-12 10:20:18] INFO root fetch - processPackages [keepalive-socket]: Start processing: redbrick-sdk
+[2023-07-12 10:20:18] INFO root fetch - main [MainThread]: End processing [keepalive-socket] error
+[2023-07-12 10:20:18] INFO root fetch - processPackages [openlimitHW]: Downloading https://files.pythonhosted.org/packages/66/69/b802faaf58f4df082086606d25f0de21371f13a12fbc6afe4ddb66b04e5c/openlimitHW-0.5.1.tar.gz
+[2023-07-12 10:20:18] INFO root fetch - processPackages [aliste]: executing diffoscope
+[2023-07-12 10:20:18] INFO root fetch - processPackages [aliste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliste-0.1.4.tar.gz tmp/aliste-0.1.5.tar.gz --markdown 20230712/a/aliste/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-12 10:20:18] INFO root fetch - processPackages [openlimitHW]: Downloading https://files.pythonhosted.org/packages/66/69/b802faaf58f4df082086606d25f0de21371f13a12fbc6afe4ddb66b04e5c/openlimitHW-0.5.1.tar.gz
+[2023-07-12 10:20:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-12 10:20:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230712/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-12 10:20:18] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/4c/3b/43a8e80464f66e6d3776fb46fa04475c53122de658fe3ec521522f3a0c58/udata_front-3.2.5.dev11615-py2.py3-none-any.whl
+[2023-07-12 10:20:18] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/9d/1f/2855765591f7f7e3122f1fde84cd87b5ded8131578ba6b246fe07394c77b/tremolo-0.0.99.tar.gz
+[2023-07-12 10:20:18] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-12 10:20:18] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.2.dev4.tar.gz tmp/fastapi-serve-0.0.2.dev6.tar.gz --markdown 20230712/f/fastapi-serve/0.0.2.dev4-0.0.2.dev6/diff.md --exclude *.pyd
+[2023-07-12 10:20:18] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/86/39/53f37c38065f11438b6d931f07671e476b0938ba5fdb20de2513adb3c774/cognite_sdk-6.8.2.tar.gz
+[2023-07-12 10:20:18] INFO root fetch - processPackages [openlimitHW]: executing diffoscope
+[2023-07-12 10:20:18] INFO root fetch - processPackages [openlimitHW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlimitHW-0.5.0.tar.gz tmp/openlimitHW-0.5.1.tar.gz --markdown 20230712/o/openlimitHW/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-12 10:20:18] INFO root fetch - processPackages [openlimitHW]: executing diffoscope
+[2023-07-12 10:20:18] INFO root fetch - processPackages [openlimitHW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlimitHW-0.5.0.tar.gz tmp/openlimitHW-0.5.1.tar.gz --markdown 20230712/o/openlimitHW/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-12 10:20:18] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2023-07-12 10:20:18] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.98.tar.gz tmp/tremolo-0.0.99.tar.gz --markdown 20230712/t/tremolo/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 10:20:18] INFO root fetch - processPackages [redbrick-sdk]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-12 10:20:18] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-07-12 10:20:18] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.8.1.tar.gz tmp/cognite_sdk-6.8.2.tar.gz --markdown 20230712/c/cognite-sdk/6.8.1-6.8.2/diff.md --exclude *.pyd
+[2023-07-12 10:20:18] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-07-12 10:20:18] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.5.dev11593-py2.py3-none-any.whl.zip tmp/udata_front-3.2.5.dev11615-py2.py3-none-any.whl.zip --markdown 20230712/u/udata-front/3.2.5.dev11593-3.2.5.dev11615/diff.md --exclude *.pyd
+[2023-07-12 10:20:18] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/39/80/dc7084102f17b9bfc0989d45c43808a79888bb2b1ede233fc3c06f239087/redbrick-sdk-2.9.0.tar.gz
+[2023-07-12 10:20:19] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/a7/76/019f7262b8485c21cf169b7845636395b17c40312c8ef76d03c3492c4218/redbrick-sdk-2.9.1.tar.gz
+[2023-07-12 10:20:19] INFO root fetch - processPackages [redbrick-sdk]: executing diffoscope
+[2023-07-12 10:20:19] INFO root fetch - processPackages [redbrick-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbrick-sdk-2.9.0.tar.gz tmp/redbrick-sdk-2.9.1.tar.gz --markdown 20230712/r/redbrick-sdk/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-12 10:20:20] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 10:20:20] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 10:20:20] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 10:20:20] INFO root fetch - processPackages [aliste]: Remove: archive file [/home/abi/fetcher/tmp/aliste-0.1.4.tar.gz]
+[2023-07-12 10:20:20] INFO root fetch - processPackages [aliste]: Remove: archive file [/home/abi/fetcher/tmp/aliste-0.1.5.tar.gz]
+[2023-07-12 10:20:20] INFO root fetch - main [MainThread]: End processing [aliste]: success
+[2023-07-12 10:20:20] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-07-12 10:20:20] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-07-12 10:20:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-12 10:20:20] INFO root fetch - processPackages [openlimitHW]: Remove: archive file [/home/abi/fetcher/tmp/openlimitHW-0.5.0.tar.gz]
+[2023-07-12 10:20:20] INFO root fetch - processPackages [openlimitHW]: Remove: archive file [/home/abi/fetcher/tmp/openlimitHW-0.5.1.tar.gz]
+[2023-07-12 10:20:20] INFO root fetch - main [MainThread]: End processing [openlimitHW]: success
+[2023-07-12 10:20:20] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev4.tar.gz]
+[2023-07-12 10:20:20] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.2.dev6.tar.gz]
+[2023-07-12 10:20:20] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-12 10:20:20] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.98.tar.gz]
+[2023-07-12 10:20:20] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.99.tar.gz]
+[2023-07-12 10:20:20] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2023-07-12 10:20:20] INFO root fetch - main [MainThread]: End processing [openlimitHW]: success
+[2023-07-12 10:20:21] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.1.tar.gz]
+[2023-07-12 10:20:21] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.2.tar.gz]
+[2023-07-12 10:20:21] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-07-12 10:20:21] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.0.tar.gz]
+[2023-07-12 10:20:21] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.1.tar.gz]
+[2023-07-12 10:20:21] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
+[2023-07-12 10:20:26] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11593-py2.py3-none-any.whl.zip]
+[2023-07-12 10:20:26] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11615-py2.py3-none-any.whl.zip]
+[2023-07-12 10:20:26] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-07-12 10:20:26] INFO root fetch - main [MainThread]: Store serial: [18857356]
