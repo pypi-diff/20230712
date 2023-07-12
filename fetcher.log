@@ -11547,3 +11547,30 @@
 [2023-07-12 06:06:31] INFO root fetch - processPackages [SALTISE-course-flow]: Remove: archive file [/home/abi/fetcher/tmp/SALTISE_course_flow-0.8.6.zip]
 [2023-07-12 06:06:31] INFO root fetch - main [MainThread]: End processing [SALTISE-course-flow]: success
 [2023-07-12 06:06:31] INFO root fetch - main [MainThread]: Store serial: [18855548]
+[2023-07-12 06:11:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855548]
+[2023-07-12 06:11:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-12 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pmccc
+[2023-07-12 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RuirenyunLibrary
+[2023-07-12 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capsula
+[2023-07-12 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmccc
+[2023-07-12 06:11:40] WARNING root fetch - processPackages [pmccc]: Skipping, unable to determine old version
+[2023-07-12 06:11:40] INFO root fetch - main [MainThread]: End processing [pmccc] error
+[2023-07-12 06:11:40] WARNING root fetch - processPackages [pmccc]: Skipping, unable to determine old version
+[2023-07-12 06:11:40] INFO root fetch - main [MainThread]: End processing [pmccc] error
+[2023-07-12 06:11:40] INFO root fetch - processPackages [capsula]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-12 06:11:40] INFO root fetch - processPackages [RuirenyunLibrary]: New version: [1.2] Old Version: [1.1.6]
+[2023-07-12 06:11:40] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/c0/f9/bed403d3aff35a1e6a9a8c1ab9d94b2e53054af370e15362dd7ec5d2ed12/capsula-0.0.7.tar.gz
+[2023-07-12 06:11:40] INFO root fetch - processPackages [RuirenyunLibrary]: Downloading https://files.pythonhosted.org/packages/11/f7/c97936f4499b6783e4002530bfb483e94500990bfc823049bfc7a1aacf88/RuirenyunLibrary-1.1.6.tar.gz
+[2023-07-12 06:11:40] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/7d/c4/def8d08198b8a888674c564686a8cf42a4d81fc38235562ed7e76b8ca787/capsula-0.0.9.tar.gz
+[2023-07-12 06:11:40] INFO root fetch - processPackages [capsula]: executing diffoscope
+[2023-07-12 06:11:40] INFO root fetch - processPackages [capsula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsula-0.0.7.tar.gz tmp/capsula-0.0.9.tar.gz --markdown 20230712/c/capsula/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 06:11:40] INFO root fetch - processPackages [RuirenyunLibrary]: Downloading https://files.pythonhosted.org/packages/c4/77/93f45d9161bcbe914c453f90d095a9fdbfe3b2cb110c80a5fe081b325f8e/RuirenyunLibrary-1.2.tar.gz
+[2023-07-12 06:11:41] INFO root fetch - processPackages [RuirenyunLibrary]: executing diffoscope
+[2023-07-12 06:11:41] INFO root fetch - processPackages [RuirenyunLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RuirenyunLibrary-1.1.6.tar.gz tmp/RuirenyunLibrary-1.2.tar.gz --markdown 20230712/R/RuirenyunLibrary/1.1.6-1.2/diff.md --exclude *.pyd
+[2023-07-12 06:11:41] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.7.tar.gz]
+[2023-07-12 06:11:41] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.9.tar.gz]
+[2023-07-12 06:11:41] INFO root fetch - main [MainThread]: End processing [capsula]: success
+[2023-07-12 06:11:41] INFO root fetch - processPackages [RuirenyunLibrary]: Remove: archive file [/home/abi/fetcher/tmp/RuirenyunLibrary-1.1.6.tar.gz]
+[2023-07-12 06:11:41] INFO root fetch - processPackages [RuirenyunLibrary]: Remove: archive file [/home/abi/fetcher/tmp/RuirenyunLibrary-1.2.tar.gz]
+[2023-07-12 06:11:41] INFO root fetch - main [MainThread]: End processing [RuirenyunLibrary]: success
+[2023-07-12 06:11:41] INFO root fetch - main [MainThread]: Store serial: [18855561]
