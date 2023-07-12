@@ -13426,3 +13426,60 @@
 [2023-07-12 08:33:18] INFO root fetch - processPackages [aliyun-python-sdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-iot-8.9.0.tar.gz]
 [2023-07-12 08:33:18] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-iot]: success
 [2023-07-12 08:33:18] INFO root fetch - main [MainThread]: Store serial: [18856449]
+[2023-07-12 08:38:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856449]
+[2023-07-12 08:38:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 08:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddadevops
+[2023-07-12 08:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmxpy
+[2023-07-12 08:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pip-rating
+[2023-07-12 08:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinxcontrib-matlabdomain
+[2023-07-12 08:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zope.tales
+[2023-07-12 08:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shimport
+[2023-07-12 08:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: weconnect-mqtt
+[2023-07-12 08:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-rdm-records
+[2023-07-12 08:38:28] INFO root fetch - processPackages [zope.tales]: New version: [6.0] Old Version: [5.2]
+[2023-07-12 08:38:28] WARNING root fetch - processPackages [gmxpy]: Skipping, unable to determine old version
+[2023-07-12 08:38:28] INFO root fetch - main [MainThread]: End processing [gmxpy] error
+[2023-07-12 08:38:28] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-12 08:38:28] WARNING root fetch - processPackages [pip-rating]: Skipping, unable to determine old version
+[2023-07-12 08:38:28] INFO root fetch - main [MainThread]: End processing [pip-rating] error
+[2023-07-12 08:38:28] WARNING root fetch - processPackages [shimport]: Skipping, unable to determine old version
+[2023-07-12 08:38:28] INFO root fetch - main [MainThread]: End processing [shimport] error
+[2023-07-12 08:38:28] INFO root fetch - processPackages [ddadevops]: New version: [4.0.9] Old Version: [4.0.8.dev1]
+[2023-07-12 08:38:28] INFO root fetch - processPackages [invenio-rdm-records]: New version: [4.7.0] Old Version: [4.6.0]
+[2023-07-12 08:38:28] INFO root fetch - processPackages [weconnect-mqtt]: New version: [0.9.0.dev6] Old Version: [0.9.0.dev5]
+[2023-07-12 08:38:28] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/50/31/bd872754199abd349cb0d8332e473238d8fb7fee38d1dd4ec136ff1a84ab/ddadevops-4.0.8.dev1.tar.gz
+[2023-07-12 08:38:28] INFO root fetch - processPackages [zope.tales]: Downloading https://files.pythonhosted.org/packages/0b/fb/44902fdf190394719dc3cff9135ed97dbbac50e565fb8ee1ff7b42b02b77/zope.tales-5.2.tar.gz
+[2023-07-12 08:38:28] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/27/9f/400da890f1d17b5a3eadcb477d83d44b79ab59e95ac28b04e1f8019c30f2/sphinxcontrib-matlabdomain-0.7.1.tar.gz
+[2023-07-12 08:38:28] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/f4/60/bc2c8626ffbc1f31c12b44c13b9a82176f07af4295b55233f7a35bf7b3d4/invenio-rdm-records-4.6.0.tar.gz
+[2023-07-12 08:38:28] INFO root fetch - processPackages [weconnect-mqtt]: Downloading https://files.pythonhosted.org/packages/2e/d2/4f258e516258c22b847f2a003038f9ad0e3e0ccaf30061c4f76d5ad9c4ef/weconnect-mqtt-0.9.0.dev5.tar.gz
+[2023-07-12 08:38:28] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/b7/86/883745ce4b39c3406ebec6269e63d99ab7400df2b79af3749014b70e2a7d/ddadevops-4.0.9.tar.gz
+[2023-07-12 08:38:28] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-07-12 08:38:28] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.8.dev1.tar.gz tmp/ddadevops-4.0.9.tar.gz --markdown 20230712/d/ddadevops/4.0.8.dev1-4.0.9/diff.md --exclude *.pyd
+[2023-07-12 08:38:28] INFO root fetch - processPackages [zope.tales]: Downloading https://files.pythonhosted.org/packages/c7/92/4082559b9c3c888c8ad8bf2097ef029c92c9b081f804ccb98f413a79809e/zope.tales-6.0.tar.gz
+[2023-07-12 08:38:29] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/02/17/576fe56ac8622a964e69f7f314c46c1235b2a8447151a3df20102e5b45bc/sphinxcontrib-matlabdomain-0.8.0.tar.gz
+[2023-07-12 08:38:29] INFO root fetch - processPackages [weconnect-mqtt]: Downloading https://files.pythonhosted.org/packages/5c/b8/26908f029bd8637cfc5ca40a4b8605fc3e7a651ed5ff373299b0e7289193/weconnect-mqtt-0.9.0.dev6.tar.gz
+[2023-07-12 08:38:29] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: executing diffoscope
+[2023-07-12 08:38:29] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz --markdown 20230712/s/sphinxcontrib-matlabdomain/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-12 08:38:29] INFO root fetch - processPackages [zope.tales]: executing diffoscope
+[2023-07-12 08:38:29] INFO root fetch - processPackages [zope.tales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.tales-5.2.tar.gz tmp/zope.tales-6.0.tar.gz --markdown 20230712/z/zope.tales/5.2-6.0/diff.md --exclude *.pyd
+[2023-07-12 08:38:29] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/7c/6c/133c978d9bbc7cb1b274db380384b0926702d543ab4b7849d1dd2a77ec99/invenio-rdm-records-4.7.0.tar.gz
+[2023-07-12 08:38:29] INFO root fetch - processPackages [weconnect-mqtt]: executing diffoscope
+[2023-07-12 08:38:29] INFO root fetch - processPackages [weconnect-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weconnect-mqtt-0.9.0.dev5.tar.gz tmp/weconnect-mqtt-0.9.0.dev6.tar.gz --markdown 20230712/w/weconnect-mqtt/0.9.0.dev5-0.9.0.dev6/diff.md --exclude *.pyd
+[2023-07-12 08:38:29] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-07-12 08:38:29] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-4.6.0.tar.gz tmp/invenio-rdm-records-4.7.0.tar.gz --markdown 20230712/i/invenio-rdm-records/4.6.0-4.7.0/diff.md --exclude *.pyd
+[2023-07-12 08:38:30] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.8.dev1.tar.gz]
+[2023-07-12 08:38:30] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.9.tar.gz]
+[2023-07-12 08:38:30] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-07-12 08:38:30] INFO root fetch - processPackages [weconnect-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-mqtt-0.9.0.dev5.tar.gz]
+[2023-07-12 08:38:30] INFO root fetch - processPackages [weconnect-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-mqtt-0.9.0.dev6.tar.gz]
+[2023-07-12 08:38:30] INFO root fetch - main [MainThread]: End processing [weconnect-mqtt]: success
+[2023-07-12 08:38:30] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz]
+[2023-07-12 08:38:30] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz]
+[2023-07-12 08:38:30] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-matlabdomain]: success
+[2023-07-12 08:38:30] INFO root fetch - processPackages [zope.tales]: Remove: archive file [/home/abi/fetcher/tmp/zope.tales-5.2.tar.gz]
+[2023-07-12 08:38:30] INFO root fetch - processPackages [zope.tales]: Remove: archive file [/home/abi/fetcher/tmp/zope.tales-6.0.tar.gz]
+[2023-07-12 08:38:30] INFO root fetch - main [MainThread]: End processing [zope.tales]: success
+[2023-07-12 08:38:34] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.6.0.tar.gz]
+[2023-07-12 08:38:34] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.7.0.tar.gz]
+[2023-07-12 08:38:34] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-07-12 08:38:34] INFO root fetch - main [MainThread]: Store serial: [18856476]
