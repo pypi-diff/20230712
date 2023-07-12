@@ -11677,3 +11677,98 @@
 [2023-07-12 06:27:20] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
 [2023-07-12 06:27:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-07-12 06:27:20] INFO root fetch - main [MainThread]: Store serial: [18855592]
+[2023-07-12 06:32:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855592]
+[2023-07-12 06:32:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-12 06:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inference-client
+[2023-07-12 06:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: progfiguration
+[2023-07-12 06:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: min-openssh
+[2023-07-12 06:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aicodebot
+[2023-07-12 06:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pmdsky-debug-py
+[2023-07-12 06:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiovantage
+[2023-07-12 06:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dopys
+[2023-07-12 06:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ectool
+[2023-07-12 06:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: min-jq
+[2023-07-12 06:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anyon
+[2023-07-12 06:32:30] WARNING root fetch - processPackages [min-openssh]: Skipping, unable to determine old version
+[2023-07-12 06:32:30] INFO root fetch - processPackages [min-openssh]: Start processing: min-jq
+[2023-07-12 06:32:30] INFO root fetch - main [MainThread]: End processing [min-openssh] error
+[2023-07-12 06:32:30] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [7.0.3] Old Version: [7.0.2]
+[2023-07-12 06:32:30] WARNING root fetch - processPackages [min-jq]: Skipping, unable to determine old version
+[2023-07-12 06:32:30] INFO root fetch - processPackages [min-jq]: Start processing: sourcery-nightly
+[2023-07-12 06:32:30] INFO root fetch - main [MainThread]: End processing [min-jq] error
+[2023-07-12 06:32:30] INFO root fetch - processPackages [inference-client]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-12 06:32:30] WARNING root fetch - processPackages [dopys]: Skipping, unable to determine old version
+[2023-07-12 06:32:30] INFO root fetch - processPackages [aiovantage]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-12 06:32:30] INFO root fetch - processPackages [dopys]: Start processing: quickstart-vdk
+[2023-07-12 06:32:30] INFO root fetch - main [MainThread]: End processing [dopys] error
+[2023-07-12 06:32:30] WARNING root fetch - processPackages [progfiguration]: Skipping, unable to determine old version
+[2023-07-12 06:32:30] INFO root fetch - processPackages [progfiguration]: Start processing: rustga
+[2023-07-12 06:32:30] INFO root fetch - main [MainThread]: End processing [progfiguration] error
+[2023-07-12 06:32:30] INFO root fetch - processPackages [ectool]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-12 06:32:30] INFO root fetch - processPackages [anyon]: New version: [3.7.2] Old Version: [3.7.1]
+[2023-07-12 06:32:30] INFO root fetch - processPackages [aicodebot]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-12 06:32:30] WARNING root fetch - processPackages [min-jq]: Skipping, unable to determine old version
+[2023-07-12 06:32:30] INFO root fetch - main [MainThread]: End processing [min-jq] error
+[2023-07-12 06:32:30] INFO root fetch - processPackages [rustga]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-12 06:32:30] INFO root fetch - processPackages [inference-client]: Downloading https://files.pythonhosted.org/packages/95/79/5fd9b27f961226b64a651c2bcb904d2efeab2463399f16871db45180041f/inference_client-0.0.7.tar.gz
+[2023-07-12 06:32:30] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.928366524.dev12215] Old Version: [0.2.927847332.dev12210]
+[2023-07-12 06:32:30] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.5.1b8] Old Version: [1.5.1b7]
+[2023-07-12 06:32:30] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/db/63/0692a03ea63b4ffd08a420590ef2eede8bde6b528afa976265b4aa8ed481/aicodebot-0.9.3.tar.gz
+[2023-07-12 06:32:30] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/96/b5/811cd507773d311f8428a0a2b091e27183e7b5653e98032809706beee2d7/anyon-3.7.1-cp311-none-win_amd64.whl
+[2023-07-12 06:32:30] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/7e/3b/0bd7e838055e0bedf75e33cac37e8169a1264dabf5f9fd75cbb11ea732c4/pmdsky_debug_py-7.0.2-py3-none-any.whl
+[2023-07-12 06:32:30] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/91/b2/ca5297fb12fdd36ab9cf6558c564f0d6f984aad3cd1571ca303c49fb23ab/quickstart-vdk-0.2.927847332.dev12210.tar.gz
+[2023-07-12 06:32:30] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/92/07/02bebdf9fda76f14ad8eb277b805d4bf54eccc0522b4465b8350eb43755e/aiovantage-0.7.0.tar.gz
+[2023-07-12 06:32:30] INFO root fetch - processPackages [rustga]: Downloading https://files.pythonhosted.org/packages/5a/7f/fae2ef75a08428f8611099e61c988737e83f957bdb60d8321955f0ae14db/rustga-0.2.0.tar.gz
+[2023-07-12 06:32:30] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/d0/0c/ca1f8a6a41064a7afcabfa2e4a1c1911a18fffe1520045018cf39635da3e/sourcery_nightly-1.5.1b7-py2.py3-none-win_amd64.whl
+[2023-07-12 06:32:31] INFO root fetch - processPackages [ectool]: Downloading https://files.pythonhosted.org/packages/93/00/ae9e438270d25e73b2388b8910eb4df3219346b7dea805ba3065a9fee0aa/ectool-1.1.6.tar.gz
+[2023-07-12 06:32:31] INFO root fetch - processPackages [inference-client]: Downloading https://files.pythonhosted.org/packages/7e/b8/df7d646f08514406eab854a1bf8f5eb4bad8e7b1ec3f40ddc302ed729db2/inference_client-0.0.8.tar.gz
+[2023-07-12 06:32:31] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58652721>=10485760
+[2023-07-12 06:32:31] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-07-12 06:32:31] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/c4/cf/26929ba9542a8eed4e66372ffcf60ea8f8b186fdeef62629bea79ba5bd1b/aicodebot-0.9.4.tar.gz
+[2023-07-12 06:32:31] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/98/9d/f7e571814db58a23f6af5708fbcecd890d397a1fbeef068fc9d180c6ea4c/anyon-3.7.2-cp311-none-win_amd64.whl
+[2023-07-12 06:32:31] INFO root fetch - processPackages [inference-client]: executing diffoscope
+[2023-07-12 06:32:31] INFO root fetch - processPackages [inference-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference_client-0.0.7.tar.gz tmp/inference_client-0.0.8.tar.gz --markdown 20230712/i/inference-client/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-12 06:32:31] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/a7/66/39a9e56a54604493fea91a12e3aba8c55ac0ca3d681b5d0b0583d278f3fe/quickstart-vdk-0.2.928366524.dev12215.tar.gz
+[2023-07-12 06:32:31] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/bb/0b/a52f402a0a228a2fa6462396e99cb47a2de52d5c03404728e4e78e720aec/aiovantage-0.8.0.tar.gz
+[2023-07-12 06:32:31] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/2a/8d/ae04e3a8b36f65f61be8823a8f52c0de506d7b861083d38fdf1dab11c2f6/pmdsky_debug_py-7.0.3-py3-none-any.whl
+[2023-07-12 06:32:31] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-12 06:32:31] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.3.tar.gz tmp/aicodebot-0.9.4.tar.gz --markdown 20230712/a/aicodebot/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-12 06:32:31] INFO root fetch - processPackages [aiovantage]: executing diffoscope
+[2023-07-12 06:32:31] INFO root fetch - processPackages [aiovantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiovantage-0.7.0.tar.gz tmp/aiovantage-0.8.0.tar.gz --markdown 20230712/a/aiovantage/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-12 06:32:31] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-07-12 06:32:31] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-7.0.2-py3-none-any.whl.zip tmp/pmdsky_debug_py-7.0.3-py3-none-any.whl.zip --markdown 20230712/p/pmdsky-debug-py/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2023-07-12 06:32:31] INFO root fetch - processPackages [ectool]: Downloading https://files.pythonhosted.org/packages/75/a9/f0922a93d5c29fea3d4870861687d545e0a29cae5a5c73d1a1af6f135ed8/ectool-1.1.7.tar.gz
+[2023-07-12 06:32:31] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-12 06:32:31] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.7.1-cp311-none-win_amd64.whl.zip tmp/anyon-3.7.2-cp311-none-win_amd64.whl.zip --markdown 20230712/a/anyon/3.7.1-3.7.2/diff.md --exclude *.pyd
+[2023-07-12 06:32:31] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-12 06:32:31] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.927847332.dev12210.tar.gz tmp/quickstart-vdk-0.2.928366524.dev12215.tar.gz --markdown 20230712/q/quickstart-vdk/0.2.927847332.dev12210-0.2.928366524.dev12215/diff.md --exclude *.pyd
+[2023-07-12 06:32:31] INFO root fetch - processPackages [rustga]: Downloading https://files.pythonhosted.org/packages/b7/63/0513f1aa0574d22704a79b523a086aa026009b4f5e3320353fc2cf0f142d/rustga-0.3.0.tar.gz
+[2023-07-12 06:32:31] INFO root fetch - processPackages [ectool]: executing diffoscope
+[2023-07-12 06:32:31] INFO root fetch - processPackages [ectool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ectool-1.1.6.tar.gz tmp/ectool-1.1.7.tar.gz --markdown 20230712/e/ectool/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-12 06:32:31] INFO root fetch - processPackages [rustga]: executing diffoscope
+[2023-07-12 06:32:31] INFO root fetch - processPackages [rustga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustga-0.2.0.tar.gz tmp/rustga-0.3.0.tar.gz --markdown 20230712/r/rustga/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-12 06:32:32] INFO root fetch - processPackages [inference-client]: Remove: archive file [/home/abi/fetcher/tmp/inference_client-0.0.7.tar.gz]
+[2023-07-12 06:32:32] INFO root fetch - processPackages [inference-client]: Remove: archive file [/home/abi/fetcher/tmp/inference_client-0.0.8.tar.gz]
+[2023-07-12 06:32:32] INFO root fetch - main [MainThread]: End processing [inference-client]: success
+[2023-07-12 06:32:32] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.3.tar.gz]
+[2023-07-12 06:32:32] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.4.tar.gz]
+[2023-07-12 06:32:32] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-12 06:32:32] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.927847332.dev12210.tar.gz]
+[2023-07-12 06:32:32] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.928366524.dev12215.tar.gz]
+[2023-07-12 06:32:32] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-12 06:32:32] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.7.1-cp311-none-win_amd64.whl.zip]
+[2023-07-12 06:32:32] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.7.2-cp311-none-win_amd64.whl.zip]
+[2023-07-12 06:32:32] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-12 06:32:32] INFO root fetch - processPackages [ectool]: Remove: archive file [/home/abi/fetcher/tmp/ectool-1.1.6.tar.gz]
+[2023-07-12 06:32:32] INFO root fetch - processPackages [ectool]: Remove: archive file [/home/abi/fetcher/tmp/ectool-1.1.7.tar.gz]
+[2023-07-12 06:32:32] INFO root fetch - main [MainThread]: End processing [ectool]: success
+[2023-07-12 06:32:32] INFO root fetch - processPackages [rustga]: Remove: archive file [/home/abi/fetcher/tmp/rustga-0.2.0.tar.gz]
+[2023-07-12 06:32:32] INFO root fetch - processPackages [rustga]: Remove: archive file [/home/abi/fetcher/tmp/rustga-0.3.0.tar.gz]
+[2023-07-12 06:32:32] INFO root fetch - main [MainThread]: End processing [rustga]: success
+[2023-07-12 06:32:33] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.7.0.tar.gz]
+[2023-07-12 06:32:33] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.8.0.tar.gz]
+[2023-07-12 06:32:33] INFO root fetch - main [MainThread]: End processing [aiovantage]: success
+[2023-07-12 06:32:33] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.2-py3-none-any.whl.zip]
+[2023-07-12 06:32:33] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.3-py3-none-any.whl.zip]
+[2023-07-12 06:32:33] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-07-12 06:32:33] INFO root fetch - main [MainThread]: Store serial: [18855656]
