@@ -18358,3 +18358,141 @@
 [2023-07-12 12:02:42] INFO root fetch - processPackages [odoo-addon-account-chart-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_chart_update-16.0.1.0.1.9-py3-none-any.whl.zip]
 [2023-07-12 12:02:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-chart-update]: success
 [2023-07-12 12:02:42] INFO root fetch - main [MainThread]: Store serial: [18858478]
+[2023-07-12 12:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858478]
+[2023-07-12 12:07:52] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-12 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dianna
+[2023-07-12 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sekoia-automation-sdk
+[2023-07-12 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fair-cli
+[2023-07-12 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hahomematic
+[2023-07-12 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textualodon
+[2023-07-12 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swiftly-unix
+[2023-07-12 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easy-ge
+[2023-07-12 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-recommendation
+[2023-07-12 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-pjsk
+[2023-07-12 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: swiftly-unix
+[2023-07-12 12:07:52] INFO root fetch - processPackages [hahomematic]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-12 12:07:53] INFO root fetch - processPackages [fair-cli]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-12 12:07:53] INFO root fetch - processPackages [aws-recommendation]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-12 12:07:53] WARNING root fetch - processPackages [nonebot-plugin-pjsk]: Skipping, unable to determine old version
+[2023-07-12 12:07:53] WARNING root fetch - processPackages [textualodon]: Skipping, unable to determine old version
+[2023-07-12 12:07:53] INFO root fetch - processPackages [nonebot-plugin-pjsk]: Start processing: datagit
+[2023-07-12 12:07:53] WARNING root fetch - processPackages [easy-ge]: Skipping, unable to determine old version
+[2023-07-12 12:07:53] INFO root fetch - processPackages [textualodon]: Start processing: riotee-probe
+[2023-07-12 12:07:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pjsk] error
+[2023-07-12 12:07:53] INFO root fetch - processPackages [easy-ge]: Start processing: defog
+[2023-07-12 12:07:53] INFO root fetch - main [MainThread]: End processing [textualodon] error
+[2023-07-12 12:07:53] INFO root fetch - processPackages [dianna]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-12 12:07:53] INFO root fetch - main [MainThread]: End processing [easy-ge] error
+[2023-07-12 12:07:53] INFO root fetch - processPackages [swiftly-unix]: New version: [0.1.19] Old Version: [0.1.18]
+[2023-07-12 12:07:53] INFO root fetch - processPackages [sekoia-automation-sdk]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-07-12 12:07:53] INFO root fetch - processPackages [swiftly-unix]: New version: [0.1.19] Old Version: [0.1.18]
+[2023-07-12 12:07:53] INFO root fetch - processPackages [riotee-probe]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-12 12:07:53] INFO root fetch - processPackages [datagit]: New version: [0.9] Old Version: [0.8]
+[2023-07-12 12:07:53] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-12 12:07:53] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/41/fb/5c54ae8d5618249f0546c7b99faf17068a528b7888dbbb6e8dbf3a5d7f58/hahomematic-2023.7.1.tar.gz
+[2023-07-12 12:07:53] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/ac/3c/b353a94aa9553f86d49a27a5c819178834098175da8e3f397700329d841f/sekoia_automation_sdk-1.3.6.tar.gz
+[2023-07-12 12:07:53] INFO root fetch - processPackages [fair-cli]: Downloading https://files.pythonhosted.org/packages/34/bf/11386b710e5a18dc36849dc9fa6f9fa86134dc4db2bb5b4d8a19ccd6a8b7/fair_cli-0.9.0.tar.gz
+[2023-07-12 12:07:53] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/22/48/06e9b4661834236a276fda8e7ea7a907c872153746e438491df69f67e5bc/swiftly-unix-0.1.18.tar.gz
+[2023-07-12 12:07:53] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/22/48/06e9b4661834236a276fda8e7ea7a907c872153746e438491df69f67e5bc/swiftly-unix-0.1.18.tar.gz
+[2023-07-12 12:07:53] INFO root fetch - processPackages [dianna]: Downloading https://files.pythonhosted.org/packages/27/6e/fb308fea39eac20c7aaffde3d2f3dce2f504877cfbd51044a86768126195/dianna-1.0.0.tar.gz
+[2023-07-12 12:07:53] INFO root fetch - processPackages [aws-recommendation]: Downloading https://files.pythonhosted.org/packages/41/d6/9c17dcaf2265bb95c1005991d4544fb24ff2eb9fb0e8444d11a0345526ad/aws_recommendation-0.2.4.tar.gz
+[2023-07-12 12:07:53] WARNING root fetch - processPackages [dianna]: Skipping package: exceeds size limit 23864822>=10485760
+[2023-07-12 12:07:53] INFO root fetch - processPackages [dianna]: Start processing: glsitevcl
+[2023-07-12 12:07:53] INFO root fetch - main [MainThread]: End processing [dianna] error
+[2023-07-12 12:07:53] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/92/03/09115a0e007a0e9e34ca94fe7dc5a98a891eb84cfd5635cfc89e93e6145b/datagit-0.8.tar.gz
+[2023-07-12 12:07:53] INFO root fetch - processPackages [riotee-probe]: Downloading https://files.pythonhosted.org/packages/4c/89/75ec381749fc54e9c5cb27f909fc0a794e8c04531edb8f8e2f315e043694/riotee_probe-1.0.1.tar.gz
+[2023-07-12 12:07:53] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2023-07-12 12:07:53] WARNING root fetch - processPackages [glsitevcl]: Skipping, unable to determine old version
+[2023-07-12 12:07:53] INFO root fetch - processPackages [glsitevcl]: Start processing: elasticnet
+[2023-07-12 12:07:53] INFO root fetch - main [MainThread]: End processing [glsitevcl] error
+[2023-07-12 12:07:53] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/58/32/56b88b0b0e591827dc71a295a3ec4c396c753db49f3199e72792a9e9a0c9/sekoia_automation_sdk-1.3.7.tar.gz
+[2023-07-12 12:07:53] WARNING root fetch - processPackages [elasticnet]: Skipping, unable to determine old version
+[2023-07-12 12:07:53] INFO root fetch - processPackages [elasticnet]: Start processing: holoviews
+[2023-07-12 12:07:53] INFO root fetch - main [MainThread]: End processing [elasticnet] error
+[2023-07-12 12:07:53] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/d5/e7/aa5b8970d5b3b182d0849726d6eb9458736e31f99c846805c54bfa52a450/hahomematic-2023.7.2.tar.gz
+[2023-07-12 12:07:53] INFO root fetch - processPackages [holoviews]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-12 12:07:53] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/55/11/0bf9fff4176f04450e7c1fd6754f903722655b73c798fd76ec61e7bf6c31/swiftly-unix-0.1.19.tar.gz
+[2023-07-12 12:07:53] INFO root fetch - processPackages [fair-cli]: Downloading https://files.pythonhosted.org/packages/23/0d/bba613f9b180a0b9d95bfc5b2b84a153b0d3b6e03049f5a3ae458de23c0e/fair_cli-0.9.1.tar.gz
+[2023-07-12 12:07:53] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/55/11/0bf9fff4176f04450e7c1fd6754f903722655b73c798fd76ec61e7bf6c31/swiftly-unix-0.1.19.tar.gz
+[2023-07-12 12:07:54] INFO root fetch - processPackages [sekoia-automation-sdk]: executing diffoscope
+[2023-07-12 12:07:54] INFO root fetch - processPackages [sekoia-automation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sekoia_automation_sdk-1.3.6.tar.gz tmp/sekoia_automation_sdk-1.3.7.tar.gz --markdown 20230712/s/sekoia-automation-sdk/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-07-12 12:07:54] INFO root fetch - processPackages [holoviews]: Downloading https://files.pythonhosted.org/packages/59/1c/f3bab15afa70d6424f04ba98eacf877b469d4196177d1fda90c0870823d6/holoviews-1.9.4.tar.gz
+[2023-07-12 12:07:54] INFO root fetch - processPackages [aws-recommendation]: Downloading https://files.pythonhosted.org/packages/a5/bd/90a5004f9048c10ecc2cc338473e363dbeb60dc870833c822ff88e649af2/aws_recommendation-0.2.5.tar.gz
+[2023-07-12 12:07:54] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2023-07-12 12:07:54] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2023.7.1.tar.gz tmp/hahomematic-2023.7.2.tar.gz --markdown 20230712/h/hahomematic/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-12 12:07:54] INFO root fetch - processPackages [riotee-probe]: Downloading https://files.pythonhosted.org/packages/a6/4a/5a57aa5f47f7b4e66c5f8a4206486b61cc0a69fc4390b35a810d151219f9/riotee_probe-1.0.2.tar.gz
+[2023-07-12 12:07:54] INFO root fetch - processPackages [fair-cli]: executing diffoscope
+[2023-07-12 12:07:54] INFO root fetch - processPackages [fair-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fair_cli-0.9.0.tar.gz tmp/fair_cli-0.9.1.tar.gz --markdown 20230712/f/fair-cli/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-12 12:07:54] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2023-07-12 12:07:54] INFO root fetch - processPackages [swiftly-unix]: executing diffoscope
+[2023-07-12 12:07:54] INFO root fetch - processPackages [swiftly-unix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-unix-0.1.18.tar.gz tmp/swiftly-unix-0.1.19.tar.gz --markdown 20230712/s/swiftly-unix/0.1.18-0.1.19/diff.md --exclude *.pyd
+[2023-07-12 12:07:54] INFO root fetch - processPackages [swiftly-unix]: executing diffoscope
+[2023-07-12 12:07:54] INFO root fetch - processPackages [swiftly-unix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-unix-0.1.18.tar.gz tmp/swiftly-unix-0.1.19.tar.gz --markdown 20230712/s/swiftly-unix/0.1.18-0.1.19/diff.md --exclude *.pyd
+[2023-07-12 12:07:54] INFO root fetch - processPackages [datagit]: Downloading https://files.pythonhosted.org/packages/ae/74/35e2d657a79a0024a1d34c810f8eba7282593c263077d44d211afb6d9e3e/datagit-0.9.tar.gz
+[2023-07-12 12:07:54] INFO root fetch - processPackages [aws-recommendation]: executing diffoscope
+[2023-07-12 12:07:54] INFO root fetch - processPackages [aws-recommendation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_recommendation-0.2.4.tar.gz tmp/aws_recommendation-0.2.5.tar.gz --markdown 20230712/a/aws-recommendation/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-12 12:07:54] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-07-12 12:07:54] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230712/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-12 12:07:54] INFO root fetch - processPackages [riotee-probe]: executing diffoscope
+[2023-07-12 12:07:54] INFO root fetch - processPackages [riotee-probe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riotee_probe-1.0.1.tar.gz tmp/riotee_probe-1.0.2.tar.gz --markdown 20230712/r/riotee-probe/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-12 12:07:54] INFO root fetch - processPackages [datagit]: executing diffoscope
+[2023-07-12 12:07:54] INFO root fetch - processPackages [datagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagit-0.8.tar.gz tmp/datagit-0.9.tar.gz --markdown 20230712/d/datagit/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-12 12:07:54] INFO root fetch - processPackages [holoviews]: Downloading https://files.pythonhosted.org/packages/ef/d1/fbb719d25a5118f76229625ecbbf1505259ad1c95a309fdd184fcfbce7ef/holoviews-1.9.5.tar.gz
+[2023-07-12 12:07:55] INFO root fetch - processPackages [holoviews]: executing diffoscope
+[2023-07-12 12:07:55] INFO root fetch - processPackages [holoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holoviews-1.9.4.tar.gz tmp/holoviews-1.9.5.tar.gz --markdown 20230712/h/holoviews/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-12 12:07:55] INFO root fetch - processPackages [sekoia-automation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sekoia_automation_sdk-1.3.6.tar.gz]
+[2023-07-12 12:07:55] INFO root fetch - processPackages [sekoia-automation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sekoia_automation_sdk-1.3.7.tar.gz]
+[2023-07-12 12:07:55] INFO root fetch - processPackages [sekoia-automation-sdk]: Start processing: edx-proctoring
+[2023-07-12 12:07:55] INFO root fetch - main [MainThread]: End processing [sekoia-automation-sdk]: success
+[2023-07-12 12:07:55] INFO root fetch - processPackages [swiftly-unix]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-unix-0.1.18.tar.gz]
+[2023-07-12 12:07:55] INFO root fetch - processPackages [swiftly-unix]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-unix-0.1.19.tar.gz]
+[2023-07-12 12:07:55] INFO root fetch - processPackages [swiftly-unix]: Start processing: threads-net
+[2023-07-12 12:07:55] INFO root fetch - main [MainThread]: End processing [swiftly-unix]: success
+[2023-07-12 12:07:55] INFO root fetch - processPackages [swiftly-unix]: Start processing: innerverz
+[2023-07-12 12:07:55] INFO root fetch - main [MainThread]: End processing [swiftly-unix]: success
+[2023-07-12 12:07:55] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-12 12:07:55] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.1.tar.gz]
+[2023-07-12 12:07:55] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.2.tar.gz]
+[2023-07-12 12:07:55] INFO root fetch - processPackages [innerverz]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-12 12:07:55] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-07-12 12:07:55] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-12 12:07:55] INFO root fetch - processPackages [datagit]: Remove: archive file [/home/abi/fetcher/tmp/datagit-0.8.tar.gz]
+[2023-07-12 12:07:55] INFO root fetch - processPackages [datagit]: Remove: archive file [/home/abi/fetcher/tmp/datagit-0.9.tar.gz]
+[2023-07-12 12:07:55] INFO root fetch - main [MainThread]: End processing [datagit]: success
+[2023-07-12 12:07:56] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/a5/f3/4a0beaa6abdfc2185300e0c96a3ccd14347bf340707b2a59c8b0449f27a5/innerverz-0.1.5.tar.gz
+[2023-07-12 12:07:56] INFO root fetch - processPackages [riotee-probe]: Remove: archive file [/home/abi/fetcher/tmp/riotee_probe-1.0.1.tar.gz]
+[2023-07-12 12:07:56] INFO root fetch - processPackages [riotee-probe]: Remove: archive file [/home/abi/fetcher/tmp/riotee_probe-1.0.2.tar.gz]
+[2023-07-12 12:07:56] INFO root fetch - main [MainThread]: End processing [riotee-probe]: success
+[2023-07-12 12:07:56] INFO root fetch - processPackages [aws-recommendation]: Remove: archive file [/home/abi/fetcher/tmp/aws_recommendation-0.2.4.tar.gz]
+[2023-07-12 12:07:56] INFO root fetch - processPackages [aws-recommendation]: Remove: archive file [/home/abi/fetcher/tmp/aws_recommendation-0.2.5.tar.gz]
+[2023-07-12 12:07:56] INFO root fetch - main [MainThread]: End processing [aws-recommendation]: success
+[2023-07-12 12:07:56] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.7.1.tar.gz]
+[2023-07-12 12:07:56] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.7.2.tar.gz]
+[2023-07-12 12:07:56] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2023-07-12 12:07:56] INFO root fetch - processPackages [edx-proctoring]: New version: [4.9.0] Old Version: [4.8.4]
+[2023-07-12 12:07:56] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-12 12:07:56] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/59/b8/48eb6ae4fe673bdac94153f3a52c8c973abe688b7918b0252e59db0bbded/innerverz-0.1.6.tar.gz
+[2023-07-12 12:07:56] INFO root fetch - processPackages [fair-cli]: Remove: archive file [/home/abi/fetcher/tmp/fair_cli-0.9.0.tar.gz]
+[2023-07-12 12:07:56] INFO root fetch - processPackages [fair-cli]: Remove: archive file [/home/abi/fetcher/tmp/fair_cli-0.9.1.tar.gz]
+[2023-07-12 12:07:56] INFO root fetch - main [MainThread]: End processing [fair-cli]: success
+[2023-07-12 12:07:56] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-12 12:07:56] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230712/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-12 12:07:56] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-12 12:07:56] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.1.5.tar.gz tmp/innerverz-0.1.6.tar.gz --markdown 20230712/i/innerverz/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-12 12:07:56] INFO root fetch - processPackages [edx-proctoring]: Downloading https://files.pythonhosted.org/packages/62/bf/8aef4140c48e8ea2d680427d38b21e7335ab06e5cebd6c3c829a6769cf31/edx-proctoring-4.8.4.tar.gz
+[2023-07-12 12:07:57] INFO root fetch - processPackages [edx-proctoring]: Downloading https://files.pythonhosted.org/packages/6b/5e/9b97bab3fd4420d9c07e2ac12e65dad1e546f08ccbdd6a19d37f3a5b1d95/edx-proctoring-4.9.0.tar.gz
+[2023-07-12 12:07:57] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-12 12:07:57] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-12 12:07:57] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-12 12:07:57] INFO root fetch - processPackages [edx-proctoring]: executing diffoscope
+[2023-07-12 12:07:57] INFO root fetch - processPackages [edx-proctoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-proctoring-4.8.4.tar.gz tmp/edx-proctoring-4.9.0.tar.gz --markdown 20230712/e/edx-proctoring/4.8.4-4.9.0/diff.md --exclude *.pyd
+[2023-07-12 12:07:57] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.1.5.tar.gz]
+[2023-07-12 12:07:57] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.1.6.tar.gz]
+[2023-07-12 12:07:57] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-12 12:07:59] INFO root fetch - processPackages [holoviews]: Remove: archive file [/home/abi/fetcher/tmp/holoviews-1.9.4.tar.gz]
+[2023-07-12 12:07:59] INFO root fetch - processPackages [holoviews]: Remove: archive file [/home/abi/fetcher/tmp/holoviews-1.9.5.tar.gz]
+[2023-07-12 12:07:59] INFO root fetch - main [MainThread]: End processing [holoviews]: success
+[2023-07-12 12:08:00] INFO root fetch - processPackages [edx-proctoring]: Remove: archive file [/home/abi/fetcher/tmp/edx-proctoring-4.8.4.tar.gz]
+[2023-07-12 12:08:00] INFO root fetch - processPackages [edx-proctoring]: Remove: archive file [/home/abi/fetcher/tmp/edx-proctoring-4.9.0.tar.gz]
+[2023-07-12 12:08:00] INFO root fetch - main [MainThread]: End processing [edx-proctoring]: success
+[2023-07-12 12:08:00] INFO root fetch - main [MainThread]: Store serial: [18858541]
