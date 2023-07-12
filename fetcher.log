@@ -17330,3 +17330,309 @@
 [2023-07-12 11:25:16] INFO root fetch - processPackages [cashocs]: Remove: archive file [/home/abi/fetcher/tmp/cashocs-2.0.9.tar.gz]
 [2023-07-12 11:25:16] INFO root fetch - main [MainThread]: End processing [cashocs]: success
 [2023-07-12 11:25:16] INFO root fetch - main [MainThread]: Store serial: [18858057]
+[2023-07-12 11:30:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858057]
+[2023-07-12 11:30:25] INFO root fetch - main [MainThread]: Found 35 changed packages
+[2023-07-12 11:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voicemeeter-api
+[2023-07-12 11:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vban-cmd
+[2023-07-12 11:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-order-type
+[2023-07-12 11:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pharaglow
+[2023-07-12 11:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwebclient
+[2023-07-12 11:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imio.pm.locales
+[2023-07-12 11:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: soda-core-athena
+[2023-07-12 11:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: soda-core-bigquery
+[2023-07-12 11:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: soda-core
+[2023-07-12 11:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: soda-core-pandas-dask
+[2023-07-12 11:30:25] INFO root fetch - processPackages [voicemeeter-api]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-12 11:30:25] INFO root fetch - processPackages [odoo-addon-sale-order-type]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3.1]
+[2023-07-12 11:30:25] INFO root fetch - processPackages [soda-core-bigquery]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:25] INFO root fetch - processPackages [soda-core-pandas-dask]: New version: [3.0.45] Old Version: [3.0.44]
+[2023-07-12 11:30:25] INFO root fetch - processPackages [imio.pm.locales]: New version: [4.2b9] Old Version: [4.2b8]
+[2023-07-12 11:30:25] INFO root fetch - processPackages [pharaglow]: New version: [0.9.3] Old Version: [0.9.0]
+[2023-07-12 11:30:25] INFO root fetch - processPackages [soda-core-athena]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:25] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 11:30:25] INFO root fetch - processPackages [soda-core]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:25] INFO root fetch - processPackages [vban-cmd]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-12 11:30:25] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 11:30:25] INFO root fetch - processPackages [soda-core-bigquery]: Downloading https://files.pythonhosted.org/packages/24/c7/b2b0c0b607b9ec1fc0e4ca16b8d8f085d2cd2b82da931d5cdab286692a40/soda-core-bigquery-3.0.8.tar.gz
+[2023-07-12 11:30:25] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/11/f4/82d33a15de2e72468f1c520aed4c54adfdec3bb4b52fb490813e5b47be0a/odoo_addon_sale_order_type-16.0.1.0.3.1-py3-none-any.whl
+[2023-07-12 11:30:25] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/29/1c/8bc577faa7afc32d1e59cc27ca3aec2d3127d0d6a8194174a8e50176759c/voicemeeter_api-2.3.1.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/d9/07/6abc7634424813ff73a80549d15b4c705f865fea0e177199c1c65c4cfa61/vban_cmd-2.3.1.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core-pandas-dask]: Downloading https://files.pythonhosted.org/packages/e3/b6/f980d5e0008f54fdf9b57fd7e1cb2c5e5b29b97e0d2c8502ea221cc8b5a3/soda-core-pandas-dask-3.0.44.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [pharaglow]: Downloading https://files.pythonhosted.org/packages/ef/56/615243a00321804fc223e83fb02a0db5c02fa5b09a71699f248e001be4cd/pharaglow-0.9.0.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core]: Downloading https://files.pythonhosted.org/packages/22/03/fb2284c2a85154c97ec92a78462045f3b1162c2bbd28707f0cc63d418d4e/soda-core-3.0.8.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core-athena]: Downloading https://files.pythonhosted.org/packages/92/68/2f9111a12212256af3007cccd420e5b2967f756275e458f25a2abd245469/soda-core-athena-3.0.8.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [imio.pm.locales]: Downloading https://files.pythonhosted.org/packages/d7/02/3d263410fd331d6bc5cf51ee938ef2e76e3dc92812701f8d8b709e407ab0/imio.pm.locales-4.2b8.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/0d/66/aee64bf1abb56fd3668a20c7bd316e66b7ad6571bc81ebbd6ad0d147082f/odoo_addon_sale_order_type-16.0.1.0.4-py3-none-any.whl
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core-bigquery]: Downloading https://files.pythonhosted.org/packages/c3/39/83862a5d74cd81c46e17e9e5838d1c1634ea32203ff68cb5a3469b818e21/soda-core-bigquery-3.0.9.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/7b/19/a4c056889e5135116d7fa9a5550b1394176e5d2fab8960209b53515e12b8/voicemeeter_api-2.3.2.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 11:30:26] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core-pandas-dask]: Downloading https://files.pythonhosted.org/packages/e6/b4/537233dc8f95e0dab62c47ce381b74e9ed1f05516dbaedef787dfbb78e6d/soda-core-pandas-dask-3.0.45.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [pharaglow]: Downloading https://files.pythonhosted.org/packages/38/f6/bc212047e39401cc2ec1c833974704f39950bd9fe7aaa44b8bbfc7009f07/pharaglow-0.9.3.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/3f/bc/bfc27f1a87c6cbf121e466d4a3cb0b8f0df982f020aae08414f9a64d2a2d/vban_cmd-2.3.2.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core-bigquery]: executing diffoscope
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-bigquery-3.0.8.tar.gz tmp/soda-core-bigquery-3.0.9.tar.gz --markdown 20230712/s/soda-core-bigquery/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core]: Downloading https://files.pythonhosted.org/packages/d3/5d/c8090b8f5434166fd27c3ea65a24ac8f0e9d76ab64930e192675f80a9905/soda-core-3.0.9.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [voicemeeter-api]: executing diffoscope
+[2023-07-12 11:30:26] INFO root fetch - processPackages [voicemeeter-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter_api-2.3.1.tar.gz tmp/voicemeeter_api-2.3.2.tar.gz --markdown 20230712/v/voicemeeter-api/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-12 11:30:26] INFO root fetch - processPackages [odoo-addon-sale-order-type]: executing diffoscope
+[2023-07-12 11:30:26] INFO root fetch - processPackages [odoo-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_type-16.0.1.0.3.1-py3-none-any.whl.zip tmp/odoo_addon_sale_order_type-16.0.1.0.4-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-sale-order-type/16.0.1.0.3.1-16.0.1.0.4/diff.md --exclude *.pyd
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core-athena]: Downloading https://files.pythonhosted.org/packages/65/8e/111b8be4571edf345adc30d51ed7edbf4770437783edbb422b42aa55c82c/soda-core-athena-3.0.9.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [imio.pm.locales]: Downloading https://files.pythonhosted.org/packages/b1/95/695c6292d7b0958ebc705170cec321e424079c0716aaf0f09b29ae261c93/imio.pm.locales-4.2b9.tar.gz
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core-pandas-dask]: executing diffoscope
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core-pandas-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-pandas-dask-3.0.44.tar.gz tmp/soda-core-pandas-dask-3.0.45.tar.gz --markdown 20230712/s/soda-core-pandas-dask/3.0.44-3.0.45/diff.md --exclude *.pyd
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core]: executing diffoscope
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-3.0.8.tar.gz tmp/soda-core-3.0.9.tar.gz --markdown 20230712/s/soda-core/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:26] INFO root fetch - processPackages [pharaglow]: executing diffoscope
+[2023-07-12 11:30:26] INFO root fetch - processPackages [pharaglow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharaglow-0.9.0.tar.gz tmp/pharaglow-0.9.3.tar.gz --markdown 20230712/p/pharaglow/0.9.0-0.9.3/diff.md --exclude *.pyd
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core-athena]: executing diffoscope
+[2023-07-12 11:30:26] INFO root fetch - processPackages [soda-core-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-athena-3.0.8.tar.gz tmp/soda-core-athena-3.0.9.tar.gz --markdown 20230712/s/soda-core-athena/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:26] INFO root fetch - processPackages [vban-cmd]: executing diffoscope
+[2023-07-12 11:30:26] INFO root fetch - processPackages [vban-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vban_cmd-2.3.1.tar.gz tmp/vban_cmd-2.3.2.tar.gz --markdown 20230712/v/vban-cmd/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-12 11:30:27] INFO root fetch - processPackages [imio.pm.locales]: executing diffoscope
+[2023-07-12 11:30:27] INFO root fetch - processPackages [imio.pm.locales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.pm.locales-4.2b8.tar.gz tmp/imio.pm.locales-4.2b9.tar.gz --markdown 20230712/i/imio.pm.locales/4.2b8-4.2b9/diff.md --exclude *.pyd
+[2023-07-12 11:30:28] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 11:30:28] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 11:30:28] INFO root fetch - processPackages [nwebclient]: Start processing: soda-core-db2
+[2023-07-12 11:30:28] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 11:30:28] INFO root fetch - processPackages [soda-core-db2]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:28] INFO root fetch - processPackages [soda-core-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-bigquery-3.0.8.tar.gz]
+[2023-07-12 11:30:28] INFO root fetch - processPackages [soda-core-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-bigquery-3.0.9.tar.gz]
+[2023-07-12 11:30:28] INFO root fetch - processPackages [soda-core-bigquery]: Start processing: soda-core-dbt
+[2023-07-12 11:30:28] INFO root fetch - main [MainThread]: End processing [soda-core-bigquery]: success
+[2023-07-12 11:30:28] INFO root fetch - processPackages [soda-core-dbt]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:28] INFO root fetch - processPackages [soda-core-pandas-dask]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-pandas-dask-3.0.44.tar.gz]
+[2023-07-12 11:30:28] INFO root fetch - processPackages [soda-core-pandas-dask]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-pandas-dask-3.0.45.tar.gz]
+[2023-07-12 11:30:28] INFO root fetch - processPackages [soda-core-pandas-dask]: Start processing: soda-core-denodo
+[2023-07-12 11:30:28] INFO root fetch - main [MainThread]: End processing [soda-core-pandas-dask]: success
+[2023-07-12 11:30:28] INFO root fetch - processPackages [soda-core-db2]: Downloading https://files.pythonhosted.org/packages/cf/37/a597b2d9882bf907de15f521652bd4a27d0a4d2cd779d42ed944a4c24785/soda-core-db2-3.0.8.tar.gz
+[2023-07-12 11:30:28] INFO root fetch - processPackages [soda-core-denodo]: New version: [3.0.45] Old Version: [3.0.44]
+[2023-07-12 11:30:28] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.3.1.tar.gz]
+[2023-07-12 11:30:28] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.3.2.tar.gz]
+[2023-07-12 11:30:28] INFO root fetch - processPackages [voicemeeter-api]: Start processing: soda-core-dremio
+[2023-07-12 11:30:28] INFO root fetch - main [MainThread]: End processing [voicemeeter-api]: success
+[2023-07-12 11:30:28] INFO root fetch - processPackages [soda-core-dremio]: New version: [3.0.45] Old Version: [3.0.44]
+[2023-07-12 11:30:28] INFO root fetch - processPackages [soda-core-dbt]: Downloading https://files.pythonhosted.org/packages/b4/81/d717b42b2d181db54d17f9080b1ebf3fd88656f33672e17318ad92b65128/soda-core-dbt-3.0.8.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-athena]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-athena-3.0.8.tar.gz]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-athena]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-athena-3.0.9.tar.gz]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-athena]: Start processing: soda-core-duckdb
+[2023-07-12 11:30:29] INFO root fetch - main [MainThread]: End processing [soda-core-athena]: success
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-denodo]: Downloading https://files.pythonhosted.org/packages/43/a4/e990a9af45f10e7ee784914f3212099e050a8f0dd3a2513b93226752f846/soda-core-denodo-3.0.44.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-duckdb]: New version: [3.0.45] Old Version: [3.0.44]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [pharaglow]: Remove: archive file [/home/abi/fetcher/tmp/pharaglow-0.9.0.tar.gz]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [pharaglow]: Remove: archive file [/home/abi/fetcher/tmp/pharaglow-0.9.3.tar.gz]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [pharaglow]: Start processing: soda-core-mysql
+[2023-07-12 11:30:29] INFO root fetch - main [MainThread]: End processing [pharaglow]: success
+[2023-07-12 11:30:29] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban_cmd-2.3.1.tar.gz]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban_cmd-2.3.2.tar.gz]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [vban-cmd]: Start processing: soda-core-oracle
+[2023-07-12 11:30:29] INFO root fetch - main [MainThread]: End processing [vban-cmd]: success
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-dremio]: Downloading https://files.pythonhosted.org/packages/a2/ab/f5a34c7856fe99f63e2daa101aab85431117dc8396386bfe65bed74e96aa/soda-core-dremio-3.0.44.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-mysql]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-oracle]: New version: [3.0.45] Old Version: [3.0.44]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-db2]: Downloading https://files.pythonhosted.org/packages/34/98/b5c9965e5aaff55c01e415bfdbf94d6928c986dc0941d2dd0b7e5ed721a5/soda-core-db2-3.0.9.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_type-16.0.1.0.3.1-py3-none-any.whl.zip]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_type-16.0.1.0.4-py3-none-any.whl.zip]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Start processing: soda-core-postgres
+[2023-07-12 11:30:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-type]: success
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-duckdb]: Downloading https://files.pythonhosted.org/packages/7d/33/4a2c798008bc1bc31728eb65640cc478a7bf40ed385cb7f1a48d9b8454ac/soda-core-duckdb-3.0.44.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-postgres]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-mysql]: Downloading https://files.pythonhosted.org/packages/67/37/2e813c9e73aca3ca4ca3abecbe06d39be03146ca631df59a8a30c1bbbaaf/soda-core-mysql-3.0.8.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-dbt]: Downloading https://files.pythonhosted.org/packages/02/2e/1e299e6ec5cc38613924ff4d11971ccb88b48cfbd1494c14226002978a2b/soda-core-dbt-3.0.9.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-denodo]: Downloading https://files.pythonhosted.org/packages/42/d8/e208baeea82465bdde9c18acc1300510f968578e601d19f3344437750a67/soda-core-denodo-3.0.45.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-oracle]: Downloading https://files.pythonhosted.org/packages/8f/a0/16d1b50a2bdc585aff19cdaf183eab414e02eda88a50917c2e26fdb5f73b/soda-core-oracle-3.0.44.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-db2]: executing diffoscope
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-db2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-db2-3.0.8.tar.gz tmp/soda-core-db2-3.0.9.tar.gz --markdown 20230712/s/soda-core-db2/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-postgres]: Downloading https://files.pythonhosted.org/packages/00/83/c6cf2edda97780f86ea73f6257644fa5507b3c3d004292796f81f11fb251/soda-core-postgres-3.0.8.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-3.0.8.tar.gz]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-3.0.9.tar.gz]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core]: Start processing: soda-core-redshift
+[2023-07-12 11:30:29] INFO root fetch - main [MainThread]: End processing [soda-core]: success
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-dbt]: executing diffoscope
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-dbt-3.0.8.tar.gz tmp/soda-core-dbt-3.0.9.tar.gz --markdown 20230712/s/soda-core-dbt/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-dremio]: Downloading https://files.pythonhosted.org/packages/9f/bf/992c4655eabb20f06e14c551d9ae3bfc36268214e39becfb9e4f9ca5d039/soda-core-dremio-3.0.45.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-redshift]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-denodo]: executing diffoscope
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-denodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-denodo-3.0.44.tar.gz tmp/soda-core-denodo-3.0.45.tar.gz --markdown 20230712/s/soda-core-denodo/3.0.44-3.0.45/diff.md --exclude *.pyd
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-duckdb]: Downloading https://files.pythonhosted.org/packages/d6/a3/6fb9b9c8034eaec4d802bcb3966af2fa8621c04a54f472f110b4a0609722/soda-core-duckdb-3.0.45.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-mysql]: Downloading https://files.pythonhosted.org/packages/cb/7c/c69ede51d2e5532ba25c2582d2a14b80abdb7aebd3546010864ea9949090/soda-core-mysql-3.0.9.tar.gz
+[2023-07-12 11:30:29] INFO root fetch - processPackages [soda-core-oracle]: Downloading https://files.pythonhosted.org/packages/1f/c9/0ae2d94499f7ab0fe5554c76dc6dc7c7640429233aeaebf519cebce3d670/soda-core-oracle-3.0.45.tar.gz
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-dremio]: executing diffoscope
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-dremio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-dremio-3.0.44.tar.gz tmp/soda-core-dremio-3.0.45.tar.gz --markdown 20230712/s/soda-core-dremio/3.0.44-3.0.45/diff.md --exclude *.pyd
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-duckdb]: executing diffoscope
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-duckdb-3.0.44.tar.gz tmp/soda-core-duckdb-3.0.45.tar.gz --markdown 20230712/s/soda-core-duckdb/3.0.44-3.0.45/diff.md --exclude *.pyd
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-redshift]: Downloading https://files.pythonhosted.org/packages/eb/80/bf41c1d5c52e8a244cf1751a26d093fcfaa75056b4d1e8c653b98ca1fa71/soda-core-redshift-3.0.8.tar.gz
+[2023-07-12 11:30:30] INFO root fetch - processPackages [imio.pm.locales]: Remove: archive file [/home/abi/fetcher/tmp/imio.pm.locales-4.2b8.tar.gz]
+[2023-07-12 11:30:30] INFO root fetch - processPackages [imio.pm.locales]: Remove: archive file [/home/abi/fetcher/tmp/imio.pm.locales-4.2b9.tar.gz]
+[2023-07-12 11:30:30] INFO root fetch - processPackages [imio.pm.locales]: Start processing: nwebclient
+[2023-07-12 11:30:30] INFO root fetch - main [MainThread]: End processing [imio.pm.locales]: success
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-postgres]: Downloading https://files.pythonhosted.org/packages/a1/6b/a960615fc0dfd80f3d234245c6acb6a1d35371f761d837e88918309f5274/soda-core-postgres-3.0.9.tar.gz
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-mysql]: executing diffoscope
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-mysql-3.0.8.tar.gz tmp/soda-core-mysql-3.0.9.tar.gz --markdown 20230712/s/soda-core-mysql/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:30] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-oracle]: executing diffoscope
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-oracle-3.0.44.tar.gz tmp/soda-core-oracle-3.0.45.tar.gz --markdown 20230712/s/soda-core-oracle/3.0.44-3.0.45/diff.md --exclude *.pyd
+[2023-07-12 11:30:30] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-postgres]: executing diffoscope
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-postgres-3.0.8.tar.gz tmp/soda-core-postgres-3.0.9.tar.gz --markdown 20230712/s/soda-core-postgres/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:30] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-redshift]: Downloading https://files.pythonhosted.org/packages/d7/15/cfae34fd80c7f606ca592a32640e4821ca4495d6dea3650b5ca36ff6a4c2/soda-core-redshift-3.0.9.tar.gz
+[2023-07-12 11:30:30] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 11:30:30] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-redshift]: executing diffoscope
+[2023-07-12 11:30:30] INFO root fetch - processPackages [soda-core-redshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-redshift-3.0.8.tar.gz tmp/soda-core-redshift-3.0.9.tar.gz --markdown 20230712/s/soda-core-redshift/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-db2]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-db2-3.0.8.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-db2]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-db2-3.0.9.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-db2]: Start processing: Products.PloneMeeting
+[2023-07-12 11:30:31] INFO root fetch - main [MainThread]: End processing [soda-core-db2]: success
+[2023-07-12 11:30:31] INFO root fetch - processPackages [Products.PloneMeeting]: New version: [4.2rc9] Old Version: [4.2rc8]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-denodo]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-denodo-3.0.44.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-denodo]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-denodo-3.0.45.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-denodo]: Start processing: soda-core-scientific
+[2023-07-12 11:30:31] INFO root fetch - main [MainThread]: End processing [soda-core-denodo]: success
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-scientific]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [Products.PloneMeeting]: Downloading https://files.pythonhosted.org/packages/c5/27/88c328fff8634a5d92b06394de742157768b7eb70f527ab947c7c5a9214b/Products.PloneMeeting-4.2rc8.tar.gz
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-dbt]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-dbt-3.0.8.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-dbt]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-dbt-3.0.9.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-dbt]: Start processing: soda-core-snowflake
+[2023-07-12 11:30:31] INFO root fetch - main [MainThread]: End processing [soda-core-dbt]: success
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-snowflake]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-dremio]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-dremio-3.0.44.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-dremio]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-dremio-3.0.45.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-dremio]: Start processing: PyMysqlTools
+[2023-07-12 11:30:31] INFO root fetch - main [MainThread]: End processing [soda-core-dremio]: success
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-scientific]: Downloading https://files.pythonhosted.org/packages/59/6c/287d459795c4eee39f41e1846a66d53357b86d653176de6c809e80b6924d/soda-core-scientific-3.0.8.tar.gz
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-mysql]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-mysql-3.0.8.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-mysql]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-mysql-3.0.9.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-mysql]: Start processing: dpmt
+[2023-07-12 11:30:31] INFO root fetch - main [MainThread]: End processing [soda-core-mysql]: success
+[2023-07-12 11:30:31] INFO root fetch - processPackages [PyMysqlTools]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-duckdb-3.0.44.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-duckdb-3.0.45.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-duckdb]: Start processing: soda-core-spark
+[2023-07-12 11:30:31] INFO root fetch - main [MainThread]: End processing [soda-core-duckdb]: success
+[2023-07-12 11:30:31] WARNING root fetch - processPackages [dpmt]: Skipping, unable to determine old version
+[2023-07-12 11:30:31] INFO root fetch - processPackages [dpmt]: Start processing: pso2keras
+[2023-07-12 11:30:31] INFO root fetch - main [MainThread]: End processing [dpmt] error
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-spark]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-oracle]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-oracle-3.0.44.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-oracle]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-oracle-3.0.45.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-oracle]: Start processing: soda-core-spark-df
+[2023-07-12 11:30:31] INFO root fetch - main [MainThread]: End processing [soda-core-oracle]: success
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-snowflake]: Downloading https://files.pythonhosted.org/packages/9c/78/1f19b777cd80a2e6eec0d407a9c90b97e2c31cbbe21b75b65967af94faab/soda-core-snowflake-3.0.8.tar.gz
+[2023-07-12 11:30:31] WARNING root fetch - processPackages [pso2keras]: Skipping, unable to determine old version
+[2023-07-12 11:30:31] INFO root fetch - processPackages [pso2keras]: Start processing: soda-core-sqlserver
+[2023-07-12 11:30:31] INFO root fetch - main [MainThread]: End processing [pso2keras] error
+[2023-07-12 11:30:31] INFO root fetch - processPackages [PyMysqlTools]: Downloading https://files.pythonhosted.org/packages/56/e7/b1b42c6ad657ca5a13016dfa3e2f47c15440309ad2a9e1b4616e6228a957/PyMysqlTools-0.6.1.tar.gz
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-postgres]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-postgres-3.0.8.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-postgres]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-postgres-3.0.9.tar.gz]
+[2023-07-12 11:30:31] INFO root fetch - processPackages [soda-core-postgres]: Start processing: soda-core-trino
+[2023-07-12 11:30:31] INFO root fetch - main [MainThread]: End processing [soda-core-postgres]: success
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-sqlserver]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-spark-df]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-trino]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-scientific]: Downloading https://files.pythonhosted.org/packages/a6/c5/00f7ebbf90762f8c0d800a3809e341f5e3d35e511cbfbe556dfe1414de1f/soda-core-scientific-3.0.9.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-redshift]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-redshift-3.0.8.tar.gz]
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-redshift]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-redshift-3.0.9.tar.gz]
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-redshift]: Start processing: pytest-testmon
+[2023-07-12 11:30:32] INFO root fetch - main [MainThread]: End processing [soda-core-redshift]: success
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-spark]: Downloading https://files.pythonhosted.org/packages/a8/0e/bad258dddbf7a38722ea6c74f08dd973da1647f27b32da3157606bbf137a/soda-core-spark-3.0.8.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [pytest-testmon]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-sqlserver]: Downloading https://files.pythonhosted.org/packages/a4/54/ce47aaf5d0bd2eebba8525458956cb695d9ced9f6fa14004506858fd0a6a/soda-core-sqlserver-3.0.8.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 11:30:32] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 11:30:32] INFO root fetch - processPackages [nwebclient]: Start processing: soda-core-vertica
+[2023-07-12 11:30:32] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-spark-df]: Downloading https://files.pythonhosted.org/packages/be/6a/5804a64c7d302109de04ae5456dd76027b4ab3485da5b0720cebb1547d40/soda-core-spark-df-3.0.8.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-scientific]: executing diffoscope
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-scientific]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-scientific-3.0.8.tar.gz tmp/soda-core-scientific-3.0.9.tar.gz --markdown 20230712/s/soda-core-scientific/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-trino]: Downloading https://files.pythonhosted.org/packages/dc/f9/d702aa2338c20541f66a53ca0f9fa033e166cd7aedd7a772b398a7f6b3cc/soda-core-trino-3.0.8.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [PyMysqlTools]: Downloading https://files.pythonhosted.org/packages/6a/e9/57315d32b8c0ea05918acc0f1c86cec78a4618f9fddcf9ed336f7f8a0268/PyMysqlTools-0.6.2.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-vertica]: New version: [3.0.45] Old Version: [3.0.44]
+[2023-07-12 11:30:32] INFO root fetch - processPackages [Products.PloneMeeting]: Downloading https://files.pythonhosted.org/packages/75/9a/768e08c24d0dc476680b9a14f7cbe6721b3eb4e11e322f043eaa7eff6cd7/Products.PloneMeeting-4.2rc9.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [pytest-testmon]: Downloading https://files.pythonhosted.org/packages/8b/3d/5b490b8ad6778783cf4fc216cbda5a99356910f46ba1c89be3b150c222b4/pytest-testmon-2.0.8.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-snowflake]: Downloading https://files.pythonhosted.org/packages/c9/c3/a595b0f9d1b6ff14117577f877dfe8bad50dd0fe957ccfe4796692825814/soda-core-snowflake-3.0.9.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [PyMysqlTools]: executing diffoscope
+[2023-07-12 11:30:32] INFO root fetch - processPackages [PyMysqlTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMysqlTools-0.6.1.tar.gz tmp/PyMysqlTools-0.6.2.tar.gz --markdown 20230712/P/PyMysqlTools/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-sqlserver]: Downloading https://files.pythonhosted.org/packages/75/14/26c20bb42caf2af42ed4ad0aa71462c101bc55b75ddb64527089a672f8c9/soda-core-sqlserver-3.0.9.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-vertica]: Downloading https://files.pythonhosted.org/packages/44/9a/848aaac09e59bb4297754f8f38a7e7e2800d5051dd05ed90dcf16680f1a2/soda-core-vertica-3.0.44.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-spark]: Downloading https://files.pythonhosted.org/packages/e0/7e/75c1a697b8ee157f8a2a539e09cbaee0b668a4047a9e62e2d2bcb10c3fac/soda-core-spark-3.0.9.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-trino]: Downloading https://files.pythonhosted.org/packages/f9/3e/ed6b03fa62335ddf1266a09ac2efd1193b1fdce27b211edd40b67c66f536/soda-core-trino-3.0.9.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-spark-df]: Downloading https://files.pythonhosted.org/packages/fd/8a/8527f19a4e1290c7c69795265f63aeefcc81e7584160881237afcd76fe10/soda-core-spark-df-3.0.9.tar.gz
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-sqlserver]: executing diffoscope
+[2023-07-12 11:30:32] INFO root fetch - processPackages [soda-core-sqlserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-sqlserver-3.0.8.tar.gz tmp/soda-core-sqlserver-3.0.9.tar.gz --markdown 20230712/s/soda-core-sqlserver/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:32] INFO root fetch - processPackages [pytest-testmon]: Downloading https://files.pythonhosted.org/packages/da/b9/eb1c590043b3658381987ce32728500d5854cc00c1a4a85060727faba1c9/pytest-testmon-2.0.9.tar.gz
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-spark]: executing diffoscope
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-spark-3.0.8.tar.gz tmp/soda-core-spark-3.0.9.tar.gz --markdown 20230712/s/soda-core-spark/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-trino]: executing diffoscope
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-trino-3.0.8.tar.gz tmp/soda-core-trino-3.0.9.tar.gz --markdown 20230712/s/soda-core-trino/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-spark-df]: executing diffoscope
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-spark-df]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-spark-df-3.0.8.tar.gz tmp/soda-core-spark-df-3.0.9.tar.gz --markdown 20230712/s/soda-core-spark-df/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-vertica]: Downloading https://files.pythonhosted.org/packages/b7/67/6591615fc53ba7a5a75b4c4c534f494395ecff1a347012b48b8e7d05689b/soda-core-vertica-3.0.45.tar.gz
+[2023-07-12 11:30:33] INFO root fetch - processPackages [pytest-testmon]: executing diffoscope
+[2023-07-12 11:30:33] INFO root fetch - processPackages [pytest-testmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-testmon-2.0.8.tar.gz tmp/pytest-testmon-2.0.9.tar.gz --markdown 20230712/p/pytest-testmon/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-snowflake]: executing diffoscope
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-snowflake-3.0.8.tar.gz tmp/soda-core-snowflake-3.0.9.tar.gz --markdown 20230712/s/soda-core-snowflake/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-scientific]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-scientific-3.0.8.tar.gz]
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-scientific]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-scientific-3.0.9.tar.gz]
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-scientific]: Start processing: sqlalchemy-iris
+[2023-07-12 11:30:33] INFO root fetch - main [MainThread]: End processing [soda-core-scientific]: success
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-vertica]: executing diffoscope
+[2023-07-12 11:30:33] INFO root fetch - processPackages [soda-core-vertica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-vertica-3.0.44.tar.gz tmp/soda-core-vertica-3.0.45.tar.gz --markdown 20230712/s/soda-core-vertica/3.0.44-3.0.45/diff.md --exclude *.pyd
+[2023-07-12 11:30:33] INFO root fetch - processPackages [sqlalchemy-iris]: New version: [0.9.0] Old Version: [0.8.1b1]
+[2023-07-12 11:30:33] INFO root fetch - processPackages [Products.PloneMeeting]: executing diffoscope
+[2023-07-12 11:30:33] INFO root fetch - processPackages [Products.PloneMeeting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.PloneMeeting-4.2rc8.tar.gz tmp/Products.PloneMeeting-4.2rc9.tar.gz --markdown 20230712/P/Products.PloneMeeting/4.2rc8-4.2rc9/diff.md --exclude *.pyd
+[2023-07-12 11:30:33] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/15/8d/b384ea6bb812705d0902f3fdc7b587788309bbac2105d41e1fce25c7b7a8/sqlalchemy-iris-0.8.1b1.tar.gz
+[2023-07-12 11:30:33] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/6d/9b/a8d3294808ea8adf3ed7da5d7d8827d629329b0f250208c0c765f13df6cc/sqlalchemy-iris-0.9.0.tar.gz
+[2023-07-12 11:30:34] INFO root fetch - processPackages [sqlalchemy-iris]: executing diffoscope
+[2023-07-12 11:30:34] INFO root fetch - processPackages [sqlalchemy-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-iris-0.8.1b1.tar.gz tmp/sqlalchemy-iris-0.9.0.tar.gz --markdown 20230712/s/sqlalchemy-iris/0.8.1b1-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 11:30:34] INFO root fetch - processPackages [PyMysqlTools]: Remove: archive file [/home/abi/fetcher/tmp/PyMysqlTools-0.6.1.tar.gz]
+[2023-07-12 11:30:34] INFO root fetch - processPackages [PyMysqlTools]: Remove: archive file [/home/abi/fetcher/tmp/PyMysqlTools-0.6.2.tar.gz]
+[2023-07-12 11:30:34] INFO root fetch - processPackages [PyMysqlTools]: Start processing: pybi-next
+[2023-07-12 11:30:34] INFO root fetch - main [MainThread]: End processing [PyMysqlTools]: success
+[2023-07-12 11:30:34] INFO root fetch - processPackages [pybi-next]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-12 11:30:34] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/95/5f/31a3999637cb1a2556870c755b1dc2b87d914de61bc5e048d0e46f9f72cb/pybi-next-0.4.8.tar.gz
+[2023-07-12 11:30:34] INFO root fetch - processPackages [soda-core-sqlserver]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-sqlserver-3.0.8.tar.gz]
+[2023-07-12 11:30:34] INFO root fetch - processPackages [soda-core-sqlserver]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-sqlserver-3.0.9.tar.gz]
+[2023-07-12 11:30:34] INFO root fetch - processPackages [soda-core-sqlserver]: Start processing: odoo-addon-sale-cancel-reason
+[2023-07-12 11:30:34] INFO root fetch - main [MainThread]: End processing [soda-core-sqlserver]: success
+[2023-07-12 11:30:34] INFO root fetch - processPackages [soda-core-spark-df]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-spark-df-3.0.8.tar.gz]
+[2023-07-12 11:30:34] INFO root fetch - processPackages [soda-core-spark-df]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-spark-df-3.0.9.tar.gz]
+[2023-07-12 11:30:34] INFO root fetch - main [MainThread]: End processing [soda-core-spark-df]: success
+[2023-07-12 11:30:34] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-07-12 11:30:34] INFO root fetch - processPackages [soda-core-trino]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-trino-3.0.8.tar.gz]
+[2023-07-12 11:30:34] INFO root fetch - processPackages [soda-core-trino]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-trino-3.0.9.tar.gz]
+[2023-07-12 11:30:34] INFO root fetch - main [MainThread]: End processing [soda-core-trino]: success
+[2023-07-12 11:30:35] INFO root fetch - processPackages [soda-core-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-snowflake-3.0.8.tar.gz]
+[2023-07-12 11:30:35] INFO root fetch - processPackages [soda-core-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-snowflake-3.0.9.tar.gz]
+[2023-07-12 11:30:35] INFO root fetch - main [MainThread]: End processing [soda-core-snowflake]: success
+[2023-07-12 11:30:35] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Downloading https://files.pythonhosted.org/packages/e6/10/3061548c5f4719481981ae0856196db6c9bc4496e4a9747f9c8a40cf1e83/odoo_addon_sale_cancel_reason-16.0.1.0.1-py3-none-any.whl
+[2023-07-12 11:30:35] INFO root fetch - processPackages [soda-core-spark]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-spark-3.0.8.tar.gz]
+[2023-07-12 11:30:35] INFO root fetch - processPackages [soda-core-spark]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-spark-3.0.9.tar.gz]
+[2023-07-12 11:30:35] INFO root fetch - main [MainThread]: End processing [soda-core-spark]: success
+[2023-07-12 11:30:35] INFO root fetch - processPackages [pytest-testmon]: Remove: archive file [/home/abi/fetcher/tmp/pytest-testmon-2.0.8.tar.gz]
+[2023-07-12 11:30:35] INFO root fetch - processPackages [pytest-testmon]: Remove: archive file [/home/abi/fetcher/tmp/pytest-testmon-2.0.9.tar.gz]
+[2023-07-12 11:30:35] INFO root fetch - main [MainThread]: End processing [pytest-testmon]: success
+[2023-07-12 11:30:35] INFO root fetch - processPackages [soda-core-vertica]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-vertica-3.0.44.tar.gz]
+[2023-07-12 11:30:35] INFO root fetch - processPackages [soda-core-vertica]: Remove: archive file [/home/abi/fetcher/tmp/soda-core-vertica-3.0.45.tar.gz]
+[2023-07-12 11:30:35] INFO root fetch - main [MainThread]: End processing [soda-core-vertica]: success
+[2023-07-12 11:30:35] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/e1/25/5603567c18ea82933931cbaae53c0ffa5e7221b8df4d5165910f3e4f76e8/pybi-next-0.4.9.tar.gz
+[2023-07-12 11:30:35] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Downloading https://files.pythonhosted.org/packages/1b/40/23c06206af8a58f8e70b959651e1776fef9a1033a2117638244001a9da5d/odoo_addon_sale_cancel_reason-16.0.1.0.1.1-py3-none-any.whl
+[2023-07-12 11:30:35] INFO root fetch - processPackages [pybi-next]: executing diffoscope
+[2023-07-12 11:30:35] INFO root fetch - processPackages [pybi-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybi-next-0.4.8.tar.gz tmp/pybi-next-0.4.9.tar.gz --markdown 20230712/p/pybi-next/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-12 11:30:35] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: executing diffoscope
+[2023-07-12 11:30:35] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_cancel_reason-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_cancel_reason-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-sale-cancel-reason/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-07-12 11:30:35] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.8.1b1.tar.gz]
+[2023-07-12 11:30:35] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.9.0.tar.gz]
+[2023-07-12 11:30:35] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
+[2023-07-12 11:30:36] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_cancel_reason-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-12 11:30:36] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_cancel_reason-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-12 11:30:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-cancel-reason]: success
+[2023-07-12 11:30:38] INFO root fetch - processPackages [Products.PloneMeeting]: Remove: archive file [/home/abi/fetcher/tmp/Products.PloneMeeting-4.2rc8.tar.gz]
+[2023-07-12 11:30:38] INFO root fetch - processPackages [Products.PloneMeeting]: Remove: archive file [/home/abi/fetcher/tmp/Products.PloneMeeting-4.2rc9.tar.gz]
+[2023-07-12 11:30:38] INFO root fetch - main [MainThread]: End processing [Products.PloneMeeting]: success
+[2023-07-12 11:30:41] INFO root fetch - processPackages [pybi-next]: Remove: archive file [/home/abi/fetcher/tmp/pybi-next-0.4.8.tar.gz]
+[2023-07-12 11:30:41] INFO root fetch - processPackages [pybi-next]: Remove: archive file [/home/abi/fetcher/tmp/pybi-next-0.4.9.tar.gz]
+[2023-07-12 11:30:41] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
+[2023-07-12 11:30:41] INFO root fetch - main [MainThread]: Store serial: [18858166]
