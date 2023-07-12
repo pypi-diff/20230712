@@ -13360,3 +13360,69 @@
 [2023-07-12 08:28:01] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230712.tar.gz]
 [2023-07-12 08:28:01] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-12 08:28:01] INFO root fetch - main [MainThread]: Store serial: [18856418]
+[2023-07-12 08:33:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856418]
+[2023-07-12 08:33:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-12 08:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lokzzpylib
+[2023-07-12 08:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CodeToCAD
+[2023-07-12 08:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KDEpy
+[2023-07-12 08:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crowdstrike-falconpy
+[2023-07-12 08:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyikarus
+[2023-07-12 08:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-python-sdk-iot
+[2023-07-12 08:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langsmith
+[2023-07-12 08:33:14] INFO root fetch - processPackages [aliyun-python-sdk-iot]: New version: [8.9.0] Old Version: [8.8.0]
+[2023-07-12 08:33:14] INFO root fetch - processPackages [pyikarus]: New version: [0.3.3.dev20230712063058] Old Version: [0.3.3.dev20230620135835]
+[2023-07-12 08:33:14] INFO root fetch - processPackages [crowdstrike-falconpy]: New version: [1.3.0.dev4] Old Version: [1.3.0.dev3]
+[2023-07-12 08:33:14] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev9] Old Version: [0.2.dev8]
+[2023-07-12 08:33:14] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1689143387]
+[2023-07-12 08:33:14] INFO root fetch - processPackages [KDEpy]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-12 08:33:14] INFO root fetch - processPackages [langsmith]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-12 08:33:14] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/e2/59/899dd08722b859f214b6eee5335384aa5e1bb485140945e6cb65257098a5/lokzzpylib-0.2.dev8.tar.gz
+[2023-07-12 08:33:14] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/12/fb/ae0a6aea0bfa6d5696881746990d2efedc01ae8fc3d609991d8c2af8c8be/crowdstrike-falconpy-1.3.0.dev3.tar.gz
+[2023-07-12 08:33:14] INFO root fetch - processPackages [KDEpy]: Downloading https://files.pythonhosted.org/packages/74/5a/67f36c7bfc064c0997b6238a9c5e0b48734eef9b09d4f083ba5c2c638bfd/KDEpy-1.1.3.tar.gz
+[2023-07-12 08:33:14] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/eb/b9/23dde47ce6995e240f2082638658a2a04f812466b17ca9f7929220558087/CodeToCAD-0.2.1689143387.tar.gz
+[2023-07-12 08:33:14] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/c8/00/a5840b816425873836506512f79671fde307f5805565296454c14b9a7174/pyikarus-0.3.3.dev20230620135835.tar.gz
+[2023-07-12 08:33:14] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/0b/55/91c382244521bbd2ee24558314e07f4d5ae2efa2e5b720704ef6a9a9c94b/langsmith-0.0.3.tar.gz
+[2023-07-12 08:33:14] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2023-07-12 08:33:14] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-12 08:33:14] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev8.tar.gz tmp/lokzzpylib-0.2.dev9.tar.gz --markdown 20230712/l/lokzzpylib/0.2.dev8-0.2.dev9/diff.md --exclude *.pyd
+[2023-07-12 08:33:14] INFO root fetch - processPackages [aliyun-python-sdk-iot]: Downloading https://files.pythonhosted.org/packages/34/ed/7b5cdeb453167f2318bdbbda434d91d0b3325e8783bcea932a7f56b79179/aliyun-python-sdk-iot-8.8.0.tar.gz
+[2023-07-12 08:33:14] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/4b/b2/74dbb80587274c6523382845cfbab66742cc350fec8ccb9b40e92f23682f/langsmith-0.0.4.tar.gz
+[2023-07-12 08:33:14] INFO root fetch - processPackages [KDEpy]: Downloading https://files.pythonhosted.org/packages/6e/70/6061d2deb73d94a66a40cbf00d28079fed732b908cf2c3e86bc7963ce19d/KDEpy-1.1.4.tar.gz
+[2023-07-12 08:33:15] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-07-12 08:33:15] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/e7/10/2764ba7bfefa1e1040d04055585be788ff8c05a389144aeae01e32da49f6/crowdstrike-falconpy-1.3.0.dev4.tar.gz
+[2023-07-12 08:33:15] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2023-07-12 08:33:15] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.0.3.tar.gz tmp/langsmith-0.0.4.tar.gz --markdown 20230712/l/langsmith/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-12 08:33:15] INFO root fetch - processPackages [KDEpy]: executing diffoscope
+[2023-07-12 08:33:15] INFO root fetch - processPackages [KDEpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KDEpy-1.1.3.tar.gz tmp/KDEpy-1.1.4.tar.gz --markdown 20230712/K/KDEpy/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-12 08:33:15] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-07-12 08:33:15] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1689143387.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230712/C/CodeToCAD/0.2.1689143387-0.2.6/diff.md --exclude *.pyd
+[2023-07-12 08:33:15] INFO root fetch - processPackages [aliyun-python-sdk-iot]: Downloading https://files.pythonhosted.org/packages/d1/e3/04259d9d5b1e68e55ba6ba2893f559449dd3a4550a842e833a102b4048d5/aliyun-python-sdk-iot-8.9.0.tar.gz
+[2023-07-12 08:33:15] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/be/0c/79b2ffa53d1c90eb0d1bf638944392b27d0c6bff81fcadd9da7841464b8c/pyikarus-0.3.3.dev20230712063058.tar.gz
+[2023-07-12 08:33:15] INFO root fetch - processPackages [crowdstrike-falconpy]: executing diffoscope
+[2023-07-12 08:33:15] INFO root fetch - processPackages [crowdstrike-falconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-1.3.0.dev3.tar.gz tmp/crowdstrike-falconpy-1.3.0.dev4.tar.gz --markdown 20230712/c/crowdstrike-falconpy/1.3.0.dev3-1.3.0.dev4/diff.md --exclude *.pyd
+[2023-07-12 08:33:15] INFO root fetch - processPackages [aliyun-python-sdk-iot]: executing diffoscope
+[2023-07-12 08:33:15] INFO root fetch - processPackages [aliyun-python-sdk-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-iot-8.8.0.tar.gz tmp/aliyun-python-sdk-iot-8.9.0.tar.gz --markdown 20230712/a/aliyun-python-sdk-iot/8.8.0-8.9.0/diff.md --exclude *.pyd
+[2023-07-12 08:33:15] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev8.tar.gz]
+[2023-07-12 08:33:15] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2023-07-12 08:33:15] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-12 08:33:15] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-07-12 08:33:15] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.3.dev20230620135835.tar.gz tmp/pyikarus-0.3.3.dev20230712063058.tar.gz --markdown 20230712/p/pyikarus/0.3.3.dev20230620135835-0.3.3.dev20230712063058/diff.md --exclude *.pyd
+[2023-07-12 08:33:16] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.3.tar.gz]
+[2023-07-12 08:33:16] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.4.tar.gz]
+[2023-07-12 08:33:16] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2023-07-12 08:33:16] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1689143387.tar.gz]
+[2023-07-12 08:33:16] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-07-12 08:33:16] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-07-12 08:33:16] INFO root fetch - processPackages [KDEpy]: Remove: archive file [/home/abi/fetcher/tmp/KDEpy-1.1.3.tar.gz]
+[2023-07-12 08:33:16] INFO root fetch - processPackages [KDEpy]: Remove: archive file [/home/abi/fetcher/tmp/KDEpy-1.1.4.tar.gz]
+[2023-07-12 08:33:16] INFO root fetch - main [MainThread]: End processing [KDEpy]: success
+[2023-07-12 08:33:17] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev3.tar.gz]
+[2023-07-12 08:33:17] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev4.tar.gz]
+[2023-07-12 08:33:17] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy]: success
+[2023-07-12 08:33:18] INFO root fetch - processPackages [pyikarus]: Remove: archive file [/home/abi/fetcher/tmp/pyikarus-0.3.3.dev20230620135835.tar.gz]
+[2023-07-12 08:33:18] INFO root fetch - processPackages [pyikarus]: Remove: archive file [/home/abi/fetcher/tmp/pyikarus-0.3.3.dev20230712063058.tar.gz]
+[2023-07-12 08:33:18] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-07-12 08:33:18] INFO root fetch - processPackages [aliyun-python-sdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-iot-8.8.0.tar.gz]
+[2023-07-12 08:33:18] INFO root fetch - processPackages [aliyun-python-sdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-iot-8.9.0.tar.gz]
+[2023-07-12 08:33:18] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-iot]: success
+[2023-07-12 08:33:18] INFO root fetch - main [MainThread]: Store serial: [18856449]
