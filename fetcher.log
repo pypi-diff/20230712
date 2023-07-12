@@ -10359,3 +10359,84 @@
 [2023-07-12 04:42:51] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
 [2023-07-12 04:42:51] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
 [2023-07-12 04:42:51] INFO root fetch - main [MainThread]: Store serial: [18854950]
+[2023-07-12 04:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18854950]
+[2023-07-12 04:47:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-12 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-26
+[2023-07-12 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lycoris-lora
+[2023-07-12 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naif-eop-high-prec
+[2023-07-12 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ExtractEmailAttachments
+[2023-07-12 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tahoma-gpt
+[2023-07-12 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antchain-bot
+[2023-07-12 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c65faucet
+[2023-07-12 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-plus-25
+[2023-07-12 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easycompletion
+[2023-07-12 04:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: antchain-das
+[2023-07-12 04:48:00] INFO root fetch - processPackages [c65faucet]: New version: [1.0.58] Old Version: [1.0.57]
+[2023-07-12 04:48:00] WARNING root fetch - processPackages [tahoma-gpt]: Skipping, unable to determine old version
+[2023-07-12 04:48:00] INFO root fetch - main [MainThread]: End processing [tahoma-gpt] error
+[2023-07-12 04:48:00] WARNING root fetch - processPackages [ExtractEmailAttachments]: Skipping, unable to determine old version
+[2023-07-12 04:48:00] INFO root fetch - main [MainThread]: End processing [ExtractEmailAttachments] error
+[2023-07-12 04:48:00] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-12 04:48:00] INFO root fetch - processPackages [lycoris-lora]: New version: [1.8.0.dev9] Old Version: [1.8.0.dev8]
+[2023-07-12 04:48:00] INFO root fetch - processPackages [antchain-bot]: New version: [1.8.95] Old Version: [1.8.94]
+[2023-07-12 04:48:00] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.83]
+[2023-07-12 04:48:00] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.84]
+[2023-07-12 04:48:00] INFO root fetch - processPackages [easycompletion]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-12 04:48:00] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/de/80/86773036f7f51825e38b128d2eb02f8b4a73bd937ef34e8ec0fffdea719e/lycoris_lora-1.8.0.dev8.tar.gz
+[2023-07-12 04:48:00] INFO root fetch - processPackages [antchain-das]: New version: [1.1.6] Old Version: [1.1.57]
+[2023-07-12 04:48:00] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-12 04:48:00] INFO root fetch - processPackages [c65faucet]: Downloading https://files.pythonhosted.org/packages/27/4f/110bf38f8f7174290b8ee461a801092eee918e6c6f57586f15f3d386ca2e/c65faucet-1.0.57.tar.gz
+[2023-07-12 04:48:00] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/2c/08/128b8bdc27c05d8d1aa214f3516fb8ff4fc14cebf0ea0e76ab8ec9c1f621/cdk8s-plus-26-2.4.84.tar.gz
+[2023-07-12 04:48:00] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/8e/54/6ca8ccadab776f4a1e9a4b91925039ec82b4f363be0ae10ceeafebdc8b51/antchain_bot-1.8.94.tar.gz
+[2023-07-12 04:48:00] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/99/f6/e736bb695202a428c11d086f1bb81e6d04a4b995c418f8459fd98ade0f14/cdk8s-plus-25-2.8.83.tar.gz
+[2023-07-12 04:48:00] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/4e/59/91bd93c177cac029a841d0f2af23584c76de33aa9c661f863728e0c0128d/antchain_das-1.1.57.tar.gz
+[2023-07-12 04:48:00] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/8e/88/ab9e8edeb6c4eed1c6982414c52e03fba133a8302ce09fd11a3de62f2875/easycompletion-0.1.5.tar.gz
+[2023-07-12 04:48:00] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/33/f8/dbedfb5d14ce42cc250e4b1bd8edc9b569669b04696eeb887792654467d4/lycoris_lora-1.8.0.dev9.tar.gz
+[2023-07-12 04:48:00] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-12 04:48:00] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-12 04:48:00] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/52/a1/60aadc91c5035e9fcb9197a113ce192b65a2a5347c1a4ea61f7277ea3301/antchain_bot-1.8.95.tar.gz
+[2023-07-12 04:48:01] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/90/e0/8a78d1e4a4b9728ea1285749877f10a4c328a53514b1ca29c03ad7bf2696/easycompletion-0.1.6.tar.gz
+[2023-07-12 04:48:01] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-12 04:48:01] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-12 04:48:01] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.84.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230712/c/cdk8s-plus-26/2.4.84-2.4.9/diff.md --exclude *.pyd
+[2023-07-12 04:48:01] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-07-12 04:48:01] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-1.8.0.dev8.tar.gz tmp/lycoris_lora-1.8.0.dev9.tar.gz --markdown 20230712/l/lycoris-lora/1.8.0.dev8-1.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-12 04:48:01] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-12 04:48:01] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.83.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230712/c/cdk8s-plus-25/2.8.83-2.8.9/diff.md --exclude *.pyd
+[2023-07-12 04:48:01] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/03/f4/1f952e12e964abe29313d9437d8acfe7610a263b57f372ae21b8ce63fe08/antchain_das-1.1.6.tar.gz
+[2023-07-12 04:48:01] INFO root fetch - processPackages [antchain-bot]: executing diffoscope
+[2023-07-12 04:48:01] INFO root fetch - processPackages [antchain-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bot-1.8.94.tar.gz tmp/antchain_bot-1.8.95.tar.gz --markdown 20230712/a/antchain-bot/1.8.94-1.8.95/diff.md --exclude *.pyd
+[2023-07-12 04:48:01] INFO root fetch - processPackages [antchain-das]: executing diffoscope
+[2023-07-12 04:48:01] INFO root fetch - processPackages [antchain-das]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_das-1.1.57.tar.gz tmp/antchain_das-1.1.6.tar.gz --markdown 20230712/a/antchain-das/1.1.57-1.1.6/diff.md --exclude *.pyd
+[2023-07-12 04:48:01] INFO root fetch - processPackages [easycompletion]: executing diffoscope
+[2023-07-12 04:48:01] INFO root fetch - processPackages [easycompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycompletion-0.1.5.tar.gz tmp/easycompletion-0.1.6.tar.gz --markdown 20230712/e/easycompletion/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-12 04:48:01] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-12 04:48:01] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230712/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-12 04:48:02] INFO root fetch - processPackages [c65faucet]: Downloading https://files.pythonhosted.org/packages/5b/28/8b5e3518d6bab49c6d45d708133768d0defb9dabbbd2c340cc1e1c272830/c65faucet-1.0.58.tar.gz
+[2023-07-12 04:48:02] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev8.tar.gz]
+[2023-07-12 04:48:02] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev9.tar.gz]
+[2023-07-12 04:48:02] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-07-12 04:48:02] INFO root fetch - processPackages [c65faucet]: executing diffoscope
+[2023-07-12 04:48:02] INFO root fetch - processPackages [c65faucet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c65faucet-1.0.57.tar.gz tmp/c65faucet-1.0.58.tar.gz --markdown 20230712/c/c65faucet/1.0.57-1.0.58/diff.md --exclude *.pyd
+[2023-07-12 04:48:02] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.83.tar.gz]
+[2023-07-12 04:48:02] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-12 04:48:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-12 04:48:02] INFO root fetch - processPackages [antchain-das]: Remove: archive file [/home/abi/fetcher/tmp/antchain_das-1.1.57.tar.gz]
+[2023-07-12 04:48:02] INFO root fetch - processPackages [antchain-das]: Remove: archive file [/home/abi/fetcher/tmp/antchain_das-1.1.6.tar.gz]
+[2023-07-12 04:48:02] INFO root fetch - main [MainThread]: End processing [antchain-das]: success
+[2023-07-12 04:48:02] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.84.tar.gz]
+[2023-07-12 04:48:02] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-12 04:48:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-12 04:48:02] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.1.5.tar.gz]
+[2023-07-12 04:48:02] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.1.6.tar.gz]
+[2023-07-12 04:48:02] INFO root fetch - main [MainThread]: End processing [easycompletion]: success
+[2023-07-12 04:48:02] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.8.94.tar.gz]
+[2023-07-12 04:48:02] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.8.95.tar.gz]
+[2023-07-12 04:48:02] INFO root fetch - main [MainThread]: End processing [antchain-bot]: success
+[2023-07-12 04:48:04] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-12 04:48:04] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-12 04:48:04] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-12 04:48:04] INFO root fetch - processPackages [c65faucet]: Remove: archive file [/home/abi/fetcher/tmp/c65faucet-1.0.57.tar.gz]
+[2023-07-12 04:48:04] INFO root fetch - processPackages [c65faucet]: Remove: archive file [/home/abi/fetcher/tmp/c65faucet-1.0.58.tar.gz]
+[2023-07-12 04:48:04] INFO root fetch - main [MainThread]: End processing [c65faucet]: success
+[2023-07-12 04:48:04] INFO root fetch - main [MainThread]: Store serial: [18854987]
