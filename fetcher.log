@@ -12516,3 +12516,45 @@
 [2023-07-12 07:14:43] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230711-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-12 07:14:43] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-07-12 07:14:43] INFO root fetch - main [MainThread]: Store serial: [18856035]
+[2023-07-12 07:19:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856035]
+[2023-07-12 07:19:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-12 07:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnc-bench
+[2023-07-12 07:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiokeydb
+[2023-07-12 07:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidpe-rift-pipe
+[2023-07-12 07:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpcg
+[2023-07-12 07:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: problem-bank-scripts
+[2023-07-12 07:19:56] INFO root fetch - processPackages [onnc-bench]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-07-12 07:19:56] INFO root fetch - processPackages [problem-bank-scripts]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-12 07:19:56] WARNING root fetch - processPackages [gpcg]: Skipping, unable to determine old version
+[2023-07-12 07:19:56] INFO root fetch - main [MainThread]: End processing [gpcg] error
+[2023-07-12 07:19:56] INFO root fetch - processPackages [aiokeydb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 07:19:56] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230712] Old Version: [0.5.4.dev20230711]
+[2023-07-12 07:19:56] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/c1/3d/db716177db3fb0f6d586f24b617a87439f898e9d3b524716ae6062fb18b0/rapidpe_rift_pipe-0.5.4.dev20230711.tar.gz
+[2023-07-12 07:19:57] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/c1/44/bdab2641c418f30cb6d425ff7a66f024402a14b3ea2384ada2ffae828e10/problem_bank_scripts-0.7.1.tar.gz
+[2023-07-12 07:19:57] INFO root fetch - processPackages [onnc-bench]: Downloading https://files.pythonhosted.org/packages/30/00/37a0142e1fa264fd60672eecd477c0ca6b9935d25177beaee5da9cc87c32/onnc-bench-4.2.0.tar.gz
+[2023-07-12 07:19:57] INFO root fetch - processPackages [aiokeydb]: Downloading https://files.pythonhosted.org/packages/20/25/21f8103754ee16f18d37a261f6c78ebd5f5ce07634c0270159d5287b3e3e/aiokeydb-0.1.8.tar.gz
+[2023-07-12 07:19:57] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/a9/08/124d4b845e6f21bc8647caf5b96991b70447aabc332f2ee834d657bc6248/rapidpe_rift_pipe-0.5.4.dev20230712.tar.gz
+[2023-07-12 07:19:57] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/52/7c/9d68f170a68fa43349387f27a58b8218e9462e6cc62de5888907f37a7743/problem_bank_scripts-0.8.0.tar.gz
+[2023-07-12 07:19:57] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-12 07:19:57] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230711.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230712.tar.gz --markdown 20230712/r/rapidpe-rift-pipe/0.5.4.dev20230711-0.5.4.dev20230712/diff.md --exclude *.pyd
+[2023-07-12 07:19:57] INFO root fetch - processPackages [aiokeydb]: Downloading https://files.pythonhosted.org/packages/6a/d0/d5b49c43fc0ac44c201063793737833fa0cc1228a7de48a1fa0a08cc708c/aiokeydb-0.1.9.tar.gz
+[2023-07-12 07:19:57] INFO root fetch - processPackages [onnc-bench]: Downloading https://files.pythonhosted.org/packages/2d/1d/7c53f4f8596761ce05d7cbaddeed73fb0f2f375e5c2750c5ad06b3fe2dd3/onnc-bench-4.3.0.tar.gz
+[2023-07-12 07:19:57] INFO root fetch - processPackages [problem-bank-scripts]: executing diffoscope
+[2023-07-12 07:19:57] INFO root fetch - processPackages [problem-bank-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/problem_bank_scripts-0.7.1.tar.gz tmp/problem_bank_scripts-0.8.0.tar.gz --markdown 20230712/p/problem-bank-scripts/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-12 07:19:57] INFO root fetch - processPackages [onnc-bench]: executing diffoscope
+[2023-07-12 07:19:57] INFO root fetch - processPackages [onnc-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnc-bench-4.2.0.tar.gz tmp/onnc-bench-4.3.0.tar.gz --markdown 20230712/o/onnc-bench/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-07-12 07:19:57] INFO root fetch - processPackages [aiokeydb]: executing diffoscope
+[2023-07-12 07:19:57] INFO root fetch - processPackages [aiokeydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokeydb-0.1.8.tar.gz tmp/aiokeydb-0.1.9.tar.gz --markdown 20230712/a/aiokeydb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 07:19:58] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.7.1.tar.gz]
+[2023-07-12 07:19:58] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.8.0.tar.gz]
+[2023-07-12 07:19:58] INFO root fetch - main [MainThread]: End processing [problem-bank-scripts]: success
+[2023-07-12 07:19:58] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230711.tar.gz]
+[2023-07-12 07:19:58] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230712.tar.gz]
+[2023-07-12 07:19:58] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-12 07:19:58] INFO root fetch - processPackages [onnc-bench]: Remove: archive file [/home/abi/fetcher/tmp/onnc-bench-4.2.0.tar.gz]
+[2023-07-12 07:19:58] INFO root fetch - processPackages [onnc-bench]: Remove: archive file [/home/abi/fetcher/tmp/onnc-bench-4.3.0.tar.gz]
+[2023-07-12 07:19:58] INFO root fetch - main [MainThread]: End processing [onnc-bench]: success
+[2023-07-12 07:19:58] INFO root fetch - processPackages [aiokeydb]: Remove: archive file [/home/abi/fetcher/tmp/aiokeydb-0.1.8.tar.gz]
+[2023-07-12 07:19:58] INFO root fetch - processPackages [aiokeydb]: Remove: archive file [/home/abi/fetcher/tmp/aiokeydb-0.1.9.tar.gz]
+[2023-07-12 07:19:58] INFO root fetch - main [MainThread]: End processing [aiokeydb]: success
+[2023-07-12 07:19:58] INFO root fetch - main [MainThread]: Store serial: [18856066]
