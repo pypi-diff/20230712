@@ -11426,3 +11426,57 @@
 [2023-07-12 05:56:06] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev5-py3-none-any.whl.zip]
 [2023-07-12 05:56:06] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-intrastat]: success
 [2023-07-12 05:56:06] INFO root fetch - main [MainThread]: Store serial: [18855502]
+[2023-07-12 06:01:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855502]
+[2023-07-12 06:01:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-12 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapdata
+[2023-07-12 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-serve
+[2023-07-12 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibm-watsonxdata
+[2023-07-12 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-pt-stock-invoicexpress
+[2023-07-12 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-pt-account-invoicexpress
+[2023-07-12 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: actionai
+[2023-07-12 06:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evals-nightly
+[2023-07-12 06:01:16] WARNING root fetch - processPackages [ibm-watsonxdata]: Skipping, unable to determine old version
+[2023-07-12 06:01:16] INFO root fetch - main [MainThread]: End processing [ibm-watsonxdata] error
+[2023-07-12 06:01:16] WARNING root fetch - processPackages [actionai]: Skipping, unable to determine old version
+[2023-07-12 06:01:16] INFO root fetch - main [MainThread]: End processing [actionai] error
+[2023-07-12 06:01:16] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-07-12 06:01:16] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230710] Old Version: [1.0.3.dev20230709]
+[2023-07-12 06:01:16] INFO root fetch - processPackages [mapdata]: New version: [2.9.0] Old Version: [2.8.6]
+[2023-07-12 06:01:16] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-12 06:01:16] INFO root fetch - processPackages [odoo-addon-l10n-pt-stock-invoicexpress]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-07-12 06:01:16] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: Downloading https://files.pythonhosted.org/packages/c8/ef/ec67d7e7225bb248337535a24c6c4edb113e46abb25d45b1b2fe14fcdf4f/odoo_addon_l10n_pt_account_invoicexpress-16.0.1.2.0-py3-none-any.whl
+[2023-07-12 06:01:16] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/2a/0b/b85b2f58c7aedeec9d227463af2df1eebe4e878cb09352e6ac3b64870a5f/evals-nightly-1.0.3.dev20230709.tar.gz
+[2023-07-12 06:01:16] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/5e/a2/9400f9858b92a0aa2626a9b77fa7c1e9b9f7ead786dcfe6a0141440b87ca/mapdata-2.8.6.tar.gz
+[2023-07-12 06:01:16] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-12 06:01:16] INFO root fetch - processPackages [odoo-addon-l10n-pt-stock-invoicexpress]: Downloading https://files.pythonhosted.org/packages/43/a0/3db0010a1f9d3a76704a1f80c8deb3898b97952dadb1c33c031d4ef489cb/odoo_addon_l10n_pt_stock_invoicexpress-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-12 06:01:16] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-12 06:01:16] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/f0/56/d82155a4b997cfc8f8178cf6902c54b869dd44fc64f78a391812de079020/evals-nightly-1.0.3.dev20230710.tar.gz
+[2023-07-12 06:01:16] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: Downloading https://files.pythonhosted.org/packages/9c/c8/9861b8c5958a7d389e13b675288cd57e486961bfec73bbbe30929da1fecd/odoo_addon_l10n_pt_account_invoicexpress-16.0.1.2.0.1-py3-none-any.whl
+[2023-07-12 06:01:16] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/85/12/d1df24c7802fde5678a8bcbb8cb25144f02cf2bcc899a6eabd29c5ab1bad/mapdata-2.9.0.tar.gz
+[2023-07-12 06:01:16] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-12 06:01:16] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230712/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-12 06:01:17] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: executing diffoscope
+[2023-07-12 06:01:17] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_pt_account_invoicexpress-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_pt_account_invoicexpress-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-l10n-pt-account-invoicexpress/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-07-12 06:01:17] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2023-07-12 06:01:17] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-2.8.6.tar.gz tmp/mapdata-2.9.0.tar.gz --markdown 20230712/m/mapdata/2.8.6-2.9.0/diff.md --exclude *.pyd
+[2023-07-12 06:01:17] INFO root fetch - processPackages [odoo-addon-l10n-pt-stock-invoicexpress]: Downloading https://files.pythonhosted.org/packages/69/6b/1f3260faaec4b8928713148c3940770e6a65d7d8d99c3165ea395de400ab/odoo_addon_l10n_pt_stock_invoicexpress-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-12 06:01:17] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-12 06:01:17] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230709.tar.gz tmp/evals-nightly-1.0.3.dev20230710.tar.gz --markdown 20230712/e/evals-nightly/1.0.3.dev20230709-1.0.3.dev20230710/diff.md --exclude *.pyd
+[2023-07-12 06:01:17] INFO root fetch - processPackages [odoo-addon-l10n-pt-stock-invoicexpress]: executing diffoscope
+[2023-07-12 06:01:17] INFO root fetch - processPackages [odoo-addon-l10n-pt-stock-invoicexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_pt_stock_invoicexpress-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_pt_stock_invoicexpress-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-l10n-pt-stock-invoicexpress/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-12 06:01:18] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-2.8.6.tar.gz]
+[2023-07-12 06:01:18] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-2.9.0.tar.gz]
+[2023-07-12 06:01:18] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2023-07-12 06:01:18] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_pt_account_invoicexpress-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-12 06:01:18] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_pt_account_invoicexpress-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-07-12 06:01:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-pt-account-invoicexpress]: success
+[2023-07-12 06:01:18] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-12 06:01:18] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-12 06:01:18] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-12 06:01:18] INFO root fetch - processPackages [odoo-addon-l10n-pt-stock-invoicexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_pt_stock_invoicexpress-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-12 06:01:18] INFO root fetch - processPackages [odoo-addon-l10n-pt-stock-invoicexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_pt_stock_invoicexpress-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-12 06:01:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-pt-stock-invoicexpress]: success
+[2023-07-12 06:01:18] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230709.tar.gz]
+[2023-07-12 06:01:18] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230710.tar.gz]
+[2023-07-12 06:01:18] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-12 06:01:18] INFO root fetch - main [MainThread]: Store serial: [18855525]
