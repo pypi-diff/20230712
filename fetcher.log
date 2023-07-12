@@ -16538,3 +16538,134 @@
 [2023-07-12 10:53:39] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
 [2023-07-12 10:53:39] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
 [2023-07-12 10:53:39] INFO root fetch - main [MainThread]: Store serial: [18857782]
+[2023-07-12 10:58:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857782]
+[2023-07-12 10:58:50] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-12 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitlint-core
+[2023-07-12 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitlint
+[2023-07-12 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telebot-against-war
+[2023-07-12 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bl-hector
+[2023-07-12 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataset
+[2023-07-12 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datazets
+[2023-07-12 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langfuse-python
+[2023-07-12 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-df-notifications
+[2023-07-12 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sydeploy
+[2023-07-12 10:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-purchase-rfq-number
+[2023-07-12 10:58:50] INFO root fetch - processPackages [dataset]: New version: [1.6.2] Old Version: [1.6.0]
+[2023-07-12 10:58:50] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-07-12 10:58:50] INFO root fetch - processPackages [telebot-against-war]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-12 10:58:50] WARNING root fetch - processPackages [langfuse-python]: Skipping, unable to determine old version
+[2023-07-12 10:58:50] WARNING root fetch - processPackages [odoo-addon-purchase-rfq-number]: Skipping, unable to determine old version
+[2023-07-12 10:58:50] INFO root fetch - processPackages [langfuse-python]: Start processing: kadi
+[2023-07-12 10:58:50] INFO root fetch - processPackages [odoo-addon-purchase-rfq-number]: Start processing: pyscomotif
+[2023-07-12 10:58:50] INFO root fetch - main [MainThread]: End processing [langfuse-python] error
+[2023-07-12 10:58:50] INFO root fetch - processPackages [bl-hector]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-12 10:58:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-rfq-number] error
+[2023-07-12 10:58:50] INFO root fetch - processPackages [datazets]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-12 10:58:50] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-12 10:58:50] INFO root fetch - processPackages [sydeploy]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-12 10:58:50] INFO root fetch - processPackages [django-df-notifications]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-12 10:58:50] INFO root fetch - processPackages [pyscomotif]: New version: [0.9.9] Old Version: [0.9.31]
+[2023-07-12 10:58:50] INFO root fetch - processPackages [kadi]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-12 10:58:50] INFO root fetch - processPackages [dataset]: Downloading https://files.pythonhosted.org/packages/0a/4f/44d308fc63c724ec38c70bb0974e7d42e04ce64245b88444dcf888348678/dataset-1.6.0.tar.gz
+[2023-07-12 10:58:50] INFO root fetch - processPackages [telebot-against-war]: Downloading https://files.pythonhosted.org/packages/62/4e/6ca6b54d58d34deebde44d11b848b0f1ad8f9cc2c21ea9c85e43639a2e88/telebot_against_war-0.6.7.tar.gz
+[2023-07-12 10:58:50] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/a1/e6/1abfbb6cbcbe43f16f313021f13fe652760bb50dca1c94e4add9758a9405/sydeploy-0.3.4-py3-none-any.whl
+[2023-07-12 10:58:50] INFO root fetch - processPackages [datazets]: Downloading https://files.pythonhosted.org/packages/04/08/afce50eea70868f4ff167d1326b12faaaa77d77a18127a0feb27eceb8f1b/datazets-0.1.6.tar.gz
+[2023-07-12 10:58:50] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/fc/3d/70a12508cf53a22c45f26d4c863265a43964f3d8c37f51ab039ea0034bcb/bl_hector-0.3.1.tar.gz
+[2023-07-12 10:58:50] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-07-12 10:58:50] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-07-12 10:58:50] INFO root fetch - processPackages [pyscomotif]: Downloading https://files.pythonhosted.org/packages/cc/02/fe0f97f8729ee77a63964e96c1ef953c69ba4e114ca375d02b7211ccbafa/pyscomotif-0.9.31.tar.gz
+[2023-07-12 10:58:50] INFO root fetch - processPackages [django-df-notifications]: Downloading https://files.pythonhosted.org/packages/d2/e5/585616a2a62ebcf9e96343b94c038eff13f962854d4bcda2964dc429a1b2/django-df-notifications-1.1.8.tar.gz
+[2023-07-12 10:58:51] INFO root fetch - processPackages [kadi]: Downloading https://files.pythonhosted.org/packages/3c/13/66ad2967333480e214c9d11d19338d16d5b8eba8c98ce2d7100416b06050/kadi-0.8.1-py3-none-any.whl
+[2023-07-12 10:58:51] WARNING root fetch - processPackages [kadi]: Skipping package: exceeds size limit 16380155>=10485760
+[2023-07-12 10:58:51] INFO root fetch - processPackages [kadi]: Start processing: DLMS-SPODES
+[2023-07-12 10:58:51] INFO root fetch - main [MainThread]: End processing [kadi] error
+[2023-07-12 10:58:51] INFO root fetch - processPackages [dataset]: Downloading https://files.pythonhosted.org/packages/64/76/3acb02865156b4deee2a19d919b120c9d6a7a17e76fd1dcb2b68e0ed04c3/dataset-1.6.2.tar.gz
+[2023-07-12 10:58:51] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-12 10:58:51] INFO root fetch - processPackages [telebot-against-war]: Downloading https://files.pythonhosted.org/packages/bd/53/7dcec69e3413b4e7f22a8d6a68b9746b27585b1728a82649598a01434dc8/telebot_against_war-0.6.8.tar.gz
+[2023-07-12 10:58:51] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/3b/e6/348209a312fe334728308b7c341019dd499f58b2a64762aef522445364e1/sydeploy-0.3.5-py3-none-any.whl
+[2023-07-12 10:58:51] INFO root fetch - processPackages [datazets]: Downloading https://files.pythonhosted.org/packages/e8/0e/88a279f5c338d5cfbc8eb226257e16854035e82126269479d13da4e524c7/datazets-0.1.7.tar.gz
+[2023-07-12 10:58:51] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-07-12 10:58:51] INFO root fetch - processPackages [dataset]: executing diffoscope
+[2023-07-12 10:58:51] INFO root fetch - processPackages [dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-1.6.0.tar.gz tmp/dataset-1.6.2.tar.gz --markdown 20230712/d/dataset/1.6.0-1.6.2/diff.md --exclude *.pyd
+[2023-07-12 10:58:51] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-07-12 10:58:51] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-07-12 10:58:51] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/07/42/3cd646032d5ac585e33ff401363cdb57c233a1ff3db1818c15751b5a4acf/bl_hector-0.3.2.tar.gz
+[2023-07-12 10:58:51] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-12 10:58:51] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.3.4-py3-none-any.whl.zip tmp/sydeploy-0.3.5-py3-none-any.whl.zip --markdown 20230712/s/sydeploy/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-12 10:58:51] INFO root fetch - processPackages [telebot-against-war]: executing diffoscope
+[2023-07-12 10:58:51] INFO root fetch - processPackages [telebot-against-war]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebot_against_war-0.6.7.tar.gz tmp/telebot_against_war-0.6.8.tar.gz --markdown 20230712/t/telebot-against-war/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-12 10:58:51] INFO root fetch - processPackages [datazets]: executing diffoscope
+[2023-07-12 10:58:51] INFO root fetch - processPackages [datazets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datazets-0.1.6.tar.gz tmp/datazets-0.1.7.tar.gz --markdown 20230712/d/datazets/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-12 10:58:51] INFO root fetch - processPackages [pyscomotif]: Downloading https://files.pythonhosted.org/packages/85/07/740655fe0d09cb26bb5a72c8929e395477a793546b34701b795a1411ccda/pyscomotif-0.9.9.tar.gz
+[2023-07-12 10:58:51] INFO root fetch - processPackages [django-df-notifications]: Downloading https://files.pythonhosted.org/packages/6f/f3/85e6a5cb3b68b2e66002d1cd11721a1c7155233a9af4035247db6dea7b4b/django-df-notifications-1.1.9.tar.gz
+[2023-07-12 10:58:51] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-07-12 10:58:51] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230712/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-07-12 10:58:51] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-07-12 10:58:51] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230712/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 10:58:51] INFO root fetch - processPackages [pyscomotif]: executing diffoscope
+[2023-07-12 10:58:51] INFO root fetch - processPackages [pyscomotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscomotif-0.9.31.tar.gz tmp/pyscomotif-0.9.9.tar.gz --markdown 20230712/p/pyscomotif/0.9.31-0.9.9/diff.md --exclude *.pyd
+[2023-07-12 10:58:51] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-07-12 10:58:51] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-07-12 10:58:51] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230712/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 10:58:52] INFO root fetch - processPackages [bl-hector]: executing diffoscope
+[2023-07-12 10:58:52] INFO root fetch - processPackages [bl-hector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bl_hector-0.3.1.tar.gz tmp/bl_hector-0.3.2.tar.gz --markdown 20230712/b/bl-hector/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-12 10:58:52] INFO root fetch - processPackages [django-df-notifications]: executing diffoscope
+[2023-07-12 10:58:52] INFO root fetch - processPackages [django-df-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-df-notifications-1.1.8.tar.gz tmp/django-df-notifications-1.1.9.tar.gz --markdown 20230712/d/django-df-notifications/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-12 10:58:53] INFO root fetch - processPackages [dataset]: Remove: archive file [/home/abi/fetcher/tmp/dataset-1.6.0.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [dataset]: Remove: archive file [/home/abi/fetcher/tmp/dataset-1.6.2.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [dataset]: Start processing: igrafx-mining-sdk
+[2023-07-12 10:58:53] INFO root fetch - main [MainThread]: End processing [dataset]: success
+[2023-07-12 10:58:53] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.3.4-py3-none-any.whl.zip]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.3.5-py3-none-any.whl.zip]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [sydeploy]: Start processing: norminette
+[2023-07-12 10:58:53] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-12 10:58:53] INFO root fetch - processPackages [datazets]: Remove: archive file [/home/abi/fetcher/tmp/datazets-0.1.6.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [datazets]: Remove: archive file [/home/abi/fetcher/tmp/datazets-0.1.7.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [datazets]: Start processing: conniosdk
+[2023-07-12 10:58:53] INFO root fetch - main [MainThread]: End processing [datazets]: success
+[2023-07-12 10:58:53] INFO root fetch - processPackages [igrafx-mining-sdk]: New version: [2.24.4] Old Version: [2.24.2]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [norminette]: New version: [3.3.53] Old Version: [3.3.52]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [conniosdk]: New version: [0.38] Old Version: [0.37]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [igrafx-mining-sdk]: Downloading https://files.pythonhosted.org/packages/98/b1/da9b4f71fca98e65cdb815c13d2616630cae89a85e3596b291a4f3194bb9/igrafx_mining_sdk-2.24.2.tar.gz
+[2023-07-12 10:58:53] INFO root fetch - processPackages [telebot-against-war]: Remove: archive file [/home/abi/fetcher/tmp/telebot_against_war-0.6.7.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [telebot-against-war]: Remove: archive file [/home/abi/fetcher/tmp/telebot_against_war-0.6.8.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - main [MainThread]: End processing [telebot-against-war]: success
+[2023-07-12 10:58:53] INFO root fetch - processPackages [norminette]: Downloading https://files.pythonhosted.org/packages/00/38/8e27b205b16530147c285ed14aac89f5062f5ee36f7143e36003d32e4edb/norminette-3.3.52.tar.gz
+[2023-07-12 10:58:53] INFO root fetch - processPackages [conniosdk]: Downloading https://files.pythonhosted.org/packages/0d/13/8b7bb10277f44e46444b686756b3f4cbe52a1f37912f36e902ed79b7ccd2/conniosdk-0.37-py3-none-any.whl
+[2023-07-12 10:58:53] INFO root fetch - processPackages [pyscomotif]: Remove: archive file [/home/abi/fetcher/tmp/pyscomotif-0.9.31.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [pyscomotif]: Remove: archive file [/home/abi/fetcher/tmp/pyscomotif-0.9.9.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - main [MainThread]: End processing [pyscomotif]: success
+[2023-07-12 10:58:53] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev8.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev9.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-07-12 10:58:53] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.8.2.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.9.0.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-07-12 10:58:53] INFO root fetch - processPackages [igrafx-mining-sdk]: Downloading https://files.pythonhosted.org/packages/0e/94/197ddde4e76199025af151c5d5fed424c726cb45d21076ab0273cdaa46e7/igrafx_mining_sdk-2.24.4.tar.gz
+[2023-07-12 10:58:53] INFO root fetch - processPackages [norminette]: Downloading https://files.pythonhosted.org/packages/e4/4c/70233a17070bc15a181eab8822b13bb06058f6a8339449d10dc0e423099c/norminette-3.3.53.tar.gz
+[2023-07-12 10:58:53] INFO root fetch - processPackages [django-df-notifications]: Remove: archive file [/home/abi/fetcher/tmp/django-df-notifications-1.1.8.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - processPackages [django-df-notifications]: Remove: archive file [/home/abi/fetcher/tmp/django-df-notifications-1.1.9.tar.gz]
+[2023-07-12 10:58:53] INFO root fetch - main [MainThread]: End processing [django-df-notifications]: success
+[2023-07-12 10:58:53] INFO root fetch - processPackages [conniosdk]: Downloading https://files.pythonhosted.org/packages/98/2a/2defd1ca6865f964e9d1fbcec9d4e5308f4196f036de8fa9f56f2241ddca/conniosdk-0.38-py3-none-any.whl
+[2023-07-12 10:58:53] INFO root fetch - processPackages [igrafx-mining-sdk]: executing diffoscope
+[2023-07-12 10:58:53] INFO root fetch - processPackages [igrafx-mining-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igrafx_mining_sdk-2.24.2.tar.gz tmp/igrafx_mining_sdk-2.24.4.tar.gz --markdown 20230712/i/igrafx-mining-sdk/2.24.2-2.24.4/diff.md --exclude *.pyd
+[2023-07-12 10:58:54] INFO root fetch - processPackages [norminette]: executing diffoscope
+[2023-07-12 10:58:54] INFO root fetch - processPackages [norminette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/norminette-3.3.52.tar.gz tmp/norminette-3.3.53.tar.gz --markdown 20230712/n/norminette/3.3.52-3.3.53/diff.md --exclude *.pyd
+[2023-07-12 10:58:54] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-07-12 10:58:54] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-07-12 10:58:54] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-07-12 10:58:54] INFO root fetch - processPackages [conniosdk]: executing diffoscope
+[2023-07-12 10:58:54] INFO root fetch - processPackages [conniosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conniosdk-0.37-py3-none-any.whl.zip tmp/conniosdk-0.38-py3-none-any.whl.zip --markdown 20230712/c/conniosdk/0.37-0.38/diff.md --exclude *.pyd
+[2023-07-12 10:58:55] INFO root fetch - processPackages [igrafx-mining-sdk]: Remove: archive file [/home/abi/fetcher/tmp/igrafx_mining_sdk-2.24.2.tar.gz]
+[2023-07-12 10:58:55] INFO root fetch - processPackages [igrafx-mining-sdk]: Remove: archive file [/home/abi/fetcher/tmp/igrafx_mining_sdk-2.24.4.tar.gz]
+[2023-07-12 10:58:55] INFO root fetch - main [MainThread]: End processing [igrafx-mining-sdk]: success
+[2023-07-12 10:58:55] INFO root fetch - processPackages [conniosdk]: Remove: archive file [/home/abi/fetcher/tmp/conniosdk-0.37-py3-none-any.whl.zip]
+[2023-07-12 10:58:55] INFO root fetch - processPackages [conniosdk]: Remove: archive file [/home/abi/fetcher/tmp/conniosdk-0.38-py3-none-any.whl.zip]
+[2023-07-12 10:58:55] INFO root fetch - main [MainThread]: End processing [conniosdk]: success
+[2023-07-12 10:58:55] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.3.1.tar.gz]
+[2023-07-12 10:58:55] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.3.2.tar.gz]
+[2023-07-12 10:58:55] INFO root fetch - main [MainThread]: End processing [bl-hector]: success
+[2023-07-12 10:58:55] INFO root fetch - processPackages [norminette]: Remove: archive file [/home/abi/fetcher/tmp/norminette-3.3.52.tar.gz]
+[2023-07-12 10:58:55] INFO root fetch - processPackages [norminette]: Remove: archive file [/home/abi/fetcher/tmp/norminette-3.3.53.tar.gz]
+[2023-07-12 10:58:55] INFO root fetch - main [MainThread]: End processing [norminette]: success
+[2023-07-12 10:58:55] INFO root fetch - main [MainThread]: Store serial: [18857831]
