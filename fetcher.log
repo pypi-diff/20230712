@@ -22598,3 +22598,183 @@ AssertionError: tmp/flask_validators-0.5.tar.gz does not exist
 [2023-07-12 14:38:52] INFO root fetch - processPackages [taf]: Remove: archive file [/home/abi/fetcher/tmp/taf-0.9.0.tar.gz]
 [2023-07-12 14:38:52] INFO root fetch - main [MainThread]: End processing [taf]: success
 [2023-07-12 14:38:52] INFO root fetch - main [MainThread]: Store serial: [18860298]
+[2023-07-12 14:43:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18860298]
+[2023-07-12 14:44:02] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-12 14:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwebclient
+[2023-07-12 14:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cubicweb-leaflet
+[2023-07-12 14:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-gradients
+[2023-07-12 14:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: web-error
+[2023-07-12 14:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agixt
+[2023-07-12 14:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dipex
+[2023-07-12 14:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ginormal
+[2023-07-12 14:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kandinsky.py
+[2023-07-12 14:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygoogalytics
+[2023-07-12 14:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dash-dataflow-components
+[2023-07-12 14:44:03] INFO root fetch - processPackages [data-gradients]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-12 14:44:03] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 14:44:03] INFO root fetch - processPackages [dash-dataflow-components]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-12 14:44:03] INFO root fetch - processPackages [pygoogalytics]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-12 14:44:03] INFO root fetch - processPackages [web-error]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-12 14:44:03] WARNING root fetch - processPackages [ginormal]: Skipping, unable to determine old version
+[2023-07-12 14:44:03] INFO root fetch - processPackages [ginormal]: Start processing: zimran-events
+[2023-07-12 14:44:03] INFO root fetch - main [MainThread]: End processing [ginormal] error
+[2023-07-12 14:44:03] INFO root fetch - processPackages [kandinsky.py]: New version: [2.2] Old Version: [1.0]
+[2023-07-12 14:44:03] INFO root fetch - processPackages [cubicweb-leaflet]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-07-12 14:44:03] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-12 14:44:03] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-07-12 14:44:03] INFO root fetch - processPackages [zimran-events]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-07-12 14:44:03] INFO root fetch - processPackages [dash-dataflow-components]: Downloading https://files.pythonhosted.org/packages/a5/39/3b7728c1a187dca52bf7364fbb1378b969a66836d2ac8333256b5f2685d6/dash_dataflow_components-0.0.5.tar.gz
+[2023-07-12 14:44:03] INFO root fetch - processPackages [data-gradients]: Downloading https://files.pythonhosted.org/packages/4f/81/08e9b8984431100a878313fd580b493e36a7af3f1b6e5ae88b138b0c3bb3/data_gradients-0.1.3-py3-none-any.whl
+[2023-07-12 14:44:03] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 14:44:03] INFO root fetch - processPackages [web-error]: Downloading https://files.pythonhosted.org/packages/2f/99/239eb70cce15940c9e20bb58809c79e2ff788ae8e300cd0297789ea995c5/web_error-0.5.3.tar.gz
+[2023-07-12 14:44:03] INFO root fetch - processPackages [kandinsky.py]: Downloading https://files.pythonhosted.org/packages/7d/f3/8e08031feb4487cc7f41b7dd2e776f56193227ac7671ce73fae6acf7177e/kandinsky.py-1.0.tar.gz
+[2023-07-12 14:44:03] INFO root fetch - processPackages [zimran-events]: Downloading https://files.pythonhosted.org/packages/88/aa/a560cabc5396fbc5e76c2c74cf0390cf8bc8c58c9644c5553275f2a1404b/zimran-events-0.2.6.tar.gz
+[2023-07-12 14:44:03] INFO root fetch - processPackages [cubicweb-leaflet]: Downloading https://files.pythonhosted.org/packages/83/be/f02a9e1a97b38931c21ab61f43d2369e37915a46e8228d558126b1cebced/cubicweb-leaflet-0.9.0.tar.gz
+[2023-07-12 14:44:03] INFO root fetch - processPackages [pygoogalytics]: Downloading https://files.pythonhosted.org/packages/07/a1/b4a35bd9b8c83cedc3e76f26074338f860daeb2a13c2b59b858d32e31f37/pygoogalytics-0.5.1.tar.gz
+[2023-07-12 14:44:03] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-07-12 14:44:03] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-07-12 14:44:04] INFO root fetch - processPackages [dash-dataflow-components]: Downloading https://files.pythonhosted.org/packages/b2/43/6d1d02fc8a0df3061abb7b99e8d8e36b44708f5f76eb5ad851423cbccd03/dash_dataflow_components-0.0.6.tar.gz
+[2023-07-12 14:44:04] INFO root fetch - processPackages [data-gradients]: Downloading https://files.pythonhosted.org/packages/8c/75/e510a68ff32a748cb576e602c2c123ed4896f9d34157e9a075008f6e7ccd/data_gradients-0.1.4-py3-none-any.whl
+[2023-07-12 14:44:04] INFO root fetch - processPackages [web-error]: Downloading https://files.pythonhosted.org/packages/77/c2/1968acc953e10c6e99031dd508d31d0e297a6296d9cf5cbc7a1c4becc810/web_error-0.5.4.tar.gz
+[2023-07-12 14:44:04] INFO root fetch - processPackages [pygoogalytics]: Downloading https://files.pythonhosted.org/packages/88/21/7e0333c5f856ef17ee47c78d4874c751afff8ec197efa761143552b87be9/pygoogalytics-0.5.2.tar.gz
+[2023-07-12 14:44:04] INFO root fetch - processPackages [dash-dataflow-components]: executing diffoscope
+[2023-07-12 14:44:04] INFO root fetch - processPackages [dash-dataflow-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_dataflow_components-0.0.5.tar.gz tmp/dash_dataflow_components-0.0.6.tar.gz --markdown 20230712/d/dash-dataflow-components/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-12 14:44:04] INFO root fetch - processPackages [kandinsky.py]: Downloading https://files.pythonhosted.org/packages/b3/2a/9bb1dd6107cd7972a366fbb6d82e78180738fa4dec528d1e7fdcc4676766/kandinsky.py-2.2.tar.gz
+[2023-07-12 14:44:04] INFO root fetch - processPackages [web-error]: executing diffoscope
+[2023-07-12 14:44:04] INFO root fetch - processPackages [web-error]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_error-0.5.3.tar.gz tmp/web_error-0.5.4.tar.gz --markdown 20230712/w/web-error/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-12 14:44:04] INFO root fetch - processPackages [cubicweb-leaflet]: Downloading https://files.pythonhosted.org/packages/08/11/8051e5a70be92b397efdf7ec18e5f8e24ef307e31974bc6199a78c7ebbee/cubicweb-leaflet-1.0.0.tar.gz
+[2023-07-12 14:44:04] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 14:44:04] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-07-12 14:44:04] INFO root fetch - processPackages [data-gradients]: executing diffoscope
+[2023-07-12 14:44:04] INFO root fetch - processPackages [data-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_gradients-0.1.3-py3-none-any.whl.zip tmp/data_gradients-0.1.4-py3-none-any.whl.zip --markdown 20230712/d/data-gradients/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-12 14:44:04] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-07-12 14:44:04] INFO root fetch - processPackages [zimran-events]: Downloading https://files.pythonhosted.org/packages/c9/81/7df18ee62a096c056b5797ba161386758501fee56161f0bd1f09b32994c0/zimran-events-0.3.0.tar.gz
+[2023-07-12 14:44:04] INFO root fetch - processPackages [pygoogalytics]: executing diffoscope
+[2023-07-12 14:44:04] INFO root fetch - processPackages [pygoogalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygoogalytics-0.5.1.tar.gz tmp/pygoogalytics-0.5.2.tar.gz --markdown 20230712/p/pygoogalytics/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-12 14:44:04] INFO root fetch - processPackages [kandinsky.py]: executing diffoscope
+[2023-07-12 14:44:04] INFO root fetch - processPackages [kandinsky.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kandinsky.py-1.0.tar.gz tmp/kandinsky.py-2.2.tar.gz --markdown 20230712/k/kandinsky.py/1.0-2.2/diff.md --exclude *.pyd
+[2023-07-12 14:44:04] INFO root fetch - processPackages [cubicweb-leaflet]: executing diffoscope
+[2023-07-12 14:44:04] INFO root fetch - processPackages [cubicweb-leaflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-leaflet-0.9.0.tar.gz tmp/cubicweb-leaflet-1.0.0.tar.gz --markdown 20230712/c/cubicweb-leaflet/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-12 14:44:04] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 14:44:04] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 14:44:04] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-12 14:44:04] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230712/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-12 14:44:04] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-07-12 14:44:04] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230712/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-07-12 14:44:04] INFO root fetch - processPackages [zimran-events]: executing diffoscope
+[2023-07-12 14:44:04] INFO root fetch - processPackages [zimran-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimran-events-0.2.6.tar.gz tmp/zimran-events-0.3.0.tar.gz --markdown 20230712/z/zimran-events/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-07-12 14:44:06] INFO root fetch - processPackages [web-error]: Remove: archive file [/home/abi/fetcher/tmp/web_error-0.5.3.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [web-error]: Remove: archive file [/home/abi/fetcher/tmp/web_error-0.5.4.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [web-error]: Start processing: mapsrouting
+[2023-07-12 14:44:06] INFO root fetch - main [MainThread]: End processing [web-error]: success
+[2023-07-12 14:44:06] INFO root fetch - processPackages [kandinsky.py]: Remove: archive file [/home/abi/fetcher/tmp/kandinsky.py-1.0.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [kandinsky.py]: Remove: archive file [/home/abi/fetcher/tmp/kandinsky.py-2.2.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [kandinsky.py]: Start processing: indsl
+[2023-07-12 14:44:06] INFO root fetch - main [MainThread]: End processing [kandinsky.py]: success
+[2023-07-12 14:44:06] INFO root fetch - processPackages [mapsrouting]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [indsl]: New version: [6.6.0a1] Old Version: [6.6.0a0]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [nwebclient]: Start processing: ams-dig-proc
+[2023-07-12 14:44:06] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 14:44:06] INFO root fetch - processPackages [mapsrouting]: Downloading https://files.pythonhosted.org/packages/5c/32/da72cca14b5f99cedd9a724fa5ee8c07ebb6ff5b207f4edf5cfd57506212/mapsrouting-0.0.8-py3-none-any.whl
+[2023-07-12 14:44:06] WARNING root fetch - processPackages [ams-dig-proc]: Skipping, unable to determine old version
+[2023-07-12 14:44:06] INFO root fetch - processPackages [ams-dig-proc]: Start processing: planqk-quantum
+[2023-07-12 14:44:06] INFO root fetch - main [MainThread]: End processing [ams-dig-proc] error
+[2023-07-12 14:44:06] INFO root fetch - processPackages [cubicweb-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-leaflet-0.9.0.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [cubicweb-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-leaflet-1.0.0.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [cubicweb-leaflet]: Start processing: nwebclient
+[2023-07-12 14:44:06] INFO root fetch - main [MainThread]: End processing [cubicweb-leaflet]: success
+[2023-07-12 14:44:06] INFO root fetch - processPackages [zimran-events]: Remove: archive file [/home/abi/fetcher/tmp/zimran-events-0.2.6.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [zimran-events]: Remove: archive file [/home/abi/fetcher/tmp/zimran-events-0.3.0.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [zimran-events]: Start processing: ML-Algo
+[2023-07-12 14:44:06] INFO root fetch - main [MainThread]: End processing [zimran-events]: success
+[2023-07-12 14:44:06] INFO root fetch - processPackages [indsl]: Downloading https://files.pythonhosted.org/packages/a2/b4/80da96d5f7558a88c243499dfa2cb3760435894db3f3b8489e3d6b970515/indsl-6.6.0a0.tar.gz
+[2023-07-12 14:44:06] INFO root fetch - processPackages [planqk-quantum]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [pygoogalytics]: Remove: archive file [/home/abi/fetcher/tmp/pygoogalytics-0.5.1.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [pygoogalytics]: Remove: archive file [/home/abi/fetcher/tmp/pygoogalytics-0.5.2.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [pygoogalytics]: Start processing: spai
+[2023-07-12 14:44:06] INFO root fetch - main [MainThread]: End processing [pygoogalytics]: success
+[2023-07-12 14:44:06] INFO root fetch - processPackages [ML-Algo]: New version: [1.2] Old Version: [1.0.9]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [spai]: New version: [2023.7.4] Old Version: [2023.7.12.post4]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/a2/2283b7561efc1f28847bda5663a94ecf7f878f29f7b3a1590a79b839125d/planqk-quantum-1.8.6.tar.gz
+[2023-07-12 14:44:06] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 14:44:06] INFO root fetch - processPackages [mapsrouting]: Downloading https://files.pythonhosted.org/packages/3e/ea/f9d255a3571190d7e7a678a105e29d4af17828d0c21424caa1e6f237f002/mapsrouting-0.0.9-py3-none-any.whl
+[2023-07-12 14:44:06] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/54/5d/63e8f76a5362a85c40235ff6a62edbb49bae7f814a0b98676ea0420ec7a2/ML_Algo-1.0.9.tar.gz
+[2023-07-12 14:44:06] INFO root fetch - processPackages [data-gradients]: Remove: archive file [/home/abi/fetcher/tmp/data_gradients-0.1.3-py3-none-any.whl.zip]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [data-gradients]: Remove: archive file [/home/abi/fetcher/tmp/data_gradients-0.1.4-py3-none-any.whl.zip]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [data-gradients]: Start processing: th2-grpc-act-template
+[2023-07-12 14:44:06] INFO root fetch - main [MainThread]: End processing [data-gradients]: success
+[2023-07-12 14:44:06] INFO root fetch - processPackages [th2-grpc-act-template]: New version: [4.1.0.dev5531718452] Old Version: [4.1.0.dev5529367480]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [mapsrouting]: executing diffoscope
+[2023-07-12 14:44:06] INFO root fetch - processPackages [mapsrouting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapsrouting-0.0.8-py3-none-any.whl.zip tmp/mapsrouting-0.0.9-py3-none-any.whl.zip --markdown 20230712/m/mapsrouting/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 14:44:06] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/83/98/3072e6bf254a238dfb08ddda7b137e38873f8c5cda02e61ea58101b07373/spai-2023.7.12.post4.tar.gz
+[2023-07-12 14:44:06] INFO root fetch - processPackages [indsl]: Downloading https://files.pythonhosted.org/packages/0f/5f/16a5d5c0438a3a2e9c0aec938434be08dda35395f51d5daf8c3979df7c88/indsl-6.6.0a1.tar.gz
+[2023-07-12 14:44:06] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/a3/13/7cd24d3b8a0478841e1fa07648a7156ac8b299a7e39addc247212e1e8a60/planqk-quantum-1.9.0.tar.gz
+[2023-07-12 14:44:06] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 14:44:06] INFO root fetch - processPackages [th2-grpc-act-template]: Downloading https://files.pythonhosted.org/packages/b6/89/afaa068c9e43be7fa877553c11b54807c8ae953a2187db8d47640c6b46f5/th2_grpc_act_template-4.1.0.dev5529367480.tar.gz
+[2023-07-12 14:44:06] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-07-12 14:44:06] INFO root fetch - processPackages [agixt]: Start processing: blueapps
+[2023-07-12 14:44:06] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-12 14:44:06] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-12 14:44:06] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.6.tar.gz tmp/planqk-quantum-1.9.0.tar.gz --markdown 20230712/p/planqk-quantum/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-07-12 14:44:06] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 14:44:06] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 14:44:06] INFO root fetch - processPackages [indsl]: executing diffoscope
+[2023-07-12 14:44:06] INFO root fetch - processPackages [indsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indsl-6.6.0a0.tar.gz tmp/indsl-6.6.0a1.tar.gz --markdown 20230712/i/indsl/6.6.0a0-6.6.0a1/diff.md --exclude *.pyd
+[2023-07-12 14:44:06] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/d5/80/567541e316fb277f39a0993fd26857375628c564cd273bda4161635bb81d/ML_Algo-1.2.tar.gz
+[2023-07-12 14:44:07] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/3d/f8/1df4e0e757644d3a07491afda0747699ef57e62726ae648bdb9121ee3774/spai-2023.7.4.tar.gz
+[2023-07-12 14:44:07] INFO root fetch - processPackages [blueapps]: New version: [4.7.0rc1] Old Version: [4.7.0rc0]
+[2023-07-12 14:44:07] INFO root fetch - processPackages [ML-Algo]: executing diffoscope
+[2023-07-12 14:44:07] INFO root fetch - processPackages [ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ML_Algo-1.0.9.tar.gz tmp/ML_Algo-1.2.tar.gz --markdown 20230712/M/ML-Algo/1.0.9-1.2/diff.md --exclude *.pyd
+[2023-07-12 14:44:07] INFO root fetch - processPackages [th2-grpc-act-template]: Downloading https://files.pythonhosted.org/packages/82/73/0fcd24defa5fc6f6ba7fa5e039dc2caa17d9643fa3c958d01593a4ced461/th2_grpc_act_template-4.1.0.dev5531718452.tar.gz
+[2023-07-12 14:44:07] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-07-12 14:44:07] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.7.12.post4.tar.gz tmp/spai-2023.7.4.tar.gz --markdown 20230712/s/spai/2023.7.12.post4-2023.7.4/diff.md --exclude *.pyd
+[2023-07-12 14:44:07] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-07-12 14:44:07] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-07-12 14:44:07] INFO root fetch - processPackages [dipex]: Start processing: foursight-core
+[2023-07-12 14:44:07] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-07-12 14:44:07] INFO root fetch - processPackages [blueapps]: Downloading https://files.pythonhosted.org/packages/10/03/cd1eab34afc827162d8d92c204ee5df9b9a4d966e8d4b35fef2b15435b41/blueapps-4.7.0rc0.tar.gz
+[2023-07-12 14:44:07] INFO root fetch - processPackages [th2-grpc-act-template]: executing diffoscope
+[2023-07-12 14:44:07] INFO root fetch - processPackages [th2-grpc-act-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_act_template-4.1.0.dev5529367480.tar.gz tmp/th2_grpc_act_template-4.1.0.dev5531718452.tar.gz --markdown 20230712/t/th2-grpc-act-template/4.1.0.dev5529367480-4.1.0.dev5531718452/diff.md --exclude *.pyd
+[2023-07-12 14:44:07] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.2b6] Old Version: [4.3.0.2b5]
+[2023-07-12 14:44:07] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/78/61/0773950f952853d36c5de7f66aff525d6684d99f22738a38cce3a5b5fd9d/foursight_core-4.3.0.2b5.tar.gz
+[2023-07-12 14:44:07] INFO root fetch - processPackages [blueapps]: Downloading https://files.pythonhosted.org/packages/67/92/fd2e41921c1267668df8fd1291bef6af3d1f3576d652017a93179a9691d7/blueapps-4.7.0rc1.tar.gz
+[2023-07-12 14:44:08] INFO root fetch - processPackages [mapsrouting]: Remove: archive file [/home/abi/fetcher/tmp/mapsrouting-0.0.8-py3-none-any.whl.zip]
+[2023-07-12 14:44:08] INFO root fetch - processPackages [mapsrouting]: Remove: archive file [/home/abi/fetcher/tmp/mapsrouting-0.0.9-py3-none-any.whl.zip]
+[2023-07-12 14:44:08] INFO root fetch - processPackages [blueapps]: executing diffoscope
+[2023-07-12 14:44:08] INFO root fetch - processPackages [blueapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueapps-4.7.0rc0.tar.gz tmp/blueapps-4.7.0rc1.tar.gz --markdown 20230712/b/blueapps/4.7.0rc0-4.7.0rc1/diff.md --exclude *.pyd
+[2023-07-12 14:44:08] INFO root fetch - main [MainThread]: End processing [mapsrouting]: success
+[2023-07-12 14:44:08] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/64/b4/ccdf0031ed0cc891e581ea20b02cb1535f3577a2942e7938f8e39a9266c4/foursight_core-4.3.0.2b6.tar.gz
+[2023-07-12 14:44:08] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-07-12 14:44:08] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.2b5.tar.gz tmp/foursight_core-4.3.0.2b6.tar.gz --markdown 20230712/f/foursight-core/4.3.0.2b5-4.3.0.2b6/diff.md --exclude *.pyd
+[2023-07-12 14:44:08] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 14:44:08] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 14:44:08] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 14:44:08] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.6.tar.gz]
+[2023-07-12 14:44:08] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.9.0.tar.gz]
+[2023-07-12 14:44:08] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-12 14:44:08] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML_Algo-1.0.9.tar.gz]
+[2023-07-12 14:44:08] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML_Algo-1.2.tar.gz]
+[2023-07-12 14:44:08] INFO root fetch - main [MainThread]: End processing [ML-Algo]: success
+[2023-07-12 14:44:08] INFO root fetch - processPackages [th2-grpc-act-template]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_template-4.1.0.dev5529367480.tar.gz]
+[2023-07-12 14:44:08] INFO root fetch - processPackages [th2-grpc-act-template]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_template-4.1.0.dev5531718452.tar.gz]
+[2023-07-12 14:44:08] INFO root fetch - main [MainThread]: End processing [th2-grpc-act-template]: success
+[2023-07-12 14:44:08] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.12.post4.tar.gz]
+[2023-07-12 14:44:08] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.4.tar.gz]
+[2023-07-12 14:44:08] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-07-12 14:44:08] INFO root fetch - processPackages [indsl]: Remove: archive file [/home/abi/fetcher/tmp/indsl-6.6.0a0.tar.gz]
+[2023-07-12 14:44:08] INFO root fetch - processPackages [indsl]: Remove: archive file [/home/abi/fetcher/tmp/indsl-6.6.0a1.tar.gz]
+[2023-07-12 14:44:08] INFO root fetch - main [MainThread]: End processing [indsl]: success
+[2023-07-12 14:44:09] INFO root fetch - processPackages [blueapps]: Remove: archive file [/home/abi/fetcher/tmp/blueapps-4.7.0rc0.tar.gz]
+[2023-07-12 14:44:09] INFO root fetch - processPackages [blueapps]: Remove: archive file [/home/abi/fetcher/tmp/blueapps-4.7.0rc1.tar.gz]
+[2023-07-12 14:44:09] INFO root fetch - main [MainThread]: End processing [blueapps]: success
+[2023-07-12 14:44:22] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b5.tar.gz]
+[2023-07-12 14:44:22] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b6.tar.gz]
+[2023-07-12 14:44:22] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-07-12 14:44:26] INFO root fetch - processPackages [dash-dataflow-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_dataflow_components-0.0.5.tar.gz]
+[2023-07-12 14:44:26] INFO root fetch - processPackages [dash-dataflow-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_dataflow_components-0.0.6.tar.gz]
+[2023-07-12 14:44:26] INFO root fetch - main [MainThread]: End processing [dash-dataflow-components]: success
+[2023-07-12 14:44:26] INFO root fetch - main [MainThread]: Store serial: [18860362]
