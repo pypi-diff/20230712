@@ -12102,3 +12102,78 @@
 [2023-07-12 06:53:25] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2023-07-12 06:53:25] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-07-12 06:53:25] INFO root fetch - main [MainThread]: Store serial: [18855845]
+[2023-07-12 06:58:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855845]
+[2023-07-12 06:58:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 06:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-game-collection
+[2023-07-12 06:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jcloud
+[2023-07-12 06:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightning-rod
+[2023-07-12 06:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mcemtools
+[2023-07-12 06:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clp-ffi-py
+[2023-07-12 06:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-sale-promotion-discount-in-field
+[2023-07-12 06:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-sale-coupon-reward-add-product
+[2023-07-12 06:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-sale-coupon-domain-product-discount
+[2023-07-12 06:58:35] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-12 06:58:35] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-07-12 06:58:35] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-discount]: New version: [14.0.1.1.1.dev4] Old Version: [14.0.1.1.1.dev3]
+[2023-07-12 06:58:35] INFO root fetch - processPackages [lightning-rod]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-12 06:58:35] INFO root fetch - processPackages [clp-ffi-py]: New version: [0.0.0b1] Old Version: [0.0.0b0]
+[2023-07-12 06:58:35] INFO root fetch - processPackages [mcemtools]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-12 06:58:35] INFO root fetch - processPackages [odoo14-addon-sale-promotion-discount-in-field]: New version: [14.0.1.0.2.dev1] Old Version: [14.0.1.0.1.dev5]
+[2023-07-12 06:58:35] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-07-12 06:58:35] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2023-07-12 06:58:36] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-discount]: Downloading https://files.pythonhosted.org/packages/f6/c6/6370d5de8755404d15c2692801d718fdce20854daed5818abdd9588a45fe/odoo14_addon_sale_coupon_domain_product_discount-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-07-12 06:58:36] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-07-12 06:58:36] INFO root fetch - processPackages [clp-ffi-py]: Downloading https://files.pythonhosted.org/packages/d0/b1/06ffd629df2b910c8d34c5723b3708621d25e0d3eb198fc557f6948421f2/clp_ffi_py-0.0.0b0.tar.gz
+[2023-07-12 06:58:36] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/20/ac/bb93aa43540523bea7b49bc79c26bbb949e189fc5ec13facb2382111b469/mcemtools-0.4.0.tar.gz
+[2023-07-12 06:58:36] INFO root fetch - processPackages [odoo14-addon-sale-promotion-discount-in-field]: Downloading https://files.pythonhosted.org/packages/dc/ec/ba684b53a490ae779fcd02539fe48d2845e229acd60c450763fdbd97c9ef/odoo14_addon_sale_promotion_discount_in_field-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-12 06:58:36] INFO root fetch - processPackages [lightning-rod]: Downloading https://files.pythonhosted.org/packages/90/a2/9397030383ba967c8b635773f7a1dd43d343cf0dafcca21affab84abfe72/lightning_rod-0.2.4.tar.gz
+[2023-07-12 06:58:36] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-07-12 06:58:36] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: Downloading https://files.pythonhosted.org/packages/cb/0b/6ce5af2049f67b347a2225b54db95506c1c6a14b40b15db24c88ec7718da/odoo14_addon_sale_coupon_reward_add_product-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-07-12 06:58:36] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-discount]: Downloading https://files.pythonhosted.org/packages/64/9d/5f21b5f44b9fa9f1d121a6ba266c7ddfda01731d5b40deaeb9a0870b0880/odoo14_addon_sale_coupon_domain_product_discount-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-07-12 06:58:36] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-12 06:58:36] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230712/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-12 06:58:36] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/6f/1a/5038a4720c7657bf37c376198861c386a8a52dcd69fe85521a9c3a45905d/mcemtools-0.5.0.tar.gz
+[2023-07-12 06:58:36] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/bb/b0/d7ca100ca332b39b692bce70264e0ab3f4134daafc57ab3b397666234d61/jcloud-0.2.9.dev4.tar.gz
+[2023-07-12 06:58:36] INFO root fetch - processPackages [clp-ffi-py]: Downloading https://files.pythonhosted.org/packages/cb/04/8c79e68c3bdc6c2482530a5227feb2048595953989ab06d238a2014cd6aa/clp_ffi_py-0.0.0b1.tar.gz
+[2023-07-12 06:58:36] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-discount]: executing diffoscope
+[2023-07-12 06:58:36] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_coupon_domain_product_discount-14.0.1.1.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_sale_coupon_domain_product_discount-14.0.1.1.1.dev4-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addon-sale-coupon-domain-product-discount/14.0.1.1.1.dev3-14.0.1.1.1.dev4/diff.md --exclude *.pyd
+[2023-07-12 06:58:36] INFO root fetch - processPackages [odoo14-addon-sale-promotion-discount-in-field]: Downloading https://files.pythonhosted.org/packages/8a/c2/647c850f61c50c9f6ff801e11692f09cbc250bb27cc59ca053f77b97cf98/odoo14_addon_sale_promotion_discount_in_field-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-07-12 06:58:36] INFO root fetch - processPackages [lightning-rod]: Downloading https://files.pythonhosted.org/packages/d7/53/0997f445ebdec86676317a4b3ef2d1284c7a6ecbe31ccb6db499bb29d2b7/lightning_rod-0.2.5.tar.gz
+[2023-07-12 06:58:36] INFO root fetch - processPackages [mcemtools]: executing diffoscope
+[2023-07-12 06:58:36] INFO root fetch - processPackages [mcemtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcemtools-0.4.0.tar.gz tmp/mcemtools-0.5.0.tar.gz --markdown 20230712/m/mcemtools/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-12 06:58:36] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-07-12 06:58:36] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230712/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-07-12 06:58:36] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: Downloading https://files.pythonhosted.org/packages/93/da/dd878038b15e8bb11cf505e4ac293209cb2f7cfdd7b8a2a0366a6b5c17a5/odoo14_addon_sale_coupon_reward_add_product-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-07-12 06:58:36] INFO root fetch - processPackages [clp-ffi-py]: executing diffoscope
+[2023-07-12 06:58:36] INFO root fetch - processPackages [clp-ffi-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clp_ffi_py-0.0.0b0.tar.gz tmp/clp_ffi_py-0.0.0b1.tar.gz --markdown 20230712/c/clp-ffi-py/0.0.0b0-0.0.0b1/diff.md --exclude *.pyd
+[2023-07-12 06:58:36] INFO root fetch - processPackages [odoo14-addon-sale-promotion-discount-in-field]: executing diffoscope
+[2023-07-12 06:58:36] INFO root fetch - processPackages [odoo14-addon-sale-promotion-discount-in-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_promotion_discount_in_field-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_sale_promotion_discount_in_field-14.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addon-sale-promotion-discount-in-field/14.0.1.0.1.dev5-14.0.1.0.2.dev1/diff.md --exclude *.pyd
+[2023-07-12 06:58:36] INFO root fetch - processPackages [lightning-rod]: executing diffoscope
+[2023-07-12 06:58:36] INFO root fetch - processPackages [lightning-rod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_rod-0.2.4.tar.gz tmp/lightning_rod-0.2.5.tar.gz --markdown 20230712/l/lightning-rod/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-12 06:58:37] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: executing diffoscope
+[2023-07-12 06:58:37] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_coupon_reward_add_product-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_sale_coupon_reward_add_product-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addon-sale-coupon-reward-add-product/14.0.1.0.1.dev3-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-07-12 06:58:37] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-07-12 06:58:37] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-07-12 06:58:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-12 06:58:37] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_coupon_domain_product_discount-14.0.1.1.1.dev3-py3-none-any.whl.zip]
+[2023-07-12 06:58:37] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_coupon_domain_product_discount-14.0.1.1.1.dev4-py3-none-any.whl.zip]
+[2023-07-12 06:58:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-coupon-domain-product-discount]: success
+[2023-07-12 06:58:38] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.4.0.tar.gz]
+[2023-07-12 06:58:38] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.5.0.tar.gz]
+[2023-07-12 06:58:38] INFO root fetch - main [MainThread]: End processing [mcemtools]: success
+[2023-07-12 06:58:38] INFO root fetch - processPackages [lightning-rod]: Remove: archive file [/home/abi/fetcher/tmp/lightning_rod-0.2.4.tar.gz]
+[2023-07-12 06:58:38] INFO root fetch - processPackages [lightning-rod]: Remove: archive file [/home/abi/fetcher/tmp/lightning_rod-0.2.5.tar.gz]
+[2023-07-12 06:58:38] INFO root fetch - main [MainThread]: End processing [lightning-rod]: success
+[2023-07-12 06:58:38] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev3.tar.gz]
+[2023-07-12 06:58:38] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev4.tar.gz]
+[2023-07-12 06:58:38] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-07-12 06:58:38] INFO root fetch - processPackages [odoo14-addon-sale-promotion-discount-in-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_promotion_discount_in_field-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-12 06:58:38] INFO root fetch - processPackages [odoo14-addon-sale-promotion-discount-in-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_promotion_discount_in_field-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-07-12 06:58:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-promotion-discount-in-field]: success
+[2023-07-12 06:58:38] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_coupon_reward_add_product-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-07-12 06:58:38] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_coupon_reward_add_product-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-07-12 06:58:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-coupon-reward-add-product]: success
+[2023-07-12 06:58:38] INFO root fetch - processPackages [clp-ffi-py]: Remove: archive file [/home/abi/fetcher/tmp/clp_ffi_py-0.0.0b0.tar.gz]
+[2023-07-12 06:58:38] INFO root fetch - processPackages [clp-ffi-py]: Remove: archive file [/home/abi/fetcher/tmp/clp_ffi_py-0.0.0b1.tar.gz]
+[2023-07-12 06:58:38] INFO root fetch - main [MainThread]: End processing [clp-ffi-py]: success
+[2023-07-12 06:58:38] INFO root fetch - main [MainThread]: Store serial: [18855862]
