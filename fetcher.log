@@ -15271,3 +15271,113 @@
 [2023-07-12 10:09:53] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230712.tar.gz]
 [2023-07-12 10:09:53] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-07-12 10:09:53] INFO root fetch - main [MainThread]: Store serial: [18857261]
+[2023-07-12 10:14:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857261]
+[2023-07-12 10:15:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-12 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CEEMDAN-LSTM
+[2023-07-12 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dpmt
+[2023-07-12 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modis-crawler-utils
+[2023-07-12 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TreeSAK
+[2023-07-12 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DLite-Python
+[2023-07-12 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dpmt
+[2023-07-12 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pywa
+[2023-07-12 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hirmeos-access-logs-cloud-driver
+[2023-07-12 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-spreadsheet-oca
+[2023-07-12 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TreeSAK
+[2023-07-12 10:15:03] INFO root fetch - processPackages [modis-crawler-utils]: New version: [0.2.74] Old Version: [0.2.73]
+[2023-07-12 10:15:03] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: New version: [16.0.1.1.3] Old Version: [16.0.1.1.2]
+[2023-07-12 10:15:03] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-12 10:15:03] WARNING root fetch - processPackages [hirmeos-access-logs-cloud-driver]: Skipping, unable to determine old version
+[2023-07-12 10:15:03] INFO root fetch - processPackages [hirmeos-access-logs-cloud-driver]: Start processing: datamazing
+[2023-07-12 10:15:03] INFO root fetch - main [MainThread]: End processing [hirmeos-access-logs-cloud-driver] error
+[2023-07-12 10:15:03] INFO root fetch - processPackages [CEEMDAN-LSTM]: New version: [1.2b3] Old Version: [1.2b2]
+[2023-07-12 10:15:03] INFO root fetch - processPackages [dpmt]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-12 10:15:03] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc23] Old Version: [0.0.1rc22]
+[2023-07-12 10:15:03] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-12 10:15:03] INFO root fetch - processPackages [dpmt]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-12 10:15:03] INFO root fetch - processPackages [DLite-Python]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-12 10:15:03] INFO root fetch - processPackages [datamazing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 10:15:04] INFO root fetch - processPackages [modis-crawler-utils]: Downloading https://files.pythonhosted.org/packages/c8/b8/af011608c5603ce0b123825c7ef9d7932aa8ee884cf5b4d502b898b460a6/modis_crawler_utils-0.2.73.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/59/2b/b21c6e85102f0b9bc108a00e76764ab90535ea53963abbe6a19933a7c512/pywa-0.0.1rc22-py3-none-any.whl
+[2023-07-12 10:15:04] INFO root fetch - processPackages [dpmt]: Downloading https://files.pythonhosted.org/packages/f0/49/5a2607f009f688d15b33ce41004914c46925e3f095e61c61443d451151a3/dpmt-1.0.2.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/ba/bd/bae9c04be147d83ce0363234b2f5d32e2adb6b3dcf22c7557d92400bbea5/datamazing-0.0.8.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [CEEMDAN-LSTM]: Downloading https://files.pythonhosted.org/packages/8f/6c/53d6c32e5ed5d0da9b9b4e8456470de45ed81c92167043d9a460c42b1488/CEEMDAN_LSTM-1.2b2.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/ef/e9/39767538c6a45e826cae05ad2af7974b850f80d8e2b6c20627393fa77c1a/odoo_addon_spreadsheet_oca-16.0.1.1.2-py3-none-any.whl
+[2023-07-12 10:15:04] INFO root fetch - processPackages [DLite-Python]: Downloading https://files.pythonhosted.org/packages/c3/fa/69f479b4ea01ee628ccea2a8e42c64c31bd7cfd27f044d5ee13194c470d1/DLite-Python-0.3.8.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [dpmt]: Downloading https://files.pythonhosted.org/packages/f0/49/5a2607f009f688d15b33ce41004914c46925e3f095e61c61443d451151a3/dpmt-1.0.2.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/3c/60/1cc88221b1439ffa8150add9ff62ee273a63ae6a85fe67ac13cab1ddcd35/datamazing-0.0.9.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [modis-crawler-utils]: Downloading https://files.pythonhosted.org/packages/a9/bb/9a5844a16fadaf1900ffac39fc2bd4167d24f198d59d2345c7e193e8a3bc/modis_crawler_utils-0.2.74.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/78/2c/11115109eeeb572ad4931d67014fb7701417a1b612f7315de5eed97e2f39/pywa-0.0.1rc23-py3-none-any.whl
+[2023-07-12 10:15:04] INFO root fetch - processPackages [dpmt]: Downloading https://files.pythonhosted.org/packages/cc/c1/bc640674780a363eb8ca63bae9639732e4b5f06f6290b02bf274cc759900/dpmt-1.0.3.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [dpmt]: Downloading https://files.pythonhosted.org/packages/cc/c1/bc640674780a363eb8ca63bae9639732e4b5f06f6290b02bf274cc759900/dpmt-1.0.3.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/0c/a2/7d9db1514d49e57d1c3bb564b38f0464eb0dcad72e1e2edbdc0094069dc2/odoo_addon_spreadsheet_oca-16.0.1.1.3-py3-none-any.whl
+[2023-07-12 10:15:04] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2023-07-12 10:15:04] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-0.0.8.tar.gz tmp/datamazing-0.0.9.tar.gz --markdown 20230712/d/datamazing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 10:15:04] INFO root fetch - processPackages [CEEMDAN-LSTM]: Downloading https://files.pythonhosted.org/packages/45/91/f560ed3b43a0b6e79823a3e20cae713575958b6ac633e6aa0a0d8023b606/CEEMDAN_LSTM-1.2b3.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [dpmt]: executing diffoscope
+[2023-07-12 10:15:04] INFO root fetch - processPackages [dpmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpmt-1.0.2.tar.gz tmp/dpmt-1.0.3.tar.gz --markdown 20230712/d/dpmt/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-12 10:15:04] INFO root fetch - processPackages [modis-crawler-utils]: executing diffoscope
+[2023-07-12 10:15:04] INFO root fetch - processPackages [modis-crawler-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modis_crawler_utils-0.2.73.tar.gz tmp/modis_crawler_utils-0.2.74.tar.gz --markdown 20230712/m/modis-crawler-utils/0.2.73-0.2.74/diff.md --exclude *.pyd
+[2023-07-12 10:15:04] INFO root fetch - processPackages [dpmt]: executing diffoscope
+[2023-07-12 10:15:04] INFO root fetch - processPackages [dpmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpmt-1.0.2.tar.gz tmp/dpmt-1.0.3.tar.gz --markdown 20230712/d/dpmt/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-12 10:15:04] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-07-12 10:15:04] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: executing diffoscope
+[2023-07-12 10:15:04] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_spreadsheet_oca-16.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_spreadsheet_oca-16.0.1.1.3-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-spreadsheet-oca/16.0.1.1.2-16.0.1.1.3/diff.md --exclude *.pyd
+[2023-07-12 10:15:04] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-07-12 10:15:04] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc22-py3-none-any.whl.zip tmp/pywa-0.0.1rc23-py3-none-any.whl.zip --markdown 20230712/p/pywa/0.0.1rc22-0.0.1rc23/diff.md --exclude *.pyd
+[2023-07-12 10:15:05] INFO root fetch - processPackages [DLite-Python]: Downloading https://files.pythonhosted.org/packages/6d/e9/b36cfdab29339560a33db0c4dc25d113bd55fd78bf27c3d749e903385e81/DLite-Python-0.3.9.tar.gz
+[2023-07-12 10:15:05] INFO root fetch - processPackages [CEEMDAN-LSTM]: executing diffoscope
+[2023-07-12 10:15:05] INFO root fetch - processPackages [CEEMDAN-LSTM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CEEMDAN_LSTM-1.2b2.tar.gz tmp/CEEMDAN_LSTM-1.2b3.tar.gz --markdown 20230712/C/CEEMDAN-LSTM/1.2b2-1.2b3/diff.md --exclude *.pyd
+[2023-07-12 10:15:05] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-07-12 10:15:05] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230712/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-12 10:15:05] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-07-12 10:15:05] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230712/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-12 10:15:05] INFO root fetch - processPackages [DLite-Python]: executing diffoscope
+[2023-07-12 10:15:05] INFO root fetch - processPackages [DLite-Python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLite-Python-0.3.8.tar.gz tmp/DLite-Python-0.3.9.tar.gz --markdown 20230712/D/DLite-Python/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-12 10:15:06] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-0.0.8.tar.gz]
+[2023-07-12 10:15:06] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-0.0.9.tar.gz]
+[2023-07-12 10:15:06] INFO root fetch - processPackages [datamazing]: Start processing: pymc-experimental
+[2023-07-12 10:15:06] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2023-07-12 10:15:06] INFO root fetch - processPackages [pymc-experimental]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-12 10:15:06] INFO root fetch - processPackages [dpmt]: Remove: archive file [/home/abi/fetcher/tmp/dpmt-1.0.2.tar.gz]
+[2023-07-12 10:15:06] INFO root fetch - processPackages [dpmt]: Remove: archive file [/home/abi/fetcher/tmp/dpmt-1.0.3.tar.gz]
+[2023-07-12 10:15:06] INFO root fetch - processPackages [dpmt]: Start processing: plotly-resampler
+[2023-07-12 10:15:06] INFO root fetch - main [MainThread]: End processing [dpmt]: success
+[2023-07-12 10:15:06] INFO root fetch - processPackages [plotly-resampler]: New version: [0.9.0rc6] Old Version: [0.9.0rc5]
+[2023-07-12 10:15:06] INFO root fetch - processPackages [pymc-experimental]: Downloading https://files.pythonhosted.org/packages/1f/a1/60de60079d4104146fcf4b45160ed831cbbc11cac13ca73472b9951e21f8/pymc-experimental-0.0.7.tar.gz
+[2023-07-12 10:15:06] INFO root fetch - processPackages [modis-crawler-utils]: Remove: archive file [/home/abi/fetcher/tmp/modis_crawler_utils-0.2.73.tar.gz]
+[2023-07-12 10:15:06] INFO root fetch - processPackages [modis-crawler-utils]: Remove: archive file [/home/abi/fetcher/tmp/modis_crawler_utils-0.2.74.tar.gz]
+[2023-07-12 10:15:06] INFO root fetch - main [MainThread]: End processing [modis-crawler-utils]: success
+[2023-07-12 10:15:06] INFO root fetch - main [MainThread]: End processing [dpmt]: success
+[2023-07-12 10:15:06] INFO root fetch - processPackages [DLite-Python]: Remove: archive file [/home/abi/fetcher/tmp/DLite-Python-0.3.8.tar.gz]
+[2023-07-12 10:15:06] INFO root fetch - processPackages [DLite-Python]: Remove: archive file [/home/abi/fetcher/tmp/DLite-Python-0.3.9.tar.gz]
+[2023-07-12 10:15:06] INFO root fetch - main [MainThread]: End processing [DLite-Python]: success
+[2023-07-12 10:15:07] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_oca-16.0.1.1.2-py3-none-any.whl.zip]
+[2023-07-12 10:15:07] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_oca-16.0.1.1.3-py3-none-any.whl.zip]
+[2023-07-12 10:15:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-spreadsheet-oca]: success
+[2023-07-12 10:15:07] INFO root fetch - processPackages [plotly-resampler]: Downloading https://files.pythonhosted.org/packages/d0/bb/1a2adec62298e2643ec85434cb69da7d207cc83edbbdb922ccdd7b86136c/plotly_resampler-0.9.0rc5.tar.gz
+[2023-07-12 10:15:07] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc22-py3-none-any.whl.zip]
+[2023-07-12 10:15:07] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc23-py3-none-any.whl.zip]
+[2023-07-12 10:15:07] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-07-12 10:15:07] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2023-07-12 10:15:07] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2023-07-12 10:15:07] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-07-12 10:15:07] INFO root fetch - processPackages [pymc-experimental]: Downloading https://files.pythonhosted.org/packages/c8/51/d5ba4040dbd209a7eeb9b3e3c0e8cff755fee48eb974b3dced7c6762a918/pymc-experimental-0.0.8.tar.gz
+[2023-07-12 10:15:07] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-07-12 10:15:07] INFO root fetch - processPackages [CEEMDAN-LSTM]: Remove: archive file [/home/abi/fetcher/tmp/CEEMDAN_LSTM-1.2b2.tar.gz]
+[2023-07-12 10:15:07] INFO root fetch - processPackages [CEEMDAN-LSTM]: Remove: archive file [/home/abi/fetcher/tmp/CEEMDAN_LSTM-1.2b3.tar.gz]
+[2023-07-12 10:15:07] INFO root fetch - main [MainThread]: End processing [CEEMDAN-LSTM]: success
+[2023-07-12 10:15:07] INFO root fetch - processPackages [pymc-experimental]: executing diffoscope
+[2023-07-12 10:15:07] INFO root fetch - processPackages [pymc-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc-experimental-0.0.7.tar.gz tmp/pymc-experimental-0.0.8.tar.gz --markdown 20230712/p/pymc-experimental/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-12 10:15:07] INFO root fetch - processPackages [plotly-resampler]: Downloading https://files.pythonhosted.org/packages/2d/fb/ca578703c746aa9fb97386c4c62942eff96871555f51985b82b41bb46f12/plotly_resampler-0.9.0rc6.tar.gz
+[2023-07-12 10:15:07] INFO root fetch - processPackages [plotly-resampler]: executing diffoscope
+[2023-07-12 10:15:07] INFO root fetch - processPackages [plotly-resampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly_resampler-0.9.0rc5.tar.gz tmp/plotly_resampler-0.9.0rc6.tar.gz --markdown 20230712/p/plotly-resampler/0.9.0rc5-0.9.0rc6/diff.md --exclude *.pyd
+[2023-07-12 10:15:08] INFO root fetch - processPackages [pymc-experimental]: Remove: archive file [/home/abi/fetcher/tmp/pymc-experimental-0.0.7.tar.gz]
+[2023-07-12 10:15:08] INFO root fetch - processPackages [pymc-experimental]: Remove: archive file [/home/abi/fetcher/tmp/pymc-experimental-0.0.8.tar.gz]
+[2023-07-12 10:15:08] INFO root fetch - main [MainThread]: End processing [pymc-experimental]: success
+[2023-07-12 10:15:08] INFO root fetch - processPackages [plotly-resampler]: Remove: archive file [/home/abi/fetcher/tmp/plotly_resampler-0.9.0rc5.tar.gz]
+[2023-07-12 10:15:08] INFO root fetch - processPackages [plotly-resampler]: Remove: archive file [/home/abi/fetcher/tmp/plotly_resampler-0.9.0rc6.tar.gz]
+[2023-07-12 10:15:08] INFO root fetch - main [MainThread]: End processing [plotly-resampler]: success
+[2023-07-12 10:15:08] INFO root fetch - main [MainThread]: Store serial: [18857319]
