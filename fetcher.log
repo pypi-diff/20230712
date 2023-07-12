@@ -13880,3 +13880,126 @@
 [2023-07-12 09:02:56] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.93.tar.gz]
 [2023-07-12 09:02:56] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-07-12 09:02:56] INFO root fetch - main [MainThread]: Store serial: [18856687]
+[2023-07-12 09:08:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856687]
+[2023-07-12 09:08:10] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scoamp
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scoamppro
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nwebclient
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DLMS-SPODES
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datamazing
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ats-case
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tagreader
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-hub-nightly
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-wenxin
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BaAug
+[2023-07-12 09:08:10] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-12 09:08:10] INFO root fetch - processPackages [scoamp]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-12 09:08:10] INFO root fetch - processPackages [datamazing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 09:08:10] INFO root fetch - processPackages [tagreader]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-07-12 09:08:10] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-12 09:08:10] INFO root fetch - processPackages [scoamppro]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-12 09:08:10] WARNING root fetch - processPackages [BaAug]: Skipping, unable to determine old version
+[2023-07-12 09:08:10] INFO root fetch - processPackages [BaAug]: Start processing: sdbsxwf
+[2023-07-12 09:08:10] INFO root fetch - main [MainThread]: End processing [BaAug] error
+[2023-07-12 09:08:10] INFO root fetch - processPackages [langchain-wenxin]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-12 09:08:10] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-12 09:08:10] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/91/1a/bf84e70559af330eaeea98202bc055809289674859478dcfd3fbf7c1fcd3/scoamp-0.3.3-py3-none-any.whl
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-12 09:08:10] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-07-12 09:08:10] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 09:08:10] INFO root fetch - processPackages [sdbsxwf]: New version: [20230712] Old Version: [20220426]
+[2023-07-12 09:08:10] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/ba/bd/bae9c04be147d83ce0363234b2f5d32e2adb6b3dcf22c7557d92400bbea5/datamazing-0.0.8.tar.gz
+[2023-07-12 09:08:10] INFO root fetch - processPackages [tagreader]: Downloading https://files.pythonhosted.org/packages/a9/95/f9648b41d882cfc888fd71e117c12e70d4586152cf18a9fc73288701cd97/tagreader-4.2.0.tar.gz
+[2023-07-12 09:08:10] INFO root fetch - processPackages [scoamppro]: Downloading https://files.pythonhosted.org/packages/84/4d/41628a52795293398b63ed38b08414b8b10e45076166614ed18b994808d0/scoamppro-0.3.3-py3-none-any.whl
+[2023-07-12 09:08:10] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/8b/a3/93c9c1ff0f2ee7bd34f28d6b46af587806de91ceb5483972227db2323e02/langchain_wenxin-0.8.0.tar.gz
+[2023-07-12 09:08:10] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-12 09:08:10] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-12 09:08:11] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-07-12 09:08:11] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/35/62/e6bf07f3e4e11b92495c611f1c5d1cc34b5f6ec8e5073b70506a29a64694/scoamp-0.3.4-py3-none-any.whl
+[2023-07-12 09:08:11] INFO root fetch - processPackages [sdbsxwf]: Downloading https://files.pythonhosted.org/packages/7f/c0/b439c2356da8587ff501cf3302d0354685878224926e9e979ba733100fd9/sdbsxwf-20220426.tar.gz
+[2023-07-12 09:08:11] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-12 09:08:11] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230712/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-12 09:08:11] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 09:08:11] INFO root fetch - processPackages [datamazing]: Downloading https://files.pythonhosted.org/packages/3c/60/1cc88221b1439ffa8150add9ff62ee273a63ae6a85fe67ac13cab1ddcd35/datamazing-0.0.9.tar.gz
+[2023-07-12 09:08:11] INFO root fetch - processPackages [tagreader]: Downloading https://files.pythonhosted.org/packages/3b/56/09b8e86120185801da5cca6336af545fafcb97114c641186e43cc68db7a7/tagreader-4.2.1.tar.gz
+[2023-07-12 09:08:11] INFO root fetch - processPackages [scoamp]: executing diffoscope
+[2023-07-12 09:08:11] INFO root fetch - processPackages [scoamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamp-0.3.3-py3-none-any.whl.zip tmp/scoamp-0.3.4-py3-none-any.whl.zip --markdown 20230712/s/scoamp/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-12 09:08:11] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-07-12 09:08:11] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230712/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 09:08:11] INFO root fetch - processPackages [scoamppro]: Downloading https://files.pythonhosted.org/packages/34/b3/fd749c7a4ae8eca2816868e85d4de6e8786f35834f228d24684445aea92c/scoamppro-0.3.4-py3-none-any.whl
+[2023-07-12 09:08:11] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 09:08:11] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 09:08:11] INFO root fetch - processPackages [tagreader]: executing diffoscope
+[2023-07-12 09:08:11] INFO root fetch - processPackages [tagreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tagreader-4.2.0.tar.gz tmp/tagreader-4.2.1.tar.gz --markdown 20230712/t/tagreader/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-07-12 09:08:11] INFO root fetch - processPackages [langchain-wenxin]: Downloading https://files.pythonhosted.org/packages/d6/a3/ec84eda21fa2e22a76a0c89b559db471a4a8e1e07afddc0142efd1280cd9/langchain_wenxin-0.8.1.tar.gz
+[2023-07-12 09:08:11] INFO root fetch - processPackages [datamazing]: executing diffoscope
+[2023-07-12 09:08:11] INFO root fetch - processPackages [datamazing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamazing-0.0.8.tar.gz tmp/datamazing-0.0.9.tar.gz --markdown 20230712/d/datamazing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 09:08:11] INFO root fetch - processPackages [scoamppro]: executing diffoscope
+[2023-07-12 09:08:11] INFO root fetch - processPackages [scoamppro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamppro-0.3.3-py3-none-any.whl.zip tmp/scoamppro-0.3.4-py3-none-any.whl.zip --markdown 20230712/s/scoamppro/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-12 09:08:11] INFO root fetch - processPackages [sdbsxwf]: Downloading https://files.pythonhosted.org/packages/5e/42/3ff5cd7fdb0e6b9428b2d9b94e786aec85d93b0e23c45011e9096e124df6/sdbsxwf-20230712.tar.gz
+[2023-07-12 09:08:11] INFO root fetch - processPackages [langchain-wenxin]: executing diffoscope
+[2023-07-12 09:08:11] INFO root fetch - processPackages [langchain-wenxin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_wenxin-0.8.0.tar.gz tmp/langchain_wenxin-0.8.1.tar.gz --markdown 20230712/l/langchain-wenxin/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-12 09:08:11] INFO root fetch - processPackages [sdbsxwf]: executing diffoscope
+[2023-07-12 09:08:11] INFO root fetch - processPackages [sdbsxwf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdbsxwf-20220426.tar.gz tmp/sdbsxwf-20230712.tar.gz --markdown 20230712/s/sdbsxwf/20220426-20230712/diff.md --exclude *.pyd
+[2023-07-12 09:08:11] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-12 09:08:12] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-12 09:08:12] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230712/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-12 09:08:12] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-12 09:08:12] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-12 09:08:12] INFO root fetch - processPackages [ats-case]: Start processing: nwebclient
+[2023-07-12 09:08:12] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-12 09:08:12] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 09:08:12] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 09:08:12] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 09:08:12] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.3-py3-none-any.whl.zip]
+[2023-07-12 09:08:12] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.3.4-py3-none-any.whl.zip]
+[2023-07-12 09:08:12] INFO root fetch - processPackages [scoamp]: Start processing: DensityClust
+[2023-07-12 09:08:12] INFO root fetch - main [MainThread]: End processing [scoamp]: success
+[2023-07-12 09:08:12] INFO root fetch - processPackages [DensityClust]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-07-12 09:08:12] INFO root fetch - processPackages [tagreader]: Remove: archive file [/home/abi/fetcher/tmp/tagreader-4.2.0.tar.gz]
+[2023-07-12 09:08:12] INFO root fetch - processPackages [tagreader]: Remove: archive file [/home/abi/fetcher/tmp/tagreader-4.2.1.tar.gz]
+[2023-07-12 09:08:12] INFO root fetch - processPackages [tagreader]: Start processing: hrequests
+[2023-07-12 09:08:12] INFO root fetch - main [MainThread]: End processing [tagreader]: success
+[2023-07-12 09:08:12] INFO root fetch - processPackages [DensityClust]: Downloading https://files.pythonhosted.org/packages/8b/ea/a712444d7d2d756bf0698a263bcf2c05d0267a5ec45ef20c416d5647c171/DensityClust-1.4.6.tar.gz
+[2023-07-12 09:08:13] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-0.0.8.tar.gz]
+[2023-07-12 09:08:13] INFO root fetch - processPackages [datamazing]: Remove: archive file [/home/abi/fetcher/tmp/datamazing-0.0.9.tar.gz]
+[2023-07-12 09:08:13] INFO root fetch - main [MainThread]: End processing [datamazing]: success
+[2023-07-12 09:08:13] INFO root fetch - processPackages [hrequests]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-12 09:08:13] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 09:08:13] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 09:08:13] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 09:08:13] INFO root fetch - processPackages [hrequests]: Downloading https://files.pythonhosted.org/packages/26/08/3ab6a0b47cb4e45c48f4689cac8876dbda9ba17eb2090e0cb74e4dc14447/hrequests-0.4.0.tar.gz
+[2023-07-12 09:08:13] INFO root fetch - processPackages [sdbsxwf]: Remove: archive file [/home/abi/fetcher/tmp/sdbsxwf-20220426.tar.gz]
+[2023-07-12 09:08:13] INFO root fetch - processPackages [sdbsxwf]: Remove: archive file [/home/abi/fetcher/tmp/sdbsxwf-20230712.tar.gz]
+[2023-07-12 09:08:13] INFO root fetch - main [MainThread]: End processing [sdbsxwf]: success
+[2023-07-12 09:08:13] INFO root fetch - processPackages [DensityClust]: Downloading https://files.pythonhosted.org/packages/a6/3e/2c788d0a5452d0bb5b79e6db520eb5759f20b983bfaca7d32cbf9099ae1e/DensityClust-1.4.7.tar.gz
+[2023-07-12 09:08:13] INFO root fetch - processPackages [scoamppro]: Remove: archive file [/home/abi/fetcher/tmp/scoamppro-0.3.3-py3-none-any.whl.zip]
+[2023-07-12 09:08:13] INFO root fetch - processPackages [scoamppro]: Remove: archive file [/home/abi/fetcher/tmp/scoamppro-0.3.4-py3-none-any.whl.zip]
+[2023-07-12 09:08:13] INFO root fetch - main [MainThread]: End processing [scoamppro]: success
+[2023-07-12 09:08:13] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.8.0.tar.gz]
+[2023-07-12 09:08:13] INFO root fetch - processPackages [langchain-wenxin]: Remove: archive file [/home/abi/fetcher/tmp/langchain_wenxin-0.8.1.tar.gz]
+[2023-07-12 09:08:13] INFO root fetch - main [MainThread]: End processing [langchain-wenxin]: success
+[2023-07-12 09:08:13] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-07-12 09:08:13] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-07-12 09:08:13] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-07-12 09:08:13] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-12 09:08:13] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-12 09:08:13] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-12 09:08:13] ERROR root fetch - processPackages [nwebclient]: Diffoscope failed: time="2023-07-12T09:08:12+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/nwebclient-1.0.47.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/nwebclient-1.0.94.tar.gz: No such file or directory
+
+[2023-07-12 09:08:13] INFO root fetch - main [MainThread]: End processing [nwebclient] error
+[2023-07-12 09:08:13] INFO root fetch - processPackages [hrequests]: Downloading https://files.pythonhosted.org/packages/b2/ca/6d36e0dce8cd6054cf3abbdfceef45a6c420479379a536eac51695c4db7d/hrequests-0.4.1.tar.gz
+[2023-07-12 09:08:13] INFO root fetch - processPackages [hrequests]: executing diffoscope
+[2023-07-12 09:08:13] INFO root fetch - processPackages [hrequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrequests-0.4.0.tar.gz tmp/hrequests-0.4.1.tar.gz --markdown 20230712/h/hrequests/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-12 09:08:13] INFO root fetch - processPackages [DensityClust]: executing diffoscope
+[2023-07-12 09:08:13] INFO root fetch - processPackages [DensityClust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DensityClust-1.4.6.tar.gz tmp/DensityClust-1.4.7.tar.gz --markdown 20230712/D/DensityClust/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-07-12 09:08:14] INFO root fetch - processPackages [hrequests]: Remove: archive file [/home/abi/fetcher/tmp/hrequests-0.4.0.tar.gz]
+[2023-07-12 09:08:14] INFO root fetch - processPackages [hrequests]: Remove: archive file [/home/abi/fetcher/tmp/hrequests-0.4.1.tar.gz]
+[2023-07-12 09:08:14] INFO root fetch - main [MainThread]: End processing [hrequests]: success
+[2023-07-12 09:08:14] INFO root fetch - processPackages [DensityClust]: Remove: archive file [/home/abi/fetcher/tmp/DensityClust-1.4.6.tar.gz]
+[2023-07-12 09:08:14] INFO root fetch - processPackages [DensityClust]: Remove: archive file [/home/abi/fetcher/tmp/DensityClust-1.4.7.tar.gz]
+[2023-07-12 09:08:14] INFO root fetch - main [MainThread]: End processing [DensityClust]: success
+[2023-07-12 09:08:14] INFO root fetch - main [MainThread]: Store serial: [18856732]
