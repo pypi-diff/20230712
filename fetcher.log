@@ -11616,3 +11616,43 @@
 [2023-07-12 06:16:57] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
 [2023-07-12 06:16:57] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-12 06:16:57] INFO root fetch - main [MainThread]: Store serial: [18855576]
+[2023-07-12 06:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855576]
+[2023-07-12 06:22:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-12 06:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-manufacture
+[2023-07-12 06:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addons-oca-manufacture
+[2023-07-12 06:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mrp-bom-tracking
+[2023-07-12 06:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-manufacture
+[2023-07-12 06:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: min-rsync
+[2023-07-12 06:22:05] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-07-12 06:22:05] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: New version: [14.0.20230711.0] Old Version: [14.0.20230606.1]
+[2023-07-12 06:22:05] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: New version: [16.0.20230711.0] Old Version: [16.0.20230620.0]
+[2023-07-12 06:22:05] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: New version: [16.0.20230711.0] Old Version: [16.0.20230620.0]
+[2023-07-12 06:22:05] WARNING root fetch - processPackages [min-rsync]: Skipping, unable to determine old version
+[2023-07-12 06:22:05] INFO root fetch - main [MainThread]: End processing [min-rsync] error
+[2023-07-12 06:22:05] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: Downloading https://files.pythonhosted.org/packages/57/24/4841ffab8d3dd4e7becfdc2f4b914d394e94065626e2398a7070b497e7a5/odoo_addon_mrp_bom_tracking-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/62/5c/d50e37f21810ee4c03c67480ad92fc6aed39d44eb1a7a49d6d9367e9d2ea/odoo_addons_oca_manufacture-16.0.20230620.0-py3-none-any.whl
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/62/5c/d50e37f21810ee4c03c67480ad92fc6aed39d44eb1a7a49d6d9367e9d2ea/odoo_addons_oca_manufacture-16.0.20230620.0-py3-none-any.whl
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/18/09/d222b7758ed99ba81384db5565905c51a9b084cdcf989ef0f2cba4dbee2e/odoo14_addons_oca_manufacture-14.0.20230606.1-py3-none-any.whl
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: Downloading https://files.pythonhosted.org/packages/11/0c/3388a8ecf5dfd349a8d482962576919e5c91c541a78aa306e1ff20bfd48a/odoo_addon_mrp_bom_tracking-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/f1/86/8a7e330d2322900fbbe9dcb82a586e5c5439891b3da84c7f343abc9c51f5/odoo14_addons_oca_manufacture-14.0.20230711.0-py3-none-any.whl
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/d7/2c/16e194a4ccee6eac6128d536333a9ded5062f5b184d4e1ec3c796238313c/odoo_addons_oca_manufacture-16.0.20230711.0-py3-none-any.whl
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/d7/2c/16e194a4ccee6eac6128d536333a9ded5062f5b184d4e1ec3c796238313c/odoo_addons_oca_manufacture-16.0.20230711.0-py3-none-any.whl
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: executing diffoscope
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_bom_tracking-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_mrp_bom_tracking-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-mrp-bom-tracking/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: executing diffoscope
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: executing diffoscope
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_manufacture-16.0.20230620.0-py3-none-any.whl.zip tmp/odoo_addons_oca_manufacture-16.0.20230711.0-py3-none-any.whl.zip --markdown 20230712/o/odoo-addons-oca-manufacture/16.0.20230620.0-16.0.20230711.0/diff.md --exclude *.pyd
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_manufacture-16.0.20230620.0-py3-none-any.whl.zip tmp/odoo_addons_oca_manufacture-16.0.20230711.0-py3-none-any.whl.zip --markdown 20230712/o/odoo-addons-oca-manufacture/16.0.20230620.0-16.0.20230711.0/diff.md --exclude *.pyd
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: executing diffoscope
+[2023-07-12 06:22:06] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_manufacture-14.0.20230606.1-py3-none-any.whl.zip tmp/odoo14_addons_oca_manufacture-14.0.20230711.0-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addons-oca-manufacture/14.0.20230606.1-14.0.20230711.0/diff.md --exclude *.pyd
+[2023-07-12 06:22:07] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_tracking-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-12 06:22:07] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_tracking-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-12 06:22:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-bom-tracking]: success
+[2023-07-12 06:22:07] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_manufacture-14.0.20230606.1-py3-none-any.whl.zip]
+[2023-07-12 06:22:07] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_manufacture-14.0.20230711.0-py3-none-any.whl.zip]
+[2023-07-12 06:22:07] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-manufacture]: success
+[2023-07-12 06:22:07] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture-16.0.20230620.0-py3-none-any.whl.zip]
+[2023-07-12 06:22:07] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture-16.0.20230711.0-py3-none-any.whl.zip]
+[2023-07-12 06:22:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-manufacture]: success
+[2023-07-12 06:22:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-manufacture]: success
+[2023-07-12 06:22:07] INFO root fetch - main [MainThread]: Store serial: [18855588]
