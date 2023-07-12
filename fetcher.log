@@ -14226,3 +14226,78 @@
 [2023-07-12 09:18:55] INFO root fetch - processPackages [gns3-gui]: Remove: archive file [/home/abi/fetcher/tmp/gns3-gui-3.0.0a3.tar.gz]
 [2023-07-12 09:18:55] INFO root fetch - main [MainThread]: End processing [gns3-gui]: success
 [2023-07-12 09:18:55] INFO root fetch - main [MainThread]: Store serial: [18856817]
+[2023-07-12 09:24:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856817]
+[2023-07-12 09:24:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qiskit-hangyul
+[2023-07-12 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docarray
+[2023-07-12 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyflyby
+[2023-07-12 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: magic-class
+[2023-07-12 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: guify
+[2023-07-12 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cmem-cmempy
+[2023-07-12 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telebot-components
+[2023-07-12 09:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-stock-reserve-rule
+[2023-07-12 09:24:04] INFO root fetch - processPackages [cmem-cmempy]: New version: [23.1.2rc2] Old Version: [23.1.2rc1]
+[2023-07-12 09:24:04] INFO root fetch - processPackages [pyflyby]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-07-12 09:24:04] INFO root fetch - processPackages [magic-class]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-12 09:24:04] INFO root fetch - processPackages [guify]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-12 09:24:04] INFO root fetch - processPackages [qiskit-hangyul]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-12 09:24:04] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-12 09:24:05] INFO root fetch - processPackages [odoo13-addon-stock-reserve-rule]: New version: [13.0.1.5.0] Old Version: [13.0.1.4.0]
+[2023-07-12 09:24:05] INFO root fetch - processPackages [telebot-components]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-12 09:24:05] INFO root fetch - processPackages [pyflyby]: Downloading https://files.pythonhosted.org/packages/9e/5c/418a79f92c04d5d6fa5f94483723b07503a24634fbeb35aab2d72cfc5714/pyflyby-1.8.4.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [qiskit-hangyul]: Downloading https://files.pythonhosted.org/packages/20/66/10191e998a235333b44e27bae497c7e17b76dce960f065b885c393442de5/qiskit_hangyul-0.4.0.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [magic-class]: Downloading https://files.pythonhosted.org/packages/1d/f1/89a8dd1eccc3609385074850f3eab8393095e9997cc2d21c50dc42905852/magic_class-0.7.3.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/7c/4c/13620db0bcd91ab3480714bf5bc330712068fa8bc44ff08dc03b4689171d/guify-0.2.8.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [cmem-cmempy]: Downloading https://files.pythonhosted.org/packages/da/f9/2689786265567dfa432608c4036021bad4ad589488a11ed570661a17e0d4/cmem_cmempy-23.1.2rc1.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [odoo13-addon-stock-reserve-rule]: Downloading https://files.pythonhosted.org/packages/71/31/b3534fb4abd55bb266a0eb19b9cfadb228017fcfc013b5877fb670513dce/odoo13_addon_stock_reserve_rule-13.0.1.4.0-py3-none-any.whl
+[2023-07-12 09:24:05] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/fb/23/cd5704df83fc37ad6b64b1565fd12e1c10aab201ef5cbc5801bc47d77b3e/telebot_components-0.8.8.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [qiskit-hangyul]: Downloading https://files.pythonhosted.org/packages/7d/d4/7603be88032fa8a4bb0c6d3881182c7c02e94e411b94539dda318539f76d/qiskit_hangyul-0.5.0.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/3a/da/e1a7548f1c8197cc3f9e3f2536ffb60ff45538ac1b8299ad48cbc0442a41/telebot_components-0.8.9.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [magic-class]: Downloading https://files.pythonhosted.org/packages/5c/5a/49f00d3a46fba81900ae0f4108dfd9ca5423fcc7e73627facbd7a6106116/magic_class-0.7.4.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [cmem-cmempy]: Downloading https://files.pythonhosted.org/packages/4b/74/3aab05d6a7f0c513196d1f66e6d507c04fc1f111febe426028e8b41287a2/cmem_cmempy-23.1.2rc2.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [odoo13-addon-stock-reserve-rule]: Downloading https://files.pythonhosted.org/packages/f1/9b/0479783244d8cf726cc022609f1a94c87c6fcee142a86b52710451c422c0/odoo13_addon_stock_reserve_rule-13.0.1.5.0-py3-none-any.whl
+[2023-07-12 09:24:05] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/b1/9c/10706a21e75844465af6ac2e4dd6f9d0a1f364134a48a6700811521ca152/guify-0.2.9.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [qiskit-hangyul]: executing diffoscope
+[2023-07-12 09:24:05] INFO root fetch - processPackages [qiskit-hangyul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_hangyul-0.4.0.tar.gz tmp/qiskit_hangyul-0.5.0.tar.gz --markdown 20230712/q/qiskit-hangyul/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-12 09:24:05] INFO root fetch - processPackages [pyflyby]: Downloading https://files.pythonhosted.org/packages/38/6f/fe8b09728b06ebace743e0665ad89404d896e1aafc30928d9991d2179b98/pyflyby-1.8.5.tar.gz
+[2023-07-12 09:24:05] INFO root fetch - processPackages [magic-class]: executing diffoscope
+[2023-07-12 09:24:05] INFO root fetch - processPackages [magic-class]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_class-0.7.3.tar.gz tmp/magic_class-0.7.4.tar.gz --markdown 20230712/m/magic-class/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-12 09:24:05] INFO root fetch - processPackages [telebot-components]: executing diffoscope
+[2023-07-12 09:24:05] INFO root fetch - processPackages [telebot-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebot_components-0.8.8.tar.gz tmp/telebot_components-0.8.9.tar.gz --markdown 20230712/t/telebot-components/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-12 09:24:05] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-12 09:24:05] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230712/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-12 09:24:06] INFO root fetch - processPackages [odoo13-addon-stock-reserve-rule]: executing diffoscope
+[2023-07-12 09:24:06] INFO root fetch - processPackages [odoo13-addon-stock-reserve-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_stock_reserve_rule-13.0.1.4.0-py3-none-any.whl.zip tmp/odoo13_addon_stock_reserve_rule-13.0.1.5.0-py3-none-any.whl.zip --markdown 20230712/o/odoo13-addon-stock-reserve-rule/13.0.1.4.0-13.0.1.5.0/diff.md --exclude *.pyd
+[2023-07-12 09:24:06] INFO root fetch - processPackages [cmem-cmempy]: executing diffoscope
+[2023-07-12 09:24:06] INFO root fetch - processPackages [cmem-cmempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_cmempy-23.1.2rc1.tar.gz tmp/cmem_cmempy-23.1.2rc2.tar.gz --markdown 20230712/c/cmem-cmempy/23.1.2rc1-23.1.2rc2/diff.md --exclude *.pyd
+[2023-07-12 09:24:06] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-07-12 09:24:06] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.8.tar.gz tmp/guify-0.2.9.tar.gz --markdown 20230712/g/guify/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-12 09:24:06] INFO root fetch - processPackages [pyflyby]: executing diffoscope
+[2023-07-12 09:24:06] INFO root fetch - processPackages [pyflyby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflyby-1.8.4.tar.gz tmp/pyflyby-1.8.5.tar.gz --markdown 20230712/p/pyflyby/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-07-12 09:24:07] INFO root fetch - processPackages [qiskit-hangyul]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_hangyul-0.4.0.tar.gz]
+[2023-07-12 09:24:07] INFO root fetch - processPackages [qiskit-hangyul]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_hangyul-0.5.0.tar.gz]
+[2023-07-12 09:24:07] INFO root fetch - main [MainThread]: End processing [qiskit-hangyul]: success
+[2023-07-12 09:24:07] INFO root fetch - processPackages [odoo13-addon-stock-reserve-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_stock_reserve_rule-13.0.1.4.0-py3-none-any.whl.zip]
+[2023-07-12 09:24:07] INFO root fetch - processPackages [odoo13-addon-stock-reserve-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_stock_reserve_rule-13.0.1.5.0-py3-none-any.whl.zip]
+[2023-07-12 09:24:07] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-reserve-rule]: success
+[2023-07-12 09:24:07] INFO root fetch - processPackages [cmem-cmempy]: Remove: archive file [/home/abi/fetcher/tmp/cmem_cmempy-23.1.2rc1.tar.gz]
+[2023-07-12 09:24:07] INFO root fetch - processPackages [cmem-cmempy]: Remove: archive file [/home/abi/fetcher/tmp/cmem_cmempy-23.1.2rc2.tar.gz]
+[2023-07-12 09:24:07] INFO root fetch - main [MainThread]: End processing [cmem-cmempy]: success
+[2023-07-12 09:24:07] INFO root fetch - processPackages [telebot-components]: Remove: archive file [/home/abi/fetcher/tmp/telebot_components-0.8.8.tar.gz]
+[2023-07-12 09:24:07] INFO root fetch - processPackages [telebot-components]: Remove: archive file [/home/abi/fetcher/tmp/telebot_components-0.8.9.tar.gz]
+[2023-07-12 09:24:07] INFO root fetch - main [MainThread]: End processing [telebot-components]: success
+[2023-07-12 09:24:07] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-12 09:24:07] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-12 09:24:07] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-12 09:24:07] INFO root fetch - processPackages [magic-class]: Remove: archive file [/home/abi/fetcher/tmp/magic_class-0.7.3.tar.gz]
+[2023-07-12 09:24:07] INFO root fetch - processPackages [magic-class]: Remove: archive file [/home/abi/fetcher/tmp/magic_class-0.7.4.tar.gz]
+[2023-07-12 09:24:07] INFO root fetch - main [MainThread]: End processing [magic-class]: success
+[2023-07-12 09:24:08] INFO root fetch - processPackages [pyflyby]: Remove: archive file [/home/abi/fetcher/tmp/pyflyby-1.8.4.tar.gz]
+[2023-07-12 09:24:08] INFO root fetch - processPackages [pyflyby]: Remove: archive file [/home/abi/fetcher/tmp/pyflyby-1.8.5.tar.gz]
+[2023-07-12 09:24:08] INFO root fetch - main [MainThread]: End processing [pyflyby]: success
+[2023-07-12 09:24:13] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.2.8.tar.gz]
+[2023-07-12 09:24:13] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.2.9.tar.gz]
+[2023-07-12 09:24:13] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-07-12 09:24:13] INFO root fetch - main [MainThread]: Store serial: [18856839]
