@@ -16669,3 +16669,182 @@
 [2023-07-12 10:58:55] INFO root fetch - processPackages [norminette]: Remove: archive file [/home/abi/fetcher/tmp/norminette-3.3.53.tar.gz]
 [2023-07-12 10:58:55] INFO root fetch - main [MainThread]: End processing [norminette]: success
 [2023-07-12 10:58:55] INFO root fetch - main [MainThread]: Store serial: [18857831]
+[2023-07-12 11:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857831]
+[2023-07-12 11:04:04] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-12 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sydeploy
+[2023-07-12 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flagsmith-flag-engine
+[2023-07-12 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-alimt20181012-py2
+[2023-07-12 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-software
+[2023-07-12 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dipex
+[2023-07-12 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-alimt20181012
+[2023-07-12 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Fred-Frechet
+[2023-07-12 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spai
+[2023-07-12 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: voila-vuetify-template-tuwien
+[2023-07-12 11:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localstack-core
+[2023-07-12 11:04:04] INFO root fetch - processPackages [spai]: New version: [2023.7.4] Old Version: [2023.7.12.post3]
+[2023-07-12 11:04:04] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-12 11:04:04] INFO root fetch - processPackages [flagsmith-flag-engine]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-07-12 11:04:04] INFO root fetch - processPackages [Fred-Frechet]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-12 11:04:04] INFO root fetch - processPackages [alibabacloud-alimt20181012-py2]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-12 11:04:04] INFO root fetch - processPackages [sydeploy]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-12 11:04:04] INFO root fetch - processPackages [alibabacloud-alimt20181012]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-12 11:04:04] INFO root fetch - processPackages [netbox-software]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-07-12 11:04:04] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-07-12 11:04:04] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230712090101] Old Version: [2.1.1.dev20230712083713]
+[2023-07-12 11:04:05] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Downloading https://files.pythonhosted.org/packages/22/3a/b2b9be143008f550ba6f83593d8c9fdb8d4c92e3be60dd9ce979e816ca01/voila-vuetify-template-tuwien-0.6.2.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [Fred-Frechet]: Downloading https://files.pythonhosted.org/packages/35/81/17595c869b665747837da1825308030df3087c80e20f26e282781e991ed7/Fred-Frechet-1.9.8.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/72/24/112fa2eb90bec4751ef5f35a3f746996250f50456d7f2c529550e349e1a4/localstack-core-2.1.1.dev20230712083713.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/a1/e4/2049d0c3109bb8b0fc83fc0aae9af3580686b5bd66174cf21fe0594bf0bd/spai-2023.7.12.post3.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [flagsmith-flag-engine]: Downloading https://files.pythonhosted.org/packages/38/36/b084e979048922d7218b073f219bf302052a869424bddcfdd132fe25bd33/flagsmith-flag-engine-4.0.2.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [alibabacloud-alimt20181012-py2]: Downloading https://files.pythonhosted.org/packages/ba/82/eaed9fa8540cf86c145156eff77783c8eaf29190da91b26875221238a666/alibabacloud_alimt20181012_py2-1.1.0.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/3b/e6/348209a312fe334728308b7c341019dd499f58b2a64762aef522445364e1/sydeploy-0.3.5-py3-none-any.whl
+[2023-07-12 11:04:05] INFO root fetch - processPackages [alibabacloud-alimt20181012]: Downloading https://files.pythonhosted.org/packages/c0/0b/5ce305cff410e0f7d7c858442c7498518f74c169739922258f03b983619e/alibabacloud_alimt20181012-1.1.0.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [netbox-software]: Downloading https://files.pythonhosted.org/packages/c5/2e/cf0901180de992c17d7e788b73fdb3cca2e2544e3db36b91fa551a8f4b77/netbox_software-0.1.7.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [Fred-Frechet]: Downloading https://files.pythonhosted.org/packages/6e/75/298c88cc23934ff39afe9396676a702e198399c248fb6d9e16da366009d3/Fred-Frechet-1.9.9.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Downloading https://files.pythonhosted.org/packages/db/4d/8c512cf0c3bcb82d2ae1b3ee81637ff63a43b59b276f12a86e49de24f2c4/voila-vuetify-template-tuwien-0.6.3.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [flagsmith-flag-engine]: Downloading https://files.pythonhosted.org/packages/65/9d/3b09daaac31c26e32ecf61fcf5919772f41b15b3fe45730c6b02f563952f/flagsmith-flag-engine-4.0.3.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/3d/f8/1df4e0e757644d3a07491afda0747699ef57e62726ae648bdb9121ee3774/spai-2023.7.4.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-07-12 11:04:05] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230712/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-07-12 11:04:05] INFO root fetch - processPackages [alibabacloud-alimt20181012-py2]: Downloading https://files.pythonhosted.org/packages/bd/71/9082ba7b833ebf6218b65bd076b5e3652f9852eaae8af8398fd49ea2993b/alibabacloud_alimt20181012_py2-1.1.1.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [alibabacloud-alimt20181012]: Downloading https://files.pythonhosted.org/packages/d0/be/a365e6369100169a2ed39714de514931c731942b825ad0cd9193c512ab9d/alibabacloud_alimt20181012-1.1.1.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [flagsmith-flag-engine]: executing diffoscope
+[2023-07-12 11:04:05] INFO root fetch - processPackages [flagsmith-flag-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagsmith-flag-engine-4.0.2.tar.gz tmp/flagsmith-flag-engine-4.0.3.tar.gz --markdown 20230712/f/flagsmith-flag-engine/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-07-12 11:04:05] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c3/8a/e2a3f2bdb23065fa7002d24eea60d2c71638942f45db763c080cd3261874/localstack-core-2.1.1.dev20230712090101.tar.gz
+[2023-07-12 11:04:05] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/59/ae/5265e59d33ee8e61200d9fe91f122bfc9de92f65f050478672dd88abf312/sydeploy-0.3.6-py3-none-any.whl
+[2023-07-12 11:04:05] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: executing diffoscope
+[2023-07-12 11:04:05] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-vuetify-template-tuwien-0.6.2.tar.gz tmp/voila-vuetify-template-tuwien-0.6.3.tar.gz --markdown 20230712/v/voila-vuetify-template-tuwien/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-12 11:04:05] INFO root fetch - processPackages [netbox-software]: Downloading https://files.pythonhosted.org/packages/6c/55/20599395f2ba8df19ad647151af0579960d984ce29137ee6222971e040bb/netbox_software-0.2.0.tar.gz
+[2023-07-12 11:04:06] INFO root fetch - processPackages [Fred-Frechet]: executing diffoscope
+[2023-07-12 11:04:06] INFO root fetch - processPackages [Fred-Frechet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fred-Frechet-1.9.8.tar.gz tmp/Fred-Frechet-1.9.9.tar.gz --markdown 20230712/F/Fred-Frechet/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-12 11:04:06] INFO root fetch - processPackages [spai]: executing diffoscope
+[2023-07-12 11:04:06] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2023.7.12.post3.tar.gz tmp/spai-2023.7.4.tar.gz --markdown 20230712/s/spai/2023.7.12.post3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-12 11:04:06] INFO root fetch - processPackages [alibabacloud-alimt20181012-py2]: executing diffoscope
+[2023-07-12 11:04:06] INFO root fetch - processPackages [alibabacloud-alimt20181012-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_alimt20181012_py2-1.1.0.tar.gz tmp/alibabacloud_alimt20181012_py2-1.1.1.tar.gz --markdown 20230712/a/alibabacloud-alimt20181012-py2/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-12 11:04:06] INFO root fetch - processPackages [alibabacloud-alimt20181012]: executing diffoscope
+[2023-07-12 11:04:06] INFO root fetch - processPackages [alibabacloud-alimt20181012]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_alimt20181012-1.1.0.tar.gz tmp/alibabacloud_alimt20181012-1.1.1.tar.gz --markdown 20230712/a/alibabacloud-alimt20181012/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-12 11:04:06] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-12 11:04:06] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.3.5-py3-none-any.whl.zip tmp/sydeploy-0.3.6-py3-none-any.whl.zip --markdown 20230712/s/sydeploy/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-12 11:04:06] INFO root fetch - processPackages [netbox-software]: executing diffoscope
+[2023-07-12 11:04:06] INFO root fetch - processPackages [netbox-software]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_software-0.1.7.tar.gz tmp/netbox_software-0.2.0.tar.gz --markdown 20230712/n/netbox-software/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-07-12 11:04:06] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-12 11:04:06] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230712083713.tar.gz tmp/localstack-core-2.1.1.dev20230712090101.tar.gz --markdown 20230712/l/localstack-core/2.1.1.dev20230712083713-2.1.1.dev20230712090101/diff.md --exclude *.pyd
+[2023-07-12 11:04:07] INFO root fetch - processPackages [flagsmith-flag-engine]: Remove: archive file [/home/abi/fetcher/tmp/flagsmith-flag-engine-4.0.2.tar.gz]
+[2023-07-12 11:04:07] INFO root fetch - processPackages [flagsmith-flag-engine]: Remove: archive file [/home/abi/fetcher/tmp/flagsmith-flag-engine-4.0.3.tar.gz]
+[2023-07-12 11:04:07] INFO root fetch - processPackages [flagsmith-flag-engine]: Start processing: audiofile
+[2023-07-12 11:04:07] INFO root fetch - main [MainThread]: End processing [flagsmith-flag-engine]: success
+[2023-07-12 11:04:07] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.3.5-py3-none-any.whl.zip]
+[2023-07-12 11:04:07] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.3.6-py3-none-any.whl.zip]
+[2023-07-12 11:04:07] INFO root fetch - processPackages [audiofile]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-07-12 11:04:07] INFO root fetch - processPackages [sydeploy]: Start processing: radicalpy
+[2023-07-12 11:04:07] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-12 11:04:07] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-vuetify-template-tuwien-0.6.2.tar.gz]
+[2023-07-12 11:04:07] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Remove: archive file [/home/abi/fetcher/tmp/voila-vuetify-template-tuwien-0.6.3.tar.gz]
+[2023-07-12 11:04:07] INFO root fetch - processPackages [voila-vuetify-template-tuwien]: Start processing: coretex
+[2023-07-12 11:04:07] INFO root fetch - main [MainThread]: End processing [voila-vuetify-template-tuwien]: success
+[2023-07-12 11:04:08] INFO root fetch - processPackages [radicalpy]: New version: [0.6.0] Old Version: [0.5rc1]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [coretex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [alibabacloud-alimt20181012-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alimt20181012_py2-1.1.0.tar.gz]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [alibabacloud-alimt20181012-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alimt20181012_py2-1.1.1.tar.gz]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [alibabacloud-alimt20181012-py2]: Start processing: odoo-addon-delivery-postlogistics
+[2023-07-12 11:04:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-alimt20181012-py2]: success
+[2023-07-12 11:04:08] INFO root fetch - processPackages [Fred-Frechet]: Remove: archive file [/home/abi/fetcher/tmp/Fred-Frechet-1.9.8.tar.gz]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [Fred-Frechet]: Remove: archive file [/home/abi/fetcher/tmp/Fred-Frechet-1.9.9.tar.gz]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [Fred-Frechet]: Start processing: pymycobot
+[2023-07-12 11:04:08] INFO root fetch - main [MainThread]: End processing [Fred-Frechet]: success
+[2023-07-12 11:04:08] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.2]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d7/75/8f4b6144971b3d6263e9a16d64f4cdb7e8674d361ee6bf7eb12131095413/coretex-1.0.8.tar.gz
+[2023-07-12 11:04:08] INFO root fetch - processPackages [alibabacloud-alimt20181012]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alimt20181012-1.1.0.tar.gz]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [alibabacloud-alimt20181012]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alimt20181012-1.1.1.tar.gz]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [alibabacloud-alimt20181012]: Start processing: robusta-cli
+[2023-07-12 11:04:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-alimt20181012]: success
+[2023-07-12 11:04:08] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.12.post3.tar.gz]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2023.7.4.tar.gz]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [spai]: Start processing: sequana
+[2023-07-12 11:04:08] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2023-07-12 11:04:08] INFO root fetch - processPackages [netbox-software]: Remove: archive file [/home/abi/fetcher/tmp/netbox_software-0.1.7.tar.gz]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [netbox-software]: Remove: archive file [/home/abi/fetcher/tmp/netbox_software-0.2.0.tar.gz]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [netbox-software]: Start processing: sailboat-gym
+[2023-07-12 11:04:08] INFO root fetch - main [MainThread]: End processing [netbox-software]: success
+[2023-07-12 11:04:08] INFO root fetch - processPackages [audiofile]: Downloading https://files.pythonhosted.org/packages/37/41/20310e4bd373a9e2b75e58025b0ba9214d3b25fff2308c6529c6a14941b6/audiofile-1.2.1.tar.gz
+[2023-07-12 11:04:08] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [pymycobot]: New version: [3.1.6b2] Old Version: [3.1.6b1]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/87/d3/d61166f9df1f707459b95ac953bcfae8303833dee100d97183eefa91012d/radicalpy-0.5rc1.tar.gz
+[2023-07-12 11:04:08] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: Downloading https://files.pythonhosted.org/packages/d5/25/0bb0e2df1b47de9c8177e9e3690162c1c7e6bd70ca9b853efe1878809e1d/odoo_addon_delivery_postlogistics-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-12 11:04:08] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/43/b6/dd6118c182c8f2dce732ff949ccd136018dc308151c79ea9b279962e8eab/pymycobot-3.1.6b1.tar.gz
+[2023-07-12 11:04:08] INFO root fetch - processPackages [sequana]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d6/c4/89dc77c1c4645d9dfc7e2c5fabe518d4c2a28b7142db6b030a93cb938fca/coretex-1.0.9.tar.gz
+[2023-07-12 11:04:08] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/39/60/df780a4cd33fb6c25e7e6b0c86022d93aaa4490b1a758140e3d98a02996e/robusta-cli-0.9.7.tar.gz
+[2023-07-12 11:04:08] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [dipex]: Start processing: TEST-TC
+[2023-07-12 11:04:08] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-07-12 11:04:08] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-07-12 11:04:08] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/b7/3c/68b3c3b554a8064f9930cafb5a5539a7c4af299d665852189cffe56dd7f2/sailboat-gym-1.0.8.tar.gz
+[2023-07-12 11:04:08] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.8.tar.gz tmp/coretex-1.0.9.tar.gz --markdown 20230712/c/coretex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:04:08] INFO root fetch - processPackages [sequana]: Downloading https://files.pythonhosted.org/packages/ff/75/e1ef2e3648a089e98fe75ca07d35e6ef884b3b591a0600ebfe29e7bff534/sequana-0.9.7.tar.gz
+[2023-07-12 11:04:08] INFO root fetch - processPackages [TEST-TC]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-12 11:04:08] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/ce/42/6db36873b6eddd1c63460669862e8e1136dd1f484b9daee12ae276099253/radicalpy-0.6.0.tar.gz
+[2023-07-12 11:04:08] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/b9/7f/17f62b506ee789b94289ec18d6aa2aaf5982e43aff0e75cb5f08d4516e40/pymycobot-3.1.6b2.tar.gz
+[2023-07-12 11:04:08] INFO root fetch - processPackages [radicalpy]: executing diffoscope
+[2023-07-12 11:04:08] INFO root fetch - processPackages [radicalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radicalpy-0.5rc1.tar.gz tmp/radicalpy-0.6.0.tar.gz --markdown 20230712/r/radicalpy/0.5rc1-0.6.0/diff.md --exclude *.pyd
+[2023-07-12 11:04:08] INFO root fetch - processPackages [audiofile]: Downloading https://files.pythonhosted.org/packages/a9/da/0244c7dde44d6e0ab24fda5ed0f096ae8a061b90c785fdf1d5d72f9098c8/audiofile-1.3.0.tar.gz
+[2023-07-12 11:04:09] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/9f/ff/a70074935ded21551e9900241be83e06dcddd697498c8fa3eeab30d0105c/robusta-cli-0.9.9.tar.gz
+[2023-07-12 11:04:09] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/cf/7e/f28932b626e27239b5edb6e75837c3a7d633761b9e4ec17434e2f280aa70/TEST_TC-1.0.4.tar.gz
+[2023-07-12 11:04:09] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2023-07-12 11:04:09] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.1.6b1.tar.gz tmp/pymycobot-3.1.6b2.tar.gz --markdown 20230712/p/pymycobot/3.1.6b1-3.1.6b2/diff.md --exclude *.pyd
+[2023-07-12 11:04:09] INFO root fetch - processPackages [audiofile]: executing diffoscope
+[2023-07-12 11:04:09] INFO root fetch - processPackages [audiofile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiofile-1.2.1.tar.gz tmp/audiofile-1.3.0.tar.gz --markdown 20230712/a/audiofile/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-07-12 11:04:09] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-07-12 11:04:09] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230712/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-07-12 11:04:09] WARNING root fetch - processPackages [sequana]: Skipping package: exceeds size limit 21031689>=10485760
+[2023-07-12 11:04:09] INFO root fetch - processPackages [sequana]: Start processing: histoencoder
+[2023-07-12 11:04:09] INFO root fetch - main [MainThread]: End processing [sequana] error
+[2023-07-12 11:04:09] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/33/a8/605c4c74884f4d02dc36590d2ccd9a4399be1360b45ab2f56b706e61f3fe/TEST_TC-1.0.5.tar.gz
+[2023-07-12 11:04:09] INFO root fetch - processPackages [histoencoder]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-12 11:04:09] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: Downloading https://files.pythonhosted.org/packages/8e/f4/2b77d7a71f3889b93ca50518b19d8daf9ad141ff6411c22eb964c9dfcd6b/odoo_addon_delivery_postlogistics-16.0.1.0.1-py3-none-any.whl
+[2023-07-12 11:04:09] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/33/e2/289abaad82bb0c682bc89e04cb25378d184e076a7953af8d3da8c48d12a2/sailboat-gym-1.0.9.tar.gz
+[2023-07-12 11:04:09] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-07-12 11:04:09] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.8.tar.gz tmp/sailboat-gym-1.0.9.tar.gz --markdown 20230712/s/sailboat-gym/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:04:09] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-07-12 11:04:09] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.0.4.tar.gz tmp/TEST_TC-1.0.5.tar.gz --markdown 20230712/T/TEST-TC/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-12 11:04:09] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: executing diffoscope
+[2023-07-12 11:04:09] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_postlogistics-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_delivery_postlogistics-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-delivery-postlogistics/16.0.1.0.0.2-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-12 11:04:09] INFO root fetch - processPackages [histoencoder]: Downloading https://files.pythonhosted.org/packages/6d/88/c12e8f907fda7612eba9559549994a329bc935f175850f1041e736ca1448/histoencoder-0.1.0.tar.gz
+[2023-07-12 11:04:10] INFO root fetch - processPackages [histoencoder]: Downloading https://files.pythonhosted.org/packages/e9/a2/f113630c5b7674b7a48150ec5cb20df028af4e2f0e3fc2f341cb74caff5c/histoencoder-0.1.1.tar.gz
+[2023-07-12 11:04:10] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.5rc1.tar.gz]
+[2023-07-12 11:04:10] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.6.0.tar.gz]
+[2023-07-12 11:04:10] INFO root fetch - main [MainThread]: End processing [radicalpy]: success
+[2023-07-12 11:04:10] INFO root fetch - processPackages [histoencoder]: executing diffoscope
+[2023-07-12 11:04:10] INFO root fetch - processPackages [histoencoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histoencoder-0.1.0.tar.gz tmp/histoencoder-0.1.1.tar.gz --markdown 20230712/h/histoencoder/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-12 11:04:10] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.6b1.tar.gz]
+[2023-07-12 11:04:10] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.6b2.tar.gz]
+[2023-07-12 11:04:10] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2023-07-12 11:04:11] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.8.tar.gz]
+[2023-07-12 11:04:11] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.9.tar.gz]
+[2023-07-12 11:04:11] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-07-12 11:04:11] INFO root fetch - processPackages [audiofile]: Remove: archive file [/home/abi/fetcher/tmp/audiofile-1.2.1.tar.gz]
+[2023-07-12 11:04:11] INFO root fetch - processPackages [audiofile]: Remove: archive file [/home/abi/fetcher/tmp/audiofile-1.3.0.tar.gz]
+[2023-07-12 11:04:11] INFO root fetch - main [MainThread]: End processing [audiofile]: success
+[2023-07-12 11:04:11] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.0.4.tar.gz]
+[2023-07-12 11:04:11] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.0.5.tar.gz]
+[2023-07-12 11:04:11] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-07-12 11:04:11] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.8.tar.gz]
+[2023-07-12 11:04:11] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.9.tar.gz]
+[2023-07-12 11:04:11] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-07-12 11:04:11] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_postlogistics-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-12 11:04:11] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_postlogistics-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-12 11:04:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-postlogistics]: success
+[2023-07-12 11:04:11] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.7.tar.gz]
+[2023-07-12 11:04:11] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.9.tar.gz]
+[2023-07-12 11:04:11] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-07-12 11:04:11] INFO root fetch - processPackages [histoencoder]: Remove: archive file [/home/abi/fetcher/tmp/histoencoder-0.1.0.tar.gz]
+[2023-07-12 11:04:11] INFO root fetch - processPackages [histoencoder]: Remove: archive file [/home/abi/fetcher/tmp/histoencoder-0.1.1.tar.gz]
+[2023-07-12 11:04:11] INFO root fetch - main [MainThread]: End processing [histoencoder]: success
+[2023-07-12 11:04:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230712083713.tar.gz]
+[2023-07-12 11:04:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230712090101.tar.gz]
+[2023-07-12 11:04:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-12 11:04:12] INFO root fetch - main [MainThread]: Store serial: [18857886]
