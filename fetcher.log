@@ -12827,3 +12827,72 @@
 [2023-07-12 07:45:57] INFO root fetch - processPackages [libcoveocds]: Remove: archive file [/home/abi/fetcher/tmp/libcoveocds-0.9.1.tar.gz]
 [2023-07-12 07:45:57] INFO root fetch - main [MainThread]: End processing [libcoveocds]: success
 [2023-07-12 07:45:57] INFO root fetch - main [MainThread]: Store serial: [18856179]
+[2023-07-12 07:51:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856179]
+[2023-07-12 07:51:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 07:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doctran
+[2023-07-12 07:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qpd
+[2023-07-12 07:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sj-tool
+[2023-07-12 07:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchbricks
+[2023-07-12 07:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidocr-onnxruntime
+[2023-07-12 07:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notros2
+[2023-07-12 07:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: notros2
+[2023-07-12 07:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crypto-screening
+[2023-07-12 07:51:06] INFO root fetch - processPackages [notros2]: New version: [23.7.12.54847] Old Version: [23.7.12.54839]
+[2023-07-12 07:51:06] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 07:51:06] INFO root fetch - processPackages [rapidocr-onnxruntime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-12 07:51:06] INFO root fetch - processPackages [doctran]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 07:51:06] INFO root fetch - processPackages [torchbricks]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-12 07:51:06] INFO root fetch - processPackages [notros2]: New version: [23.7.12.54847] Old Version: [23.7.12.54839]
+[2023-07-12 07:51:06] INFO root fetch - processPackages [qpd]: New version: [0.4.4] Old Version: [0.4.3.dev2]
+[2023-07-12 07:51:06] INFO root fetch - processPackages [crypto-screening]: New version: [2.7.0] Old Version: [2.6.3]
+[2023-07-12 07:51:07] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-12 07:51:07] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/66/8d/bc0b687a1da607c74a68072b7a916226ca5b50b11340108b39db69e7cb8d/notros2-23.7.12.54839.tar.gz
+[2023-07-12 07:51:07] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/66/8d/bc0b687a1da607c74a68072b7a916226ca5b50b11340108b39db69e7cb8d/notros2-23.7.12.54839.tar.gz
+[2023-07-12 07:51:07] INFO root fetch - processPackages [rapidocr-onnxruntime]: Downloading https://files.pythonhosted.org/packages/69/da/333dc321825b1da48c8e2760e58d9b64d7431cec083e89fa719102b99dba/rapidocr_onnxruntime-1.2.8-py3-none-any.whl
+[2023-07-12 07:51:07] INFO root fetch - processPackages [doctran]: Downloading https://files.pythonhosted.org/packages/50/1e/db19dab5a244a56937b8deedf47ded2aa058469154c6e3d487d9ec80c1ad/doctran-0.0.8.tar.gz
+[2023-07-12 07:51:07] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/91/0a/e66dfc5e648802d0307348a763ea0b1f5325566f24e8bc59744e7d319e43/crypto-screening-2.6.3.tar.gz
+[2023-07-12 07:51:07] INFO root fetch - processPackages [torchbricks]: Downloading https://files.pythonhosted.org/packages/56/c0/62a807a2e730ce328c3c801dd26fab8e8ff9eb07e01529ed4e91128adc49/torchbricks-0.0.5.tar.gz
+[2023-07-12 07:51:07] INFO root fetch - processPackages [qpd]: Downloading https://files.pythonhosted.org/packages/21/dd/9865edf19ae45d83d4bada54923515d065c2285a176d71f75b8468e1bfbf/qpd-0.4.3.dev2.tar.gz
+[2023-07-12 07:51:07] WARNING root fetch - processPackages [rapidocr-onnxruntime]: Skipping package: exceeds size limit 12326258>=10485760
+[2023-07-12 07:51:07] INFO root fetch - main [MainThread]: End processing [rapidocr-onnxruntime] error
+[2023-07-12 07:51:07] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-12 07:51:07] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/e2/f8/ae4cf2e9d7b8dabce26c75e892d5f3599420958c03e5d98a8c36bce4eae4/notros2-23.7.12.54847-py3-none-any.whl
+[2023-07-12 07:51:07] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-12 07:51:07] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230712/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 07:51:07] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/e2/f8/ae4cf2e9d7b8dabce26c75e892d5f3599420958c03e5d98a8c36bce4eae4/notros2-23.7.12.54847-py3-none-any.whl
+[2023-07-12 07:51:07] INFO root fetch - processPackages [doctran]: Downloading https://files.pythonhosted.org/packages/e2/23/99206c85254d69e3912799eeda259b7e721aed41ac0cba1123bbad06ae4b/doctran-0.0.9.tar.gz
+[2023-07-12 07:51:07] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/56/29/27c563c7ce214b9ca5236f1bed2480e3479f39eb6bff500bb6e1e99236f6/crypto-screening-2.7.0.tar.gz
+[2023-07-12 07:51:07] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-12 07:51:07] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.12.54839.tar.gz tmp/notros2-23.7.12.54847-py3-none-any.whl.zip --markdown 20230712/n/notros2/23.7.12.54839-23.7.12.54847/diff.md --exclude *.pyd
+[2023-07-12 07:51:07] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-12 07:51:07] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.12.54839.tar.gz tmp/notros2-23.7.12.54847-py3-none-any.whl.zip --markdown 20230712/n/notros2/23.7.12.54839-23.7.12.54847/diff.md --exclude *.pyd
+[2023-07-12 07:51:07] INFO root fetch - processPackages [torchbricks]: Downloading https://files.pythonhosted.org/packages/a1/05/48df32cdb557fd6f2da0f41d2d1776e54afedbb4615b692c1b77d9fb37c5/torchbricks-0.0.6.tar.gz
+[2023-07-12 07:51:07] INFO root fetch - processPackages [doctran]: executing diffoscope
+[2023-07-12 07:51:07] INFO root fetch - processPackages [doctran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran-0.0.8.tar.gz tmp/doctran-0.0.9.tar.gz --markdown 20230712/d/doctran/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 07:51:07] INFO root fetch - processPackages [qpd]: Downloading https://files.pythonhosted.org/packages/81/51/82f1751e3aea61edf0c36e1bb8284e57f0856b550f9bc44be42d61335bf2/qpd-0.4.4.tar.gz
+[2023-07-12 07:51:07] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-12 07:51:07] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-2.6.3.tar.gz tmp/crypto-screening-2.7.0.tar.gz --markdown 20230712/c/crypto-screening/2.6.3-2.7.0/diff.md --exclude *.pyd
+[2023-07-12 07:51:08] INFO root fetch - processPackages [torchbricks]: executing diffoscope
+[2023-07-12 07:51:08] INFO root fetch - processPackages [torchbricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchbricks-0.0.5.tar.gz tmp/torchbricks-0.0.6.tar.gz --markdown 20230712/t/torchbricks/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-12 07:51:08] INFO root fetch - processPackages [qpd]: executing diffoscope
+[2023-07-12 07:51:08] INFO root fetch - processPackages [qpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qpd-0.4.3.dev2.tar.gz tmp/qpd-0.4.4.tar.gz --markdown 20230712/q/qpd/0.4.3.dev2-0.4.4/diff.md --exclude *.pyd
+[2023-07-12 07:51:08] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.12.54839.tar.gz]
+[2023-07-12 07:51:08] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.12.54847-py3-none-any.whl.zip]
+[2023-07-12 07:51:08] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-12 07:51:09] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-12 07:51:09] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-12 07:51:09] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-12 07:51:09] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-12 07:51:09] INFO root fetch - processPackages [torchbricks]: Remove: archive file [/home/abi/fetcher/tmp/torchbricks-0.0.5.tar.gz]
+[2023-07-12 07:51:09] INFO root fetch - processPackages [torchbricks]: Remove: archive file [/home/abi/fetcher/tmp/torchbricks-0.0.6.tar.gz]
+[2023-07-12 07:51:09] INFO root fetch - main [MainThread]: End processing [torchbricks]: success
+[2023-07-12 07:51:09] INFO root fetch - processPackages [doctran]: Remove: archive file [/home/abi/fetcher/tmp/doctran-0.0.8.tar.gz]
+[2023-07-12 07:51:09] INFO root fetch - processPackages [doctran]: Remove: archive file [/home/abi/fetcher/tmp/doctran-0.0.9.tar.gz]
+[2023-07-12 07:51:09] INFO root fetch - main [MainThread]: End processing [doctran]: success
+[2023-07-12 07:51:09] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.6.3.tar.gz]
+[2023-07-12 07:51:09] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-2.7.0.tar.gz]
+[2023-07-12 07:51:09] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-12 07:51:09] INFO root fetch - processPackages [qpd]: Remove: archive file [/home/abi/fetcher/tmp/qpd-0.4.3.dev2.tar.gz]
+[2023-07-12 07:51:09] INFO root fetch - processPackages [qpd]: Remove: archive file [/home/abi/fetcher/tmp/qpd-0.4.4.tar.gz]
+[2023-07-12 07:51:09] INFO root fetch - main [MainThread]: End processing [qpd]: success
+[2023-07-12 07:51:09] INFO root fetch - main [MainThread]: Store serial: [18856199]
