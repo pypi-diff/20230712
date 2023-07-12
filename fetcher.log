@@ -19174,3 +19174,106 @@
 [2023-07-12 12:34:59] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2023-07-12 12:34:59] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-07-12 12:34:59] INFO root fetch - main [MainThread]: Store serial: [18858860]
+[2023-07-12 12:40:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858860]
+[2023-07-12 12:40:08] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-12 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sinli
+[2023-07-12 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cubicweb-postgis
+[2023-07-12 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proteus-cli
+[2023-07-12 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: explainable-exceptions
+[2023-07-12 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-ge
+[2023-07-12 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: propel-client
+[2023-07-12 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langcorn
+[2023-07-12 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reaktion
+[2023-07-12 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fcs-sru-server
+[2023-07-12 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arkitekt
+[2023-07-12 12:40:08] WARNING root fetch - processPackages [explainable-exceptions]: Skipping, unable to determine old version
+[2023-07-12 12:40:08] INFO root fetch - processPackages [explainable-exceptions]: Start processing: easy-ge
+[2023-07-12 12:40:08] INFO root fetch - main [MainThread]: End processing [explainable-exceptions] error
+[2023-07-12 12:40:08] INFO root fetch - processPackages [cubicweb-postgis]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-07-12 12:40:09] INFO root fetch - processPackages [proteus-cli]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-12 12:40:09] INFO root fetch - processPackages [easy-ge]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-12 12:40:09] INFO root fetch - processPackages [langcorn]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 12:40:09] INFO root fetch - processPackages [reaktion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 12:40:09] INFO root fetch - processPackages [sinli]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-12 12:40:09] WARNING root fetch - processPackages [propel-client]: Skipping, unable to determine old version
+[2023-07-12 12:40:09] INFO root fetch - processPackages [propel-client]: Start processing: shimport
+[2023-07-12 12:40:09] INFO root fetch - main [MainThread]: End processing [propel-client] error
+[2023-07-12 12:40:09] WARNING root fetch - processPackages [fcs-sru-server]: Skipping, unable to determine old version
+[2023-07-12 12:40:09] INFO root fetch - processPackages [fcs-sru-server]: Start processing: hatch-rest-api
+[2023-07-12 12:40:09] INFO root fetch - main [MainThread]: End processing [fcs-sru-server] error
+[2023-07-12 12:40:09] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-12 12:40:09] INFO root fetch - processPackages [easy-ge]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-12 12:40:09] INFO root fetch - processPackages [hatch-rest-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-12 12:40:09] WARNING root fetch - processPackages [shimport]: Skipping, unable to determine old version
+[2023-07-12 12:40:09] INFO root fetch - processPackages [shimport]: Start processing: mlflow-tracking-mongostore
+[2023-07-12 12:40:09] INFO root fetch - main [MainThread]: End processing [shimport] error
+[2023-07-12 12:40:09] INFO root fetch - processPackages [sinli]: Downloading https://files.pythonhosted.org/packages/55/6f/2e4f875bbca6d32f9ab728ce4d3c1ff36d7491b2db00ccf8e5c776402147/sinli-1.1.3.tar.gz
+[2023-07-12 12:40:09] INFO root fetch - processPackages [easy-ge]: Downloading https://files.pythonhosted.org/packages/41/24/79ee7e17f4e73f6859b89f8a64b836bed0e0175dad14b98577e8ca3cf5ff/easy_ge-0.1.4.tar.gz
+[2023-07-12 12:40:09] INFO root fetch - processPackages [mlflow-tracking-mongostore]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-12 12:40:09] INFO root fetch - processPackages [hatch-rest-api]: Downloading https://files.pythonhosted.org/packages/53/e1/22f10781461d3819d6151025bff76a7f8a8d1e7d4d05e05819b8c7d16f69/hatch_rest_api-1.8.0.tar.gz
+[2023-07-12 12:40:09] INFO root fetch - processPackages [easy-ge]: Downloading https://files.pythonhosted.org/packages/41/24/79ee7e17f4e73f6859b89f8a64b836bed0e0175dad14b98577e8ca3cf5ff/easy_ge-0.1.4.tar.gz
+[2023-07-12 12:40:09] INFO root fetch - processPackages [cubicweb-postgis]: Downloading https://files.pythonhosted.org/packages/1e/00/fce38c34a7f1e7c8491a5abb272a01bacb454c43c21b78f3b3b2ce3cb3d2/cubicweb-postgis-0.9.0.tar.gz
+[2023-07-12 12:40:09] INFO root fetch - processPackages [proteus-cli]: Downloading https://files.pythonhosted.org/packages/d7/dc/aa5df3a2fc9f144ec7eaa615196e6c9bca444ab26bd336d237b9c674493b/proteus_cli-1.0.0.tar.gz
+[2023-07-12 12:40:09] INFO root fetch - processPackages [langcorn]: Downloading https://files.pythonhosted.org/packages/5b/b6/4e339350d08bda1b703ea151ef499beaa7f114f2353a7bb28e0068339692/langcorn-0.0.8.tar.gz
+[2023-07-12 12:40:09] INFO root fetch - processPackages [reaktion]: Downloading https://files.pythonhosted.org/packages/6b/17/78062ca4f758d824980e4ccd3a4ccf0de1302e137ee3d7f9bd644f790be3/reaktion-0.1.8.tar.gz
+[2023-07-12 12:40:09] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/45/d9/35169f132b775e9da3d8ce31f38662fadbe59f5edc60636fe5ea9f5de4dc/arkitekt-0.4.98.tar.gz
+[2023-07-12 12:40:09] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Downloading https://files.pythonhosted.org/packages/4e/22/7a60be7e572aac20352e94f43c05f4224ce2337ebc203d2ca6643a4fa0da/mlflow_tracking_mongostore-0.1.5-py3-none-any.whl
+[2023-07-12 12:40:09] INFO root fetch - processPackages [hatch-rest-api]: Downloading https://files.pythonhosted.org/packages/77/ab/7fffc2e61b25b4af9a272b49c1a99de6cb59dbb098dc0befa9e22e17e0f7/hatch_rest_api-1.9.0.tar.gz
+[2023-07-12 12:40:09] INFO root fetch - processPackages [sinli]: Downloading https://files.pythonhosted.org/packages/5b/06/2367bcd238a61905a99002179a108dff949af9b5fe911a606b5ffd0c27cf/sinli-1.1.4.tar.gz
+[2023-07-12 12:40:09] INFO root fetch - processPackages [easy-ge]: Downloading https://files.pythonhosted.org/packages/ee/77/1416e41eaf6e3cf43db29411c5801d4a751b061c7929fc551ee7e9e44f38/easy_ge-0.1.5.tar.gz
+[2023-07-12 12:40:09] INFO root fetch - processPackages [easy-ge]: Downloading https://files.pythonhosted.org/packages/ee/77/1416e41eaf6e3cf43db29411c5801d4a751b061c7929fc551ee7e9e44f38/easy_ge-0.1.5.tar.gz
+[2023-07-12 12:40:10] INFO root fetch - processPackages [sinli]: executing diffoscope
+[2023-07-12 12:40:10] INFO root fetch - processPackages [sinli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinli-1.1.3.tar.gz tmp/sinli-1.1.4.tar.gz --markdown 20230712/s/sinli/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-12 12:40:10] INFO root fetch - processPackages [hatch-rest-api]: executing diffoscope
+[2023-07-12 12:40:10] INFO root fetch - processPackages [hatch-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_rest_api-1.8.0.tar.gz tmp/hatch_rest_api-1.9.0.tar.gz --markdown 20230712/h/hatch-rest-api/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-12 12:40:10] INFO root fetch - processPackages [cubicweb-postgis]: Downloading https://files.pythonhosted.org/packages/9d/5e/57758dfb451cd73874341dab68e0ab17c217be196fcea0672875489e8c85/cubicweb-postgis-1.0.0.tar.gz
+[2023-07-12 12:40:10] INFO root fetch - processPackages [proteus-cli]: Downloading https://files.pythonhosted.org/packages/70/3e/446becdda46bd4bccd9dfc2ac55b59c7a529e52f188cd2f3715a42bf8e96/proteus_cli-1.1.0.tar.gz
+[2023-07-12 12:40:10] INFO root fetch - processPackages [langcorn]: Downloading https://files.pythonhosted.org/packages/15/e9/60c38955fbe18d183e7c4fe77ca679aa9819b4370f45bad245d07185c4b4/langcorn-0.0.9.tar.gz
+[2023-07-12 12:40:10] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/5e/c8/1f19f729f12496e96b8d1969f7079b0cdcacc1dee86057e74cb04b3087e0/arkitekt-0.4.99.tar.gz
+[2023-07-12 12:40:10] INFO root fetch - processPackages [easy-ge]: executing diffoscope
+[2023-07-12 12:40:10] INFO root fetch - processPackages [easy-ge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_ge-0.1.4.tar.gz tmp/easy_ge-0.1.5.tar.gz --markdown 20230712/e/easy-ge/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-12 12:40:10] INFO root fetch - processPackages [easy-ge]: executing diffoscope
+[2023-07-12 12:40:10] INFO root fetch - processPackages [easy-ge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_ge-0.1.4.tar.gz tmp/easy_ge-0.1.5.tar.gz --markdown 20230712/e/easy-ge/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-12 12:40:10] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Downloading https://files.pythonhosted.org/packages/e5/fb/bd6952564499374ac132f4514b4556525554e1068c1d8c215ff29b12faf0/mlflow_tracking_mongostore-0.1.6-py3-none-any.whl
+[2023-07-12 12:40:10] INFO root fetch - processPackages [reaktion]: Downloading https://files.pythonhosted.org/packages/b4/a4/974724e81dad303e0138484e1693d23ee43c3627d4e3d0f4a9fade9cc233/reaktion-0.1.9.tar.gz
+[2023-07-12 12:40:10] INFO root fetch - processPackages [cubicweb-postgis]: executing diffoscope
+[2023-07-12 12:40:10] INFO root fetch - processPackages [cubicweb-postgis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-postgis-0.9.0.tar.gz tmp/cubicweb-postgis-1.0.0.tar.gz --markdown 20230712/c/cubicweb-postgis/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-12 12:40:10] INFO root fetch - processPackages [proteus-cli]: executing diffoscope
+[2023-07-12 12:40:10] INFO root fetch - processPackages [proteus-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_cli-1.0.0.tar.gz tmp/proteus_cli-1.1.0.tar.gz --markdown 20230712/p/proteus-cli/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-12 12:40:10] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-07-12 12:40:10] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230712/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-12 12:40:10] INFO root fetch - processPackages [langcorn]: executing diffoscope
+[2023-07-12 12:40:10] INFO root fetch - processPackages [langcorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langcorn-0.0.8.tar.gz tmp/langcorn-0.0.9.tar.gz --markdown 20230712/l/langcorn/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 12:40:10] INFO root fetch - processPackages [mlflow-tracking-mongostore]: executing diffoscope
+[2023-07-12 12:40:10] INFO root fetch - processPackages [mlflow-tracking-mongostore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_tracking_mongostore-0.1.5-py3-none-any.whl.zip tmp/mlflow_tracking_mongostore-0.1.6-py3-none-any.whl.zip --markdown 20230712/m/mlflow-tracking-mongostore/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-12 12:40:10] INFO root fetch - processPackages [reaktion]: executing diffoscope
+[2023-07-12 12:40:10] INFO root fetch - processPackages [reaktion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaktion-0.1.8.tar.gz tmp/reaktion-0.1.9.tar.gz --markdown 20230712/r/reaktion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 12:40:11] INFO root fetch - processPackages [hatch-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/hatch_rest_api-1.8.0.tar.gz]
+[2023-07-12 12:40:11] INFO root fetch - processPackages [hatch-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/hatch_rest_api-1.9.0.tar.gz]
+[2023-07-12 12:40:11] INFO root fetch - main [MainThread]: End processing [hatch-rest-api]: success
+[2023-07-12 12:40:11] INFO root fetch - processPackages [sinli]: Remove: archive file [/home/abi/fetcher/tmp/sinli-1.1.3.tar.gz]
+[2023-07-12 12:40:11] INFO root fetch - processPackages [sinli]: Remove: archive file [/home/abi/fetcher/tmp/sinli-1.1.4.tar.gz]
+[2023-07-12 12:40:11] INFO root fetch - main [MainThread]: End processing [sinli]: success
+[2023-07-12 12:40:12] INFO root fetch - processPackages [easy-ge]: Remove: archive file [/home/abi/fetcher/tmp/easy_ge-0.1.4.tar.gz]
+[2023-07-12 12:40:12] INFO root fetch - processPackages [easy-ge]: Remove: archive file [/home/abi/fetcher/tmp/easy_ge-0.1.5.tar.gz]
+[2023-07-12 12:40:12] INFO root fetch - main [MainThread]: End processing [easy-ge]: success
+[2023-07-12 12:40:12] INFO root fetch - main [MainThread]: End processing [easy-ge]: success
+[2023-07-12 12:40:12] INFO root fetch - processPackages [cubicweb-postgis]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-postgis-0.9.0.tar.gz]
+[2023-07-12 12:40:12] INFO root fetch - processPackages [cubicweb-postgis]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-postgis-1.0.0.tar.gz]
+[2023-07-12 12:40:12] INFO root fetch - main [MainThread]: End processing [cubicweb-postgis]: success
+[2023-07-12 12:40:12] INFO root fetch - processPackages [proteus-cli]: Remove: archive file [/home/abi/fetcher/tmp/proteus_cli-1.0.0.tar.gz]
+[2023-07-12 12:40:12] INFO root fetch - processPackages [proteus-cli]: Remove: archive file [/home/abi/fetcher/tmp/proteus_cli-1.1.0.tar.gz]
+[2023-07-12 12:40:12] INFO root fetch - main [MainThread]: End processing [proteus-cli]: success
+[2023-07-12 12:40:12] INFO root fetch - processPackages [langcorn]: Remove: archive file [/home/abi/fetcher/tmp/langcorn-0.0.8.tar.gz]
+[2023-07-12 12:40:12] INFO root fetch - processPackages [langcorn]: Remove: archive file [/home/abi/fetcher/tmp/langcorn-0.0.9.tar.gz]
+[2023-07-12 12:40:12] INFO root fetch - main [MainThread]: End processing [langcorn]: success
+[2023-07-12 12:40:12] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_tracking_mongostore-0.1.5-py3-none-any.whl.zip]
+[2023-07-12 12:40:12] INFO root fetch - processPackages [mlflow-tracking-mongostore]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_tracking_mongostore-0.1.6-py3-none-any.whl.zip]
+[2023-07-12 12:40:12] INFO root fetch - main [MainThread]: End processing [mlflow-tracking-mongostore]: success
+[2023-07-12 12:40:12] INFO root fetch - processPackages [reaktion]: Remove: archive file [/home/abi/fetcher/tmp/reaktion-0.1.8.tar.gz]
+[2023-07-12 12:40:12] INFO root fetch - processPackages [reaktion]: Remove: archive file [/home/abi/fetcher/tmp/reaktion-0.1.9.tar.gz]
+[2023-07-12 12:40:12] INFO root fetch - main [MainThread]: End processing [reaktion]: success
+[2023-07-12 12:40:12] INFO root fetch - processPackages [arkitekt]: Remove: archive file [/home/abi/fetcher/tmp/arkitekt-0.4.98.tar.gz]
+[2023-07-12 12:40:12] INFO root fetch - processPackages [arkitekt]: Remove: archive file [/home/abi/fetcher/tmp/arkitekt-0.4.99.tar.gz]
+[2023-07-12 12:40:12] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-07-12 12:40:12] INFO root fetch - main [MainThread]: Store serial: [18858926]
