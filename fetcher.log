@@ -12961,3 +12961,24 @@
 [2023-07-12 07:56:25] INFO root fetch - processPackages [gpboost]: Remove: archive file [/home/abi/fetcher/tmp/gpboost-1.2.2.tar.gz]
 [2023-07-12 07:56:25] INFO root fetch - main [MainThread]: End processing [gpboost]: success
 [2023-07-12 07:56:25] INFO root fetch - main [MainThread]: Store serial: [18856243]
+[2023-07-12 08:01:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856243]
+[2023-07-12 08:01:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-12 08:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cypher-ai-helper
+[2023-07-12 08:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: velikafkaclient
+[2023-07-12 08:01:36] INFO root fetch - processPackages [cypher-ai-helper]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-12 08:01:36] INFO root fetch - processPackages [velikafkaclient]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-12 08:01:36] INFO root fetch - processPackages [velikafkaclient]: Downloading https://files.pythonhosted.org/packages/71/fc/03f715ad225ba3afb7c6adcfd2432756623bc101e2d8e8384e80cfcbe276/velikafkaclient-1.0.3.tar.gz
+[2023-07-12 08:01:36] INFO root fetch - processPackages [cypher-ai-helper]: Downloading https://files.pythonhosted.org/packages/83/5d/04ee64b0002538c53c18df48b259f199411bc8c0261d1a6ccc5fa36b739d/cypher_ai_helper-0.1.4.tar.gz
+[2023-07-12 08:01:36] INFO root fetch - processPackages [velikafkaclient]: Downloading https://files.pythonhosted.org/packages/e9/8a/975309d34938650cd6261187455c19bc1c523084928d9d0566b41fc2ad9a/velikafkaclient-1.0.4.tar.gz
+[2023-07-12 08:01:36] INFO root fetch - processPackages [velikafkaclient]: executing diffoscope
+[2023-07-12 08:01:36] INFO root fetch - processPackages [velikafkaclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velikafkaclient-1.0.3.tar.gz tmp/velikafkaclient-1.0.4.tar.gz --markdown 20230712/v/velikafkaclient/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-12 08:01:36] INFO root fetch - processPackages [cypher-ai-helper]: Downloading https://files.pythonhosted.org/packages/6d/e7/6572cf58a08b6130f3298efe17c3e97ecb3fc151b989be9dc1374c8ff957/cypher_ai_helper-0.1.5.tar.gz
+[2023-07-12 08:01:36] INFO root fetch - processPackages [cypher-ai-helper]: executing diffoscope
+[2023-07-12 08:01:36] INFO root fetch - processPackages [cypher-ai-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cypher_ai_helper-0.1.4.tar.gz tmp/cypher_ai_helper-0.1.5.tar.gz --markdown 20230712/c/cypher-ai-helper/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-12 08:01:37] INFO root fetch - processPackages [velikafkaclient]: Remove: archive file [/home/abi/fetcher/tmp/velikafkaclient-1.0.3.tar.gz]
+[2023-07-12 08:01:37] INFO root fetch - processPackages [velikafkaclient]: Remove: archive file [/home/abi/fetcher/tmp/velikafkaclient-1.0.4.tar.gz]
+[2023-07-12 08:01:37] INFO root fetch - main [MainThread]: End processing [velikafkaclient]: success
+[2023-07-12 08:01:37] INFO root fetch - processPackages [cypher-ai-helper]: Remove: archive file [/home/abi/fetcher/tmp/cypher_ai_helper-0.1.4.tar.gz]
+[2023-07-12 08:01:37] INFO root fetch - processPackages [cypher-ai-helper]: Remove: archive file [/home/abi/fetcher/tmp/cypher_ai_helper-0.1.5.tar.gz]
+[2023-07-12 08:01:37] INFO root fetch - main [MainThread]: End processing [cypher-ai-helper]: success
+[2023-07-12 08:01:37] INFO root fetch - main [MainThread]: Store serial: [18856249]
