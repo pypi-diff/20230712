@@ -10874,3 +10874,63 @@
 [2023-07-12 05:14:19] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
 [2023-07-12 05:14:19] INFO root fetch - main [MainThread]: End processing [m23]: success
 [2023-07-12 05:14:19] INFO root fetch - main [MainThread]: Store serial: [18855131]
+[2023-07-12 05:19:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855131]
+[2023-07-12 05:19:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-12 05:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-eais20190624-py2
+[2023-07-12 05:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-eais20190624
+[2023-07-12 05:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datamini-toolkits
+[2023-07-12 05:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seedwork-python
+[2023-07-12 05:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libzac
+[2023-07-12 05:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GANDLF
+[2023-07-12 05:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydlmeta
+[2023-07-12 05:19:28] INFO root fetch - processPackages [alibabacloud-eais20190624]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-12 05:19:28] INFO root fetch - processPackages [alibabacloud-eais20190624-py2]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-12 05:19:28] INFO root fetch - processPackages [datamini-toolkits]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-12 05:19:28] INFO root fetch - processPackages [seedwork-python]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-12 05:19:28] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230711] Old Version: [0.0.17.dev20230710]
+[2023-07-12 05:19:28] INFO root fetch - processPackages [libzac]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 05:19:28] WARNING root fetch - processPackages [pydlmeta]: Skipping, unable to determine old version
+[2023-07-12 05:19:28] INFO root fetch - main [MainThread]: End processing [pydlmeta] error
+[2023-07-12 05:19:29] INFO root fetch - processPackages [datamini-toolkits]: Downloading https://files.pythonhosted.org/packages/c3/49/9e6db67fb0c136638b8d22ef374716de2a593ca9d7f1de2e3d22ab3f5d30/datamini_toolkits-0.1.5.tar.gz
+[2023-07-12 05:19:29] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/8d/22/9fc28562eb50fa00293e8389f9645d8bcf9bd989dfb3ca3b74cfff8666c7/GANDLF-0.0.17.dev20230710.tar.gz
+[2023-07-12 05:19:29] INFO root fetch - processPackages [alibabacloud-eais20190624]: Downloading https://files.pythonhosted.org/packages/3c/0e/eba7cfca4146d465c956bac3aaf7da769f102549c5627746c13af44d80fb/alibabacloud_eais20190624-2.1.2.tar.gz
+[2023-07-12 05:19:29] INFO root fetch - processPackages [seedwork-python]: Downloading https://files.pythonhosted.org/packages/fb/56/afb22b9ba46b711723fb599e1257368f09c17c4b7e72d657a7c08054b07c/seedwork_python-0.1.1.tar.gz
+[2023-07-12 05:19:29] INFO root fetch - processPackages [alibabacloud-eais20190624-py2]: Downloading https://files.pythonhosted.org/packages/ea/e8/91699140e07289900003113cb873adad9a6c1037648f110e382c766ea6c5/alibabacloud_eais20190624_py2-2.1.2.tar.gz
+[2023-07-12 05:19:29] INFO root fetch - processPackages [libzac]: Downloading https://files.pythonhosted.org/packages/49/3b/a7be8408c2e472c99ef8f3cb07c75bd089e58e9de2b7d58d406f9bc55ec0/libzac-0.0.8-py3-none-any.whl
+[2023-07-12 05:19:29] INFO root fetch - processPackages [datamini-toolkits]: Downloading https://files.pythonhosted.org/packages/88/63/3532e48d51bf15e7b8ee4efa8fd1c8935b60bf2f1d6b7c2a15b623a0f3af/datamini_toolkits-0.1.6.tar.gz
+[2023-07-12 05:19:29] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/9d/aa/435daf9683ba0f78c6a59716c5aceaa02d7ec11de51ea232f33e5078b516/GANDLF-0.0.17.dev20230711.tar.gz
+[2023-07-12 05:19:29] INFO root fetch - processPackages [datamini-toolkits]: executing diffoscope
+[2023-07-12 05:19:29] INFO root fetch - processPackages [datamini-toolkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamini_toolkits-0.1.5.tar.gz tmp/datamini_toolkits-0.1.6.tar.gz --markdown 20230712/d/datamini-toolkits/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-12 05:19:29] INFO root fetch - processPackages [alibabacloud-eais20190624-py2]: Downloading https://files.pythonhosted.org/packages/c6/91/4b0641dd41a45426b8067c98ab0c25194d110a675e6a7eae7f7fbbdd94cc/alibabacloud_eais20190624_py2-2.1.3.tar.gz
+[2023-07-12 05:19:29] INFO root fetch - processPackages [alibabacloud-eais20190624]: Downloading https://files.pythonhosted.org/packages/86/c5/1a8f3aecc5c5c78e0e86719557822f0459f5f187a724b0d1a9d314e85faa/alibabacloud_eais20190624-2.1.3.tar.gz
+[2023-07-12 05:19:29] INFO root fetch - processPackages [seedwork-python]: Downloading https://files.pythonhosted.org/packages/64/e4/40eae25021c9ad9163760bc168b6164100717d65e7cadbaf5fcda8837b39/seedwork_python-0.2.0.tar.gz
+[2023-07-12 05:19:29] INFO root fetch - processPackages [alibabacloud-eais20190624-py2]: executing diffoscope
+[2023-07-12 05:19:29] INFO root fetch - processPackages [alibabacloud-eais20190624-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_eais20190624_py2-2.1.2.tar.gz tmp/alibabacloud_eais20190624_py2-2.1.3.tar.gz --markdown 20230712/a/alibabacloud-eais20190624-py2/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-12 05:19:29] INFO root fetch - processPackages [libzac]: Downloading https://files.pythonhosted.org/packages/34/12/34f4f0216e77356ab64f2345f303ee5207597a2d3a4cf5b99cf1a7f5acb1/libzac-0.0.9-py3-none-any.whl
+[2023-07-12 05:19:29] INFO root fetch - processPackages [seedwork-python]: executing diffoscope
+[2023-07-12 05:19:29] INFO root fetch - processPackages [seedwork-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seedwork_python-0.1.1.tar.gz tmp/seedwork_python-0.2.0.tar.gz --markdown 20230712/s/seedwork-python/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-12 05:19:29] INFO root fetch - processPackages [alibabacloud-eais20190624]: executing diffoscope
+[2023-07-12 05:19:29] INFO root fetch - processPackages [alibabacloud-eais20190624]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_eais20190624-2.1.2.tar.gz tmp/alibabacloud_eais20190624-2.1.3.tar.gz --markdown 20230712/a/alibabacloud-eais20190624/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-12 05:19:29] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-12 05:19:29] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230710.tar.gz tmp/GANDLF-0.0.17.dev20230711.tar.gz --markdown 20230712/G/GANDLF/0.0.17.dev20230710-0.0.17.dev20230711/diff.md --exclude *.pyd
+[2023-07-12 05:19:29] INFO root fetch - processPackages [libzac]: executing diffoscope
+[2023-07-12 05:19:29] INFO root fetch - processPackages [libzac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libzac-0.0.8-py3-none-any.whl.zip tmp/libzac-0.0.9-py3-none-any.whl.zip --markdown 20230712/l/libzac/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 05:19:30] INFO root fetch - processPackages [seedwork-python]: Remove: archive file [/home/abi/fetcher/tmp/seedwork_python-0.1.1.tar.gz]
+[2023-07-12 05:19:30] INFO root fetch - processPackages [seedwork-python]: Remove: archive file [/home/abi/fetcher/tmp/seedwork_python-0.2.0.tar.gz]
+[2023-07-12 05:19:30] INFO root fetch - main [MainThread]: End processing [seedwork-python]: success
+[2023-07-12 05:19:30] INFO root fetch - processPackages [datamini-toolkits]: Remove: archive file [/home/abi/fetcher/tmp/datamini_toolkits-0.1.5.tar.gz]
+[2023-07-12 05:19:30] INFO root fetch - processPackages [datamini-toolkits]: Remove: archive file [/home/abi/fetcher/tmp/datamini_toolkits-0.1.6.tar.gz]
+[2023-07-12 05:19:30] INFO root fetch - main [MainThread]: End processing [datamini-toolkits]: success
+[2023-07-12 05:19:30] INFO root fetch - processPackages [alibabacloud-eais20190624]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eais20190624-2.1.2.tar.gz]
+[2023-07-12 05:19:30] INFO root fetch - processPackages [alibabacloud-eais20190624]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eais20190624-2.1.3.tar.gz]
+[2023-07-12 05:19:30] INFO root fetch - main [MainThread]: End processing [alibabacloud-eais20190624]: success
+[2023-07-12 05:19:30] INFO root fetch - processPackages [alibabacloud-eais20190624-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eais20190624_py2-2.1.2.tar.gz]
+[2023-07-12 05:19:30] INFO root fetch - processPackages [alibabacloud-eais20190624-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eais20190624_py2-2.1.3.tar.gz]
+[2023-07-12 05:19:30] INFO root fetch - main [MainThread]: End processing [alibabacloud-eais20190624-py2]: success
+[2023-07-12 05:19:30] INFO root fetch - processPackages [libzac]: Remove: archive file [/home/abi/fetcher/tmp/libzac-0.0.8-py3-none-any.whl.zip]
+[2023-07-12 05:19:30] INFO root fetch - processPackages [libzac]: Remove: archive file [/home/abi/fetcher/tmp/libzac-0.0.9-py3-none-any.whl.zip]
+[2023-07-12 05:19:30] INFO root fetch - main [MainThread]: End processing [libzac]: success
+[2023-07-12 05:19:31] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230710.tar.gz]
+[2023-07-12 05:19:31] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230711.tar.gz]
+[2023-07-12 05:19:31] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-12 05:19:31] INFO root fetch - main [MainThread]: Store serial: [18855163]
