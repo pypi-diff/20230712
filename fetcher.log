@@ -11976,3 +11976,54 @@
 [2023-07-12 06:43:00] INFO root fetch - processPackages [macro-kit]: Remove: archive file [/home/abi/fetcher/tmp/macro_kit-0.4.6.tar.gz]
 [2023-07-12 06:43:00] INFO root fetch - main [MainThread]: End processing [macro-kit]: success
 [2023-07-12 06:43:00] INFO root fetch - main [MainThread]: Store serial: [18855778]
+[2023-07-12 06:48:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855778]
+[2023-07-12 06:48:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-12 06:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abqpy2021
+[2023-07-12 06:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abqpy2020
+[2023-07-12 06:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abqpy2018
+[2023-07-12 06:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abqpy2019
+[2023-07-12 06:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abqpy2017
+[2023-07-12 06:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abqpy2016
+[2023-07-12 06:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tux
+[2023-07-12 06:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addons-oca-project
+[2023-07-12 06:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: krakenci-client
+[2023-07-12 06:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trimnami
+[2023-07-12 06:48:09] WARNING root fetch - processPackages [abqpy2019]: Skipping, unable to determine old version
+[2023-07-12 06:48:09] INFO root fetch - main [MainThread]: End processing [abqpy2019] error
+[2023-07-12 06:48:09] WARNING root fetch - processPackages [abqpy2020]: Skipping, unable to determine old version
+[2023-07-12 06:48:09] INFO root fetch - main [MainThread]: End processing [abqpy2020] error
+[2023-07-12 06:48:09] WARNING root fetch - processPackages [abqpy2017]: Skipping, unable to determine old version
+[2023-07-12 06:48:09] INFO root fetch - main [MainThread]: End processing [abqpy2017] error
+[2023-07-12 06:48:09] WARNING root fetch - processPackages [tux]: Skipping, unable to determine old version
+[2023-07-12 06:48:09] INFO root fetch - main [MainThread]: End processing [tux] error
+[2023-07-12 06:48:09] WARNING root fetch - processPackages [abqpy2018]: Skipping, unable to determine old version
+[2023-07-12 06:48:09] INFO root fetch - main [MainThread]: End processing [abqpy2018] error
+[2023-07-12 06:48:09] INFO root fetch - processPackages [krakenci-client]: New version: [1.3.21] Old Version: [1.2.2]
+[2023-07-12 06:48:09] WARNING root fetch - processPackages [abqpy2021]: Skipping, unable to determine old version
+[2023-07-12 06:48:09] INFO root fetch - processPackages [trimnami]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-12 06:48:09] INFO root fetch - main [MainThread]: End processing [abqpy2021] error
+[2023-07-12 06:48:09] WARNING root fetch - processPackages [abqpy2016]: Skipping, unable to determine old version
+[2023-07-12 06:48:09] INFO root fetch - main [MainThread]: End processing [abqpy2016] error
+[2023-07-12 06:48:09] INFO root fetch - processPackages [odoo14-addons-oca-project]: New version: [14.0.20230711.0] Old Version: [14.0.20230511.0]
+[2023-07-12 06:48:09] INFO root fetch - processPackages [trimnami]: Downloading https://files.pythonhosted.org/packages/3d/4b/11e5e5966fe6146ea4b78d598107e3776733e8e3942e14d1c00af0cec52d/trimnami-0.0.4.tar.gz
+[2023-07-12 06:48:09] INFO root fetch - processPackages [krakenci-client]: Downloading https://files.pythonhosted.org/packages/24/06/ca3c33c7e90a575a1ef233afcefbb0451252c0287cf369d265742c2857fe/krakenci_client-1.2.2.tar.gz
+[2023-07-12 06:48:09] INFO root fetch - processPackages [odoo14-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/d8/f6/f963394c96cd966966634b454215709b6b904c13c7c57ae874d2aeefa485/odoo14_addons_oca_project-14.0.20230511.0-py3-none-any.whl
+[2023-07-12 06:48:10] INFO root fetch - processPackages [trimnami]: Downloading https://files.pythonhosted.org/packages/83/4c/91549a179658f1b3a43dc75233b31be0f240caa3c8bac53aac9c4e71ef6b/trimnami-0.0.5.tar.gz
+[2023-07-12 06:48:10] INFO root fetch - processPackages [krakenci-client]: Downloading https://files.pythonhosted.org/packages/8b/cd/dfdac2f9f85c68e4a7b4f834bb5ebe9c50ef9fb167df75248974ce76cd61/krakenci_client-1.3.21.tar.gz
+[2023-07-12 06:48:10] INFO root fetch - processPackages [odoo14-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/c4/c9/8e542d6f08001ab81d019617c2d6019201732a7e8d6c08297df7f43b9389/odoo14_addons_oca_project-14.0.20230711.0-py3-none-any.whl
+[2023-07-12 06:48:10] INFO root fetch - processPackages [krakenci-client]: executing diffoscope
+[2023-07-12 06:48:10] INFO root fetch - processPackages [krakenci-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krakenci_client-1.2.2.tar.gz tmp/krakenci_client-1.3.21.tar.gz --markdown 20230712/k/krakenci-client/1.2.2-1.3.21/diff.md --exclude *.pyd
+[2023-07-12 06:48:10] INFO root fetch - processPackages [odoo14-addons-oca-project]: executing diffoscope
+[2023-07-12 06:48:10] INFO root fetch - processPackages [odoo14-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_project-14.0.20230511.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_project-14.0.20230711.0-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addons-oca-project/14.0.20230511.0-14.0.20230711.0/diff.md --exclude *.pyd
+[2023-07-12 06:48:10] INFO root fetch - processPackages [trimnami]: executing diffoscope
+[2023-07-12 06:48:10] INFO root fetch - processPackages [trimnami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trimnami-0.0.4.tar.gz tmp/trimnami-0.0.5.tar.gz --markdown 20230712/t/trimnami/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-12 06:48:11] INFO root fetch - processPackages [odoo14-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_project-14.0.20230511.0-py3-none-any.whl.zip]
+[2023-07-12 06:48:11] INFO root fetch - processPackages [odoo14-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_project-14.0.20230711.0-py3-none-any.whl.zip]
+[2023-07-12 06:48:11] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-project]: success
+[2023-07-12 06:48:11] INFO root fetch - processPackages [krakenci-client]: Remove: archive file [/home/abi/fetcher/tmp/krakenci_client-1.2.2.tar.gz]
+[2023-07-12 06:48:11] INFO root fetch - processPackages [krakenci-client]: Remove: archive file [/home/abi/fetcher/tmp/krakenci_client-1.3.21.tar.gz]
+[2023-07-12 06:48:11] INFO root fetch - main [MainThread]: End processing [krakenci-client]: success
+[2023-07-12 06:48:12] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.4.tar.gz]
+[2023-07-12 06:48:12] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.5.tar.gz]
+[2023-07-12 06:48:12] INFO root fetch - main [MainThread]: End processing [trimnami]: success
+[2023-07-12 06:48:12] INFO root fetch - main [MainThread]: Store serial: [18855823]
