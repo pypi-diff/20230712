@@ -21558,3 +21558,158 @@ AssertionError: tmp/flask_validators-0.5.tar.gz does not exist
 [2023-07-12 14:00:49] INFO root fetch - processPackages [pyspedas]: Remove: archive file [/home/abi/fetcher/tmp/pyspedas-1.4.9.tar.gz]
 [2023-07-12 14:00:49] INFO root fetch - main [MainThread]: End processing [pyspedas]: success
 [2023-07-12 14:00:49] INFO root fetch - main [MainThread]: Store serial: [18859864]
+[2023-07-12 14:05:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18859864]
+[2023-07-12 14:05:59] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-12 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-dllib
+[2023-07-12 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-orca
+[2023-07-12 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-friesian
+[2023-07-12 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl
+[2023-07-12 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-dllib-spark2
+[2023-07-12 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aioqui
+[2023-07-12 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnibenchmark
+[2023-07-12 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: priceloop-api
+[2023-07-12 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: priceloop-api
+[2023-07-12 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-orca-spark2
+[2023-07-12 14:05:59] INFO root fetch - processPackages [omnibenchmark]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 14:05:59] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230712] Old Version: [2.4.0b20230711]
+[2023-07-12 14:05:59] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-07-12 14:05:59] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230712] Old Version: [2.4.0b20230711]
+[2023-07-12 14:05:59] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-07-12 14:05:59] INFO root fetch - processPackages [aioqui]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-12 14:05:59] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230712] Old Version: [2.4.0b20230711]
+[2023-07-12 14:05:59] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230712] Old Version: [2.4.0b20230711]
+[2023-07-12 14:05:59] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230712] Old Version: [2.4.0b20230711]
+[2023-07-12 14:05:59] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230712] Old Version: [2.4.0b20230711]
+[2023-07-12 14:05:59] INFO root fetch - processPackages [omnibenchmark]: Downloading https://files.pythonhosted.org/packages/04/a4/d578c8981a6f5ca2a83c36ab83237f36c0b7b32e13bccc515035c286e41c/omnibenchmark-0.0.8.tar.gz
+[2023-07-12 14:05:59] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/4c/b2/1cfa2ecf233bd43bec0a171f4a33e15605946f98eebc0c00a352dcabb3e4/bigdl_friesian-2.4.0b20230711-py3-none-manylinux1_x86_64.whl
+[2023-07-12 14:05:59] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/b9/9f/b2ca1beff5c5854b3297e8b76188b3c4a25097488295fe96d88ec3b80dcb/bigdl-dllib-2.4.0b20230711.tar.gz
+[2023-07-12 14:05:59] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/59/39/3a99245da2f64a93ce8fbed57a45f2ef76582e1279a481baffba937a549d/bigdl_orca_spark2-2.4.0b20230711-py3-none-manylinux1_x86_64.whl
+[2023-07-12 14:05:59] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/55/14/fd869ff904750b069ef33ec358322455d951b5bf91b6f3f09a8d79ebfdc6/bigdl-dllib-spark2-2.4.0b20230711.tar.gz
+[2023-07-12 14:05:59] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/06/59/b919e33ef8cdc51e1843b799e6c07b7ad11136e3aecebf78b882228083e2/bigdl_orca-2.4.0b20230711-py3-none-manylinux1_x86_64.whl
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/3a/50/e92ee106e24045a8faaca504cbb9f4fbff4bcb90c84cbca09abd0cfa2c7b/bigdl-2.4.0b20230711-py3-none-manylinux1_x86_64.whl
+[2023-07-12 14:06:00] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/57/ed/0a495d64c34e7231be831a2e5c8c4f72a4c1e127db36502e72aca015e92f/aioqui-2.1.9.tar.gz
+[2023-07-12 14:06:00] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53638766>=10485760
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: bigdl-friesian-spark2
+[2023-07-12 14:06:00] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-07-12 14:06:00] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369810>=10485760
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: bigdl-chronos-spark2
+[2023-07-12 14:06:00] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-07-12 14:06:00] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369730>=10485760
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-spark2
+[2023-07-12 14:06:00] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-07-12 14:06:00] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-07-12 14:06:00] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230712/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-07-12 14:06:00] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-07-12 14:06:00] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230712/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230712] Old Version: [2.4.0b20230711]
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230712] Old Version: [2.4.0b20230711]
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230712] Old Version: [2.4.0b20230711]
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/55/54/f5dab881dd21b507ee66bb133db75ef4b33cc10a529c47455b5d976baabb/bigdl_friesian-2.4.0b20230712-py3-none-manylinux1_x86_64.whl
+[2023-07-12 14:06:00] INFO root fetch - processPackages [omnibenchmark]: Downloading https://files.pythonhosted.org/packages/49/21/48ec825d1bcbc4a3f10b6909c0a0cfc6f14f632007bb755a3b38853a4c61/omnibenchmark-0.0.9.tar.gz
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/5e/d6/1b7b994ba0011cf7a8cce76cdb71bae2c76761cc35237e90b107aea44188/bigdl-2.4.0b20230712-py3-none-manylinux1_x86_64.whl
+[2023-07-12 14:06:00] INFO root fetch - processPackages [aioqui]: Downloading https://files.pythonhosted.org/packages/94/79/7c13ff05d232671618ca3286b9fd82663a455e37cfeb478080064998d1f4/aioqui-2.2.0.tar.gz
+[2023-07-12 14:06:00] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53638614>=10485760
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-dllib]: Start processing: django-stachoutils
+[2023-07-12 14:06:00] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/3c/b9/5fc8a5a576e814c57da94c57452e37fe9bd41efe22cfb0acb998d9e91306/bigdl_friesian_spark2-2.4.0b20230711-py3-none-manylinux1_x86_64.whl
+[2023-07-12 14:06:00] INFO root fetch - processPackages [django-stachoutils]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230712-py3-none-manylinux1_x86_64.whl.zip --markdown 20230712/b/bigdl-friesian/2.4.0b20230711-2.4.0b20230712/diff.md --exclude *.pyd
+[2023-07-12 14:06:00] INFO root fetch - processPackages [aioqui]: executing diffoscope
+[2023-07-12 14:06:00] INFO root fetch - processPackages [aioqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioqui-2.1.9.tar.gz tmp/aioqui-2.2.0.tar.gz --markdown 20230712/a/aioqui/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-12 14:06:00] INFO root fetch - processPackages [omnibenchmark]: executing diffoscope
+[2023-07-12 14:06:00] INFO root fetch - processPackages [omnibenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnibenchmark-0.0.8.tar.gz tmp/omnibenchmark-0.0.9.tar.gz --markdown 20230712/o/omnibenchmark/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/cf/9b/4e9553da7c9bd9f655919ff49dc0af4c4ecd65d28534bb1279026ece02ab/bigdl_chronos_spark2-2.4.0b20230711-py3-none-manylinux1_x86_64.whl
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/51/31/eca74270235dbc3bfeab22ecffa6d116d660c2ca3865fe6e0308e68d5009/bigdl_spark2-2.4.0b20230711-py3-none-manylinux1_x86_64.whl
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230712-py3-none-manylinux1_x86_64.whl.zip --markdown 20230712/b/bigdl/2.4.0b20230711-2.4.0b20230712/diff.md --exclude *.pyd
+[2023-07-12 14:06:00] INFO root fetch - processPackages [django-stachoutils]: Downloading https://files.pythonhosted.org/packages/09/37/0234abf71ac0fb0c1a86d0b15cb2ca99d486a4bc005361eaf2e4166535e9/django-stachoutils-4.0.0.tar.gz
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/c3/83/127992a9f659258b3ab7f6caf5a51f273d2b430673e6646e919c32e6f124/bigdl_friesian_spark2-2.4.0b20230712-py3-none-manylinux1_x86_64.whl
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/cf/fd/7572c921df4c68d9f415bd53e94cb5e38113977c44d34e0a82b34767a543/bigdl_spark2-2.4.0b20230712-py3-none-manylinux1_x86_64.whl
+[2023-07-12 14:06:00] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/db/85/a6cde5229ae20dd80abfa943171706a83575869245f0cf86b4b374b94400/bigdl_chronos_spark2-2.4.0b20230712-py3-none-manylinux1_x86_64.whl
+[2023-07-12 14:06:01] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-07-12 14:06:01] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230712-py3-none-manylinux1_x86_64.whl.zip --markdown 20230712/b/bigdl-friesian-spark2/2.4.0b20230711-2.4.0b20230712/diff.md --exclude *.pyd
+[2023-07-12 14:06:01] INFO root fetch - processPackages [priceloop-api]: Remove: archive file [/home/abi/fetcher/tmp/priceloop-api-0.95.0.tar.gz]
+[2023-07-12 14:06:01] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-07-12 14:06:01] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230712-py3-none-manylinux1_x86_64.whl.zip --markdown 20230712/b/bigdl-spark2/2.4.0b20230711-2.4.0b20230712/diff.md --exclude *.pyd
+[2023-07-12 14:06:01] INFO root fetch - processPackages [priceloop-api]: Remove: archive file [/home/abi/fetcher/tmp/priceloop-api-0.97.0.tar.gz]
+[2023-07-12 14:06:01] INFO root fetch - processPackages [priceloop-api]: Start processing: ural
+[2023-07-12 14:06:01] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-07-12 14:06:01] INFO root fetch - processPackages [priceloop-api]: Start processing: isimip-qc
+[2023-07-12 14:06:01] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-07-12 14:06:01] INFO root fetch - processPackages [ural]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-12 14:06:01] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-07-12 14:06:01] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230712-py3-none-manylinux1_x86_64.whl.zip --markdown 20230712/b/bigdl-chronos-spark2/2.4.0b20230711-2.4.0b20230712/diff.md --exclude *.pyd
+[2023-07-12 14:06:01] INFO root fetch - processPackages [isimip-qc]: New version: [3.1.0] Old Version: [3.0.3]
+[2023-07-12 14:06:01] INFO root fetch - processPackages [django-stachoutils]: Downloading https://files.pythonhosted.org/packages/10/5b/116fdce0a9848116cfb6a41315ca5722ae5919a4cb5c1b8b13e16b420830/django-stachoutils-4.1.0.tar.gz
+[2023-07-12 14:06:01] INFO root fetch - processPackages [ural]: Downloading https://files.pythonhosted.org/packages/f4/e5/a271a9f3c09f5ab118bade0be5451084882b62d366453410b5b99716dc20/ural-0.8.0.tar.gz
+[2023-07-12 14:06:01] INFO root fetch - processPackages [django-stachoutils]: executing diffoscope
+[2023-07-12 14:06:01] INFO root fetch - processPackages [django-stachoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stachoutils-4.0.0.tar.gz tmp/django-stachoutils-4.1.0.tar.gz --markdown 20230712/d/django-stachoutils/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-07-12 14:06:01] INFO root fetch - processPackages [isimip-qc]: Downloading https://files.pythonhosted.org/packages/6e/8c/e686a8bbbd89d29bad2b53bf6c9b41d2a9ee74bf5335b8fb8a17ce07212c/isimip-qc-3.0.3.tar.gz
+[2023-07-12 14:06:01] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-12 14:06:01] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230712-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-12 14:06:01] INFO root fetch - processPackages [bigdl]: Start processing: OpenFisca-Survey-Manager
+[2023-07-12 14:06:01] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-07-12 14:06:01] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-12 14:06:01] INFO root fetch - processPackages [ural]: Downloading https://files.pythonhosted.org/packages/8d/1a/a55321eefe2a11952939c061467755bbb0efafe278341985aebf3333527c/ural-0.9.0.tar.gz
+[2023-07-12 14:06:02] INFO root fetch - processPackages [isimip-qc]: Downloading https://files.pythonhosted.org/packages/c2/43/52b9e83640e124d6a838314df0f0fa1f63e31eb89fc37443aa9ce41778ad/isimip-qc-3.1.0.tar.gz
+[2023-07-12 14:06:02] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Downloading https://files.pythonhosted.org/packages/0d/9b/db8b3ad33d4c1eae1014616b111a0f8a3c54ffd034234ab25fd0f39d6e45/OpenFisca-Survey-Manager-1.0.1.tar.gz
+[2023-07-12 14:06:02] INFO root fetch - processPackages [omnibenchmark]: Remove: archive file [/home/abi/fetcher/tmp/omnibenchmark-0.0.8.tar.gz]
+[2023-07-12 14:06:02] INFO root fetch - processPackages [omnibenchmark]: Remove: archive file [/home/abi/fetcher/tmp/omnibenchmark-0.0.9.tar.gz]
+[2023-07-12 14:06:02] INFO root fetch - processPackages [omnibenchmark]: Start processing: irispreppy
+[2023-07-12 14:06:02] INFO root fetch - main [MainThread]: End processing [omnibenchmark]: success
+[2023-07-12 14:06:02] INFO root fetch - processPackages [irispreppy]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-12 14:06:02] INFO root fetch - processPackages [ural]: executing diffoscope
+[2023-07-12 14:06:02] INFO root fetch - processPackages [ural]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ural-0.8.0.tar.gz tmp/ural-0.9.0.tar.gz --markdown 20230712/u/ural/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 14:06:02] INFO root fetch - processPackages [isimip-qc]: executing diffoscope
+[2023-07-12 14:06:02] INFO root fetch - processPackages [isimip-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isimip-qc-3.0.3.tar.gz tmp/isimip-qc-3.1.0.tar.gz --markdown 20230712/i/isimip-qc/3.0.3-3.1.0/diff.md --exclude *.pyd
+[2023-07-12 14:06:02] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-12 14:06:02] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230712-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-12 14:06:02] INFO root fetch - processPackages [bigdl-friesian]: Start processing: extLog
+[2023-07-12 14:06:02] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-07-12 14:06:02] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Downloading https://files.pythonhosted.org/packages/18/e9/350ef450e185b27771c55322fe88b1eadfedf36f339a93124fa5f00255b5/OpenFisca-Survey-Manager-1.0.2.tar.gz
+[2023-07-12 14:06:02] WARNING root fetch - processPackages [extLog]: Skipping, unable to determine old version
+[2023-07-12 14:06:02] INFO root fetch - processPackages [extLog]: Start processing: libmata
+[2023-07-12 14:06:02] INFO root fetch - main [MainThread]: End processing [extLog] error
+[2023-07-12 14:06:02] INFO root fetch - processPackages [irispreppy]: Downloading https://files.pythonhosted.org/packages/39/93/04fff2af743c71f380d93f2f85a9c3c005b20f13018ff51fac9eceb85376/irispreppy-1.1.8.tar.gz
+[2023-07-12 14:06:02] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-12 14:06:02] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230712-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-12 14:06:02] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-07-12 14:06:02] INFO root fetch - processPackages [libmata]: New version: [0.75.0] Old Version: [0.74.0]
+[2023-07-12 14:06:02] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: executing diffoscope
+[2023-07-12 14:06:02] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-Survey-Manager-1.0.1.tar.gz tmp/OpenFisca-Survey-Manager-1.0.2.tar.gz --markdown 20230712/O/OpenFisca-Survey-Manager/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-12 14:06:02] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/34/78/ae8687255502ebc6ec0f37a72e8ace651a1bc3f95669b9b7a683809f8620/libmata-0.74.0.tar.gz
+[2023-07-12 14:06:02] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-12 14:06:02] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230712-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-12 14:06:02] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-07-12 14:06:02] INFO root fetch - processPackages [irispreppy]: Downloading https://files.pythonhosted.org/packages/6d/fd/0a33174ba3b02921f9fad58a9ed6fcfb9fd975ade4b7d33e0957ff862724/irispreppy-1.1.9.tar.gz
+[2023-07-12 14:06:03] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.1.9.tar.gz]
+[2023-07-12 14:06:03] INFO root fetch - processPackages [aioqui]: Remove: archive file [/home/abi/fetcher/tmp/aioqui-2.2.0.tar.gz]
+[2023-07-12 14:06:03] INFO root fetch - main [MainThread]: End processing [aioqui]: success
+[2023-07-12 14:06:03] INFO root fetch - processPackages [irispreppy]: executing diffoscope
+[2023-07-12 14:06:03] INFO root fetch - processPackages [irispreppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispreppy-1.1.8.tar.gz tmp/irispreppy-1.1.9.tar.gz --markdown 20230712/i/irispreppy/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-12 14:06:03] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/de/2d/0bec3808fdd3f186aa2e6e5b3d04e0ce650b28ec2e5deb060a6d52ea7c2a/libmata-0.75.0.tar.gz
+[2023-07-12 14:06:03] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-12 14:06:03] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230712-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-12 14:06:03] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-07-12 14:06:03] INFO root fetch - processPackages [ural]: Remove: archive file [/home/abi/fetcher/tmp/ural-0.8.0.tar.gz]
+[2023-07-12 14:06:03] INFO root fetch - processPackages [ural]: Remove: archive file [/home/abi/fetcher/tmp/ural-0.9.0.tar.gz]
+[2023-07-12 14:06:03] INFO root fetch - main [MainThread]: End processing [ural]: success
+[2023-07-12 14:06:03] INFO root fetch - processPackages [isimip-qc]: Remove: archive file [/home/abi/fetcher/tmp/isimip-qc-3.0.3.tar.gz]
+[2023-07-12 14:06:03] INFO root fetch - processPackages [isimip-qc]: Remove: archive file [/home/abi/fetcher/tmp/isimip-qc-3.1.0.tar.gz]
+[2023-07-12 14:06:03] INFO root fetch - main [MainThread]: End processing [isimip-qc]: success
+[2023-07-12 14:06:03] INFO root fetch - processPackages [django-stachoutils]: Remove: archive file [/home/abi/fetcher/tmp/django-stachoutils-4.0.0.tar.gz]
+[2023-07-12 14:06:03] INFO root fetch - processPackages [django-stachoutils]: Remove: archive file [/home/abi/fetcher/tmp/django-stachoutils-4.1.0.tar.gz]
+[2023-07-12 14:06:03] INFO root fetch - main [MainThread]: End processing [django-stachoutils]: success
+[2023-07-12 14:06:03] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-Survey-Manager-1.0.1.tar.gz]
+[2023-07-12 14:06:03] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-Survey-Manager-1.0.2.tar.gz]
+[2023-07-12 14:06:03] INFO root fetch - main [MainThread]: End processing [OpenFisca-Survey-Manager]: success
+[2023-07-12 14:06:03] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-07-12 14:06:03] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.74.0.tar.gz tmp/libmata-0.75.0.tar.gz --markdown 20230712/l/libmata/0.74.0-0.75.0/diff.md --exclude *.pyd
+[2023-07-12 14:06:04] INFO root fetch - processPackages [irispreppy]: Remove: archive file [/home/abi/fetcher/tmp/irispreppy-1.1.8.tar.gz]
+[2023-07-12 14:06:04] INFO root fetch - processPackages [irispreppy]: Remove: archive file [/home/abi/fetcher/tmp/irispreppy-1.1.9.tar.gz]
+[2023-07-12 14:06:04] INFO root fetch - main [MainThread]: End processing [irispreppy]: success
+[2023-07-12 14:06:07] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.74.0.tar.gz]
+[2023-07-12 14:06:07] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.75.0.tar.gz]
+[2023-07-12 14:06:07] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-07-12 14:06:07] INFO root fetch - main [MainThread]: Store serial: [18859922]
