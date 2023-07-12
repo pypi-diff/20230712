@@ -14764,3 +14764,185 @@
 [2023-07-12 09:48:31] ERROR root fetch - processPackages [mastapy]: Timeout during execution of pkgdiff
 [2023-07-12 09:48:31] INFO root fetch - main [MainThread]: End processing [mastapy] error
 [2023-07-12 09:48:31] INFO root fetch - main [MainThread]: Store serial: [18857057]
+[2023-07-12 09:53:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857057]
+[2023-07-12 09:53:40] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-12 09:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BahnarTextAugmentation
+[2023-07-12 09:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BahnarTextAugmentation
+[2023-07-12 09:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparseconverter
+[2023-07-12 09:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: telebot-components
+[2023-07-12 09:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stellargraph-mvisani
+[2023-07-12 09:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: email-domain-verification
+[2023-07-12 09:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keras-nightly
+[2023-07-12 09:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fibsem
+[2023-07-12 09:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wcfhttp
+[2023-07-12 09:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: email-domain-verification
+[2023-07-12 09:53:40] INFO root fetch - processPackages [BahnarTextAugmentation]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-12 09:53:40] WARNING root fetch - processPackages [stellargraph-mvisani]: Skipping, unable to determine old version
+[2023-07-12 09:53:40] INFO root fetch - processPackages [stellargraph-mvisani]: Start processing: es7s
+[2023-07-12 09:53:40] INFO root fetch - main [MainThread]: End processing [stellargraph-mvisani] error
+[2023-07-12 09:53:40] INFO root fetch - processPackages [telebot-components]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-12 09:53:40] INFO root fetch - processPackages [BahnarTextAugmentation]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-12 09:53:40] WARNING root fetch - processPackages [fibsem]: Skipping, unable to determine old version
+[2023-07-12 09:53:40] INFO root fetch - processPackages [fibsem]: Start processing: lqq-tool-weekreport
+[2023-07-12 09:53:40] INFO root fetch - main [MainThread]: End processing [fibsem] error
+[2023-07-12 09:53:40] INFO root fetch - processPackages [email-domain-verification]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-12 09:53:40] INFO root fetch - processPackages [sparseconverter]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-12 09:53:40] INFO root fetch - processPackages [wcfhttp]: New version: [39.0.0.0a1] Old Version: [39.0.0.0a0]
+[2023-07-12 09:53:40] INFO root fetch - processPackages [email-domain-verification]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-12 09:53:40] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-07-12 09:53:40] WARNING root fetch - processPackages [lqq-tool-weekreport]: Skipping, unable to determine old version
+[2023-07-12 09:53:40] INFO root fetch - processPackages [lqq-tool-weekreport]: Start processing: odoo14-addon-stock-picking-volume
+[2023-07-12 09:53:40] INFO root fetch - main [MainThread]: End processing [lqq-tool-weekreport] error
+[2023-07-12 09:53:40] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-12 09:53:40] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.2]
+[2023-07-12 09:53:40] INFO root fetch - processPackages [BahnarTextAugmentation]: Downloading https://files.pythonhosted.org/packages/f7/48/da0c7837240a3eac2ef80face5b0787d7728ef9f7a4c57e0fcfc349c39aa/BahnarTextAugmentation-1.0.0.tar.gz
+[2023-07-12 09:53:40] INFO root fetch - processPackages [BahnarTextAugmentation]: Downloading https://files.pythonhosted.org/packages/f7/48/da0c7837240a3eac2ef80face5b0787d7728ef9f7a4c57e0fcfc349c39aa/BahnarTextAugmentation-1.0.0.tar.gz
+[2023-07-12 09:53:40] INFO root fetch - processPackages [email-domain-verification]: Downloading https://files.pythonhosted.org/packages/ee/06/ee82b3577179212983eb8e92465c7b89825192c539035895f83d3090218b/email_domain_verification-1.0.1.tar.gz
+[2023-07-12 09:53:40] INFO root fetch - processPackages [email-domain-verification]: Downloading https://files.pythonhosted.org/packages/ee/06/ee82b3577179212983eb8e92465c7b89825192c539035895f83d3090218b/email_domain_verification-1.0.1.tar.gz
+[2023-07-12 09:53:40] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/51/88/aead2e6bfc515fa7d069ceb1b1d3b71d1adf788663714fd99fa9d745267b/wcfhttp-39.0.0.0a0.tar.gz
+[2023-07-12 09:53:40] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/fb/23/cd5704df83fc37ad6b64b1565fd12e1c10aab201ef5cbc5801bc47d77b3e/telebot_components-0.8.8.tar.gz
+[2023-07-12 09:53:40] INFO root fetch - processPackages [sparseconverter]: Downloading https://files.pythonhosted.org/packages/df/08/c78de9610336e30196374b31d0de766131ca1d2cf6fdbb9fa8a428e72859/sparseconverter-0.3.1.tar.gz
+[2023-07-12 09:53:41] INFO root fetch - processPackages [es7s]: Downloading https://files.pythonhosted.org/packages/d4/9b/638089077ce7b31286a1c6ea6d58552b2cb0e3f363a26c290e6de2ea308b/es7s-3.5.0.dev0.tar.gz
+[2023-07-12 09:53:41] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-12 09:53:41] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume]: Downloading https://files.pythonhosted.org/packages/3d/66/4c6a7591c038c18b36e1022b40e331eabc1dde321d49f64eff6ab69c2a52/odoo14_addon_stock_picking_volume-14.0.1.0.2-py3-none-any.whl
+[2023-07-12 09:53:41] INFO root fetch - processPackages [BahnarTextAugmentation]: Downloading https://files.pythonhosted.org/packages/3c/8e/8452b00d1c6b848db28df622b97495921855b3ddf45f60bc982cf9c5f198/BahnarTextAugmentation-1.0.1.tar.gz
+[2023-07-12 09:53:41] INFO root fetch - processPackages [email-domain-verification]: Downloading https://files.pythonhosted.org/packages/96/1b/5fd4d7cd2dae8991323efc079243c962990ddb9a6c65fb53cf4b38945edc/email_domain_verification-1.0.2.tar.gz
+[2023-07-12 09:53:41] INFO root fetch - processPackages [BahnarTextAugmentation]: Downloading https://files.pythonhosted.org/packages/3c/8e/8452b00d1c6b848db28df622b97495921855b3ddf45f60bc982cf9c5f198/BahnarTextAugmentation-1.0.1.tar.gz
+[2023-07-12 09:53:41] INFO root fetch - processPackages [email-domain-verification]: Downloading https://files.pythonhosted.org/packages/96/1b/5fd4d7cd2dae8991323efc079243c962990ddb9a6c65fb53cf4b38945edc/email_domain_verification-1.0.2.tar.gz
+[2023-07-12 09:53:41] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/3a/da/e1a7548f1c8197cc3f9e3f2536ffb60ff45538ac1b8299ad48cbc0442a41/telebot_components-0.8.9.tar.gz
+[2023-07-12 09:53:41] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/b6/01/c6a5b9127de195b7c568479bcf024b2076b787c547005783f7aa6bfa3f1f/wcfhttp-39.0.0.0a1.tar.gz
+[2023-07-12 09:53:41] INFO root fetch - processPackages [sparseconverter]: Downloading https://files.pythonhosted.org/packages/26/28/cc15dfaa4c55e65066dfedbb132ef4da5016572d187ccdbb8e6ec06d143a/sparseconverter-0.3.2.tar.gz
+[2023-07-12 09:53:41] INFO root fetch - processPackages [BahnarTextAugmentation]: executing diffoscope
+[2023-07-12 09:53:41] INFO root fetch - processPackages [BahnarTextAugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BahnarTextAugmentation-1.0.0.tar.gz tmp/BahnarTextAugmentation-1.0.1.tar.gz --markdown 20230712/B/BahnarTextAugmentation/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-12 09:53:41] INFO root fetch - processPackages [es7s]: Downloading https://files.pythonhosted.org/packages/19/8b/f0ecc6844615f1d6585d48b9c2cc1f4e21bd25b8cf7a8d0aa0f8912bc159/es7s-3.6.0.dev0.tar.gz
+[2023-07-12 09:53:41] INFO root fetch - processPackages [BahnarTextAugmentation]: executing diffoscope
+[2023-07-12 09:53:41] INFO root fetch - processPackages [BahnarTextAugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BahnarTextAugmentation-1.0.0.tar.gz tmp/BahnarTextAugmentation-1.0.1.tar.gz --markdown 20230712/B/BahnarTextAugmentation/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-12 09:53:41] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume]: Downloading https://files.pythonhosted.org/packages/90/04/8d68e7a3d867732ddbc6c399f1aa8942dba9318d403e8d3b50ba3a73708f/odoo14_addon_stock_picking_volume-14.0.1.1.0-py3-none-any.whl
+[2023-07-12 09:53:41] INFO root fetch - processPackages [telebot-components]: executing diffoscope
+[2023-07-12 09:53:41] INFO root fetch - processPackages [telebot-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebot_components-0.8.8.tar.gz tmp/telebot_components-0.8.9.tar.gz --markdown 20230712/t/telebot-components/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-12 09:53:41] INFO root fetch - processPackages [email-domain-verification]: executing diffoscope
+[2023-07-12 09:53:41] INFO root fetch - processPackages [email-domain-verification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email_domain_verification-1.0.1.tar.gz tmp/email_domain_verification-1.0.2.tar.gz --markdown 20230712/e/email-domain-verification/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-12 09:53:41] INFO root fetch - processPackages [email-domain-verification]: executing diffoscope
+[2023-07-12 09:53:41] INFO root fetch - processPackages [email-domain-verification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email_domain_verification-1.0.1.tar.gz tmp/email_domain_verification-1.0.2.tar.gz --markdown 20230712/e/email-domain-verification/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-12 09:53:41] INFO root fetch - processPackages [sparseconverter]: executing diffoscope
+[2023-07-12 09:53:41] INFO root fetch - processPackages [sparseconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseconverter-0.3.1.tar.gz tmp/sparseconverter-0.3.2.tar.gz --markdown 20230712/s/sparseconverter/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-12 09:53:41] INFO root fetch - processPackages [wcfhttp]: executing diffoscope
+[2023-07-12 09:53:41] INFO root fetch - processPackages [wcfhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcfhttp-39.0.0.0a0.tar.gz tmp/wcfhttp-39.0.0.0a1.tar.gz --markdown 20230712/w/wcfhttp/39.0.0.0a0-39.0.0.0a1/diff.md --exclude *.pyd
+[2023-07-12 09:53:41] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-07-12 09:53:41] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230712/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-07-12 09:53:41] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume]: executing diffoscope
+[2023-07-12 09:53:41] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_picking_volume-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_stock_picking_volume-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addon-stock-picking-volume/14.0.1.0.2-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-12 09:53:42] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-12 09:53:42] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-12 09:53:42] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230712/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-12 09:53:43] INFO root fetch - processPackages [BahnarTextAugmentation]: Remove: archive file [/home/abi/fetcher/tmp/BahnarTextAugmentation-1.0.0.tar.gz]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [BahnarTextAugmentation]: Remove: archive file [/home/abi/fetcher/tmp/BahnarTextAugmentation-1.0.1.tar.gz]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [BahnarTextAugmentation]: Start processing: odoo14-addon-stock-picking-volume-packaging
+[2023-07-12 09:53:43] INFO root fetch - main [MainThread]: End processing [BahnarTextAugmentation]: success
+[2023-07-12 09:53:43] INFO root fetch - processPackages [BahnarTextAugmentation]: Start processing: qontract-reconcile
+[2023-07-12 09:53:43] INFO root fetch - main [MainThread]: End processing [BahnarTextAugmentation]: success
+[2023-07-12 09:53:43] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume-packaging]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.1.dev2]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [email-domain-verification]: Remove: archive file [/home/abi/fetcher/tmp/email_domain_verification-1.0.1.tar.gz]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [email-domain-verification]: Remove: archive file [/home/abi/fetcher/tmp/email_domain_verification-1.0.2.tar.gz]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [email-domain-verification]: Start processing: finbourne-access-sdk
+[2023-07-12 09:53:43] INFO root fetch - main [MainThread]: End processing [email-domain-verification]: success
+[2023-07-12 09:53:43] INFO root fetch - processPackages [email-domain-verification]: Start processing: impose-cli
+[2023-07-12 09:53:43] INFO root fetch - main [MainThread]: End processing [email-domain-verification]: success
+[2023-07-12 09:53:43] INFO root fetch - processPackages [impose-cli]: New version: [0.3.4rc0] Old Version: [0.3.3]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-12 09:53:43] INFO root fetch - processPackages [telebot-components]: Remove: archive file [/home/abi/fetcher/tmp/telebot_components-0.8.8.tar.gz]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [telebot-components]: Remove: archive file [/home/abi/fetcher/tmp/telebot_components-0.8.9.tar.gz]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [telebot-components]: Start processing: rdf-doctor
+[2023-07-12 09:53:43] INFO root fetch - main [MainThread]: End processing [telebot-components]: success
+[2023-07-12 09:53:43] INFO root fetch - processPackages [wcfhttp]: Remove: archive file [/home/abi/fetcher/tmp/wcfhttp-39.0.0.0a0.tar.gz]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [wcfhttp]: Remove: archive file [/home/abi/fetcher/tmp/wcfhttp-39.0.0.0a1.tar.gz]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [wcfhttp]: Start processing: tf-nightly-cpu
+[2023-07-12 09:53:43] INFO root fetch - main [MainThread]: End processing [wcfhttp]: success
+[2023-07-12 09:53:43] INFO root fetch - processPackages [sparseconverter]: Remove: archive file [/home/abi/fetcher/tmp/sparseconverter-0.3.1.tar.gz]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [sparseconverter]: Remove: archive file [/home/abi/fetcher/tmp/sparseconverter-0.3.2.tar.gz]
+[2023-07-12 09:53:43] INFO root fetch - processPackages [sparseconverter]: Start processing: aigc-zoo
+[2023-07-12 09:53:43] INFO root fetch - main [MainThread]: End processing [sparseconverter]: success
+[2023-07-12 09:53:43] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-07-12 09:53:44] INFO root fetch - processPackages [rdf-doctor]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-07-12 09:53:44] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume-packaging]: Downloading https://files.pythonhosted.org/packages/bd/57/c980b24ee34e600fbd0d5b85c197b9b556a7fef1f6ae4715d0c8cd4a1cb4/odoo14_addon_stock_picking_volume_packaging-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-07-12 09:53:44] INFO root fetch - processPackages [aigc-zoo]: New version: [0.1.11.post1] Old Version: [0.1.11.post0]
+[2023-07-12 09:53:44] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/97/ae/369efcd00a717ad75a4c89caf6d6574cdde5097ebd455a31074ca3161000/impose-cli-0.3.3.tar.gz
+[2023-07-12 09:53:44] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_volume-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-12 09:53:44] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_volume-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-12 09:53:44] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume]: Start processing: ipyloglite
+[2023-07-12 09:53:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-volume]: success
+[2023-07-12 09:53:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-12 09:53:44] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230712] Old Version: [2.14.0.dev20230711]
+[2023-07-12 09:53:44] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/fb/f1/4e8fb3dc9170f6ee8d70458c2cbb85158beb9cc1044fcc9fd25bcf1e989d/aigc_zoo-0.1.11.post0-py3-none-any.whl
+[2023-07-12 09:53:44] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-07-12 09:53:44] WARNING root fetch - processPackages [ipyloglite]: Skipping, unable to determine old version
+[2023-07-12 09:53:44] INFO root fetch - processPackages [ipyloglite]: Start processing: sdc-cryptography
+[2023-07-12 09:53:44] INFO root fetch - main [MainThread]: End processing [ipyloglite] error
+[2023-07-12 09:53:44] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-12 09:53:44] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230712/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-12 09:53:44] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/35/aa/df6dfc77515c99856305d9b2af349afe2c92b370ef272b2686d00f2c563b/rdf_doctor-1.0.0rc1-py3-none-any.whl
+[2023-07-12 09:53:44] INFO root fetch - processPackages [sdc-cryptography]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-12 09:53:44] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-07-12 09:53:44] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230712/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-07-12 09:53:44] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/a7/9e/e2605a4cedd1cbf6e47849c27e84e3fee9d480540cbe6c765864f0c1c41a/impose-cli-0.3.4rc0.tar.gz
+[2023-07-12 09:53:44] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/16/24/2fa065dc86c440db61eea714567bb6b8efcd454a53bd02e65815eb689db9/tf_nightly_cpu-2.14.0.dev20230711-cp39-cp39-win_amd64.whl
+[2023-07-12 09:53:44] INFO root fetch - processPackages [es7s]: Remove: archive file [/home/abi/fetcher/tmp/es7s-3.5.0.dev0.tar.gz]
+[2023-07-12 09:53:44] INFO root fetch - processPackages [es7s]: Remove: archive file [/home/abi/fetcher/tmp/es7s-3.6.0.dev0.tar.gz]
+[2023-07-12 09:53:44] INFO root fetch - processPackages [es7s]: Start processing: gvol
+[2023-07-12 09:53:44] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-07-12 09:53:44] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume-packaging]: Downloading https://files.pythonhosted.org/packages/47/c5/9d98a3698a30a02dd2ad9f10701f281fd0974463a3c22a8ee60e451dffd9/odoo14_addon_stock_picking_volume_packaging-14.0.1.1.0-py3-none-any.whl
+[2023-07-12 09:53:44] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/c6/06/16075d419251ae041a8a7bf81b0949829734e3df95f0fc90150a5e2ea69e/aigc_zoo-0.1.11.post1-py3-none-any.whl
+[2023-07-12 09:53:44] INFO root fetch - processPackages [gvol]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-12 09:53:44] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume-packaging]: executing diffoscope
+[2023-07-12 09:53:44] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume-packaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_picking_volume_packaging-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_picking_volume_packaging-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230712/o/odoo14-addon-stock-picking-volume-packaging/14.0.1.0.1.dev2-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-12 09:53:44] INFO root fetch - processPackages [sdc-cryptography]: Downloading https://files.pythonhosted.org/packages/78/73/a54c39098121de9a7a5c36fdea42cffc13732bacc489a5855f3ff51fda26/sdc-cryptography-1.1.1.tar.gz
+[2023-07-12 09:53:44] INFO root fetch - processPackages [aigc-zoo]: executing diffoscope
+[2023-07-12 09:53:44] INFO root fetch - processPackages [aigc-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigc_zoo-0.1.11.post0-py3-none-any.whl.zip tmp/aigc_zoo-0.1.11.post1-py3-none-any.whl.zip --markdown 20230712/a/aigc-zoo/0.1.11.post0-0.1.11.post1/diff.md --exclude *.pyd
+[2023-07-12 09:53:44] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-12 09:53:44] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.3.3.tar.gz tmp/impose-cli-0.3.4rc0.tar.gz --markdown 20230712/i/impose-cli/0.3.3-0.3.4rc0/diff.md --exclude *.pyd
+[2023-07-12 09:53:44] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/57/a0/1acd1cd515847bb3384752da79382bc1b525b21198ab055f1903e94f946d/rdf_doctor-1.0.0rc2-py3-none-any.whl
+[2023-07-12 09:53:44] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/fd/57/630c297efaf804919a0f363609c72bdafcf7c027877fd0fe5e05ee6a741f/tf_nightly_cpu-2.14.0.dev20230712-cp39-cp39-win_amd64.whl
+[2023-07-12 09:53:44] INFO root fetch - processPackages [gvol]: Downloading https://files.pythonhosted.org/packages/5d/23/0050538d0ea693cb4cc245f79b09d4502c8945b5d48010ea4fe8ce3558ea/gvol-0.5.7.tar.gz
+[2023-07-12 09:53:44] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2023-07-12 09:53:44] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-1.0.0rc1-py3-none-any.whl.zip tmp/rdf_doctor-1.0.0rc2-py3-none-any.whl.zip --markdown 20230712/r/rdf-doctor/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-07-12 09:53:44] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-12 09:53:44] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230711-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230712-cp39-cp39-win_amd64.whl.zip --markdown 20230712/t/tf-nightly-cpu/2.14.0.dev20230711-2.14.0.dev20230712/diff.md --exclude *.pyd
+[2023-07-12 09:53:45] INFO root fetch - processPackages [sdc-cryptography]: Downloading https://files.pythonhosted.org/packages/ca/68/1d84cf53d5cdf99ea903572e89794887ecfec2ffbc449e5517c43b9bc8b9/sdc-cryptography-1.1.2.tar.gz
+[2023-07-12 09:53:45] INFO root fetch - processPackages [sdc-cryptography]: executing diffoscope
+[2023-07-12 09:53:45] INFO root fetch - processPackages [sdc-cryptography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc-cryptography-1.1.1.tar.gz tmp/sdc-cryptography-1.1.2.tar.gz --markdown 20230712/s/sdc-cryptography/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-12 09:53:45] INFO root fetch - processPackages [gvol]: Downloading https://files.pythonhosted.org/packages/98/4b/c8d2aa5f5c583a361176ca1d3ab5249b3ed17f84f0c9385c244ba260e15a/gvol-0.5.8.tar.gz
+[2023-07-12 09:53:45] INFO root fetch - processPackages [gvol]: executing diffoscope
+[2023-07-12 09:53:45] INFO root fetch - processPackages [gvol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gvol-0.5.7.tar.gz tmp/gvol-0.5.8.tar.gz --markdown 20230712/g/gvol/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-12 09:53:46] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.3.3.tar.gz]
+[2023-07-12 09:53:46] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.3.4rc0.tar.gz]
+[2023-07-12 09:53:46] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-12 09:53:46] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.11.post0-py3-none-any.whl.zip]
+[2023-07-12 09:53:46] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.11.post1-py3-none-any.whl.zip]
+[2023-07-12 09:53:46] INFO root fetch - main [MainThread]: End processing [aigc-zoo]: success
+[2023-07-12 09:53:46] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume-packaging]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_volume_packaging-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-07-12 09:53:46] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume-packaging]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_volume_packaging-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-12 09:53:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-volume-packaging]: success
+[2023-07-12 09:53:46] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230711-cp39-cp39-win_amd64.whl.zip]
+[2023-07-12 09:53:46] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230712-cp39-cp39-win_amd64.whl.zip]
+[2023-07-12 09:53:46] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-12 09:53:46] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.0.0rc1-py3-none-any.whl.zip]
+[2023-07-12 09:53:46] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.0.0rc2-py3-none-any.whl.zip]
+[2023-07-12 09:53:46] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2023-07-12 09:53:46] INFO root fetch - processPackages [sdc-cryptography]: Remove: archive file [/home/abi/fetcher/tmp/sdc-cryptography-1.1.1.tar.gz]
+[2023-07-12 09:53:46] INFO root fetch - processPackages [sdc-cryptography]: Remove: archive file [/home/abi/fetcher/tmp/sdc-cryptography-1.1.2.tar.gz]
+[2023-07-12 09:53:46] INFO root fetch - main [MainThread]: End processing [sdc-cryptography]: success
+[2023-07-12 09:53:47] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-07-12 09:53:47] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-07-12 09:53:47] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-07-12 09:53:47] INFO root fetch - processPackages [gvol]: Remove: archive file [/home/abi/fetcher/tmp/gvol-0.5.7.tar.gz]
+[2023-07-12 09:53:47] INFO root fetch - processPackages [gvol]: Remove: archive file [/home/abi/fetcher/tmp/gvol-0.5.8.tar.gz]
+[2023-07-12 09:53:47] INFO root fetch - main [MainThread]: End processing [gvol]: success
+[2023-07-12 09:53:48] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-12 09:53:48] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-12 09:53:48] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-12 09:53:48] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-12 09:53:48] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-12 09:53:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-12 09:53:48] INFO root fetch - main [MainThread]: Store serial: [18857130]
