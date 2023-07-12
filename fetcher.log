@@ -9841,3 +9841,54 @@
 [2023-07-12 04:21:27] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg-sdk-0.1.3.tar.gz]
 [2023-07-12 04:21:27] INFO root fetch - main [MainThread]: End processing [renderg-sdk]: success
 [2023-07-12 04:21:27] INFO root fetch - main [MainThread]: Store serial: [18854799]
+[2023-07-12 04:26:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18854799]
+[2023-07-12 04:27:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-12 04:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sj-tool
+[2023-07-12 04:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crowdstrike-falconpy
+[2023-07-12 04:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pbokit
+[2023-07-12 04:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-skill-support-helper
+[2023-07-12 04:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyzjr
+[2023-07-12 04:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nameko-kafka
+[2023-07-12 04:27:03] WARNING root fetch - processPackages [pbokit]: Skipping, unable to determine old version
+[2023-07-12 04:27:03] INFO root fetch - main [MainThread]: End processing [pbokit] error
+[2023-07-12 04:27:03] INFO root fetch - processPackages [neon-skill-support-helper]: New version: [1.0.1a1] Old Version: [1.0.0]
+[2023-07-12 04:27:03] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 04:27:03] INFO root fetch - processPackages [pyzjr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 04:27:03] INFO root fetch - processPackages [crowdstrike-falconpy]: New version: [1.3.0.dev3] Old Version: [1.3.0.dev2]
+[2023-07-12 04:27:03] INFO root fetch - processPackages [nameko-kafka]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-12 04:27:03] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-12 04:27:03] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/5b/74/3f51fdc1e582d7f4ae6d53c08080fecc9f7e1f0fb7954193d9d0d9885043/pyzjr-0.0.8.tar.gz
+[2023-07-12 04:27:03] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/4f/e0/1c286050356cbe9a5e004a4a5dba6822cb5603581cd7962768b06a6e6833/crowdstrike-falconpy-1.3.0.dev2.tar.gz
+[2023-07-12 04:27:03] INFO root fetch - processPackages [neon-skill-support-helper]: Downloading https://files.pythonhosted.org/packages/63/6a/d9ce7e2cee8cb649c862341c82a8ea114490862f31dedc7a3fb8f9cae7d8/neon-skill-support_helper-1.0.0.tar.gz
+[2023-07-12 04:27:03] INFO root fetch - processPackages [nameko-kafka]: Downloading https://files.pythonhosted.org/packages/6d/59/0ba5f8cc389662909d8d723018d46823cd425e0303ac00609a163d6d52ed/nameko_kafka-0.2.0.tar.gz
+[2023-07-12 04:27:03] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-12 04:27:03] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/fc/a4/fa430d09bba1aa7bfd9e42c76f03111a351fd4d138a1b6913396b41e7fbd/pyzjr-0.0.9.tar.gz
+[2023-07-12 04:27:03] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-12 04:27:03] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230712/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 04:27:03] INFO root fetch - processPackages [pyzjr]: executing diffoscope
+[2023-07-12 04:27:03] INFO root fetch - processPackages [pyzjr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzjr-0.0.8.tar.gz tmp/pyzjr-0.0.9.tar.gz --markdown 20230712/p/pyzjr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 04:27:03] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/12/fb/ae0a6aea0bfa6d5696881746990d2efedc01ae8fc3d609991d8c2af8c8be/crowdstrike-falconpy-1.3.0.dev3.tar.gz
+[2023-07-12 04:27:03] INFO root fetch - processPackages [neon-skill-support-helper]: Downloading https://files.pythonhosted.org/packages/9f/fc/618650ec446feb1632fc4cfe7ceeaebe2b1850319b0e98d8a3ff3f4f70aa/neon-skill-support_helper-1.0.1a1.tar.gz
+[2023-07-12 04:27:03] INFO root fetch - processPackages [nameko-kafka]: Downloading https://files.pythonhosted.org/packages/50/b2/28aef78afcd414892ce1d743817f90ec6993f6ec54fe7d356961faa058cd/nameko_kafka-0.2.1.tar.gz
+[2023-07-12 04:27:03] INFO root fetch - processPackages [crowdstrike-falconpy]: executing diffoscope
+[2023-07-12 04:27:03] INFO root fetch - processPackages [crowdstrike-falconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-1.3.0.dev2.tar.gz tmp/crowdstrike-falconpy-1.3.0.dev3.tar.gz --markdown 20230712/c/crowdstrike-falconpy/1.3.0.dev2-1.3.0.dev3/diff.md --exclude *.pyd
+[2023-07-12 04:27:03] INFO root fetch - processPackages [neon-skill-support-helper]: executing diffoscope
+[2023-07-12 04:27:03] INFO root fetch - processPackages [neon-skill-support-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-support_helper-1.0.0.tar.gz tmp/neon-skill-support_helper-1.0.1a1.tar.gz --markdown 20230712/n/neon-skill-support-helper/1.0.0-1.0.1a1/diff.md --exclude *.pyd
+[2023-07-12 04:27:03] INFO root fetch - processPackages [nameko-kafka]: executing diffoscope
+[2023-07-12 04:27:03] INFO root fetch - processPackages [nameko-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameko_kafka-0.2.0.tar.gz tmp/nameko_kafka-0.2.1.tar.gz --markdown 20230712/n/nameko-kafka/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-12 04:27:04] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-0.0.8.tar.gz]
+[2023-07-12 04:27:04] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-0.0.9.tar.gz]
+[2023-07-12 04:27:04] INFO root fetch - main [MainThread]: End processing [pyzjr]: success
+[2023-07-12 04:27:04] INFO root fetch - processPackages [neon-skill-support-helper]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-support_helper-1.0.0.tar.gz]
+[2023-07-12 04:27:04] INFO root fetch - processPackages [neon-skill-support-helper]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-support_helper-1.0.1a1.tar.gz]
+[2023-07-12 04:27:04] INFO root fetch - main [MainThread]: End processing [neon-skill-support-helper]: success
+[2023-07-12 04:27:04] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-12 04:27:04] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-12 04:27:04] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-12 04:27:04] INFO root fetch - processPackages [nameko-kafka]: Remove: archive file [/home/abi/fetcher/tmp/nameko_kafka-0.2.0.tar.gz]
+[2023-07-12 04:27:04] INFO root fetch - processPackages [nameko-kafka]: Remove: archive file [/home/abi/fetcher/tmp/nameko_kafka-0.2.1.tar.gz]
+[2023-07-12 04:27:04] INFO root fetch - main [MainThread]: End processing [nameko-kafka]: success
+[2023-07-12 04:27:05] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev2.tar.gz]
+[2023-07-12 04:27:05] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev3.tar.gz]
+[2023-07-12 04:27:05] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy]: success
+[2023-07-12 04:27:05] INFO root fetch - main [MainThread]: Store serial: [18854816]
