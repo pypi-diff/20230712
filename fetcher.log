@@ -15186,3 +15186,88 @@
 [2023-07-12 10:04:40] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.9.tar.gz]
 [2023-07-12 10:04:40] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
 [2023-07-12 10:04:40] INFO root fetch - main [MainThread]: Store serial: [18857230]
+[2023-07-12 10:09:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18857230]
+[2023-07-12 10:09:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-12 10:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Fred-Frechet
+[2023-07-12 10:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-me
+[2023-07-12 10:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BahnarTextAugmentation
+[2023-07-12 10:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyCEURspt
+[2023-07-12 10:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flatdata-py
+[2023-07-12 10:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: port4me
+[2023-07-12 10:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyglove
+[2023-07-12 10:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dpmt
+[2023-07-12 10:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BahnarTextAugmentation
+[2023-07-12 10:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aliyun-python-sdk-ess
+[2023-07-12 10:09:49] INFO root fetch - processPackages [Fred-Frechet]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-12 10:09:50] INFO root fetch - processPackages [pyCEURspt]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-07-12 10:09:50] INFO root fetch - processPackages [BahnarTextAugmentation]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-12 10:09:50] INFO root fetch - processPackages [BahnarTextAugmentation]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-12 10:09:50] WARNING root fetch - processPackages [flask-me]: Skipping, unable to determine old version
+[2023-07-12 10:09:50] INFO root fetch - main [MainThread]: End processing [flask-me] error
+[2023-07-12 10:09:50] INFO root fetch - processPackages [flatdata-py]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-12 10:09:50] INFO root fetch - processPackages [port4me]: New version: [0.5.1.post9006] Old Version: [0.5.1.post9004]
+[2023-07-12 10:09:50] INFO root fetch - processPackages [dpmt]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-12 10:09:50] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230712] Old Version: [0.3.1.dev20230711]
+[2023-07-12 10:09:50] INFO root fetch - processPackages [aliyun-python-sdk-ess]: New version: [2.3.9] Old Version: [2.3.7]
+[2023-07-12 10:09:50] INFO root fetch - processPackages [Fred-Frechet]: Downloading https://files.pythonhosted.org/packages/35/81/17595c869b665747837da1825308030df3087c80e20f26e282781e991ed7/Fred-Frechet-1.9.8.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [flatdata-py]: Downloading https://files.pythonhosted.org/packages/50/81/36ba0f8944873d9cb28c0c276cf6f137947083e17b2e26fdb7bc83b5bbbd/flatdata-py-0.4.5.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [pyCEURspt]: Downloading https://files.pythonhosted.org/packages/82/c0/eae62bd6afb1678d5e7fa44cf18747b106176d636efcb8ae2fc39da19931/pyceurspt-0.0.4.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [dpmt]: Downloading https://files.pythonhosted.org/packages/47/66/1a41e9dd3923d1d3e3c05df4f49ca9b2708982bcce216f529a4008288968/dpmt-1.0.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [BahnarTextAugmentation]: Downloading https://files.pythonhosted.org/packages/3c/8e/8452b00d1c6b848db28df622b97495921855b3ddf45f60bc982cf9c5f198/BahnarTextAugmentation-1.0.1.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [BahnarTextAugmentation]: Downloading https://files.pythonhosted.org/packages/3c/8e/8452b00d1c6b848db28df622b97495921855b3ddf45f60bc982cf9c5f198/BahnarTextAugmentation-1.0.1.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/54/7a/660684ad9ddabc6be77357d5a01702f96f63a216913e4f1dc2d891ac85e1/pyglove-0.3.1.dev20230711.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [aliyun-python-sdk-ess]: Downloading https://files.pythonhosted.org/packages/1c/6c/f95d1858694805057432d77ccf03c80183463f452b8d32c0e3656e26d922/aliyun-python-sdk-ess-2.3.7.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [port4me]: Downloading https://files.pythonhosted.org/packages/e7/32/d4eb36be2982cedaabcf609328143bd9d30c82e3de96c0a50e2a67a8858c/port4me-0.5.1.post9004.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [Fred-Frechet]: Downloading https://files.pythonhosted.org/packages/6e/75/298c88cc23934ff39afe9396676a702e198399c248fb6d9e16da366009d3/Fred-Frechet-1.9.9.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [Fred-Frechet]: executing diffoscope
+[2023-07-12 10:09:50] INFO root fetch - processPackages [Fred-Frechet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fred-Frechet-1.9.8.tar.gz tmp/Fred-Frechet-1.9.9.tar.gz --markdown 20230712/F/Fred-Frechet/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-12 10:09:50] INFO root fetch - processPackages [aliyun-python-sdk-ess]: Downloading https://files.pythonhosted.org/packages/3e/30/e3e5edfa39a2aaf9e5b0a9dc7306c275d9ada7e88324084ffa2ed81443dd/aliyun-python-sdk-ess-2.3.9.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [pyCEURspt]: Downloading https://files.pythonhosted.org/packages/f4/12/5992e27b4e97d6707c265a194eabcacd840325ba3ebae50d476af5e02697/pyceurspt-0.0.6.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [flatdata-py]: Downloading https://files.pythonhosted.org/packages/1a/8f/acd18b2a88531b1ba4f8b896a2610d25609660376e5430e6b9086ff28c71/flatdata-py-0.4.6.tar.gz
+[2023-07-12 10:09:50] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/64/dc/86e4437c98559a012d4bf0ddf4b622bdd84f5a94683004ea25c3716c3973/pyglove-0.3.1.dev20230712.tar.gz
+[2023-07-12 10:09:51] INFO root fetch - processPackages [port4me]: Downloading https://files.pythonhosted.org/packages/f0/3f/b14db6189e974a788f7e04281c1c4a01bbf7e91fb3994815433bf412619c/port4me-0.5.1.post9006.tar.gz
+[2023-07-12 10:09:51] INFO root fetch - processPackages [BahnarTextAugmentation]: Downloading https://files.pythonhosted.org/packages/13/62/c9cf2dde7e270aaed55bc0028864c7c470630e34e255cdea5dacb191681d/BahnarTextAugmentation-1.0.2.tar.gz
+[2023-07-12 10:09:51] INFO root fetch - processPackages [BahnarTextAugmentation]: Downloading https://files.pythonhosted.org/packages/13/62/c9cf2dde7e270aaed55bc0028864c7c470630e34e255cdea5dacb191681d/BahnarTextAugmentation-1.0.2.tar.gz
+[2023-07-12 10:09:51] INFO root fetch - processPackages [pyCEURspt]: executing diffoscope
+[2023-07-12 10:09:51] INFO root fetch - processPackages [pyCEURspt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyceurspt-0.0.4.tar.gz tmp/pyceurspt-0.0.6.tar.gz --markdown 20230712/p/pyCEURspt/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-07-12 10:09:51] INFO root fetch - processPackages [flatdata-py]: executing diffoscope
+[2023-07-12 10:09:51] INFO root fetch - processPackages [flatdata-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatdata-py-0.4.5.tar.gz tmp/flatdata-py-0.4.6.tar.gz --markdown 20230712/f/flatdata-py/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-12 10:09:51] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-12 10:09:51] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230711.tar.gz tmp/pyglove-0.3.1.dev20230712.tar.gz --markdown 20230712/p/pyglove/0.3.1.dev20230711-0.3.1.dev20230712/diff.md --exclude *.pyd
+[2023-07-12 10:09:51] INFO root fetch - processPackages [aliyun-python-sdk-ess]: executing diffoscope
+[2023-07-12 10:09:51] INFO root fetch - processPackages [aliyun-python-sdk-ess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ess-2.3.7.tar.gz tmp/aliyun-python-sdk-ess-2.3.9.tar.gz --markdown 20230712/a/aliyun-python-sdk-ess/2.3.7-2.3.9/diff.md --exclude *.pyd
+[2023-07-12 10:09:51] INFO root fetch - processPackages [BahnarTextAugmentation]: executing diffoscope
+[2023-07-12 10:09:51] INFO root fetch - processPackages [BahnarTextAugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BahnarTextAugmentation-1.0.1.tar.gz tmp/BahnarTextAugmentation-1.0.2.tar.gz --markdown 20230712/B/BahnarTextAugmentation/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-12 10:09:51] INFO root fetch - processPackages [BahnarTextAugmentation]: executing diffoscope
+[2023-07-12 10:09:51] INFO root fetch - processPackages [BahnarTextAugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BahnarTextAugmentation-1.0.1.tar.gz tmp/BahnarTextAugmentation-1.0.2.tar.gz --markdown 20230712/B/BahnarTextAugmentation/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-12 10:09:51] INFO root fetch - processPackages [port4me]: executing diffoscope
+[2023-07-12 10:09:51] INFO root fetch - processPackages [port4me]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port4me-0.5.1.post9004.tar.gz tmp/port4me-0.5.1.post9006.tar.gz --markdown 20230712/p/port4me/0.5.1.post9004-0.5.1.post9006/diff.md --exclude *.pyd
+[2023-07-12 10:09:52] INFO root fetch - processPackages [dpmt]: Downloading https://files.pythonhosted.org/packages/9b/83/f9d109b3e09dbc3db1bcba8a8474274f065d78c0e206d72f3c2896cccdb0/dpmt-1.0.1.tar.gz
+[2023-07-12 10:09:52] INFO root fetch - processPackages [Fred-Frechet]: Remove: archive file [/home/abi/fetcher/tmp/Fred-Frechet-1.9.8.tar.gz]
+[2023-07-12 10:09:52] INFO root fetch - processPackages [Fred-Frechet]: Remove: archive file [/home/abi/fetcher/tmp/Fred-Frechet-1.9.9.tar.gz]
+[2023-07-12 10:09:52] INFO root fetch - main [MainThread]: End processing [Fred-Frechet]: success
+[2023-07-12 10:09:52] INFO root fetch - processPackages [dpmt]: executing diffoscope
+[2023-07-12 10:09:52] INFO root fetch - processPackages [dpmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpmt-1.0.tar.gz tmp/dpmt-1.0.1.tar.gz --markdown 20230712/d/dpmt/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-12 10:09:52] INFO root fetch - processPackages [pyCEURspt]: Remove: archive file [/home/abi/fetcher/tmp/pyceurspt-0.0.4.tar.gz]
+[2023-07-12 10:09:52] INFO root fetch - processPackages [pyCEURspt]: Remove: archive file [/home/abi/fetcher/tmp/pyceurspt-0.0.6.tar.gz]
+[2023-07-12 10:09:52] INFO root fetch - main [MainThread]: End processing [pyCEURspt]: success
+[2023-07-12 10:09:52] INFO root fetch - processPackages [BahnarTextAugmentation]: Remove: archive file [/home/abi/fetcher/tmp/BahnarTextAugmentation-1.0.1.tar.gz]
+[2023-07-12 10:09:52] INFO root fetch - processPackages [BahnarTextAugmentation]: Remove: archive file [/home/abi/fetcher/tmp/BahnarTextAugmentation-1.0.2.tar.gz]
+[2023-07-12 10:09:52] INFO root fetch - main [MainThread]: End processing [BahnarTextAugmentation]: success
+[2023-07-12 10:09:52] INFO root fetch - processPackages [flatdata-py]: Remove: archive file [/home/abi/fetcher/tmp/flatdata-py-0.4.5.tar.gz]
+[2023-07-12 10:09:52] INFO root fetch - processPackages [flatdata-py]: Remove: archive file [/home/abi/fetcher/tmp/flatdata-py-0.4.6.tar.gz]
+[2023-07-12 10:09:52] INFO root fetch - main [MainThread]: End processing [flatdata-py]: success
+[2023-07-12 10:09:53] INFO root fetch - main [MainThread]: End processing [BahnarTextAugmentation]: success
+[2023-07-12 10:09:53] INFO root fetch - processPackages [port4me]: Remove: archive file [/home/abi/fetcher/tmp/port4me-0.5.1.post9004.tar.gz]
+[2023-07-12 10:09:53] INFO root fetch - processPackages [port4me]: Remove: archive file [/home/abi/fetcher/tmp/port4me-0.5.1.post9006.tar.gz]
+[2023-07-12 10:09:53] INFO root fetch - main [MainThread]: End processing [port4me]: success
+[2023-07-12 10:09:53] INFO root fetch - processPackages [aliyun-python-sdk-ess]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ess-2.3.7.tar.gz]
+[2023-07-12 10:09:53] INFO root fetch - processPackages [aliyun-python-sdk-ess]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ess-2.3.9.tar.gz]
+[2023-07-12 10:09:53] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ess]: success
+[2023-07-12 10:09:53] INFO root fetch - processPackages [dpmt]: Remove: archive file [/home/abi/fetcher/tmp/dpmt-1.0.tar.gz]
+[2023-07-12 10:09:53] INFO root fetch - processPackages [dpmt]: Remove: archive file [/home/abi/fetcher/tmp/dpmt-1.0.1.tar.gz]
+[2023-07-12 10:09:53] INFO root fetch - main [MainThread]: End processing [dpmt]: success
+[2023-07-12 10:09:53] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230711.tar.gz]
+[2023-07-12 10:09:53] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230712.tar.gz]
+[2023-07-12 10:09:53] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-12 10:09:53] INFO root fetch - main [MainThread]: Store serial: [18857261]
