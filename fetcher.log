@@ -9807,3 +9807,37 @@
 [2023-07-12 04:16:07] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-weather-1.0.1a2.tar.gz]
 [2023-07-12 04:16:07] INFO root fetch - main [MainThread]: End processing [neon-skill-weather]: success
 [2023-07-12 04:16:07] INFO root fetch - main [MainThread]: Store serial: [18854786]
+[2023-07-12 04:21:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18854786]
+[2023-07-12 04:21:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-12 04:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvisafungen
+[2023-07-12 04:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultima-scraper-api
+[2023-07-12 04:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: renderg-sdk
+[2023-07-12 04:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tahoma-gpt
+[2023-07-12 04:21:16] INFO root fetch - processPackages [renderg-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-12 04:21:16] INFO root fetch - processPackages [pyvisafungen]: New version: [1.7.1] Old Version: [1.7]
+[2023-07-12 04:21:16] INFO root fetch - processPackages [tahoma-gpt]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-12 04:21:16] INFO root fetch - processPackages [ultima-scraper-api]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-12 04:21:16] INFO root fetch - processPackages [ultima-scraper-api]: Downloading https://files.pythonhosted.org/packages/f9/92/ac912115e1f43c2fe82e2dc15a9955cd2b667c5c4f0acafd45ad91456541/ultima_scraper_api-2.0.0.tar.gz
+[2023-07-12 04:21:16] INFO root fetch - processPackages [tahoma-gpt]: Downloading https://files.pythonhosted.org/packages/ae/02/c712ea268f20a2ef82d1091186fadb1d0ea58a25bedac28747c42dbf594a/tahoma_gpt-0.0.4.tar.gz
+[2023-07-12 04:21:16] ERROR root fetch - processPackages [pyvisafungen]: Unable to fetch info: No such project/version 'pyvisafungen' 1.7
+[2023-07-12 04:21:16] INFO root fetch - main [MainThread]: End processing [pyvisafungen] error
+[2023-07-12 04:21:16] INFO root fetch - processPackages [renderg-sdk]: Downloading https://files.pythonhosted.org/packages/bb/22/9dbaf9a272901222c03f2f6243aa30c9208cd5798e12f22af0ac058c9e17/renderg_sdk-0.1.2-py2.py3-none-any.whl
+[2023-07-12 04:21:16] INFO root fetch - processPackages [tahoma-gpt]: Downloading https://files.pythonhosted.org/packages/b0/23/a46c5a9800b2deaf6fd0e8b0c9a8e05c18ea2e9435ae0d91b5a06864071c/tahoma_gpt-0.0.5.tar.gz
+[2023-07-12 04:21:16] INFO root fetch - processPackages [ultima-scraper-api]: Downloading https://files.pythonhosted.org/packages/7c/48/4acb807a68be06de68f254709780129ce854c1f782109e72bffacb811d66/ultima_scraper_api-2.0.1.tar.gz
+[2023-07-12 04:21:16] INFO root fetch - processPackages [tahoma-gpt]: executing diffoscope
+[2023-07-12 04:21:16] INFO root fetch - processPackages [tahoma-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tahoma_gpt-0.0.4.tar.gz tmp/tahoma_gpt-0.0.5.tar.gz --markdown 20230712/t/tahoma-gpt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-12 04:21:16] INFO root fetch - processPackages [ultima-scraper-api]: executing diffoscope
+[2023-07-12 04:21:16] INFO root fetch - processPackages [ultima-scraper-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_api-2.0.0.tar.gz tmp/ultima_scraper_api-2.0.1.tar.gz --markdown 20230712/u/ultima-scraper-api/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-12 04:21:17] INFO root fetch - processPackages [tahoma-gpt]: Remove: archive file [/home/abi/fetcher/tmp/tahoma_gpt-0.0.4.tar.gz]
+[2023-07-12 04:21:17] INFO root fetch - processPackages [tahoma-gpt]: Remove: archive file [/home/abi/fetcher/tmp/tahoma_gpt-0.0.5.tar.gz]
+[2023-07-12 04:21:17] INFO root fetch - main [MainThread]: End processing [tahoma-gpt]: success
+[2023-07-12 04:21:17] INFO root fetch - processPackages [ultima-scraper-api]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_api-2.0.0.tar.gz]
+[2023-07-12 04:21:17] INFO root fetch - processPackages [ultima-scraper-api]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_api-2.0.1.tar.gz]
+[2023-07-12 04:21:17] INFO root fetch - main [MainThread]: End processing [ultima-scraper-api]: success
+[2023-07-12 04:21:18] INFO root fetch - processPackages [renderg-sdk]: Downloading https://files.pythonhosted.org/packages/28/4f/7af5e7d4b7618e175d95aff961e08f41ef29d265ca02c02f57bda04d3109/renderg-sdk-0.1.3.tar.gz
+[2023-07-12 04:21:20] INFO root fetch - processPackages [renderg-sdk]: executing diffoscope
+[2023-07-12 04:21:20] INFO root fetch - processPackages [renderg-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renderg_sdk-0.1.2-py2.py3-none-any.whl.zip tmp/renderg-sdk-0.1.3.tar.gz --markdown 20230712/r/renderg-sdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-12 04:21:27] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg_sdk-0.1.2-py2.py3-none-any.whl.zip]
+[2023-07-12 04:21:27] INFO root fetch - processPackages [renderg-sdk]: Remove: archive file [/home/abi/fetcher/tmp/renderg-sdk-0.1.3.tar.gz]
+[2023-07-12 04:21:27] INFO root fetch - main [MainThread]: End processing [renderg-sdk]: success
+[2023-07-12 04:21:27] INFO root fetch - main [MainThread]: Store serial: [18854799]
