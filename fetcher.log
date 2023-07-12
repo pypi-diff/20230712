@@ -12454,3 +12454,65 @@
 [2023-07-12 07:09:12] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.1.4.tar.gz]
 [2023-07-12 07:09:12] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
 [2023-07-12 07:09:12] INFO root fetch - main [MainThread]: Store serial: [18855963]
+[2023-07-12 07:14:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855963]
+[2023-07-12 07:14:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-12 07:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pmccc
+[2023-07-12 07:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viur-cli
+[2023-07-12 07:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jarvis-ironman
+[2023-07-12 07:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-user-role
+[2023-07-12 07:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tflite-support-nightly
+[2023-07-12 07:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tflite-runtime-nightly
+[2023-07-12 07:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Finance-Hermes
+[2023-07-12 07:14:21] INFO root fetch - processPackages [odoo-addon-base-user-role]: New version: [16.0.1.2.1.1] Old Version: [16.0.1.2.1]
+[2023-07-12 07:14:21] INFO root fetch - processPackages [jarvis-ironman]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-07-12 07:14:21] INFO root fetch - processPackages [pmccc]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-12 07:14:21] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230704] Old Version: [0.4.4.dev20230703]
+[2023-07-12 07:14:21] INFO root fetch - processPackages [Finance-Hermes]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-12 07:14:21] INFO root fetch - processPackages [viur-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 07:14:21] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/b2/4a/4b0ddd76575bc5bd0c9c4dea19fd662294723770518c1a3c42976efa08cc/jarvis_ironman-3.1.1-py3-none-any.whl
+[2023-07-12 07:14:21] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/fd/03/1b4fec22dca4030862d53c2a4f247b1a50fdbf649e097ae758e480734848/Finance-Hermes-0.2.6.tar.gz
+[2023-07-12 07:14:21] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/c6/22/4b772e9cc900712f11979ca02af0257af4c99f3b3f32ec32a9a1aca175fb/viur_cli-1.0.8.tar.gz
+[2023-07-12 07:14:22] INFO root fetch - processPackages [odoo-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/10/f8/f1a0b5fcff5f7c41f58fc83053f57aacef6cf7e929b3d297a43b37b9d18d/odoo_addon_base_user_role-16.0.1.2.1-py3-none-any.whl
+[2023-07-12 07:14:22] INFO root fetch - processPackages [pmccc]: Downloading https://files.pythonhosted.org/packages/8a/48/71b2a4de37c9413c05182a080c564452036b0b47c0259dfb803b4aca4a59/pmccc-0.1.1-py3-none-any.whl
+[2023-07-12 07:14:22] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/a3/81/66fd8d61b660510cead5657421dda4cfaba8cb80545103c30b31a8e55687/tflite_support_nightly-0.4.4.dev20230703-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-12 07:14:22] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60815121>=10485760
+[2023-07-12 07:14:22] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-07-12 07:14:22] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/c7/81/f53086ebe9bc5bae37b8281fdeef776975d1300a8e91a2bfd486d5d869c3/Finance-Hermes-0.2.7.tar.gz
+[2023-07-12 07:14:22] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/0c/ce/14316bd9a7aa4c43ab61d0b3e17401a15093ecb1b6181bbfd5af0a59dc70/viur_cli-1.0.9.tar.gz
+[2023-07-12 07:14:22] INFO root fetch - processPackages [pmccc]: Downloading https://files.pythonhosted.org/packages/78/ff/468311e3eabdf0df625c020c8ec2fece14cf262d553ef4010b5788e07d73/pmccc-0.1.2-py3-none-any.whl
+[2023-07-12 07:14:22] INFO root fetch - processPackages [Finance-Hermes]: executing diffoscope
+[2023-07-12 07:14:22] INFO root fetch - processPackages [Finance-Hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-Hermes-0.2.6.tar.gz tmp/Finance-Hermes-0.2.7.tar.gz --markdown 20230712/F/Finance-Hermes/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-12 07:14:22] INFO root fetch - processPackages [odoo-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/b9/cd/7411f2924c4188163b9074604870b896a681e7cb37cf59cdb8023b2d1eb1/odoo_addon_base_user_role-16.0.1.2.1.1-py3-none-any.whl
+[2023-07-12 07:14:22] INFO root fetch - processPackages [viur-cli]: executing diffoscope
+[2023-07-12 07:14:22] INFO root fetch - processPackages [viur-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_cli-1.0.8.tar.gz tmp/viur_cli-1.0.9.tar.gz --markdown 20230712/v/viur-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 07:14:22] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/b5/51/f2a26979aceba903904fcb131a9278e56386489bf556a7eca1c757c235cf/jarvis_ironman-3.1.2-py3-none-any.whl
+[2023-07-12 07:14:22] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230711] Old Version: [2.14.0.dev20230706]
+[2023-07-12 07:14:22] INFO root fetch - processPackages [pmccc]: executing diffoscope
+[2023-07-12 07:14:22] INFO root fetch - processPackages [pmccc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmccc-0.1.1-py3-none-any.whl.zip tmp/pmccc-0.1.2-py3-none-any.whl.zip --markdown 20230712/p/pmccc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-12 07:14:22] INFO root fetch - processPackages [odoo-addon-base-user-role]: executing diffoscope
+[2023-07-12 07:14:22] INFO root fetch - processPackages [odoo-addon-base-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_user_role-16.0.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_base_user_role-16.0.1.2.1.1-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-base-user-role/16.0.1.2.1-16.0.1.2.1.1/diff.md --exclude *.pyd
+[2023-07-12 07:14:22] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/3f/ba/dd7ec4e555b4e1b997758878e0ea46dcf2b683bc1a43c7873511883293d9/tflite_runtime_nightly-2.14.0.dev20230706-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-12 07:14:22] INFO root fetch - processPackages [jarvis-ironman]: executing diffoscope
+[2023-07-12 07:14:22] INFO root fetch - processPackages [jarvis-ironman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ironman-3.1.1-py3-none-any.whl.zip tmp/jarvis_ironman-3.1.2-py3-none-any.whl.zip --markdown 20230712/j/jarvis-ironman/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-07-12 07:14:23] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.2.6.tar.gz]
+[2023-07-12 07:14:23] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.2.7.tar.gz]
+[2023-07-12 07:14:23] INFO root fetch - main [MainThread]: End processing [Finance-Hermes]: success
+[2023-07-12 07:14:23] INFO root fetch - processPackages [pmccc]: Remove: archive file [/home/abi/fetcher/tmp/pmccc-0.1.1-py3-none-any.whl.zip]
+[2023-07-12 07:14:23] INFO root fetch - processPackages [pmccc]: Remove: archive file [/home/abi/fetcher/tmp/pmccc-0.1.2-py3-none-any.whl.zip]
+[2023-07-12 07:14:23] INFO root fetch - main [MainThread]: End processing [pmccc]: success
+[2023-07-12 07:14:23] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-1.0.8.tar.gz]
+[2023-07-12 07:14:23] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-1.0.9.tar.gz]
+[2023-07-12 07:14:23] INFO root fetch - main [MainThread]: End processing [viur-cli]: success
+[2023-07-12 07:14:23] INFO root fetch - processPackages [odoo-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role-16.0.1.2.1-py3-none-any.whl.zip]
+[2023-07-12 07:14:23] INFO root fetch - processPackages [odoo-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role-16.0.1.2.1.1-py3-none-any.whl.zip]
+[2023-07-12 07:14:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-role]: success
+[2023-07-12 07:14:24] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/bf/f1/c708df9c4cab99df401a117ea3adccfbcf907dccdabec8498db372d6f924/tflite_runtime_nightly-2.14.0.dev20230711-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-12 07:14:24] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-3.1.1-py3-none-any.whl.zip]
+[2023-07-12 07:14:24] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-3.1.2-py3-none-any.whl.zip]
+[2023-07-12 07:14:24] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
+[2023-07-12 07:14:25] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-12 07:14:25] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230706-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230711-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230712/t/tflite-runtime-nightly/2.14.0.dev20230706-2.14.0.dev20230711/diff.md --exclude *.pyd
+[2023-07-12 07:14:43] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230706-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-12 07:14:43] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230711-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-12 07:14:43] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-12 07:14:43] INFO root fetch - main [MainThread]: Store serial: [18856035]
