@@ -12707,3 +12707,48 @@
 [2023-07-12 07:35:31] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.1a2.tar.gz]
 [2023-07-12 07:35:31] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
 [2023-07-12 07:35:31] INFO root fetch - main [MainThread]: Store serial: [18856119]
+[2023-07-12 07:40:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856119]
+[2023-07-12 07:40:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-12 07:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hmeqo
+[2023-07-12 07:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymobiledevice3
+[2023-07-12 07:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: problem-bank-scripts
+[2023-07-12 07:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notros2
+[2023-07-12 07:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notros2
+[2023-07-12 07:40:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapidocr-openvino
+[2023-07-12 07:40:42] INFO root fetch - processPackages [notros2]: New version: [23.7.12.53827] Old Version: [23.7.12.53818]
+[2023-07-12 07:40:42] INFO root fetch - processPackages [notros2]: New version: [23.7.12.53827] Old Version: [23.7.12.53818]
+[2023-07-12 07:40:42] WARNING root fetch - processPackages [hmeqo]: Skipping, unable to determine old version
+[2023-07-12 07:40:42] INFO root fetch - main [MainThread]: End processing [hmeqo] error
+[2023-07-12 07:40:42] INFO root fetch - processPackages [problem-bank-scripts]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-12 07:40:42] INFO root fetch - processPackages [pymobiledevice3]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-12 07:40:42] INFO root fetch - processPackages [rapidocr-openvino]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-12 07:40:42] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/52/7c/9d68f170a68fa43349387f27a58b8218e9462e6cc62de5888907f37a7743/problem_bank_scripts-0.8.0.tar.gz
+[2023-07-12 07:40:42] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/81/6a/f13b2d407b5f2e66b4d0e1d4031efdb67e11d7c0062b18d775a0a52d73d0/notros2-23.7.12.53818.tar.gz
+[2023-07-12 07:40:42] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/81/6a/f13b2d407b5f2e66b4d0e1d4031efdb67e11d7c0062b18d775a0a52d73d0/notros2-23.7.12.53818.tar.gz
+[2023-07-12 07:40:43] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/68/22/7ab9ba34e1895324c5338cfbdd59d5481925245e1ff9cdfcbb370a95e1d1/pymobiledevice3-2.0.2.tar.gz
+[2023-07-12 07:40:43] INFO root fetch - processPackages [rapidocr-openvino]: Downloading https://files.pythonhosted.org/packages/84/b4/d898eebf016a6f875cb116ae4c6cd5e7e9931fb2508a6d6960f44d3ef2ff/rapidocr_openvino-1.2.8-py3-none-any.whl
+[2023-07-12 07:40:43] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/be/57/e4f061603d43ac26c9319ab01f0e7ff9e0213af49d83bf3877d9759e5044/problem_bank_scripts-0.8.1.tar.gz
+[2023-07-12 07:40:43] INFO root fetch - processPackages [problem-bank-scripts]: executing diffoscope
+[2023-07-12 07:40:43] INFO root fetch - processPackages [problem-bank-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/problem_bank_scripts-0.8.0.tar.gz tmp/problem_bank_scripts-0.8.1.tar.gz --markdown 20230712/p/problem-bank-scripts/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-12 07:40:43] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/cd/5d/4f172188d215f787831416c833c16f5c027ee4b600385c597875ce59b04c/notros2-23.7.12.53827-py3-none-any.whl
+[2023-07-12 07:40:43] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/cd/5d/4f172188d215f787831416c833c16f5c027ee4b600385c597875ce59b04c/notros2-23.7.12.53827-py3-none-any.whl
+[2023-07-12 07:40:43] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/46/9c/f964994ad9791c67d51f07bc983714103dd9c5d6408f55177bbb3f780633/pymobiledevice3-2.0.3.tar.gz
+[2023-07-12 07:40:43] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-12 07:40:43] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.12.53818.tar.gz tmp/notros2-23.7.12.53827-py3-none-any.whl.zip --markdown 20230712/n/notros2/23.7.12.53818-23.7.12.53827/diff.md --exclude *.pyd
+[2023-07-12 07:40:43] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-12 07:40:43] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.12.53818.tar.gz tmp/notros2-23.7.12.53827-py3-none-any.whl.zip --markdown 20230712/n/notros2/23.7.12.53818-23.7.12.53827/diff.md --exclude *.pyd
+[2023-07-12 07:40:43] INFO root fetch - processPackages [pymobiledevice3]: executing diffoscope
+[2023-07-12 07:40:43] INFO root fetch - processPackages [pymobiledevice3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymobiledevice3-2.0.2.tar.gz tmp/pymobiledevice3-2.0.3.tar.gz --markdown 20230712/p/pymobiledevice3/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-12 07:40:44] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.8.0.tar.gz]
+[2023-07-12 07:40:44] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.8.1.tar.gz]
+[2023-07-12 07:40:44] INFO root fetch - main [MainThread]: End processing [problem-bank-scripts]: success
+[2023-07-12 07:40:44] WARNING root fetch - processPackages [rapidocr-openvino]: Skipping package: exceeds size limit 12342232>=10485760
+[2023-07-12 07:40:44] INFO root fetch - main [MainThread]: End processing [rapidocr-openvino] error
+[2023-07-12 07:40:44] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.12.53818.tar.gz]
+[2023-07-12 07:40:44] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.12.53827-py3-none-any.whl.zip]
+[2023-07-12 07:40:44] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-12 07:40:44] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-12 07:40:45] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.0.2.tar.gz]
+[2023-07-12 07:40:45] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.0.3.tar.gz]
+[2023-07-12 07:40:45] INFO root fetch - main [MainThread]: End processing [pymobiledevice3]: success
+[2023-07-12 07:40:45] INFO root fetch - main [MainThread]: Store serial: [18856135]
