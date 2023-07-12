@@ -19953,3 +19953,96 @@ AssertionError: tmp/flask_validators-0.5.tar.gz does not exist
 [2023-07-12 13:06:29] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.6.tar.gz]
 [2023-07-12 13:06:29] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
 [2023-07-12 13:06:29] INFO root fetch - main [MainThread]: Store serial: [18859226]
+[2023-07-12 13:11:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18859226]
+[2023-07-12 13:11:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-12 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appins
+[2023-07-12 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baltic
+[2023-07-12 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transcal
+[2023-07-12 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: connect-extension-runner
+[2023-07-12 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: magnumnp
+[2023-07-12 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyISBO
+[2023-07-12 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zepben.evolve
+[2023-07-12 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bluepyefe
+[2023-07-12 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdmb
+[2023-07-12 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Alpha-Rabbit
+[2023-07-12 13:11:39] INFO root fetch - processPackages [appins]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-12 13:11:39] INFO root fetch - processPackages [magnumnp]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-12 13:11:39] WARNING root fetch - processPackages [transcal]: Skipping, unable to determine old version
+[2023-07-12 13:11:39] INFO root fetch - processPackages [transcal]: Start processing: swiftly-unix
+[2023-07-12 13:11:39] INFO root fetch - main [MainThread]: End processing [transcal] error
+[2023-07-12 13:11:39] ERROR root fetch - processPackages [cdmb]: Unable to get metadata: No such project 'cdmb'
+[2023-07-12 13:11:39] INFO root fetch - processPackages [cdmb]: Start processing: labelu
+[2023-07-12 13:11:39] INFO root fetch - main [MainThread]: End processing [cdmb] error
+[2023-07-12 13:11:39] WARNING root fetch - processPackages [pyISBO]: Skipping, unable to determine old version
+[2023-07-12 13:11:39] INFO root fetch - main [MainThread]: End processing [pyISBO] error
+[2023-07-12 13:11:39] INFO root fetch - processPackages [bluepyefe]: New version: [2.3.0] Old Version: [2.2.72]
+[2023-07-12 13:11:39] INFO root fetch - processPackages [swiftly-unix]: New version: [0.1.22] Old Version: [0.1.21]
+[2023-07-12 13:11:39] INFO root fetch - processPackages [baltic]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-07-12 13:11:39] INFO root fetch - processPackages [zepben.evolve]: New version: [0.35.0b9] Old Version: [0.35.0b8]
+[2023-07-12 13:11:39] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-12 13:11:39] INFO root fetch - processPackages [connect-extension-runner]: New version: [28.5] Old Version: [28.4]
+[2023-07-12 13:11:39] INFO root fetch - processPackages [appins]: Downloading https://files.pythonhosted.org/packages/9f/97/534806ef05f6ed06165f94807cbe770f6da1f3fe6b39290c008a06dcc348/appins-0.3.1.tar.gz
+[2023-07-12 13:11:39] INFO root fetch - processPackages [labelu]: New version: [0.5.5.2] Old Version: [0.5.5.1]
+[2023-07-12 13:11:39] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/0b/6e/e2fc0214c9d6a7c53afde40502cdbafda192a0978fc61e4aa29c752eaf6a/Alpha_Rabbit-1.4.8.tar.gz
+[2023-07-12 13:11:39] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/f7/4f/48fbf9537a7c46db46aa30331168d07e114468e49f2e6d2ed7bc820a4ee9/swiftly-unix-0.1.21.tar.gz
+[2023-07-12 13:11:39] INFO root fetch - processPackages [zepben.evolve]: Downloading https://files.pythonhosted.org/packages/3c/52/68c39e64538c250415cd6d029e45608e6961056e4ce7039b8404433ac826/zepben.evolve-0.35.0b8-py3-none-any.whl
+[2023-07-12 13:11:39] INFO root fetch - processPackages [magnumnp]: Downloading https://files.pythonhosted.org/packages/9d/67/8e7aa0b3df774fc697a055196432d3fced7ba0ff2c6d6566b9fbc24ba357/magnumnp-1.1.1.tar.gz
+[2023-07-12 13:11:39] INFO root fetch - processPackages [baltic]: Downloading https://files.pythonhosted.org/packages/3c/36/2783aabf12b23215abf0479687871b16e385adfb5ce50e391889a982781b/baltic-0.1.8.tar.gz
+[2023-07-12 13:11:39] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/00/67/72af895420a56c7320eb06e9ac357741a7a558951118b7357162634f6a39/bluepyefe-2.2.72.tar.gz
+[2023-07-12 13:11:39] INFO root fetch - processPackages [connect-extension-runner]: Downloading https://files.pythonhosted.org/packages/03/14/71a6e954cd0a9de0c41d3f50021f90837d5f77b90111ebe35327e18df68a/connect_extension_runner-28.4.tar.gz
+[2023-07-12 13:11:39] INFO root fetch - processPackages [labelu]: Downloading https://files.pythonhosted.org/packages/83/e0/6879ffe15641e717f4276624d67675fddb419653be6e16cdfec09fa13fb4/labelu-0.5.5.1.tar.gz
+[2023-07-12 13:11:39] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/1a/57/1d7aa8328400899ccdbc2e3725b24789b28ff0b7e740fdc2a2a625af56d0/Alpha_Rabbit-1.4.9.tar.gz
+[2023-07-12 13:11:39] INFO root fetch - processPackages [appins]: Downloading https://files.pythonhosted.org/packages/f2/19/d0cc539b6a4fc3036e80121293a0cdbd5a8e7e6122918458b2ffbbb91438/appins-0.3.2.tar.gz
+[2023-07-12 13:11:40] INFO root fetch - processPackages [swiftly-unix]: Downloading https://files.pythonhosted.org/packages/f4/76/504b7d8e3002fcf8493cc6be055c995ae82924c9d3a13493d579d23b0e9d/swiftly-unix-0.1.22.tar.gz
+[2023-07-12 13:11:40] INFO root fetch - processPackages [zepben.evolve]: Downloading https://files.pythonhosted.org/packages/66/1b/a52596e200440f9a72d7d09097b404a931ff67b44418a525f5ec2c47603a/zepben.evolve-0.35.0b9-py3-none-any.whl
+[2023-07-12 13:11:40] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-07-12 13:11:40] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.4.8.tar.gz tmp/Alpha_Rabbit-1.4.9.tar.gz --markdown 20230712/A/Alpha-Rabbit/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-12 13:11:40] INFO root fetch - processPackages [appins]: executing diffoscope
+[2023-07-12 13:11:40] INFO root fetch - processPackages [appins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appins-0.3.1.tar.gz tmp/appins-0.3.2.tar.gz --markdown 20230712/a/appins/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-12 13:11:40] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/a0/43/c9c8f2e682dd513322f58bfac84b771ab957b402e3d26754b379e7eb0c6c/bluepyefe-2.3.0.tar.gz
+[2023-07-12 13:11:40] INFO root fetch - processPackages [connect-extension-runner]: Downloading https://files.pythonhosted.org/packages/47/b6/a20c493a7c4180e17d4ece695bc052fcb8b4895c3093da64b10ea7a7b2fb/connect_extension_runner-28.5.tar.gz
+[2023-07-12 13:11:40] INFO root fetch - processPackages [swiftly-unix]: executing diffoscope
+[2023-07-12 13:11:40] INFO root fetch - processPackages [swiftly-unix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftly-unix-0.1.21.tar.gz tmp/swiftly-unix-0.1.22.tar.gz --markdown 20230712/s/swiftly-unix/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2023-07-12 13:11:40] INFO root fetch - processPackages [magnumnp]: Downloading https://files.pythonhosted.org/packages/01/e9/e8a4f108994573d43eb1b2d361bc5c4f11abc61131806323acc7b2bfcbc6/magnumnp-1.1.2.tar.gz
+[2023-07-12 13:11:40] INFO root fetch - processPackages [connect-extension-runner]: executing diffoscope
+[2023-07-12 13:11:40] INFO root fetch - processPackages [connect-extension-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_extension_runner-28.4.tar.gz tmp/connect_extension_runner-28.5.tar.gz --markdown 20230712/c/connect-extension-runner/28.4-28.5/diff.md --exclude *.pyd
+[2023-07-12 13:11:40] INFO root fetch - processPackages [baltic]: Downloading https://files.pythonhosted.org/packages/e3/00/cf27e9472828c50e04f27167d9b3c9188b647f23550e5d64f0f52f529028/baltic-0.2.0.tar.gz
+[2023-07-12 13:11:40] INFO root fetch - processPackages [zepben.evolve]: executing diffoscope
+[2023-07-12 13:11:40] INFO root fetch - processPackages [zepben.evolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.evolve-0.35.0b8-py3-none-any.whl.zip tmp/zepben.evolve-0.35.0b9-py3-none-any.whl.zip --markdown 20230712/z/zepben.evolve/0.35.0b8-0.35.0b9/diff.md --exclude *.pyd
+[2023-07-12 13:11:40] INFO root fetch - processPackages [bluepyefe]: executing diffoscope
+[2023-07-12 13:11:40] INFO root fetch - processPackages [bluepyefe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyefe-2.2.72.tar.gz tmp/bluepyefe-2.3.0.tar.gz --markdown 20230712/b/bluepyefe/2.2.72-2.3.0/diff.md --exclude *.pyd
+[2023-07-12 13:11:40] INFO root fetch - processPackages [baltic]: executing diffoscope
+[2023-07-12 13:11:40] INFO root fetch - processPackages [baltic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baltic-0.1.8.tar.gz tmp/baltic-0.2.0.tar.gz --markdown 20230712/b/baltic/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-07-12 13:11:40] INFO root fetch - processPackages [magnumnp]: executing diffoscope
+[2023-07-12 13:11:40] INFO root fetch - processPackages [magnumnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnumnp-1.1.1.tar.gz tmp/magnumnp-1.1.2.tar.gz --markdown 20230712/m/magnumnp/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-12 13:11:41] INFO root fetch - processPackages [labelu]: Downloading https://files.pythonhosted.org/packages/1a/fc/06eaa97780d5806b74127355de5e820198e32c91dbaa73213f70e1d5e9c0/labelu-0.5.5.2.tar.gz
+[2023-07-12 13:11:41] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.8.tar.gz]
+[2023-07-12 13:11:41] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.4.9.tar.gz]
+[2023-07-12 13:11:41] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-07-12 13:11:41] INFO root fetch - processPackages [swiftly-unix]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-unix-0.1.21.tar.gz]
+[2023-07-12 13:11:41] INFO root fetch - processPackages [swiftly-unix]: Remove: archive file [/home/abi/fetcher/tmp/swiftly-unix-0.1.22.tar.gz]
+[2023-07-12 13:11:41] INFO root fetch - main [MainThread]: End processing [swiftly-unix]: success
+[2023-07-12 13:11:41] INFO root fetch - processPackages [appins]: Remove: archive file [/home/abi/fetcher/tmp/appins-0.3.1.tar.gz]
+[2023-07-12 13:11:41] INFO root fetch - processPackages [appins]: Remove: archive file [/home/abi/fetcher/tmp/appins-0.3.2.tar.gz]
+[2023-07-12 13:11:41] INFO root fetch - main [MainThread]: End processing [appins]: success
+[2023-07-12 13:11:41] INFO root fetch - processPackages [labelu]: executing diffoscope
+[2023-07-12 13:11:41] INFO root fetch - processPackages [labelu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelu-0.5.5.1.tar.gz tmp/labelu-0.5.5.2.tar.gz --markdown 20230712/l/labelu/0.5.5.1-0.5.5.2/diff.md --exclude *.pyd
+[2023-07-12 13:11:41] INFO root fetch - processPackages [connect-extension-runner]: Remove: archive file [/home/abi/fetcher/tmp/connect_extension_runner-28.4.tar.gz]
+[2023-07-12 13:11:41] INFO root fetch - processPackages [connect-extension-runner]: Remove: archive file [/home/abi/fetcher/tmp/connect_extension_runner-28.5.tar.gz]
+[2023-07-12 13:11:41] INFO root fetch - main [MainThread]: End processing [connect-extension-runner]: success
+[2023-07-12 13:11:41] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.2.72.tar.gz]
+[2023-07-12 13:11:41] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.3.0.tar.gz]
+[2023-07-12 13:11:41] INFO root fetch - main [MainThread]: End processing [bluepyefe]: success
+[2023-07-12 13:11:42] INFO root fetch - processPackages [magnumnp]: Remove: archive file [/home/abi/fetcher/tmp/magnumnp-1.1.1.tar.gz]
+[2023-07-12 13:11:42] INFO root fetch - processPackages [magnumnp]: Remove: archive file [/home/abi/fetcher/tmp/magnumnp-1.1.2.tar.gz]
+[2023-07-12 13:11:42] INFO root fetch - main [MainThread]: End processing [magnumnp]: success
+[2023-07-12 13:11:42] INFO root fetch - processPackages [baltic]: Remove: archive file [/home/abi/fetcher/tmp/baltic-0.1.8.tar.gz]
+[2023-07-12 13:11:42] INFO root fetch - processPackages [baltic]: Remove: archive file [/home/abi/fetcher/tmp/baltic-0.2.0.tar.gz]
+[2023-07-12 13:11:42] INFO root fetch - main [MainThread]: End processing [baltic]: success
+[2023-07-12 13:11:43] INFO root fetch - processPackages [zepben.evolve]: Remove: archive file [/home/abi/fetcher/tmp/zepben.evolve-0.35.0b8-py3-none-any.whl.zip]
+[2023-07-12 13:11:43] INFO root fetch - processPackages [zepben.evolve]: Remove: archive file [/home/abi/fetcher/tmp/zepben.evolve-0.35.0b9-py3-none-any.whl.zip]
+[2023-07-12 13:11:43] INFO root fetch - main [MainThread]: End processing [zepben.evolve]: success
+[2023-07-12 13:12:06] INFO root fetch - processPackages [labelu]: Remove: archive file [/home/abi/fetcher/tmp/labelu-0.5.5.1.tar.gz]
+[2023-07-12 13:12:06] INFO root fetch - processPackages [labelu]: Remove: archive file [/home/abi/fetcher/tmp/labelu-0.5.5.2.tar.gz]
+[2023-07-12 13:12:06] INFO root fetch - main [MainThread]: End processing [labelu]: success
+[2023-07-12 13:12:06] INFO root fetch - main [MainThread]: Store serial: [18859270]
