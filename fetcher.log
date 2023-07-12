@@ -17723,3 +17723,140 @@
 [2023-07-12 11:35:55] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-2.4.0.tar.gz]
 [2023-07-12 11:35:55] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
 [2023-07-12 11:35:55] INFO root fetch - main [MainThread]: Store serial: [18858217]
+[2023-07-12 11:40:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858217]
+[2023-07-12 11:41:04] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-12 11:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-jsonschema-serializer
+[2023-07-12 11:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramodels
+[2023-07-12 11:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuNet
+[2023-07-12 11:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fedjax
+[2023-07-12 11:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-hk-securitytech
+[2023-07-12 11:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: medsenger-api
+[2023-07-12 11:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudproof-py
+[2023-07-12 11:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thipstercli
+[2023-07-12 11:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-pjsk
+[2023-07-12 11:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datastax
+[2023-07-12 11:41:05] INFO root fetch - processPackages [fedjax]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 11:41:05] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-12 11:41:05] INFO root fetch - processPackages [cloudproof-py]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-12 11:41:05] INFO root fetch - processPackages [drf-jsonschema-serializer]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-12 11:41:05] INFO root fetch - processPackages [thipstercli]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-12 11:41:05] INFO root fetch - processPackages [antchain-hk-securitytech]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-12 11:41:05] INFO root fetch - processPackages [datastax]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-12 11:41:05] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-12 11:41:05] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 11:41:05] WARNING root fetch - processPackages [nonebot-plugin-pjsk]: Skipping, unable to determine old version
+[2023-07-12 11:41:05] INFO root fetch - processPackages [nonebot-plugin-pjsk]: Start processing: chamd
+[2023-07-12 11:41:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pjsk] error
+[2023-07-12 11:41:05] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-12 11:41:05] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/2b/da/407fd2d37bc63fcc58b83e2cff3f53a0e3976dd06a12df6361cb86b80b59/thipstercli-0.5.8.tar.gz
+[2023-07-12 11:41:05] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-12 11:41:05] INFO root fetch - processPackages [chamd]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-12 11:41:05] INFO root fetch - processPackages [datastax]: Downloading https://files.pythonhosted.org/packages/ac/dc/02b8f758da92018723fd4fade22bc3b03a2aaad098ea24885d0beb4a2119/datastax-0.4.0.tar.gz
+[2023-07-12 11:41:05] INFO root fetch - processPackages [drf-jsonschema-serializer]: Downloading https://files.pythonhosted.org/packages/cf/33/d3b9e5132b9ae5702abd09abac3becea14c7314ba8baa095ff6bb68b9525/drf-jsonschema-serializer-1.0.0.tar.gz
+[2023-07-12 11:41:05] INFO root fetch - processPackages [fedjax]: Downloading https://files.pythonhosted.org/packages/5b/15/e7ab9b9eddbf134be1d8e33190f29f2cd3f0c977db9862b843609b67fd1a/fedjax-0.0.8.tar.gz
+[2023-07-12 11:41:05] INFO root fetch - processPackages [medsenger-api]: Downloading https://files.pythonhosted.org/packages/10/9d/f7b13ad5e8383a001014af80b53c81b80a73fdea5ca4268b557a703efd93/medsenger_api-0.1.8.tar.gz
+[2023-07-12 11:41:05] INFO root fetch - processPackages [cloudproof-py]: Downloading https://files.pythonhosted.org/packages/b6/85/5c4ee37d450dd2ada7b320f1591e138d2f12b2fa338476bfbde6b1dffd6d/cloudproof_py-4.0.0-py3-none-any.whl
+[2023-07-12 11:41:05] INFO root fetch - processPackages [antchain-hk-securitytech]: Downloading https://files.pythonhosted.org/packages/6b/8e/f56a73770ad326185ba6bed144dfe9bb3a6f2bd25af8113ba6ce6b69dba6/antchain_hk_securitytech-1.3.5.tar.gz
+[2023-07-12 11:41:05] INFO root fetch - processPackages [chamd]: Downloading https://files.pythonhosted.org/packages/10/bd/f504ec780c00cb910ce798677140e502d15a5606a4b131d7be76aa514551/chamd-0.5.7.tar.gz
+[2023-07-12 11:41:06] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-12 11:41:06] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/ca/93/0176a61faa13c3a53c556d028b5a8f64799c7dc89c98fbfaeeac643e8a41/thipstercli-0.5.9.tar.gz
+[2023-07-12 11:41:06] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-12 11:41:06] INFO root fetch - processPackages [datastax]: Downloading https://files.pythonhosted.org/packages/55/76/1d22727998b386c9c08b340bddcc79e7e4045c6d0fb0d504d206787b61b6/datastax-0.4.1.tar.gz
+[2023-07-12 11:41:06] INFO root fetch - processPackages [drf-jsonschema-serializer]: Downloading https://files.pythonhosted.org/packages/11/77/6b058c860c965fa991ad88c7009c27b2d8dcb27d2d72330a865541535734/drf-jsonschema-serializer-2.0.0.tar.gz
+[2023-07-12 11:41:06] INFO root fetch - processPackages [antchain-hk-securitytech]: Downloading https://files.pythonhosted.org/packages/a7/60/bc57e2c5096ad8afa2bd36f5d323a33c3c67bb8bcb514487369dc1ddebc8/antchain_hk_securitytech-1.3.6.tar.gz
+[2023-07-12 11:41:06] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-12 11:41:06] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230712/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 11:41:06] INFO root fetch - processPackages [cloudproof-py]: Downloading https://files.pythonhosted.org/packages/21/4c/a3c073eef4e710bbb43b87ec90ee315dae5b7eebf301bf343c3108052c07/cloudproof_py-4.0.1-py3-none-any.whl
+[2023-07-12 11:41:06] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-07-12 11:41:06] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.5.8.tar.gz tmp/thipstercli-0.5.9.tar.gz --markdown 20230712/t/thipstercli/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-12 11:41:06] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-12 11:41:06] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230712/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-12 11:41:06] INFO root fetch - processPackages [fedjax]: Downloading https://files.pythonhosted.org/packages/27/00/13d2f6a19d8a29ac21d250a4c765504407591c28088a09aa6ff28abe30f9/fedjax-0.0.9.tar.gz
+[2023-07-12 11:41:06] INFO root fetch - processPackages [medsenger-api]: Downloading https://files.pythonhosted.org/packages/e9/26/e1fbb78bfd4a0de98e7c9b2573d47a63aa0aa5bcf1942047b2e443591ac7/medsenger_api-0.1.9.tar.gz
+[2023-07-12 11:41:06] INFO root fetch - processPackages [datastax]: executing diffoscope
+[2023-07-12 11:41:06] INFO root fetch - processPackages [datastax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datastax-0.4.0.tar.gz tmp/datastax-0.4.1.tar.gz --markdown 20230712/d/datastax/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-12 11:41:06] INFO root fetch - processPackages [drf-jsonschema-serializer]: executing diffoscope
+[2023-07-12 11:41:06] INFO root fetch - processPackages [drf-jsonschema-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-jsonschema-serializer-1.0.0.tar.gz tmp/drf-jsonschema-serializer-2.0.0.tar.gz --markdown 20230712/d/drf-jsonschema-serializer/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-12 11:41:06] INFO root fetch - processPackages [cloudproof-py]: executing diffoscope
+[2023-07-12 11:41:06] INFO root fetch - processPackages [cloudproof-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudproof_py-4.0.0-py3-none-any.whl.zip tmp/cloudproof_py-4.0.1-py3-none-any.whl.zip --markdown 20230712/c/cloudproof-py/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-12 11:41:06] INFO root fetch - processPackages [antchain-hk-securitytech]: executing diffoscope
+[2023-07-12 11:41:06] INFO root fetch - processPackages [antchain-hk-securitytech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_hk_securitytech-1.3.5.tar.gz tmp/antchain_hk_securitytech-1.3.6.tar.gz --markdown 20230712/a/antchain-hk-securitytech/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-12 11:41:06] INFO root fetch - processPackages [chamd]: Downloading https://files.pythonhosted.org/packages/b7/30/e5a162c671eb7930178fa86c997c23f2c622fbb8e1715b8a804d6530c653/chamd-0.5.8.tar.gz
+[2023-07-12 11:41:06] INFO root fetch - processPackages [fedjax]: executing diffoscope
+[2023-07-12 11:41:06] INFO root fetch - processPackages [fedjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedjax-0.0.8.tar.gz tmp/fedjax-0.0.9.tar.gz --markdown 20230712/f/fedjax/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:41:06] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-07-12 11:41:06] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230712/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-12 11:41:06] INFO root fetch - processPackages [chamd]: executing diffoscope
+[2023-07-12 11:41:06] INFO root fetch - processPackages [chamd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamd-0.5.7.tar.gz tmp/chamd-0.5.8.tar.gz --markdown 20230712/c/chamd/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-12 11:41:08] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.8.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.9.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [thipstercli]: Start processing: flask-cognito-lib
+[2023-07-12 11:41:08] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-07-12 11:41:08] INFO root fetch - processPackages [cloudproof-py]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_py-4.0.0-py3-none-any.whl.zip]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [cloudproof-py]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_py-4.0.1-py3-none-any.whl.zip]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [cloudproof-py]: Start processing: odoo-addon-cms-info
+[2023-07-12 11:41:08] INFO root fetch - main [MainThread]: End processing [cloudproof-py]: success
+[2023-07-12 11:41:08] INFO root fetch - processPackages [flask-cognito-lib]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [odoo-addon-cms-info]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.3]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [medsenger-api]: Remove: archive file [/home/abi/fetcher/tmp/medsenger_api-0.1.8.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [medsenger-api]: Remove: archive file [/home/abi/fetcher/tmp/medsenger_api-0.1.9.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [medsenger-api]: Start processing: nwebclient
+[2023-07-12 11:41:08] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-07-12 11:41:08] INFO root fetch - processPackages [drf-jsonschema-serializer]: Remove: archive file [/home/abi/fetcher/tmp/drf-jsonschema-serializer-1.0.0.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [drf-jsonschema-serializer]: Remove: archive file [/home/abi/fetcher/tmp/drf-jsonschema-serializer-2.0.0.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [drf-jsonschema-serializer]: Start processing: fastly
+[2023-07-12 11:41:08] INFO root fetch - main [MainThread]: End processing [drf-jsonschema-serializer]: success
+[2023-07-12 11:41:08] INFO root fetch - processPackages [antchain-hk-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_hk_securitytech-1.3.5.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [antchain-hk-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_hk_securitytech-1.3.6.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [antchain-hk-securitytech]: Start processing: indico-fonts
+[2023-07-12 11:41:08] INFO root fetch - main [MainThread]: End processing [antchain-hk-securitytech]: success
+[2023-07-12 11:41:08] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-12 11:41:08] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-12 11:41:08] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-12 11:41:08] INFO root fetch - processPackages [fastly]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [chamd]: Remove: archive file [/home/abi/fetcher/tmp/chamd-0.5.7.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [chamd]: Remove: archive file [/home/abi/fetcher/tmp/chamd-0.5.8.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - main [MainThread]: End processing [chamd]: success
+[2023-07-12 11:41:08] INFO root fetch - processPackages [flask-cognito-lib]: Downloading https://files.pythonhosted.org/packages/a1/e6/84032d8dc403fab2dae74e12b20e16576d76fdf1f5df2dc138f62c8ca86f/flask_cognito_lib-1.4.1.tar.gz
+[2023-07-12 11:41:08] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-12 11:41:08] INFO root fetch - processPackages [odoo-addon-cms-info]: Downloading https://files.pythonhosted.org/packages/da/46/5ff9002775a4fa03a96747446969bea320fee5011f40c9998a078ada4961/odoo_addon_cms_info-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-12 11:41:08] INFO root fetch - processPackages [indico-fonts]: New version: [1.2] Old Version: [1.1]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [datastax]: Remove: archive file [/home/abi/fetcher/tmp/datastax-0.4.0.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [datastax]: Remove: archive file [/home/abi/fetcher/tmp/datastax-0.4.1.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - main [MainThread]: End processing [datastax]: success
+[2023-07-12 11:41:08] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-12 11:41:08] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/71/db/0a19b8f5395dfd7e035a43b2b7866241c7b12121ec7af94afae8b1f6cde2/fastly-3.0.0.tar.gz
+[2023-07-12 11:41:08] INFO root fetch - processPackages [indico-fonts]: Downloading https://files.pythonhosted.org/packages/a8/ac/8b3d5b9abfd56363509602a80455d221ce2d730fa88305a5d5bff6d11c09/indico-fonts-1.1.tar.gz
+[2023-07-12 11:41:08] INFO root fetch - processPackages [fedjax]: Remove: archive file [/home/abi/fetcher/tmp/fedjax-0.0.8.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - processPackages [fedjax]: Remove: archive file [/home/abi/fetcher/tmp/fedjax-0.0.9.tar.gz]
+[2023-07-12 11:41:08] INFO root fetch - main [MainThread]: End processing [fedjax]: success
+[2023-07-12 11:41:08] INFO root fetch - processPackages [flask-cognito-lib]: Downloading https://files.pythonhosted.org/packages/aa/33/56d5975d5d2be27442da80ef76bf9f8d696f0d78a072ad403a812816b311/flask_cognito_lib-1.5.0.tar.gz
+[2023-07-12 11:41:08] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-12 11:41:08] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230712/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-12 11:41:08] INFO root fetch - processPackages [odoo-addon-cms-info]: Downloading https://files.pythonhosted.org/packages/8c/7a/0af65cb4c7e8c5b90e69147dde3015b05ecfe4ad9a19399be17d0818584e/odoo_addon_cms_info-16.0.1.1.0-py3-none-any.whl
+[2023-07-12 11:41:08] WARNING root fetch - processPackages [indico-fonts]: Skipping package: exceeds size limit 25510850>=10485760
+[2023-07-12 11:41:08] INFO root fetch - main [MainThread]: End processing [indico-fonts] error
+[2023-07-12 11:41:08] INFO root fetch - processPackages [odoo-addon-cms-info]: executing diffoscope
+[2023-07-12 11:41:08] INFO root fetch - processPackages [odoo-addon-cms-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_cms_info-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_cms_info-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-cms-info/16.0.1.0.0.3-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-12 11:41:08] INFO root fetch - processPackages [flask-cognito-lib]: executing diffoscope
+[2023-07-12 11:41:08] INFO root fetch - processPackages [flask-cognito-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_cognito_lib-1.4.1.tar.gz tmp/flask_cognito_lib-1.5.0.tar.gz --markdown 20230712/f/flask-cognito-lib/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-07-12 11:41:09] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/ff/f5/b79ab5f532e782c39295e0a6a0c1b24b2128babf6fe2cdff24571a8c61f6/fastly-3.0.1.tar.gz
+[2023-07-12 11:41:09] INFO root fetch - processPackages [fastly]: executing diffoscope
+[2023-07-12 11:41:09] INFO root fetch - processPackages [fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastly-3.0.0.tar.gz tmp/fastly-3.0.1.tar.gz --markdown 20230712/f/fastly/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-12 11:41:09] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-12 11:41:09] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-12 11:41:09] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-12 11:41:09] INFO root fetch - processPackages [flask-cognito-lib]: Remove: archive file [/home/abi/fetcher/tmp/flask_cognito_lib-1.4.1.tar.gz]
+[2023-07-12 11:41:09] INFO root fetch - processPackages [flask-cognito-lib]: Remove: archive file [/home/abi/fetcher/tmp/flask_cognito_lib-1.5.0.tar.gz]
+[2023-07-12 11:41:09] INFO root fetch - main [MainThread]: End processing [flask-cognito-lib]: success
+[2023-07-12 11:41:09] INFO root fetch - processPackages [odoo-addon-cms-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cms_info-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-12 11:41:09] INFO root fetch - processPackages [odoo-addon-cms-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cms_info-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-12 11:41:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-cms-info]: success
+[2023-07-12 11:41:21] INFO root fetch - processPackages [fastly]: Remove: archive file [/home/abi/fetcher/tmp/fastly-3.0.0.tar.gz]
+[2023-07-12 11:41:21] INFO root fetch - processPackages [fastly]: Remove: archive file [/home/abi/fetcher/tmp/fastly-3.0.1.tar.gz]
+[2023-07-12 11:41:21] INFO root fetch - main [MainThread]: End processing [fastly]: success
+[2023-07-12 11:41:21] INFO root fetch - main [MainThread]: Store serial: [18858269]
