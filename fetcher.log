@@ -5284,3 +5284,68 @@
 [2023-07-12 02:47:23] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307110044.tar.gz]
 [2023-07-12 02:47:23] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-12 02:47:23] INFO root fetch - main [MainThread]: Store serial: [18853114]
+[2023-07-12 02:52:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18853114]
+[2023-07-12 02:52:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-12 02:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymulticore
+[2023-07-12 02:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kubric-nightly
+[2023-07-12 02:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oxenai
+[2023-07-12 02:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenGeode-Geosciences
+[2023-07-12 02:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantconnect-stubs
+[2023-07-12 02:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Geode-Numerics
+[2023-07-12 02:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tccli-intl-en
+[2023-07-12 02:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-organizations
+[2023-07-12 02:52:33] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.1.2rc1] Old Version: [7.1.2]
+[2023-07-12 02:52:33] WARNING root fetch - processPackages [pymulticore]: Skipping, unable to determine old version
+[2023-07-12 02:52:33] INFO root fetch - main [MainThread]: End processing [pymulticore] error
+[2023-07-12 02:52:33] INFO root fetch - processPackages [oxenai]: New version: [0.1.9] Old Version: [0.1.3]
+[2023-07-12 02:52:33] INFO root fetch - processPackages [Geode-Numerics]: New version: [3.0.8rc1] Old Version: [3.0.8]
+[2023-07-12 02:52:33] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-07-12 02:52:33] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-12 02:52:33] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-12 02:52:33] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-12 02:52:33] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-07-12 02:52:33] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/65/7f/b48f69051d4f6af1ad87d6b066cd6bf225c179d5f03084679efd0bb7c8e0/OpenGeode_Geosciences-7.1.2-cp39-cp39-win_amd64.whl
+[2023-07-12 02:52:33] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-07-12 02:52:33] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bf/45/efe5ab87889959326f80b81945414a41c438fa00b255ffe28308ecb3b52b/kubric-nightly-2023.7.8.tar.gz
+[2023-07-12 02:52:33] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/6e/df/e7c2234ffe3515cf5201e3eecffbfb1551833173be2c3281bead19f4931f/Geode_Numerics-3.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-12 02:52:34] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-12 02:52:34] INFO root fetch - processPackages [oxenai]: Downloading https://files.pythonhosted.org/packages/f9/07/9b84496c51d7eb0978a7122e0246eb47d8118ed65cba24367d0ffec0ae9e/oxenai-0.1.9-cp310-cp310-macosx_11_0_arm64.whl
+[2023-07-12 02:52:34] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bb/cd/24a7d0673a40d4a2ccf50e8e9298594da4b918433ca23a33d7273fcb6871/kubric-nightly-2023.7.9.tar.gz
+[2023-07-12 02:52:34] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-12 02:52:34] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-07-12 02:52:34] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-12 02:52:34] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230712/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-12 02:52:34] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-07-12 02:52:34] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/75/e9/6a6e5d8863433d42956b4aa42d7f9ede1afac7709d19075a682874060d05/OpenGeode_Geosciences-7.1.2rc1-cp39-cp39-win_amd64.whl
+[2023-07-12 02:52:34] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-07-12 02:52:34] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230712/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-12 02:52:34] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-12 02:52:34] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.8.tar.gz tmp/kubric-nightly-2023.7.9.tar.gz --markdown 20230712/k/kubric-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-12 02:52:34] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-07-12 02:52:34] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.1.2-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.1.2rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230712/O/OpenGeode-Geosciences/7.1.2-7.1.2rc1/diff.md --exclude *.pyd
+[2023-07-12 02:52:34] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/02/9c/1474b2f1c9e0d45fdb6cbbaf73a5162fc7a53baa38ea415ad2211718cac3/Geode_Numerics-3.0.8rc1-cp39-cp39-win_amd64.whl
+[2023-07-12 02:52:35] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-07-12 02:52:35] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230712/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-07-12 02:52:35] WARNING root fetch - processPackages [oxenai]: Skipping package: exceeds size limit 14827494>=10485760
+[2023-07-12 02:52:35] INFO root fetch - main [MainThread]: End processing [oxenai] error
+[2023-07-12 02:52:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-12 02:52:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-12 02:52:35] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-12 02:52:35] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.8.tar.gz]
+[2023-07-12 02:52:35] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.9.tar.gz]
+[2023-07-12 02:52:35] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-12 02:52:35] INFO root fetch - processPackages [Geode-Numerics]: executing diffoscope
+[2023-07-12 02:52:35] INFO root fetch - processPackages [Geode-Numerics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Numerics-3.0.8-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Numerics-3.0.8rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230712/G/Geode-Numerics/3.0.8-3.0.8rc1/diff.md --exclude *.pyd
+[2023-07-12 02:52:36] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-3.0.8-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-12 02:52:36] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-3.0.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-12 02:52:36] INFO root fetch - main [MainThread]: End processing [Geode-Numerics]: success
+[2023-07-12 02:52:37] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-07-12 02:52:37] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-07-12 02:52:37] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-07-12 02:52:37] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-12 02:52:37] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-12 02:52:37] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-07-12 02:52:38] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-07-12 02:52:38] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-07-12 02:52:38] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-07-12 02:52:38] INFO root fetch - main [MainThread]: Store serial: [18853154]
