@@ -22292,3 +22292,130 @@ AssertionError: tmp/flask_validators-0.5.tar.gz does not exist
 [2023-07-12 14:27:42] INFO root fetch - processPackages [django-froala-editor]: Remove: archive file [/home/abi/fetcher/tmp/django-froala-editor-4.1.0.tar.gz]
 [2023-07-12 14:27:42] INFO root fetch - main [MainThread]: End processing [django-froala-editor]: success
 [2023-07-12 14:27:42] INFO root fetch - main [MainThread]: Store serial: [18860148]
+[2023-07-12 14:32:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18860148]
+[2023-07-12 14:32:52] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-12 14:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyprocessors-search_segments
+[2023-07-12 14:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ItemResponseCalc
+[2023-07-12 14:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapsrouting
+[2023-07-12 14:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: absl-extra
+[2023-07-12 14:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: re-y
+[2023-07-12 14:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DomoAPI
+[2023-07-12 14:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: re-yaml-common
+[2023-07-12 14:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mapsrouting
+[2023-07-12 14:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anarchy-bot
+[2023-07-12 14:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ML-Algo
+[2023-07-12 14:32:52] WARNING root fetch - processPackages [pyprocessors-search_segments]: Skipping, unable to determine old version
+[2023-07-12 14:32:52] INFO root fetch - processPackages [pyprocessors-search_segments]: Start processing: craft2d
+[2023-07-12 14:32:52] INFO root fetch - main [MainThread]: End processing [pyprocessors-search_segments] error
+[2023-07-12 14:32:52] INFO root fetch - processPackages [absl-extra]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-12 14:32:52] INFO root fetch - processPackages [mapsrouting]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 14:32:52] INFO root fetch - processPackages [re-y]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-07-12 14:32:52] INFO root fetch - processPackages [ItemResponseCalc]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-12 14:32:52] INFO root fetch - processPackages [mapsrouting]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-12 14:32:52] INFO root fetch - processPackages [ML-Algo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-12 14:32:52] WARNING root fetch - processPackages [DomoAPI]: Skipping, unable to determine old version
+[2023-07-12 14:32:52] INFO root fetch - processPackages [DomoAPI]: Start processing: moosez
+[2023-07-12 14:32:52] INFO root fetch - processPackages [re-yaml-common]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-12 14:32:52] INFO root fetch - main [MainThread]: End processing [DomoAPI] error
+[2023-07-12 14:32:52] INFO root fetch - processPackages [anarchy-bot]: New version: [23.0.3] Old Version: [23.0.2]
+[2023-07-12 14:32:52] INFO root fetch - processPackages [craft2d]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-12 14:32:53] INFO root fetch - processPackages [moosez]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-12 14:32:53] INFO root fetch - processPackages [re-y]: Downloading https://files.pythonhosted.org/packages/61/e2/6e33be20379435be5624ffde7b92fb23b9c48339171fe8db36b6699a381f/re_y-2.1.3-py3-none-any.whl
+[2023-07-12 14:32:53] INFO root fetch - processPackages [mapsrouting]: Downloading https://files.pythonhosted.org/packages/5c/32/da72cca14b5f99cedd9a724fa5ee8c07ebb6ff5b207f4edf5cfd57506212/mapsrouting-0.0.8-py3-none-any.whl
+[2023-07-12 14:32:53] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/00/21/141ed9efc45c2dd1543368c109e73e4c7bca7b2298ea705f1cb3a72cd661/ML_Algo-1.0.8.tar.gz
+[2023-07-12 14:32:53] INFO root fetch - processPackages [mapsrouting]: Downloading https://files.pythonhosted.org/packages/5c/32/da72cca14b5f99cedd9a724fa5ee8c07ebb6ff5b207f4edf5cfd57506212/mapsrouting-0.0.8-py3-none-any.whl
+[2023-07-12 14:32:53] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/41/c8/070cad5cef3e461572fbba22e25f7a2e8d459271d4a8c86d5baf7aa1b882/anarchy_bot-23.0.2.tar.gz
+[2023-07-12 14:32:53] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/29/92/688b446e3822b3be1951317596cd759c0087642922cd952a1d9bf930d1cd/absl_extra-0.0.2.dev8.tar.gz
+[2023-07-12 14:32:53] INFO root fetch - processPackages [ItemResponseCalc]: Downloading https://files.pythonhosted.org/packages/b6/5a/1af8fa2ac84c405db1ad2704434272d9710947bb613111ad0d5b401f4a31/ItemResponseCalc-0.5.0.tar.gz
+[2023-07-12 14:32:53] INFO root fetch - processPackages [craft2d]: Downloading https://files.pythonhosted.org/packages/03/91/ed4a26177b657c0b558b249afecf4459161bdaf4ba6654d439e9cef30fda/craft2d-0.1.0.tar.gz
+[2023-07-12 14:32:53] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/c2/b9/9ba3e44254ad29decd7b08760b84b94f2989dea3bc65cac9ae71ea9f0357/moosez-2.1.8.tar.gz
+[2023-07-12 14:32:53] INFO root fetch - processPackages [re-yaml-common]: Downloading https://files.pythonhosted.org/packages/c1/6c/04ee678e88dba6a16686c2179b8eb5b6821e6348dc676706e11e9dfb0ad3/re_yaml_common-2.0.1-py3-none-any.whl
+[2023-07-12 14:32:53] INFO root fetch - processPackages [mapsrouting]: Downloading https://files.pythonhosted.org/packages/3e/ea/f9d255a3571190d7e7a678a105e29d4af17828d0c21424caa1e6f237f002/mapsrouting-0.0.9-py3-none-any.whl
+[2023-07-12 14:32:53] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/56/ac/bc6012faf269fbaf5537a960e128eda0094dce0864f52bcb84ea8826d3cf/moosez-2.1.9.tar.gz
+[2023-07-12 14:32:53] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/54/5d/63e8f76a5362a85c40235ff6a62edbb49bae7f814a0b98676ea0420ec7a2/ML_Algo-1.0.9.tar.gz
+[2023-07-12 14:32:53] INFO root fetch - processPackages [mapsrouting]: Downloading https://files.pythonhosted.org/packages/3e/ea/f9d255a3571190d7e7a678a105e29d4af17828d0c21424caa1e6f237f002/mapsrouting-0.0.9-py3-none-any.whl
+[2023-07-12 14:32:53] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/0f/b5/607e7a6010810b54e6a35f92393ee1fdccb18cae92a0d26aa3a5c033fc24/anarchy_bot-23.0.3.tar.gz
+[2023-07-12 14:32:53] INFO root fetch - processPackages [re-y]: Downloading https://files.pythonhosted.org/packages/18/02/190820dd286cd96e982555fcc1d31f479b052b067d4b83b6e30cca2b4718/re_y-2.1.4-py3-none-any.whl
+[2023-07-12 14:32:53] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/f7/ad/385040ffc5d1a6c7ce24b748fe7932e7fc6f931c5a98bbd7a4f9c8acacfd/absl_extra-0.0.2.dev9.tar.gz
+[2023-07-12 14:32:53] INFO root fetch - processPackages [craft2d]: Downloading https://files.pythonhosted.org/packages/fb/2d/d2b8c00267bc6f4295192d8f930e9c6423b682631fbb08abcb4a8f9cec0c/craft2d-0.1.1.tar.gz
+[2023-07-12 14:32:53] INFO root fetch - processPackages [mapsrouting]: executing diffoscope
+[2023-07-12 14:32:53] INFO root fetch - processPackages [mapsrouting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapsrouting-0.0.8-py3-none-any.whl.zip tmp/mapsrouting-0.0.9-py3-none-any.whl.zip --markdown 20230712/m/mapsrouting/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 14:32:53] INFO root fetch - processPackages [ItemResponseCalc]: Downloading https://files.pythonhosted.org/packages/0a/3c/1f407aa6c0fb0eb3bab4bd761022adf8792806bc43169b1b5d640201e1f1/ItemResponseCalc-0.6.0.tar.gz
+[2023-07-12 14:32:53] INFO root fetch - processPackages [mapsrouting]: executing diffoscope
+[2023-07-12 14:32:53] INFO root fetch - processPackages [mapsrouting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapsrouting-0.0.8-py3-none-any.whl.zip tmp/mapsrouting-0.0.9-py3-none-any.whl.zip --markdown 20230712/m/mapsrouting/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-12 14:32:53] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-12 14:32:53] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.1.8.tar.gz tmp/moosez-2.1.9.tar.gz --markdown 20230712/m/moosez/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-12 14:32:53] INFO root fetch - processPackages [ML-Algo]: executing diffoscope
+[2023-07-12 14:32:53] INFO root fetch - processPackages [ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ML_Algo-1.0.8.tar.gz tmp/ML_Algo-1.0.9.tar.gz --markdown 20230712/M/ML-Algo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-12 14:32:53] INFO root fetch - processPackages [anarchy-bot]: executing diffoscope
+[2023-07-12 14:32:53] INFO root fetch - processPackages [anarchy-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anarchy_bot-23.0.2.tar.gz tmp/anarchy_bot-23.0.3.tar.gz --markdown 20230712/a/anarchy-bot/23.0.2-23.0.3/diff.md --exclude *.pyd
+[2023-07-12 14:32:53] INFO root fetch - processPackages [re-y]: executing diffoscope
+[2023-07-12 14:32:53] INFO root fetch - processPackages [re-y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_y-2.1.3-py3-none-any.whl.zip tmp/re_y-2.1.4-py3-none-any.whl.zip --markdown 20230712/r/re-y/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-07-12 14:32:53] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-07-12 14:32:53] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.2.dev8.tar.gz tmp/absl_extra-0.0.2.dev9.tar.gz --markdown 20230712/a/absl-extra/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-12 14:32:54] INFO root fetch - processPackages [re-yaml-common]: Downloading https://files.pythonhosted.org/packages/21/3f/23e1d9456b8bb13b6c528678c1025a533db1f6e6ad3e6456f9d92f6d15d6/re_yaml_common-2.0.2-py3-none-any.whl
+[2023-07-12 14:32:54] INFO root fetch - processPackages [ItemResponseCalc]: executing diffoscope
+[2023-07-12 14:32:54] INFO root fetch - processPackages [ItemResponseCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ItemResponseCalc-0.5.0.tar.gz tmp/ItemResponseCalc-0.6.0.tar.gz --markdown 20230712/I/ItemResponseCalc/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-12 14:32:54] INFO root fetch - processPackages [craft2d]: executing diffoscope
+[2023-07-12 14:32:54] INFO root fetch - processPackages [craft2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft2d-0.1.0.tar.gz tmp/craft2d-0.1.1.tar.gz --markdown 20230712/c/craft2d/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-12 14:32:54] INFO root fetch - processPackages [re-yaml-common]: executing diffoscope
+[2023-07-12 14:32:54] INFO root fetch - processPackages [re-yaml-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_yaml_common-2.0.1-py3-none-any.whl.zip tmp/re_yaml_common-2.0.2-py3-none-any.whl.zip --markdown 20230712/r/re-yaml-common/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-12 14:32:55] INFO root fetch - processPackages [mapsrouting]: Remove: archive file [/home/abi/fetcher/tmp/mapsrouting-0.0.8-py3-none-any.whl.zip]
+[2023-07-12 14:32:55] INFO root fetch - processPackages [mapsrouting]: Remove: archive file [/home/abi/fetcher/tmp/mapsrouting-0.0.9-py3-none-any.whl.zip]
+[2023-07-12 14:32:55] INFO root fetch - processPackages [mapsrouting]: Start processing: capeditor
+[2023-07-12 14:32:55] INFO root fetch - main [MainThread]: End processing [mapsrouting]: success
+[2023-07-12 14:32:55] INFO root fetch - processPackages [capeditor]: New version: [0.2.4] Old Version: [0.2.3.1]
+[2023-07-12 14:32:55] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML_Algo-1.0.8.tar.gz]
+[2023-07-12 14:32:55] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML_Algo-1.0.9.tar.gz]
+[2023-07-12 14:32:55] INFO root fetch - processPackages [ML-Algo]: Start processing: cs-models
+[2023-07-12 14:32:55] INFO root fetch - main [MainThread]: End processing [ML-Algo]: success
+[2023-07-12 14:32:55] INFO root fetch - processPackages [mapsrouting]: Start processing: oimodeler
+[2023-07-12 14:32:55] INFO root fetch - main [MainThread]: End processing [mapsrouting]: success
+[2023-07-12 14:32:55] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/e0/bf/13477fdfdf74b5dc0cc3bd21603fe5357199df74b79c7640f669348dd542/capeditor-0.2.3.1.tar.gz
+[2023-07-12 14:32:55] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-07-12 14:32:56] WARNING root fetch - processPackages [oimodeler]: Skipping, unable to determine old version
+[2023-07-12 14:32:56] INFO root fetch - processPackages [oimodeler]: Start processing: cognite-sdk
+[2023-07-12 14:32:56] INFO root fetch - main [MainThread]: End processing [oimodeler] error
+[2023-07-12 14:32:56] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.8.tar.gz]
+[2023-07-12 14:32:56] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.1.9.tar.gz]
+[2023-07-12 14:32:56] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-12 14:32:56] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev8.tar.gz]
+[2023-07-12 14:32:56] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev9.tar.gz]
+[2023-07-12 14:32:56] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-07-12 14:32:56] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-07-12 14:32:56] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.2.tar.gz]
+[2023-07-12 14:32:56] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.3.tar.gz]
+[2023-07-12 14:32:56] INFO root fetch - main [MainThread]: End processing [anarchy-bot]: success
+[2023-07-12 14:32:56] INFO root fetch - processPackages [cognite-sdk]: New version: [6.8.2] Old Version: [6.8.1]
+[2023-07-12 14:32:56] INFO root fetch - processPackages [re-y]: Remove: archive file [/home/abi/fetcher/tmp/re_y-2.1.3-py3-none-any.whl.zip]
+[2023-07-12 14:32:56] INFO root fetch - processPackages [re-y]: Remove: archive file [/home/abi/fetcher/tmp/re_y-2.1.4-py3-none-any.whl.zip]
+[2023-07-12 14:32:56] INFO root fetch - main [MainThread]: End processing [re-y]: success
+[2023-07-12 14:32:56] INFO root fetch - processPackages [re-yaml-common]: Remove: archive file [/home/abi/fetcher/tmp/re_yaml_common-2.0.1-py3-none-any.whl.zip]
+[2023-07-12 14:32:56] INFO root fetch - processPackages [re-yaml-common]: Remove: archive file [/home/abi/fetcher/tmp/re_yaml_common-2.0.2-py3-none-any.whl.zip]
+[2023-07-12 14:32:56] INFO root fetch - main [MainThread]: End processing [re-yaml-common]: success
+[2023-07-12 14:32:56] INFO root fetch - processPackages [craft2d]: Remove: archive file [/home/abi/fetcher/tmp/craft2d-0.1.0.tar.gz]
+[2023-07-12 14:32:56] INFO root fetch - processPackages [craft2d]: Remove: archive file [/home/abi/fetcher/tmp/craft2d-0.1.1.tar.gz]
+[2023-07-12 14:32:56] INFO root fetch - main [MainThread]: End processing [craft2d]: success
+[2023-07-12 14:32:56] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/63/23/ab55a6e138e900c24b76873941ce8bfd68b2b68e10889a0bf9912e5eb8d2/cognite_sdk-6.8.1.tar.gz
+[2023-07-12 14:32:56] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/8e/67/667813f151b28d1f8e0dabb18589bc5622330db7d1636230cd1db0d3248b/capeditor-0.2.4.tar.gz
+[2023-07-12 14:32:56] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-07-12 14:32:56] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2023-07-12 14:32:56] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.2.3.1.tar.gz tmp/capeditor-0.2.4.tar.gz --markdown 20230712/c/capeditor/0.2.3.1-0.2.4/diff.md --exclude *.pyd
+[2023-07-12 14:32:56] INFO root fetch - processPackages [ItemResponseCalc]: Remove: archive file [/home/abi/fetcher/tmp/ItemResponseCalc-0.5.0.tar.gz]
+[2023-07-12 14:32:56] INFO root fetch - processPackages [ItemResponseCalc]: Remove: archive file [/home/abi/fetcher/tmp/ItemResponseCalc-0.6.0.tar.gz]
+[2023-07-12 14:32:56] INFO root fetch - main [MainThread]: End processing [ItemResponseCalc]: success
+[2023-07-12 14:32:56] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-07-12 14:32:56] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230712/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-07-12 14:32:56] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/86/39/53f37c38065f11438b6d931f07671e476b0938ba5fdb20de2513adb3c774/cognite_sdk-6.8.2.tar.gz
+[2023-07-12 14:32:56] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-07-12 14:32:56] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.8.1.tar.gz tmp/cognite_sdk-6.8.2.tar.gz --markdown 20230712/c/cognite-sdk/6.8.1-6.8.2/diff.md --exclude *.pyd
+[2023-07-12 14:32:57] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.2.3.1.tar.gz]
+[2023-07-12 14:32:57] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.2.4.tar.gz]
+[2023-07-12 14:32:57] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2023-07-12 14:32:58] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-07-12 14:32:58] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-07-12 14:32:58] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-07-12 14:32:58] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.1.tar.gz]
+[2023-07-12 14:32:58] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.2.tar.gz]
+[2023-07-12 14:32:58] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-07-12 14:32:58] INFO root fetch - main [MainThread]: Store serial: [18860208]
