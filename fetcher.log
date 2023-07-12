@@ -13298,3 +13298,65 @@
 [2023-07-12 08:22:46] INFO root fetch - processPackages [weathon]: Remove: archive file [/home/abi/fetcher/tmp/weathon-0.0.0.17.tar.gz]
 [2023-07-12 08:22:46] INFO root fetch - main [MainThread]: End processing [weathon]: success
 [2023-07-12 08:22:46] INFO root fetch - main [MainThread]: Store serial: [18856395]
+[2023-07-12 08:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856395]
+[2023-07-12 08:27:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-12 08:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaphor-connectors
+[2023-07-12 08:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ExtractEmailAttachments
+[2023-07-12 08:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weconnect-cli
+[2023-07-12 08:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2023-07-12 08:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arramooz-pysqlite
+[2023-07-12 08:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ats-case
+[2023-07-12 08:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bookio-fetchfox
+[2023-07-12 08:27:56] INFO root fetch - processPackages [weconnect-cli]: New version: [0.9.0.dev2] Old Version: [0.9.0.dev1]
+[2023-07-12 08:27:56] INFO root fetch - processPackages [ExtractEmailAttachments]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-12 08:27:56] INFO root fetch - processPackages [arramooz-pysqlite]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-12 08:27:56] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-12 08:27:56] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230712] Old Version: [20230711]
+[2023-07-12 08:27:56] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-12 08:27:56] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-12 08:27:56] INFO root fetch - processPackages [ExtractEmailAttachments]: Downloading https://files.pythonhosted.org/packages/60/8f/6f2951f63932125a350f1220804af0bfb50590e051ca30fc9990ea2cd848/ExtractEmailAttachments-0.1.1.tar.gz
+[2023-07-12 08:27:56] INFO root fetch - processPackages [weconnect-cli]: Downloading https://files.pythonhosted.org/packages/d1/6e/05a5014a2d0da9ed5f2cadebffd97231fb4196c86bc9009358e3964e1075/weconnect-cli-0.9.0.dev1.tar.gz
+[2023-07-12 08:27:56] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2023-07-12 08:27:56] INFO root fetch - processPackages [arramooz-pysqlite]: Downloading https://files.pythonhosted.org/packages/4f/26/bde37149e9e1603fe7771e799ed1e1cf9c06f23783e17eda2ae6d9cc1d2c/arramooz_pysqlite-0.4.1-py3-none-any.whl
+[2023-07-12 08:27:56] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/70/7b/908e0a3bc5a25defee051ccd63ef979284ba14a0ce8647364fdead75cc2f/fake-bpy-module-latest-20230711.tar.gz
+[2023-07-12 08:27:56] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-12 08:27:56] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/48/ba/fe131fd4808024281f0131e7b098d5774dcca4ae3bec36f87992e4816083/bookio_fetchfox-0.9.4.tar.gz
+[2023-07-12 08:27:56] WARNING root fetch - processPackages [arramooz-pysqlite]: Skipping package: exceeds size limit 14539546>=10485760
+[2023-07-12 08:27:56] INFO root fetch - main [MainThread]: End processing [arramooz-pysqlite] error
+[2023-07-12 08:27:57] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/a9/08/70450c1965c3a1fa352c6223a193d95aade1d5e408c5203694504bc2347e/fake-bpy-module-latest-20230712.tar.gz
+[2023-07-12 08:27:57] INFO root fetch - processPackages [ExtractEmailAttachments]: Downloading https://files.pythonhosted.org/packages/1c/29/09e19e735f9d10f2ed95026b7ee1dd4ed921aab8c34515159a21b67cbddf/ExtractEmailAttachments-0.1.2.tar.gz
+[2023-07-12 08:27:57] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2023-07-12 08:27:57] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-12 08:27:57] INFO root fetch - processPackages [weconnect-cli]: Downloading https://files.pythonhosted.org/packages/bb/d1/2889dec463bc5bbc681fc28c3eb48428df0cd1ab05ad1d1d7376aca5b098/weconnect-cli-0.9.0.dev2.tar.gz
+[2023-07-12 08:27:57] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/75/ea/0ec148cecd1924c30e81ff63d276ade389cc674d2356eb6b5d1cad33da5a/bookio_fetchfox-0.9.5.tar.gz
+[2023-07-12 08:27:57] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-12 08:27:57] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230711.tar.gz tmp/fake-bpy-module-latest-20230712.tar.gz --markdown 20230712/f/fake-bpy-module-latest/20230711-20230712/diff.md --exclude *.pyd
+[2023-07-12 08:27:57] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-12 08:27:57] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230712/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-12 08:27:57] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-07-12 08:27:57] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230712/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-12 08:27:57] INFO root fetch - processPackages [ExtractEmailAttachments]: executing diffoscope
+[2023-07-12 08:27:57] INFO root fetch - processPackages [ExtractEmailAttachments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExtractEmailAttachments-0.1.1.tar.gz tmp/ExtractEmailAttachments-0.1.2.tar.gz --markdown 20230712/E/ExtractEmailAttachments/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-12 08:27:57] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-07-12 08:27:57] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.9.4.tar.gz tmp/bookio_fetchfox-0.9.5.tar.gz --markdown 20230712/b/bookio-fetchfox/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-12 08:27:57] INFO root fetch - processPackages [weconnect-cli]: executing diffoscope
+[2023-07-12 08:27:57] INFO root fetch - processPackages [weconnect-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weconnect-cli-0.9.0.dev1.tar.gz tmp/weconnect-cli-0.9.0.dev2.tar.gz --markdown 20230712/w/weconnect-cli/0.9.0.dev1-0.9.0.dev2/diff.md --exclude *.pyd
+[2023-07-12 08:27:58] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-12 08:27:58] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-12 08:27:58] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-12 08:27:58] INFO root fetch - processPackages [ExtractEmailAttachments]: Remove: archive file [/home/abi/fetcher/tmp/ExtractEmailAttachments-0.1.1.tar.gz]
+[2023-07-12 08:27:58] INFO root fetch - processPackages [ExtractEmailAttachments]: Remove: archive file [/home/abi/fetcher/tmp/ExtractEmailAttachments-0.1.2.tar.gz]
+[2023-07-12 08:27:58] INFO root fetch - main [MainThread]: End processing [ExtractEmailAttachments]: success
+[2023-07-12 08:27:58] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.4.tar.gz]
+[2023-07-12 08:27:58] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.5.tar.gz]
+[2023-07-12 08:27:58] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-07-12 08:27:58] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2023-07-12 08:27:58] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2023-07-12 08:27:58] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-07-12 08:27:59] INFO root fetch - processPackages [weconnect-cli]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-cli-0.9.0.dev1.tar.gz]
+[2023-07-12 08:27:59] INFO root fetch - processPackages [weconnect-cli]: Remove: archive file [/home/abi/fetcher/tmp/weconnect-cli-0.9.0.dev2.tar.gz]
+[2023-07-12 08:27:59] INFO root fetch - main [MainThread]: End processing [weconnect-cli]: success
+[2023-07-12 08:28:01] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230711.tar.gz]
+[2023-07-12 08:28:01] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230712.tar.gz]
+[2023-07-12 08:28:01] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-12 08:28:01] INFO root fetch - main [MainThread]: Store serial: [18856418]
