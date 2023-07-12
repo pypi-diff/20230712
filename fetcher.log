@@ -11574,3 +11574,45 @@
 [2023-07-12 06:11:41] INFO root fetch - processPackages [RuirenyunLibrary]: Remove: archive file [/home/abi/fetcher/tmp/RuirenyunLibrary-1.2.tar.gz]
 [2023-07-12 06:11:41] INFO root fetch - main [MainThread]: End processing [RuirenyunLibrary]: success
 [2023-07-12 06:11:41] INFO root fetch - main [MainThread]: Store serial: [18855561]
+[2023-07-12 06:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855561]
+[2023-07-12 06:16:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-12 06:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wcfhttp
+[2023-07-12 06:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pmccc
+[2023-07-12 06:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elastic-net
+[2023-07-12 06:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeUtils
+[2023-07-12 06:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mrp-production-quant-manual-assign
+[2023-07-12 06:16:52] INFO root fetch - processPackages [pmccc]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-12 06:16:52] WARNING root fetch - processPackages [elastic-net]: Skipping, unable to determine old version
+[2023-07-12 06:16:52] INFO root fetch - main [MainThread]: End processing [elastic-net] error
+[2023-07-12 06:16:52] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2023-07-12 06:16:52] INFO root fetch - processPackages [wcfhttp]: New version: [39.0.0.0a0] Old Version: [37.1.25.5]
+[2023-07-12 06:16:52] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-12 06:16:52] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/ef/68/2c34f1719a12321c44beee3f811b8ecd5d2545e17846304f3da1f72ccbe3/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-12 06:16:52] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/9c/d0/32a9749d08e67482315da346634a145ddb1c2a69281d4f79b6e14a384131/wcfhttp-37.1.25.5.tar.gz
+[2023-07-12 06:16:52] INFO root fetch - processPackages [pmccc]: Downloading https://files.pythonhosted.org/packages/41/af/d7b95cac330e212f04688c1314ef566c13612198a30d49213a91a4f9f167/pmccc-0.1-py3-none-any.whl
+[2023-07-12 06:16:52] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-12 06:16:52] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/bb/d2/041a7b9736ccae1e0601d38db7198b3b1e5a5f3f8f9b5e0948e89ee397a6/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-12 06:16:52] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: executing diffoscope
+[2023-07-12 06:16:52] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230712/o/odoo-addon-mrp-production-quant-manual-assign/16.0.1.0.0.5-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-07-12 06:16:52] INFO root fetch - processPackages [pmccc]: Downloading https://files.pythonhosted.org/packages/8a/48/71b2a4de37c9413c05182a080c564452036b0b47c0259dfb803b4aca4a59/pmccc-0.1.1-py3-none-any.whl
+[2023-07-12 06:16:52] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/51/88/aead2e6bfc515fa7d069ceb1b1d3b71d1adf788663714fd99fa9d745267b/wcfhttp-39.0.0.0a0.tar.gz
+[2023-07-12 06:16:52] INFO root fetch - processPackages [pmccc]: executing diffoscope
+[2023-07-12 06:16:52] INFO root fetch - processPackages [pmccc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmccc-0.1-py3-none-any.whl.zip tmp/pmccc-0.1.1-py3-none-any.whl.zip --markdown 20230712/p/pmccc/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-12 06:16:52] INFO root fetch - processPackages [wcfhttp]: executing diffoscope
+[2023-07-12 06:16:52] INFO root fetch - processPackages [wcfhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcfhttp-37.1.25.5.tar.gz tmp/wcfhttp-39.0.0.0a0.tar.gz --markdown 20230712/w/wcfhttp/37.1.25.5-39.0.0.0a0/diff.md --exclude *.pyd
+[2023-07-12 06:16:53] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-12 06:16:53] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-12 06:16:53] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230712/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-12 06:16:53] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-12 06:16:53] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-12 06:16:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-production-quant-manual-assign]: success
+[2023-07-12 06:16:53] INFO root fetch - processPackages [pmccc]: Remove: archive file [/home/abi/fetcher/tmp/pmccc-0.1-py3-none-any.whl.zip]
+[2023-07-12 06:16:53] INFO root fetch - processPackages [pmccc]: Remove: archive file [/home/abi/fetcher/tmp/pmccc-0.1.1-py3-none-any.whl.zip]
+[2023-07-12 06:16:53] INFO root fetch - main [MainThread]: End processing [pmccc]: success
+[2023-07-12 06:16:53] INFO root fetch - processPackages [wcfhttp]: Remove: archive file [/home/abi/fetcher/tmp/wcfhttp-37.1.25.5.tar.gz]
+[2023-07-12 06:16:53] INFO root fetch - processPackages [wcfhttp]: Remove: archive file [/home/abi/fetcher/tmp/wcfhttp-39.0.0.0a0.tar.gz]
+[2023-07-12 06:16:53] INFO root fetch - main [MainThread]: End processing [wcfhttp]: success
+[2023-07-12 06:16:57] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-12 06:16:57] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-12 06:16:57] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-12 06:16:57] INFO root fetch - main [MainThread]: Store serial: [18855576]
