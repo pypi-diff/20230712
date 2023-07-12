@@ -10533,3 +10533,63 @@
 [2023-07-12 04:53:24] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
 [2023-07-12 04:53:24] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
 [2023-07-12 04:53:24] INFO root fetch - main [MainThread]: Store serial: [18855010]
+[2023-07-12 04:58:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18855010]
+[2023-07-12 04:58:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-12 04:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arm-segmentation
+[2023-07-12 04:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-dms-enterprise
+[2023-07-12 04:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-dingtalk
+[2023-07-12 04:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-das
+[2023-07-12 04:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huhk
+[2023-07-12 04:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub
+[2023-07-12 04:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: acryl-datahub-airflow-plugin
+[2023-07-12 04:58:34] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-12 04:58:34] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.23] Old Version: [2.0.22]
+[2023-07-12 04:58:34] WARNING root fetch - processPackages [arm-segmentation]: Skipping, unable to determine old version
+[2023-07-12 04:58:34] INFO root fetch - processPackages [huhk]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-12 04:58:34] INFO root fetch - main [MainThread]: End processing [arm-segmentation] error
+[2023-07-12 04:58:34] INFO root fetch - processPackages [antchain-das]: New version: [1.1.6] Old Version: [1.1.58]
+[2023-07-12 04:58:34] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-12 04:58:34] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/dc/47/a4ec16747420ab6b8878509484d80e096fd72ff349956b58fe003c2f4549/huhk-1.6.1.tar.gz
+[2023-07-12 04:58:34] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-07-12 04:58:34] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/e9/0e/cc33345f33fd2060514b36001a119546260044795ae49fdf813af3054969/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz
+[2023-07-12 04:58:34] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/00/9d/c0d9340ba509310d7e3d9c1931afc3c561ca7e2913f469ee7f6f7ebf418f/antchain_das-1.1.58.tar.gz
+[2023-07-12 04:58:34] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/b7/92/ce1a6770ad92d488b7a860e35fa03891d51abb561b1289387e40d6cad415/alibabacloud_dingtalk-2.0.22.tar.gz
+[2023-07-12 04:58:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-12 04:58:34] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/03/f4/1f952e12e964abe29313d9437d8acfe7610a263b57f372ae21b8ce63fe08/antchain_das-1.1.6.tar.gz
+[2023-07-12 04:58:34] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/87/f5/f42551493e81353eb484edf5844ba9bb855dfbbb8e7a5891e5b9a6cab090/huhk-1.6.2.tar.gz
+[2023-07-12 04:58:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-07-12 04:58:34] INFO root fetch - processPackages [antchain-das]: executing diffoscope
+[2023-07-12 04:58:34] INFO root fetch - processPackages [antchain-das]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_das-1.1.58.tar.gz tmp/antchain_das-1.1.6.tar.gz --markdown 20230712/a/antchain-das/1.1.58-1.1.6/diff.md --exclude *.pyd
+[2023-07-12 04:58:34] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-07-12 04:58:34] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-12 04:58:34] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.6.1.tar.gz tmp/huhk-1.6.2.tar.gz --markdown 20230712/h/huhk/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-12 04:58:34] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-07-12 04:58:34] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230712/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-12 04:58:34] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/ee/83/9166cd2e6d8f29eabae9341c4f2b8e191c318c5612ec42d38b6e845609d2/alibabacloud_dingtalk-2.0.23.tar.gz
+[2023-07-12 04:58:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-07-12 04:58:34] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2023-07-12 04:58:34] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.22.tar.gz tmp/alibabacloud_dingtalk-2.0.23.tar.gz --markdown 20230712/a/alibabacloud-dingtalk/2.0.22-2.0.23/diff.md --exclude *.pyd
+[2023-07-12 04:58:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-07-12 04:58:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230712/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-12 04:58:35] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/c8/92/69c136282903fc0309554d335276dc109c35317870d7a85e4e7ad0799ae9/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz
+[2023-07-12 04:58:35] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: executing diffoscope
+[2023-07-12 04:58:35] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz --markdown 20230712/a/aliyun-python-sdk-dms-enterprise/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-12 04:58:35] INFO root fetch - processPackages [antchain-das]: Remove: archive file [/home/abi/fetcher/tmp/antchain_das-1.1.58.tar.gz]
+[2023-07-12 04:58:35] INFO root fetch - processPackages [antchain-das]: Remove: archive file [/home/abi/fetcher/tmp/antchain_das-1.1.6.tar.gz]
+[2023-07-12 04:58:35] INFO root fetch - main [MainThread]: End processing [antchain-das]: success
+[2023-07-12 04:58:35] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.1.tar.gz]
+[2023-07-12 04:58:35] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.6.2.tar.gz]
+[2023-07-12 04:58:35] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-12 04:58:35] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-07-12 04:58:35] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-07-12 04:58:35] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-07-12 04:58:36] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz]
+[2023-07-12 04:58:36] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz]
+[2023-07-12 04:58:36] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dms-enterprise]: success
+[2023-07-12 04:58:38] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-07-12 04:58:38] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-07-12 04:58:38] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-07-12 04:58:38] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.22.tar.gz]
+[2023-07-12 04:58:38] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.23.tar.gz]
+[2023-07-12 04:58:38] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2023-07-12 04:58:38] INFO root fetch - main [MainThread]: Store serial: [18855031]
