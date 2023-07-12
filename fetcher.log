@@ -12982,3 +12982,47 @@
 [2023-07-12 08:01:37] INFO root fetch - processPackages [cypher-ai-helper]: Remove: archive file [/home/abi/fetcher/tmp/cypher_ai_helper-0.1.5.tar.gz]
 [2023-07-12 08:01:37] INFO root fetch - main [MainThread]: End processing [cypher-ai-helper]: success
 [2023-07-12 08:01:37] INFO root fetch - main [MainThread]: Store serial: [18856249]
+[2023-07-12 08:06:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18856249]
+[2023-07-12 08:06:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-12 08:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragraph
+[2023-07-12 08:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whatap-python
+[2023-07-12 08:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiosql
+[2023-07-12 08:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hickleable
+[2023-07-12 08:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: poe-terminal-chat
+[2023-07-12 08:06:47] INFO root fetch - processPackages [hickleable]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-12 08:06:47] INFO root fetch - processPackages [aiosql]: New version: [9.0] Old Version: [8.0]
+[2023-07-12 08:06:47] INFO root fetch - processPackages [poe-terminal-chat]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-12 08:06:47] INFO root fetch - processPackages [ragraph]: New version: [1.19.1] Old Version: [1.19.0]
+[2023-07-12 08:06:47] INFO root fetch - processPackages [whatap-python]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-12 08:06:48] INFO root fetch - processPackages [hickleable]: Downloading https://files.pythonhosted.org/packages/c0/39/b65b2991b1610d8907e984f7d791b59c471f84d9e7fb0070395706993802/hickleable-0.2.2.tar.gz
+[2023-07-12 08:06:48] INFO root fetch - processPackages [aiosql]: Downloading https://files.pythonhosted.org/packages/2f/a7/28b1996d40842683f161d81464c44aaa127d8ef4d6a7b075c297c81afc4f/aiosql-8.0.tar.gz
+[2023-07-12 08:06:48] INFO root fetch - processPackages [poe-terminal-chat]: Downloading https://files.pythonhosted.org/packages/10/00/c894693f000d0f38a825d810008c553956a1a3463c81ebfe5a7c7fd48339/poe_terminal_chat-0.0.6.tar.gz
+[2023-07-12 08:06:48] INFO root fetch - processPackages [ragraph]: Downloading https://files.pythonhosted.org/packages/25/ea/59a554333bb2e9f5802970a48eb393f560b33d40f50a3004ed94811c34e8/ragraph-1.19.0.tar.gz
+[2023-07-12 08:06:48] INFO root fetch - processPackages [whatap-python]: Downloading https://files.pythonhosted.org/packages/fa/d7/15a88fe07d1a82799b9f38a2413aa6c98d0165fd7e8c9eb3c182da24218e/whatap-python-1.4.1.tar.gz
+[2023-07-12 08:06:48] WARNING root fetch - processPackages [whatap-python]: Skipping package: exceeds size limit 24080450>=10485760
+[2023-07-12 08:06:48] INFO root fetch - main [MainThread]: End processing [whatap-python] error
+[2023-07-12 08:06:48] INFO root fetch - processPackages [poe-terminal-chat]: Downloading https://files.pythonhosted.org/packages/4d/b4/495c6d1770291550a47b8ef78d6466e6e311de2dd8b57944cd43734f23e7/poe_terminal_chat-0.0.7.tar.gz
+[2023-07-12 08:06:48] INFO root fetch - processPackages [aiosql]: Downloading https://files.pythonhosted.org/packages/02/a9/79883a5b7a3a3d2203d47b598fc7a1f25fe983f424aae78f9ccf77599737/aiosql-9.0.tar.gz
+[2023-07-12 08:06:48] INFO root fetch - processPackages [hickleable]: Downloading https://files.pythonhosted.org/packages/5f/94/f9b479b98bc9adcf53e2d19777692374ea112ae02419ff50bdfd1fc3ae2d/hickleable-0.2.3.tar.gz
+[2023-07-12 08:06:48] INFO root fetch - processPackages [ragraph]: Downloading https://files.pythonhosted.org/packages/0a/30/1469bbc5d02f8cd2c26c3cf3899bac2e4781e992129402ddaee669a16c23/ragraph-1.19.1.tar.gz
+[2023-07-12 08:06:48] INFO root fetch - processPackages [hickleable]: executing diffoscope
+[2023-07-12 08:06:48] INFO root fetch - processPackages [hickleable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hickleable-0.2.2.tar.gz tmp/hickleable-0.2.3.tar.gz --markdown 20230712/h/hickleable/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-12 08:06:48] INFO root fetch - processPackages [aiosql]: executing diffoscope
+[2023-07-12 08:06:48] INFO root fetch - processPackages [aiosql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosql-8.0.tar.gz tmp/aiosql-9.0.tar.gz --markdown 20230712/a/aiosql/8.0-9.0/diff.md --exclude *.pyd
+[2023-07-12 08:06:48] INFO root fetch - processPackages [ragraph]: executing diffoscope
+[2023-07-12 08:06:48] INFO root fetch - processPackages [ragraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragraph-1.19.0.tar.gz tmp/ragraph-1.19.1.tar.gz --markdown 20230712/r/ragraph/1.19.0-1.19.1/diff.md --exclude *.pyd
+[2023-07-12 08:06:48] INFO root fetch - processPackages [poe-terminal-chat]: executing diffoscope
+[2023-07-12 08:06:48] INFO root fetch - processPackages [poe-terminal-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_terminal_chat-0.0.6.tar.gz tmp/poe_terminal_chat-0.0.7.tar.gz --markdown 20230712/p/poe-terminal-chat/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-12 08:06:49] INFO root fetch - processPackages [aiosql]: Remove: archive file [/home/abi/fetcher/tmp/aiosql-8.0.tar.gz]
+[2023-07-12 08:06:49] INFO root fetch - processPackages [aiosql]: Remove: archive file [/home/abi/fetcher/tmp/aiosql-9.0.tar.gz]
+[2023-07-12 08:06:49] INFO root fetch - main [MainThread]: End processing [aiosql]: success
+[2023-07-12 08:06:49] INFO root fetch - processPackages [poe-terminal-chat]: Remove: archive file [/home/abi/fetcher/tmp/poe_terminal_chat-0.0.6.tar.gz]
+[2023-07-12 08:06:49] INFO root fetch - processPackages [poe-terminal-chat]: Remove: archive file [/home/abi/fetcher/tmp/poe_terminal_chat-0.0.7.tar.gz]
+[2023-07-12 08:06:49] INFO root fetch - main [MainThread]: End processing [poe-terminal-chat]: success
+[2023-07-12 08:06:49] INFO root fetch - processPackages [hickleable]: Remove: archive file [/home/abi/fetcher/tmp/hickleable-0.2.2.tar.gz]
+[2023-07-12 08:06:49] INFO root fetch - processPackages [hickleable]: Remove: archive file [/home/abi/fetcher/tmp/hickleable-0.2.3.tar.gz]
+[2023-07-12 08:06:49] INFO root fetch - main [MainThread]: End processing [hickleable]: success
+[2023-07-12 08:06:50] INFO root fetch - processPackages [ragraph]: Remove: archive file [/home/abi/fetcher/tmp/ragraph-1.19.0.tar.gz]
+[2023-07-12 08:06:50] INFO root fetch - processPackages [ragraph]: Remove: archive file [/home/abi/fetcher/tmp/ragraph-1.19.1.tar.gz]
+[2023-07-12 08:06:50] INFO root fetch - main [MainThread]: End processing [ragraph]: success
+[2023-07-12 08:06:50] INFO root fetch - main [MainThread]: Store serial: [18856293]
