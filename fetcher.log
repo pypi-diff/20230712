@@ -17203,3 +17203,130 @@
 [2023-07-12 11:19:59] INFO root fetch - processPackages [cercis]: Remove: archive file [/home/abi/fetcher/tmp/cercis-0.2.0.tar.gz]
 [2023-07-12 11:19:59] INFO root fetch - main [MainThread]: End processing [cercis]: success
 [2023-07-12 11:19:59] INFO root fetch - main [MainThread]: Store serial: [18858021]
+[2023-07-12 11:25:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18858021]
+[2023-07-12 11:25:10] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-12 11:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-iris
+[2023-07-12 11:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuNet
+[2023-07-12 11:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: collective.eeafaceted.batchactions
+[2023-07-12 11:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fusionprov
+[2023-07-12 11:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: model-tracker-framework
+[2023-07-12 11:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imio.helpers
+[2023-07-12 11:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: click-schema-config
+[2023-07-12 11:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-07-12 11:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-07-12 11:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SempCode
+[2023-07-12 11:25:10] INFO root fetch - processPackages [sqlalchemy-iris]: New version: [0.9.0] Old Version: [0.8.1b1]
+[2023-07-12 11:25:10] INFO root fetch - processPackages [SempCode]: New version: [0.5.5] Old Version: [0.5.2.13]
+[2023-07-12 11:25:10] INFO root fetch - processPackages [model-tracker-framework]: New version: [2.0.0] Old Version: [1.2.1]
+[2023-07-12 11:25:10] INFO root fetch - processPackages [fusionprov]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-07-12 11:25:10] INFO root fetch - processPackages [click-schema-config]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-12 11:25:10] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: New version: [1.9] Old Version: [1.8]
+[2023-07-12 11:25:10] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-12 11:25:10] INFO root fetch - processPackages [imio.helpers]: New version: [0.9] Old Version: [0.8]
+[2023-07-12 11:25:11] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-12 11:25:11] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-12 11:25:11] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/15/8d/b384ea6bb812705d0902f3fdc7b587788309bbac2105d41e1fce25c7b7a8/sqlalchemy-iris-0.8.1b1.tar.gz
+[2023-07-12 11:25:11] INFO root fetch - processPackages [SempCode]: Downloading https://files.pythonhosted.org/packages/22/f0/46d111627d9190d6118f7f0204bca964f1bb75db5eebd0a4e8d5256a4371/SempCode-0.5.2.13-py3-none-any.whl
+[2023-07-12 11:25:11] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-12 11:25:11] INFO root fetch - processPackages [model-tracker-framework]: Downloading https://files.pythonhosted.org/packages/07/33/1b6a958ec1b2c1df4147b11a11ce9687878a0aa02170fb061f8d82571f62/model_tracker_framework-1.2.1.tar.gz
+[2023-07-12 11:25:11] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: Downloading https://files.pythonhosted.org/packages/39/5a/ce701794c8195a6b3f663625ebe3583f5e9fb32de31b6097f3ac6434ca2d/collective.eeafaceted.batchactions-1.8.tar.gz
+[2023-07-12 11:25:11] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-12 11:25:11] INFO root fetch - processPackages [fusionprov]: Downloading https://files.pythonhosted.org/packages/ff/69/1fcf1a21ce6adba6a0b329c9afb58a85fcd3e2c930e798dfcbe8286a6ac6/fusionprov-1.2.2-py3-none-any.whl
+[2023-07-12 11:25:11] INFO root fetch - processPackages [click-schema-config]: Downloading https://files.pythonhosted.org/packages/bf/d1/874acf01762b0e5c17c415da988133cf2529137949864b0583ba9d93acb0/click_schema_config-0.1.5.tar.gz
+[2023-07-12 11:25:11] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-12 11:25:11] INFO root fetch - processPackages [imio.helpers]: Downloading https://files.pythonhosted.org/packages/c2/bb/5e5b2b7179ba4e1a44769569d220c67dedf6040a24a5f6f7a2ce70736f69/imio.helpers-0.8.tar.gz
+[2023-07-12 11:25:11] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-12 11:25:11] INFO root fetch - processPackages [SempCode]: Downloading https://files.pythonhosted.org/packages/9a/2c/270a5426b7b8e83a5c04cd32f988bf3dc674198f5831217c7cb59f5d97dc/SempCode-0.5.5-py3-none-any.whl
+[2023-07-12 11:25:11] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-12 11:25:11] INFO root fetch - processPackages [model-tracker-framework]: Downloading https://files.pythonhosted.org/packages/5a/17/3be9f8966d8dd6399ff8faf70bce3da884a818ed7a0aed02d8af7e43c661/model_tracker_framework-2.0.0.tar.gz
+[2023-07-12 11:25:11] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-12 11:25:11] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230712/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-12 11:25:11] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/6d/9b/a8d3294808ea8adf3ed7da5d7d8827d629329b0f250208c0c765f13df6cc/sqlalchemy-iris-0.9.0.tar.gz
+[2023-07-12 11:25:11] INFO root fetch - processPackages [fusionprov]: Downloading https://files.pythonhosted.org/packages/b8/4f/6a850c2174f980691fd56957bdb39cce764070894cc81d0f5dc4718df88b/fusionprov-1.3.0-py3-none-any.whl
+[2023-07-12 11:25:11] INFO root fetch - processPackages [SempCode]: executing diffoscope
+[2023-07-12 11:25:11] INFO root fetch - processPackages [SempCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SempCode-0.5.2.13-py3-none-any.whl.zip tmp/SempCode-0.5.5-py3-none-any.whl.zip --markdown 20230712/S/SempCode/0.5.2.13-0.5.5/diff.md --exclude *.pyd
+[2023-07-12 11:25:11] INFO root fetch - processPackages [click-schema-config]: Downloading https://files.pythonhosted.org/packages/56/32/f3140801c6b5fb3f6c4d1df3bdb02c0a9f00e4fcaf4404c6dc2e4c92e838/click_schema_config-0.2.0.tar.gz
+[2023-07-12 11:25:11] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-12 11:25:11] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230712/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-12 11:25:11] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-12 11:25:12] INFO root fetch - processPackages [fusionprov]: executing diffoscope
+[2023-07-12 11:25:12] INFO root fetch - processPackages [fusionprov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusionprov-1.2.2-py3-none-any.whl.zip tmp/fusionprov-1.3.0-py3-none-any.whl.zip --markdown 20230712/f/fusionprov/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-07-12 11:25:12] INFO root fetch - processPackages [click-schema-config]: executing diffoscope
+[2023-07-12 11:25:12] INFO root fetch - processPackages [click-schema-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_schema_config-0.1.5.tar.gz tmp/click_schema_config-0.2.0.tar.gz --markdown 20230712/c/click-schema-config/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-12 11:25:12] INFO root fetch - processPackages [imio.helpers]: Downloading https://files.pythonhosted.org/packages/fb/60/e683504d6c5a9c5abdcda6b00cac0911f64f7aaf2b1dbafca097d38d5c94/imio.helpers-0.9.tar.gz
+[2023-07-12 11:25:12] INFO root fetch - processPackages [model-tracker-framework]: executing diffoscope
+[2023-07-12 11:25:12] INFO root fetch - processPackages [model-tracker-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_tracker_framework-1.2.1.tar.gz tmp/model_tracker_framework-2.0.0.tar.gz --markdown 20230712/m/model-tracker-framework/1.2.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-12 11:25:12] INFO root fetch - processPackages [sqlalchemy-iris]: executing diffoscope
+[2023-07-12 11:25:12] INFO root fetch - processPackages [sqlalchemy-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-iris-0.8.1b1.tar.gz tmp/sqlalchemy-iris-0.9.0.tar.gz --markdown 20230712/s/sqlalchemy-iris/0.8.1b1-0.9.0/diff.md --exclude *.pyd
+[2023-07-12 11:25:12] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-12 11:25:12] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230712/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-12 11:25:12] INFO root fetch - processPackages [imio.helpers]: executing diffoscope
+[2023-07-12 11:25:12] INFO root fetch - processPackages [imio.helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.helpers-0.8.tar.gz tmp/imio.helpers-0.9.tar.gz --markdown 20230712/i/imio.helpers/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-12 11:25:12] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: Downloading https://files.pythonhosted.org/packages/89/26/25069712384110fa5912ddbc8e6b0d1a3666b599b985e2a8b2487a9c547a/collective.eeafaceted.batchactions-1.9.tar.gz
+[2023-07-12 11:25:12] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: executing diffoscope
+[2023-07-12 11:25:12] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.eeafaceted.batchactions-1.8.tar.gz tmp/collective.eeafaceted.batchactions-1.9.tar.gz --markdown 20230712/c/collective.eeafaceted.batchactions/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-12 11:25:13] INFO root fetch - processPackages [SempCode]: Remove: archive file [/home/abi/fetcher/tmp/SempCode-0.5.2.13-py3-none-any.whl.zip]
+[2023-07-12 11:25:13] INFO root fetch - processPackages [SempCode]: Remove: archive file [/home/abi/fetcher/tmp/SempCode-0.5.5-py3-none-any.whl.zip]
+[2023-07-12 11:25:13] INFO root fetch - processPackages [SempCode]: Start processing: sydeploy
+[2023-07-12 11:25:13] INFO root fetch - main [MainThread]: End processing [SempCode]: success
+[2023-07-12 11:25:13] INFO root fetch - processPackages [sydeploy]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-12 11:25:13] INFO root fetch - processPackages [fusionprov]: Remove: archive file [/home/abi/fetcher/tmp/fusionprov-1.2.2-py3-none-any.whl.zip]
+[2023-07-12 11:25:13] INFO root fetch - processPackages [fusionprov]: Remove: archive file [/home/abi/fetcher/tmp/fusionprov-1.3.0-py3-none-any.whl.zip]
+[2023-07-12 11:25:13] INFO root fetch - processPackages [fusionprov]: Start processing: proteus-preprocessing
+[2023-07-12 11:25:13] INFO root fetch - main [MainThread]: End processing [fusionprov]: success
+[2023-07-12 11:25:13] INFO root fetch - processPackages [proteus-preprocessing]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-12 11:25:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-12 11:25:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-12 11:25:14] INFO root fetch - processPackages [spanishconjugator]: Start processing: capeditor
+[2023-07-12 11:25:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-12 11:25:14] INFO root fetch - processPackages [capeditor]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-12 11:25:14] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/f1/9e/79673dddb6e9d3057784823def2547b5947ae8f2c207a12b031bc55b25dd/sydeploy-0.3.7-py3-none-any.whl
+[2023-07-12 11:25:14] INFO root fetch - processPackages [click-schema-config]: Remove: archive file [/home/abi/fetcher/tmp/click_schema_config-0.1.5.tar.gz]
+[2023-07-12 11:25:14] INFO root fetch - processPackages [click-schema-config]: Remove: archive file [/home/abi/fetcher/tmp/click_schema_config-0.2.0.tar.gz]
+[2023-07-12 11:25:14] INFO root fetch - processPackages [click-schema-config]: Start processing: cashocs
+[2023-07-12 11:25:14] INFO root fetch - main [MainThread]: End processing [click-schema-config]: success
+[2023-07-12 11:25:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-12 11:25:14] INFO root fetch - processPackages [cashocs]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-12 11:25:14] INFO root fetch - processPackages [proteus-preprocessing]: Downloading https://files.pythonhosted.org/packages/24/5f/ab41e9ab9904e70ba827a96b195e6b80fbdb9640c9a977d517006642d982/proteus_preprocessing-0.3.0.tar.gz
+[2023-07-12 11:25:14] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/f1/07/3ec906698a22c613693b5467bbc025419debb12616db032516e51e785328/capeditor-0.2.2.tar.gz
+[2023-07-12 11:25:14] INFO root fetch - processPackages [model-tracker-framework]: Remove: archive file [/home/abi/fetcher/tmp/model_tracker_framework-1.2.1.tar.gz]
+[2023-07-12 11:25:14] INFO root fetch - processPackages [model-tracker-framework]: Remove: archive file [/home/abi/fetcher/tmp/model_tracker_framework-2.0.0.tar.gz]
+[2023-07-12 11:25:14] INFO root fetch - main [MainThread]: End processing [model-tracker-framework]: success
+[2023-07-12 11:25:14] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-12 11:25:14] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-12 11:25:14] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-12 11:25:14] INFO root fetch - processPackages [sydeploy]: Downloading https://files.pythonhosted.org/packages/ce/4f/ba7205173a2d85b0a65d4263f9edef8a74dc316e5b76270d7ea410bfc9f3/sydeploy-0.3.8-py3-none-any.whl
+[2023-07-12 11:25:14] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.8.1b1.tar.gz]
+[2023-07-12 11:25:14] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.9.0.tar.gz]
+[2023-07-12 11:25:14] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
+[2023-07-12 11:25:14] INFO root fetch - processPackages [cashocs]: Downloading https://files.pythonhosted.org/packages/ee/ec/7ac2f20088e9a8e68646e78f01555885fcf96b5fc5a69be5caf9c126885e/cashocs-2.0.8.tar.gz
+[2023-07-12 11:25:14] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: Remove: archive file [/home/abi/fetcher/tmp/collective.eeafaceted.batchactions-1.8.tar.gz]
+[2023-07-12 11:25:14] INFO root fetch - processPackages [collective.eeafaceted.batchactions]: Remove: archive file [/home/abi/fetcher/tmp/collective.eeafaceted.batchactions-1.9.tar.gz]
+[2023-07-12 11:25:14] INFO root fetch - main [MainThread]: End processing [collective.eeafaceted.batchactions]: success
+[2023-07-12 11:25:14] INFO root fetch - processPackages [sydeploy]: executing diffoscope
+[2023-07-12 11:25:14] INFO root fetch - processPackages [sydeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydeploy-0.3.7-py3-none-any.whl.zip tmp/sydeploy-0.3.8-py3-none-any.whl.zip --markdown 20230712/s/sydeploy/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-12 11:25:14] INFO root fetch - processPackages [proteus-preprocessing]: Downloading https://files.pythonhosted.org/packages/8d/79/16ff52bb699c60ba41b9b7262409029cd00c6d4a0fe99a5e881934a9caec/proteus_preprocessing-0.4.0.tar.gz
+[2023-07-12 11:25:14] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/62/3b/d3bd68a242b99a07532039c73ecfaf29407732b02a33031589dfefbbf1b1/capeditor-0.2.3.tar.gz
+[2023-07-12 11:25:14] INFO root fetch - processPackages [imio.helpers]: Remove: archive file [/home/abi/fetcher/tmp/imio.helpers-0.8.tar.gz]
+[2023-07-12 11:25:14] INFO root fetch - processPackages [imio.helpers]: Remove: archive file [/home/abi/fetcher/tmp/imio.helpers-0.9.tar.gz]
+[2023-07-12 11:25:14] INFO root fetch - main [MainThread]: End processing [imio.helpers]: success
+[2023-07-12 11:25:14] INFO root fetch - processPackages [proteus-preprocessing]: executing diffoscope
+[2023-07-12 11:25:14] INFO root fetch - processPackages [proteus-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_preprocessing-0.3.0.tar.gz tmp/proteus_preprocessing-0.4.0.tar.gz --markdown 20230712/p/proteus-preprocessing/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-12 11:25:14] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2023-07-12 11:25:14] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.2.2.tar.gz tmp/capeditor-0.2.3.tar.gz --markdown 20230712/c/capeditor/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-12 11:25:14] INFO root fetch - processPackages [cashocs]: Downloading https://files.pythonhosted.org/packages/42/4c/b579f392e015aa468d37b4208153fbc78aab274298f328a448220f315975/cashocs-2.0.9.tar.gz
+[2023-07-12 11:25:15] INFO root fetch - processPackages [cashocs]: executing diffoscope
+[2023-07-12 11:25:15] INFO root fetch - processPackages [cashocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230712:/home/abi/fetcher/20230712:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashocs-2.0.8.tar.gz tmp/cashocs-2.0.9.tar.gz --markdown 20230712/c/cashocs/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-12 11:25:15] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.3.7-py3-none-any.whl.zip]
+[2023-07-12 11:25:15] INFO root fetch - processPackages [sydeploy]: Remove: archive file [/home/abi/fetcher/tmp/sydeploy-0.3.8-py3-none-any.whl.zip]
+[2023-07-12 11:25:15] INFO root fetch - main [MainThread]: End processing [sydeploy]: success
+[2023-07-12 11:25:15] INFO root fetch - processPackages [proteus-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/proteus_preprocessing-0.3.0.tar.gz]
+[2023-07-12 11:25:15] INFO root fetch - processPackages [proteus-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/proteus_preprocessing-0.4.0.tar.gz]
+[2023-07-12 11:25:15] INFO root fetch - main [MainThread]: End processing [proteus-preprocessing]: success
+[2023-07-12 11:25:15] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.2.2.tar.gz]
+[2023-07-12 11:25:15] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.2.3.tar.gz]
+[2023-07-12 11:25:15] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2023-07-12 11:25:16] INFO root fetch - processPackages [cashocs]: Remove: archive file [/home/abi/fetcher/tmp/cashocs-2.0.8.tar.gz]
+[2023-07-12 11:25:16] INFO root fetch - processPackages [cashocs]: Remove: archive file [/home/abi/fetcher/tmp/cashocs-2.0.9.tar.gz]
+[2023-07-12 11:25:16] INFO root fetch - main [MainThread]: End processing [cashocs]: success
+[2023-07-12 11:25:16] INFO root fetch - main [MainThread]: Store serial: [18858057]
